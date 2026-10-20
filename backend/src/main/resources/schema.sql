@@ -1,7 +1,6 @@
 -- CertiFind database schema
 -- PostgreSQL 16 + pgvector
--- Run automatically by Spring Boot (spring.sql.init.mode=always)
--- and on first Docker container start via docker-entrypoint-initdb.d
+-- Mounted as the single schema source on first Docker container start.
 
 CREATE EXTENSION IF NOT EXISTS vector;
 
@@ -33,6 +32,9 @@ CREATE TABLE IF NOT EXISTS ateco_ea_mapping (
     ea_description  VARCHAR(255) NOT NULL
 );
 
+ALTER TABLE ateco_ea_mapping
+    ADD CONSTRAINT uq_ateco_ea_mapping_code UNIQUE (ateco_code);
+
 COMMENT ON COLUMN ateco_ea_mapping.ateco_code IS 'Italian ATECO code, e.g. 88.91.00.';
 COMMENT ON COLUMN ateco_ea_mapping.ea_code    IS 'Numeric EA sector code, e.g. 37 (Education).';
 
@@ -54,6 +56,10 @@ CREATE TABLE IF NOT EXISTS certification_bodies (
     address               TEXT
 );
 
+ALTER TABLE certification_bodies
+    ADD CONSTRAINT uq_certification_body_name_accreditor
+    UNIQUE (name, accreditation_body_id);
+
 ALTER TABLE certification_bodies DROP COLUMN IF EXISTS custom_daily_rate_eur;
 
 COMMENT ON COLUMN certification_bodies.is_commercial_partner IS 'TRUE when this CB has a commercial agreement with CertiFind.';
@@ -69,8 +75,11 @@ CREATE TABLE IF NOT EXISTS accredited_scopes (
     certification_body_id INT         NOT NULL REFERENCES certification_bodies (id) ON DELETE CASCADE,
     iso_standard          VARCHAR(50) NOT NULL,
     ea_code               INTEGER     NOT NULL,
-    status                VARCHAR(20) NOT NULL DEFAULT 'ACTIVE',
-    proof_url             TEXT
+    scope_section          TEXT,
+    status                 VARCHAR(20) NOT NULL DEFAULT 'ACTIVE',
+    proof_url              TEXT,
+    CONSTRAINT uq_accredited_scope
+        UNIQUE (certification_body_id, iso_standard, ea_code)
 );
 
 COMMENT ON COLUMN accredited_scopes.iso_standard IS 'ISO standard covered, e.g. ISO 9001, ISO 14001.';

@@ -29,14 +29,24 @@ public class SearchService {
 
     @Transactional(readOnly = true)
     public SearchResponse search(SearchRequest request) {
+        if (request == null) {
+            throw new IllegalArgumentException("Search criteria are required.");
+        }
+
+        String atecoCode = normalize(request.atecoCode());
+        String sectorActivity = normalize(request.sectorActivity());
+        if (atecoCode == null && sectorActivity == null) {
+            throw new IllegalArgumentException("Enter an ATECO code or sector activity.");
+        }
+
         Optional<AtecoEaMapping> mapping = Optional.empty();
 
-        if (request.atecoCode() != null && !request.atecoCode().isBlank()) {
-            mapping = atecoEaMappingRepository.findByAtecoCode(request.atecoCode().trim());
+        if (atecoCode != null) {
+            mapping = atecoEaMappingRepository.findByAtecoCode(atecoCode);
         }
-        if (mapping.isEmpty() && request.sectorActivity() != null && !request.sectorActivity().isBlank()) {
+        if (mapping.isEmpty() && sectorActivity != null) {
             mapping = atecoEaMappingRepository
-                    .findFirstByDescriptionContainingIgnoreCase(request.sectorActivity().trim());
+                    .findFirstByDescriptionContainingIgnoreCase(sectorActivity);
         }
 
         AtecoEaMapping resolvedMapping = mapping.orElseThrow(() -> new IllegalArgumentException(
@@ -45,8 +55,8 @@ public class SearchService {
         int resolvedEaCode = resolvedMapping.getEaCode();
         String resolvedEaDesc = resolvedMapping.getEaDescription();
 
-        String iso = (request.isoStandard() != null && !request.isoStandard().isBlank())
-                ? request.isoStandard().trim()
+        String iso = (normalize(request.isoStandard()) != null)
+                ? normalize(request.isoStandard())
                 : "ISO 9001";
 
         List<AccreditedScope> scopes = accreditedScopeRepository.findActiveScopesWithCabAndAb(iso, resolvedEaCode);
@@ -74,5 +84,12 @@ public class SearchService {
                 .toList();
 
         return new SearchResponse(resolvedAteco, resolvedEaCode, resolvedEaDesc, cards.size(), cards);
+    }
+
+    private String normalize(String value) {
+        if (value == null || value.isBlank()) {
+            return null;
+        }
+        return value.trim();
     }
 }

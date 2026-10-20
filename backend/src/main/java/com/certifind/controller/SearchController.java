@@ -10,7 +10,6 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1")
-@CrossOrigin(origins = "http://localhost:3000")
 public class SearchController {
 
     private final SearchService searchService;
@@ -26,10 +25,6 @@ public class SearchController {
 
     @PostMapping("/search")
     public ResponseEntity<SearchResponse> search(@RequestBody SearchRequest request) {
-        try {
-            return ResponseEntity.ok(searchService.search(request));
-        } catch (IllegalArgumentException exception) {
-            return ResponseEntity.badRequest().build();
-        }
+        return ResponseEntity.ok(searchService.search(request));
     }
 }

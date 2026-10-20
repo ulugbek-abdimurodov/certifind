@@ -1,6 +1,6 @@
 # CertiFind
 
-CertiFind helps Italian businesses find certification bodies with relevant accredited scopes. The current demo uses a static seed dataset and a Spring Boot API; it does not scrape accreditation directories and does not show estimated prices.
+CertiFind helps Italian businesses find certification bodies with relevant accredited scopes. The Spring Boot API reads all searchable organizations, scopes, accreditation authorities, and ATECO mappings from one PostgreSQL database. It does not scrape accreditation directories and does not show estimated prices.
 
 ## Day 3 demo
 
@@ -54,6 +54,6 @@ The response includes the resolved ATECO/EA sector and matching bodies with accr
 
 ## Data notes
 
-`backend/src/main/resources/data/seed_cabs.json` contains the static demo dataset. Contact and accreditation details are demo data and should be confirmed against current official records before being represented as independently verified. The interface links the scope source supplied with each seed record and includes that caveat.
+`init-db/02-seed.sql` and `init-db/03-expanded-seed.sql` provide the demo data loaded into PostgreSQL. The backend schema at `backend/src/main/resources/schema.sql` is mounted by Docker as the single schema source of truth. Contact and accreditation details are demo data and should be confirmed against current official records before being represented as independently verified.
 
-The database schema uses `accreditation_bodies`, `ateco_ea_mapping`, `certification_bodies`, and `accredited_scopes`. The ATECO-to-EA relationship is stored separately from certification bodies; scope searches join through `accredited_scopes`.
+The single database uses `accreditation_bodies`, `ateco_ea_mapping`, `certification_bodies`, and `accredited_scopes`. The ATECO-to-EA relationship is stored separately from certification bodies; scope searches join through `accredited_scopes`. Database credentials and CORS origins are configured through `DB_URL`, `DB_USERNAME`, `DB_PASSWORD`, and `CORS_ALLOWED_ORIGINS`.

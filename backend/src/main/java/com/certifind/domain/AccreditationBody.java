@@ -6,7 +6,6 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import java.math.BigDecimal;
 import java.util.Objects;
 
 @Entity
@@ -29,21 +28,17 @@ public class AccreditationBody {
     @Column(name = "is_iaf_mla", nullable = false)
     private Boolean isIafMla = true;
 
-    @Column(name = "avg_daily_rate_eur", nullable = false, precision = 10, scale = 2)
-    private BigDecimal avgDailyRateEur;
-
     @Column(name = "website", length = 255)
     private String website;
 
     public AccreditationBody() {
     }
 
-    public AccreditationBody(String code, String name, String country, Boolean isIafMla, BigDecimal avgDailyRateEur, String website) {
+    public AccreditationBody(String code, String name, String country, Boolean isIafMla, String website) {
         this.code = code;
         this.name = name;
         this.country = country;
         this.isIafMla = isIafMla;
-        this.avgDailyRateEur = avgDailyRateEur;
         this.website = website;
     }
 
@@ -87,14 +82,6 @@ public class AccreditationBody {
         this.isIafMla = isIafMla;
     }
 
-    public BigDecimal getAvgDailyRateEur() {
-        return avgDailyRateEur;
-    }
-
-    public void setAvgDailyRateEur(BigDecimal avgDailyRateEur) {
-        this.avgDailyRateEur = avgDailyRateEur;
-    }
-
     public String getWebsite() {
         return website;
     }
@@ -123,7 +110,6 @@ public class AccreditationBody {
                 ", name='" + name + '\'' +
                 ", country='" + country + '\'' +
                 ", isIafMla=" + isIafMla +
-                ", avgDailyRateEur=" + avgDailyRateEur +
                 '}';
     }
 }

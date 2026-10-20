@@ -19,7 +19,7 @@ WHERE ateco_code = '88.91.00';
 
 -- 2. Core matchmaking query
 --    Mirrors what the API will run: given an ATECO code and ISO standard,
---    find all active certification bodies and their effective day-rate.
+--    find all active certification bodies and their accreditation evidence.
 
 \echo ''
 \echo '2. Certification bodies for ISO 9001 / EA 37 (sorted cheapest first)'
@@ -29,7 +29,6 @@ SELECT
     ab.code                                                    AS accreditor,
     cb.has_italian_auditors,
     cb.is_commercial_partner,
-    COALESCE(cb.custom_daily_rate_eur, ab.avg_daily_rate_eur) AS est_daily_rate_eur,
     s.status,
     s.proof_url
 FROM ateco_ea_mapping aem
@@ -40,7 +39,7 @@ JOIN accredited_scopes s
 JOIN certification_bodies cb ON cb.id = s.certification_body_id
 JOIN accreditation_bodies ab ON ab.id = cb.accreditation_body_id
 WHERE aem.ateco_code = '88.91.00'
-ORDER BY est_daily_rate_eur ASC, cb.is_commercial_partner DESC;
+ORDER BY cb.name ASC;
 
 
 -- 3. Spot-checks (each must return the expected value)
@@ -95,14 +94,6 @@ JOIN certification_bodies cb ON cb.id = s.certification_body_id
 JOIN ateco_ea_mapping aem ON aem.ea_code = s.ea_code
 WHERE cb.country <> 'Italy' AND aem.ateco_code = '88.91.00'
   AND s.iso_standard = 'ISO 9001' AND s.status = 'ACTIVE';
-
-\echo '   Cheapest effective rate (expect < 700)'
-SELECT MIN(COALESCE(cb.custom_daily_rate_eur, ab.avg_daily_rate_eur)) AS min_rate
-FROM accredited_scopes s
-JOIN certification_bodies cb ON cb.id = s.certification_body_id
-JOIN accreditation_bodies ab ON ab.id = cb.accreditation_body_id
-JOIN ateco_ea_mapping aem ON aem.ea_code = s.ea_code
-WHERE aem.ateco_code = '88.91.00' AND s.iso_standard = 'ISO 9001' AND s.status = 'ACTIVE';
 
 \echo '   CBs without Italian auditors in result (expect 0)'
 SELECT count(*) AS result

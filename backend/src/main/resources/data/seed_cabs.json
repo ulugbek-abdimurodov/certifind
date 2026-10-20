@@ -1,13 +1,10 @@
 {
-  "_comment": "CertiFind Day-1 seed data — executive demo 2026-10-24. All rates in EUR.",
-
   "accreditation_bodies": [
     {
       "code": "ACCREDIA",
       "name": "ACCREDIA – Ente Italiano di Accreditamento",
       "country": "Italy",
       "is_iaf_mla": true,
-      "avg_daily_rate_eur": 1100.00,
       "website": "https://www.accredia.it"
     },
     {
@@ -15,7 +12,6 @@
       "name": "RENAR – Asociatia de Acreditare din Romania",
       "country": "Romania",
       "is_iaf_mla": true,
-      "avg_daily_rate_eur": 650.00,
       "website": "https://www.renar.ro"
     },
     {
@@ -23,11 +19,9 @@
       "name": "PCA – Polskie Centrum Akredytacji",
       "country": "Poland",
       "is_iaf_mla": true,
-      "avg_daily_rate_eur": 700.00,
       "website": "https://www.pca.gov.pl"
     }
   ],
-
   "ateco_ea_mapping": [
     {
       "ateco_code": "88.91.00",
@@ -60,7 +54,6 @@
       "ea_description": "Basic metals and fabricated metal products"
     }
   ],
-
   "certification_bodies": [
     {
       "_ref": "CB-IT-001",
@@ -69,7 +62,6 @@
       "accreditation_body_code": "ACCREDIA",
       "has_italian_auditors": true,
       "is_commercial_partner": true,
-      "custom_daily_rate_eur": null,
       "phone": "+39 02 73931",
       "email": "it.certification@sgs.com",
       "website": "https://www.sgs.com/it-it",
@@ -82,7 +74,6 @@
       "accreditation_body_code": "ACCREDIA",
       "has_italian_auditors": true,
       "is_commercial_partner": true,
-      "custom_daily_rate_eur": null,
       "phone": "+39 010 5385 1",
       "email": "bvitalia@bureauveritas.com",
       "website": "https://www.bureauveritas.it",
@@ -95,7 +86,6 @@
       "accreditation_body_code": "ACCREDIA",
       "has_italian_auditors": true,
       "is_commercial_partner": false,
-      "custom_daily_rate_eur": 1050.00,
       "phone": "+39 02 3670 7500",
       "email": "info@tuv.com",
       "website": "https://www.tuv.com/it/italia",
@@ -108,7 +98,6 @@
       "accreditation_body_code": "ACCREDIA",
       "has_italian_auditors": true,
       "is_commercial_partner": false,
-      "custom_daily_rate_eur": 1080.00,
       "phone": "+39 010 5485 1",
       "email": "certification.italy@dnv.com",
       "website": "https://www.dnv.com/it/services/certification",
@@ -121,7 +110,6 @@
       "accreditation_body_code": "ACCREDIA",
       "has_italian_auditors": true,
       "is_commercial_partner": true,
-      "custom_daily_rate_eur": 990.00,
       "phone": "+39 010 5385 200",
       "email": "certification@rina.org",
       "website": "https://www.rina.org",
@@ -134,7 +122,6 @@
       "accreditation_body_code": "ACCREDIA",
       "has_italian_auditors": true,
       "is_commercial_partner": false,
-      "custom_daily_rate_eur": 920.00,
       "phone": "+39 051 764 811",
       "email": "info@kiwacermet.it",
       "website": "https://www.kiwacermet.it",
@@ -147,7 +134,6 @@
       "accreditation_body_code": "RENAR",
       "has_italian_auditors": true,
       "is_commercial_partner": true,
-      "custom_daily_rate_eur": 620.00,
       "phone": "+40 21 310 4320",
       "email": "office@certrom.ro",
       "website": "https://www.certrom.ro",
@@ -160,7 +146,6 @@
       "accreditation_body_code": "RENAR",
       "has_italian_auditors": true,
       "is_commercial_partner": false,
-      "custom_daily_rate_eur": 640.00,
       "phone": "+40 21 211 9600",
       "email": "office@srac.ro",
       "website": "https://www.srac.ro",
@@ -173,7 +158,6 @@
       "accreditation_body_code": "RENAR",
       "has_italian_auditors": true,
       "is_commercial_partner": true,
-      "custom_daily_rate_eur": 630.00,
       "phone": "+40 21 327 5811",
       "email": "office@certind.ro",
       "website": "https://www.certind.ro",
@@ -186,7 +170,6 @@
       "accreditation_body_code": "PCA",
       "has_italian_auditors": true,
       "is_commercial_partner": false,
-      "custom_daily_rate_eur": 700.00,
       "phone": "+48 22 511 1800",
       "email": "biuro@tuvnord.pl",
       "website": "https://www.tuv-nord.com/pl",
@@ -199,7 +182,6 @@
       "accreditation_body_code": "PCA",
       "has_italian_auditors": true,
       "is_commercial_partner": false,
-      "custom_daily_rate_eur": 680.00,
       "phone": "+48 58 751 1100",
       "email": "prs@prs.pl",
       "website": "https://www.prs.pl",
@@ -212,56 +194,229 @@
       "accreditation_body_code": "PCA",
       "has_italian_auditors": true,
       "is_commercial_partner": true,
-      "custom_daily_rate_eur": 720.00,
       "phone": "+48 22 877 5640",
       "email": "certyfikacja@urspolska.pl",
       "website": "https://www.urs.com/pl",
       "address": "ul. Konstruktorska 11A, 02-673 Warszawa, Polska"
     }
   ],
-
   "accredited_scopes": [
-    { "_cb_ref": "CB-IT-001", "iso_standard": "ISO 9001",  "ea_code": 37, "status": "ACTIVE", "proof_url": "https://www.accredia.it/en/organism/sgs-italia-s-p-a/" },
-    { "_cb_ref": "CB-IT-001", "iso_standard": "ISO 14001", "ea_code": 28, "status": "ACTIVE", "proof_url": "https://www.accredia.it/en/organism/sgs-italia-s-p-a/" },
-    { "_cb_ref": "CB-IT-001", "iso_standard": "ISO 45001", "ea_code": 28, "status": "ACTIVE", "proof_url": "https://www.accredia.it/en/organism/sgs-italia-s-p-a/" },
-    { "_cb_ref": "CB-IT-001", "iso_standard": "ISO 9001",  "ea_code": 33, "status": "ACTIVE", "proof_url": "https://www.accredia.it/en/organism/sgs-italia-s-p-a/" },
-
-    { "_cb_ref": "CB-IT-002", "iso_standard": "ISO 9001",  "ea_code": 37, "status": "ACTIVE", "proof_url": "https://www.accredia.it/en/organism/bureau-veritas-italia-s-p-a/" },
-    { "_cb_ref": "CB-IT-002", "iso_standard": "ISO 14001", "ea_code": 33, "status": "ACTIVE", "proof_url": "https://www.accredia.it/en/organism/bureau-veritas-italia-s-p-a/" },
-    { "_cb_ref": "CB-IT-002", "iso_standard": "ISO 45001", "ea_code": 28, "status": "ACTIVE", "proof_url": "https://www.accredia.it/en/organism/bureau-veritas-italia-s-p-a/" },
-
-    { "_cb_ref": "CB-IT-003", "iso_standard": "ISO 9001",  "ea_code": 37, "status": "ACTIVE", "proof_url": "https://www.accredia.it/en/organism/tuv-rheinland-italia-s-r-l/" },
-    { "_cb_ref": "CB-IT-003", "iso_standard": "ISO 14001", "ea_code": 28, "status": "ACTIVE", "proof_url": "https://www.accredia.it/en/organism/tuv-rheinland-italia-s-r-l/" },
-    { "_cb_ref": "CB-IT-003", "iso_standard": "ISO 9001",  "ea_code": 33, "status": "ACTIVE", "proof_url": "https://www.accredia.it/en/organism/tuv-rheinland-italia-s-r-l/" },
-
-    { "_cb_ref": "CB-IT-004", "iso_standard": "ISO 9001",  "ea_code": 28, "status": "ACTIVE", "proof_url": "https://www.accredia.it/en/organism/dnv-business-assurance-italy/" },
-    { "_cb_ref": "CB-IT-004", "iso_standard": "ISO 14001", "ea_code": 28, "status": "ACTIVE", "proof_url": "https://www.accredia.it/en/organism/dnv-business-assurance-italy/" },
-    { "_cb_ref": "CB-IT-004", "iso_standard": "ISO 45001", "ea_code": 33, "status": "ACTIVE", "proof_url": "https://www.accredia.it/en/organism/dnv-business-assurance-italy/" },
-
-    { "_cb_ref": "CB-IT-005", "iso_standard": "ISO 9001",  "ea_code": 37, "status": "ACTIVE", "proof_url": "https://www.accredia.it/en/organism/rina-services-s-p-a/" },
-    { "_cb_ref": "CB-IT-005", "iso_standard": "ISO 14001", "ea_code": 33, "status": "ACTIVE", "proof_url": "https://www.accredia.it/en/organism/rina-services-s-p-a/" },
-
-    { "_cb_ref": "CB-IT-006", "iso_standard": "ISO 9001",  "ea_code": 28, "status": "ACTIVE", "proof_url": "https://www.accredia.it/en/organism/kiwa-cermet-italia/" },
-    { "_cb_ref": "CB-IT-006", "iso_standard": "ISO 45001", "ea_code": 28, "status": "ACTIVE", "proof_url": "https://www.accredia.it/en/organism/kiwa-cermet-italia/" },
-
-    { "_cb_ref": "CB-RO-001", "iso_standard": "ISO 9001",  "ea_code": 37, "status": "ACTIVE", "proof_url": "https://www.renar.ro/lista-organisme-acreditate/" },
-    { "_cb_ref": "CB-RO-001", "iso_standard": "ISO 14001", "ea_code": 28, "status": "ACTIVE", "proof_url": "https://www.renar.ro/lista-organisme-acreditate/" },
-    { "_cb_ref": "CB-RO-001", "iso_standard": "ISO 45001", "ea_code": 33, "status": "ACTIVE", "proof_url": "https://www.renar.ro/lista-organisme-acreditate/" },
-
-    { "_cb_ref": "CB-RO-002", "iso_standard": "ISO 9001",  "ea_code": 37, "status": "ACTIVE", "proof_url": "https://www.renar.ro/lista-organisme-acreditate/" },
-    { "_cb_ref": "CB-RO-002", "iso_standard": "ISO 14001", "ea_code": 33, "status": "ACTIVE", "proof_url": "https://www.renar.ro/lista-organisme-acreditate/" },
-
-    { "_cb_ref": "CB-RO-003", "iso_standard": "ISO 9001",  "ea_code": 37, "status": "ACTIVE", "proof_url": "https://www.renar.ro/lista-organisme-acreditate/" },
-    { "_cb_ref": "CB-RO-003", "iso_standard": "ISO 9001",  "ea_code": 28, "status": "ACTIVE", "proof_url": "https://www.renar.ro/lista-organisme-acreditate/" },
-    { "_cb_ref": "CB-RO-003", "iso_standard": "ISO 45001", "ea_code": 28, "status": "ACTIVE", "proof_url": "https://www.renar.ro/lista-organisme-acreditate/" },
-
-    { "_cb_ref": "CB-PL-001", "iso_standard": "ISO 9001",  "ea_code": 33, "status": "ACTIVE", "proof_url": "https://www.pca.gov.pl/akredytowane-podmioty/" },
-    { "_cb_ref": "CB-PL-001", "iso_standard": "ISO 14001", "ea_code": 28, "status": "ACTIVE", "proof_url": "https://www.pca.gov.pl/akredytowane-podmioty/" },
-
-    { "_cb_ref": "CB-PL-002", "iso_standard": "ISO 9001",  "ea_code": 28, "status": "ACTIVE", "proof_url": "https://www.pca.gov.pl/akredytowane-podmioty/" },
-    { "_cb_ref": "CB-PL-002", "iso_standard": "ISO 45001", "ea_code": 28, "status": "ACTIVE", "proof_url": "https://www.pca.gov.pl/akredytowane-podmioty/" },
-
-    { "_cb_ref": "CB-PL-003", "iso_standard": "ISO 9001",  "ea_code": 33, "status": "ACTIVE", "proof_url": "https://www.pca.gov.pl/akredytowane-podmioty/" },
-    { "_cb_ref": "CB-PL-003", "iso_standard": "ISO 14001", "ea_code": 33, "status": "ACTIVE", "proof_url": "https://www.pca.gov.pl/akredytowane-podmioty/" }
+    {
+      "_cb_ref": "CB-IT-001",
+      "iso_standard": "ISO 9001",
+      "ea_code": 37,
+      "status": "ACTIVE",
+      "proof_url": "https://www.accredia.it/en/organism/sgs-italia-s-p-a/"
+    },
+    {
+      "_cb_ref": "CB-IT-001",
+      "iso_standard": "ISO 14001",
+      "ea_code": 28,
+      "status": "ACTIVE",
+      "proof_url": "https://www.accredia.it/en/organism/sgs-italia-s-p-a/"
+    },
+    {
+      "_cb_ref": "CB-IT-001",
+      "iso_standard": "ISO 45001",
+      "ea_code": 28,
+      "status": "ACTIVE",
+      "proof_url": "https://www.accredia.it/en/organism/sgs-italia-s-p-a/"
+    },
+    {
+      "_cb_ref": "CB-IT-001",
+      "iso_standard": "ISO 9001",
+      "ea_code": 33,
+      "status": "ACTIVE",
+      "proof_url": "https://www.accredia.it/en/organism/sgs-italia-s-p-a/"
+    },
+    {
+      "_cb_ref": "CB-IT-002",
+      "iso_standard": "ISO 9001",
+      "ea_code": 37,
+      "status": "ACTIVE",
+      "proof_url": "https://www.accredia.it/en/organism/bureau-veritas-italia-s-p-a/"
+    },
+    {
+      "_cb_ref": "CB-IT-002",
+      "iso_standard": "ISO 14001",
+      "ea_code": 33,
+      "status": "ACTIVE",
+      "proof_url": "https://www.accredia.it/en/organism/bureau-veritas-italia-s-p-a/"
+    },
+    {
+      "_cb_ref": "CB-IT-002",
+      "iso_standard": "ISO 45001",
+      "ea_code": 28,
+      "status": "ACTIVE",
+      "proof_url": "https://www.accredia.it/en/organism/bureau-veritas-italia-s-p-a/"
+    },
+    {
+      "_cb_ref": "CB-IT-003",
+      "iso_standard": "ISO 9001",
+      "ea_code": 37,
+      "status": "ACTIVE",
+      "proof_url": "https://www.accredia.it/en/organism/tuv-rheinland-italia-s-r-l/"
+    },
+    {
+      "_cb_ref": "CB-IT-003",
+      "iso_standard": "ISO 14001",
+      "ea_code": 28,
+      "status": "ACTIVE",
+      "proof_url": "https://www.accredia.it/en/organism/tuv-rheinland-italia-s-r-l/"
+    },
+    {
+      "_cb_ref": "CB-IT-003",
+      "iso_standard": "ISO 9001",
+      "ea_code": 33,
+      "status": "ACTIVE",
+      "proof_url": "https://www.accredia.it/en/organism/tuv-rheinland-italia-s-r-l/"
+    },
+    {
+      "_cb_ref": "CB-IT-004",
+      "iso_standard": "ISO 9001",
+      "ea_code": 28,
+      "status": "ACTIVE",
+      "proof_url": "https://www.accredia.it/en/organism/dnv-business-assurance-italy/"
+    },
+    {
+      "_cb_ref": "CB-IT-004",
+      "iso_standard": "ISO 14001",
+      "ea_code": 28,
+      "status": "ACTIVE",
+      "proof_url": "https://www.accredia.it/en/organism/dnv-business-assurance-italy/"
+    },
+    {
+      "_cb_ref": "CB-IT-004",
+      "iso_standard": "ISO 45001",
+      "ea_code": 33,
+      "status": "ACTIVE",
+      "proof_url": "https://www.accredia.it/en/organism/dnv-business-assurance-italy/"
+    },
+    {
+      "_cb_ref": "CB-IT-005",
+      "iso_standard": "ISO 9001",
+      "ea_code": 37,
+      "status": "ACTIVE",
+      "proof_url": "https://www.accredia.it/en/organism/rina-services-s-p-a/"
+    },
+    {
+      "_cb_ref": "CB-IT-005",
+      "iso_standard": "ISO 14001",
+      "ea_code": 33,
+      "status": "ACTIVE",
+      "proof_url": "https://www.accredia.it/en/organism/rina-services-s-p-a/"
+    },
+    {
+      "_cb_ref": "CB-IT-006",
+      "iso_standard": "ISO 9001",
+      "ea_code": 28,
+      "status": "ACTIVE",
+      "proof_url": "https://www.accredia.it/en/organism/kiwa-cermet-italia/"
+    },
+    {
+      "_cb_ref": "CB-IT-006",
+      "iso_standard": "ISO 45001",
+      "ea_code": 28,
+      "status": "ACTIVE",
+      "proof_url": "https://www.accredia.it/en/organism/kiwa-cermet-italia/"
+    },
+    {
+      "_cb_ref": "CB-RO-001",
+      "iso_standard": "ISO 9001",
+      "ea_code": 37,
+      "status": "ACTIVE",
+      "proof_url": "https://www.renar.ro/lista-organisme-acreditate/"
+    },
+    {
+      "_cb_ref": "CB-RO-001",
+      "iso_standard": "ISO 14001",
+      "ea_code": 28,
+      "status": "ACTIVE",
+      "proof_url": "https://www.renar.ro/lista-organisme-acreditate/"
+    },
+    {
+      "_cb_ref": "CB-RO-001",
+      "iso_standard": "ISO 45001",
+      "ea_code": 33,
+      "status": "ACTIVE",
+      "proof_url": "https://www.renar.ro/lista-organisme-acreditate/"
+    },
+    {
+      "_cb_ref": "CB-RO-002",
+      "iso_standard": "ISO 9001",
+      "ea_code": 37,
+      "status": "ACTIVE",
+      "proof_url": "https://www.renar.ro/lista-organisme-acreditate/"
+    },
+    {
+      "_cb_ref": "CB-RO-002",
+      "iso_standard": "ISO 14001",
+      "ea_code": 33,
+      "status": "ACTIVE",
+      "proof_url": "https://www.renar.ro/lista-organisme-acreditate/"
+    },
+    {
+      "_cb_ref": "CB-RO-003",
+      "iso_standard": "ISO 9001",
+      "ea_code": 37,
+      "status": "ACTIVE",
+      "proof_url": "https://www.renar.ro/lista-organisme-acreditate/"
+    },
+    {
+      "_cb_ref": "CB-RO-003",
+      "iso_standard": "ISO 9001",
+      "ea_code": 28,
+      "status": "ACTIVE",
+      "proof_url": "https://www.renar.ro/lista-organisme-acreditate/"
+    },
+    {
+      "_cb_ref": "CB-RO-003",
+      "iso_standard": "ISO 45001",
+      "ea_code": 28,
+      "status": "ACTIVE",
+      "proof_url": "https://www.renar.ro/lista-organisme-acreditate/"
+    },
+    {
+      "_cb_ref": "CB-PL-001",
+      "iso_standard": "ISO 9001",
+      "ea_code": 33,
+      "status": "ACTIVE",
+      "proof_url": "https://www.pca.gov.pl/akredytowane-podmioty/"
+    },
+    {
+      "_cb_ref": "CB-PL-001",
+      "iso_standard": "ISO 14001",
+      "ea_code": 28,
+      "status": "ACTIVE",
+      "proof_url": "https://www.pca.gov.pl/akredytowane-podmioty/"
+    },
+    {
+      "_cb_ref": "CB-PL-002",
+      "iso_standard": "ISO 9001",
+      "ea_code": 28,
+      "status": "ACTIVE",
+      "proof_url": "https://www.pca.gov.pl/akredytowane-podmioty/"
+    },
+    {
+      "_cb_ref": "CB-PL-002",
+      "iso_standard": "ISO 45001",
+      "ea_code": 28,
+      "status": "ACTIVE",
+      "proof_url": "https://www.pca.gov.pl/akredytowane-podmioty/"
+    },
+    {
+      "_cb_ref": "CB-PL-003",
+      "iso_standard": "ISO 9001",
+      "ea_code": 33,
+      "status": "ACTIVE",
+      "proof_url": "https://www.pca.gov.pl/akredytowane-podmioty/"
+    },
+    {
+      "_cb_ref": "CB-PL-003",
+      "iso_standard": "ISO 14001",
+      "ea_code": 33,
+      "status": "ACTIVE",
+      "proof_url": "https://www.pca.gov.pl/akredytowane-podmioty/"
+    }
   ]
 }

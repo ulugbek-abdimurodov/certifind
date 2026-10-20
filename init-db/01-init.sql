@@ -7,21 +7,19 @@ CREATE EXTENSION IF NOT EXISTS vector;
 
 
 -- National/international accreditation authorities (e.g. ACCREDIA, RENAR, PCA).
--- avg_daily_rate_eur is the fallback auditor day-rate used when a certification
--- body has not negotiated its own rate.
 CREATE TABLE IF NOT EXISTS accreditation_bodies (
     id                  SERIAL         PRIMARY KEY,
     code                VARCHAR(50)    UNIQUE NOT NULL,
     name                VARCHAR(255)   NOT NULL,
     country             VARCHAR(100)   NOT NULL,
     is_iaf_mla          BOOLEAN        NOT NULL DEFAULT TRUE,
-    avg_daily_rate_eur  NUMERIC(10, 2) NOT NULL,
     website             VARCHAR(255)
 );
 
+ALTER TABLE accreditation_bodies DROP COLUMN IF EXISTS avg_daily_rate_eur;
+
 COMMENT ON COLUMN accreditation_bodies.code             IS 'Short identifier used throughout the app, e.g. ACCREDIA, RENAR, PCA.';
 COMMENT ON COLUMN accreditation_bodies.is_iaf_mla       IS 'TRUE when the body is an IAF Multilateral Recognition Arrangement signatory.';
-COMMENT ON COLUMN accreditation_bodies.avg_daily_rate_eur IS 'Reference auditor day-rate in EUR; used as a fallback when a CB has no custom rate.';
 
 
 -- Cross-reference between Italian ATECO industry codes and EA sector codes.
@@ -42,8 +40,6 @@ CREATE INDEX IF NOT EXISTS idx_ateco_ea_ea_code    ON ateco_ea_mapping (ea_code)
 
 
 -- Certification bodies accredited by one of the accreditation_bodies above.
--- custom_daily_rate_eur is nullable — NULL means fall back to the parent
--- accreditation body''s avg_daily_rate_eur at query time.
 CREATE TABLE IF NOT EXISTS certification_bodies (
     id                    SERIAL         PRIMARY KEY,
     name                  VARCHAR(255)   NOT NULL,
@@ -51,14 +47,14 @@ CREATE TABLE IF NOT EXISTS certification_bodies (
     accreditation_body_id INT            REFERENCES accreditation_bodies (id) ON DELETE CASCADE,
     has_italian_auditors  BOOLEAN        NOT NULL DEFAULT TRUE,
     is_commercial_partner BOOLEAN        NOT NULL DEFAULT FALSE,
-    custom_daily_rate_eur NUMERIC(10, 2),
     phone                 VARCHAR(50),
     email                 VARCHAR(100),
     website               VARCHAR(255),
     address               TEXT
 );
 
-COMMENT ON COLUMN certification_bodies.custom_daily_rate_eur IS 'Optional override day-rate; NULL inherits from accreditation_bodies.avg_daily_rate_eur.';
+ALTER TABLE certification_bodies DROP COLUMN IF EXISTS custom_daily_rate_eur;
+
 COMMENT ON COLUMN certification_bodies.is_commercial_partner IS 'TRUE when this CB has a commercial agreement with CertiFind.';
 
 CREATE INDEX IF NOT EXISTS idx_cb_accreditation_body ON certification_bodies (accreditation_body_id);

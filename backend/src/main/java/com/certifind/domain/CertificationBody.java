@@ -9,7 +9,6 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
-import java.math.BigDecimal;
 import java.util.Objects;
 
 @Entity
@@ -36,9 +35,6 @@ public class CertificationBody {
     @Column(name = "is_commercial_partner", nullable = false)
     private Boolean isCommercialPartner = false;
 
-    @Column(name = "custom_daily_rate_eur", precision = 10, scale = 2)
-    private BigDecimal customDailyRateEur;
-
     @Column(name = "phone", length = 50)
     private String phone;
 
@@ -56,14 +52,13 @@ public class CertificationBody {
 
     public CertificationBody(String name, String country, AccreditationBody accreditationBody,
                              Boolean hasItalianAuditors, Boolean isCommercialPartner,
-                             BigDecimal customDailyRateEur, String phone, String email,
+                             String phone, String email,
                              String website, String address) {
         this.name = name;
         this.country = country;
         this.accreditationBody = accreditationBody;
         this.hasItalianAuditors = hasItalianAuditors;
         this.isCommercialPartner = isCommercialPartner;
-        this.customDailyRateEur = customDailyRateEur;
         this.phone = phone;
         this.email = email;
         this.website = website;
@@ -118,14 +113,6 @@ public class CertificationBody {
         this.isCommercialPartner = isCommercialPartner;
     }
 
-    public BigDecimal getCustomDailyRateEur() {
-        return customDailyRateEur;
-    }
-
-    public void setCustomDailyRateEur(BigDecimal customDailyRateEur) {
-        this.customDailyRateEur = customDailyRateEur;
-    }
-
     public String getPhone() {
         return phone;
     }
@@ -178,7 +165,6 @@ public class CertificationBody {
                 ", country='" + country + '\'' +
                 ", hasItalianAuditors=" + hasItalianAuditors +
                 ", isCommercialPartner=" + isCommercialPartner +
-                ", customDailyRateEur=" + customDailyRateEur +
                 '}';
     }
 }

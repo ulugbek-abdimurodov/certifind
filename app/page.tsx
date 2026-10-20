@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useEffect, useState } from "react";
+import { FormEvent, useEffect, useMemo, useState } from "react";
 
 type Body = {
   id: number;
@@ -26,6 +26,7 @@ type SearchResponse = {
   totalResults: number;
   results: Body[];
 };
+type ResultFilter = "all" | "italy" | "foreign" | `accreditor:${string}`;
 
 const stages = [
   "Inserimento",
@@ -78,6 +79,37 @@ export default function Home() {
   const [data, setData] = useState<SearchResponse | null>(null);
   const [error, setError] = useState("");
   const [selected, setSelected] = useState<Body | null>(null);
+  const [resultFilter, setResultFilter] = useState<ResultFilter>("all");
+  const [partnerOnly, setPartnerOnly] = useState(false);
+
+  const accreditorCodes = useMemo(
+    () =>
+      data
+        ? Array.from(
+            new Set(
+              data.results
+                .map((body) => body.accreditationBodyCode)
+                .filter((code) => code !== "ACCREDIA"),
+            ),
+          ).sort()
+        : [],
+    [data],
+  );
+  const filteredResults = useMemo(() => {
+    if (!data) return [];
+    return data.results.filter((body) => {
+      const matchesFilter =
+        resultFilter === "all" ||
+        (resultFilter === "italy" &&
+          body.accreditationBodyCode === "ACCREDIA") ||
+        (resultFilter === "foreign" &&
+          body.accreditationBodyCode !== "ACCREDIA" &&
+          body.isIafMla) ||
+        (resultFilter.startsWith("accreditor:") &&
+          body.accreditationBodyCode === resultFilter.slice(11));
+      return matchesFilter && (!partnerOnly || body.isCommercialPartner);
+    });
+  }, [data, partnerOnly, resultFilter]);
 
   useEffect(() => {
     if (!selected) return;
@@ -99,6 +131,8 @@ export default function Home() {
     setError("");
     setData(null);
     setSelected(null);
+    setResultFilter("all");
+    setPartnerOnly(false);
     setStep(0);
     const animation = (async () => {
       for (let index = 1; index < stages.length; index += 1) {
@@ -310,49 +344,110 @@ export default function Home() {
               </div>
             </div>
             {data.results.length ? (
-              <div className="results-list">
-                {data.results.map((body, index) => (
-                  <button
-                    className="result-card"
-                    key={body.id}
-                    onClick={() => setSelected(body)}
-                  >
-                    <div className="result-number">
-                      {String(index + 1).padStart(2, "0")}
-                    </div>
-                    <div className="country-flag" aria-label={body.country}>
-                      {flags[body.country] ?? "🌐"}
-                    </div>
-                    <div className="result-main">
-                      <div className="name-line">
-                        <h3>{body.name}</h3>
-                        {body.isCommercialPartner && (
-                          <span className="partner-pill">
-                            <span>✦</span> Partner
-                          </span>
-                        )}
-                      </div>
-                      <div className="scope-subtitle">
-                        Scopo accreditato: {body.scopeSection}
-                      </div>
-                      <div className="result-meta">
-                        <span>{body.country}</span>
-                        <i /> <span>{body.accreditationBodyCode}</span>
-                        <i />{" "}
-                        <span>
-                          {iso} · EA {body.eaCode}
-                        </span>
-                      </div>
-                      <div className="verified-label">
-                        <span>✓</span> Accreditamento{" "}
-                        {body.accreditationBodyCode}
-                        {body.isIafMla ? " · IAF/MLA" : ""}
-                      </div>
-                    </div>
-                    <span className="card-arrow">↗</span>
-                  </button>
-                ))}
-              </div>
+              <>
+                <div className="results-filters" aria-label="Filtra risultati">
+                  <div className="filter-pills" role="group" aria-label="Autorità di accreditamento">
+                    <button
+                      className={`filter-pill ${resultFilter === "all" ? "filter-pill-active" : ""}`}
+                      type="button"
+                      onClick={() => setResultFilter("all")}
+                      aria-pressed={resultFilter === "all"}
+                    >
+                      Tutti ({data.results.length})
+                    </button>
+                    <button
+                      className={`filter-pill ${resultFilter === "italy" ? "filter-pill-active" : ""}`}
+                      type="button"
+                      onClick={() => setResultFilter("italy")}
+                      aria-pressed={resultFilter === "italy"}
+                    >
+                      Italia • ACCREDIA
+                    </button>
+                    <button
+                      className={`filter-pill ${resultFilter === "foreign" ? "filter-pill-active" : ""}`}
+                      type="button"
+                      onClick={() => setResultFilter("foreign")}
+                      aria-pressed={resultFilter === "foreign"}
+                    >
+                      Estero • IAF/MLA
+                    </button>
+                    {accreditorCodes.map((code) => {
+                      const filter = `accreditor:${code}` as const;
+                      return (
+                        <button
+                          className={`filter-pill ${resultFilter === filter ? "filter-pill-active" : ""}`}
+                          key={code}
+                          type="button"
+                          onClick={() => setResultFilter(filter)}
+                          aria-pressed={resultFilter === filter}
+                        >
+                          {code}
+                        </button>
+                      );
+                    })}
+                  </div>
+                  <label className={`partner-filter ${partnerOnly ? "partner-filter-active" : ""}`}>
+                    <input
+                      type="checkbox"
+                      checked={partnerOnly}
+                      onChange={(event) => setPartnerOnly(event.target.checked)}
+                    />
+                    <span>Solo Partner CertiFind</span>
+                  </label>
+                </div>
+                {filteredResults.length ? (
+                  <div className="results-list">
+                    {filteredResults.map((body, index) => (
+                      <button
+                        className="result-card"
+                        key={body.id}
+                        onClick={() => setSelected(body)}
+                      >
+                        <div className="result-number">
+                          {String(index + 1).padStart(2, "0")}
+                        </div>
+                        <div
+                          className="country-flag"
+                          aria-label={body.country}
+                        >
+                          {flags[body.country] ?? "🌐"}
+                        </div>
+                        <div className="result-main">
+                          <div className="name-line">
+                            <h3>{body.name}</h3>
+                            {body.isCommercialPartner && (
+                              <span className="partner-pill">
+                                <span>✦</span> Partner
+                              </span>
+                            )}
+                          </div>
+                          <div className="scope-subtitle">
+                            Scopo accreditato: {body.scopeSection}
+                          </div>
+                          <div className="result-meta">
+                            <span>{body.country}</span>
+                            <i /> <span>{body.accreditationBodyCode}</span>
+                            <i />{" "}
+                            <span>
+                              {iso} · EA {body.eaCode}
+                            </span>
+                          </div>
+                          <div className="verified-label">
+                            <span>✓</span> Accreditamento{" "}
+                            {body.accreditationBodyCode}
+                            {body.isIafMla ? " · IAF/MLA" : ""}
+                          </div>
+                        </div>
+                        <span className="card-arrow">↗</span>
+                      </button>
+                    ))}
+                  </div>
+                ) : (
+                  <div className="empty-state">
+                    Nessun organismo corrisponde ai filtri selezionati.
+                  </div>
+                )}
+              </>
             ) : (
               <div className="empty-state">
                 Nessun organismo trovato per i criteri selezionati.

@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "lint": "eslint .",
     "build": "next build",
     "start": "next start"
   },
@@ -16,6 +17,8 @@
     "@types/node": "^22.15.30",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.7",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.2",
     "typescript": "^5.8.3"
   }
 }

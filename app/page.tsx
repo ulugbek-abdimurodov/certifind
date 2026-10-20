@@ -5,13 +5,15 @@ import { OrganizationDrawer } from "../components/OrganizationDrawer";
 import { ResultsSection } from "../components/ResultsSection";
 import { SearchForm } from "../components/SearchForm";
 import { Workflow } from "../components/Workflow";
+import { DEFAULT_SEARCH_FORM } from "./search-defaults";
+import { SearchApiError, searchOrganizations } from "./search-client";
 import { stages } from "./search-data";
 import type { Body, ResultFilter, SearchResponse } from "./search-types";
 
 export default function Home() {
-  const [iso, setIso] = useState("ISO 9001");
-  const [sector, setSector] = useState("Asilo nido");
-  const [ateco, setAteco] = useState("88.91.00");
+  const [iso, setIso] = useState(DEFAULT_SEARCH_FORM.iso);
+  const [sector, setSector] = useState(DEFAULT_SEARCH_FORM.sector);
+  const [ateco, setAteco] = useState(DEFAULT_SEARCH_FORM.ateco);
   const [step, setStep] = useState(-1);
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState<SearchResponse | null>(null);
@@ -46,29 +48,16 @@ export default function Home() {
 
     const animation = animateWorkflow();
     try {
-      const response = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8080"}/api/v1/search`,
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            isoStandard: iso,
-            sectorActivity: sector,
-            atecoCode: ateco,
-          }),
-        },
+      setData(
+        await searchOrganizations({
+          isoStandard: iso,
+          sectorActivity: sector,
+          atecoCode: ateco,
+        }),
       );
-      if (!response.ok) {
-        throw new Error(
-          response.status === 400
-            ? "Settore non riconosciuto. Controlla il codice ATECO o la descrizione."
-            : "Ricerca non riuscita. Riprova tra poco.",
-        );
-      }
-      setData((await response.json()) as SearchResponse);
     } catch (cause) {
       setError(
-        cause instanceof Error
+        cause instanceof SearchApiError
           ? cause.message
           : "Impossibile raggiungere il servizio. Verifica che l’API sia avviata.",
       );

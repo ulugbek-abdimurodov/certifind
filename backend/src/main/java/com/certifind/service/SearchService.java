@@ -7,23 +7,21 @@ import com.certifind.dto.CertificationBodyCardDto;
 import com.certifind.dto.SearchRequest;
 import com.certifind.dto.SearchResponse;
 import com.certifind.repository.AccreditedScopeRepository;
-import com.certifind.repository.AtecoEaMappingRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class SearchService {
 
-    private final AtecoEaMappingRepository atecoEaMappingRepository;
+    private final SectorMappingResolver sectorMappingResolver;
     private final AccreditedScopeRepository accreditedScopeRepository;
 
     public SearchService(
-            AtecoEaMappingRepository atecoEaMappingRepository,
+            SectorMappingResolver sectorMappingResolver,
             AccreditedScopeRepository accreditedScopeRepository) {
-        this.atecoEaMappingRepository = atecoEaMappingRepository;
+        this.sectorMappingResolver = sectorMappingResolver;
         this.accreditedScopeRepository = accreditedScopeRepository;
     }
 
@@ -39,18 +37,7 @@ public class SearchService {
             throw new IllegalArgumentException("Enter an ATECO code or sector activity.");
         }
 
-        Optional<AtecoEaMapping> mapping = Optional.empty();
-
-        if (atecoCode != null) {
-            mapping = atecoEaMappingRepository.findByAtecoCode(atecoCode);
-        }
-        if (mapping.isEmpty() && sectorActivity != null) {
-            mapping = atecoEaMappingRepository
-                    .findFirstByDescriptionContainingIgnoreCase(sectorActivity);
-        }
-
-        AtecoEaMapping resolvedMapping = mapping.orElseThrow(() -> new IllegalArgumentException(
-                "No sector mapping found. Enter a supported ATECO code or sector activity."));
+        AtecoEaMapping resolvedMapping = sectorMappingResolver.resolve(atecoCode, sectorActivity);
         String resolvedAteco = resolvedMapping.getAtecoCode();
         int resolvedEaCode = resolvedMapping.getEaCode();
         String resolvedEaDesc = resolvedMapping.getEaDescription();

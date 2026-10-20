@@ -1,5 +1,7 @@
 package com.certifind.domain;
 
+import java.util.Objects;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -9,7 +11,6 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
-import java.util.Objects;
 
 @Entity
 @Table(name = "accredited_scopes")
@@ -29,6 +30,9 @@ public class AccreditedScope {
     @Column(name = "ea_code", nullable = false)
     private Integer eaCode;
 
+    @Column(name = "scope_section", columnDefinition = "TEXT")
+    private String scopeSection;
+
     @Column(name = "status", nullable = false, length = 20)
     private String status = "ACTIVE";
 
@@ -38,10 +42,11 @@ public class AccreditedScope {
     public AccreditedScope() {
     }
 
-    public AccreditedScope(CertificationBody certificationBody, String isoStandard, Integer eaCode, String status, String proofUrl) {
+    public AccreditedScope(CertificationBody certificationBody, String isoStandard, Integer eaCode, String scopeSection, String status, String proofUrl) {
         this.certificationBody = certificationBody;
         this.isoStandard = isoStandard;
         this.eaCode = eaCode;
+        this.scopeSection = scopeSection;
         this.status = status;
         this.proofUrl = proofUrl;
     }
@@ -78,6 +83,14 @@ public class AccreditedScope {
         this.eaCode = eaCode;
     }
 
+    public String getScopeSection() {
+        return scopeSection;
+    }
+
+    public void setScopeSection(String scopeSection) {
+        this.scopeSection = scopeSection;
+    }
+
     public String getStatus() {
         return status;
     }
@@ -112,6 +125,7 @@ public class AccreditedScope {
                 "id=" + id +
                 ", isoStandard='" + isoStandard + '\'' +
                 ", eaCode=" + eaCode +
+                ", scopeSection='" + scopeSection + '\'' +
                 ", status='" + status + '\'' +
                 ", proofUrl='" + proofUrl + '\'' +
                 '}';

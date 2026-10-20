@@ -18,6 +18,7 @@ public interface AccreditedScopeRepository extends JpaRepository<AccreditedScope
         WHERE s.isoStandard = :isoStandard
           AND s.eaCode = :eaCode
           AND s.status = 'ACTIVE'
+        ORDER BY cb.isCommercialPartner DESC, cb.name ASC
     """)
     List<AccreditedScope> findActiveScopesWithCabAndAb(
         @Param("isoStandard") String isoStandard,

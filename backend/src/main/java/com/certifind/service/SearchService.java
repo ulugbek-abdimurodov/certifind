@@ -19,6 +19,7 @@ public class SearchService {
 
     private final AtecoEaMappingRepository atecoEaMappingRepository;
     private final AccreditedScopeRepository accreditedScopeRepository;
+
     public SearchService(
             AtecoEaMappingRepository atecoEaMappingRepository,
             AccreditedScopeRepository accreditedScopeRepository) {
@@ -34,11 +35,12 @@ public class SearchService {
             mapping = atecoEaMappingRepository.findByAtecoCode(request.atecoCode().trim());
         }
         if (mapping.isEmpty() && request.sectorActivity() != null && !request.sectorActivity().isBlank()) {
-            mapping = atecoEaMappingRepository.findFirstByDescriptionContainingIgnoreCase(request.sectorActivity().trim());
+            mapping = atecoEaMappingRepository
+                    .findFirstByDescriptionContainingIgnoreCase(request.sectorActivity().trim());
         }
 
-        AtecoEaMapping resolvedMapping = mapping.orElseThrow(() ->
-                new IllegalArgumentException("No sector mapping found. Enter a supported ATECO code or sector activity."));
+        AtecoEaMapping resolvedMapping = mapping.orElseThrow(() -> new IllegalArgumentException(
+                "No sector mapping found. Enter a supported ATECO code or sector activity."));
         String resolvedAteco = resolvedMapping.getAtecoCode();
         int resolvedEaCode = resolvedMapping.getEaCode();
         String resolvedEaDesc = resolvedMapping.getEaDescription();
@@ -65,9 +67,11 @@ public class SearchService {
                     cb.getAddress(),
                     scope.getProofUrl(),
                     scope.getEaCode(),
-                    resolvedEaDesc
-            );
-        }).sorted(java.util.Comparator.comparing(CertificationBodyCardDto::name, String.CASE_INSENSITIVE_ORDER)).toList();
+                    resolvedEaDesc,
+                    scope.getScopeSection() != null ? scope.getScopeSection()
+                            : "Certificazione generale conforme allo standard ISO");
+        }).sorted(java.util.Comparator.comparing(CertificationBodyCardDto::name, String.CASE_INSENSITIVE_ORDER))
+                .toList();
 
         return new SearchResponse(resolvedAteco, resolvedEaCode, resolvedEaDesc, cards.size(), cards);
     }

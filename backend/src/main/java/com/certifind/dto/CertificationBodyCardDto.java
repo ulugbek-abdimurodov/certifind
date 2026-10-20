@@ -14,5 +14,6 @@ public record CertificationBodyCardDto(
     String address,
     String proofUrl,
     int eaCode,
-    String eaDescription
+    String eaDescription,
+    String scopeSection
 ) {}

@@ -25,3 +25,10 @@ export type SearchResponse = {
 };
 
 export type ResultFilter = "all" | "italy" | "foreign" | `accreditor:${string}`;
+
+export type SearchPreset = {
+  label: string;
+  iso: string;
+  sector: string;
+  ateco: string;
+};

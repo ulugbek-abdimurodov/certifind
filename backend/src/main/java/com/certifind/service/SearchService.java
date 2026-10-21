@@ -31,10 +31,14 @@ public class SearchService {
     public SearchResponse search(SearchRequest request) {
         Optional<AtecoEaMapping> mapping = Optional.empty();
 
+        // ATECO is the most specific sector criterion. When it is not supplied,
+        // resolve the free-text sector and always constrain the scope query by
+        // the resulting EA code.
         if (request.atecoCode() != null && !request.atecoCode().isBlank()) {
             mapping = atecoEaMappingRepository.findByAtecoCode(request.atecoCode().trim());
         }
-        if (mapping.isEmpty() && request.sectorActivity() != null && !request.sectorActivity().isBlank()) {
+        if (mapping.isEmpty() && (request.atecoCode() == null || request.atecoCode().isBlank())
+                && request.sectorActivity() != null && !request.sectorActivity().isBlank()) {
             mapping = atecoEaMappingRepository
                     .findFirstByDescriptionContainingIgnoreCase(request.sectorActivity().trim());
         }

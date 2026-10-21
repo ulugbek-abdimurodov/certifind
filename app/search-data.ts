@@ -40,3 +40,11 @@ export const demoPresets = [
     ateco: "71.12.10",
   },
 ];
+
+export const supportedSectors = [
+  "Asilo nido e servizi per l'infanzia",
+  "Produzione di software, consulenza informatica e attività connesse",
+  "Costruzione di edifici residenziali e non residenziali",
+  "Ristorazione con somministrazione",
+  "Lavori di meccanica generale",
+];

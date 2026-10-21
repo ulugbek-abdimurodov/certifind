@@ -1,7 +1,8 @@
 "use client";
 
-import type { FormEvent } from "react";
-import { demoPresets } from "../app/search-data";
+import { useState, type FormEvent } from "react";
+import { demoPresets, supportedSectors } from "../app/search-data";
+import type { SearchPreset } from "../app/search-types";
 
 type SearchFormProps = {
   iso: string;
@@ -11,6 +12,7 @@ type SearchFormProps = {
   onIsoChange: (value: string) => void;
   onSectorChange: (value: string) => void;
   onAtecoChange: (value: string) => void;
+  recentSearches: SearchPreset[];
   onSubmit: (event: FormEvent<HTMLFormElement>) => void;
 };
 
@@ -22,8 +24,18 @@ export function SearchForm({
   onIsoChange,
   onSectorChange,
   onAtecoChange,
+  recentSearches,
   onSubmit,
 }: SearchFormProps) {
+  const presets = recentSearches.length ? recentSearches : demoPresets;
+  const [sectorFocused, setSectorFocused] = useState(false);
+  const sectorQuery = sector.trim().toLocaleLowerCase();
+  const sectorSuggestions = supportedSectors.filter(
+    (option) =>
+      sectorQuery.length === 0 ||
+      option.toLocaleLowerCase().includes(sectorQuery),
+  );
+
   return (
     <div className="search-card">
       <div className="card-kicker">
@@ -34,9 +46,11 @@ export function SearchForm({
         Inserisci lo standard e l’attività della tua azienda.
       </p>
       <div className="demo-presets">
-        <div className="demo-presets-label">SCENARIO DEMO RAPIDO</div>
+        <div className="demo-presets-label">
+          {recentSearches.length ? "RICERCHE RECENTI" : "SCENARIO DEMO RAPIDO"}
+        </div>
         <div className="demo-presets-list">
-          {demoPresets.map((preset) => (
+          {presets.map((preset) => (
             <button
               className="demo-preset"
               key={preset.label}
@@ -68,14 +82,50 @@ export function SearchForm({
           <span className="select-chevron">⌄</span>
         </div>
         <label htmlFor="sector">Settore di attività</label>
-        <div className="input-wrap">
+        <div className="sector-autocomplete">
+          <div className="input-wrap">
           <input
             id="sector"
             value={sector}
-            onChange={(event) => onSectorChange(event.target.value)}
+            onChange={(event) => {
+              onSectorChange(event.target.value);
+              onAtecoChange("");
+            }}
+            onFocus={() => setSectorFocused(true)}
+            onBlur={() => {
+              window.setTimeout(() => setSectorFocused(false), 150);
+            }}
             placeholder="Es. Asilo nido, software…"
+            aria-autocomplete="list"
+            aria-controls="sector-suggestions"
             required
           />
+          </div>
+          {sectorFocused && sectorSuggestions.length > 0 && (
+            <div
+              className="sector-suggestions"
+              id="sector-suggestions"
+              role="listbox"
+              aria-label="Settori disponibili"
+            >
+              {sectorSuggestions.map((suggestion) => (
+                <button
+                  className="sector-suggestion"
+                  key={suggestion}
+                  type="button"
+                  role="option"
+                  aria-selected={false}
+                  onMouseDown={() => {
+                    onSectorChange(suggestion);
+                    onAtecoChange("");
+                    setSectorFocused(false);
+                  }}
+                >
+                  {suggestion}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
         <label htmlFor="ateco">
           Codice ATECO <span className="optional">OPZIONALE</span>

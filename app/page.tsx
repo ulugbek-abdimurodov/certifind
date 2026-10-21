@@ -6,7 +6,15 @@ import { ResultsSection } from "../components/ResultsSection";
 import { SearchForm } from "../components/SearchForm";
 import { Workflow } from "../components/Workflow";
 import { stages } from "./search-data";
-import type { Body, ResultFilter, SearchResponse } from "./search-types";
+import type {
+  Body,
+  ResultFilter,
+  SearchPreset,
+  SearchResponse,
+} from "./search-types";
+
+const RECENT_SEARCHES_KEY = "certifind:recent-searches";
+const MAX_RECENT_SEARCHES = 5;
 
 export default function Home() {
   const [iso, setIso] = useState("ISO 9001");
@@ -19,6 +27,14 @@ export default function Home() {
   const [selected, setSelected] = useState<Body | null>(null);
   const [resultFilter, setResultFilter] = useState<ResultFilter>("all");
   const [partnerOnly, setPartnerOnly] = useState(false);
+  const [recentSearches, setRecentSearches] = useState<SearchPreset[]>([]);
+
+  useEffect(() => {
+    const timeoutId = window.setTimeout(() => {
+      setRecentSearches(readRecentSearches());
+    }, 0);
+    return () => window.clearTimeout(timeoutId);
+  }, []);
 
   useEffect(() => {
     if (!selected) return;
@@ -66,6 +82,7 @@ export default function Home() {
         );
       }
       setData((await response.json()) as SearchResponse);
+      saveRecentSearch({ iso, sector, ateco });
     } catch (cause) {
       setError(
         cause instanceof Error
@@ -87,6 +104,28 @@ export default function Home() {
       await new Promise((resolve) => window.setTimeout(resolve, 300));
       setStep(index);
     }
+  }
+
+  function saveRecentSearch(searchPreset: Omit<SearchPreset, "label">) {
+    const nextSearch: SearchPreset = {
+      ...searchPreset,
+      label: `${searchPreset.sector} (${searchPreset.iso}${searchPreset.ateco ? ` • ${searchPreset.ateco}` : ""})`,
+    };
+    const nextSearches = [
+      nextSearch,
+      ...recentSearches.filter(
+        (recent) =>
+          recent.iso !== nextSearch.iso ||
+          recent.sector !== nextSearch.sector ||
+          recent.ateco !== nextSearch.ateco,
+      ),
+    ].slice(0, MAX_RECENT_SEARCHES);
+
+    setRecentSearches(nextSearches);
+    window.localStorage.setItem(
+      RECENT_SEARCHES_KEY,
+      JSON.stringify(nextSearches),
+    );
   }
 
   return (
@@ -133,6 +172,7 @@ export default function Home() {
           onIsoChange={setIso}
           onSectorChange={setSector}
           onAtecoChange={setAteco}
+          recentSearches={recentSearches}
           onSubmit={search}
         />
       </section>
@@ -157,4 +197,32 @@ export default function Home() {
       <OrganizationDrawer body={selected} iso={iso} onClose={() => setSelected(null)} />
     </main>
   );
+}
+
+function isSearchPreset(value: unknown): value is SearchPreset {
+  if (!value || typeof value !== "object") return false;
+  const preset = value as Partial<SearchPreset>;
+  return (
+    typeof preset.label === "string" &&
+    typeof preset.iso === "string" &&
+    typeof preset.sector === "string" &&
+    typeof preset.ateco === "string"
+  );
+}
+
+function readRecentSearches(): SearchPreset[] {
+  if (typeof window === "undefined") return [];
+
+  try {
+    const stored = window.localStorage.getItem(RECENT_SEARCHES_KEY);
+    if (!stored) return [];
+
+    const parsed = JSON.parse(stored);
+    return Array.isArray(parsed)
+      ? parsed.filter(isSearchPreset).slice(0, MAX_RECENT_SEARCHES)
+      : [];
+  } catch {
+    window.localStorage.removeItem(RECENT_SEARCHES_KEY);
+    return [];
+  }
 }

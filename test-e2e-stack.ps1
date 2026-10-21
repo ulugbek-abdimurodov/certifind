@@ -38,6 +38,7 @@ Write-Host "           CERTIFIND E2E STACK VERIFICATION SUITE                   
 Write-Host "           Target Gateway: $GatewayUrl                                " -ForegroundColor DarkGray
 Write-Host "======================================================================" -ForegroundColor Blue
 
+# Exactly 4 steps — keep this list in sync with the Write-StepHeader calls below.
 $results = [ordered]@{
     "Database Container"      = "PENDING"
     "Backend API via Proxy"   = "PENDING"
@@ -49,7 +50,7 @@ try {
     # -------------------------------------------------------------------------
     # STEP 1: Verify Docker Engine & Container Health
     # -------------------------------------------------------------------------
-    Write-StepHeader "1/5" "Verifying Docker Engine & PostgreSQL Container"
+    Write-StepHeader "1/4" "Verifying Docker Engine & PostgreSQL Container"
     
     $dockerCmd = Get-Command docker -ErrorAction SilentlyContinue
     if (-not $dockerCmd) {
@@ -79,7 +80,7 @@ try {
     # -------------------------------------------------------------------------
     # STEP 2: Verify Backend API via Caddy Proxy
     # -------------------------------------------------------------------------
-    Write-StepHeader "2/5" "Verifying Backend API via Reverse Proxy Gateway"
+    Write-StepHeader "2/4" "Verifying Backend API via Reverse Proxy Gateway"
     
     $healthUri = "$GatewayUrl/api/v1/health"
     $healthResponse = $null
@@ -99,7 +100,7 @@ try {
     # -------------------------------------------------------------------------
     # STEP 3: Verify Next.js Frontend Ingress & SSR
     # -------------------------------------------------------------------------
-    Write-StepHeader "3/5" "Verifying Next.js Web Application Ingress"
+    Write-StepHeader "3/4" "Verifying Next.js Web Application Ingress"
     
     $frontendResponse = $null
     try {
@@ -122,7 +123,7 @@ try {
     # -------------------------------------------------------------------------
     # STEP 4: Execute Full Search Scenario & Assert Scope Section Integrity
     # -------------------------------------------------------------------------
-    Write-StepHeader "4/5" "Executing Full Search Scenario (ISO 9001 + ATECO 88.91.00)"
+    Write-StepHeader "4/4" "Executing Full Search Scenario (ISO 9001 + ATECO 88.91.00)"
 
     $searchUri = "$GatewayUrl/api/v1/search"
     $payload = @{
@@ -142,21 +143,38 @@ try {
         throw "Search response body was empty."
     }
 
-    # Assertion 1: Total results count
+    # Assertion 1: At least one result returned.
+    # Note: the service never returns null for scopeSection — it substitutes a
+    # hardcoded fallback when the DB column is empty.  Checking >= 1 here is a
+    # genuine liveness signal; checking for a specific minimum count is brittle
+    # and should live in a dedicated data-quality test.
     $total = [int]$searchResponse.totalResults
+    if ($total -lt 1) {
+        throw "Expected at least 1 result for ATECO 88.91.00, but received: $total"
+    }
     if ($total -lt 5) {
-        throw "Expected totalResults >= 5, but received: $total"
+        Write-Host "  [WARN] Only $total result(s) returned; expected >= 5 for a realistic dataset." -ForegroundColor Yellow
     }
     Write-Pass "Search matched $total certification bodies for ATECO 88.91.00 (EA $($searchResponse.resolvedEaCode) - $($searchResponse.resolvedEaDescription))."
 
-    # Assertion 2: Verify scopeSection on every returned item
+    # Assertion 2: Verify scopeSection is backed by real DB data, not the
+    # service-layer fallback.  The service substitutes the string below when the
+    # AccreditedScope.scopeSection column is NULL, so passing this check proves
+    # that at least one row carries an actual value from the database.
+    $fallback = "Certificazione generale conforme allo standard ISO"
     $resultsList = @($searchResponse.results)
-    $invalidScopeItems = $resultsList | Where-Object { [string]::IsNullOrWhiteSpace($_.scopeSection) }
+    $fallbackOnlyItems = $resultsList | Where-Object { $_.scopeSection -eq $fallback }
+    $realScopeItems    = $resultsList | Where-Object { $_.scopeSection -ne $fallback -and -not [string]::IsNullOrWhiteSpace($_.scopeSection) }
 
-    if ($invalidScopeItems.Count -gt 0) {
-        throw "Detected $($invalidScopeItems.Count) result(s) with missing or null scopeSection!"
+    if ($realScopeItems.Count -eq 0) {
+        throw "Every result carries only the generic fallback scopeSection ('$fallback'). " +
+              "This means AccreditedScope.scopeSection is NULL in every matching DB row — " +
+              "the UI will show a meaningless placeholder for all $total card(s)."
     }
-    Write-Pass "All $total certification body cards contain non-null, descriptive scopeSection data."
+    if ($fallbackOnlyItems.Count -gt 0) {
+        Write-Host "  [WARN] $($fallbackOnlyItems.Count) of $total result(s) use the generic fallback scopeSection." -ForegroundColor Yellow
+    }
+    Write-Pass "$($realScopeItems.Count) of $total certification body cards carry a real scopeSection from the database."
     $results["Scope Section Display"] = "[OK]"
 
     # Sample data output for audit trace
@@ -167,7 +185,7 @@ try {
     Write-Host "    - Scope Section: $($resultsList[0].scopeSection)" -ForegroundColor Gray
 
     # -------------------------------------------------------------------------
-    # STEP 5: Final Report & Executive Banner
+    # Final Report
     # -------------------------------------------------------------------------
     $elapsed = ((Get-Date) - $startTime).TotalSeconds
 
@@ -184,12 +202,6 @@ try {
     }
     Write-Host ""
     Write-Host "  Execution Time : [ $([math]::Round($elapsed, 2))s ]" -ForegroundColor DarkGray
-    Write-Host ""
-    Write-Host "**********************************************************************" -ForegroundColor Green
-    Write-Host "*                                                                    *" -ForegroundColor Green
-    Write-Host "*                    READY FOR DIRECTOR DEMO                         *" -ForegroundColor Yellow
-    Write-Host "*                                                                    *" -ForegroundColor Green
-    Write-Host "**********************************************************************" -ForegroundColor Green
     Write-Host ""
 
     exit 0

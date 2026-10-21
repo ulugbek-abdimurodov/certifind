@@ -6,23 +6,21 @@ services:
     environment:
       POSTGRES_DB: ${POSTGRES_DB:-certifind_db}
       POSTGRES_USER: ${POSTGRES_USER:-postgres}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgrespassword}
-    ports:
-      - "${POSTGRES_PORT:-5432}:5432"
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD must be set}
+    # Not published on the host — only reachable inside certifind-net.
+    expose:
+      - "5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
       - ./init-db:/docker-entrypoint-initdb.d:ro
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres -d certifind_db"]
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-certifind_db}"]
       interval: 5s
       timeout: 5s
       retries: 5
       start_period: 10s
     networks:
-      certifind-net:
-        aliases:
-          - postgres
-          - certifind-postgres
+      - certifind-net
 
   backend:
     build:
@@ -31,23 +29,24 @@ services:
     container_name: certifind-backend
     restart: unless-stopped
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/certifind_db
-      SPRING_DATASOURCE_USERNAME: postgres
-      SPRING_DATASOURCE_PASSWORD: postgrespassword
-      DB_URL: jdbc:postgresql://postgres:5432/certifind_db
-      DB_USERNAME: postgres
-      DB_PASSWORD: postgrespassword
-      CORS_ALLOWED_ORIGINS: ${CORS_ALLOWED_ORIGINS:-*}
-    ports:
-      - "${BACKEND_PORT:-8080}:8080"
+      # Single source of truth: all resolved from the same env vars as postgres.
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/${POSTGRES_DB:-certifind_db}
+      SPRING_DATASOURCE_USERNAME: ${POSTGRES_USER:-postgres}
+      SPRING_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD must be set}
+    # Not published on the host — reachable only through Caddy on ports 80/443.
+    expose:
+      - "8080"
     depends_on:
       postgres:
         condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:8080/api/v1/health | grep -q UP || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 30s
     networks:
-      certifind-net:
-        aliases:
-          - backend
-          - certifind-backend
+      - certifind-net
 
   frontend:
     build:
@@ -65,12 +64,10 @@ services:
     expose:
       - "3000"
     depends_on:
-      - backend
+      backend:
+        condition: service_healthy
     networks:
-      certifind-net:
-        aliases:
-          - frontend
-          - certifind-frontend
+      - certifind-net
 
   caddy:
     image: caddy:2-alpine
@@ -86,13 +83,12 @@ services:
       - caddy_data:/data
       - caddy_config:/config
     depends_on:
-      - frontend
-      - backend
+      frontend:
+        condition: service_started
+      backend:
+        condition: service_healthy
     networks:
-      certifind-net:
-        aliases:
-          - caddy
-          - certifind-gateway
+      - certifind-net
 
 volumes:
   pgdata:

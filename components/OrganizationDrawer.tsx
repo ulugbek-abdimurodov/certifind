@@ -50,7 +50,7 @@ export function OrganizationDrawer({
         <div className="drawer-divider" />
         <section className="drawer-section">
           <div className="drawer-section-title">
-            <span>03</span> CAMPO DI APPLICAZIONE ACCREDITATO
+            <span>01</span> CAMPO DI APPLICAZIONE ACCREDITATO
           </div>
           <div className="scope-highlight">
             <strong>

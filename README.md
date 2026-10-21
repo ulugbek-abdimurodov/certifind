@@ -27,8 +27,7 @@ docker compose up -d
 Once running:
 - Web Application: [http://localhost](http://localhost) (proxied to Next.js)
 - API Endpoints: [http://localhost/api/v1/health](http://localhost/api/v1/health) (proxied to Spring Boot)
-- Direct Backend Debugging: [http://localhost:8080](http://localhost:8080)
-- PostgreSQL Database: `localhost:5432`
+- Backend and PostgreSQL are reachable only inside the Compose network.
 
 To verify the entire Dockerized stack before an executive demo, run the automated smoke test suite:
 ```powershell
@@ -62,7 +61,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). The frontend calls `http://localhost:8080` by default. Set `NEXT_PUBLIC_API_URL` in `.env.local` to use a different API origin.
+Open [http://localhost](http://localhost). The frontend uses the same-origin `/api/v1` path by default. Set `NEXT_PUBLIC_API_URL` in `.env.local` only when running against a separately hosted API.
 
 ## API
 
@@ -82,4 +81,4 @@ The response includes the resolved ATECO/EA sector and matching bodies with accr
 
 `init-db/02-seed.sql` and `init-db/03-expanded-seed.sql` provide the demo data loaded into PostgreSQL. The backend schema at `backend/src/main/resources/schema.sql` is mounted by Docker as the single schema source of truth. Contact and accreditation details are demo data and should be confirmed against current official records before being represented as independently verified.
 
-The single database uses `accreditation_bodies`, `ateco_ea_mapping`, `certification_bodies`, and `accredited_scopes`. The ATECO-to-EA relationship is stored separately from certification bodies; scope searches join through `accredited_scopes`. Database credentials and CORS origins are configured through `DB_URL`, `DB_USERNAME`, `DB_PASSWORD`, and `CORS_ALLOWED_ORIGINS`.
+The single database uses `accreditation_bodies`, `ateco_ea_mapping`, `certification_bodies`, and `accredited_scopes`. The ATECO-to-EA relationship is stored separately from certification bodies; scope searches join through `accredited_scopes`. Compose shares `POSTGRES_DB`, `POSTGRES_USER`, and `POSTGRES_PASSWORD` with Spring through `SPRING_DATASOURCE_*`; browser traffic is same-origin through Caddy, so no CORS setting is required.

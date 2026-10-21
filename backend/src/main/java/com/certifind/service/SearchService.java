@@ -6,6 +6,7 @@ import com.certifind.domain.CertificationBody;
 import com.certifind.dto.CertificationBodyCardDto;
 import com.certifind.dto.SearchRequest;
 import com.certifind.dto.SearchResponse;
+import com.certifind.exception.InvalidSearchRequestException;
 import com.certifind.repository.AccreditedScopeRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -27,14 +28,14 @@ public class SearchService {
 
     @Transactional(readOnly = true)
     public SearchResponse search(SearchRequest request) {
-        if (request == null) {
-            throw new IllegalArgumentException("Search criteria are required.");
-        }
-
         String atecoCode = normalize(request.atecoCode());
         String sectorActivity = normalize(request.sectorActivity());
+        // The @AssertTrue constraint on SearchRequest already rejects requests
+        // where both fields are blank before we reach this point. The check
+        // below is a defence-in-depth fallback (e.g. if the service is called
+        // outside the HTTP layer in a future integration test).
         if (atecoCode == null && sectorActivity == null) {
-            throw new IllegalArgumentException("Enter an ATECO code or sector activity.");
+            throw new InvalidSearchRequestException("Enter an ATECO code or sector activity.");
         }
 
         AtecoEaMapping resolvedMapping = sectorMappingResolver.resolve(atecoCode, sectorActivity);

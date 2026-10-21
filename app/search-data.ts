@@ -6,6 +6,18 @@ export const stages = [
   "Risultati",
 ];
 
+export const DEFAULT_SEARCH_FORM = {
+  iso: "ISO 9001",
+  sector: "Asilo nido",
+  ateco: "88.91.00",
+};
+
+/**
+ * Fallback API base URL used only when NEXT_PUBLIC_API_URL is not set.
+ * In production (behind Caddy) NEXT_PUBLIC_API_URL is always "/api/v1".
+ */
+export const DEFAULT_API_URL = "/api/v1";
+
 export const countryFlags: Record<string, string> = {
   Italy: "🇮🇹",
   Romania: "🇷🇴",

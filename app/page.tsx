@@ -5,9 +5,8 @@ import { OrganizationDrawer } from "../components/OrganizationDrawer";
 import { ResultsSection } from "../components/ResultsSection";
 import { SearchForm } from "../components/SearchForm";
 import { Workflow } from "../components/Workflow";
-import { DEFAULT_SEARCH_FORM } from "./search-defaults";
+import { DEFAULT_SEARCH_FORM, stages } from "./search-data";
 import { SearchApiError, searchOrganizations } from "./search-client";
-import { stages } from "./search-data";
 import type { Body, ResultFilter, SearchResponse } from "./search-types";
 
 export default function Home() {
@@ -125,7 +124,7 @@ export default function Home() {
           onSubmit={search}
         />
       </section>
-      <Workflow step={step} loading={loading} />
+      <Workflow step={step} loading={loading} hasError={error !== ""} />
       <ResultsSection
         data={data}
         error={error}

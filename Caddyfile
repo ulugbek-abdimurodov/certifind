@@ -1,33 +1,53 @@
 # ==============================================================================
 # CertiFind Reverse Proxy Configuration (Caddy 2)
 # ==============================================================================
-# Seamless entrypoint for CertiFind:
-# - Routes /api/* to Spring Boot backend (certifind-backend:8080)
-# - Routes all other traffic /* to Next.js frontend (certifind-frontend:3000)
-# - Enables gzip/zstd compression
-# - Applies standard security headers
-# - Binds to plain :80 for local demo, or automatically provisions TLS if {$DOMAIN} is set
+# All browser traffic enters on port 80 (or 443 when DOMAIN is a real hostname).
+# Caddy routes:
+#   /api/v1/* → Spring Boot backend  (certifind-backend:8080)
+#   /*        → Next.js frontend     (certifind-frontend:3000)
+#
+# Because every request goes through this single origin, CORS is not configured
+# on the backend — all requests are same-origin from the browser's perspective.
 # ==============================================================================
 
 {$DOMAIN::80} {
-	# Modern compression: zstandard and gzip
 	encode gzip zstd
+	@https protocol https
 
-	# Standard security hardening headers
 	header {
+		# Prevent the browser from rendering this page inside a frame.
 		X-Frame-Options "DENY"
+
+		# Prevent MIME-type sniffing.
 		X-Content-Type-Options "nosniff"
+
+		# Limit referrer leakage.
 		Referrer-Policy "strict-origin-when-cross-origin"
-		X-XSS-Protection "1; mode=block"
+
+		# Content-Security-Policy — tightened to what the app actually needs.
+		Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; font-src 'self' https://fonts.gstatic.com"
+
+		# Remove the upstream Server header.
 		-Server
+
+		# X-XSS-Protection is deprecated by all modern browsers; omit it.
 	}
 
-	# Route /api/* to Spring Boot backend
-	handle /api* {
-		reverse_proxy certifind-backend:8080
+	header @https {
+		Strict-Transport-Security "max-age=63072000; includeSubDomains"
 	}
 
-	# Route all other traffic /* to Next.js frontend
+	# Route /api/v1/* to the Spring Boot backend.
+	# Using @api matcher instead of handle_path so the full /api/v1/... path
+	# is forwarded unchanged (handle_path would strip the prefix).
+	@api path /api/v1 /api/v1/*
+	handle @api {
+		reverse_proxy certifind-backend:8080 {
+			header_up Host {upstream_hostport}
+		}
+	}
+
+	# All other traffic goes to the Next.js frontend.
 	handle {
 		reverse_proxy certifind-frontend:3000
 	}

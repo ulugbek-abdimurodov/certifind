@@ -3,6 +3,7 @@ package com.certifind.controller;
 import com.certifind.dto.SearchRequest;
 import com.certifind.dto.SearchResponse;
 import com.certifind.service.SearchService;
+import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -24,7 +25,7 @@ public class SearchController {
     }
 
     @PostMapping("/search")
-    public ResponseEntity<SearchResponse> search(@RequestBody SearchRequest request) {
+    public ResponseEntity<SearchResponse> search(@Valid @RequestBody SearchRequest request) {
         return ResponseEntity.ok(searchService.search(request));
     }
 }

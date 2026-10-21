@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: ${DB_URL:jdbc:postgresql://localhost:5432/certifind_db}
-    username: ${DB_USERNAME:postgres}
-    password: ${DB_PASSWORD:postgrespassword}
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/certifind_db}
+    username: ${SPRING_DATASOURCE_USERNAME:postgres}
+    password: ${SPRING_DATASOURCE_PASSWORD:${POSTGRES_PASSWORD:}}
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -21,7 +21,3 @@ spring:
   sql:
     init:
       mode: never
-
-app:
-  cors:
-    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:3000}

@@ -8,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -17,6 +18,17 @@ import com.certifind.domain.AtecoEaMapping;
 import com.certifind.repository.AccreditedScopeRepository;
 import com.certifind.repository.AtecoEaMappingRepository;
 
+/**
+ * Integration tests that require a live PostgreSQL instance with seed data.
+ *
+ * These tests are tagged "integration" and are excluded from the default
+ * unit-test phase. Run the full suite (including these) with:
+ *
+ *   ./mvnw verify                          # all tests
+ *   ./mvnw test -Dgroups=integration       # integration only
+ *   ./mvnw test -Dgroups='!integration'    # unit tests only
+ */
+@Tag("integration")
 @SpringBootTest
 class CertifindApplicationTests {
 

@@ -1,8 +1,7 @@
--- 1. Add descriptive scope section column if not exists
-ALTER TABLE accredited_scopes 
-ADD COLUMN IF NOT EXISTS scope_section TEXT;
+-- Additional accreditation bodies, ATECO mappings, and certification body seed data.
+-- Schema changes (ALTER TABLE, CREATE TABLE) belong in 01-schema.sql, not here.
 
--- 2. Add extra Accreditation Authorities (DAkkS & UKAS)
+-- 1. Extra Accreditation Authorities (DAkkS & UKAS)
 INSERT INTO accreditation_bodies (code, name, country, is_iaf_mla, website) VALUES
     ('DAkkS', 'Deutsche Akkreditierungsstelle', 'Germany', TRUE, 'https://www.dakks.de'),
     ('UKAS', 'United Kingdom Accreditation Service', 'United Kingdom', TRUE, 'https://www.ukas.com')
@@ -12,14 +11,14 @@ ON CONFLICT (code) DO UPDATE SET
     is_iaf_mla = EXCLUDED.is_iaf_mla,
     website = EXCLUDED.website;
 
--- 3. Add extra ATECO to EA Mappings
+-- 2. Extra ATECO to EA Mappings
 INSERT INTO ateco_ea_mapping (ateco_code, description, ea_code, ea_description) VALUES
     ('71.12.10', 'Attività di studi di ingegneria integrata', 34, 'Engineering Services'),
     ('10.71.10', 'Produzione di prodotti di panetteria freschi', 3, 'Food products, beverages and tobacco'),
     ('46.90.00', 'Commercio all''ingrosso non specializzato', 29, 'Wholesale and retail trade')
 ON CONFLICT DO NOTHING;
 
--- 4. Insert 24 additional Certification Bodies (Reaching 36 Total)
+-- 3. Additional Certification Bodies
 WITH ab AS (SELECT id, code FROM accreditation_bodies)
 INSERT INTO certification_bodies 
     (name, country, accreditation_body_id, has_italian_auditors, is_commercial_partner, phone, email, website, address) 

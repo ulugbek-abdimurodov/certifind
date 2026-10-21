@@ -1,6 +1,7 @@
 package com.certifind.service;
 
 import com.certifind.domain.AtecoEaMapping;
+import com.certifind.exception.InvalidSearchRequestException;
 import com.certifind.repository.AtecoEaMappingRepository;
 import org.springframework.stereotype.Service;
 
@@ -26,7 +27,7 @@ public class SectorMappingResolver {
                     .findFirstByDescriptionContainingIgnoreCase(sectorActivity);
         }
 
-        return mapping.orElseThrow(() -> new IllegalArgumentException(
+        return mapping.orElseThrow(() -> new InvalidSearchRequestException(
                 "No sector mapping found. Enter a supported ATECO code or sector activity."));
     }
 }

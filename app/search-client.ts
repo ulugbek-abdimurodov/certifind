@@ -17,8 +17,15 @@ type SearchPayload = {
 export async function searchOrganizations(
   payload: SearchPayload,
 ): Promise<SearchResponse> {
+  const baseUrl = (process.env.NEXT_PUBLIC_API_URL ?? DEFAULT_API_URL).replace(/\/+$/, "");
+  const searchUrl = baseUrl.endsWith("/api/v1")
+    ? `${baseUrl}/search`
+    : baseUrl.endsWith("/api")
+    ? `${baseUrl}/v1/search`
+    : `${baseUrl}/api/v1/search`;
+
   const response = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL ?? DEFAULT_API_URL}/api/v1/search`,
+    searchUrl,
     {
       method: "POST",
       headers: { "Content-Type": "application/json" },

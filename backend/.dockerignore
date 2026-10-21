@@ -1,0 +1,21 @@
+# Build outputs and temporary directories
+target/
+*.class
+
+# Version control and editor metadata
+.git/
+.gitignore
+.gitattributes
+.idea/
+.vscode/
+*.iml
+
+# Environment configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and system artifacts
+*.log
+.DS_Store
+Thumbs.db

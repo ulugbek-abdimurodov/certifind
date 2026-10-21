@@ -1,0 +1,34 @@
+# ==============================================================================
+# CertiFind Reverse Proxy Configuration (Caddy 2)
+# ==============================================================================
+# Seamless entrypoint for CertiFind:
+# - Routes /api/* to Spring Boot backend (certifind-backend:8080)
+# - Routes all other traffic /* to Next.js frontend (certifind-frontend:3000)
+# - Enables gzip/zstd compression
+# - Applies standard security headers
+# - Binds to plain :80 for local demo, or automatically provisions TLS if {$DOMAIN} is set
+# ==============================================================================
+
+{$DOMAIN::80} {
+	# Modern compression: zstandard and gzip
+	encode gzip zstd
+
+	# Standard security hardening headers
+	header {
+		X-Frame-Options "DENY"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		X-XSS-Protection "1; mode=block"
+		-Server
+	}
+
+	# Route /api/* to Spring Boot backend
+	handle /api* {
+		reverse_proxy certifind-backend:8080
+	}
+
+	# Route all other traffic /* to Next.js frontend
+	handle {
+		reverse_proxy certifind-frontend:3000
+	}
+}

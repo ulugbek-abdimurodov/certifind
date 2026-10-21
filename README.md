@@ -16,6 +16,32 @@ Prices, rate assumptions, and savings are not part of the API contract or UI. Se
 
 ## Start locally
 
+### Full Stack via Docker Compose & Caddy (Recommended for Demos)
+
+Start the entire coordinated application stack behind Caddy on port 80:
+
+```powershell
+docker compose up -d
+```
+
+Once running:
+- Web Application: [http://localhost](http://localhost) (proxied to Next.js)
+- API Endpoints: [http://localhost/api/v1/health](http://localhost/api/v1/health) (proxied to Spring Boot)
+- Direct Backend Debugging: [http://localhost:8080](http://localhost:8080)
+- PostgreSQL Database: `localhost:5432`
+
+To verify the entire Dockerized stack before an executive demo, run the automated smoke test suite:
+```powershell
+.\test-e2e-stack.ps1
+```
+
+To enable automatic Let's Encrypt TLS in production, provide a domain:
+```powershell
+DOMAIN=certifind.yourdomain.com docker compose up -d
+```
+
+### Manual Development (Multi-Terminal)
+
 Start PostgreSQL and load the schema and demo data on first initialization:
 
 ```powershell

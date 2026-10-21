@@ -1,5 +1,12 @@
 package com.certifind.service;
 
+import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import com.certifind.domain.AccreditedScope;
 import com.certifind.domain.AtecoEaMapping;
 import com.certifind.domain.CertificationBody;
@@ -8,11 +15,6 @@ import com.certifind.dto.SearchRequest;
 import com.certifind.dto.SearchResponse;
 import com.certifind.repository.AccreditedScopeRepository;
 import com.certifind.repository.AtecoEaMappingRepository;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
-import java.util.List;
-import java.util.Optional;
 
 @Service
 public class SearchService {
@@ -29,26 +31,35 @@ public class SearchService {
 
     @Transactional(readOnly = true)
     public SearchResponse search(SearchRequest request) {
+        if (request == null) {
+            throw new IllegalArgumentException("La richiesta di ricerca non può essere vuota.");
+        }
+
         Optional<AtecoEaMapping> mapping = Optional.empty();
 
-        // ATECO is the most specific sector criterion. When it is not supplied,
-        // resolve the free-text sector and always constrain the scope query by
-        // the resulting EA code.
+        // 1. Optional ATECO lookup (if user provided an ATECO code)
         if (request.atecoCode() != null && !request.atecoCode().isBlank()) {
-            mapping = atecoEaMappingRepository.findByAtecoCode(request.atecoCode().trim());
-        }
-        if (mapping.isEmpty() && (request.atecoCode() == null || request.atecoCode().isBlank())
-                && request.sectorActivity() != null && !request.sectorActivity().isBlank()) {
-            mapping = atecoEaMappingRepository
-                    .findFirstByDescriptionContainingIgnoreCase(request.sectorActivity().trim());
+            mapping = atecoEaMappingRepository.findFirstByAtecoCode(request.atecoCode().trim());
         }
 
-        AtecoEaMapping resolvedMapping = mapping.orElseThrow(() -> new IllegalArgumentException(
-                "No sector mapping found. Enter a supported ATECO code or sector activity."));
-        String resolvedAteco = resolvedMapping.getAtecoCode();
+        // 2. Mandatory Activity Sector lookup (matches Italian description or English EA description)
+        if (mapping.isEmpty() && request.sectorActivity() != null && !request.sectorActivity().isBlank()) {
+            String keyword = request.sectorActivity().trim();
+            mapping = atecoEaMappingRepository.findFirstByDescriptionContainingIgnoreCase(keyword)
+                    .or(() -> atecoEaMappingRepository.findFirstByEaDescriptionContainingIgnoreCase(keyword));
+        }
+
+        AtecoEaMapping resolvedMapping = mapping.orElseThrow(() ->
+                new IllegalArgumentException("Settore di attività non riconosciuto. Inserisci un settore valido (es. Asilo nido, Software, Costruzione, Ingegneria) o un codice ATECO supportato."));
+
+        // ATECO can be null when matched purely by Activity Sector
+        String resolvedAteco = (resolvedMapping.getAtecoCode() != null && !resolvedMapping.getAtecoCode().isBlank())
+                ? resolvedMapping.getAtecoCode()
+                : "N/A (Solo Settore EA)";
         int resolvedEaCode = resolvedMapping.getEaCode();
         String resolvedEaDesc = resolvedMapping.getEaDescription();
 
+        // 3. Mandatory ISO Standard (defaults to ISO 9001 if blank)
         String iso = (request.isoStandard() != null && !request.isoStandard().isBlank())
                 ? request.isoStandard().trim()
                 : "ISO 9001";
@@ -57,6 +68,10 @@ public class SearchService {
 
         List<CertificationBodyCardDto> cards = scopes.stream().map(scope -> {
             CertificationBody cb = scope.getCertificationBody();
+            String scopeSection = (scope.getScopeSection() != null && !scope.getScopeSection().isBlank())
+                    ? scope.getScopeSection()
+                    : resolvedEaDesc + " (" + iso + ")";
+
             return new CertificationBodyCardDto(
                     cb.getId(),
                     cb.getName(),
@@ -72,10 +87,12 @@ public class SearchService {
                     scope.getProofUrl(),
                     scope.getEaCode(),
                     resolvedEaDesc,
-                    scope.getScopeSection() != null ? scope.getScopeSection()
-                            : "Certificazione generale conforme allo standard ISO");
-        }).sorted(java.util.Comparator.comparing(CertificationBodyCardDto::name, String.CASE_INSENSITIVE_ORDER))
-                .toList();
+                    scopeSection
+            );
+        }).sorted(
+                Comparator.comparing(CertificationBodyCardDto::isCommercialPartner).reversed()
+                        .thenComparing(CertificationBodyCardDto::name, String.CASE_INSENSITIVE_ORDER)
+        ).toList();
 
         return new SearchResponse(resolvedAteco, resolvedEaCode, resolvedEaDesc, cards.size(), cards);
     }

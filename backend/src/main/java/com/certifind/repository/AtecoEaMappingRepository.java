@@ -1,15 +1,20 @@
 package com.certifind.repository;
 
-import com.certifind.domain.AtecoEaMapping;
+import java.util.Optional;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.Optional;
+import com.certifind.domain.AtecoEaMapping;
 
 @Repository
 public interface AtecoEaMappingRepository extends JpaRepository<AtecoEaMapping, Integer> {
 
     Optional<AtecoEaMapping> findByAtecoCode(String atecoCode);
 
+    Optional<AtecoEaMapping> findFirstByAtecoCode(String atecoCode);
+
     Optional<AtecoEaMapping> findFirstByDescriptionContainingIgnoreCase(String keyword);
+
+    Optional<AtecoEaMapping> findFirstByEaDescriptionContainingIgnoreCase(String keyword);
 }

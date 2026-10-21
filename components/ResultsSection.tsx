@@ -46,6 +46,19 @@ export function ResultsSection({
           body.accreditationBodyCode === resultFilter.slice(11));
       return matchesFilter && (!partnerOnly || body.isCommercialPartner);
     }) ?? [];
+  const resultCount = filteredResults.length;
+  const countForFilter = (filter: ResultFilter) =>
+    data?.results.filter((body) => {
+      const matchesFilter =
+        filter === "all" ||
+        (filter === "italy" && body.accreditationBodyCode === "ACCREDIA") ||
+        (filter === "foreign" &&
+          body.accreditationBodyCode !== "ACCREDIA" &&
+          body.isIafMla) ||
+        (filter.startsWith("accreditor:") &&
+          body.accreditationBodyCode === filter.slice(11));
+      return matchesFilter && (!partnerOnly || body.isCommercialPartner);
+    }).length ?? 0;
 
   return (
     <section className="results-section" id="results">
@@ -66,7 +79,7 @@ export function ResultsSection({
                 <span className="eyebrow-line" /> RISULTATI DELLA RICERCA
               </div>
               <h2>
-                {data.totalResults} organismi <em>trovati</em>
+                {resultCount} organismi <em>trovati</em>
               </h2>
               <p>
                 Per {iso} · {data.resolvedEaDescription} (EA{" "}
@@ -89,19 +102,19 @@ export function ResultsSection({
                     active={resultFilter === "all"}
                     onClick={() => onFilterChange("all")}
                   >
-                    Tutti ({data.results.length})
+                    Tutti ({countForFilter("all")})
                   </FilterButton>
                   <FilterButton
                     active={resultFilter === "italy"}
                     onClick={() => onFilterChange("italy")}
                   >
-                    Italia • ACCREDIA
+                    Italia • ACCREDIA ({countForFilter("italy")})
                   </FilterButton>
                   <FilterButton
                     active={resultFilter === "foreign"}
                     onClick={() => onFilterChange("foreign")}
                   >
-                    Estero • IAF/MLA
+                    Estero • IAF/MLA ({countForFilter("foreign")})
                   </FilterButton>
                   {accreditorCodes.map((code) => {
                     const filter = `accreditor:${code}` as const;
@@ -111,7 +124,7 @@ export function ResultsSection({
                         active={resultFilter === filter}
                         onClick={() => onFilterChange(filter)}
                       >
-                        {code}
+                        {code} ({countForFilter(filter)})
                       </FilterButton>
                     );
                   })}

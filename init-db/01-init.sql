@@ -61,8 +61,8 @@ CREATE TABLE IF NOT EXISTS accredited_scopes (
     id                    SERIAL      PRIMARY KEY,
     certification_body_id INT         NOT NULL REFERENCES certification_bodies (id) ON DELETE CASCADE,
     iso_standard          VARCHAR(50) NOT NULL,
-    ea_code               INTEGER     NOT NULL,
-    scope_section         TEXT        NOT NULL,
+    ea_code               INTEGER     NULL,
+    scope_section         TEXT        NULL,
     status                VARCHAR(20) NOT NULL DEFAULT 'ACTIVE',
     proof_url             TEXT,
     CONSTRAINT uq_cb_standard_ea UNIQUE (certification_body_id, iso_standard, ea_code)
@@ -70,7 +70,10 @@ CREATE TABLE IF NOT EXISTS accredited_scopes (
 
 -- Ensure existing containers get the column and NOT NULL rule safely
 ALTER TABLE accredited_scopes ADD COLUMN IF NOT EXISTS scope_section TEXT;
+ALTER TABLE accredited_scopes ALTER COLUMN ea_code DROP NOT NULL;
 
 CREATE INDEX IF NOT EXISTS idx_scopes_standard_ea ON accredited_scopes (iso_standard, ea_code);
 CREATE INDEX IF NOT EXISTS idx_scopes_cb_id       ON accredited_scopes (certification_body_id);
 CREATE INDEX IF NOT EXISTS idx_scopes_status      ON accredited_scopes (status);
+CREATE UNIQUE INDEX IF NOT EXISTS uq_product_scopes_body_standard
+    ON accredited_scopes (certification_body_id, iso_standard) WHERE ea_code IS NULL;

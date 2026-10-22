@@ -1,6 +1,6 @@
 -- ============================================================================
--- CertiFind Complete Seed Data (36 Certification Bodies, 62 Active Scopes)
--- Every organization has a mandatory ISO standard, EA code, and Activity Sector
+-- CertiFind Complete Seed Data (42 Certification Bodies, 68 Active Scopes)
+-- Management-system scopes use EA codes; product-certification scopes use ISO/IEC 17065
 -- ============================================================================
 
 -- 1. Accreditation Bodies (5 European IAF-MLA Authorities)
@@ -9,12 +9,34 @@ INSERT INTO accreditation_bodies (code, name, country, is_iaf_mla, website) VALU
     ('RENAR',    'RENAR - Asociatia de Acreditare din Romania', 'Romania',        TRUE, 'https://www.renar.ro'),
     ('PCA',      'PCA - Polskie Centrum Akredytacji',           'Poland',         TRUE, 'https://www.pca.gov.pl'),
     ('DAkkS',    'DAkkS - Deutsche Akkreditierungsstelle',      'Germany',        TRUE, 'https://www.dakks.de'),
-    ('UKAS',     'UKAS - United Kingdom Accreditation Service', 'United Kingdom', TRUE, 'https://www.ukas.com')
+    ('UKAS',     'UKAS - United Kingdom Accreditation Service', 'United Kingdom', TRUE, 'https://www.ukas.com'),
+    ('BATA',     'BATA - Institute for Accreditation of Bosnia and Herzegovina', 'Bosnia and Herzegovina', FALSE, 'https://www.bata.gov.ba')
 ON CONFLICT (code) DO UPDATE SET
     name       = EXCLUDED.name,
     country    = EXCLUDED.country,
     is_iaf_mla = EXCLUDED.is_iaf_mla,
     website    = EXCLUDED.website;
+
+-- Six active product certification bodies in BATA's register dated 2026-10-08.
+-- The withdrawn/cancelled register dated 2026-09-07 lists different bodies;
+-- withdrawn accreditations are not added. Product scopes are ISO/IEC 17065,
+-- not ISO management-system scopes, and do not use EA codes in this data model.
+WITH ab AS (SELECT id FROM accreditation_bodies WHERE code = 'BATA')
+INSERT INTO certification_bodies
+    (name, country, accreditation_body_id, has_italian_auditors, is_commercial_partner, phone, email, website, address)
+VALUES
+    ('Institute for Construction, Construction Materials and Non-Metals - Department for Certification of Construction Materials', 'Bosnia and Herzegovina', (SELECT id FROM ab), FALSE, FALSE, '+387 35 25 80 83', NULL, NULL, 'Kojšino 29, 75000 Tuzla'),
+    ('PRO-MOST d.o.o. Mostar', 'Bosnia and Herzegovina', (SELECT id FROM ab), FALSE, FALSE, '+387 36 33 41 88', NULL, NULL, 'Kralja Petra Krešimira IV. 14, 88000 Mostar'),
+    ('Federal Institute for Agriculture - Certification Body for Products', 'Bosnia and Herzegovina', (SELECT id FROM ab), FALSE, FALSE, '+387 33 774 241', NULL, NULL, 'Butmirska cesta 40, 71000 Sarajevo'),
+    ('Civil Institute Banja Luka - Research and Development Center 1', 'Bosnia and Herzegovina', (SELECT id FROM ab), FALSE, FALSE, '+387 51 492 118', 'sert@institutbl.com', NULL, 'Ada 24, 78000 Banja Luka'),
+    ('Federal Agro-Mediterranean Institute - Verification Body', 'Bosnia and Herzegovina', (SELECT id FROM ab), FALSE, FALSE, '+387 36 335 064', 'marijo.leko@faz.gov.ba', NULL, 'Biskupa Čule 10, 88000 Mostar'),
+    ('IRC d.o.o.', 'Bosnia and Herzegovina', (SELECT id FROM ab), FALSE, FALSE, '+387 66 022 515', 'ejla.putes@inza.ba', NULL, 'Vuka Karadžića 30, 71123 East Sarajevo')
+ON CONFLICT (name) DO UPDATE SET
+    country = EXCLUDED.country,
+    accreditation_body_id = EXCLUDED.accreditation_body_id,
+    phone = EXCLUDED.phone,
+    email = EXCLUDED.email,
+    address = EXCLUDED.address;
 
 -- 2. Activity Sector & ATECO Mappings (Supports both with ATECO and without ATECO)
 INSERT INTO ateco_ea_mapping (ateco_code, description, ea_code, ea_description) VALUES
@@ -165,3 +187,21 @@ ON CONFLICT (certification_body_id, iso_standard, ea_code) DO UPDATE SET
     scope_section = EXCLUDED.scope_section,
     status        = EXCLUDED.status,
     proof_url     = EXCLUDED.proof_url;
+
+-- BATA ISO/IEC 17065 product-certification scopes. EA code is intentionally
+-- NULL because the register certifies products, not an ISO management-system
+-- sector. Details are transcribed from the active register (2026-10-08).
+WITH cb AS (SELECT id, name FROM certification_bodies)
+INSERT INTO accredited_scopes
+    (certification_body_id, iso_standard, ea_code, scope_section, status, proof_url)
+VALUES
+    ((SELECT id FROM cb WHERE name = 'Institute for Construction, Construction Materials and Non-Metals - Department for Certification of Construction Materials'), 'ISO/IEC 17065', NULL, 'Product certification: cement; fraction stone aggregate for concrete and asphalt. Accreditation CP-04-02.', 'ACTIVE', 'http://www.bata.gov.ba/Akreditirana_tijela/Dodaci/CP/CP-04-02.pdf'),
+    ((SELECT id FROM cb WHERE name = 'PRO-MOST d.o.o. Mostar'), 'ISO/IEC 17065', NULL, 'Construction products: structural bearings, aggregate for concrete production, concrete, bituminous mixtures. Accreditation CP-135-01.', 'ACTIVE', 'http://www.bata.gov.ba/Akreditirana_tijela/Dodaci/CP/CP-135-01.pdf'),
+    ((SELECT id FROM cb WHERE name = 'Federal Institute for Agriculture - Certification Body for Products'), 'ISO/IEC 17065', NULL, 'Product certification: seeds (cereals, industrial plants-soy); planting material (vegetables, ornamental plants). Accreditation CP-67-02.', 'ACTIVE', 'http://www.bata.gov.ba/Akreditirana_tijela/Dodaci/CP/CP-67-02.pdf'),
+    ((SELECT id FROM cb WHERE name = 'Civil Institute Banja Luka - Research and Development Center 1'), 'ISO/IEC 17065', NULL, 'Product certification: concrete aggregate and fly ash for concrete; bituminous mixtures. Accreditation CP-171-02.', 'ACTIVE', 'http://www.bata.gov.ba/Akreditirana_tijela/Dodaci/CP/CP-171-02.pdf'),
+    ((SELECT id FROM cb WHERE name = 'Federal Agro-Mediterranean Institute - Verification Body'), 'ISO/IEC 17065', NULL, 'Planting materials, fruits, vegetables. Accreditation CP-45-02.', 'ACTIVE', 'http://www.bata.gov.ba/Akreditirana_tijela/Dodaci/CP/CP-45-02.pdf'),
+    ((SELECT id FROM cb WHERE name = 'IRC d.o.o.'), 'ISO/IEC 17065', NULL, 'Product certification: self-supporting insulating sandwich panels. Accreditation CP-35-02.', 'ACTIVE', 'http://www.bata.gov.ba/Akreditirana_tijela/Dodaci/CP/CP-35-02.pdf')
+ON CONFLICT (certification_body_id, iso_standard) WHERE ea_code IS NULL DO UPDATE SET
+    scope_section = EXCLUDED.scope_section,
+    status = EXCLUDED.status,
+    proof_url = EXCLUDED.proof_url;

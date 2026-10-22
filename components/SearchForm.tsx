@@ -14,6 +14,7 @@ type SearchFormProps = {
   onAtecoChange: (value: string) => void;
   recentSearches: SearchPreset[];
   onSubmit: (event: FormEvent<HTMLFormElement>) => void;
+  onShowAllCompanies: () => void;
 };
 
 export function SearchForm({
@@ -26,6 +27,7 @@ export function SearchForm({
   onAtecoChange,
   recentSearches,
   onSubmit,
+  onShowAllCompanies,
 }: SearchFormProps) {
   const presets = recentSearches.length ? recentSearches : demoPresets;
   const [sectorFocused, setSectorFocused] = useState(false);
@@ -149,6 +151,14 @@ export function SearchForm({
           )}
         </button>
       </form>
+      <button
+        className="directory-button"
+        type="button"
+        onClick={onShowAllCompanies}
+        disabled={loading}
+      >
+        Vedi tutte le aziende <span>→</span>
+      </button>
       <div className="privacy-note">
         <span>♢</span> Nessun dato aziendale viene salvato
       </div>

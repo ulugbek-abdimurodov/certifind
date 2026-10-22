@@ -20,6 +20,13 @@
       "country": "Poland",
       "is_iaf_mla": true,
       "website": "https://www.pca.gov.pl"
+    },
+    {
+      "code": "BATA",
+      "name": "BATA – Institute for Accreditation of Bosnia and Herzegovina",
+      "country": "Bosnia and Herzegovina",
+      "is_iaf_mla": false,
+      "website": "https://www.bata.gov.ba"
     }
   ],
   "ateco_ea_mapping": [
@@ -198,6 +205,78 @@
       "email": "certyfikacja@urspolska.pl",
       "website": "https://www.urs.com/pl",
       "address": "ul. Konstruktorska 11A, 02-673 Warszawa, Polska"
+    },
+    {
+      "_ref": "CB-BA-001",
+      "name": "Institute for Construction, Construction Materials and Non-Metals - Department for Certification of Construction Materials",
+      "country": "Bosnia and Herzegovina",
+      "accreditation_body_code": "BATA",
+      "has_italian_auditors": false,
+      "is_commercial_partner": false,
+      "phone": "+387 35 25 80 83",
+      "email": null,
+      "website": null,
+      "address": "Kojšino 29, 75000 Tuzla"
+    },
+    {
+      "_ref": "CB-BA-002",
+      "name": "PRO-MOST d.o.o. Mostar",
+      "country": "Bosnia and Herzegovina",
+      "accreditation_body_code": "BATA",
+      "has_italian_auditors": false,
+      "is_commercial_partner": false,
+      "phone": "+387 36 33 41 88",
+      "email": null,
+      "website": null,
+      "address": "Kralja Petra Krešimira IV. 14, 88000 Mostar"
+    },
+    {
+      "_ref": "CB-BA-003",
+      "name": "Federal Institute for Agriculture - Certification Body for Products",
+      "country": "Bosnia and Herzegovina",
+      "accreditation_body_code": "BATA",
+      "has_italian_auditors": false,
+      "is_commercial_partner": false,
+      "phone": "+387 33 774 241",
+      "email": null,
+      "website": null,
+      "address": "Butmirska cesta 40, 71000 Sarajevo"
+    },
+    {
+      "_ref": "CB-BA-004",
+      "name": "Civil Institute Banja Luka - Research and Development Center 1",
+      "country": "Bosnia and Herzegovina",
+      "accreditation_body_code": "BATA",
+      "has_italian_auditors": false,
+      "is_commercial_partner": false,
+      "phone": "+387 51 492 118",
+      "email": "sert@institutbl.com",
+      "website": null,
+      "address": "Ada 24, 78000 Banja Luka"
+    },
+    {
+      "_ref": "CB-BA-005",
+      "name": "Federal Agro-Mediterranean Institute - Verification Body",
+      "country": "Bosnia and Herzegovina",
+      "accreditation_body_code": "BATA",
+      "has_italian_auditors": false,
+      "is_commercial_partner": false,
+      "phone": "+387 36 335 064",
+      "email": "marijo.leko@faz.gov.ba",
+      "website": null,
+      "address": "Biskupa Čule 10, 88000 Mostar"
+    },
+    {
+      "_ref": "CB-BA-006",
+      "name": "IRC d.o.o.",
+      "country": "Bosnia and Herzegovina",
+      "accreditation_body_code": "BATA",
+      "has_italian_auditors": false,
+      "is_commercial_partner": false,
+      "phone": "+387 66 022 515",
+      "email": "ejla.putes@inza.ba",
+      "website": null,
+      "address": "Vuka Karadžića 30, 71123 East Sarajevo"
     }
   ],
   "accredited_scopes": [
@@ -417,6 +496,57 @@
       "ea_code": 33,
       "status": "ACTIVE",
       "proof_url": "https://www.pca.gov.pl/akredytowane-podmioty/"
+    },
+    {
+      "_cb_ref": "CB-BA-001",
+      "iso_standard": "ISO/IEC 17065",
+      "ea_code": null,
+      "scope_section": "Product certification: cement; fraction stone aggregate for concrete and asphalt. Accreditation CP-04-02.",
+      "status": "ACTIVE",
+      "proof_url": "http://www.bata.gov.ba/Akreditirana_tijela/Dodaci/CP/CP-04-02.pdf"
+    },
+    {
+      "_cb_ref": "CB-BA-002",
+      "iso_standard": "ISO/IEC 17065",
+      "ea_code": null,
+      "scope_section": "Construction products: structural bearings, aggregate for concrete production, concrete, bituminous mixtures. Accreditation CP-135-01.",
+      "status": "ACTIVE",
+      "proof_url": "http://www.bata.gov.ba/Akreditirana_tijela/Dodaci/CP/CP-135-01.pdf"
+    },
+    {
+      "_cb_ref": "CB-BA-003",
+      "iso_standard": "ISO/IEC 17065",
+      "ea_code": null,
+      "scope_section": "Product certification: seeds (cereals, industrial plants-soy); planting material (vegetables, ornamental plants). Accreditation CP-67-02.",
+      "status": "ACTIVE",
+      "proof_url": "http://www.bata.gov.ba/Akreditirana_tijela/Dodaci/CP/CP-67-02.pdf"
+    },
+    {
+      "_cb_ref": "CB-BA-004",
+      "iso_standard": "ISO/IEC 17065",
+      "ea_code": null,
+      "scope_section": "Product certification: concrete aggregate and fly ash for concrete; bituminous mixtures. Accreditation CP-171-02.",
+      "status": "ACTIVE",
+      "proof_url": "http://www.bata.gov.ba/Akreditirana_tijela/Dodaci/CP/CP-171-02.pdf"
+    },
+    {
+      "_cb_ref": "CB-BA-005",
+      "iso_standard": "ISO/IEC 17065",
+      "ea_code": null,
+      "scope_section": "Planting materials, fruits, vegetables. Accreditation CP-45-02.",
+      "status": "ACTIVE",
+      "proof_url": "http://www.bata.gov.ba/Akreditirana_tijela/Dodaci/CP/CP-45-02.pdf"
+    },
+    {
+      "_cb_ref": "CB-BA-006",
+      "iso_standard": "ISO/IEC 17065",
+      "ea_code": null,
+      "scope_section": "Product certification: self-supporting insulating sandwich panels. Accreditation CP-35-02.",
+      "status": "ACTIVE",
+      "proof_url": "http://www.bata.gov.ba/Akreditirana_tijela/Dodaci/CP/CP-35-02.pdf"
     }
+  ],
+  "source_notes": [
+    "BATA List of Accredited Conformity Assessment Bodies, dated 2026-10-08. Six active product certification bodies under ISO/IEC 17065 were added. Withdrawn/cancelled list dated 2026-09-07 was cross-checked; its two withdrawn product certification bodies were not added."
   ]
 }

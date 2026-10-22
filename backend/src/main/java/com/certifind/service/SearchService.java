@@ -15,18 +15,22 @@ import com.certifind.dto.SearchRequest;
 import com.certifind.dto.SearchResponse;
 import com.certifind.repository.AccreditedScopeRepository;
 import com.certifind.repository.AtecoEaMappingRepository;
+import com.certifind.repository.CertificationBodyRepository;
 
 @Service
 public class SearchService {
 
     private final AtecoEaMappingRepository atecoEaMappingRepository;
     private final AccreditedScopeRepository accreditedScopeRepository;
+    private final CertificationBodyRepository certificationBodyRepository;
 
     public SearchService(
             AtecoEaMappingRepository atecoEaMappingRepository,
-            AccreditedScopeRepository accreditedScopeRepository) {
+            AccreditedScopeRepository accreditedScopeRepository,
+            CertificationBodyRepository certificationBodyRepository) {
         this.atecoEaMappingRepository = atecoEaMappingRepository;
         this.accreditedScopeRepository = accreditedScopeRepository;
+        this.certificationBodyRepository = certificationBodyRepository;
     }
 
     @Transactional(readOnly = true)
@@ -94,6 +98,40 @@ public class SearchService {
                         .thenComparing(CertificationBodyCardDto::name, String.CASE_INSENSITIVE_ORDER)
         ).toList();
 
-        return new SearchResponse(resolvedAteco, resolvedEaCode, resolvedEaDesc, cards.size(), cards);
+        return new SearchResponse(resolvedAteco, resolvedEaCode, resolvedEaDesc, cards.size(), cards, false);
+    }
+
+    @Transactional(readOnly = true)
+    public SearchResponse findAllCompanies() {
+        List<CertificationBodyCardDto> cards = certificationBodyRepository.findAllWithAccreditationBody()
+                .stream()
+                .map(cb -> new CertificationBodyCardDto(
+                        cb.getId(),
+                        cb.getName(),
+                        cb.getCountry(),
+                        cb.getAccreditationBody() != null ? cb.getAccreditationBody().getCode() : "N/A",
+                        cb.getAccreditationBody() != null
+                                && Boolean.TRUE.equals(cb.getAccreditationBody().getIsIafMla()),
+                        Boolean.TRUE.equals(cb.getHasItalianAuditors()),
+                        Boolean.TRUE.equals(cb.getIsCommercialPartner()),
+                        cb.getPhone(),
+                        cb.getEmail(),
+                        cb.getWebsite(),
+                        cb.getAddress(),
+                        null,
+                        0,
+                        "Tutti gli standard e settori",
+                        "Tutti gli accreditamenti disponibili"
+                ))
+                .toList();
+
+        return new SearchResponse(
+                "Tutti",
+                0,
+                "Tutti gli standard e settori",
+                cards.size(),
+                cards,
+                true
+        );
     }
 }

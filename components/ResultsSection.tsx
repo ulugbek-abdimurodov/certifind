@@ -79,11 +79,13 @@ export function ResultsSection({
                 <span className="eyebrow-line" /> RISULTATI DELLA RICERCA
               </div>
               <h2>
-                {resultCount} organismi <em>trovati</em>
+                {resultCount} organismi{" "}
+                <em>{data.directory ? "nel database" : "trovati"}</em>
               </h2>
               <p>
-                Per {iso} · {data.resolvedEaDescription} (EA{" "}
-                {data.resolvedEaCode}) · ATECO {data.resolvedAteco}
+                {data.directory
+                  ? "Elenco completo delle aziende presenti nel database"
+                  : `Per ${iso} · ${data.resolvedEaDescription} (EA ${data.resolvedEaCode}) · ATECO ${data.resolvedAteco}`}
               </p>
             </div>
             <div className="results-mark">
@@ -172,7 +174,12 @@ export function ResultsSection({
                         <div className="result-meta">
                           <span>{body.country}</span>
                           <i /> <span>{body.accreditationBodyCode}</span>
-                          <i /> <span>{iso} · EA {body.eaCode}</span>
+                          <i />{" "}
+                          <span>
+                            {data.directory
+                              ? "Tutti gli accreditamenti"
+                              : `${iso} · EA ${body.eaCode}`}
+                          </span>
                         </div>
                         <div className="verified-label">
                           <span>✓</span> Accreditamento{" "}

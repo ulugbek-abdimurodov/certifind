@@ -7,5 +7,6 @@ public record SearchResponse(
     int resolvedEaCode,
     String resolvedEaDescription,
     int totalResults,
-    List<CertificationBodyCardDto> results
+    List<CertificationBodyCardDto> results,
+    boolean directory
 ) {}

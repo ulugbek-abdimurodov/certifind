@@ -73,6 +73,10 @@ CREATE TABLE IF NOT EXISTS accredited_scopes (
     proof_url             TEXT
 );
 
+-- Product-certification register entries may not map to ISO 9001 EA sectors.
+ALTER TABLE accredited_scopes ALTER COLUMN ea_code DROP NOT NULL;
+ALTER TABLE accredited_scopes ADD COLUMN IF NOT EXISTS scope_section TEXT;
+
 COMMENT ON COLUMN accredited_scopes.iso_standard IS 'ISO standard covered, e.g. ISO 9001, ISO 14001.';
 COMMENT ON COLUMN accredited_scopes.ea_code      IS 'EA sector code covered by this scope.';
 COMMENT ON COLUMN accredited_scopes.status       IS 'ACTIVE, SUSPENDED, or WITHDRAWN.';
@@ -82,3 +86,5 @@ COMMENT ON COLUMN accredited_scopes.proof_url    IS 'Link to the official accred
 CREATE INDEX IF NOT EXISTS idx_scopes_standard_ea ON accredited_scopes (iso_standard, ea_code);
 CREATE INDEX IF NOT EXISTS idx_scopes_cb_id       ON accredited_scopes (certification_body_id);
 CREATE INDEX IF NOT EXISTS idx_scopes_status      ON accredited_scopes (status);
+CREATE UNIQUE INDEX IF NOT EXISTS uq_product_scopes_body_standard
+    ON accredited_scopes (certification_body_id, iso_standard) WHERE ea_code IS NULL;

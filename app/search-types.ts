@@ -22,6 +22,7 @@ export type SearchResponse = {
   resolvedEaDescription: string;
   totalResults: number;
   results: Body[];
+  directory: boolean;
 };
 
 export type ResultFilter = "all" | "italy" | "foreign" | `accreditor:${string}`;

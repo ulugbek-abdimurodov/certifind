@@ -32,4 +32,9 @@ public class SearchController {
             return ResponseEntity.badRequest().build();
         }
     }
+
+    @GetMapping("/companies")
+    public ResponseEntity<SearchResponse> allCompanies() {
+        return ResponseEntity.ok(searchService.findAllCompanies());
+    }
 }

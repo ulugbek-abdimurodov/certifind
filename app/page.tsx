@@ -106,6 +106,41 @@ export default function Home() {
     }
   }
 
+  async function showAllCompanies() {
+    if (loading) return;
+    setLoading(true);
+    setError("");
+    setData(null);
+    setSelected(null);
+    setResultFilter("all");
+    setPartnerOnly(false);
+    setStep(0);
+
+    const animation = animateWorkflow();
+    try {
+      const response = await fetch(
+        `${process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8080"}/api/v1/companies`,
+      );
+      if (!response.ok) {
+        throw new Error("Impossibile caricare l'elenco delle aziende.");
+      }
+      setData((await response.json()) as SearchResponse);
+    } catch (cause) {
+      setError(
+        cause instanceof Error
+          ? cause.message
+          : "Impossibile raggiungere il servizio. Verifica che l’API sia avviata.",
+      );
+    } finally {
+      await animation;
+      setStep(stages.length - 1);
+      setLoading(false);
+      document
+        .getElementById("results")
+        ?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+
   function saveRecentSearch(searchPreset: Omit<SearchPreset, "label">) {
     const nextSearch: SearchPreset = {
       ...searchPreset,
@@ -174,6 +209,7 @@ export default function Home() {
           onAtecoChange={setAteco}
           recentSearches={recentSearches}
           onSubmit={search}
+          onShowAllCompanies={showAllCompanies}
         />
       </section>
       <Workflow step={step} loading={loading} />

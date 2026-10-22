@@ -2,7 +2,7 @@
 
 CertiFind helps Italian businesses find certification bodies with relevant accredited scopes. The current demo uses a static seed dataset and a Spring Boot API; it does not scrape accreditation directories and does not show estimated prices.
 
-## Day 3 demo
+## Next.js
 
 The Next.js interface provides:
 

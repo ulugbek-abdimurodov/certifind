@@ -84,9 +84,10 @@ are not determined by its national accreditor. The schema allows `ea_code` to
 be null for schemes whose scope is not classified with EA sectors; the source
 scope text remains stored.
 
-`init-db/01-schema.sql` and `init-db/02-seed.sql` are the only database
-initialization scripts. The seed is transactional and safe to rerun. Docker's
-entrypoint only runs initialization scripts for an empty data volume; existing
-volumes are preserved and are not reset automatically. Existing databases need
-a reviewed migration before adopting the new constraints; do not delete the
-volume just to reload demo data if it contains records you need.
+`init-db/01-schema.sql`, `init-db/02-seed.sql`, and
+`init-db/03-upgrade-existing.sql` are the only database scripts. The seed is
+transactional and safe to rerun. Docker's entrypoint runs them in order for an
+empty volume; existing volumes are preserved and are not reset automatically.
+For an existing database, back it up and apply the three scripts in order with
+`psql`. This applies the reference data before adding the new foreign keys and
+checks, without dropping the database volume.

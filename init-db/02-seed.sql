@@ -102,7 +102,9 @@ ON CONFLICT (name) DO UPDATE SET
     address = EXCLUDED.address;
 
 -- 2. Activity Sector & ATECO Mappings (Supports both with ATECO and without ATECO)
-INSERT INTO ateco_ea_mapping (ateco_code, description, ea_code, ea_description) VALUES
+INSERT INTO ateco_ea_mapping (ateco_code, description, ea_code, ea_description)
+SELECT mapping.ateco_code, mapping.description, mapping.ea_code, mapping.ea_description
+FROM (VALUES
     -- With Italian ATECO codes
     ('88.91.00', 'Asilo nido, servizi per l''infanzia e istruzione prescolare',          37, 'Education'),
     ('62.01.00', 'Produzione di software, consulenza informatica e cloud',               33, 'Information Technology'),
@@ -117,7 +119,15 @@ INSERT INTO ateco_ea_mapping (ateco_code, description, ea_code, ea_description) 
     (NULL,       'Servizi IT, sviluppo software, cybersecurity e data center',           33, 'Information Technology'),
     (NULL,       'Edilizia, cantieri, infrastrutture e impianti tecnologici',            28, 'Construction'),
     (NULL,       'Ingegneria civile, industriale, architettura e collaudi tecnici',      34, 'Engineering Services')
-ON CONFLICT (ateco_code, ea_code, description) DO NOTHING;
+) AS mapping (ateco_code, description, ea_code, ea_description)
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM ateco_ea_mapping existing
+    WHERE existing.ateco_code IS NOT DISTINCT FROM mapping.ateco_code
+      AND existing.ea_code = mapping.ea_code
+      AND existing.description = mapping.description
+)
+ON CONFLICT DO NOTHING;
 
 -- 3. Example certification bodies by accreditation authority
 WITH ab AS (SELECT id, code FROM accreditation_bodies)
@@ -276,6 +286,13 @@ ON CONFLICT (certification_body_id, iso_standard) WHERE ea_code IS NULL DO UPDAT
 -- 124 organizations; N/A values are stored as NULL.
 -- Generated from the supplied CSV; rerunning this file updates existing rows.
 -- ============================================================================
+
+-- Older seeds created DPA while Albanian company rows referenced DA. Reuse
+-- that authority row when upgrading a database that has only the old code.
+UPDATE accreditation_bodies
+SET code = 'DA', name = 'Directorate of Accreditation (DA)', country = 'Albania'
+WHERE code = 'DPA'
+  AND NOT EXISTS (SELECT 1 FROM accreditation_bodies WHERE code = 'DA');
 
 INSERT INTO accreditation_bodies (code, name, country, is_iaf_mla, website) VALUES
     ('DA', 'Directorate of Accreditation (DA)', 'Albania', TRUE, NULL)

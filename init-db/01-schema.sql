@@ -31,10 +31,13 @@ CREATE TABLE IF NOT EXISTS ateco_ea_mapping (
     id              SERIAL PRIMARY KEY,
     ateco_code      VARCHAR(20),
     description     TEXT NOT NULL,
-    ea_code         INTEGER NOT NULL REFERENCES ea_sector(code),
+    ea_code         INTEGER NOT NULL,
     ea_description  VARCHAR(255) NOT NULL,
-    CONSTRAINT uq_ateco_ea_description UNIQUE NULLS NOT DISTINCT (ateco_code, ea_code, description)
+    CONSTRAINT fk_ateco_ea_sector FOREIGN KEY (ea_code) REFERENCES ea_sector(code)
 );
+
+CREATE UNIQUE INDEX IF NOT EXISTS uq_ateco_ea_description
+    ON ateco_ea_mapping (COALESCE(ateco_code, ''), ea_code, description);
 
 CREATE TABLE IF NOT EXISTS certification_bodies (
     id                    SERIAL PRIMARY KEY,
@@ -47,22 +50,30 @@ CREATE TABLE IF NOT EXISTS certification_bodies (
     address               TEXT
 );
 
+CREATE INDEX IF NOT EXISTS idx_cb_accreditation_body
+    ON certification_bodies (accreditation_body_id);
+
 CREATE TABLE IF NOT EXISTS accredited_scopes (
     id                    SERIAL PRIMARY KEY,
     certification_body_id INTEGER NOT NULL REFERENCES certification_bodies(id) ON DELETE CASCADE,
-    iso_standard          VARCHAR(50) NOT NULL REFERENCES iso_standard(code) ON DELETE RESTRICT,
-    ea_code               INTEGER REFERENCES ea_sector(code) ON DELETE RESTRICT,
+    iso_standard          VARCHAR(50) NOT NULL,
+    ea_code               INTEGER,
     scope_section         TEXT,
-    status                VARCHAR(20) NOT NULL DEFAULT 'ACTIVE'
-                              CHECK (status IN ('ACTIVE', 'SUSPENDED', 'WITHDRAWN', 'EXPIRED')),
+    status                VARCHAR(20) NOT NULL DEFAULT 'ACTIVE',
     accreditation_date    DATE,
     expiration_date       DATE,
     proof_url             TEXT,
+    CONSTRAINT fk_scope_standard FOREIGN KEY (iso_standard) REFERENCES iso_standard(code) ON DELETE RESTRICT,
+    CONSTRAINT fk_scope_ea_sector FOREIGN KEY (ea_code) REFERENCES ea_sector(code) ON DELETE RESTRICT,
+    CONSTRAINT ck_scope_status CHECK (status IN ('ACTIVE', 'SUSPENDED', 'WITHDRAWN', 'EXPIRED')),
     CONSTRAINT uq_cb_standard_ea UNIQUE (certification_body_id, iso_standard, ea_code),
     CONSTRAINT ck_scope_dates CHECK (
         accreditation_date IS NULL OR expiration_date IS NULL OR expiration_date >= accreditation_date
     )
 );
+
+ALTER TABLE accredited_scopes ADD COLUMN IF NOT EXISTS accreditation_date DATE;
+ALTER TABLE accredited_scopes ADD COLUMN IF NOT EXISTS expiration_date DATE;
 
 -- PostgreSQL UNIQUE constraints treat NULL values as distinct, so product or
 -- other non-EA scopes use a separate uniqueness rule.
@@ -72,9 +83,9 @@ CREATE UNIQUE INDEX IF NOT EXISTS uq_product_scopes_body_standard
 
 -- Match the backend's ISO + EA + status search and company detail lookups.
 CREATE INDEX IF NOT EXISTS idx_scopes_search
-    ON accredited_scopes (iso_standard, ea_code, status);
+    ON accredited_scopes (iso_standard, status, ea_code);
 CREATE INDEX IF NOT EXISTS idx_scopes_by_company
-    ON accredited_scopes (certification_body_id, iso_standard, ea_code);
+    ON accredited_scopes (certification_body_id, ea_code, iso_standard);
 CREATE INDEX IF NOT EXISTS idx_ateco_mapping_code
     ON ateco_ea_mapping (ateco_code)
     WHERE ateco_code IS NOT NULL;

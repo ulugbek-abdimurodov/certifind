@@ -12,6 +12,7 @@ export const countryFlags: Record<string, string> = {
   Poland: "🇵🇱",
   Germany: "🇩🇪",
   "United Kingdom": "🇬🇧",
+  Albania: "🇦🇱",
 };
 
 export const demoPresets = [
@@ -39,12 +40,4 @@ export const demoPresets = [
     sector: "Studi di ingegneria",
     ateco: "71.12.10",
   },
-];
-
-export const supportedSectors = [
-  "Asilo nido e servizi per l'infanzia",
-  "Produzione di software, consulenza informatica e attività connesse",
-  "Costruzione di edifici residenziali e non residenziali",
-  "Ristorazione con somministrazione",
-  "Lavori di meccanica generale",
 ];

@@ -8,9 +8,7 @@ type ResultsSectionProps = {
   error: string;
   iso: string;
   resultFilter: ResultFilter;
-  partnerOnly: boolean;
   onFilterChange: (filter: ResultFilter) => void;
-  onPartnerChange: (onlyPartners: boolean) => void;
   onSelect: (body: SearchResponse["results"][number]) => void;
 };
 
@@ -19,9 +17,7 @@ export function ResultsSection({
   error,
   iso,
   resultFilter,
-  partnerOnly,
   onFilterChange,
-  onPartnerChange,
   onSelect,
 }: ResultsSectionProps) {
   const accreditorCodes = data
@@ -44,7 +40,7 @@ export function ResultsSection({
           body.isIafMla) ||
         (resultFilter.startsWith("accreditor:") &&
           body.accreditationBodyCode === resultFilter.slice(11));
-      return matchesFilter && (!partnerOnly || body.isCommercialPartner);
+      return matchesFilter;
     }) ?? [];
   const resultCount = filteredResults.length;
   const countForFilter = (filter: ResultFilter) =>
@@ -57,7 +53,7 @@ export function ResultsSection({
           body.isIafMla) ||
         (filter.startsWith("accreditor:") &&
           body.accreditationBodyCode === filter.slice(11));
-      return matchesFilter && (!partnerOnly || body.isCommercialPartner);
+      return matchesFilter;
     }).length ?? 0;
 
   return (
@@ -131,18 +127,6 @@ export function ResultsSection({
                     );
                   })}
                 </div>
-                <label
-                  className={`partner-filter ${
-                    partnerOnly ? "partner-filter-active" : ""
-                  }`}
-                >
-                  <input
-                    type="checkbox"
-                    checked={partnerOnly}
-                    onChange={(event) => onPartnerChange(event.target.checked)}
-                  />
-                  <span>Solo Partner CertiFind</span>
-                </label>
               </div>
               {filteredResults.length ? (
                 <div className="results-list">
@@ -162,11 +146,6 @@ export function ResultsSection({
                       <div className="result-main">
                         <div className="name-line">
                           <h3>{body.name}</h3>
-                          {body.isCommercialPartner && (
-                            <span className="partner-pill">
-                              <span>✦</span> Partner
-                            </span>
-                          )}
                         </div>
                         <div className="scope-subtitle">
                           Scopo accreditato: {body.scopeSection}

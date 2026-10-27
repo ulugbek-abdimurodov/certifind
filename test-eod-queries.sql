@@ -27,8 +27,6 @@ SELECT
     cb.name                                                    AS certification_body,
     cb.country,
     ab.code                                                    AS accreditor,
-    cb.has_italian_auditors,
-    cb.is_commercial_partner,
     s.status,
     s.proof_url
 FROM ateco_ea_mapping aem
@@ -101,7 +99,7 @@ FROM accredited_scopes s
 JOIN certification_bodies cb ON cb.id = s.certification_body_id
 JOIN ateco_ea_mapping aem ON aem.ea_code = s.ea_code
 WHERE aem.ateco_code = '88.91.00' AND s.iso_standard = 'ISO 9001'
-  AND s.status = 'ACTIVE' AND cb.has_italian_auditors = FALSE;
+  AND s.status = 'ACTIVE';
 
 
 -- 4. Basic data integrity

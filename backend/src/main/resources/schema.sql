@@ -39,6 +39,12 @@ COMMENT ON COLUMN ateco_ea_mapping.ea_code    IS 'Numeric EA sector code, e.g. 3
 CREATE INDEX IF NOT EXISTS idx_ateco_ea_ateco_code ON ateco_ea_mapping (ateco_code);
 CREATE INDEX IF NOT EXISTS idx_ateco_ea_ea_code    ON ateco_ea_mapping (ea_code);
 
+CREATE TABLE IF NOT EXISTS ea_sector (
+    code     INTEGER PRIMARY KEY,
+    name_en  VARCHAR(200) NOT NULL,
+    name_it  VARCHAR(200)
+);
+
 
 -- Certification bodies accredited by one of the accreditation_bodies above.
 CREATE TABLE IF NOT EXISTS certification_bodies (
@@ -46,8 +52,6 @@ CREATE TABLE IF NOT EXISTS certification_bodies (
     name                  VARCHAR(255)   NOT NULL,
     country               VARCHAR(100)   NOT NULL,
     accreditation_body_id INT            REFERENCES accreditation_bodies (id) ON DELETE CASCADE,
-    has_italian_auditors  BOOLEAN        NOT NULL DEFAULT TRUE,
-    is_commercial_partner BOOLEAN        NOT NULL DEFAULT FALSE,
     phone                 VARCHAR(50),
     email                 VARCHAR(100),
     website               VARCHAR(255),
@@ -56,10 +60,9 @@ CREATE TABLE IF NOT EXISTS certification_bodies (
 
 ALTER TABLE certification_bodies DROP COLUMN IF EXISTS custom_daily_rate_eur;
 
-COMMENT ON COLUMN certification_bodies.is_commercial_partner IS 'TRUE when this CB has a commercial agreement with CertiFind.';
-
 CREATE INDEX IF NOT EXISTS idx_cb_accreditation_body ON certification_bodies (accreditation_body_id);
-CREATE INDEX IF NOT EXISTS idx_cb_commercial_partner ON certification_bodies (is_commercial_partner);
+ALTER TABLE certification_bodies DROP COLUMN IF EXISTS has_italian_auditors;
+ALTER TABLE certification_bodies DROP COLUMN IF EXISTS is_commercial_partner;
 
 
 -- One row per (certification body, ISO standard, EA sector) accreditation scope.
@@ -70,6 +73,8 @@ CREATE TABLE IF NOT EXISTS accredited_scopes (
     iso_standard          VARCHAR(50) NOT NULL,
     ea_code               INTEGER     NOT NULL,
     status                VARCHAR(20) NOT NULL DEFAULT 'ACTIVE',
+    accreditation_date    DATE,
+    expiration_date       DATE,
     proof_url             TEXT
 );
 

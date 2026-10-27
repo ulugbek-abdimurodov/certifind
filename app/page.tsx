@@ -11,6 +11,7 @@ import type {
   ResultFilter,
   SearchPreset,
   SearchResponse,
+  SearchOptions,
 } from "./search-types";
 
 const RECENT_SEARCHES_KEY = "certifind:recent-searches";
@@ -26,14 +27,24 @@ export default function Home() {
   const [error, setError] = useState("");
   const [selected, setSelected] = useState<Body | null>(null);
   const [resultFilter, setResultFilter] = useState<ResultFilter>("all");
-  const [partnerOnly, setPartnerOnly] = useState(false);
   const [recentSearches, setRecentSearches] = useState<SearchPreset[]>([]);
+  const [options, setOptions] = useState<SearchOptions>({ standards: [], sectors: [] });
 
   useEffect(() => {
     const timeoutId = window.setTimeout(() => {
       setRecentSearches(readRecentSearches());
     }, 0);
     return () => window.clearTimeout(timeoutId);
+  }, []);
+
+  useEffect(() => {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8080"}/api/v1/options`)
+      .then((response) => {
+        if (!response.ok) throw new Error("Impossibile caricare le opzioni dal database.");
+        return response.json() as Promise<SearchOptions>;
+      })
+      .then(setOptions)
+      .catch(() => setError("Impossibile caricare standard e settori dal database."));
   }, []);
 
   useEffect(() => {
@@ -57,7 +68,6 @@ export default function Home() {
     setData(null);
     setSelected(null);
     setResultFilter("all");
-    setPartnerOnly(false);
     setStep(0);
 
     const animation = animateWorkflow();
@@ -113,7 +123,6 @@ export default function Home() {
     setData(null);
     setSelected(null);
     setResultFilter("all");
-    setPartnerOnly(false);
     setStep(0);
 
     const animation = animateWorkflow();
@@ -210,6 +219,7 @@ export default function Home() {
           recentSearches={recentSearches}
           onSubmit={search}
           onShowAllCompanies={showAllCompanies}
+          options={options}
         />
       </section>
       <Workflow step={step} loading={loading} />
@@ -218,9 +228,7 @@ export default function Home() {
         error={error}
         iso={iso}
         resultFilter={resultFilter}
-        partnerOnly={partnerOnly}
         onFilterChange={setResultFilter}
-        onPartnerChange={setPartnerOnly}
         onSelect={setSelected}
       />
       <footer>

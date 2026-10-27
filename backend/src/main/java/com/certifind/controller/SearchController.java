@@ -2,6 +2,7 @@ package com.certifind.controller;
 
 import com.certifind.dto.SearchRequest;
 import com.certifind.dto.SearchResponse;
+import com.certifind.dto.SearchOptionsResponse;
 import com.certifind.service.SearchService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -22,6 +23,11 @@ public class SearchController {
     @GetMapping("/health")
     public ResponseEntity<Map<String, String>> health() {
         return ResponseEntity.ok(Map.of("status", "UP"));
+    }
+
+    @GetMapping("/options")
+    public ResponseEntity<SearchOptionsResponse> options() {
+        return ResponseEntity.ok(searchService.getOptions());
     }
 
     @PostMapping("/search")

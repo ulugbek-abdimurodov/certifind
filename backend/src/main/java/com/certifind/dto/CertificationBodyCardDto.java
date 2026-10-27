@@ -6,8 +6,6 @@ public record CertificationBodyCardDto(
     String country,
     String accreditationBodyCode,
     boolean isIafMla,
-    boolean hasItalianAuditors,
-    boolean isCommercialPartner,
     String phone,
     String email,
     String website,

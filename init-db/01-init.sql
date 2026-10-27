@@ -37,14 +37,18 @@ ALTER TABLE ateco_ea_mapping ALTER COLUMN ateco_code DROP NOT NULL;
 CREATE INDEX IF NOT EXISTS idx_ateco_ea_ateco_code ON ateco_ea_mapping (ateco_code);
 CREATE INDEX IF NOT EXISTS idx_ateco_ea_ea_code    ON ateco_ea_mapping (ea_code);
 
+CREATE TABLE IF NOT EXISTS ea_sector (
+    code     INTEGER PRIMARY KEY,
+    name_en  VARCHAR(200) NOT NULL,
+    name_it  VARCHAR(200)
+);
+
 -- 3. Accredited Certification Bodies (CABs)
 CREATE TABLE IF NOT EXISTS certification_bodies (
     id                    SERIAL       PRIMARY KEY,
     name                  VARCHAR(255) UNIQUE NOT NULL,
     country               VARCHAR(100) NOT NULL,
     accreditation_body_id INT          NOT NULL REFERENCES accreditation_bodies (id) ON DELETE CASCADE,
-    has_italian_auditors  BOOLEAN      NOT NULL DEFAULT TRUE,
-    is_commercial_partner BOOLEAN      NOT NULL DEFAULT FALSE,
     phone                 VARCHAR(50),
     email                 VARCHAR(100),
     website               VARCHAR(255),
@@ -54,7 +58,8 @@ CREATE TABLE IF NOT EXISTS certification_bodies (
 ALTER TABLE certification_bodies DROP COLUMN IF EXISTS custom_daily_rate_eur;
 
 CREATE INDEX IF NOT EXISTS idx_cb_accreditation_body ON certification_bodies (accreditation_body_id);
-CREATE INDEX IF NOT EXISTS idx_cb_commercial_partner ON certification_bodies (is_commercial_partner);
+ALTER TABLE certification_bodies DROP COLUMN IF EXISTS has_italian_auditors;
+ALTER TABLE certification_bodies DROP COLUMN IF EXISTS is_commercial_partner;
 
 -- 4. Accredited Scopes (Every CAB MUST have ISO Standard + EA Code + Activity Sector)
 CREATE TABLE IF NOT EXISTS accredited_scopes (
@@ -64,6 +69,8 @@ CREATE TABLE IF NOT EXISTS accredited_scopes (
     ea_code               INTEGER     NULL,
     scope_section         TEXT        NULL,
     status                VARCHAR(20) NOT NULL DEFAULT 'ACTIVE',
+    accreditation_date    DATE,
+    expiration_date       DATE,
     proof_url             TEXT,
     CONSTRAINT uq_cb_standard_ea UNIQUE (certification_body_id, iso_standard, ea_code)
 );

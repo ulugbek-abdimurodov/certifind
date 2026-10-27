@@ -29,12 +29,6 @@ public class CertificationBody {
     @JoinColumn(name = "accreditation_body_id")
     private AccreditationBody accreditationBody;
 
-    @Column(name = "has_italian_auditors", nullable = false)
-    private Boolean hasItalianAuditors = true;
-
-    @Column(name = "is_commercial_partner", nullable = false)
-    private Boolean isCommercialPartner = false;
-
     @Column(name = "phone", length = 50)
     private String phone;
 
@@ -51,14 +45,11 @@ public class CertificationBody {
     }
 
     public CertificationBody(String name, String country, AccreditationBody accreditationBody,
-                             Boolean hasItalianAuditors, Boolean isCommercialPartner,
                              String phone, String email,
                              String website, String address) {
         this.name = name;
         this.country = country;
         this.accreditationBody = accreditationBody;
-        this.hasItalianAuditors = hasItalianAuditors;
-        this.isCommercialPartner = isCommercialPartner;
         this.phone = phone;
         this.email = email;
         this.website = website;
@@ -95,22 +86,6 @@ public class CertificationBody {
 
     public void setAccreditationBody(AccreditationBody accreditationBody) {
         this.accreditationBody = accreditationBody;
-    }
-
-    public Boolean getHasItalianAuditors() {
-        return hasItalianAuditors;
-    }
-
-    public void setHasItalianAuditors(Boolean hasItalianAuditors) {
-        this.hasItalianAuditors = hasItalianAuditors;
-    }
-
-    public Boolean getIsCommercialPartner() {
-        return isCommercialPartner;
-    }
-
-    public void setIsCommercialPartner(Boolean isCommercialPartner) {
-        this.isCommercialPartner = isCommercialPartner;
     }
 
     public String getPhone() {
@@ -163,8 +138,6 @@ public class CertificationBody {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", country='" + country + '\'' +
-                ", hasItalianAuditors=" + hasItalianAuditors +
-                ", isCommercialPartner=" + isCommercialPartner +
                 '}';
     }
 }

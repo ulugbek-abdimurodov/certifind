@@ -11,6 +11,12 @@ import java.util.List;
 @Repository
 public interface AccreditedScopeRepository extends JpaRepository<AccreditedScope, Integer> {
 
+    @Query("SELECT DISTINCT s.isoStandard FROM AccreditedScope s ORDER BY s.isoStandard")
+    List<String> findDistinctIsoStandards();
+
+    @Query("SELECT DISTINCT s.eaCode FROM AccreditedScope s WHERE s.eaCode IS NOT NULL ORDER BY s.eaCode")
+    List<Integer> findDistinctEaCodes();
+
     @Query("""
         SELECT s FROM AccreditedScope s
         JOIN FETCH s.certificationBody cb
@@ -18,7 +24,7 @@ public interface AccreditedScopeRepository extends JpaRepository<AccreditedScope
         WHERE s.isoStandard = :isoStandard
           AND s.eaCode = :eaCode
           AND s.status = 'ACTIVE'
-        ORDER BY cb.isCommercialPartner DESC, cb.name ASC
+        ORDER BY cb.name ASC
     """)
     List<AccreditedScope> findActiveScopesWithCabAndAb(
         @Param("isoStandard") String isoStandard,

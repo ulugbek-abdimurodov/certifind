@@ -12,10 +12,9 @@ public interface CertificationBodyRepository extends JpaRepository<Certification
     @Query("""
         SELECT cb FROM CertificationBody cb
         LEFT JOIN FETCH cb.accreditationBody
-        ORDER BY cb.isCommercialPartner DESC, cb.name ASC
+        ORDER BY cb.name ASC
     """)
     List<CertificationBody> findAllWithAccreditationBody();
 
     List<CertificationBody> findByCountry(String country);
-    List<CertificationBody> findByIsCommercialPartnerTrue();
 }

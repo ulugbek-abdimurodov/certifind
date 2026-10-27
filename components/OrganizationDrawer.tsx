@@ -108,22 +108,6 @@ export function OrganizationDrawer({
               ok
               detail={`${iso} · EA ${body.eaCode}`}
             />
-            <Criterion
-              label="Auditor di lingua italiana"
-              ok={body.hasItalianAuditors}
-              detail={
-                body.hasItalianAuditors ? "Disponibilità indicata" : "Non indicati"
-              }
-            />
-            <Criterion
-              label="Partner commerciale"
-              ok={body.isCommercialPartner}
-              detail={
-                body.isCommercialPartner
-                  ? "Partner CertiFind"
-                  : "Collaborazione da valutare"
-              }
-            />
           </div>
         </section>
         {body.proofUrl && (

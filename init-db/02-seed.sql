@@ -23,7 +23,7 @@ ON CONFLICT (code) DO UPDATE SET
 -- not ISO management-system scopes, and do not use EA codes in this data model.
 WITH ab AS (SELECT id FROM accreditation_bodies WHERE code = 'BATA')
 INSERT INTO certification_bodies
-    (name, country, accreditation_body_id, has_italian_auditors, is_commercial_partner, phone, email, website, address)
+    (name, country, accreditation_body_id, phone, email, website, address)
 VALUES
     ('Institute for Construction, Construction Materials and Non-Metals - Department for Certification of Construction Materials', 'Bosnia and Herzegovina', (SELECT id FROM ab), FALSE, FALSE, '+387 35 25 80 83', NULL, NULL, 'Kojšino 29, 75000 Tuzla'),
     ('PRO-MOST d.o.o. Mostar', 'Bosnia and Herzegovina', (SELECT id FROM ab), FALSE, FALSE, '+387 36 33 41 88', NULL, NULL, 'Kralja Petra Krešimira IV. 14, 88000 Mostar'),
@@ -59,7 +59,7 @@ ON CONFLICT (ateco_code, ea_code, description) DO NOTHING;
 -- 3. Certification Bodies (36 Verified Organizations)
 WITH ab AS (SELECT id, code FROM accreditation_bodies)
 INSERT INTO certification_bodies
-    (name, country, accreditation_body_id, has_italian_auditors, is_commercial_partner, phone, email, website, address)
+    (name, country, accreditation_body_id, phone, email, website, address)
 VALUES
     -- ITALY (ACCREDIA - 12 Bodies)
     ('SGS Italia S.p.A.',                   'Italy', (SELECT id FROM ab WHERE code = 'ACCREDIA'), TRUE, TRUE,  '+39 02 73931',     'it.certification@sgs.com',    'https://www.sgs.com/it-it',                  'Via Caldera 21, 20153 Milano MI, Italia'),
@@ -109,8 +109,6 @@ VALUES
 ON CONFLICT (name) DO UPDATE SET
     country               = EXCLUDED.country,
     accreditation_body_id = EXCLUDED.accreditation_body_id,
-    has_italian_auditors  = EXCLUDED.has_italian_auditors,
-    is_commercial_partner = EXCLUDED.is_commercial_partner,
     phone                 = EXCLUDED.phone,
     email                 = EXCLUDED.email,
     website               = EXCLUDED.website,

@@ -4,8 +4,6 @@ export type Body = {
   country: string;
   accreditationBodyCode: string;
   isIafMla: boolean;
-  hasItalianAuditors: boolean;
-  isCommercialPartner: boolean;
   phone: string | null;
   email: string | null;
   website: string | null;
@@ -23,6 +21,11 @@ export type SearchResponse = {
   totalResults: number;
   results: Body[];
   directory: boolean;
+};
+
+export type SearchOptions = {
+  standards: string[];
+  sectors: { code: number; name: string }[];
 };
 
 export type ResultFilter = "all" | "italy" | "foreign" | `accreditor:${string}`;

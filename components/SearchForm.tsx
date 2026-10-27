@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { demoPresets, supportedSectors } from "../app/search-data";
-import type { SearchPreset } from "../app/search-types";
+import { demoPresets } from "../app/search-data";
+import type { SearchOptions, SearchPreset } from "../app/search-types";
 
 type SearchFormProps = {
   iso: string;
@@ -15,6 +15,7 @@ type SearchFormProps = {
   recentSearches: SearchPreset[];
   onSubmit: (event: FormEvent<HTMLFormElement>) => void;
   onShowAllCompanies: () => void;
+  options: SearchOptions;
 };
 
 export function SearchForm({
@@ -28,14 +29,15 @@ export function SearchForm({
   recentSearches,
   onSubmit,
   onShowAllCompanies,
+  options,
 }: SearchFormProps) {
   const presets = recentSearches.length ? recentSearches : demoPresets;
   const [sectorFocused, setSectorFocused] = useState(false);
   const sectorQuery = sector.trim().toLocaleLowerCase();
-  const sectorSuggestions = supportedSectors.filter(
+  const sectorSuggestions = options.sectors.filter(
     (option) =>
       sectorQuery.length === 0 ||
-      option.toLocaleLowerCase().includes(sectorQuery),
+      `EA ${option.code} ${option.name}`.toLocaleLowerCase().includes(sectorQuery),
   );
 
   return (
@@ -77,9 +79,9 @@ export function SearchForm({
             value={iso}
             onChange={(event) => onIsoChange(event.target.value)}
           >
-            <option>ISO 9001</option>
-            <option>ISO 14001</option>
-            <option>ISO 45001</option>
+            {options.standards.map((standard) => (
+              <option key={standard}>{standard}</option>
+            ))}
           </select>
           <span className="select-chevron">⌄</span>
         </div>
@@ -113,17 +115,17 @@ export function SearchForm({
               {sectorSuggestions.map((suggestion) => (
                 <button
                   className="sector-suggestion"
-                  key={suggestion}
+                  key={suggestion.code}
                   type="button"
                   role="option"
                   aria-selected={false}
                   onMouseDown={() => {
-                    onSectorChange(suggestion);
+                    onSectorChange(`EA ${suggestion.code} - ${suggestion.name}`);
                     onAtecoChange("");
                     setSectorFocused(false);
                   }}
                 >
-                  {suggestion}
+                  EA {suggestion.code} - {suggestion.name}
                 </button>
               ))}
             </div>

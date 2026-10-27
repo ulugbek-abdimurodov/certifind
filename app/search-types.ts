@@ -1,8 +1,9 @@
 export type AccreditationScope = {
-  eaCode: number;
+  eaCode: number | null;
   eaDescription: string;
   scopeSection: string;
   proofUrl: string | null;
+  isoStandard: string;
 };
 
 export type Body = {

@@ -157,7 +157,11 @@ export function ResultsSection({
                           <span>
                             {data.directory
                               ? body.scopes?.length
-                                ? body.scopes.map((scope) => `EA ${scope.eaCode}`).join(", ")
+                                ? body.scopes
+                                    .map((scope) => scope.eaCode == null
+                                      ? `${scope.isoStandard} (non-EA)`
+                                      : `EA ${scope.eaCode}`)
+                                    .join(", ")
                                 : "Nessun settore disponibile"
                               : `${iso} · EA ${body.scopes?.map((scope) => scope.eaCode).join(", EA ") || body.eaCode}`}
                           </span>

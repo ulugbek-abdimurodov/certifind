@@ -26,7 +26,7 @@ public class CertificationBody {
     private String country;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "accreditation_body_id")
+    @JoinColumn(name = "accreditation_body_id", nullable = false)
     private AccreditationBody accreditationBody;
 
     @Column(name = "phone", length = 50)

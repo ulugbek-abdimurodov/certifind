@@ -125,7 +125,8 @@ public class SearchService {
                                     candidate.getScopeSection() != null && !candidate.getScopeSection().isBlank()
                                             ? candidate.getScopeSection()
                                             : getSectorName(candidate.getEaCode()) + " (" + iso + ")",
-                                    candidate.getProofUrl()))
+                                    candidate.getProofUrl(),
+                                    candidate.getIsoStandard()))
                             .toList();
                     String scopeSection = groupedScopes.stream()
                             .map(AccreditationScopeDto::scopeSection)
@@ -163,7 +164,6 @@ public class SearchService {
     public SearchResponse findAllCompanies() {
         Map<Integer, List<AccreditedScope>> scopesByBody =
                 accreditedScopeRepository.findAllScopesWithCertificationBody().stream()
-                        .filter(scope -> scope.getEaCode() != null)
                         .collect(Collectors.groupingBy(
                                 scope -> scope.getCertificationBody().getId(),
                                 LinkedHashMap::new,
@@ -177,20 +177,26 @@ public class SearchService {
                             .stream()
                             .map(scope -> new AccreditationScopeDto(
                                     scope.getEaCode(),
-                                    getSectorName(scope.getEaCode()),
+                                    scope.getEaCode() == null ? "Non-EA scope" : getSectorName(scope.getEaCode()),
                                     scope.getScopeSection() != null && !scope.getScopeSection().isBlank()
                                             ? scope.getScopeSection()
-                                            : getSectorName(scope.getEaCode()) + " (" + scope.getIsoStandard() + ")",
-                                    scope.getProofUrl()))
+                                            : (scope.getEaCode() == null ? "Accredited scope" : getSectorName(scope.getEaCode()))
+                                                    + " (" + scope.getIsoStandard() + ")",
+                                    scope.getProofUrl(),
+                                    scope.getIsoStandard()))
                             .collect(Collectors.collectingAndThen(
                                     Collectors.toMap(
-                                            scope -> scope.eaCode(),
+                                            scope -> scope.eaCode() == null
+                                                    ? "STANDARD:" + scope.isoStandard()
+                                                    : "EA:" + scope.eaCode(),
                                             scope -> scope,
                                             (first, ignored) -> first,
                                             LinkedHashMap::new),
                                     values -> values.values().stream().toList()));
                     String scopeSection = scopes.stream()
-                            .map(scope -> "EA " + scope.eaCode() + ": " + scope.scopeSection())
+                            .map(scope -> scope.eaCode() == null
+                                    ? scope.isoStandard() + ": " + scope.scopeSection()
+                                    : "EA " + scope.eaCode() + ": " + scope.scopeSection())
                             .collect(Collectors.joining(" / "));
                     AccreditationScopeDto firstScope = scopes.isEmpty() ? null : scopes.get(0);
 
@@ -206,7 +212,7 @@ public class SearchService {
                         cb.getWebsite(),
                         cb.getAddress(),
                         firstScope != null ? firstScope.proofUrl() : null,
-                        firstScope != null ? firstScope.eaCode() : 0,
+                        firstScope != null && firstScope.eaCode() != null ? firstScope.eaCode() : 0,
                         firstScope != null ? firstScope.eaDescription() : "Tutti gli standard e settori",
                         scopeSection.isBlank() ? "Nessun settore disponibile" : scopeSection,
                         scopes);

@@ -27,7 +27,7 @@ public class AccreditedScope {
     @Column(name = "iso_standard", nullable = false, length = 50)
     private String isoStandard;
 
-    @Column(name = "ea_code", nullable = false)
+    @Column(name = "ea_code")
     private Integer eaCode;
 
     @Column(name = "scope_section", columnDefinition = "TEXT")

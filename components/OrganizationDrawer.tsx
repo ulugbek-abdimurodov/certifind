@@ -13,6 +13,14 @@ export function OrganizationDrawer({
   onClose: () => void;
 }) {
   if (!body) return null;
+  const scopeCodes = body.scopes?.map((scope) =>
+    scope.eaCode == null ? `${scope.isoStandard} (non-EA)` : `EA ${scope.eaCode}`,
+  );
+  const scopeDescriptions = body.scopes?.map((scope) =>
+    scope.eaCode == null
+      ? `${scope.isoStandard} (${scope.scopeSection})`
+      : `EA ${scope.eaCode} (${scope.eaDescription})`,
+  );
 
   return (
     <div
@@ -43,8 +51,8 @@ export function OrganizationDrawer({
             <h2 id="drawer-title">{body.name}</h2>
             <p>
               {body.country} <span>·</span>{" "}
-              {body.eaCode > 0 && body.scopes?.length
-                ? body.scopes.map((scope) => `EA ${scope.eaCode}`).join(", ")
+              {body.scopes?.length
+                ? scopeCodes?.join(", ")
                 : body.eaCode > 0
                   ? `EA ${body.eaCode} ${body.eaDescription}`
                   : "Tutti gli standard e settori"}
@@ -58,20 +66,16 @@ export function OrganizationDrawer({
           </div>
           <div className="scope-highlight">
             <strong>
-              {body.eaCode > 0 && body.scopes?.length
-                ? body.scopes.map((scope) => `EA ${scope.eaCode}`).join(", ")
+              {body.scopes?.length
+                ? scopeCodes?.join(", ")
                 : body.eaCode > 0
                   ? `${iso} • EA ${body.eaCode} (${body.eaDescription})`
                   : "Tutti gli standard e settori"}
             </strong>
-            {body.eaCode > 0 && body.scopes?.length ? (
-              body.scopes.map((scope) => (
-                <p key={`${scope.eaCode}-${scope.scopeSection}`}>
-                  <strong>EA {scope.eaCode} ({scope.eaDescription})</strong>
-                  {" — "}
-                  {scope.scopeSection}
-                </p>
-              ))
+            {body.scopes?.length ? (
+              <p>
+                — {scopeDescriptions?.join(" / ")}
+              </p>
             ) : (
               <p>{body.scopeSection || "Tutti gli accreditamenti disponibili"}</p>
             )}
@@ -125,8 +129,10 @@ export function OrganizationDrawer({
               label="Scope ISO pertinente"
               ok
               detail={
-                body.eaCode > 0
-                  ? `${iso} · EA ${body.eaCode}`
+                body.scopes?.length
+                  ? scopeCodes?.join(", ") ?? ""
+                  : body.eaCode > 0
+                    ? `${iso} · EA ${body.eaCode}`
                   : "Tutti gli standard e settori"
               }
             />

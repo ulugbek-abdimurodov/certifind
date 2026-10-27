@@ -16,7 +16,8 @@ Prices, rate assumptions, and savings are not part of the API contract or UI. Se
 
 ## Start locally
 
-Start PostgreSQL and load the schema and demo data on first initialization:
+Start PostgreSQL. On a new database volume, Docker runs the canonical schema
+and seed exactly once, in filename order:
 
 ```powershell
 docker compose up -d postgres
@@ -54,6 +55,38 @@ The response includes the resolved ATECO/EA sector and matching bodies with accr
 
 ## Data notes
 
-`backend/src/main/resources/data/seed_cabs.json` contains the static demo dataset. Contact and accreditation details are demo data and should be confirmed against current official records before being represented as independently verified. The interface links the scope source supplied with each seed record and includes that caveat.
+The SQL seed contains demonstration organization and accreditation data. Contact
+and accreditation details must be confirmed against current official records
+before being represented as independently verified. The interface links the
+scope source supplied with each seed record and includes that caveat.
 
-The database schema uses `accreditation_bodies`, `ateco_ea_mapping`, `certification_bodies`, and `accredited_scopes`. The ATECO-to-EA relationship is stored separately from certification bodies; scope searches join through `accredited_scopes`.
+The database has one shared company structure for every accreditation body:
+`certification_bodies` stores the organization and `accredited_scopes` stores
+one row per standard and EA sector, including status, dates, source URL, and
+scope text. `accreditation_bodies`, `iso_standard`, and `ea_sector` are shared
+reference tables; ATECO mappings point to the EA sector table.
+
+Example EA assignments in the demonstration data follow the organization's
+field, regardless of its accreditor:
+
+| Accreditor | Example field | EA code |
+| --- | --- | --- |
+| ACCREDIA | Education, IT, construction, engineering | EA 37, 33, 28, 34 |
+| DAkkS | IT, construction, engineering | EA 33, 28, 34 |
+| PCA | Education, IT, construction, engineering | EA 37, 33, 28, 34 |
+| RENAR | Education, IT, construction, engineering | EA 37, 33, 28, 34 |
+| UKAS | Education, IT, construction | EA 37, 33, 28 |
+
+These assignments are examples, not claims about current accreditation
+schedules. Real EA assignments must be checked against each organization's
+official schedule. EA codes describe the certified organization's field; they
+are not determined by its national accreditor. The schema allows `ea_code` to
+be null for schemes whose scope is not classified with EA sectors; the source
+scope text remains stored.
+
+`init-db/01-schema.sql` and `init-db/02-seed.sql` are the only database
+initialization scripts. The seed is transactional and safe to rerun. Docker's
+entrypoint only runs initialization scripts for an empty data volume; existing
+volumes are preserved and are not reset automatically. Existing databases need
+a reviewed migration before adopting the new constraints; do not delete the
+volume just to reload demo data if it contains records you need.

@@ -73,6 +73,7 @@ INSERT INTO accreditation_bodies (code, name, country, is_iaf_mla, website) VALU
     ('PCA',      'PCA - Polskie Centrum Akredytacji',           'Poland',         TRUE, 'https://www.pca.gov.pl'),
     ('DAkkS',    'DAkkS - Deutsche Akkreditierungsstelle',      'Germany',        TRUE, 'https://www.dakks.de'),
     ('UKAS',     'UKAS - United Kingdom Accreditation Service', 'United Kingdom', TRUE, 'https://www.ukas.com'),
+    ('DPA',     'Directorate of Accreditation (DPA)',           'Albania',        TRUE, 'http://www.dpa.gov.al/'),
     ('BATA',     'BATA - Institute for Accreditation of Bosnia and Herzegovina', 'Bosnia and Herzegovina', FALSE, 'https://www.bata.gov.ba')
 ON CONFLICT (code) DO UPDATE SET
     name       = EXCLUDED.name,
@@ -290,7 +291,7 @@ ON CONFLICT (certification_body_id, iso_standard) WHERE ea_code IS NULL DO UPDAT
 -- Older seeds created DPA while Albanian company rows referenced DA. Reuse
 -- that authority row when upgrading a database that has only the old code.
 UPDATE accreditation_bodies
-SET code = 'DA', name = 'Directorate of Accreditation (DA)', country = 'Albania'
+SET code = 'DPA', name = 'Directorate of Accreditation (DPA)', country = 'Albania'
 WHERE code = 'DPA'
   AND NOT EXISTS (SELECT 1 FROM accreditation_bodies WHERE code = 'DA');
 

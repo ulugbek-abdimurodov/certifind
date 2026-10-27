@@ -2,6 +2,9 @@ package com.certifind.service;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.Map;
+import java.util.LinkedHashMap;
+import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -10,6 +13,7 @@ import com.certifind.domain.AccreditedScope;
 import com.certifind.domain.AtecoEaMapping;
 import com.certifind.domain.CertificationBody;
 import com.certifind.dto.CertificationBodyCardDto;
+import com.certifind.dto.AccreditationScopeDto;
 import com.certifind.dto.SearchRequest;
 import com.certifind.dto.SearchOptionsResponse;
 import com.certifind.dto.SectorOption;
@@ -93,30 +97,49 @@ public class SearchService {
                 ? request.isoStandard().trim()
                 : "ISO 9001";
 
-        List<AccreditedScope> scopes = accreditedScopeRepository.findActiveScopesWithCabAndAb(iso, resolvedEaCode);
+        List<AccreditedScope> matchingScopes =
+                accreditedScopeRepository.findActiveScopesWithCabAndAb(iso, resolvedEaCode);
+        Map<Integer, List<AccreditedScope>> allScopesByBody =
+                accreditedScopeRepository.findActiveScopesWithCabAndAbByIso(iso).stream()
+                        .collect(Collectors.groupingBy(
+                                scope -> scope.getCertificationBody().getId(),
+                                LinkedHashMap::new,
+                                Collectors.toList()));
 
-        List<CertificationBodyCardDto> cards = scopes.stream().map(scope -> {
-            CertificationBody cb = scope.getCertificationBody();
-            String scopeSection = (scope.getScopeSection() != null && !scope.getScopeSection().isBlank())
-                    ? scope.getScopeSection()
-                    : resolvedEaDesc + " (" + iso + ")";
+        List<CertificationBodyCardDto> cards = matchingScopes.stream()
+                .collect(Collectors.toMap(
+                        scope -> scope.getCertificationBody().getId(),
+                        scope -> scope,
+                        (first, ignored) -> first,
+                        LinkedHashMap::new))
+                .values().stream()
+                .map(scope -> {
+                    CertificationBody cb = scope.getCertificationBody();
+                    List<AccreditationScopeDto> groupedScopes = allScopesByBody
+                            .getOrDefault(cb.getId(), List.of())
+                            .stream()
+                            .filter(candidate -> candidate.getEaCode() != null)
+                            .map(candidate -> new AccreditationScopeDto(
+                                    candidate.getEaCode(),
+                                    getSectorName(candidate.getEaCode()),
+                                    candidate.getScopeSection() != null && !candidate.getScopeSection().isBlank()
+                                            ? candidate.getScopeSection()
+                                            : getSectorName(candidate.getEaCode()) + " (" + iso + ")",
+                                    candidate.getProofUrl()))
+                            .toList();
+                    String scopeSection = groupedScopes.stream()
+                            .map(AccreditationScopeDto::scopeSection)
+                            .distinct()
+                            .collect(Collectors.joining(" / "));
 
-            return new CertificationBodyCardDto(
-                    cb.getId(),
-                    cb.getName(),
-                    cb.getCountry(),
-                    cb.getAccreditationBody() != null ? cb.getAccreditationBody().getCode() : "N/A",
-                    cb.getAccreditationBody() != null && Boolean.TRUE.equals(cb.getAccreditationBody().getIsIafMla()),
-                    cb.getPhone(),
-                    cb.getEmail(),
-                    cb.getWebsite(),
-                    cb.getAddress(),
-                    scope.getProofUrl(),
-                    scope.getEaCode(),
-                    resolvedEaDesc,
-                    scopeSection
-            );
-        }        ).toList();
+                    return new CertificationBodyCardDto(
+                            cb.getId(), cb.getName(), cb.getCountry(),
+                            cb.getAccreditationBody() != null ? cb.getAccreditationBody().getCode() : "N/A",
+                            cb.getAccreditationBody() != null
+                                    && Boolean.TRUE.equals(cb.getAccreditationBody().getIsIafMla()),
+                            cb.getPhone(), cb.getEmail(), cb.getWebsite(), cb.getAddress(),
+                            scope.getProofUrl(), resolvedEaCode, resolvedEaDesc, scopeSection, groupedScopes);
+                }).toList();
 
         return new SearchResponse(resolvedAteco, resolvedEaCode, resolvedEaDesc, cards.size(), cards, false);
     }
@@ -138,9 +161,40 @@ public class SearchService {
 
     @Transactional(readOnly = true)
     public SearchResponse findAllCompanies() {
+        Map<Integer, List<AccreditedScope>> scopesByBody =
+                accreditedScopeRepository.findAllScopesWithCertificationBody().stream()
+                        .filter(scope -> scope.getEaCode() != null)
+                        .collect(Collectors.groupingBy(
+                                scope -> scope.getCertificationBody().getId(),
+                                LinkedHashMap::new,
+                                Collectors.toList()));
+
         List<CertificationBodyCardDto> cards = certificationBodyRepository.findAllWithAccreditationBody()
                 .stream()
-                .map(cb -> new CertificationBodyCardDto(
+                .map(cb -> {
+                    List<AccreditationScopeDto> scopes = scopesByBody
+                            .getOrDefault(cb.getId(), List.of())
+                            .stream()
+                            .map(scope -> new AccreditationScopeDto(
+                                    scope.getEaCode(),
+                                    getSectorName(scope.getEaCode()),
+                                    scope.getScopeSection() != null && !scope.getScopeSection().isBlank()
+                                            ? scope.getScopeSection()
+                                            : getSectorName(scope.getEaCode()) + " (" + scope.getIsoStandard() + ")",
+                                    scope.getProofUrl()))
+                            .collect(Collectors.collectingAndThen(
+                                    Collectors.toMap(
+                                            scope -> scope.eaCode(),
+                                            scope -> scope,
+                                            (first, ignored) -> first,
+                                            LinkedHashMap::new),
+                                    values -> values.values().stream().toList()));
+                    String scopeSection = scopes.stream()
+                            .map(scope -> "EA " + scope.eaCode() + ": " + scope.scopeSection())
+                            .collect(Collectors.joining(" / "));
+                    AccreditationScopeDto firstScope = scopes.isEmpty() ? null : scopes.get(0);
+
+                    return new CertificationBodyCardDto(
                         cb.getId(),
                         cb.getName(),
                         cb.getCountry(),
@@ -151,11 +205,12 @@ public class SearchService {
                         cb.getEmail(),
                         cb.getWebsite(),
                         cb.getAddress(),
-                        null,
-                        0,
-                        "Tutti gli standard e settori",
-                        "Tutti gli accreditamenti disponibili"
-                ))
+                        firstScope != null ? firstScope.proofUrl() : null,
+                        firstScope != null ? firstScope.eaCode() : 0,
+                        firstScope != null ? firstScope.eaDescription() : "Tutti gli standard e settori",
+                        scopeSection.isBlank() ? "Nessun settore disponibile" : scopeSection,
+                        scopes);
+                })
                 .toList();
 
         return new SearchResponse(

@@ -31,9 +31,28 @@ public interface AccreditedScopeRepository extends JpaRepository<AccreditedScope
         @Param("eaCode") Integer eaCode
     );
 
+    @Query("""
+        SELECT s FROM AccreditedScope s
+        JOIN FETCH s.certificationBody cb
+        LEFT JOIN FETCH cb.accreditationBody ab
+        WHERE s.isoStandard = :isoStandard
+          AND s.status = 'ACTIVE'
+        ORDER BY cb.name ASC, s.eaCode ASC
+    """)
+    List<AccreditedScope> findActiveScopesWithCabAndAbByIso(
+        @Param("isoStandard") String isoStandard
+    );
+
     List<AccreditedScope> findByIsoStandardAndEaCodeAndStatus(
         String isoStandard,
         Integer eaCode,
         String status
     );
+
+    @Query("""
+        SELECT s FROM AccreditedScope s
+        JOIN FETCH s.certificationBody cb
+        ORDER BY cb.id ASC, s.eaCode ASC, s.isoStandard ASC
+    """)
+    List<AccreditedScope> findAllScopesWithCertificationBody();
 }

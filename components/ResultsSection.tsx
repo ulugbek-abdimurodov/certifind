@@ -156,8 +156,10 @@ export function ResultsSection({
                           <i />{" "}
                           <span>
                             {data.directory
-                              ? "Tutti gli accreditamenti"
-                              : `${iso} · EA ${body.eaCode}`}
+                              ? body.scopes?.length
+                                ? body.scopes.map((scope) => `EA ${scope.eaCode}`).join(", ")
+                                : "Nessun settore disponibile"
+                              : `${iso} · EA ${body.scopes?.map((scope) => scope.eaCode).join(", EA ") || body.eaCode}`}
                           </span>
                         </div>
                         <div className="verified-label">

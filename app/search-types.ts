@@ -1,3 +1,10 @@
+export type AccreditationScope = {
+  eaCode: number;
+  eaDescription: string;
+  scopeSection: string;
+  proofUrl: string | null;
+};
+
 export type Body = {
   id: number;
   name: string;
@@ -12,6 +19,7 @@ export type Body = {
   eaCode: number;
   eaDescription: string;
   scopeSection: string;
+  scopes: AccreditationScope[];
 };
 
 export type SearchResponse = {

@@ -49,7 +49,9 @@ public class SearchService {
         var sectorNames = eaSectorRepository.findAllByOrderByCodeAsc().stream()
                 .collect(java.util.stream.Collectors.toMap(
                         sector -> sector.getCode(),
-                        sector -> sector.getNameEn()
+                        sector -> sector.getNameIt() != null && !sector.getNameIt().isBlank()
+                                ? sector.getNameIt()
+                                : sector.getNameEn()
                 ));
         var sectors = accreditedScopeRepository.findDistinctEaCodes().stream()
                 .map(code -> new SectorOption(code, sectorNames.getOrDefault(code, "EA " + code)))
@@ -88,9 +90,7 @@ public class SearchService {
                 ? resolvedMapping.getAtecoCode()
                 : "N/A (Solo Settore EA)";
         int resolvedEaCode = resolvedMapping != null ? resolvedMapping.getEaCode() : directEaCode;
-        String resolvedEaDesc = resolvedMapping != null
-                ? resolvedMapping.getEaDescription()
-                : getSectorName(resolvedEaCode);
+        String resolvedEaDesc = getSectorName(resolvedEaCode);
 
         // 3. Mandatory ISO Standard (defaults to ISO 9001 if blank)
         String iso = (request.isoStandard() != null && !request.isoStandard().isBlank())
@@ -156,7 +156,9 @@ public class SearchService {
 
     private String getSectorName(int eaCode) {
         return eaSectorRepository.findById(eaCode)
-                .map(sector -> sector.getNameEn())
+                .map(sector -> sector.getNameIt() != null && !sector.getNameIt().isBlank()
+                        ? sector.getNameIt()
+                        : sector.getNameEn())
                 .orElse("EA " + eaCode);
     }
 

@@ -14,7 +14,7 @@ import type {
   SearchOptions,
 } from "./search-types";
 
-const RECENT_SEARCHES_KEY = "certifind:recent-searches";
+const RECENT_SEARCHES_KEY = "certifind:recent-searches:v2";
 const MAX_RECENT_SEARCHES = 5;
 
 export default function Home() {

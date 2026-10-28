@@ -4,47 +4,49 @@
 -- engineering=EA 34, education=EA 37. Confirm real schedules at the source.
 BEGIN;
 
-INSERT INTO ea_sector (code, name_en) VALUES
-    (1, 'Agriculture, fishing'),
-    (2, 'Mining and quarrying'),
-    (3, 'Food products, beverages and tobacco'),
-    (4, 'Textiles and textile products'),
-    (5, 'Leather and leather products'),
-    (6, 'Wood and wood products'),
-    (7, 'Pulp, paper and paper products'),
-    (8, 'Publishing companies'),
-    (9, 'Printing companies'),
-    (10, 'Refined petroleum products'),
-    (11, 'Nuclear fuel'),
-    (12, 'Chemicals and chemical products'),
-    (13, 'Pharmaceuticals'),
-    (14, 'Rubber and plastic products'),
-    (15, 'Non-metallic mineral products'),
-    (16, 'Concrete, cement, lime, plaster'),
-    (17, 'Basic metals and fabricated metal products'),
-    (18, 'Machinery and equipment'),
-    (19, 'Electrical and optical equipment'),
-    (20, 'Shipbuilding'),
-    (21, 'Aerospace'),
-    (22, 'Other transport equipment'),
-    (23, 'Manufacturing not elsewhere classified'),
-    (24, 'Recycling'),
-    (25, 'Electricity supply'),
-    (26, 'Gas supply'),
-    (27, 'Water supply'),
-    (28, 'Construction'),
-    (29, 'Wholesale and retail trade'),
-    (30, 'Hotels and restaurants'),
-    (31, 'Transport, storage and communication'),
-    (32, 'Financial intermediation, real estate and renting'),
-    (33, 'Information technology'),
-    (34, 'Engineering services'),
-    (35, 'Other services'),
-    (36, 'Public administration'),
-    (37, 'Education'),
-    (38, 'Health and social work'),
-    (39, 'Other social services')
-ON CONFLICT (code) DO UPDATE SET name_en = EXCLUDED.name_en;
+INSERT INTO ea_sector (code, name_en, name_it) VALUES
+    (1, 'Agriculture, fishing', 'Agricoltura e pesca'),
+    (2, 'Mining and quarrying', 'Attività estrattive'),
+    (3, 'Food products, beverages and tobacco', 'Prodotti alimentari, bevande e tabacco'),
+    (4, 'Textiles and textile products', 'Tessili e prodotti tessili'),
+    (5, 'Leather and leather products', 'Pelli e prodotti in pelle'),
+    (6, 'Wood and wood products', 'Legno e prodotti in legno'),
+    (7, 'Pulp, paper and paper products', 'Pasta di legno, carta e prodotti di carta'),
+    (8, 'Publishing companies', 'Case editrici'),
+    (9, 'Printing companies', 'Stampa'),
+    (10, 'Refined petroleum products', 'Prodotti petroliferi raffinati'),
+    (11, 'Nuclear fuel', 'Combustibile nucleare'),
+    (12, 'Chemicals and chemical products', 'Prodotti chimici'),
+    (13, 'Pharmaceuticals', 'Prodotti farmaceutici'),
+    (14, 'Rubber and plastic products', 'Gomma e materie plastiche'),
+    (15, 'Non-metallic mineral products', 'Prodotti minerali non metalliferi'),
+    (16, 'Concrete, cement, lime, plaster', 'Calcestruzzo, cemento, calce e gesso'),
+    (17, 'Basic metals and fabricated metal products', 'Metalli di base e prodotti in metallo'),
+    (18, 'Machinery and equipment', 'Macchinari e apparecchiature'),
+    (19, 'Electrical and optical equipment', 'Apparecchiature elettriche e ottiche'),
+    (20, 'Shipbuilding', 'Cantieristica navale'),
+    (21, 'Aerospace', 'Aerospaziale'),
+    (22, 'Other transport equipment', 'Altri mezzi di trasporto'),
+    (23, 'Manufacturing not elsewhere classified', 'Manifatturiero non classificato altrove'),
+    (24, 'Recycling', 'Riciclaggio'),
+    (25, 'Electricity supply', 'Fornitura di energia elettrica'),
+    (26, 'Gas supply', 'Fornitura di gas'),
+    (27, 'Water supply', 'Fornitura di acqua'),
+    (28, 'Construction', 'Costruzioni'),
+    (29, 'Wholesale and retail trade', 'Commercio all’ingrosso e al dettaglio'),
+    (30, 'Hotels and restaurants', 'Alberghi e ristoranti'),
+    (31, 'Transport, storage and communication', 'Trasporti, magazzinaggio e comunicazioni'),
+    (32, 'Financial intermediation, real estate and renting', 'Intermediazione finanziaria, immobili e noleggio'),
+    (33, 'Information technology', 'Tecnologie dell’informazione'),
+    (34, 'Engineering services', 'Servizi di ingegneria'),
+    (35, 'Other services', 'Altri servizi'),
+    (36, 'Public administration', 'Amministrazione pubblica'),
+    (37, 'Education', 'Istruzione'),
+    (38, 'Health and social work', 'Sanità e assistenza sociale'),
+    (39, 'Other social services', 'Altri servizi sociali')
+ON CONFLICT (code) DO UPDATE SET
+    name_en = EXCLUDED.name_en,
+    name_it = EXCLUDED.name_it;
 
 INSERT INTO iso_standard (code, kind, scheme) VALUES
     ('ISO 9001', 'CERTIFICATION', 'MANAGEMENT_SYSTEM'),
@@ -73,7 +75,7 @@ INSERT INTO accreditation_bodies (code, name, country, is_iaf_mla, website) VALU
     ('PCA',      'PCA - Polskie Centrum Akredytacji',           'Poland',         TRUE, 'https://www.pca.gov.pl'),
     ('DAkkS',    'DAkkS - Deutsche Akkreditierungsstelle',      'Germany',        TRUE, 'https://www.dakks.de'),
     ('UKAS',     'UKAS - United Kingdom Accreditation Service', 'United Kingdom', TRUE, 'https://www.ukas.com'),
-    ('DPA',     'Directorate of Accreditation (DPA)',           'Albania',        TRUE, 'http://www.dpa.gov.al/'),
+    ('DPA',      'Directorate of Accreditation (DPA)',           'Albania',        TRUE, 'http://www.dpa.gov.al/'),
     ('BATA',     'BATA - Institute for Accreditation of Bosnia and Herzegovina', 'Bosnia and Herzegovina', FALSE, 'https://www.bata.gov.ba')
 ON CONFLICT (code) DO UPDATE SET
     name       = EXCLUDED.name,
@@ -293,14 +295,13 @@ ON CONFLICT (certification_body_id, iso_standard) WHERE ea_code IS NULL DO UPDAT
 UPDATE accreditation_bodies
 SET code = 'DPA', name = 'Directorate of Accreditation (DPA)', country = 'Albania'
 WHERE code = 'DPA'
-  AND NOT EXISTS (SELECT 1 FROM accreditation_bodies WHERE code = 'DA');
+  AND NOT EXISTS (SELECT 1 FROM accreditation_bodies WHERE code = 'DPA');
 
 INSERT INTO accreditation_bodies (code, name, country, is_iaf_mla, website) VALUES
-    ('DA', 'Directorate of Accreditation (DA)', 'Albania', TRUE, NULL)
+    ('DPA', 'Directorate of Accreditation (DPA)', 'Albania', TRUE, NULL)
 ON CONFLICT (code) DO UPDATE SET
     name = EXCLUDED.name, country = EXCLUDED.country, is_iaf_mla = EXCLUDED.is_iaf_mla, website = EXCLUDED.website;
-
-WITH da AS (SELECT id FROM accreditation_bodies WHERE code = 'DA')
+WITH da AS (SELECT id FROM accreditation_bodies WHERE code = 'DPA')
 INSERT INTO certification_bodies
     (name, country, accreditation_body_id, phone, email, website, address)
 VALUES
@@ -673,5 +674,4 @@ ON CONFLICT (certification_body_id, iso_standard, ea_code) DO UPDATE SET
 
 
 COMMIT;
-
 

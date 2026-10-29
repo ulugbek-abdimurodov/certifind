@@ -43,12 +43,6 @@ public interface AccreditedScopeRepository extends JpaRepository<AccreditedScope
         @Param("isoStandard") String isoStandard
     );
 
-    List<AccreditedScope> findByIsoStandardAndEaCodeAndStatus(
-        String isoStandard,
-        Integer eaCode,
-        String status
-    );
-
     @Query("""
         SELECT s FROM AccreditedScope s
         JOIN FETCH s.certificationBody cb

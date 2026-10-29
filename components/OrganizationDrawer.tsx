@@ -1,7 +1,7 @@
 "use client";
 
 import type { Body } from "../app/search-types";
-import { countryFlags } from "../app/search-data";
+import { flagFor, scopeCode } from "../app/search-data";
 
 export function OrganizationDrawer({
   body,
@@ -13,14 +13,19 @@ export function OrganizationDrawer({
   onClose: () => void;
 }) {
   if (!body) return null;
-  const scopeCodes = body.scopes?.map((scope) =>
-    scope.eaCode == null ? `${scope.isoStandard} (non-EA)` : `EA ${scope.eaCode}`,
-  );
-  const scopeDescriptions = body.scopes?.map((scope) =>
+  const scopes = body.scopes ?? [];
+  const scopeDescriptions = scopes.map((scope) =>
     scope.eaCode == null
       ? `${scope.isoStandard} (${scope.scopeSection})`
       : `EA ${scope.eaCode} (${scope.eaDescription})`,
   );
+  /** Scope codes when available, otherwise the given single-EA label, otherwise "all". */
+  const scopeSummary = (singleEaLabel: string) =>
+    scopes.length
+      ? scopes.map(scopeCode).join(", ")
+      : body.eaCode > 0
+        ? singleEaLabel
+        : "Tutti gli standard e settori";
 
   return (
     <div
@@ -42,7 +47,7 @@ export function OrganizationDrawer({
           </button>
         </div>
         <div className="drawer-identity">
-          <div className="drawer-flag">{countryFlags[body.country] ?? "🌐"}</div>
+          <div className="drawer-flag">{flagFor(body.country)}</div>
           <div>
             <div className="verified-label">
               <span>✓</span> {body.accreditationBodyCode}
@@ -51,11 +56,7 @@ export function OrganizationDrawer({
             <h2 id="drawer-title">{body.name}</h2>
             <p>
               {body.country} <span>·</span>{" "}
-              {body.scopes?.length
-                ? scopeCodes?.join(", ")
-                : body.eaCode > 0
-                  ? `EA ${body.eaCode} ${body.eaDescription}`
-                  : "Tutti gli standard e settori"}
+              {scopeSummary(`EA ${body.eaCode} ${body.eaDescription}`)}
             </p>
           </div>
         </div>
@@ -66,15 +67,11 @@ export function OrganizationDrawer({
           </div>
           <div className="scope-highlight">
             <strong>
-              {body.scopes?.length
-                ? scopeCodes?.join(", ")
-                : body.eaCode > 0
-                  ? `${iso} • EA ${body.eaCode} (${body.eaDescription})`
-                  : "Tutti gli standard e settori"}
+              {scopeSummary(`${iso} • EA ${body.eaCode} (${body.eaDescription})`)}
             </strong>
-            {body.scopes?.length ? (
+            {scopes.length ? (
               <p>
-                — {scopeDescriptions?.join(" / ")}
+                — {scopeDescriptions.join(" / ")}
               </p>
             ) : (
               <p>{body.scopeSection || "Tutti gli accreditamenti disponibili"}</p>
@@ -128,13 +125,7 @@ export function OrganizationDrawer({
             <Criterion
               label="Scope ISO pertinente"
               ok
-              detail={
-                body.scopes?.length
-                  ? scopeCodes?.join(", ") ?? ""
-                  : body.eaCode > 0
-                    ? `${iso} · EA ${body.eaCode}`
-                  : "Tutti gli standard e settori"
-              }
+              detail={scopeSummary(`${iso} · EA ${body.eaCode}`)}
             />
           </div>
         </section>

@@ -1,3 +1,7 @@
+import type { AccreditationScope, Body, ResultFilter } from "./search-types";
+
+export const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8080";
+
 export const stages = [
   "Inserimento",
   "Ricerca",
@@ -6,7 +10,7 @@ export const stages = [
   "Risultati",
 ];
 
-export const countryFlags: Record<string, string> = {
+const countryFlags: Record<string, string> = {
   Italy: "🇮🇹",
   Romania: "🇷🇴",
   Poland: "🇵🇱",
@@ -14,6 +18,20 @@ export const countryFlags: Record<string, string> = {
   "United Kingdom": "🇬🇧",
   Albania: "🇦🇱",
 };
+
+export const flagFor = (country: string) => countryFlags[country] ?? "🌐";
+
+/** Short label for a scope: "EA 37", or "ISO 17025 (non-EA)" when no EA sector applies. */
+export const scopeCode = (scope: AccreditationScope) =>
+  scope.eaCode == null ? `${scope.isoStandard} (non-EA)` : `EA ${scope.eaCode}`;
+
+export function matchesFilter(body: Body, filter: ResultFilter) {
+  const isItalian = body.accreditationBodyCode === "ACCREDIA";
+  if (filter === "all") return true;
+  if (filter === "italy") return isItalian;
+  if (filter === "foreign") return !isItalian && body.isIafMla;
+  return body.accreditationBodyCode === filter.slice("accreditor:".length);
+}
 
 export const demoPresets = [
   {

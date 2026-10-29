@@ -5,7 +5,7 @@ import { OrganizationDrawer } from "../components/OrganizationDrawer";
 import { ResultsSection } from "../components/ResultsSection";
 import { SearchForm } from "../components/SearchForm";
 import { Workflow } from "../components/Workflow";
-import { stages } from "./search-data";
+import { API_URL, stages } from "./search-data";
 import type {
   Body,
   ResultFilter,
@@ -16,6 +16,8 @@ import type {
 
 const RECENT_SEARCHES_KEY = "certifind:recent-searches:v2";
 const MAX_RECENT_SEARCHES = 5;
+const SERVICE_UNAVAILABLE =
+  "Impossibile raggiungere il servizio. Verifica che l’API sia avviata.";
 
 export default function Home() {
   const [iso, setIso] = useState("ISO 9001");
@@ -38,7 +40,7 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    fetch(`${process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8080"}/api/v1/options`)
+    fetch(`${API_URL}/api/v1/options`)
       .then((response) => {
         if (!response.ok) throw new Error("Impossibile caricare le opzioni dal database.");
         return response.json() as Promise<SearchOptions>;
@@ -60,8 +62,12 @@ export default function Home() {
     };
   }, [selected]);
 
-  async function search(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
+  /** Shared flow for every results request: reset state, animate, fetch, report errors. */
+  async function runSearch(
+    request: () => Promise<Response>,
+    errorFor: (status: number) => string,
+    onSuccess?: () => void,
+  ) {
     if (loading) return;
     setLoading(true);
     setError("");
@@ -72,32 +78,16 @@ export default function Home() {
 
     const animation = animateWorkflow();
     try {
-      const response = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8080"}/api/v1/search`,
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            isoStandard: iso,
-            sectorActivity: sector,
-            atecoCode: ateco,
-          }),
-        },
-      );
-      if (!response.ok) {
-        throw new Error(
-          response.status === 400
-            ? "Settore non riconosciuto. Controlla il codice ATECO o la descrizione."
-            : "Ricerca non riuscita. Riprova tra poco.",
-        );
-      }
+      const response = await request();
+      if (!response.ok) throw new Error(errorFor(response.status));
       setData((await response.json()) as SearchResponse);
-      saveRecentSearch({ iso, sector, ateco });
+      onSuccess?.();
     } catch (cause) {
+      // fetch() rejects with a TypeError when the API cannot be reached.
       setError(
-        cause instanceof Error
+        cause instanceof Error && !(cause instanceof TypeError)
           ? cause.message
-          : "Impossibile raggiungere il servizio. Verifica che l’API sia avviata.",
+          : SERVICE_UNAVAILABLE,
       );
     } finally {
       await animation;
@@ -116,38 +106,32 @@ export default function Home() {
     }
   }
 
-  async function showAllCompanies() {
-    if (loading) return;
-    setLoading(true);
-    setError("");
-    setData(null);
-    setSelected(null);
-    setResultFilter("all");
-    setStep(0);
+  function search(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    return runSearch(
+      () =>
+        fetch(`${API_URL}/api/v1/search`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            isoStandard: iso,
+            sectorActivity: sector,
+            atecoCode: ateco,
+          }),
+        }),
+      (status) =>
+        status === 400
+          ? "Settore non riconosciuto. Controlla il codice ATECO o la descrizione."
+          : "Ricerca non riuscita. Riprova tra poco.",
+      () => saveRecentSearch({ iso, sector, ateco }),
+    );
+  }
 
-    const animation = animateWorkflow();
-    try {
-      const response = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8080"}/api/v1/companies`,
-      );
-      if (!response.ok) {
-        throw new Error("Impossibile caricare l'elenco delle aziende.");
-      }
-      setData((await response.json()) as SearchResponse);
-    } catch (cause) {
-      setError(
-        cause instanceof Error
-          ? cause.message
-          : "Impossibile raggiungere il servizio. Verifica che l’API sia avviata.",
-      );
-    } finally {
-      await animation;
-      setStep(stages.length - 1);
-      setLoading(false);
-      document
-        .getElementById("results")
-        ?.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
+  function showAllCompanies() {
+    return runSearch(
+      () => fetch(`${API_URL}/api/v1/companies`),
+      () => "Impossibile caricare l'elenco delle aziende.",
+    );
   }
 
   function saveRecentSearch(searchPreset: Omit<SearchPreset, "label">) {

@@ -10,8 +10,6 @@ import com.certifind.domain.AtecoEaMapping;
 @Repository
 public interface AtecoEaMappingRepository extends JpaRepository<AtecoEaMapping, Integer> {
 
-    Optional<AtecoEaMapping> findByAtecoCode(String atecoCode);
-
     Optional<AtecoEaMapping> findFirstByAtecoCode(String atecoCode);
 
     Optional<AtecoEaMapping> findFirstByDescriptionContainingIgnoreCase(String keyword);

@@ -31,63 +31,28 @@ public class AccreditationBody {
     @Column(name = "website", length = 255)
     private String website;
 
-    public AccreditationBody() {
-    }
-
-    public AccreditationBody(String code, String name, String country, Boolean isIafMla, String website) {
-        this.code = code;
-        this.name = name;
-        this.country = country;
-        this.isIafMla = isIafMla;
-        this.website = website;
-    }
-
     public Integer getId() {
         return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
     }
 
     public String getCode() {
         return code;
     }
 
-    public void setCode(String code) {
-        this.code = code;
-    }
-
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getCountry() {
         return country;
     }
 
-    public void setCountry(String country) {
-        this.country = country;
-    }
-
     public Boolean getIsIafMla() {
         return isIafMla;
     }
 
-    public void setIsIafMla(Boolean isIafMla) {
-        this.isIafMla = isIafMla;
-    }
-
     public String getWebsite() {
         return website;
-    }
-
-    public void setWebsite(String website) {
-        this.website = website;
     }
 
     @Override

@@ -13,7 +13,7 @@ export function OrganizationDrawer({
   onClose: () => void;
 }) {
   if (!body) return null;
-  const scopes = body.scopes ?? [];
+  const { scopes } = body;
   const scopeDescriptions = scopes.map((scope) =>
     scope.eaCode == null
       ? `${scope.isoStandard} (${scope.scopeSection})`

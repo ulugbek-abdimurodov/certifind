@@ -34,77 +34,33 @@ public class AccreditedScope {
     private String scopeSection;
 
     @Column(name = "status", nullable = false, length = 20)
-    private String status = "ACTIVE";
+    private String status;
 
     @Column(name = "proof_url", columnDefinition = "TEXT")
     private String proofUrl;
 
-    public AccreditedScope() {
-    }
-
-    public AccreditedScope(CertificationBody certificationBody, String isoStandard, Integer eaCode, String scopeSection, String status, String proofUrl) {
-        this.certificationBody = certificationBody;
-        this.isoStandard = isoStandard;
-        this.eaCode = eaCode;
-        this.scopeSection = scopeSection;
-        this.status = status;
-        this.proofUrl = proofUrl;
-    }
-
     public Integer getId() {
         return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
     }
 
     public CertificationBody getCertificationBody() {
         return certificationBody;
     }
 
-    public void setCertificationBody(CertificationBody certificationBody) {
-        this.certificationBody = certificationBody;
-    }
-
     public String getIsoStandard() {
         return isoStandard;
-    }
-
-    public void setIsoStandard(String isoStandard) {
-        this.isoStandard = isoStandard;
     }
 
     public Integer getEaCode() {
         return eaCode;
     }
 
-    public void setEaCode(Integer eaCode) {
-        this.eaCode = eaCode;
-    }
-
     public String getScopeSection() {
         return scopeSection;
     }
 
-    public void setScopeSection(String scopeSection) {
-        this.scopeSection = scopeSection;
-    }
-
-    public String getStatus() {
-        return status;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
-    }
-
     public String getProofUrl() {
         return proofUrl;
-    }
-
-    public void setProofUrl(String proofUrl) {
-        this.proofUrl = proofUrl;
     }
 
     @Override

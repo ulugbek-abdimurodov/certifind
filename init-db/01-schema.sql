@@ -17,6 +17,8 @@ CREATE TABLE IF NOT EXISTS ea_sector (
     name_en  VARCHAR(200) NOT NULL,
     name_it  VARCHAR(200)
 );
+-- Legacy volumes predate name_it; add it before 02-seed.sql upserts the names.
+ALTER TABLE ea_sector ADD COLUMN IF NOT EXISTS name_it VARCHAR(200);
 
 CREATE TABLE IF NOT EXISTS iso_standard (
     code        VARCHAR(50) PRIMARY KEY,

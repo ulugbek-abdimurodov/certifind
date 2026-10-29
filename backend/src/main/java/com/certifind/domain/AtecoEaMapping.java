@@ -28,54 +28,24 @@ public class AtecoEaMapping {
     @Column(name = "ea_description", nullable = false, length = 255)
     private String eaDescription;
 
-    public AtecoEaMapping() {
-    }
-
-    public AtecoEaMapping(String atecoCode, String description, Integer eaCode, String eaDescription) {
-        this.atecoCode = atecoCode;
-        this.description = description;
-        this.eaCode = eaCode;
-        this.eaDescription = eaDescription;
-    }
-
     public Integer getId() {
         return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
     }
 
     public String getAtecoCode() {
         return atecoCode;
     }
 
-    public void setAtecoCode(String atecoCode) {
-        this.atecoCode = atecoCode;
-    }
-
     public String getDescription() {
         return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     public Integer getEaCode() {
         return eaCode;
     }
 
-    public void setEaCode(Integer eaCode) {
-        this.eaCode = eaCode;
-    }
-
     public String getEaDescription() {
         return eaDescription;
-    }
-
-    public void setEaDescription(String eaDescription) {
-        this.eaDescription = eaDescription;
     }
 
     @Override

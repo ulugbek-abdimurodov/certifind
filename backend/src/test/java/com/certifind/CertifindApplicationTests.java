@@ -49,7 +49,10 @@ class CertifindApplicationTests {
     @Test
     @DisplayName("Verify querying active scopes for ISO 9001 + EA 37")
     void testQueryActiveScopes() {
-        List<AccreditedScope> scopes = accreditedScopeRepository.findActiveScopesWithCabAndAb("ISO 9001", 37);
+        List<AccreditedScope> scopes = accreditedScopeRepository.findActiveScopesWithCabAndAbByIso("ISO 9001")
+                .stream()
+                .filter(scope -> Integer.valueOf(37).equals(scope.getEaCode()))
+                .toList();
         assertFalse(scopes.isEmpty(), "Should find active accredited scopes for ISO 9001 and EA 37");
         AccreditedScope first = scopes.get(0);
         assertNotNull(first.getCertificationBody());

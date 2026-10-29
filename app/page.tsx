@@ -159,9 +159,7 @@ export default function Home() {
   return (
     <main>
       <header className="topbar">
-        <a className="brand" href="#top">
-          <span className="brand-mark">C</span>certi<span>find</span>
-        </a>
+        <Brand className="brand" />
         <div className="topbar-note">
           <span className="status-dot" /> Ricerca organismi accreditati
         </div>
@@ -216,14 +214,20 @@ export default function Home() {
         onSelect={setSelected}
       />
       <footer>
-        <a className="brand footer-brand" href="#top">
-          <span className="brand-mark">C</span>certi<span>find</span>
-        </a>
+        <Brand className="brand footer-brand" />
         <span>Organismi, competenze, trasparenza.</span>
         <span>© 2026 CertiFind</span>
       </footer>
       <OrganizationDrawer body={selected} iso={iso} onClose={() => setSelected(null)} />
     </main>
+  );
+}
+
+function Brand({ className }: { className: string }) {
+  return (
+    <a className={className} href="#top">
+      <span className="brand-mark">C</span>certi<span>find</span>
+    </a>
   );
 }
 
@@ -239,8 +243,6 @@ function isSearchPreset(value: unknown): value is SearchPreset {
 }
 
 function readRecentSearches(): SearchPreset[] {
-  if (typeof window === "undefined") return [];
-
   try {
     const stored = window.localStorage.getItem(RECENT_SEARCHES_KEY);
     if (!stored) return [];

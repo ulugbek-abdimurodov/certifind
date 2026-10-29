@@ -27,7 +27,6 @@ export type SearchResponse = {
   resolvedAteco: string;
   resolvedEaCode: number;
   resolvedEaDescription: string;
-  totalResults: number;
   results: Body[];
   directory: boolean;
 };

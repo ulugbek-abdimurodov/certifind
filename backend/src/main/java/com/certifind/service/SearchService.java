@@ -3,6 +3,7 @@ package com.certifind.service;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -66,66 +67,58 @@ public class SearchService {
             throw new IllegalArgumentException("La richiesta di ricerca non può essere vuota.");
         }
 
-        Optional<AtecoEaMapping> mapping = Optional.empty();
-
-        // 1. Optional ATECO lookup (if user provided an ATECO code)
-        if (isPresent(request.atecoCode())) {
-            mapping = atecoEaMappingRepository.findFirstByAtecoCode(request.atecoCode().trim());
+        // An ATECO/sector mapping takes precedence over an "EA nn" code typed in the sector field.
+        AtecoEaMapping mapping = resolveMapping(request);
+        Integer eaCode = mapping != null ? mapping.getEaCode() : parseEaCode(request.sectorActivity());
+        if (eaCode == null) {
+            throw new IllegalArgumentException("Settore di attività non riconosciuto. Inserisci un settore valido o un codice EA/ATECO supportato.");
         }
+        int resolvedEaCode = eaCode;
 
-        // 2. Mandatory Activity Sector lookup (matches Italian description or English EA description)
+        // ATECO can be null when matched purely by Activity Sector
+        String resolvedAteco = mapping != null && isPresent(mapping.getAtecoCode())
+                ? mapping.getAtecoCode()
+                : "N/A (Solo Settore EA)";
+        Map<Integer, String> sectorNames = loadSectorNames();
+        String resolvedEaDesc = sectorName(sectorNames, resolvedEaCode);
+        String iso = isPresent(request.isoStandard()) ? request.isoStandard().trim() : DEFAULT_ISO;
+
+        // A body matches when one of its scopes covers the resolved EA sector; its card lists all its EA scopes.
+        List<CertificationBodyCardDto> cards =
+                groupByCertificationBody(accreditedScopeRepository.findActiveScopesWithCabAndAbByIso(iso))
+                .values().stream()
+                .flatMap(bodyScopes -> bodyScopes.stream()
+                        .filter(scope -> Objects.equals(scope.getEaCode(), resolvedEaCode))
+                        .findFirst()
+                        .map(match -> {
+                            List<AccreditationScopeDto> eaScopes = bodyScopes.stream()
+                                    .filter(scope -> scope.getEaCode() != null)
+                                    .map(scope -> toScopeDto(scope, sectorNames))
+                                    .toList();
+                            String scopeSection = eaScopes.stream()
+                                    .map(AccreditationScopeDto::scopeSection)
+                                    .distinct()
+                                    .collect(Collectors.joining(" / "));
+                            return toCard(match.getCertificationBody(), match.getProofUrl(),
+                                    resolvedEaCode, resolvedEaDesc, scopeSection, eaScopes);
+                        })
+                        .stream())
+                .toList();
+
+        return new SearchResponse(resolvedAteco, resolvedEaCode, resolvedEaDesc, cards, false);
+    }
+
+    /** ATECO code first, then the sector text against Italian descriptions, then English EA descriptions. */
+    private AtecoEaMapping resolveMapping(SearchRequest request) {
+        Optional<AtecoEaMapping> mapping = isPresent(request.atecoCode())
+                ? atecoEaMappingRepository.findFirstByAtecoCode(request.atecoCode().trim())
+                : Optional.empty();
         if (mapping.isEmpty() && isPresent(request.sectorActivity())) {
             String keyword = request.sectorActivity().trim();
             mapping = atecoEaMappingRepository.findFirstByDescriptionContainingIgnoreCase(keyword)
                     .or(() -> atecoEaMappingRepository.findFirstByEaDescriptionContainingIgnoreCase(keyword));
         }
-
-        Integer directEaCode = parseEaCode(request.sectorActivity());
-        AtecoEaMapping resolvedMapping = mapping.orElse(null);
-        if (resolvedMapping == null && directEaCode == null) {
-            throw new IllegalArgumentException("Settore di attività non riconosciuto. Inserisci un settore valido o un codice EA/ATECO supportato.");
-        }
-
-        // ATECO can be null when matched purely by Activity Sector
-        String resolvedAteco = resolvedMapping != null && isPresent(resolvedMapping.getAtecoCode())
-                ? resolvedMapping.getAtecoCode()
-                : "N/A (Solo Settore EA)";
-        int resolvedEaCode = resolvedMapping != null ? resolvedMapping.getEaCode() : directEaCode;
-        Map<Integer, String> sectorNames = loadSectorNames();
-        String resolvedEaDesc = sectorName(sectorNames, resolvedEaCode);
-
-        // 3. Mandatory ISO Standard (defaults to ISO 9001 if blank)
-        String iso = isPresent(request.isoStandard()) ? request.isoStandard().trim() : DEFAULT_ISO;
-
-        List<AccreditedScope> matchingScopes =
-                accreditedScopeRepository.findActiveScopesWithCabAndAb(iso, resolvedEaCode);
-        Map<Integer, List<AccreditedScope>> allScopesByBody =
-                groupByCertificationBody(accreditedScopeRepository.findActiveScopesWithCabAndAbByIso(iso));
-
-        List<CertificationBodyCardDto> cards = matchingScopes.stream()
-                .collect(Collectors.toMap(
-                        scope -> scope.getCertificationBody().getId(),
-                        scope -> scope,
-                        (first, ignored) -> first,
-                        LinkedHashMap::new))
-                .values().stream()
-                .map(scope -> {
-                    CertificationBody cb = scope.getCertificationBody();
-                    List<AccreditationScopeDto> groupedScopes = allScopesByBody
-                            .getOrDefault(cb.getId(), List.of())
-                            .stream()
-                            .filter(candidate -> candidate.getEaCode() != null)
-                            .map(candidate -> toScopeDto(candidate, sectorNames))
-                            .toList();
-                    String scopeSection = groupedScopes.stream()
-                            .map(AccreditationScopeDto::scopeSection)
-                            .distinct()
-                            .collect(Collectors.joining(" / "));
-
-                    return toCard(cb, scope.getProofUrl(), resolvedEaCode, resolvedEaDesc, scopeSection, groupedScopes);
-                }).toList();
-
-        return new SearchResponse(resolvedAteco, resolvedEaCode, resolvedEaDesc, cards.size(), cards, false);
+        return mapping.orElse(null);
     }
 
     @Transactional(readOnly = true)
@@ -167,7 +160,7 @@ public class SearchService {
                 })
                 .toList();
 
-        return new SearchResponse("Tutti", 0, ALL_SECTORS, cards.size(), cards, true);
+        return new SearchResponse("Tutti", 0, ALL_SECTORS, cards, true);
     }
 
     private static boolean isPresent(String value) {

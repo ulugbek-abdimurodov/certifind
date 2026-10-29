@@ -22,20 +22,6 @@ public interface AccreditedScopeRepository extends JpaRepository<AccreditedScope
         JOIN FETCH s.certificationBody cb
         LEFT JOIN FETCH cb.accreditationBody ab
         WHERE s.isoStandard = :isoStandard
-          AND s.eaCode = :eaCode
-          AND s.status = 'ACTIVE'
-        ORDER BY cb.name ASC
-    """)
-    List<AccreditedScope> findActiveScopesWithCabAndAb(
-        @Param("isoStandard") String isoStandard,
-        @Param("eaCode") Integer eaCode
-    );
-
-    @Query("""
-        SELECT s FROM AccreditedScope s
-        JOIN FETCH s.certificationBody cb
-        LEFT JOIN FETCH cb.accreditationBody ab
-        WHERE s.isoStandard = :isoStandard
           AND s.status = 'ACTIVE'
         ORDER BY cb.name ASC, s.eaCode ASC
     """)

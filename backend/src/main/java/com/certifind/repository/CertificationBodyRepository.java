@@ -15,6 +15,4 @@ public interface CertificationBodyRepository extends JpaRepository<Certification
         ORDER BY cb.name ASC
     """)
     List<CertificationBody> findAllWithAccreditationBody();
-
-    List<CertificationBody> findByCountry(String country);
 }

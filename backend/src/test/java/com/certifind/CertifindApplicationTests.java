@@ -36,7 +36,7 @@ class CertifindApplicationTests {
     @Test
     @DisplayName("Verify ATECO 88.91.00 resolves to EA 37")
     void testAtecoResolution() {
-        Optional<AtecoEaMapping> mapping = atecoEaMappingRepository.findByAtecoCode("88.91.00");
+        Optional<AtecoEaMapping> mapping = atecoEaMappingRepository.findFirstByAtecoCode("88.91.00");
         assertTrue(mapping.isPresent(), "Mapping for ATECO 88.91.00 should exist in seed database");
         assertEquals(37, mapping.get().getEaCode());
         assertEquals("Education", mapping.get().getEaDescription());

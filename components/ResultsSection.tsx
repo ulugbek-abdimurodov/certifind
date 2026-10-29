@@ -1,7 +1,7 @@
 "use client";
 
-import type { ResultFilter, SearchResponse } from "../app/search-types";
-import { countryFlags } from "../app/search-data";
+import type { Body, ResultFilter, SearchResponse } from "../app/search-types";
+import { flagFor, matchesFilter, scopeCode } from "../app/search-data";
 
 type ResultsSectionProps = {
   data: SearchResponse | null;
@@ -9,7 +9,7 @@ type ResultsSectionProps = {
   iso: string;
   resultFilter: ResultFilter;
   onFilterChange: (filter: ResultFilter) => void;
-  onSelect: (body: SearchResponse["results"][number]) => void;
+  onSelect: (body: Body) => void;
 };
 
 export function ResultsSection({
@@ -30,31 +30,9 @@ export function ResultsSection({
       ).sort()
     : [];
   const filteredResults =
-    data?.results.filter((body) => {
-      const matchesFilter =
-        resultFilter === "all" ||
-        (resultFilter === "italy" &&
-          body.accreditationBodyCode === "ACCREDIA") ||
-        (resultFilter === "foreign" &&
-          body.accreditationBodyCode !== "ACCREDIA" &&
-          body.isIafMla) ||
-        (resultFilter.startsWith("accreditor:") &&
-          body.accreditationBodyCode === resultFilter.slice(11));
-      return matchesFilter;
-    }) ?? [];
-  const resultCount = filteredResults.length;
+    data?.results.filter((body) => matchesFilter(body, resultFilter)) ?? [];
   const countForFilter = (filter: ResultFilter) =>
-    data?.results.filter((body) => {
-      const matchesFilter =
-        filter === "all" ||
-        (filter === "italy" && body.accreditationBodyCode === "ACCREDIA") ||
-        (filter === "foreign" &&
-          body.accreditationBodyCode !== "ACCREDIA" &&
-          body.isIafMla) ||
-        (filter.startsWith("accreditor:") &&
-          body.accreditationBodyCode === filter.slice(11));
-      return matchesFilter;
-    }).length ?? 0;
+    data?.results.filter((body) => matchesFilter(body, filter)).length ?? 0;
 
   return (
     <section className="results-section" id="results">
@@ -75,7 +53,7 @@ export function ResultsSection({
                 <span className="eyebrow-line" /> RISULTATI DELLA RICERCA
               </div>
               <h2>
-                {resultCount} organismi{" "}
+                {filteredResults.length} organismi{" "}
                 <em>{data.directory ? "nel database" : "trovati"}</em>
               </h2>
               <p>
@@ -141,7 +119,7 @@ export function ResultsSection({
                         {String(index + 1).padStart(2, "0")}
                       </div>
                       <div className="country-flag" aria-label={body.country}>
-                        {countryFlags[body.country] ?? "🌐"}
+                        {flagFor(body.country)}
                       </div>
                       <div className="result-main">
                         <div className="name-line">
@@ -157,11 +135,7 @@ export function ResultsSection({
                           <span>
                             {data.directory
                               ? body.scopes?.length
-                                ? body.scopes
-                                    .map((scope) => scope.eaCode == null
-                                      ? `${scope.isoStandard} (non-EA)`
-                                      : `EA ${scope.eaCode}`)
-                                    .join(", ")
+                                ? body.scopes.map(scopeCode).join(", ")
                                 : "Nessun settore disponibile"
                               : `${iso} · EA ${body.scopes?.map((scope) => scope.eaCode).join(", EA ") || body.eaCode}`}
                           </span>

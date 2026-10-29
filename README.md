@@ -8,8 +8,8 @@ The Next.js interface provides:
 
 - Search inputs for ISO standard, sector activity, and ATECO code
 - A five-stage, 1.2-second progress animation followed by the live API search
-- Result cards with country, accreditation body, relevant scope, and partnership status
-- A detail drawer with contact information, accreditation source, and four collaboration criteria
+- Result cards with country, accreditation body, and relevant scopes, filterable by accreditor
+- A detail drawer with contact information, accreditation source, and collaboration criteria
 - Clear error feedback when the API is unavailable or the sector cannot be resolved
 
 Prices, rate assumptions, and savings are not part of the API contract or UI. Search results are sorted alphabetically by organization name.
@@ -51,7 +51,7 @@ Open [http://localhost:3000](http://localhost:3000). The frontend calls `http://
 }
 ```
 
-The response includes the resolved ATECO/EA sector and matching bodies with accreditation, auditor, partnership, contact, and source information. Unresolved sectors return HTTP 400; they are not silently mapped to Education.
+The response includes the resolved ATECO/EA sector and matching bodies with accreditation, scope, contact, and source information. Unresolved sectors return HTTP 400; they are not silently mapped to Education.
 
 ## Data notes
 

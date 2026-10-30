@@ -20,14 +20,17 @@ export function ResultsSection({
   onFilterChange,
   onSelect,
 }: ResultsSectionProps) {
-  const accreditorCodes = data
+  const accreditorInfo = data
     ? Array.from(
-        new Set(
+        new Map(
           data.results
-            .map((body) => body.accreditationBodyCode)
-            .filter((code) => code !== "ACCREDIA"),
-        ),
-      ).sort()
+            .filter((body) => body.accreditationBodyCode !== "ACCREDIA")
+            .map((body) => [
+              body.accreditationBodyCode,
+              { code: body.accreditationBodyCode, country: body.country },
+            ]),
+        ).values(),
+      ).sort((a, b) => a.code.localeCompare(b.code))
     : [];
   const filteredResults =
     data?.results.filter((body) => matchesFilter(body, resultFilter)) ?? [];
@@ -86,13 +89,7 @@ export function ResultsSection({
                   >
                     Italia • ACCREDIA ({countForFilter("italy")})
                   </FilterButton>
-                  <FilterButton
-                    active={resultFilter === "foreign"}
-                    onClick={() => onFilterChange("foreign")}
-                  >
-                    Estero ({countForFilter("foreign")})
-                  </FilterButton>
-                  {accreditorCodes.map((code) => {
+                  {accreditorInfo.map(({ code, country }) => {
                     const filter = `accreditor:${code}` as const;
                     return (
                       <FilterButton
@@ -100,7 +97,7 @@ export function ResultsSection({
                         active={resultFilter === filter}
                         onClick={() => onFilterChange(filter)}
                       >
-                        {code} ({countForFilter(filter)})
+                        {country} • {code} ({countForFilter(filter)})
                       </FilterButton>
                     );
                   })}

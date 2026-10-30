@@ -4,6 +4,7 @@ import { FormEvent, useEffect, useState } from "react";
 import { OrganizationDrawer } from "../components/OrganizationDrawer";
 import { ResultsSection } from "../components/ResultsSection";
 import { SearchForm } from "../components/SearchForm";
+import { ThemeToggle } from "../components/ThemeToggle";
 import { Workflow } from "../components/Workflow";
 import { API_URL, stages } from "./search-data";
 import type {
@@ -159,9 +160,12 @@ export default function Home() {
         <div className="topbar-note">
           <span className="status-dot" /> Ricerca organismi accreditati
         </div>
-        <a className="help-link" href="mailto:info@certifind.it">
-          Hai bisogno di aiuto? <span>↗</span>
-        </a>
+        <div className="topbar-actions">
+          <ThemeToggle />
+          <a className="help-link" href="mailto:info@certifind.it">
+            Hai bisogno di aiuto? <span>↗</span>
+          </a>
+        </div>
       </header>
       <section className="hero" id="top">
         <div className="hero-copy">

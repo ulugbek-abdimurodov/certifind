@@ -1,20 +1,38 @@
 # CertiFind
 
-CertiFind helps Italian businesses find certification bodies with relevant accredited scopes. The current demo uses a static seed dataset and a Spring Boot API; it does not scrape accreditation directories and does not show estimated prices.
+CertiFind helps Italian businesses find certification bodies with relevant accredited scopes. It runs on a seeded PostgreSQL database, a Spring Boot API and a Next.js frontend; it does not scrape accreditation directories and does not show estimated prices.
 
-## Next.js
+## Stack
 
-The Next.js interface provides:
+| Layer | Technology |
+| --- | --- |
+| Frontend | Next.js 16, React 19, TypeScript (`app/`, `components/`) |
+| Backend | Spring Boot 3.3, Java 21, Spring Data JPA (`backend/`) |
+| Database | PostgreSQL 16 (`pgvector/pgvector:pg16` image) via Docker Compose |
 
-- Search inputs for ISO standard and sector activity
-- A five-stage, 1.2-second progress animation followed by the live API search
-- Result cards with country, accreditation body, and relevant scopes, filterable by accreditor
-- A detail drawer with contact information, accreditation source, and collaboration criteria
+## Interface
+
+The Next.js interface (Italian) provides:
+
+- An ISO standard dropdown and a sector field with EA-sector autocomplete, both
+  filled from the database (`GET /api/v1/options`)
+- Quick demo scenarios, replaced by your last five searches (stored in `localStorage`)
+- A five-stage, 1.2-second progress animation that runs alongside the API request
+- Result cards with country, accreditation body and relevant scopes, filterable
+  by "Italia • ACCREDIA" or by each foreign accreditor (e.g. "Albania • DPA")
+- "Vedi tutte le aziende": a directory of every certification body and its
+  currently valid scopes
+- A detail drawer with contacts, certificate expiry date, accredited scopes
+  grouped by standard (filterable per standard), collaboration criteria and the
+  accreditation source link
+- A light/dark theme toggle; the saved or system theme is applied before first paint
 - Clear error feedback when the API is unavailable or the sector cannot be resolved
 
 Prices, rate assumptions, and savings are not part of the API contract or UI. Search results are sorted alphabetically by organization name.
 
 ## Start locally
+
+Prerequisites: Docker, Java 21 and Node.js.
 
 Start PostgreSQL. On a new database volume, Docker runs the canonical schema
 and seed exactly once, in filename order:
@@ -22,6 +40,13 @@ and seed exactly once, in filename order:
 ```powershell
 docker compose up -d postgres
 ```
+
+Alternatively, `.\start-dev.ps1` starts the database and checks that ports 8080
+and 3000 are free.
+
+Database credentials default to those in `.env.example` and
+`backend/src/main/resources/application.yml` (`certifind_db`, user `postgres`,
+port 5432).
 
 In a second terminal, start the backend:
 
@@ -39,7 +64,18 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000). The frontend calls `http://localhost:8080` by default. Set `NEXT_PUBLIC_API_URL` in `.env.local` to use a different API origin.
 
+Other scripts: `npm run lint`, `npm run build`, `npm start`.
+
 ## API
+
+All endpoints are under `/api/v1`.
+
+| Method | Path | Purpose |
+| --- | --- | --- |
+| `GET` | `/health` | Returns `{"status": "UP"}` |
+| `GET` | `/options` | Certification standards and EA sectors that have at least one valid right |
+| `POST` | `/search` | Bodies that may issue a standard in a sector |
+| `GET` | `/companies` | Every certification body with its currently valid scopes (`directory: true`) |
 
 `POST /api/v1/search`
 
@@ -50,14 +86,22 @@ Open [http://localhost:3000](http://localhost:3000). The frontend calls `http://
 }
 ```
 
-The response includes the resolved EA sector and matching bodies with accreditation, scope, contact, and source information. Unresolved sectors return HTTP 400; they are not silently mapped to Education.
+The sector is resolved from an explicit `EA nn` code (1–39) if present,
+otherwise through the IT/EN keyword vocabulary (`sector_keywords`). An empty
+`isoStandard` defaults to ISO 9001.
+
+The response includes the resolved EA sector and matching bodies with accreditation, scope, contact, certificate expiry and source information. Each card lists all of the body's valid EA sectors for the requested standard. Unresolved sectors return HTTP 400; they are not silently mapped to a default sector.
 
 ## Data notes
 
-The SQL seed contains demonstration organization and accreditation data. Contact
-and accreditation details must be confirmed against current official records
-before being represented as independently verified. The interface links the
-scope source supplied with each seed record and includes that caveat.
+The SQL seed mixes fictional demonstration bodies with real Albanian bodies
+transcribed from DPA accreditation annexes. Contact and accreditation details
+must be confirmed against current official records before being represented as
+independently verified. The interface links the scope source supplied with each
+seed record and includes that caveat.
+
+Accreditation bodies (real reference data): ACCREDIA (Italy), UKAS (United
+Kingdom), DAkkS (Germany), RENAR (Romania), PCA (Poland), DPA (Albania).
 
 Data model (`init-db/01-schema.sql`):
 
@@ -92,7 +136,14 @@ ISO 9001 + "metallo":
 | Polcert | 50003 expired 2026-06-30 | excluded for 50001 |
 | Tecno Audit | 9001 EA 38 scope suspended | excluded for EA 38 only |
 
-All certification bodies, certificate numbers, contacts and URLs are fictional.
+The bodies in the table above, with their certificate numbers, contacts and URLs,
+are fictional. The seed also contains real Albanian bodies accredited by DPA
+(Legal Cert, AXE Register, AQScert, Career Cert Institute, EQSC, CERTIS, e-Cert,
+R.C.A, M.G Bugatti Certification, MSC Certifications, Autenticert Albania,
+CERTI AL). Their sector lists are taken from the annexes; lettered categories
+(ISO 50001 A–H, ISO 22000 A–K, ISO 22301, ISO 13485 device categories) are
+mapped to EA codes by sector, and annexes that cover "all IAF codes" or give no
+sector list are recorded for all 39 EA sectors.
 
 `init-db/01-schema.sql` and `init-db/02-seed.sql` are the only database scripts.
 Docker's entrypoint runs them once, on an empty volume. To rebuild an existing

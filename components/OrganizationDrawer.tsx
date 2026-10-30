@@ -1,7 +1,7 @@
 "use client";
 
 import type { Body } from "../app/search-types";
-import { flagFor, scopeLinesByStandard, scopeListLabel } from "../app/search-data";
+import { flagFor, scopeLinesByStandard } from "../app/search-data";
 
 export function OrganizationDrawer({
   body,
@@ -15,10 +15,10 @@ export function OrganizationDrawer({
   if (!body) return null;
   const { scopes } = body;
   const scopeLines = scopeLinesByStandard(scopes);
-  /** Scope codes when available, otherwise the given single-EA label, otherwise "all". */
+  /** Standards when scopes are available, otherwise the given single-EA label, otherwise "all". */
   const scopeSummary = (singleEaLabel: string) =>
     scopes.length
-      ? scopeListLabel(scopes)
+      ? scopeLines.map(({ standard }) => standard).join(", ")
       : body.eaCode > 0
         ? singleEaLabel
         : "Tutti gli standard e settori";
@@ -56,53 +56,60 @@ export function OrganizationDrawer({
           </div>
         </div>
         <div className="drawer-divider" />
+        <div className="contact-list">
+          {body.phone && (
+            <ContactLink href={`tel:${body.phone}`} icon="☎" label="Telefono">
+              {body.phone}
+            </ContactLink>
+          )}
+          {body.email && (
+            <ContactLink href={`mailto:${body.email}`} icon="✉" label="Email">
+              {body.email}
+            </ContactLink>
+          )}
+          {body.website && (
+            <ContactLink
+              href={body.website}
+              icon="↗"
+              label="Sito web"
+              external
+            >
+              {body.website.replace(/^https?:\/\//, "")}
+            </ContactLink>
+          )}
+          {body.address && (
+            <div className="address-row">
+              <span>⌖</span>
+              <div>
+                <small>Sede</small>
+                {body.address}
+              </div>
+            </div>
+          )}
+        </div>
         <section className="drawer-section">
           <div className="drawer-section-title">
             <span>03</span> CAMPO DI APPLICAZIONE ACCREDITATO
           </div>
           <div className="scope-highlight">
-            <strong>
-              {scopeSummary(`${iso} • EA ${body.eaCode} (${body.eaDescription})`)}
-            </strong>
             {scopes.length ? (
-              scopeLines.map(({ iso, label }) => (
-                <p key={iso}>
-                  {iso}: {label}
-                </p>
+              scopeLines.map(({ standard, allSectors, sectors }) => (
+                <div key={standard}>
+                  <strong>{standard}</strong>
+                  {allSectors ? (
+                    <p>Tutti i settori</p>
+                  ) : (
+                    sectors.map((sector) => <p key={sector}>{sector}</p>)
+                  )}
+                </div>
               ))
             ) : (
-              <p>{body.scopeSection || "Tutti gli accreditamenti disponibili"}</p>
-            )}
-          </div>
-          <div className="contact-list">
-            {body.phone && (
-              <ContactLink href={`tel:${body.phone}`} icon="☎" label="Telefono">
-                {body.phone}
-              </ContactLink>
-            )}
-            {body.email && (
-              <ContactLink href={`mailto:${body.email}`} icon="✉" label="Email">
-                {body.email}
-              </ContactLink>
-            )}
-            {body.website && (
-              <ContactLink
-                href={body.website}
-                icon="↗"
-                label="Sito web"
-                external
-              >
-                {body.website.replace(/^https?:\/\//, "")}
-              </ContactLink>
-            )}
-            {body.address && (
-              <div className="address-row">
-                <span>⌖</span>
-                <div>
-                  <small>Sede</small>
-                  {body.address}
-                </div>
-              </div>
+              <>
+                <strong>
+                  {scopeSummary(`${iso} • EA ${body.eaCode} (${body.eaDescription})`)}
+                </strong>
+                <p>{body.scopeSection || "Tutti gli accreditamenti disponibili"}</p>
+              </>
             )}
           </div>
         </section>

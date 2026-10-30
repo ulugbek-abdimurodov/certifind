@@ -91,7 +91,7 @@ export function SearchForm({
             onBlur={() => {
               window.setTimeout(() => setSectorFocused(false), 150);
             }}
-            placeholder="Es. Asilo nido, software…"
+            placeholder="EA 12 - Prodotti chimici e fibre"
             aria-autocomplete="list"
             aria-controls="sector-suggestions"
             required

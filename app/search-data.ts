@@ -39,15 +39,16 @@ export const scopeListLabel = (scopes: AccreditationScope[]) => {
 const scopeDetail = (scope: AccreditationScope) =>
   scope.eaCode == null ? scope.scopeSection : `EA ${scope.eaCode} (${scope.eaDescription})`;
 
-/** One line per ISO standard, so the same EA sector is not repeated under each standard. */
+/** One entry per ISO standard; a standard covering all EA sectors lists no sectors. */
 export const scopeLinesByStandard = (scopes: AccreditationScope[]) => {
   const byStandard = new Map<string, AccreditationScope[]>();
   scopes.forEach((scope) => {
     byStandard.set(scope.isoStandard, [...(byStandard.get(scope.isoStandard) ?? []), scope]);
   });
-  return [...byStandard].map(([iso, group]) => ({
-    iso,
-    label: coversAllSectors(group) ? "Tutti i settori" : group.map(scopeDetail).join(" / "),
+  return [...byStandard].map(([standard, group]) => ({
+    standard,
+    allSectors: coversAllSectors(group),
+    sectors: group.map(scopeDetail),
   }));
 };
 
@@ -61,9 +62,9 @@ export function matchesFilter(body: Body, filter: ResultFilter) {
 
 export const demoPresets = [
   {
-    label: "Asilo Nido (ISO 9001 • EA 37)",
+    label: "Prodotti chimici e fibre (ISO 9001 • EA 37)",
     iso: "ISO 9001",
-    sector: "Asilo nido",
+    sector: "EA 12 - Prodotti chimici e fibre",
   },
   {
     label: "Software & IT (ISO 9001 • EA 33)",

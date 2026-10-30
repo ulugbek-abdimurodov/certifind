@@ -46,7 +46,7 @@ Open [http://localhost:3000](http://localhost:3000). The frontend calls `http://
 ```json
 {
   "isoStandard": "ISO 9001",
-  "sectorActivity": "Asilo nido"
+  "sectorActivity": "EA 12 - Prodotti chimici e fibre"
 }
 ```
 

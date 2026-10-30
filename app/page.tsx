@@ -21,7 +21,7 @@ const SERVICE_UNAVAILABLE =
 
 export default function Home() {
   const [iso, setIso] = useState("ISO 9001");
-  const [sector, setSector] = useState("Asilo nido");
+  const [sector, setSector] = useState("EA 12 - Prodotti chimici e fibre");
   const [step, setStep] = useState(-1);
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState<SearchResponse | null>(null);

@@ -156,7 +156,7 @@ export function OrganizationDrawer({
           <div className="criteria-list">
             <Criterion
               label="Scope ISO pertinente"
-              ok
+              ok={scopes.length > 0}
               detail={scopeSummary(`${iso} · EA ${body.eaCode}`)}
             />
           </div>

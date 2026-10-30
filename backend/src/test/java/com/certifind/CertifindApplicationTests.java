@@ -58,10 +58,21 @@ class CertifindApplicationTests {
         assertEquals(List.of(
                 "Adriatik Cert Sh.p.k.",
                 "Albion Certification Services Ltd",
+                "AQScert",
+                "AXE Register sh.p.k",
+                "CAREER CERT INSTITUTE sh.p.k",
+                "CERTI AL sh.p.k",
+                "CERTIS sh.p.k",
+                "e-Cert sh.p.k",
+                "European Quality and Safety Control (EQSC) sh.p.k",
+                "Legal Cert sh.p.k",
                 "Mainfranken Zertifizierung GmbH",
                 "Metalcert Europe S.r.l.",
+                "M.G BUGATTI CERTIFICATION sh.p.k",
+                "MSC CERTIFICATIONS sh.p.k",
                 "Nord Est Certificazioni S.p.A.",
                 "Polcert Sp. z o.o.",
+                "Risk Control Advisory – R.C.A sh.p.k",
                 "Sigma Quality Registrar Ltd"), names);
         // No EA 17 right, 45001/14001 only, 27006 only, withdrawn scope, suspended accreditation.
         assertFalse(names.contains("Qualitas Certificazioni S.r.l."));
@@ -75,8 +86,19 @@ class CertifindApplicationTests {
     @DisplayName("27006 accreditation covers ISO/IEC 27001 in every EA sector")
     void testIso27001AllSectors() {
         List<String> expected = List.of(
-                "InfoSec Assurance Italia S.r.l.",
+                "AQScert",
+                "AUTENTICERT Albania sh.p.k",
+                "AXE Register sh.p.k",
+                "CAREER CERT INSTITUTE sh.p.k",
+                "CERTI AL sh.p.k",
+                "CERTIS sh.p.k",
+                "e-Cert sh.p.k",
+                "European Quality and Safety Control (EQSC) sh.p.k",
+                "Legal Cert sh.p.k",
+                "M.G BUGATTI CERTIFICATION sh.p.k",
+                "MSC CERTIFICATIONS sh.p.k",
                 "Qualitas Certificazioni S.r.l.",
+                "Risk Control Advisory – R.C.A sh.p.k",
                 "Sigma Quality Registrar Ltd",
                 "Tecno Audit Italia S.r.l.");
         assertEquals(expected, namesFor("ISO/IEC 27001", "EA 17"));

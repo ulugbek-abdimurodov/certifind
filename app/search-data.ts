@@ -69,7 +69,7 @@ export function matchesFilter(body: Body, filter: ResultFilter) {
 
 export const demoPresets = [
   {
-    label: "Prodotti chimici e fibre (ISO 9001 • EA 37)",
+    label: "Prodotti chimici e fibre (ISO 9001 • EA 12)",
     iso: "ISO 9001",
     sector: "EA 12 - Prodotti chimici e fibre",
   },

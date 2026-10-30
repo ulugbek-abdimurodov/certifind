@@ -13,13 +13,13 @@
 
 BEGIN;
 
-INSERT INTO accreditation_bodies (code, name, country, is_iaf_mla, website) VALUES
-('ACCREDIA', 'ACCREDIA - Ente Italiano di Accreditamento',          'Italy',          TRUE,  'https://www.accredia.it'),
-('UKAS',     'United Kingdom Accreditation Service',                'United Kingdom', TRUE,  'https://www.ukas.com'),
-('DAkkS',    'Deutsche Akkreditierungsstelle',                      'Germany',        TRUE,  'https://www.dakks.de'),
-('RENAR',    'Asociatia de Acreditare din Romania',                 'Romania',        TRUE,  'https://www.renar.ro'),
-('PCA',      'Polskie Centrum Akredytacji',                         'Poland',         TRUE,  'https://www.pca.gov.pl'),
-('DPA',      'Drejtoria e Pergjithshme e Akreditimit',              'Albania',        FALSE, 'https://www.dpa.gov.al');
+INSERT INTO accreditation_bodies (code, name, country, website) VALUES
+('ACCREDIA', 'ACCREDIA - Ente Italiano di Accreditamento',          'Italy',          'https://www.accredia.it'),
+('UKAS',     'United Kingdom Accreditation Service',                'United Kingdom', 'https://www.ukas.com'),
+('DAkkS',    'Deutsche Akkreditierungsstelle',                      'Germany',        'https://www.dakks.de'),
+('RENAR',    'Asociatia de Acreditare din Romania',                 'Romania',        'https://www.renar.ro'),
+('PCA',      'Polskie Centrum Akredytacji',                         'Poland',         'https://www.pca.gov.pl'),
+('DPA',      'Drejtoria e Pergjithshme e Akreditimit',              'Albania',        'https://www.dpa.gov.al');
 
 INSERT INTO ea_sectors (code, name_en, name_it) VALUES
 ( 1, 'Agriculture, forestry and fishing',                        'Agricoltura, silvicoltura e pesca'),
@@ -70,14 +70,40 @@ INSERT INTO standards (code, title, kind) VALUES
 ('ISO 14001',       'Environmental management systems',                  'CERTIFICATION'),
 ('ISO 45001',       'Occupational health and safety management systems',  'CERTIFICATION'),
 ('ISO/IEC 27001',   'Information security management systems',           'CERTIFICATION'),
-('ISO 50001',       'Energy management systems',                          'CERTIFICATION');
+('ISO 50001',       'Energy management systems',                          'CERTIFICATION'),
+('ISO/IEC 17021-4', 'Requirements for bodies providing audit and certification of sustainable event management systems', 'ACCREDITATION'),
+('ISO/IEC 17021-6', 'Requirements for bodies providing audit and certification of business continuity management systems', 'ACCREDITATION'),
+('ISO/IEC 17021-7', 'Requirements for bodies providing audit and certification of road traffic safety management systems', 'ACCREDITATION'),
+('ISO/IEC 17021-9', 'Requirements for bodies providing audit and certification of anti-bribery management systems', 'ACCREDITATION'),
+('ISO 22003-1',    'Requirements for bodies providing audit and certification of food safety management systems', 'ACCREDITATION'),
+('ISO/IEC 20000-6', 'Requirements for bodies providing audit and certification of service management systems', 'ACCREDITATION'),
+('ISO 22301',      'Business continuity management systems', 'CERTIFICATION'),
+('ISO 22000',      'Food safety management systems', 'CERTIFICATION'),
+('ISO/IEC 20000-1','Information technology service management systems', 'CERTIFICATION'),
+('ISO 13485',      'Quality management systems for medical devices', 'CERTIFICATION'),
+('ISO 39001',      'Road traffic safety management systems', 'CERTIFICATION'),
+('ISO 20121',      'Sustainable event management systems', 'CERTIFICATION'),
+('ISO 37001',      'Anti-bribery management systems', 'CERTIFICATION'),
+('ISO/IEC 27701',  'Privacy information management systems', 'CERTIFICATION'),
+('ISO/IEC 27017',  'Information security controls for cloud services', 'CERTIFICATION'),
+('ISO/IEC 27018',  'Protection of personally identifiable information in public clouds', 'CERTIFICATION');
 
 INSERT INTO accreditation_scheme_rules (accreditation_standard, certification_standard) VALUES
 ('ISO/IEC 17021-1', 'ISO 9001'),
 ('ISO/IEC 17021-1', 'ISO 14001'),
 ('ISO/IEC 17021-1', 'ISO 45001'),
 ('ISO/IEC 27006',   'ISO/IEC 27001'),
-('ISO 50003',       'ISO 50001');
+('ISO 50003',       'ISO 50001'),
+('ISO/IEC 17021-1', 'ISO 13485'),
+('ISO/IEC 17021-4', 'ISO 20121'),
+('ISO/IEC 17021-6', 'ISO 22301'),
+('ISO/IEC 17021-7', 'ISO 39001'),
+('ISO/IEC 17021-9', 'ISO 37001'),
+('ISO 22003-1',     'ISO 22000'),
+('ISO/IEC 20000-6', 'ISO/IEC 20000-1'),
+('ISO/IEC 27006',   'ISO/IEC 27701'),
+('ISO/IEC 27006',   'ISO/IEC 27017'),
+('ISO/IEC 27006',   'ISO/IEC 27018');
 
 -- Every EA sector name is a keyword in both languages ...
 INSERT INTO sector_keywords (keyword, language, ea_code)
@@ -231,6 +257,70 @@ JOIN accreditations a ON a.certificate_number = v.cert
 CROSS JOIN LATERAL unnest(
     CASE WHEN cardinality(v.eas) = 0 THEN ARRAY(SELECT generate_series(1, 39)) ELSE v.eas END
 ) AS ea;
+
+-- Albanian bodies from their DPA accreditation annexes (CS 006 Legal Cert, CS 007 AXE Register).
+-- Lettered categories are classified by sector: ISO 50001 A-H, ISO 22000 A-K, ISO 13485 device
+-- categories. ISO 22301 covers all eight categories, so it is recorded for all 39 sectors.
+
+INSERT INTO certification_bodies (name, country, phone, email, website, address) VALUES
+('Legal Cert sh.p.k',  'Albania', '+355 692081842', 'info@legalcert.al',          NULL,
+ 'Njesia administrative nr 5, Rruga Tish Daija, kompleksi KIKA 2, Ndertesa 36, Shkalla 2(14), kati 2, Tiranë'),
+('AXE Register sh.p.k', 'Albania', '+355 696037861', 'sokol.a@axe-register.com', NULL,
+ 'Sheshi "Skënderbej", Pallati i Kulturës, Nr. 34, 1001, Tiranë');
+
+INSERT INTO accreditations
+    (certification_body_id, accreditation_body_id, accreditation_standard, certificate_number,
+     status, issue_date, expiry_date, proof_url)
+SELECT cb.id, ab.id, v.std, v.cert, 'ACTIVE', v.issued::date, v.expires::date, 'https://www.dpa.gov.al'
+FROM (VALUES
+    ('Legal Cert sh.p.k',   'ISO/IEC 17021-1', 'CS 006',         '2025-12-16', '2029-12-15'),
+    ('Legal Cert sh.p.k',   'ISO/IEC 27006',   'CS 006 (27006)', '2025-12-16', '2029-12-15'),
+    ('Legal Cert sh.p.k',   'ISO/IEC 17021-9', 'CS 006 (37001)', '2025-12-16', '2029-12-15'),
+    ('Legal Cert sh.p.k',   'ISO 50003',       'CS 006 (50003)', '2025-12-16', '2029-12-15'),
+    ('AXE Register sh.p.k', 'ISO/IEC 17021-1', 'CS 007',         '2026-02-24', '2030-02-23'),
+    ('AXE Register sh.p.k', 'ISO/IEC 27006',   'CS 007 (27006)', '2026-02-24', '2030-02-23'),
+    ('AXE Register sh.p.k', 'ISO 50003',       'CS 007 (50003)', '2026-02-24', '2030-02-23'),
+    ('AXE Register sh.p.k', 'ISO/IEC 17021-6', 'CS 007 (22301)', '2026-02-24', '2030-02-23'),
+    ('AXE Register sh.p.k', 'ISO 22003-1',     'CS 007 (22000)', '2026-02-24', '2030-02-23'),
+    ('AXE Register sh.p.k', 'ISO/IEC 20000-6', 'CS 007 (20000)', '2026-02-24', '2030-02-23'),
+    ('AXE Register sh.p.k', 'ISO/IEC 17021-7', 'CS 007 (39001)', '2026-02-24', '2030-02-23'),
+    ('AXE Register sh.p.k', 'ISO/IEC 17021-4', 'CS 007 (20121)', '2026-02-24', '2030-02-23'),
+    ('AXE Register sh.p.k', 'ISO/IEC 17021-9', 'CS 007 (37001)', '2026-02-24', '2030-02-23')
+) AS v(cb_name, std, cert, issued, expires)
+JOIN certification_bodies cb ON cb.name = v.cb_name
+JOIN accreditation_bodies ab ON ab.code = 'DPA';
+
+-- AXE 9001 / 14001 / 45001 annexes list EA 1-39 except 11.
+-- Legal Cert 27006 and 37001 annexes say "all IAF codes"; AXE annexes without a sector list
+-- (27001, 27701, 27017, 27018, 20000-1, 39001, 20121, 37001) are recorded for all 39.
+INSERT INTO accredited_scopes (accreditation_id, accreditation_standard, certification_standard, ea_code)
+SELECT a.id, a.accreditation_standard, v.std, ea
+FROM (VALUES
+    ('CS 006',         'ISO 9001',      ARRAY[1, 3, 17, 18]),
+    ('CS 006',         'ISO 14001',     ARRAY[1, 3, 17, 18, 24]),
+    ('CS 006',         'ISO 45001',     ARRAY[1, 3, 17, 18, 24, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]),
+    ('CS 006 (27006)', 'ISO/IEC 27001', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 006 (37001)', 'ISO 37001',     ARRAY(SELECT generate_series(1, 39))),
+    ('CS 006 (50003)', 'ISO 50001',     ARRAY[1, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 28, 30, 31, 32, 34, 36, 37, 38, 39]),
+
+    ('CS 007',         'ISO 9001',      ARRAY(SELECT generate_series(1, 39) EXCEPT SELECT 11)),
+    ('CS 007',         'ISO 14001',     ARRAY(SELECT generate_series(1, 39) EXCEPT SELECT 11)),
+    ('CS 007',         'ISO 45001',     ARRAY(SELECT generate_series(1, 39) EXCEPT SELECT 11)),
+    ('CS 007',         'ISO 13485',     ARRAY[13, 14, 17, 18, 19, 29, 31, 34, 35]),
+    ('CS 007 (50003)', 'ISO 50001',     ARRAY[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 34, 36, 37, 38, 39]),
+    ('CS 007 (22301)', 'ISO 22301',     ARRAY(SELECT generate_series(1, 39))),
+    ('CS 007 (22000)', 'ISO 22000',     ARRAY[1, 3, 7, 12, 13, 14, 15, 17, 18, 29, 30, 31, 35]),
+    ('CS 007 (20000)', 'ISO/IEC 20000-1', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 007 (39001)', 'ISO 39001',     ARRAY(SELECT generate_series(1, 39))),
+    ('CS 007 (20121)', 'ISO 20121',     ARRAY(SELECT generate_series(1, 39))),
+    ('CS 007 (37001)', 'ISO 37001',     ARRAY(SELECT generate_series(1, 39))),
+    ('CS 007 (27006)', 'ISO/IEC 27001', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 007 (27006)', 'ISO/IEC 27701', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 007 (27006)', 'ISO/IEC 27017', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 007 (27006)', 'ISO/IEC 27018', ARRAY(SELECT generate_series(1, 39)))
+) AS v(cert, std, eas)
+JOIN accreditations a ON a.certificate_number = v.cert
+CROSS JOIN LATERAL unnest(v.eas) AS ea;
 
 -- Scope-level exceptions under otherwise active accreditations.
 UPDATE accredited_scopes s

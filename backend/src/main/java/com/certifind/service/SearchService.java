@@ -223,7 +223,6 @@ public class SearchService {
                 cb.getName(),
                 cb.getCountry(),
                 ab != null ? ab.getCode() : "N/A",
-                ab != null && Boolean.TRUE.equals(ab.getIsIafMla()),
                 cb.getPhone(),
                 cb.getEmail(),
                 cb.getWebsite(),

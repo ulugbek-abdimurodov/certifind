@@ -25,9 +25,6 @@ public class AccreditationBody {
     @Column(name = "country", nullable = false, length = 100)
     private String country;
 
-    @Column(name = "is_iaf_mla", nullable = false)
-    private Boolean isIafMla = true;
-
     @Column(name = "website", length = 255)
     private String website;
 
@@ -45,10 +42,6 @@ public class AccreditationBody {
 
     public String getCountry() {
         return country;
-    }
-
-    public Boolean getIsIafMla() {
-        return isIafMla;
     }
 
     public String getWebsite() {
@@ -74,7 +67,6 @@ public class AccreditationBody {
                 ", code='" + code + '\'' +
                 ", name='" + name + '\'' +
                 ", country='" + country + '\'' +
-                ", isIafMla=" + isIafMla +
                 '}';
     }
 }

@@ -1,7 +1,7 @@
 "use client";
 
 import type { Body } from "../app/search-types";
-import { flagFor, scopeCode } from "../app/search-data";
+import { flagFor, scopeLinesByStandard, scopeListLabel } from "../app/search-data";
 
 export function OrganizationDrawer({
   body,
@@ -14,15 +14,11 @@ export function OrganizationDrawer({
 }) {
   if (!body) return null;
   const { scopes } = body;
-  const scopeDescriptions = scopes.map((scope) =>
-    scope.eaCode == null
-      ? `${scope.isoStandard} (${scope.scopeSection})`
-      : `EA ${scope.eaCode} (${scope.eaDescription})`,
-  );
+  const scopeLines = scopeLinesByStandard(scopes);
   /** Scope codes when available, otherwise the given single-EA label, otherwise "all". */
   const scopeSummary = (singleEaLabel: string) =>
     scopes.length
-      ? scopes.map(scopeCode).join(", ")
+      ? scopeListLabel(scopes)
       : body.eaCode > 0
         ? singleEaLabel
         : "Tutti gli standard e settori";
@@ -51,7 +47,6 @@ export function OrganizationDrawer({
           <div>
             <div className="verified-label">
               <span>✓</span> {body.accreditationBodyCode}
-              {body.isIafMla ? " · IAF/MLA" : ""}
             </div>
             <h2 id="drawer-title">{body.name}</h2>
             <p>
@@ -70,9 +65,11 @@ export function OrganizationDrawer({
               {scopeSummary(`${iso} • EA ${body.eaCode} (${body.eaDescription})`)}
             </strong>
             {scopes.length ? (
-              <p>
-                — {scopeDescriptions.join(" / ")}
-              </p>
+              scopeLines.map(({ iso, label }) => (
+                <p key={iso}>
+                  {iso}: {label}
+                </p>
+              ))
             ) : (
               <p>{body.scopeSection || "Tutti gli accreditamenti disponibili"}</p>
             )}
@@ -117,11 +114,6 @@ export function OrganizationDrawer({
             Informazioni utili per valutare una possibile collaborazione.
           </p>
           <div className="criteria-list">
-            <Criterion
-              label="Accreditamento IAF/MLA"
-              ok={body.isIafMla}
-              detail={body.accreditationBodyCode}
-            />
             <Criterion
               label="Scope ISO pertinente"
               ok

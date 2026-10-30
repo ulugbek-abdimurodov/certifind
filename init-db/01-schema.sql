@@ -20,7 +20,6 @@ CREATE TABLE accreditation_bodies (
     code        VARCHAR(50)  NOT NULL UNIQUE,
     name        VARCHAR(255) NOT NULL,
     country     VARCHAR(100) NOT NULL,
-    is_iaf_mla  BOOLEAN      NOT NULL DEFAULT TRUE,
     website     VARCHAR(255)
 );
 
@@ -120,7 +119,6 @@ SELECT cb.id                    AS certification_body_id,
        cb.name                  AS certification_body,
        cb.country,
        ab.code                  AS accreditation_body,
-       ab.is_iaf_mla,
        a.accreditation_standard,
        a.certificate_number,
        a.expiry_date,
@@ -134,4 +132,13 @@ JOIN accreditation_bodies ab ON ab.id = a.accreditation_body_id
 JOIN ea_sectors ea           ON ea.code = s.ea_code
 WHERE s.status = 'ACTIVE'
   AND a.status = 'ACTIVE'
-  AND (a.expiry_date IS NULL OR a.expiry_date >= CURRENT_DATE);
+  AND (a.expiry_date IS NULL OR a.expiry_date >= CURRENT_DATE)
+  -- A certification body must also hold an active 17021-1 accreditation
+  -- (27001 needs 17021-1 + 27006, 50001 needs 17021-1 + 50003).
+  AND (a.accreditation_standard = 'ISO/IEC 17021-1'
+       OR EXISTS (SELECT 1
+                  FROM accreditations base
+                  WHERE base.certification_body_id = a.certification_body_id
+                    AND base.accreditation_standard = 'ISO/IEC 17021-1'
+                    AND base.status = 'ACTIVE'
+                    AND (base.expiry_date IS NULL OR base.expiry_date >= CURRENT_DATE)));

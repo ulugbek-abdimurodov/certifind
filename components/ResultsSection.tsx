@@ -1,7 +1,7 @@
 "use client";
 
 import type { Body, ResultFilter, SearchResponse } from "../app/search-types";
-import { flagFor, matchesFilter, scopeCode } from "../app/search-data";
+import { flagFor, matchesFilter, scopeListLabel } from "../app/search-data";
 
 type ResultsSectionProps = {
   data: SearchResponse | null;
@@ -90,7 +90,7 @@ export function ResultsSection({
                     active={resultFilter === "foreign"}
                     onClick={() => onFilterChange("foreign")}
                   >
-                    Estero • IAF/MLA ({countForFilter("foreign")})
+                    Estero ({countForFilter("foreign")})
                   </FilterButton>
                   {accreditorCodes.map((code) => {
                     const filter = `accreditor:${code}` as const;
@@ -135,15 +135,14 @@ export function ResultsSection({
                           <span>
                             {data.directory
                               ? body.scopes.length
-                                ? body.scopes.map(scopeCode).join(", ")
+                                ? scopeListLabel(body.scopes)
                                 : "Nessun settore disponibile"
-                              : `${iso} · EA ${body.scopes.map((scope) => scope.eaCode).join(", EA ") || body.eaCode}`}
+                              : `${iso} · ${body.scopes.length ? scopeListLabel(body.scopes) : `EA ${body.eaCode}`}`}
                           </span>
                         </div>
                         <div className="verified-label">
                           <span>✓</span> Accreditamento{" "}
                           {body.accreditationBodyCode}
-                          {body.isIafMla ? " · IAF/MLA" : ""}
                         </div>
                       </div>
                       <span className="card-arrow">↗</span>

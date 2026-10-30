@@ -10,7 +10,8 @@ import java.util.List;
 
 /**
  * Every query here returns only valid issuing rights: the scope and its accreditation
- * are ACTIVE and the accreditation has not expired (same rule as the v_issuing_rights view).
+ * are ACTIVE and the accreditation has not expired, and the certification body also holds
+ * an active ISO/IEC 17021-1 accreditation (same rule as the v_issuing_rights view).
  */
 @Repository
 public interface AccreditedScopeRepository extends JpaRepository<AccreditedScope, Integer> {
@@ -19,6 +20,12 @@ public interface AccreditedScopeRepository extends JpaRepository<AccreditedScope
         SELECT DISTINCT s.certificationStandard FROM AccreditedScope s JOIN s.accreditation a
         WHERE s.status = 'ACTIVE' AND a.status = 'ACTIVE'
           AND (a.expiryDate IS NULL OR a.expiryDate >= CURRENT_DATE)
+          AND (a.accreditationStandard = 'ISO/IEC 17021-1'
+               OR EXISTS (SELECT base FROM Accreditation base
+                          WHERE base.certificationBody.id = a.certificationBody.id
+                            AND base.accreditationStandard = 'ISO/IEC 17021-1'
+                            AND base.status = 'ACTIVE'
+                            AND (base.expiryDate IS NULL OR base.expiryDate >= CURRENT_DATE)))
         ORDER BY s.certificationStandard
     """)
     List<String> findDistinctCertificationStandards();
@@ -27,6 +34,12 @@ public interface AccreditedScopeRepository extends JpaRepository<AccreditedScope
         SELECT DISTINCT s.eaCode FROM AccreditedScope s JOIN s.accreditation a
         WHERE s.status = 'ACTIVE' AND a.status = 'ACTIVE'
           AND (a.expiryDate IS NULL OR a.expiryDate >= CURRENT_DATE)
+          AND (a.accreditationStandard = 'ISO/IEC 17021-1'
+               OR EXISTS (SELECT base FROM Accreditation base
+                          WHERE base.certificationBody.id = a.certificationBody.id
+                            AND base.accreditationStandard = 'ISO/IEC 17021-1'
+                            AND base.status = 'ACTIVE'
+                            AND (base.expiryDate IS NULL OR base.expiryDate >= CURRENT_DATE)))
         ORDER BY s.eaCode
     """)
     List<Integer> findDistinctEaCodes();
@@ -39,6 +52,12 @@ public interface AccreditedScopeRepository extends JpaRepository<AccreditedScope
         WHERE s.certificationStandard = :standard
           AND s.status = 'ACTIVE' AND a.status = 'ACTIVE'
           AND (a.expiryDate IS NULL OR a.expiryDate >= CURRENT_DATE)
+          AND (a.accreditationStandard = 'ISO/IEC 17021-1'
+               OR EXISTS (SELECT base FROM Accreditation base
+                          WHERE base.certificationBody.id = a.certificationBody.id
+                            AND base.accreditationStandard = 'ISO/IEC 17021-1'
+                            AND base.status = 'ACTIVE'
+                            AND (base.expiryDate IS NULL OR base.expiryDate >= CURRENT_DATE)))
         ORDER BY cb.name ASC, s.eaCode ASC
     """)
     List<AccreditedScope> findValidScopesByStandard(@Param("standard") String standard);
@@ -50,6 +69,12 @@ public interface AccreditedScopeRepository extends JpaRepository<AccreditedScope
         JOIN FETCH a.accreditationBody ab
         WHERE s.status = 'ACTIVE' AND a.status = 'ACTIVE'
           AND (a.expiryDate IS NULL OR a.expiryDate >= CURRENT_DATE)
+          AND (a.accreditationStandard = 'ISO/IEC 17021-1'
+               OR EXISTS (SELECT base FROM Accreditation base
+                          WHERE base.certificationBody.id = a.certificationBody.id
+                            AND base.accreditationStandard = 'ISO/IEC 17021-1'
+                            AND base.status = 'ACTIVE'
+                            AND (base.expiryDate IS NULL OR base.expiryDate >= CURRENT_DATE)))
         ORDER BY cb.id ASC, s.certificationStandard ASC, s.eaCode ASC
     """)
     List<AccreditedScope> findAllValidScopes();

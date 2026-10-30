@@ -25,11 +25,37 @@ export const flagFor = (country: string) => countryFlags[country] ?? "🌐";
 export const scopeCode = (scope: AccreditationScope) =>
   scope.eaCode == null ? `${scope.isoStandard} (non-EA)` : `EA ${scope.eaCode}`;
 
+const EA_SECTOR_COUNT = 39;
+
+const coversAllSectors = (scopes: AccreditationScope[]) =>
+  new Set(scopes.map((scope) => scope.eaCode).filter((code) => code != null)).size === EA_SECTOR_COUNT;
+
+/** Scope list for one standard; a body covering all 39 EA sectors reads "Tutti i settori". */
+export const scopeListLabel = (scopes: AccreditationScope[]) => {
+  if (coversAllSectors(scopes)) return "Tutti i settori";
+  return scopes.map(scopeCode).join(", ");
+};
+
+const scopeDetail = (scope: AccreditationScope) =>
+  scope.eaCode == null ? scope.scopeSection : `EA ${scope.eaCode} (${scope.eaDescription})`;
+
+/** One line per ISO standard, so the same EA sector is not repeated under each standard. */
+export const scopeLinesByStandard = (scopes: AccreditationScope[]) => {
+  const byStandard = new Map<string, AccreditationScope[]>();
+  scopes.forEach((scope) => {
+    byStandard.set(scope.isoStandard, [...(byStandard.get(scope.isoStandard) ?? []), scope]);
+  });
+  return [...byStandard].map(([iso, group]) => ({
+    iso,
+    label: coversAllSectors(group) ? "Tutti i settori" : group.map(scopeDetail).join(" / "),
+  }));
+};
+
 export function matchesFilter(body: Body, filter: ResultFilter) {
   const isItalian = body.accreditationBodyCode === "ACCREDIA";
   if (filter === "all") return true;
   if (filter === "italy") return isItalian;
-  if (filter === "foreign") return !isItalian && body.isIafMla;
+  if (filter === "foreign") return !isItalian;
   return body.accreditationBodyCode === filter.slice("accreditor:".length);
 }
 

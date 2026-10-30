@@ -7,7 +7,6 @@ public record CertificationBodyCardDto(
     String name,
     String country,
     String accreditationBodyCode,
-    boolean isIafMla,
     String phone,
     String email,
     String website,

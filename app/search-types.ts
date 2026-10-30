@@ -14,7 +14,6 @@ export type Body = {
   name: string;
   country: string;
   accreditationBodyCode: string;
-  isIafMla: boolean;
   phone: string | null;
   email: string | null;
   website: string | null;

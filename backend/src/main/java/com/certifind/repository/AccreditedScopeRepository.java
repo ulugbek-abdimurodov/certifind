@@ -8,45 +8,47 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+/**
+ * Every query here returns only valid issuing rights: the scope and its accreditation
+ * are ACTIVE and the accreditation has not expired, and the certification body also holds
+ * an active ISO/IEC 17021-1 accreditation (same rule as the v_issuing_rights view).
+ */
 @Repository
 public interface AccreditedScopeRepository extends JpaRepository<AccreditedScope, Integer> {
 
-    @Query("SELECT DISTINCT s.isoStandard FROM AccreditedScope s ORDER BY s.isoStandard")
-    List<String> findDistinctIsoStandards();
+    String VALID_ACCREDITATION_CONDITION = """
+        s.status = 'ACTIVE' AND a.status = 'ACTIVE'
+          AND (a.expiryDate IS NULL OR a.expiryDate >= CURRENT_DATE)
+          AND (a.accreditationStandard = 'ISO/IEC 17021-1'
+               OR EXISTS (SELECT base FROM Accreditation base
+                          WHERE base.certificationBody.id = a.certificationBody.id
+                            AND base.accreditationStandard = 'ISO/IEC 17021-1'
+                            AND base.status = 'ACTIVE'
+                            AND (base.expiryDate IS NULL OR base.expiryDate >= CURRENT_DATE)))""";
 
-    @Query("SELECT DISTINCT s.eaCode FROM AccreditedScope s WHERE s.eaCode IS NOT NULL ORDER BY s.eaCode")
+    @Query("SELECT DISTINCT s.certificationStandard FROM AccreditedScope s JOIN s.accreditation a " +
+           "WHERE " + VALID_ACCREDITATION_CONDITION + " " +
+           "ORDER BY s.certificationStandard")
+    List<String> findDistinctCertificationStandards();
+
+    @Query("SELECT DISTINCT s.eaCode FROM AccreditedScope s JOIN s.accreditation a " +
+           "WHERE " + VALID_ACCREDITATION_CONDITION + " " +
+           "ORDER BY s.eaCode")
     List<Integer> findDistinctEaCodes();
 
-    @Query("""
-        SELECT s FROM AccreditedScope s
-        JOIN FETCH s.certificationBody cb
-        LEFT JOIN FETCH cb.accreditationBody ab
-        WHERE s.isoStandard = :isoStandard
-          AND s.eaCode = :eaCode
-          AND s.status = 'ACTIVE'
-        ORDER BY cb.name ASC
-    """)
-    List<AccreditedScope> findActiveScopesWithCabAndAb(
-        @Param("isoStandard") String isoStandard,
-        @Param("eaCode") Integer eaCode
-    );
+    @Query("SELECT s FROM AccreditedScope s " +
+           "JOIN FETCH s.accreditation a " +
+           "JOIN FETCH a.certificationBody cb " +
+           "JOIN FETCH a.accreditationBody ab " +
+           "WHERE s.certificationStandard = :standard AND " + VALID_ACCREDITATION_CONDITION + " " +
+           "ORDER BY cb.name ASC, s.eaCode ASC")
+    List<AccreditedScope> findValidScopesByStandard(@Param("standard") String standard);
 
-    @Query("""
-        SELECT s FROM AccreditedScope s
-        JOIN FETCH s.certificationBody cb
-        LEFT JOIN FETCH cb.accreditationBody ab
-        WHERE s.isoStandard = :isoStandard
-          AND s.status = 'ACTIVE'
-        ORDER BY cb.name ASC, s.eaCode ASC
-    """)
-    List<AccreditedScope> findActiveScopesWithCabAndAbByIso(
-        @Param("isoStandard") String isoStandard
-    );
-
-    @Query("""
-        SELECT s FROM AccreditedScope s
-        JOIN FETCH s.certificationBody cb
-        ORDER BY cb.id ASC, s.eaCode ASC, s.isoStandard ASC
-    """)
-    List<AccreditedScope> findAllScopesWithCertificationBody();
+    @Query("SELECT s FROM AccreditedScope s " +
+           "JOIN FETCH s.accreditation a " +
+           "JOIN FETCH a.certificationBody cb " +
+           "JOIN FETCH a.accreditationBody ab " +
+           "WHERE " + VALID_ACCREDITATION_CONDITION + " " +
+           "ORDER BY cb.id ASC, s.certificationStandard ASC, s.eaCode ASC")
+    List<AccreditedScope> findAllValidScopes();
 }

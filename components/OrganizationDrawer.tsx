@@ -1,7 +1,8 @@
 "use client";
 
+import { useState } from "react";
 import type { Body } from "../app/search-types";
-import { flagFor, scopeCode } from "../app/search-data";
+import { flagFor, scopeLinesByStandard } from "../app/search-data";
 
 export function OrganizationDrawer({
   body,
@@ -12,17 +13,15 @@ export function OrganizationDrawer({
   iso: string;
   onClose: () => void;
 }) {
+  const [selectedStandard, setSelectedStandard] = useState<string | null>(null);
+
   if (!body) return null;
-  const scopes = body.scopes ?? [];
-  const scopeDescriptions = scopes.map((scope) =>
-    scope.eaCode == null
-      ? `${scope.isoStandard} (${scope.scopeSection})`
-      : `EA ${scope.eaCode} (${scope.eaDescription})`,
-  );
-  /** Scope codes when available, otherwise the given single-EA label, otherwise "all". */
+  const { scopes } = body;
+  const scopeLines = scopeLinesByStandard(scopes);
+  /** Standards when scopes are available, otherwise the given single-EA label, otherwise "all". */
   const scopeSummary = (singleEaLabel: string) =>
     scopes.length
-      ? scopes.map(scopeCode).join(", ")
+      ? scopeLines.map(({ standard }) => standard).join(", ")
       : body.eaCode > 0
         ? singleEaLabel
         : "Tutti gli standard e settori";
@@ -51,7 +50,6 @@ export function OrganizationDrawer({
           <div>
             <div className="verified-label">
               <span>✓</span> {body.accreditationBodyCode}
-              {body.isIafMla ? " · IAF/MLA" : ""}
             </div>
             <h2 id="drawer-title">{body.name}</h2>
             <p>
@@ -61,70 +59,104 @@ export function OrganizationDrawer({
           </div>
         </div>
         <div className="drawer-divider" />
+        <div className="contact-list">
+          {body.phone && (
+            <ContactLink href={`tel:${body.phone}`} icon="☎" label="Telefono">
+              {body.phone}
+            </ContactLink>
+          )}
+          {body.email && (
+            <ContactLink href={`mailto:${body.email}`} icon="✉" label="Email">
+              {body.email}
+            </ContactLink>
+          )}
+          {body.website && (
+            <ContactLink
+              href={body.website}
+              icon="↗"
+              label="Sito web"
+              external
+            >
+              {body.website.replace(/^https?:\/\//, "")}
+            </ContactLink>
+          )}
+          {body.address && (
+            <div className="address-row">
+              <span>⌖</span>
+              <div>
+                <small>Sede</small>
+                {body.address}
+                {body.expiryDate && (
+                  <>
+                    <small style={{ marginTop: "0.5rem", display: "block" }}>
+                      Scadenza
+                    </small>
+                    {new Date(body.expiryDate).toLocaleDateString("it-IT")}
+                  </>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
         <section className="drawer-section">
           <div className="drawer-section-title">
-            <span>03</span> CAMPO DI APPLICAZIONE ACCREDITATO
+            CAMPO DI APPLICAZIONE ACCREDITATO
           </div>
-          <div className="scope-highlight">
-            <strong>
-              {scopeSummary(`${iso} • EA ${body.eaCode} (${body.eaDescription})`)}
-            </strong>
-            {scopes.length ? (
-              <p>
-                — {scopeDescriptions.join(" / ")}
-              </p>
-            ) : (
-              <p>{body.scopeSection || "Tutti gli accreditamenti disponibili"}</p>
-            )}
-          </div>
-          <div className="contact-list">
-            {body.phone && (
-              <ContactLink href={`tel:${body.phone}`} icon="☎" label="Telefono">
-                {body.phone}
-              </ContactLink>
-            )}
-            {body.email && (
-              <ContactLink href={`mailto:${body.email}`} icon="✉" label="Email">
-                {body.email}
-              </ContactLink>
-            )}
-            {body.website && (
-              <ContactLink
-                href={body.website}
-                icon="↗"
-                label="Sito web"
-                external
+          {scopes.length > 0 && (
+            <div className="standard-filter">
+              <button
+                onClick={() => setSelectedStandard(null)}
+                className={selectedStandard === null ? "active" : ""}
               >
-                {body.website.replace(/^https?:\/\//, "")}
-              </ContactLink>
-            )}
-            {body.address && (
-              <div className="address-row">
-                <span>⌖</span>
-                <div>
-                  <small>Sede</small>
-                  {body.address}
+                Tutti
+              </button>
+              {scopeLines.map(({ standard }) => (
+                <button
+                  key={standard}
+                  onClick={() => setSelectedStandard(standard)}
+                  className={selectedStandard === standard ? "active" : ""}
+                >
+                  {standard}
+                </button>
+              ))}
+            </div>
+          )}
+          <div className="scope-highlight">
+            {scopes.length ? (
+              (selectedStandard === null
+                ? scopeLines
+                : scopeLines.filter((line) => line.standard === selectedStandard)
+              ).map(({ standard, allSectors, sectors }) => (
+                <div key={standard}>
+                  <strong>{standard}</strong>
+                  {allSectors ? (
+                    <p>Tutti i settori</p>
+                  ) : (
+                    sectors.map((sector) => <p key={sector}>{sector}</p>)
+                  )}
                 </div>
-              </div>
+              ))
+            ) : (
+              <>
+                <strong>
+                  {scopeSummary(`${iso} • EA ${body.eaCode} (${body.eaDescription})`)}
+                </strong>
+                <p>{body.scopeSection || "Tutti gli accreditamenti disponibili"}</p>
+              </>
             )}
           </div>
         </section>
         <section className="drawer-section criteria-section">
           <div className="drawer-section-title">
-            <span>02</span> CRITERI DI COLLABORAZIONE
+            CRITERI DI COLLABORAZIONE
           </div>
           <p className="criteria-intro">
             Informazioni utili per valutare una possibile collaborazione.
           </p>
           <div className="criteria-list">
             <Criterion
-              label="Accreditamento IAF/MLA"
-              ok={body.isIafMla}
-              detail={body.accreditationBodyCode}
-            />
-            <Criterion
               label="Scope ISO pertinente"
-              ok
+              ok={scopes.length > 0}
               detail={scopeSummary(`${iso} · EA ${body.eaCode}`)}
             />
           </div>

@@ -6,7 +6,7 @@ CertiFind helps Italian businesses find certification bodies with relevant accre
 
 The Next.js interface provides:
 
-- Search inputs for ISO standard, sector activity, and ATECO code
+- Search inputs for ISO standard and sector activity
 - A five-stage, 1.2-second progress animation followed by the live API search
 - Result cards with country, accreditation body, and relevant scopes, filterable by accreditor
 - A detail drawer with contact information, accreditation source, and collaboration criteria
@@ -46,12 +46,11 @@ Open [http://localhost:3000](http://localhost:3000). The frontend calls `http://
 ```json
 {
   "isoStandard": "ISO 9001",
-  "sectorActivity": "Asilo nido",
-  "atecoCode": "88.91.00"
+  "sectorActivity": "EA 12 - Prodotti chimici e fibre"
 }
 ```
 
-The response includes the resolved ATECO/EA sector and matching bodies with accreditation, scope, contact, and source information. Unresolved sectors return HTTP 400; they are not silently mapped to Education.
+The response includes the resolved EA sector and matching bodies with accreditation, scope, contact, and source information. Unresolved sectors return HTTP 400; they are not silently mapped to Education.
 
 ## Data notes
 
@@ -60,34 +59,46 @@ and accreditation details must be confirmed against current official records
 before being represented as independently verified. The interface links the
 scope source supplied with each seed record and includes that caveat.
 
-The database has one shared company structure for every accreditation body:
-`certification_bodies` stores the organization and `accredited_scopes` stores
-one row per standard and EA sector, including status, dates, source URL, and
-scope text. `accreditation_bodies`, `iso_standard`, and `ea_sector` are shared
-reference tables; ATECO mappings point to the EA sector table.
+Data model (`init-db/01-schema.sql`):
 
-Example EA assignments in the demonstration data follow the organization's
-field, regardless of its accreditor:
+- `certification_bodies` – the bodies a user is looking for (contacts only).
+- `accreditations` – one accreditation certificate held by a body: which
+  accreditation body granted it, against which accreditation standard
+  (ISO/IEC 17021-1, ISO/IEC 27006, ISO 50003), certificate number, status and
+  validity dates. A body can hold several, from different accreditation bodies.
+- `accredited_scopes` – one issuing right per row: certification standard
+  (ISO 9001, ISO/IEC 27001, ...) x EA sector under one accreditation.
+- `accreditation_scheme_rules` – which certification standards each
+  accreditation standard covers (17021-1 -> 9001/14001/45001, 27006 -> 27001,
+  50003 -> 50001). Composite foreign keys enforce it, so a 27006 accreditation
+  cannot carry an ISO 9001 scope.
+- `standards`, `ea_sectors`, `accreditation_bodies` – reference data.
+- `sector_keywords` – IT/EN words resolved to an EA code ("metallo" -> EA 17).
+- `v_issuing_rights` – every currently valid right (scope and accreditation
+  active, accreditation not expired); the API applies the same rule.
 
-| Accreditor | Example field | EA code |
+A body is returned for "standard S in EA n" when it has a valid right for S in
+EA n. The seed (`init-db/02-seed.sql`) covers these cases, for example with
+ISO 9001 + "metallo":
+
+| Body | Rights | Result |
 | --- | --- | --- |
-| ACCREDIA | Education, IT, construction, engineering | EA 37, 33, 28, 34 |
-| DAkkS | IT, construction, engineering | EA 33, 28, 34 |
-| PCA | Education, IT, construction, engineering | EA 37, 33, 28, 34 |
-| RENAR | Education, IT, construction, engineering | EA 37, 33, 28, 34 |
-| UKAS | Education, IT, construction | EA 37, 33, 28 |
+| Qualitas Certificazioni | 17021-1: 9001 in EA 1, 2, 5, 23, 25, 26; 27006: 27001 in all EA | not in EA 17 |
+| Nord Est, Metalcert, Sigma, Albion, Mainfranken, Polcert, Adriatik | 17021-1: 9001 incl. EA 17 | returned |
+| Lombardia Safety Cert | 14001/45001 in EA 17, 9001 elsewhere | not for 9001 |
+| InfoSec Assurance | 27006 only | not for 9001 |
+| Energia Certa | 9001 EA 17 scope withdrawn | excluded |
+| CertRom Audit | whole accreditation suspended | excluded |
+| Polcert | 50003 expired 2026-06-30 | excluded for 50001 |
+| Tecno Audit | 9001 EA 38 scope suspended | excluded for EA 38 only |
 
-These assignments are examples, not claims about current accreditation
-schedules. Real EA assignments must be checked against each organization's
-official schedule. EA codes describe the certified organization's field; they
-are not determined by its national accreditor. The schema allows `ea_code` to
-be null for schemes whose scope is not classified with EA sectors; the source
-scope text remains stored.
+All certification bodies, certificate numbers, contacts and URLs are fictional.
 
-`init-db/01-schema.sql`, `init-db/02-seed.sql`, and
-`init-db/03-upgrade-existing.sql` are the only database scripts. The seed is
-transactional and safe to rerun. Docker's entrypoint runs them in order for an
-empty volume; existing volumes are preserved and are not reset automatically.
-For an existing database, back it up and apply the three scripts in order with
-`psql`. This applies the reference data before adding the new foreign keys and
-checks, without dropping the database volume.
+`init-db/01-schema.sql` and `init-db/02-seed.sql` are the only database scripts.
+Docker's entrypoint runs them once, on an empty volume. To rebuild an existing
+volume from scratch (this deletes its data):
+
+```powershell
+docker compose down -v
+docker compose up -d postgres
+```

@@ -12,6 +12,7 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
+/** One issuing right: a certification standard in one EA sector, granted by an accreditation. */
 @Entity
 @Table(name = "accredited_scopes")
 public class AccreditedScope {
@@ -21,90 +22,47 @@ public class AccreditedScope {
     private Integer id;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "certification_body_id", nullable = false)
-    private CertificationBody certificationBody;
+    @JoinColumn(name = "accreditation_id", nullable = false)
+    private Accreditation accreditation;
 
-    @Column(name = "iso_standard", nullable = false, length = 50)
-    private String isoStandard;
+    @Column(name = "certification_standard", nullable = false, length = 50)
+    private String certificationStandard;
 
-    @Column(name = "ea_code")
+    @Column(name = "ea_code", nullable = false)
     private Integer eaCode;
 
-    @Column(name = "scope_section", columnDefinition = "TEXT")
-    private String scopeSection;
-
     @Column(name = "status", nullable = false, length = 20)
-    private String status = "ACTIVE";
+    private String status;
 
-    @Column(name = "proof_url", columnDefinition = "TEXT")
-    private String proofUrl;
-
-    public AccreditedScope() {
-    }
-
-    public AccreditedScope(CertificationBody certificationBody, String isoStandard, Integer eaCode, String scopeSection, String status, String proofUrl) {
-        this.certificationBody = certificationBody;
-        this.isoStandard = isoStandard;
-        this.eaCode = eaCode;
-        this.scopeSection = scopeSection;
-        this.status = status;
-        this.proofUrl = proofUrl;
-    }
+    @Column(name = "scope_note", columnDefinition = "TEXT")
+    private String scopeNote;
 
     public Integer getId() {
         return id;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public Accreditation getAccreditation() {
+        return accreditation;
     }
 
     public CertificationBody getCertificationBody() {
-        return certificationBody;
+        return accreditation.getCertificationBody();
     }
 
-    public void setCertificationBody(CertificationBody certificationBody) {
-        this.certificationBody = certificationBody;
-    }
-
-    public String getIsoStandard() {
-        return isoStandard;
-    }
-
-    public void setIsoStandard(String isoStandard) {
-        this.isoStandard = isoStandard;
+    public String getCertificationStandard() {
+        return certificationStandard;
     }
 
     public Integer getEaCode() {
         return eaCode;
     }
 
-    public void setEaCode(Integer eaCode) {
-        this.eaCode = eaCode;
-    }
-
-    public String getScopeSection() {
-        return scopeSection;
-    }
-
-    public void setScopeSection(String scopeSection) {
-        this.scopeSection = scopeSection;
-    }
-
     public String getStatus() {
         return status;
     }
 
-    public void setStatus(String status) {
-        this.status = status;
-    }
-
-    public String getProofUrl() {
-        return proofUrl;
-    }
-
-    public void setProofUrl(String proofUrl) {
-        this.proofUrl = proofUrl;
+    public String getScopeNote() {
+        return scopeNote;
     }
 
     @Override
@@ -123,11 +81,10 @@ public class AccreditedScope {
     public String toString() {
         return "AccreditedScope{" +
                 "id=" + id +
-                ", isoStandard='" + isoStandard + '\'' +
+                ", certificationStandard='" + certificationStandard + '\'' +
                 ", eaCode=" + eaCode +
-                ", scopeSection='" + scopeSection + '\'' +
                 ", status='" + status + '\'' +
-                ", proofUrl='" + proofUrl + '\'' +
+                ", scopeNote='" + scopeNote + '\'' +
                 '}';
     }
 }

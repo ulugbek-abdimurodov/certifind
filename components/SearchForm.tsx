@@ -7,11 +7,9 @@ import type { SearchOptions, SearchPreset } from "../app/search-types";
 type SearchFormProps = {
   iso: string;
   sector: string;
-  ateco: string;
   loading: boolean;
   onIsoChange: (value: string) => void;
   onSectorChange: (value: string) => void;
-  onAtecoChange: (value: string) => void;
   recentSearches: SearchPreset[];
   onSubmit: (event: FormEvent<HTMLFormElement>) => void;
   onShowAllCompanies: () => void;
@@ -21,11 +19,9 @@ type SearchFormProps = {
 export function SearchForm({
   iso,
   sector,
-  ateco,
   loading,
   onIsoChange,
   onSectorChange,
-  onAtecoChange,
   recentSearches,
   onSubmit,
   onShowAllCompanies,
@@ -62,7 +58,6 @@ export function SearchForm({
               onClick={() => {
                 onIsoChange(preset.iso);
                 onSectorChange(preset.sector);
-                onAtecoChange(preset.ateco);
               }}
             >
               {preset.label}
@@ -91,15 +86,12 @@ export function SearchForm({
           <input
             id="sector"
             value={sector}
-            onChange={(event) => {
-              onSectorChange(event.target.value);
-              onAtecoChange("");
-            }}
+            onChange={(event) => onSectorChange(event.target.value)}
             onFocus={() => setSectorFocused(true)}
             onBlur={() => {
               window.setTimeout(() => setSectorFocused(false), 150);
             }}
-            placeholder="Es. Asilo nido, software…"
+            placeholder="EA 12 - Prodotti chimici e fibre"
             aria-autocomplete="list"
             aria-controls="sector-suggestions"
             required
@@ -121,7 +113,6 @@ export function SearchForm({
                   aria-selected={false}
                   onMouseDown={() => {
                     onSectorChange(`EA ${suggestion.code} - ${suggestion.name}`);
-                    onAtecoChange("");
                     setSectorFocused(false);
                   }}
                 >
@@ -130,18 +121,6 @@ export function SearchForm({
               ))}
             </div>
           )}
-        </div>
-        <label htmlFor="ateco">
-          Codice ATECO <span className="optional">OPZIONALE</span>
-        </label>
-        <div className="input-wrap">
-          <span className="input-icon code-icon">#</span>
-          <input
-            id="ateco"
-            value={ateco}
-            onChange={(event) => onAtecoChange(event.target.value)}
-            placeholder="Es. 88.91.00"
-          />
         </div>
         <button className="search-button" type="submit" disabled={loading}>
           {loading ? (

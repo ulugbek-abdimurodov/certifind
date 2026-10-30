@@ -3,7 +3,7 @@ package com.certifind.service;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
+import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -11,21 +11,23 @@ import java.util.stream.Collectors;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.certifind.domain.Accreditation;
 import com.certifind.domain.AccreditationBody;
 import com.certifind.domain.AccreditedScope;
-import com.certifind.domain.AtecoEaMapping;
 import com.certifind.domain.CertificationBody;
 import com.certifind.domain.EaSector;
+import com.certifind.domain.SectorKeyword;
 import com.certifind.dto.AccreditationScopeDto;
 import com.certifind.dto.CertificationBodyCardDto;
 import com.certifind.dto.SearchOptionsResponse;
 import com.certifind.dto.SearchRequest;
 import com.certifind.dto.SearchResponse;
 import com.certifind.dto.SectorOption;
+import com.certifind.repository.AccreditationRepository;
 import com.certifind.repository.AccreditedScopeRepository;
-import com.certifind.repository.AtecoEaMappingRepository;
 import com.certifind.repository.CertificationBodyRepository;
 import com.certifind.repository.EaSectorRepository;
+import com.certifind.repository.SectorKeywordRepository;
 
 @Service
 public class SearchService {
@@ -35,18 +37,21 @@ public class SearchService {
     private static final String DEFAULT_ISO = "ISO 9001";
     private static final String ALL_SECTORS = "Tutti gli standard e settori";
 
-    private final AtecoEaMappingRepository atecoEaMappingRepository;
+    private final SectorKeywordRepository sectorKeywordRepository;
     private final AccreditedScopeRepository accreditedScopeRepository;
+    private final AccreditationRepository accreditationRepository;
     private final CertificationBodyRepository certificationBodyRepository;
     private final EaSectorRepository eaSectorRepository;
 
     public SearchService(
-            AtecoEaMappingRepository atecoEaMappingRepository,
+            SectorKeywordRepository sectorKeywordRepository,
             AccreditedScopeRepository accreditedScopeRepository,
+            AccreditationRepository accreditationRepository,
             CertificationBodyRepository certificationBodyRepository,
             EaSectorRepository eaSectorRepository) {
-        this.atecoEaMappingRepository = atecoEaMappingRepository;
+        this.sectorKeywordRepository = sectorKeywordRepository;
         this.accreditedScopeRepository = accreditedScopeRepository;
+        this.accreditationRepository = accreditationRepository;
         this.certificationBodyRepository = certificationBodyRepository;
         this.eaSectorRepository = eaSectorRepository;
     }
@@ -57,7 +62,7 @@ public class SearchService {
         var sectors = accreditedScopeRepository.findDistinctEaCodes().stream()
                 .map(code -> new SectorOption(code, sectorName(sectorNames, code)))
                 .toList();
-        return new SearchOptionsResponse(accreditedScopeRepository.findDistinctIsoStandards(), sectors);
+        return new SearchOptionsResponse(accreditedScopeRepository.findDistinctCertificationStandards(), sectors);
     }
 
     @Transactional(readOnly = true)
@@ -66,108 +71,96 @@ public class SearchService {
             throw new IllegalArgumentException("La richiesta di ricerca non può essere vuota.");
         }
 
-        Optional<AtecoEaMapping> mapping = Optional.empty();
-
-        // 1. Optional ATECO lookup (if user provided an ATECO code)
-        if (isPresent(request.atecoCode())) {
-            mapping = atecoEaMappingRepository.findFirstByAtecoCode(request.atecoCode().trim());
+        // An explicit "EA nn" code wins; otherwise the sector text is resolved through the keyword vocabulary.
+        Integer eaCode = parseEaCode(request.sectorActivity());
+        if (eaCode == null) {
+            eaCode = resolveKeyword(request.sectorActivity());
         }
-
-        // 2. Mandatory Activity Sector lookup (matches Italian description or English EA description)
-        if (mapping.isEmpty() && isPresent(request.sectorActivity())) {
-            String keyword = request.sectorActivity().trim();
-            mapping = atecoEaMappingRepository.findFirstByDescriptionContainingIgnoreCase(keyword)
-                    .or(() -> atecoEaMappingRepository.findFirstByEaDescriptionContainingIgnoreCase(keyword));
+        if (eaCode == null) {
+            throw new IllegalArgumentException("Settore di attività non riconosciuto. Inserisci un settore valido o un codice EA supportato.");
         }
+        int resolvedEaCode = eaCode;
 
-        Integer directEaCode = parseEaCode(request.sectorActivity());
-        AtecoEaMapping resolvedMapping = mapping.orElse(null);
-        if (resolvedMapping == null && directEaCode == null) {
-            throw new IllegalArgumentException("Settore di attività non riconosciuto. Inserisci un settore valido o un codice EA/ATECO supportato.");
-        }
-
-        // ATECO can be null when matched purely by Activity Sector
-        String resolvedAteco = resolvedMapping != null && isPresent(resolvedMapping.getAtecoCode())
-                ? resolvedMapping.getAtecoCode()
-                : "N/A (Solo Settore EA)";
-        int resolvedEaCode = resolvedMapping != null ? resolvedMapping.getEaCode() : directEaCode;
         Map<Integer, String> sectorNames = loadSectorNames();
         String resolvedEaDesc = sectorName(sectorNames, resolvedEaCode);
-
-        // 3. Mandatory ISO Standard (defaults to ISO 9001 if blank)
         String iso = isPresent(request.isoStandard()) ? request.isoStandard().trim() : DEFAULT_ISO;
 
-        List<AccreditedScope> matchingScopes =
-                accreditedScopeRepository.findActiveScopesWithCabAndAb(iso, resolvedEaCode);
-        Map<Integer, List<AccreditedScope>> allScopesByBody =
-                groupByCertificationBody(accreditedScopeRepository.findActiveScopesWithCabAndAbByIso(iso));
-
-        List<CertificationBodyCardDto> cards = matchingScopes.stream()
-                .collect(Collectors.toMap(
-                        scope -> scope.getCertificationBody().getId(),
-                        scope -> scope,
-                        (first, ignored) -> first,
-                        LinkedHashMap::new))
+        // A body matches when one of its valid rights for the standard covers the resolved EA sector;
+        // its card lists all its EA sectors for that standard.
+        List<CertificationBodyCardDto> cards =
+                groupByCertificationBody(accreditedScopeRepository.findValidScopesByStandard(iso))
                 .values().stream()
-                .map(scope -> {
-                    CertificationBody cb = scope.getCertificationBody();
-                    List<AccreditationScopeDto> groupedScopes = allScopesByBody
-                            .getOrDefault(cb.getId(), List.of())
-                            .stream()
-                            .filter(candidate -> candidate.getEaCode() != null)
-                            .map(candidate -> toScopeDto(candidate, sectorNames))
-                            .toList();
-                    String scopeSection = groupedScopes.stream()
-                            .map(AccreditationScopeDto::scopeSection)
-                            .distinct()
-                            .collect(Collectors.joining(" / "));
+                .flatMap(bodyScopes -> bodyScopes.stream()
+                        .filter(scope -> Objects.equals(scope.getEaCode(), resolvedEaCode))
+                        .findFirst()
+                        .map(match -> {
+                            List<AccreditationScopeDto> eaScopes = bodyScopes.stream()
+                                    .map(scope -> toScopeDto(scope, sectorNames))
+                                    .toList();
+                            String scopeSection = match.getAccreditation().getAccreditationStandard()
+                                    + " · " + match.getAccreditation().getCertificateNumber()
+                                    + " · " + toScopeDto(match, sectorNames).scopeSection();
+                            return toCard(match.getCertificationBody(), match.getAccreditation(),
+                                    resolvedEaCode, resolvedEaDesc, scopeSection, eaScopes);
+                        })
+                        .stream())
+                .toList();
 
-                    return toCard(cb, scope.getProofUrl(), resolvedEaCode, resolvedEaDesc, scopeSection, groupedScopes);
-                }).toList();
+        return new SearchResponse(resolvedEaCode, resolvedEaDesc, cards, false);
+    }
 
-        return new SearchResponse(resolvedAteco, resolvedEaCode, resolvedEaDesc, cards.size(), cards, false);
+    private Integer resolveKeyword(String sectorActivity) {
+        if (!isPresent(sectorActivity)) {
+            return null;
+        }
+        return sectorKeywordRepository.findBestMatch(sectorActivity.trim())
+                .map(SectorKeyword::getEaCode)
+                .orElse(null);
     }
 
     @Transactional(readOnly = true)
     public SearchResponse findAllCompanies() {
         Map<Integer, String> sectorNames = loadSectorNames();
         Map<Integer, List<AccreditedScope>> scopesByBody =
-                groupByCertificationBody(accreditedScopeRepository.findAllScopesWithCertificationBody());
+                groupByCertificationBody(accreditedScopeRepository.findAllValidScopes());
+        // The card shows the body's first accreditation even when none of its rights is currently valid.
+        Map<Integer, Accreditation> firstAccreditation = accreditationRepository.findAllWithAccreditationBody()
+                .stream()
+                .collect(Collectors.toMap(
+                        accreditation -> accreditation.getCertificationBody().getId(),
+                        accreditation -> accreditation,
+                        (first, ignored) -> first));
 
-        List<CertificationBodyCardDto> cards = certificationBodyRepository.findAllWithAccreditationBody()
+        List<CertificationBodyCardDto> cards = certificationBodyRepository.findAllByOrderByNameAsc()
                 .stream()
                 .map(cb -> {
                     List<AccreditationScopeDto> scopes = scopesByBody
                             .getOrDefault(cb.getId(), List.of())
                             .stream()
                             .map(scope -> toScopeDto(scope, sectorNames))
-                            .collect(Collectors.collectingAndThen(
-                                    Collectors.toMap(
-                                            scope -> scope.eaCode() == null
-                                                    ? "STANDARD:" + scope.isoStandard()
-                                                    : "EA:" + scope.eaCode(),
-                                            scope -> scope,
-                                            (first, ignored) -> first,
-                                            LinkedHashMap::new),
-                                    values -> values.values().stream().toList()));
+                            .toList();
                     String scopeSection = scopes.stream()
-                            .map(scope -> scope.eaCode() == null
-                                    ? scope.isoStandard() + ": " + scope.scopeSection()
-                                    : "EA " + scope.eaCode() + ": " + scope.scopeSection())
+                            .collect(Collectors.groupingBy(
+                                    AccreditationScopeDto::isoStandard,
+                                    LinkedHashMap::new,
+                                    Collectors.mapping(scope -> String.valueOf(scope.eaCode()),
+                                            Collectors.joining(", "))))
+                            .entrySet().stream()
+                            .map(entry -> entry.getKey() + ": EA " + entry.getValue())
                             .collect(Collectors.joining(" / "));
                     AccreditationScopeDto firstScope = scopes.isEmpty() ? null : scopes.get(0);
 
                     return toCard(
                             cb,
-                            firstScope != null ? firstScope.proofUrl() : null,
-                            firstScope != null && firstScope.eaCode() != null ? firstScope.eaCode() : 0,
+                            firstAccreditation.get(cb.getId()),
+                            firstScope != null ? firstScope.eaCode() : 0,
                             firstScope != null ? firstScope.eaDescription() : ALL_SECTORS,
-                            scopeSection.isBlank() ? "Nessun settore disponibile" : scopeSection,
+                            scopeSection.isBlank() ? "Nessun accreditamento valido" : scopeSection,
                             scopes);
                 })
                 .toList();
 
-        return new SearchResponse("Tutti", 0, ALL_SECTORS, cards.size(), cards, true);
+        return new SearchResponse(0, ALL_SECTORS, cards, true);
     }
 
     private static boolean isPresent(String value) {
@@ -182,12 +175,10 @@ public class SearchService {
         return code >= 1 && code <= 39 ? code : null;
     }
 
-    /** EA code -> display name (Italian when available, English otherwise), loaded in a single query. */
+    /** EA code -> Italian display name, loaded in a single query. */
     private Map<Integer, String> loadSectorNames() {
         return eaSectorRepository.findAll().stream()
-                .collect(Collectors.toMap(
-                        EaSector::getCode,
-                        sector -> isPresent(sector.getNameIt()) ? sector.getNameIt() : sector.getNameEn()));
+                .collect(Collectors.toMap(EaSector::getCode, EaSector::getNameIt));
     }
 
     private static String sectorName(Map<Integer, String> sectorNames, int eaCode) {
@@ -203,36 +194,45 @@ public class SearchService {
     }
 
     private static AccreditationScopeDto toScopeDto(AccreditedScope scope, Map<Integer, String> sectorNames) {
-        Integer eaCode = scope.getEaCode();
-        String description = eaCode == null ? "Non-EA scope" : sectorName(sectorNames, eaCode);
-        String scopeSection = isPresent(scope.getScopeSection())
-                ? scope.getScopeSection()
-                : (eaCode == null ? "Accredited scope" : description) + " (" + scope.getIsoStandard() + ")";
-        return new AccreditationScopeDto(eaCode, description, scopeSection, scope.getProofUrl(), scope.getIsoStandard());
+        Accreditation accreditation = scope.getAccreditation();
+        String description = sectorName(sectorNames, scope.getEaCode());
+        String scopeSection = isPresent(scope.getScopeNote())
+                ? scope.getScopeNote()
+                : description + " (" + scope.getCertificationStandard() + ")";
+        return new AccreditationScopeDto(
+                scope.getEaCode(),
+                description,
+                scopeSection,
+                accreditation.getProofUrl(),
+                scope.getCertificationStandard(),
+                accreditation.getAccreditationStandard(),
+                accreditation.getAccreditationBody().getCode(),
+                accreditation.getCertificateNumber(),
+                accreditation.getExpiryDate());
     }
 
     private static CertificationBodyCardDto toCard(
             CertificationBody cb,
-            String proofUrl,
+            Accreditation accreditation,
             int eaCode,
             String eaDescription,
             String scopeSection,
             List<AccreditationScopeDto> scopes) {
-        AccreditationBody ab = cb.getAccreditationBody();
+        AccreditationBody ab = accreditation != null ? accreditation.getAccreditationBody() : null;
         return new CertificationBodyCardDto(
                 cb.getId(),
                 cb.getName(),
                 cb.getCountry(),
                 ab != null ? ab.getCode() : "N/A",
-                ab != null && Boolean.TRUE.equals(ab.getIsIafMla()),
                 cb.getPhone(),
                 cb.getEmail(),
                 cb.getWebsite(),
                 cb.getAddress(),
-                proofUrl,
+                accreditation != null ? accreditation.getProofUrl() : null,
                 eaCode,
                 eaDescription,
                 scopeSection,
-                scopes);
+                scopes,
+                accreditation != null ? accreditation.getExpiryDate() : null);
     }
 }

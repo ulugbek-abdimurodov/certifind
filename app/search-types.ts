@@ -4,6 +4,10 @@ export type AccreditationScope = {
   scopeSection: string;
   proofUrl: string | null;
   isoStandard: string;
+  accreditationStandard: string;
+  accreditationBodyCode: string;
+  certificateNumber: string;
+  expiryDate: string | null;
 };
 
 export type Body = {
@@ -11,7 +15,6 @@ export type Body = {
   name: string;
   country: string;
   accreditationBodyCode: string;
-  isIafMla: boolean;
   phone: string | null;
   email: string | null;
   website: string | null;
@@ -21,13 +24,12 @@ export type Body = {
   eaDescription: string;
   scopeSection: string;
   scopes: AccreditationScope[];
+  expiryDate: string | null;
 };
 
 export type SearchResponse = {
-  resolvedAteco: string;
   resolvedEaCode: number;
   resolvedEaDescription: string;
-  totalResults: number;
   results: Body[];
   directory: boolean;
 };
@@ -43,5 +45,4 @@ export type SearchPreset = {
   label: string;
   iso: string;
   sector: string;
-  ateco: string;
 };

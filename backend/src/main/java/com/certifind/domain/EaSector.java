@@ -6,7 +6,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "ea_sector")
+@Table(name = "ea_sectors")
 public class EaSector {
 
     @Id
@@ -15,7 +15,7 @@ public class EaSector {
     @Column(name = "name_en", nullable = false, length = 200)
     private String nameEn;
 
-    @Column(name = "name_it", length = 200)
+    @Column(name = "name_it", nullable = false, length = 200)
     private String nameIt;
 
     public Integer getCode() {

@@ -59,7 +59,7 @@ export function ResultsSection({
               <p>
                 {data.directory
                   ? "Elenco completo delle aziende presenti nel database"
-                  : `Per ${iso} · ${data.resolvedEaDescription} (EA ${data.resolvedEaCode}) · ATECO ${data.resolvedAteco}`}
+                  : `Per ${iso} · ${data.resolvedEaDescription} (EA ${data.resolvedEaCode})`}
               </p>
             </div>
             <div className="results-mark">

@@ -1,95 +1,137 @@
--- CertiFind canonical PostgreSQL schema.
--- Organizations from every accreditation body share the same company and
--- accredited_scopes tables. A scope row represents one standard and one EA
--- sector; ea_code is nullable for schemes that do not use EA sectors.
+-- CertiFind PostgreSQL schema.
+--
+-- Domain model
+--   A certification body (CB, "company B") holds one or more accreditations,
+--   each granted by an accreditation body (AB) against an accreditation
+--   standard (ISO/IEC 17021-1, ISO/IEC 27006, ISO 50003, ...).
+--   Each accreditation entitles the CB to issue certificates for specific
+--   certification standards (ISO 9001, ISO/IEC 27001, ...) in specific EA
+--   sectors. One accredited_scopes row = one (standard, EA sector) right.
+--
+-- Search question answered by the schema
+--   "Which CBs may issue <certification standard> to a company in EA <n>?"
+--   = active scope rows for that standard and EA code whose accreditation is
+--     active and not expired (see v_issuing_rights).
 
-CREATE TABLE IF NOT EXISTS accreditation_bodies (
+-- Reference data -------------------------------------------------------------
+
+CREATE TABLE accreditation_bodies (
     id          SERIAL PRIMARY KEY,
-    code        VARCHAR(50) NOT NULL UNIQUE,
+    code        VARCHAR(50)  NOT NULL UNIQUE,
     name        VARCHAR(255) NOT NULL,
     country     VARCHAR(100) NOT NULL,
-    is_iaf_mla  BOOLEAN NOT NULL DEFAULT TRUE,
+    is_iaf_mla  BOOLEAN      NOT NULL DEFAULT TRUE,
     website     VARCHAR(255)
 );
 
-CREATE TABLE IF NOT EXISTS ea_sector (
+-- IAF ID 1 / EA-1/22 business sectors.
+CREATE TABLE ea_sectors (
     code     INTEGER PRIMARY KEY CHECK (code BETWEEN 1 AND 39),
     name_en  VARCHAR(200) NOT NULL,
-    name_it  VARCHAR(200)
-);
--- Legacy volumes predate name_it; add it before 02-seed.sql upserts the names.
-ALTER TABLE ea_sector ADD COLUMN IF NOT EXISTS name_it VARCHAR(200);
-
-CREATE TABLE IF NOT EXISTS iso_standard (
-    code        VARCHAR(50) PRIMARY KEY,
-    kind        VARCHAR(20) NOT NULL CHECK (kind IN ('ACCREDITATION', 'CERTIFICATION')),
-    scheme      VARCHAR(30) NOT NULL CHECK (scheme IN (
-                    'MANAGEMENT_SYSTEM', 'PRODUCT', 'PERSONNEL', 'LABORATORY',
-                    'MEDICAL_LABORATORY', 'INSPECTION'
-                ))
+    name_it  VARCHAR(200) NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS ateco_ea_mapping (
-    id              SERIAL PRIMARY KEY,
-    ateco_code      VARCHAR(20),
-    description     TEXT NOT NULL,
-    ea_code         INTEGER NOT NULL,
-    ea_description  VARCHAR(255) NOT NULL,
-    CONSTRAINT fk_ateco_ea_sector FOREIGN KEY (ea_code) REFERENCES ea_sector(code)
+-- Both accreditation standards (what an AB assesses a CB against) and
+-- certification standards (what a CB certifies its clients against).
+CREATE TABLE standards (
+    code   VARCHAR(50)  PRIMARY KEY,
+    title  VARCHAR(255) NOT NULL,
+    kind   VARCHAR(20)  NOT NULL CHECK (kind IN ('ACCREDITATION', 'CERTIFICATION'))
 );
 
-CREATE UNIQUE INDEX IF NOT EXISTS uq_ateco_ea_description
-    ON ateco_ea_mapping (COALESCE(ateco_code, ''), ea_code, description);
-
-CREATE TABLE IF NOT EXISTS certification_bodies (
-    id                    SERIAL PRIMARY KEY,
-    name                  VARCHAR(255) NOT NULL UNIQUE,
-    country               VARCHAR(100) NOT NULL,
-    accreditation_body_id INTEGER NOT NULL REFERENCES accreditation_bodies(id) ON DELETE RESTRICT,
-    phone                 VARCHAR(50),
-    email                 VARCHAR(100),
-    website               VARCHAR(255),
-    address               TEXT
+-- Which certification standards an accreditation standard can cover,
+-- e.g. ISO/IEC 17021-1 -> ISO 9001, ISO/IEC 27006 -> ISO/IEC 27001.
+CREATE TABLE accreditation_scheme_rules (
+    accreditation_standard  VARCHAR(50) NOT NULL REFERENCES standards(code),
+    certification_standard  VARCHAR(50) NOT NULL REFERENCES standards(code),
+    PRIMARY KEY (accreditation_standard, certification_standard)
 );
 
-CREATE INDEX IF NOT EXISTS idx_cb_accreditation_body
-    ON certification_bodies (accreditation_body_id);
-
-CREATE TABLE IF NOT EXISTS accredited_scopes (
-    id                    SERIAL PRIMARY KEY,
-    certification_body_id INTEGER NOT NULL REFERENCES certification_bodies(id) ON DELETE CASCADE,
-    iso_standard          VARCHAR(50) NOT NULL,
-    ea_code               INTEGER,
-    scope_section         TEXT,
-    status                VARCHAR(20) NOT NULL DEFAULT 'ACTIVE',
-    accreditation_date    DATE,
-    expiration_date       DATE,
-    proof_url             TEXT,
-    CONSTRAINT fk_scope_standard FOREIGN KEY (iso_standard) REFERENCES iso_standard(code) ON DELETE RESTRICT,
-    CONSTRAINT fk_scope_ea_sector FOREIGN KEY (ea_code) REFERENCES ea_sector(code) ON DELETE RESTRICT,
-    CONSTRAINT ck_scope_status CHECK (status IN ('ACTIVE', 'SUSPENDED', 'WITHDRAWN', 'EXPIRED')),
-    CONSTRAINT uq_cb_standard_ea UNIQUE (certification_body_id, iso_standard, ea_code),
-    CONSTRAINT ck_scope_dates CHECK (
-        accreditation_date IS NULL OR expiration_date IS NULL OR expiration_date >= accreditation_date
-    )
+-- Free-text sector vocabulary (IT/EN) used to resolve what the user types
+-- ("carpenteria metallica", "software") into an EA code.
+CREATE TABLE sector_keywords (
+    id        SERIAL PRIMARY KEY,
+    keyword   VARCHAR(255) NOT NULL,
+    language  VARCHAR(2)   NOT NULL CHECK (language IN ('it', 'en')),
+    ea_code   INTEGER      NOT NULL REFERENCES ea_sectors(code),
+    CONSTRAINT uq_sector_keyword UNIQUE (keyword, ea_code)
 );
 
-ALTER TABLE accredited_scopes ADD COLUMN IF NOT EXISTS accreditation_date DATE;
-ALTER TABLE accredited_scopes ADD COLUMN IF NOT EXISTS expiration_date DATE;
+-- Certification bodies and their accreditations --------------------------------
 
--- PostgreSQL UNIQUE constraints treat NULL values as distinct, so product or
--- other non-EA scopes use a separate uniqueness rule.
-CREATE UNIQUE INDEX IF NOT EXISTS uq_product_scopes_body_standard
-    ON accredited_scopes (certification_body_id, iso_standard)
-    WHERE ea_code IS NULL;
+CREATE TABLE certification_bodies (
+    id       SERIAL PRIMARY KEY,
+    name     VARCHAR(255) NOT NULL UNIQUE,
+    country  VARCHAR(100) NOT NULL,
+    phone    VARCHAR(50),
+    email    VARCHAR(100),
+    website  VARCHAR(255),
+    address  TEXT
+);
 
--- Match the backend's ISO + EA + status search and company detail lookups.
-CREATE INDEX IF NOT EXISTS idx_scopes_search
-    ON accredited_scopes (iso_standard, status, ea_code);
-CREATE INDEX IF NOT EXISTS idx_scopes_by_company
-    ON accredited_scopes (certification_body_id, ea_code, iso_standard);
-CREATE INDEX IF NOT EXISTS idx_ateco_mapping_code
-    ON ateco_ea_mapping (ateco_code)
-    WHERE ateco_code IS NOT NULL;
-CREATE INDEX IF NOT EXISTS idx_ateco_mapping_ea
-    ON ateco_ea_mapping (ea_code);
+-- One accreditation certificate held by a CB.
+CREATE TABLE accreditations (
+    id                      SERIAL PRIMARY KEY,
+    certification_body_id   INTEGER     NOT NULL REFERENCES certification_bodies(id) ON DELETE CASCADE,
+    accreditation_body_id   INTEGER     NOT NULL REFERENCES accreditation_bodies(id) ON DELETE RESTRICT,
+    accreditation_standard  VARCHAR(50) NOT NULL REFERENCES standards(code),
+    certificate_number      VARCHAR(50) NOT NULL,
+    status                  VARCHAR(20) NOT NULL DEFAULT 'ACTIVE'
+                            CHECK (status IN ('ACTIVE', 'SUSPENDED', 'WITHDRAWN')),
+    issue_date              DATE        NOT NULL,
+    expiry_date             DATE,
+    proof_url               TEXT,
+    CONSTRAINT uq_accreditation_certificate UNIQUE (accreditation_body_id, certificate_number),
+    CONSTRAINT uq_cb_ab_standard UNIQUE (certification_body_id, accreditation_body_id, accreditation_standard),
+    CONSTRAINT ck_accreditation_dates CHECK (expiry_date IS NULL OR expiry_date >= issue_date),
+    -- Target of the composite FK from accredited_scopes.
+    CONSTRAINT uq_accreditation_id_standard UNIQUE (id, accreditation_standard)
+);
+
+-- One issuing right: certification standard x EA sector under an accreditation.
+-- accreditation_standard is repeated here only so the two composite FKs can
+-- guarantee the scope is allowed by the accreditation's scheme (a 27006
+-- accreditation can never carry an ISO 9001 scope).
+CREATE TABLE accredited_scopes (
+    id                      SERIAL PRIMARY KEY,
+    accreditation_id        INTEGER     NOT NULL,
+    accreditation_standard  VARCHAR(50) NOT NULL,
+    certification_standard  VARCHAR(50) NOT NULL,
+    ea_code                 INTEGER     NOT NULL REFERENCES ea_sectors(code),
+    status                  VARCHAR(20) NOT NULL DEFAULT 'ACTIVE'
+                            CHECK (status IN ('ACTIVE', 'SUSPENDED', 'WITHDRAWN')),
+    scope_note              TEXT,
+    CONSTRAINT fk_scope_accreditation FOREIGN KEY (accreditation_id, accreditation_standard)
+        REFERENCES accreditations (id, accreditation_standard) ON DELETE CASCADE,
+    CONSTRAINT fk_scope_scheme_rule FOREIGN KEY (accreditation_standard, certification_standard)
+        REFERENCES accreditation_scheme_rules (accreditation_standard, certification_standard),
+    CONSTRAINT uq_scope UNIQUE (accreditation_id, certification_standard, ea_code)
+);
+
+-- Indexes for the search path and company detail lookups.
+CREATE INDEX idx_scopes_search        ON accredited_scopes (certification_standard, ea_code, status);
+CREATE INDEX idx_accreditations_cb    ON accreditations (certification_body_id);
+CREATE INDEX idx_sector_keywords_ea   ON sector_keywords (ea_code);
+CREATE INDEX idx_sector_keywords_text ON sector_keywords (lower(keyword));
+
+-- Every currently valid issuing right, flattened for search and analytics.
+CREATE VIEW v_issuing_rights AS
+SELECT cb.id                    AS certification_body_id,
+       cb.name                  AS certification_body,
+       cb.country,
+       ab.code                  AS accreditation_body,
+       ab.is_iaf_mla,
+       a.accreditation_standard,
+       a.certificate_number,
+       a.expiry_date,
+       s.certification_standard,
+       s.ea_code,
+       ea.name_en               AS ea_sector
+FROM accredited_scopes s
+JOIN accreditations a        ON a.id = s.accreditation_id
+JOIN certification_bodies cb ON cb.id = a.certification_body_id
+JOIN accreditation_bodies ab ON ab.id = a.accreditation_body_id
+JOIN ea_sectors ea           ON ea.code = s.ea_code
+WHERE s.status = 'ACTIVE'
+  AND a.status = 'ACTIVE'
+  AND (a.expiry_date IS NULL OR a.expiry_date >= CURRENT_DATE);

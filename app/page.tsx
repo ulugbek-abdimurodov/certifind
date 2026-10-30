@@ -22,7 +22,6 @@ const SERVICE_UNAVAILABLE =
 export default function Home() {
   const [iso, setIso] = useState("ISO 9001");
   const [sector, setSector] = useState("Asilo nido");
-  const [ateco, setAteco] = useState("88.91.00");
   const [step, setStep] = useState(-1);
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState<SearchResponse | null>(null);
@@ -116,14 +115,13 @@ export default function Home() {
           body: JSON.stringify({
             isoStandard: iso,
             sectorActivity: sector,
-            atecoCode: ateco,
           }),
         }),
       (status) =>
         status === 400
-          ? "Settore non riconosciuto. Controlla il codice ATECO o la descrizione."
+          ? "Settore non riconosciuto. Controlla la descrizione del settore."
           : "Ricerca non riuscita. Riprova tra poco.",
-      () => saveRecentSearch({ iso, sector, ateco }),
+      () => saveRecentSearch({ iso, sector }),
     );
   }
 
@@ -137,15 +135,13 @@ export default function Home() {
   function saveRecentSearch(searchPreset: Omit<SearchPreset, "label">) {
     const nextSearch: SearchPreset = {
       ...searchPreset,
-      label: `${searchPreset.sector} (${searchPreset.iso}${searchPreset.ateco ? ` • ${searchPreset.ateco}` : ""})`,
+      label: `${searchPreset.sector} (${searchPreset.iso})`,
     };
     const nextSearches = [
       nextSearch,
       ...recentSearches.filter(
         (recent) =>
-          recent.iso !== nextSearch.iso ||
-          recent.sector !== nextSearch.sector ||
-          recent.ateco !== nextSearch.ateco,
+          recent.iso !== nextSearch.iso || recent.sector !== nextSearch.sector,
       ),
     ].slice(0, MAX_RECENT_SEARCHES);
 
@@ -193,11 +189,9 @@ export default function Home() {
         <SearchForm
           iso={iso}
           sector={sector}
-          ateco={ateco}
           loading={loading}
           onIsoChange={setIso}
           onSectorChange={setSector}
-          onAtecoChange={setAteco}
           recentSearches={recentSearches}
           onSubmit={search}
           onShowAllCompanies={showAllCompanies}
@@ -237,8 +231,7 @@ function isSearchPreset(value: unknown): value is SearchPreset {
   return (
     typeof preset.label === "string" &&
     typeof preset.iso === "string" &&
-    typeof preset.sector === "string" &&
-    typeof preset.ateco === "string"
+    typeof preset.sector === "string"
   );
 }
 

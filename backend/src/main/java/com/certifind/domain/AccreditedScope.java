@@ -12,6 +12,7 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
+/** One issuing right: a certification standard in one EA sector, granted by an accreditation. */
 @Entity
 @Table(name = "accredited_scopes")
 public class AccreditedScope {
@@ -21,46 +22,47 @@ public class AccreditedScope {
     private Integer id;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "certification_body_id", nullable = false)
-    private CertificationBody certificationBody;
+    @JoinColumn(name = "accreditation_id", nullable = false)
+    private Accreditation accreditation;
 
-    @Column(name = "iso_standard", nullable = false, length = 50)
-    private String isoStandard;
+    @Column(name = "certification_standard", nullable = false, length = 50)
+    private String certificationStandard;
 
-    @Column(name = "ea_code")
+    @Column(name = "ea_code", nullable = false)
     private Integer eaCode;
-
-    @Column(name = "scope_section", columnDefinition = "TEXT")
-    private String scopeSection;
 
     @Column(name = "status", nullable = false, length = 20)
     private String status;
 
-    @Column(name = "proof_url", columnDefinition = "TEXT")
-    private String proofUrl;
+    @Column(name = "scope_note", columnDefinition = "TEXT")
+    private String scopeNote;
 
     public Integer getId() {
         return id;
     }
 
-    public CertificationBody getCertificationBody() {
-        return certificationBody;
+    public Accreditation getAccreditation() {
+        return accreditation;
     }
 
-    public String getIsoStandard() {
-        return isoStandard;
+    public CertificationBody getCertificationBody() {
+        return accreditation.getCertificationBody();
+    }
+
+    public String getCertificationStandard() {
+        return certificationStandard;
     }
 
     public Integer getEaCode() {
         return eaCode;
     }
 
-    public String getScopeSection() {
-        return scopeSection;
+    public String getStatus() {
+        return status;
     }
 
-    public String getProofUrl() {
-        return proofUrl;
+    public String getScopeNote() {
+        return scopeNote;
     }
 
     @Override
@@ -79,11 +81,10 @@ public class AccreditedScope {
     public String toString() {
         return "AccreditedScope{" +
                 "id=" + id +
-                ", isoStandard='" + isoStandard + '\'' +
+                ", certificationStandard='" + certificationStandard + '\'' +
                 ", eaCode=" + eaCode +
-                ", scopeSection='" + scopeSection + '\'' +
                 ", status='" + status + '\'' +
-                ", proofUrl='" + proofUrl + '\'' +
+                ", scopeNote='" + scopeNote + '\'' +
                 '}';
     }
 }

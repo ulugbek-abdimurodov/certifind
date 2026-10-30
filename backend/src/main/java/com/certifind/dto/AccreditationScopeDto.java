@@ -5,5 +5,8 @@ public record AccreditationScopeDto(
         String eaDescription,
         String scopeSection,
         String proofUrl,
-        String isoStandard
+        String isoStandard,
+        String accreditationStandard,
+        String accreditationBodyCode,
+        String certificateNumber
 ) {}

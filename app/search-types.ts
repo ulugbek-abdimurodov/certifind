@@ -4,6 +4,9 @@ export type AccreditationScope = {
   scopeSection: string;
   proofUrl: string | null;
   isoStandard: string;
+  accreditationStandard: string;
+  accreditationBodyCode: string;
+  certificateNumber: string;
 };
 
 export type Body = {
@@ -24,7 +27,6 @@ export type Body = {
 };
 
 export type SearchResponse = {
-  resolvedAteco: string;
   resolvedEaCode: number;
   resolvedEaDescription: string;
   results: Body[];
@@ -42,5 +44,4 @@ export type SearchPreset = {
   label: string;
   iso: string;
   sector: string;
-  ateco: string;
 };

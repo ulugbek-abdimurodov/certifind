@@ -1,6 +1,7 @@
 import type { AccreditationScope, Body, ResultFilter } from "./search-types";
 
-export const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8080";
+export const API_URL =
+  process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8080";
 
 export const stages = [
   "Inserimento",
@@ -28,7 +29,8 @@ export const scopeCode = (scope: AccreditationScope) =>
 const EA_SECTOR_COUNT = 39;
 
 const coversAllSectors = (scopes: AccreditationScope[]) =>
-  new Set(scopes.map((scope) => scope.eaCode).filter((code) => code != null)).size === EA_SECTOR_COUNT;
+  new Set(scopes.map((scope) => scope.eaCode).filter((code) => code != null))
+    .size === EA_SECTOR_COUNT;
 
 /** Scope list for one standard; a body covering all 39 EA sectors reads "Tutti i settori". */
 export const scopeListLabel = (scopes: AccreditationScope[]) => {
@@ -37,13 +39,18 @@ export const scopeListLabel = (scopes: AccreditationScope[]) => {
 };
 
 const scopeDetail = (scope: AccreditationScope) =>
-  scope.eaCode == null ? scope.scopeSection : `EA ${scope.eaCode} (${scope.eaDescription})`;
+  scope.eaCode == null
+    ? scope.scopeSection
+    : `EA ${scope.eaCode} (${scope.eaDescription})`;
 
 /** One entry per ISO standard; a standard covering all EA sectors lists no sectors. */
 export const scopeLinesByStandard = (scopes: AccreditationScope[]) => {
   const byStandard = new Map<string, AccreditationScope[]>();
   scopes.forEach((scope) => {
-    byStandard.set(scope.isoStandard, [...(byStandard.get(scope.isoStandard) ?? []), scope]);
+    byStandard.set(scope.isoStandard, [
+      ...(byStandard.get(scope.isoStandard) ?? []),
+      scope,
+    ]);
   });
   return [...byStandard].map(([standard, group]) => ({
     standard,

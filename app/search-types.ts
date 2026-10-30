@@ -7,6 +7,7 @@ export type AccreditationScope = {
   accreditationStandard: string;
   accreditationBodyCode: string;
   certificateNumber: string;
+  expiryDate: string | null;
 };
 
 export type Body = {
@@ -23,6 +24,7 @@ export type Body = {
   eaDescription: string;
   scopeSection: string;
   scopes: AccreditationScope[];
+  expiryDate: string | null;
 };
 
 export type SearchResponse = {

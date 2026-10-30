@@ -1,5 +1,6 @@
 package com.certifind.dto;
 
+import java.time.LocalDate;
 import java.util.List;
 
 public record CertificationBodyCardDto(
@@ -15,5 +16,6 @@ public record CertificationBodyCardDto(
     int eaCode,
     String eaDescription,
     String scopeSection,
-    List<AccreditationScopeDto> scopes
+    List<AccreditationScopeDto> scopes,
+    LocalDate expiryDate
 ) {}

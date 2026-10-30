@@ -159,6 +159,7 @@ INSERT INTO sector_keywords (keyword, language, ea_code) VALUES
 ('assistenza sociale', 'it', 39), ('cooperativa sociale', 'it', 39);
 
 INSERT INTO certification_bodies (name, country, phone, email, website, address) VALUES
+-- sample datas
 ('Qualitas Certificazioni S.r.l.',     'Italy',          '+39 02 5550 1100', 'info@qualitas-cert.example',   'https://qualitas-cert.example',   'Via Torino 42, 20123 Milano MI'),
 ('Nord Est Certificazioni S.p.A.',     'Italy',          '+39 049 555 2200', 'info@nordestcert.example',     'https://nordestcert.example',     'Via Venezia 15, 35131 Padova PD'),
 ('Tecno Audit Italia S.r.l.',          'Italy',          '+39 051 555 3300', 'audit@tecnoaudit.example',     'https://tecnoaudit.example',      'Via Emilia 210, 40139 Bologna BO'),
@@ -171,7 +172,22 @@ INSERT INTO certification_bodies (name, country, phone, email, website, address)
 ('Mainfranken Zertifizierung GmbH',    'Germany',        '+49 931 555 1000', 'kontakt@mainfranken-zert.example','https://mainfranken-zert.example','Juliuspromenade 30, 97070 Würzburg'),
 ('CertRom Audit S.R.L.',               'Romania',        '+40 21 555 1100',  'office@certrom.example',       'https://certrom.example',         'Bd. Unirii 45, 030823 Bucuresti'),
 ('Polcert Sp. z o.o.',                 'Poland',         '+48 12 555 1200',  'biuro@polcert.example',        'https://polcert.example',         'ul. Dluga 18, 31-146 Kraków'),
-('Adriatik Cert Sh.p.k.',              'Albania',        '+355 4 555 1300',  'info@adriatikcert.example',    'https://adriatikcert.example',    'Rruga e Kavajës 60, 1001 Tiranë');
+('Adriatik Cert Sh.p.k.',              'Albania',        '+355 4 555 1300',  'info@adriatikcert.example',    'https://adriatikcert.example',    'Rruga e Kavajës 60, 1001 Tiranë'),
+
+
+-- real datas
+('Legal Cert sh.p.k',                  'Albania',        '+355 692081842',   'info@legalcert.al',             NULL,                              'Njesia administrative nr 5, Rruga Tish Daija, kompleksi KIKA 2, Ndertesa 36, Shkalla 2(14), kati 2, Tiranë'),
+('AXE Register sh.p.k',                'Albania',        '+355 696037861',   'sokol.a@axe-register.com',      NULL,                              'Sheshi "Skënderbej", Pallati i Kulturës, Nr. 34, 1001, Tiranë'),
+('AQScert',                            'Albania',        '+355 682097080',   NULL,                            NULL,                              'Njësia Bashkiake nr.5, Rruga “Jusuf Vrioni”, Pallati 1, hyrja 6, TIRANË '),
+('CAREER CERT INSTITUTE sh.p.k',                 'Albania',        '+355 692062961',   NULL,                            NULL,                              'Sheshi Skënderbej, Pallati i kulturës, Kati 1, Tiranë'),
+('European Quality and Safety Control (EQSC) sh.p.k', 'Albania', '+355 693368439',   NULL,                            NULL,                              'Rruga Sulejman Pasha, Pallati 70/1, Kati 1, Nr.1, Tiranë'),
+('CERTIS sh.p.k',                               'Albania',        '+355 672013321',   NULL,                            NULL,                              'Rruga Sulejman Pasha, Hyrja Nr.1, Ap. Nr.0, Nr. Pasurie 6/173-N7, Zona Kadastrale 8350, Tiranë'),
+('e-Cert sh.p.k',                               'Albania',        '+355 699902185',   'alba@e-cert.al',                NULL,                              'Rruga “Endri Keko”, Shkalla 3/1, Ap. 6, Kati i Dytë, Kodi Postar 1005, Tiranë'),
+('Risk Control Advisory – R.C.A sh.p.k',        'Albania',        '+355 699412741',   NULL,                            NULL,                              'Rruga Hysen Zaloshnja, Nd. 2, h. 4, ap. 16, Tiranë'),
+('M.G BUGATTI CERTIFICATION sh.p.k',            'Albania',        '+39 3299116015',   'direzione@bugatticertification.it', NULL,                          'Rruga “Ndre Mjeda”, Hyrja 13 AP 10, Tiranë'),
+('MSC CERTIFICATIONS sh.p.k',                   'Albania',        '+355 672063632',   'hajdarajeneriko@gmail.com',     NULL,                              'Rruga “Ismail Qemali”, Pallati 34/1, Apartamenti 3, Tiranë'),
+('AUTENTICERT Albania sh.p.k',                  'Albania',        '+39 3801467945',   'Albania@autenticert.com',       NULL,                              'Rruga Kajo Karafili, nr. 14, Ap.6, Kodi Postar 1001, Tiranë'),
+('CERTI AL sh.p.k',                             'Albania',        '+355 672020502',   NULL,                            NULL,                              'Rruga “Shyqyri Brari”, Pallati “Amfora”, Shkalla 1, Kati 3, Ap. 9, Tiranë');
 
 -- (certification body, accreditation body, accreditation standard, certificate, status, issued, expires)
 INSERT INTO accreditations
@@ -262,12 +278,6 @@ CROSS JOIN LATERAL unnest(
 -- Lettered categories are classified by sector: ISO 50001 A-H, ISO 22000 A-K, ISO 13485 device
 -- categories. ISO 22301 covers all eight categories, so it is recorded for all 39 sectors.
 
-INSERT INTO certification_bodies (name, country, phone, email, website, address) VALUES
-('Legal Cert sh.p.k',  'Albania', '+355 692081842', 'info@legalcert.al',          NULL,
- 'Njesia administrative nr 5, Rruga Tish Daija, kompleksi KIKA 2, Ndertesa 36, Shkalla 2(14), kati 2, Tiranë'),
-('AXE Register sh.p.k', 'Albania', '+355 696037861', 'sokol.a@axe-register.com', NULL,
- 'Sheshi "Skënderbej", Pallati i Kulturës, Nr. 34, 1001, Tiranë');
-
 INSERT INTO accreditations
     (certification_body_id, accreditation_body_id, accreditation_standard, certificate_number,
      status, issue_date, expiry_date, proof_url)
@@ -322,6 +332,205 @@ FROM (VALUES
 JOIN accreditations a ON a.certificate_number = v.cert
 CROSS JOIN LATERAL unnest(v.eas) AS ea;
 
+-- Albanian bodies CS 008-CS 019 (DPA annexes). Sector lists are transcribed from the annexes;
+-- lettered categories (ISO 50001 A-H, ISO 22000 A-K, ISO 22301 A-H, ISO 13485 device categories)
+-- are classified to EA codes by sector, as for the earlier Albanian bodies.
+INSERT INTO accreditation_scheme_rules (accreditation_standard, certification_standard) VALUES
+('ISO/IEC 17021-1', 'ISO 37001'),
+('ISO/IEC 17021-1', 'ISO 22301');
+
+INSERT INTO accreditations
+    (certification_body_id, accreditation_body_id, accreditation_standard, certificate_number,
+     status, issue_date, expiry_date, proof_url)
+SELECT cb.id, ab.id, v.std, v.cert, 'ACTIVE', v.issued::date, v.expires::date, 'https://www.dpa.gov.al'
+FROM (VALUES
+    ('AQScert', 'ISO/IEC 17021-1', 'CS 008', '2026-03-27', '2030-03-26'),
+    ('AQScert', 'ISO/IEC 27006', 'CS 008 (27006)', '2026-03-27', '2030-03-26'),
+    ('AQScert', 'ISO 50003', 'CS 008 (50003)', '2026-03-27', '2030-03-26'),
+    ('AQScert', 'ISO 22003-1', 'CS 008 (22000)', '2026-03-27', '2030-03-26'),
+
+    ('CAREER CERT INSTITUTE sh.p.k', 'ISO/IEC 17021-1', 'CS 009', '2025-11-27', '2026-12-01'),
+    ('CAREER CERT INSTITUTE sh.p.k', 'ISO/IEC 27006', 'CS 009 (27006)', '2025-11-27', '2026-12-01'),
+    ('CAREER CERT INSTITUTE sh.p.k', 'ISO/IEC 17021-9', 'CS 009 (37001)', '2025-11-27', '2026-12-01'),
+    ('CAREER CERT INSTITUTE sh.p.k', 'ISO/IEC 17021-7', 'CS 009 (39001)', '2025-11-27', '2026-12-01'),
+    ('CAREER CERT INSTITUTE sh.p.k', 'ISO/IEC 20000-6', 'CS 009 (20000)', '2025-11-27', '2026-12-01'),
+    ('CAREER CERT INSTITUTE sh.p.k', 'ISO 50003', 'CS 009 (50003)', '2025-11-27', '2026-12-01'),
+    ('CAREER CERT INSTITUTE sh.p.k', 'ISO 22003-1', 'CS 009 (22000)', '2025-11-27', '2026-12-01'),
+
+    ('European Quality and Safety Control (EQSC) sh.p.k', 'ISO/IEC 17021-1', 'CS 010', '2025-11-27', '2026-12-02'),
+    ('European Quality and Safety Control (EQSC) sh.p.k', 'ISO 50003', 'CS 010 (50003)', '2025-11-27', '2026-12-02'),
+    ('European Quality and Safety Control (EQSC) sh.p.k', 'ISO 22003-1', 'CS 010 (22000)', '2025-11-27', '2026-12-02'),
+    ('European Quality and Safety Control (EQSC) sh.p.k', 'ISO/IEC 27006', 'CS 010 (27006)', '2025-11-27', '2026-12-02'),
+
+    ('CERTIS sh.p.k', 'ISO/IEC 17021-1', 'CS 011', '2025-11-27', '2029-02-23'),
+    ('CERTIS sh.p.k', 'ISO 50003', 'CS 011 (50003)', '2025-11-27', '2029-02-23'),
+    ('CERTIS sh.p.k', 'ISO 22003-1', 'CS 011 (22000)', '2025-11-27', '2029-02-23'),
+    ('CERTIS sh.p.k', 'ISO/IEC 27006', 'CS 011 (27006)', '2025-11-27', '2029-02-23'),
+    ('CERTIS sh.p.k', 'ISO/IEC 20000-6', 'CS 011 (20000)', '2025-11-27', '2029-02-23'),
+    ('CERTIS sh.p.k', 'ISO/IEC 17021-7', 'CS 011 (39001)', '2025-11-27', '2029-02-23'),
+    ('CERTIS sh.p.k', 'ISO/IEC 17021-9', 'CS 011 (37001)', '2025-11-27', '2029-02-23'),
+
+    ('e-Cert sh.p.k', 'ISO/IEC 17021-1', 'CS 014', '2025-12-10', '2027-11-08'),
+    ('e-Cert sh.p.k', 'ISO 22003-1', 'CS 014 (22000)', '2025-12-10', '2027-11-08'),
+    ('e-Cert sh.p.k', 'ISO/IEC 27006', 'CS 014 (27006)', '2025-12-10', '2027-11-08'),
+
+    ('Risk Control Advisory – R.C.A sh.p.k', 'ISO/IEC 17021-1', 'CS 015', '2025-11-27', '2028-09-29'),
+    ('Risk Control Advisory – R.C.A sh.p.k', 'ISO 50003', 'CS 015 (50003)', '2025-11-27', '2028-09-29'),
+    ('Risk Control Advisory – R.C.A sh.p.k', 'ISO/IEC 17021-6', 'CS 015 (22301)', '2025-11-27', '2028-09-29'),
+    ('Risk Control Advisory – R.C.A sh.p.k', 'ISO 22003-1', 'CS 015 (22000)', '2025-11-27', '2028-09-29'),
+    ('Risk Control Advisory – R.C.A sh.p.k', 'ISO/IEC 27006', 'CS 015 (27006)', '2025-11-27', '2028-09-29'),
+    ('Risk Control Advisory – R.C.A sh.p.k', 'ISO/IEC 17021-9', 'CS 015 (37001)', '2025-11-27', '2028-09-29'),
+    ('Risk Control Advisory – R.C.A sh.p.k', 'ISO/IEC 17021-7', 'CS 015 (39001)', '2025-11-27', '2028-09-29'),
+    ('Risk Control Advisory – R.C.A sh.p.k', 'ISO/IEC 20000-6', 'CS 015 (20000)', '2025-11-27', '2028-09-29'),
+
+    ('M.G BUGATTI CERTIFICATION sh.p.k', 'ISO/IEC 17021-1', 'CS 016', '2025-11-27', '2028-11-14'),
+    ('M.G BUGATTI CERTIFICATION sh.p.k', 'ISO/IEC 27006', 'CS 016 (27006)', '2025-11-27', '2028-11-14'),
+
+    ('MSC CERTIFICATIONS sh.p.k', 'ISO/IEC 17021-1', 'CS 017', '2025-11-27', '2028-11-17'),
+    ('MSC CERTIFICATIONS sh.p.k', 'ISO 50003', 'CS 017 (50003)', '2025-11-27', '2028-11-17'),
+    ('MSC CERTIFICATIONS sh.p.k', 'ISO 22003-1', 'CS 017 (22000)', '2025-11-27', '2028-11-17'),
+    ('MSC CERTIFICATIONS sh.p.k', 'ISO/IEC 27006', 'CS 017 (27006)', '2025-11-27', '2028-11-17'),
+
+    ('AUTENTICERT Albania sh.p.k', 'ISO/IEC 17021-1', 'CS 018', '2026-01-20', '2030-01-19'),
+    ('AUTENTICERT Albania sh.p.k', 'ISO/IEC 17021-7', 'CS 018 (39001)', '2026-01-20', '2030-01-19'),
+    ('AUTENTICERT Albania sh.p.k', 'ISO/IEC 27006', 'CS 018 (27006)', '2026-01-20', '2030-01-19'),
+
+    ('CERTI AL sh.p.k', 'ISO/IEC 17021-1', 'CS 019', '2026-08-17', '2030-08-16'),
+    ('CERTI AL sh.p.k', 'ISO 50003', 'CS 019 (50003)', '2026-08-17', '2030-08-16'),
+    ('CERTI AL sh.p.k', 'ISO/IEC 17021-6', 'CS 019 (22301)', '2026-08-17', '2030-08-16'),
+    ('CERTI AL sh.p.k', 'ISO 22003-1', 'CS 019 (22000)', '2026-08-17', '2030-08-16'),
+    ('CERTI AL sh.p.k', 'ISO/IEC 27006', 'CS 019 (27006)', '2026-08-17', '2030-08-16'),
+    ('CERTI AL sh.p.k', 'ISO/IEC 20000-6', 'CS 019 (20000)', '2026-08-17', '2030-08-16'),
+    ('CERTI AL sh.p.k', 'ISO/IEC 17021-7', 'CS 019 (39001)', '2026-08-17', '2030-08-16'),
+    ('CERTI AL sh.p.k', 'ISO/IEC 17021-9', 'CS 019 (37001)', '2026-08-17', '2030-08-16'),
+    ('CERTI AL sh.p.k', 'ISO/IEC 17021-4', 'CS 019 (20121)', '2026-08-17', '2030-08-16')
+) AS v(cb_name, std, cert, issued, expires)
+JOIN certification_bodies cb ON cb.name = v.cb_name
+JOIN accreditation_bodies ab ON ab.code = 'DPA';
+
+INSERT INTO accredited_scopes (accreditation_id, accreditation_standard, certification_standard, ea_code)
+SELECT a.id, a.accreditation_standard, v.std, ea
+FROM (VALUES
+    -- AQScert
+    ('CS 008', 'ISO 9001', ARRAY[1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 20, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]),
+    ('CS 008', 'ISO 14001', ARRAY[1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 20, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]),
+    ('CS 008', 'ISO 45001', ARRAY[1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 20, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]),
+    ('CS 008', 'ISO 22301', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 008 (27006)', 'ISO/IEC 27001', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 008 (27006)', 'ISO/IEC 27701', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 008 (27006)', 'ISO/IEC 27017', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 008 (50003)', 'ISO 50001', ARRAY[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 34, 36, 37, 38, 39]),
+    ('CS 008 (22000)', 'ISO 22000', ARRAY[1, 3, 7, 12, 13, 14, 15, 17, 29, 30, 31, 35]),
+
+    -- Career Cert Institute
+    ('CS 009', 'ISO 9001', ARRAY[1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]),
+    ('CS 009', 'ISO 14001', ARRAY(SELECT generate_series(2, 39))),
+    ('CS 009', 'ISO 45001', ARRAY(SELECT generate_series(2, 39))),
+    ('CS 009 (27006)', 'ISO/IEC 27001', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 009 (37001)', 'ISO 37001', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 009 (39001)', 'ISO 39001', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 009 (20000)', 'ISO/IEC 20000-1', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 009 (50003)', 'ISO 50001', ARRAY[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 34, 36, 37, 38, 39]),
+    ('CS 009 (22000)', 'ISO 22000', ARRAY[1, 3, 7, 12, 13, 14, 15, 17, 29, 30, 31]),
+
+    -- EQSC
+    ('CS 010', 'ISO 9001', ARRAY[3, 4, 5, 9, 12, 13, 15, 16, 17, 19, 22, 23, 28, 29, 30, 31, 33, 34, 35]),
+    ('CS 010', 'ISO 14001', ARRAY[3, 4, 5, 9, 12, 13, 15, 16, 17, 19, 22, 23, 28, 29, 30, 31, 33, 34, 35]),
+    ('CS 010', 'ISO 45001', ARRAY[3, 4, 5, 9, 12, 13, 15, 16, 17, 19, 22, 23, 28, 29, 30, 31, 33, 34, 35]),
+    ('CS 010 (50003)', 'ISO 50001', ARRAY[30, 31, 32, 36, 37, 38, 39]),
+    ('CS 010 (22000)', 'ISO 22000', ARRAY[3, 29, 30]),
+    ('CS 010 (27006)', 'ISO/IEC 27001', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 010 (27006)', 'ISO/IEC 27701', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 010 (27006)', 'ISO/IEC 27017', ARRAY(SELECT generate_series(1, 39))),
+
+    -- CERTIS
+    ('CS 011', 'ISO 9001', ARRAY[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 38, 39]),
+    ('CS 011', 'ISO 14001', ARRAY[1, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]),
+    ('CS 011', 'ISO 45001', ARRAY[1, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]),
+    ('CS 011 (50003)', 'ISO 50001', ARRAY[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 34, 36, 37, 38, 39]),
+    ('CS 011 (22000)', 'ISO 22000', ARRAY[3, 7, 12, 13, 14, 15, 17, 29, 30, 31, 35]),
+    ('CS 011 (27006)', 'ISO/IEC 27001', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 011 (20000)', 'ISO/IEC 20000-1', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 011 (39001)', 'ISO 39001', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 011 (37001)', 'ISO 37001', ARRAY(SELECT generate_series(1, 39))),
+
+    -- e-Cert
+    ('CS 014', 'ISO 9001', ARRAY[3, 4, 5, 8, 9, 12, 14, 16, 17, 18, 19, 24, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39]),
+    ('CS 014', 'ISO 14001', ARRAY[3, 4, 5, 8, 9, 12, 14, 16, 17, 18, 19, 24, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39]),
+    ('CS 014', 'ISO 45001', ARRAY[3, 4, 5, 8, 9, 12, 14, 16, 17, 18, 19, 24, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39]),
+    ('CS 014 (22000)', 'ISO 22000', ARRAY[3, 7, 14, 15, 17, 29, 30, 31, 35]),
+    ('CS 014 (27006)', 'ISO/IEC 27001', ARRAY(SELECT generate_series(1, 39))),
+
+    -- RCA
+    ('CS 015', 'ISO 9001', ARRAY[1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]),
+    ('CS 015', 'ISO 14001', ARRAY[1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]),
+    ('CS 015', 'ISO 45001', ARRAY[1, 3, 4, 5, 6, 7, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]),
+    ('CS 015 (50003)', 'ISO 50001', ARRAY[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 34, 36, 37, 38, 39]),
+    ('CS 015 (22301)', 'ISO 22301', ARRAY[1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]),
+    ('CS 015 (22000)', 'ISO 22000', ARRAY[1, 3, 7, 12, 13, 14, 15, 17, 29, 30, 31, 35]),
+    ('CS 015 (27006)', 'ISO/IEC 27001', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 015 (27006)', 'ISO/IEC 27701', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 015 (27006)', 'ISO/IEC 27017', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 015 (27006)', 'ISO/IEC 27018', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 015 (37001)', 'ISO 37001', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 015 (39001)', 'ISO 39001', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 015 (20000)', 'ISO/IEC 20000-1', ARRAY(SELECT generate_series(1, 39))),
+
+    -- Bugatti
+    ('CS 016', 'ISO 9001', ARRAY[17, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37]),
+    ('CS 016', 'ISO 14001', ARRAY[17, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37]),
+    ('CS 016', 'ISO 45001', ARRAY[7, 10, 12, 13, 14, 15, 16, 17, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37]),
+    ('CS 016 (27006)', 'ISO/IEC 27001', ARRAY(SELECT generate_series(1, 39))),
+
+    -- MSC
+    ('CS 017', 'ISO 9001', ARRAY[3, 4, 6, 12, 14, 16, 17, 18, 19, 23]),
+    ('CS 017', 'ISO 14001', ARRAY[3, 4, 6, 12, 14, 16, 17, 18, 19, 23, 24]),
+    ('CS 017', 'ISO 45001', ARRAY[3, 4, 6, 12, 14, 16, 17, 18, 19, 23, 24, 28, 29, 30, 31, 33, 34, 35, 39]),
+    ('CS 017 (50003)', 'ISO 50001', ARRAY[3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 18, 19, 22, 23, 24, 30, 31, 32, 36, 37, 38, 39]),
+    ('CS 017 (22000)', 'ISO 22000', ARRAY[3, 29, 30, 31]),
+    ('CS 017 (27006)', 'ISO/IEC 27001', ARRAY(SELECT generate_series(1, 39))),
+
+    -- Autenticert
+    ('CS 018', 'ISO 37001', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 018 (39001)', 'ISO 39001', ARRAY[28, 31, 36]),
+    ('CS 018 (27006)', 'ISO/IEC 27001', ARRAY(SELECT generate_series(1, 39))),
+
+    -- Certi AL
+    ('CS 019', 'ISO 9001', ARRAY(SELECT generate_series(1, 39) EXCEPT SELECT 11)),
+    ('CS 019', 'ISO 14001', ARRAY(SELECT generate_series(1, 39) EXCEPT SELECT 11)),
+    ('CS 019', 'ISO 45001', ARRAY(SELECT generate_series(1, 39) EXCEPT SELECT 11 EXCEPT SELECT 21 EXCEPT SELECT 22)),
+    ('CS 019', 'ISO 13485', ARRAY[13, 14, 17, 18, 19, 29, 31, 34, 35]),
+    ('CS 019 (50003)', 'ISO 50001', ARRAY[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 34, 36, 37, 38, 39]),
+    ('CS 019 (22301)', 'ISO 22301', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 019 (22000)', 'ISO 22000', ARRAY[1, 3, 7, 12, 13, 14, 15, 17, 29, 30, 31, 35]),
+    ('CS 019 (27006)', 'ISO/IEC 27001', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 019 (27006)', 'ISO/IEC 27701', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 019 (27006)', 'ISO/IEC 27017', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 019 (27006)', 'ISO/IEC 27018', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 019 (20000)', 'ISO/IEC 20000-1', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 019 (39001)', 'ISO 39001', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 019 (37001)', 'ISO 37001', ARRAY(SELECT generate_series(1, 39))),
+    ('CS 019 (20121)', 'ISO 20121', ARRAY(SELECT generate_series(1, 39)))
+) AS v(cert, std, eas)
+JOIN accreditations a ON a.certificate_number = v.cert
+CROSS JOIN LATERAL unnest(v.eas) AS ea;
+
+-- EA 7 is limited to paper products in these annexes; EA 17 is split (17a/17b) in the RCA 14001/45001 annexes.
+UPDATE accredited_scopes s
+SET scope_note = 'E kufizuar vetëm tek produktet prej letre'
+FROM accreditations a
+WHERE a.id = s.accreditation_id
+  AND a.certificate_number IN ('CS 008', 'CS 019')
+  AND s.certification_standard IN ('ISO 9001', 'ISO 14001', 'ISO 45001')
+  AND s.ea_code = 7;
+
+UPDATE accredited_scopes s
+SET scope_note = '17a: kufizuar në produkte metalike të fabrikuara; 17b: e kufizuar në prodhimin e metaleve bazë'
+FROM accreditations a
+WHERE a.id = s.accreditation_id
+  AND a.certificate_number = 'CS 015'
+  AND s.certification_standard IN ('ISO 14001', 'ISO 45001')
+  AND s.ea_code = 17;
 -- Scope-level exceptions under otherwise active accreditations.
 UPDATE accredited_scopes s
 SET status = 'WITHDRAWN', scope_note = 'Withdrawn by ACCREDIA on 2025-11-12 after witness audit'

@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import type { Body } from "../app/search-types";
 import { flagFor, scopeLinesByStandard } from "../app/search-data";
 
@@ -12,6 +13,8 @@ export function OrganizationDrawer({
   iso: string;
   onClose: () => void;
 }) {
+  const [selectedStandard, setSelectedStandard] = useState<string | null>(null);
+
   if (!body) return null;
   const { scopes } = body;
   const scopeLines = scopeLinesByStandard(scopes);
@@ -83,17 +86,47 @@ export function OrganizationDrawer({
               <div>
                 <small>Sede</small>
                 {body.address}
+                {body.expiryDate && (
+                  <>
+                    <small style={{ marginTop: "0.5rem", display: "block" }}>
+                      Scadenza
+                    </small>
+                    {new Date(body.expiryDate).toLocaleDateString("it-IT")}
+                  </>
+                )}
               </div>
             </div>
           )}
         </div>
         <section className="drawer-section">
           <div className="drawer-section-title">
-            <span>03</span> CAMPO DI APPLICAZIONE ACCREDITATO
+            CAMPO DI APPLICAZIONE ACCREDITATO
           </div>
+          {scopes.length > 0 && (
+            <div className="standard-filter">
+              <button
+                onClick={() => setSelectedStandard(null)}
+                className={selectedStandard === null ? "active" : ""}
+              >
+                Tutti
+              </button>
+              {scopeLines.map(({ standard }) => (
+                <button
+                  key={standard}
+                  onClick={() => setSelectedStandard(standard)}
+                  className={selectedStandard === standard ? "active" : ""}
+                >
+                  {standard}
+                </button>
+              ))}
+            </div>
+          )}
           <div className="scope-highlight">
             {scopes.length ? (
-              scopeLines.map(({ standard, allSectors, sectors }) => (
+              (selectedStandard === null
+                ? scopeLines
+                : scopeLines.filter((line) => line.standard === selectedStandard)
+              ).map(({ standard, allSectors, sectors }) => (
                 <div key={standard}>
                   <strong>{standard}</strong>
                   {allSectors ? (
@@ -115,7 +148,7 @@ export function OrganizationDrawer({
         </section>
         <section className="drawer-section criteria-section">
           <div className="drawer-section-title">
-            <span>02</span> CRITERI DI COLLABORAZIONE
+            CRITERI DI COLLABORAZIONE
           </div>
           <p className="criteria-intro">
             Informazioni utili per valutare una possibile collaborazione.

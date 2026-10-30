@@ -207,7 +207,8 @@ public class SearchService {
                 scope.getCertificationStandard(),
                 accreditation.getAccreditationStandard(),
                 accreditation.getAccreditationBody().getCode(),
-                accreditation.getCertificateNumber());
+                accreditation.getCertificateNumber(),
+                accreditation.getExpiryDate());
     }
 
     private static CertificationBodyCardDto toCard(
@@ -231,6 +232,7 @@ public class SearchService {
                 eaCode,
                 eaDescription,
                 scopeSection,
-                scopes);
+                scopes,
+                accreditation != null ? accreditation.getExpiryDate() : null);
     }
 }

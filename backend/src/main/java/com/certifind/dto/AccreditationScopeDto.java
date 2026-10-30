@@ -1,5 +1,7 @@
 package com.certifind.dto;
 
+import java.time.LocalDate;
+
 public record AccreditationScopeDto(
         Integer eaCode,
         String eaDescription,
@@ -8,5 +10,6 @@ public record AccreditationScopeDto(
         String isoStandard,
         String accreditationStandard,
         String accreditationBodyCode,
-        String certificateNumber
+        String certificateNumber,
+        LocalDate expiryDate
 ) {}

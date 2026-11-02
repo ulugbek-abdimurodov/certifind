@@ -59,10 +59,17 @@ public class SearchService {
     @Transactional(readOnly = true)
     public SearchOptionsResponse getOptions() {
         Map<Integer, String> sectorNames = loadSectorNames();
-        var sectors = accreditedScopeRepository.findDistinctEaCodes().stream()
-                .map(code -> new SectorOption(code, sectorName(sectorNames, code)))
-                .toList();
-        return new SearchOptionsResponse(accreditedScopeRepository.findDistinctCertificationStandards(), sectors);
+        // Each standard offers only the EA sectors some body can currently certify for it.
+        Map<String, List<SectorOption>> sectorsByStandard = accreditedScopeRepository.findDistinctStandardEaCodes()
+                .stream()
+                .collect(Collectors.groupingBy(
+                        row -> (String) row[0],
+                        LinkedHashMap::new,
+                        Collectors.mapping(row -> {
+                            int code = (Integer) row[1];
+                            return new SectorOption(code, sectorName(sectorNames, code));
+                        }, Collectors.toList())));
+        return new SearchOptionsResponse(accreditedScopeRepository.findDistinctCertificationStandards(), sectorsByStandard);
     }
 
     @Transactional(readOnly = true)

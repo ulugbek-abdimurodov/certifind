@@ -1,0 +1,6 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+OCsm-001,ISO 9001,3;16;23;29,ACTIVE,"EA 23 limited to NACE 32; EA 29 limited to NACE 45, 46, 47, 95"
+OCsm-001 (22000),ISO 22000,3;29;31,ACTIVE,"ISO 22003-1 categories C (CI, CIV), F (FI), G (classified to EA by sector)"
+OCsm-004,ISO 14001,2;14-17;28,ACTIVE,"EA 2 limited to NACE 08.11, 08.12; EA 15 excludes NACE 23.5, 23.6; EA 17 excludes NACE 25.4, 33.11"
+OCsm-004,ISO 45001,2;14-17;28,ACTIVE,"EA 2 limited to NACE 08.11, 08.12; EA 15 excludes NACE 23.5, 23.6; EA 17 excludes NACE 25.4, 33.11"
+OCsm-004,ISO 9001,2;14-17;28,ACTIVE,"EA 2 limited to NACE 08.11, 08.12; EA 15 excludes NACE 23.5, 23.6; EA 17 excludes NACE 25.4, 33.11"

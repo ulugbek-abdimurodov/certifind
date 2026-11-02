@@ -83,12 +83,14 @@ export function ResultsSection({
                   >
                     Tutti ({countForFilter("all")})
                   </FilterButton>
-                  <FilterButton
-                    active={resultFilter === "italy"}
-                    onClick={() => onFilterChange("italy")}
-                  >
-                    Italia • ACCREDIA ({countForFilter("italy")})
-                  </FilterButton>
+                  {countForFilter("italy") > 0 && (
+                    <FilterButton
+                      active={resultFilter === "italy"}
+                      onClick={() => onFilterChange("italy")}
+                    >
+                      Italia • ACCREDIA ({countForFilter("italy")})
+                    </FilterButton>
+                  )}
                   {accreditorInfo.map(({ code, country }) => {
                     const filter = `accreditor:${code}` as const;
                     return (

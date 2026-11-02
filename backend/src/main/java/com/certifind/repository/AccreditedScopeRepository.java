@@ -31,10 +31,11 @@ public interface AccreditedScopeRepository extends JpaRepository<AccreditedScope
            "ORDER BY s.certificationStandard")
     List<String> findDistinctCertificationStandards();
 
-    @Query("SELECT DISTINCT s.eaCode FROM AccreditedScope s JOIN s.accreditation a " +
-           "WHERE " + VALID_ACCREDITATION_CONDITION + " " +
-           "ORDER BY s.eaCode")
-    List<Integer> findDistinctEaCodes();
+    /** Each row is {certificationStandard, eaCode}; non-EA scopes are left out. */
+    @Query("SELECT DISTINCT s.certificationStandard, s.eaCode FROM AccreditedScope s JOIN s.accreditation a " +
+           "WHERE s.eaCode IS NOT NULL AND " + VALID_ACCREDITATION_CONDITION + " " +
+           "ORDER BY s.certificationStandard, s.eaCode")
+    List<Object[]> findDistinctStandardEaCodes();
 
     @Query("SELECT s FROM AccreditedScope s " +
            "JOIN FETCH s.accreditation a " +

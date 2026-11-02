@@ -247,3 +247,90 @@ cd backend
 
 A database created by the old `init-db/` scripts has no Flyway history, so the
 backend refuses to start on it. Rebuild it once with the commands above.
+
+## Deploying to a server
+
+The files in `deploy/` run CertiFind on a Linux server with nothing but Docker
+installed: PostgreSQL, the backend API and the CSV importer are all containers.
+The CSVs in git stay the source of truth; the server holds the live copy that the
+API reads, filled by the importer.
+
+| File | Purpose |
+| --- | --- |
+| `deploy/docker-compose.prod.yml` | `postgres` and `backend` services, plus a one-off `importer`; ports bound to `127.0.0.1`, passwords from `.env` |
+| `backend/Dockerfile` | One image for both the API (`prod` profile) and the importer (`import` profile) |
+| `deploy/.env.example` | Template for `deploy/.env` (git-ignored) |
+| `deploy/postgres-init/01-roles.sh` | Creates the database roles on a new volume |
+| `deploy/backup.sh` | Nightly `pg_dump`, pruning and optional off-site copy |
+| `backend/src/main/resources/application-prod.yml` | Backend profile: credentials from environment, no migrations |
+
+Three database roles, so the public API can never change data:
+
+| Role | Used by | Rights |
+| --- | --- | --- |
+| `certifind_admin` | maintenance, backups | superuser |
+| `certifind_import` | Flyway migrations and the CSV importer | owns the schema |
+| `certifind_app` | the backend API | read-only (`SELECT`) |
+
+### First setup (on the server)
+
+```bash
+git clone https://github.com/ulugbek-abdimurodov/certifind.git /opt/certifind
+cd /opt/certifind/deploy
+cp .env.example .env
+nano .env    # replace every password, e.g. with: openssl rand -base64 24
+chmod 600 .env
+C="docker compose -f docker-compose.prod.yml"
+
+$C up -d postgres                      # database first
+$C build backend                       # builds the image the importer also uses
+$C run --rm importer                   # creates the tables and loads data/
+$C up -d backend                       # the API, on 127.0.0.1:8080
+curl http://localhost:8080/api/v1/health
+```
+
+Order matters on a new server: the backend refuses to start until the importer has
+created the tables (it keeps restarting until then).
+
+Do not open ports 5432 or 8080 in the server's firewall; both are bound to
+`127.0.0.1`. To serve the API publicly, put a reverse proxy with HTTPS (nginx,
+Caddy) in front of port 8080.
+
+### Updating data or code (on the server)
+
+After a pull request is merged:
+
+```bash
+cd /opt/certifind && git pull
+cd deploy
+C="docker compose -f docker-compose.prod.yml"
+$C build backend
+$C run --rm importer --certifind.import.dry-run=true   # read the report
+$C run --rm importer                                   # load it
+$C up -d backend                                       # restart on the new image
+```
+
+The importer loads only `data/` (never `data-demo/`). Import before restarting the
+backend: the importer also applies new Flyway migrations, which the new backend
+code may need. A dry run rolls back the data but not the migrations.
+
+The importer can also run from your computer through an SSH tunnel
+(`ssh -N -L 5433:localhost:5432 you@your-server`), with `--spring.datasource.url=
+jdbc:postgresql://localhost:5433/certifind_db` and the `certifind_import` credentials.
+
+### Backups
+
+```bash
+chmod +x /opt/certifind/deploy/backup.sh
+crontab -e
+# 15 3 * * * OFFSITE=backup@nas:/backups/certifind/ /opt/certifind/deploy/backup.sh >> /var/log/certifind-backup.log 2>&1
+```
+
+Dumps go to `/var/backups/certifind` and are kept 14 days (`BACKUP_DIR`, `KEEP_DAYS`).
+Set `OFFSITE` so a copy survives losing the server. Restore a dump with:
+
+```bash
+docker exec -i certifind-postgres sh -c 'pg_restore -U "$POSTGRES_USER" -d "$POSTGRES_DB" --clean --if-exists' < certifind_db-YYYYMMDD-HHMMSS.dump
+```
+
+Try a restore once on a test machine, so you know the backups work.

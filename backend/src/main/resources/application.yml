@@ -21,3 +21,9 @@ spring:
   sql:
     init:
       mode: never
+
+  # Schema and reference data are Flyway migrations in src/main/resources/db/migration.
+  # Company data is not: load it from data/ with the "import" profile (see README).
+  flyway:
+    enabled: true
+    locations: classpath:db/migration

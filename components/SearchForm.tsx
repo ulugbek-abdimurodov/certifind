@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { demoPresets } from "../app/search-data";
+import { demoPresets, standardLabel } from "../app/search-data";
 import type { SearchOptions, SearchPreset } from "../app/search-types";
 
 type SearchFormProps = {
@@ -84,7 +84,9 @@ export function SearchForm({
             }}
           >
             {options.standards.map((standard) => (
-              <option key={standard}>{standard}</option>
+              <option key={standard} value={standard}>
+                {standardLabel(standard)}
+              </option>
             ))}
           </select>
           <span className="select-chevron">⌄</span>

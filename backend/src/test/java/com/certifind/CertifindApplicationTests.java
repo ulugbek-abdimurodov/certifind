@@ -56,9 +56,7 @@ class CertifindApplicationTests {
     void testIso9001Metal() {
         List<String> names = namesFor("ISO 9001", "metallo");
         assertEquals(List.of(
-                "Adriatik Cert Sh.p.k.",
                 "AEROQ SA",
-                "Albion Certification Services Ltd",
                 "AQScert",
                 "AUTORITATEA FEROVIARĂ ROMÂNĂ - AFER (OCSM - AFER)",
                 "AXE Register sh.p.k",
@@ -72,32 +70,21 @@ class CertifindApplicationTests {
                 "European Quality and Safety Control (EQSC) sh.p.k",
                 "GRUPUL DE CERTIFICARE SISTEME DE MANAGEMENT SRL",
                 "Legal Cert sh.p.k",
-                "Mainfranken Zertifizierung GmbH",
-                "Metalcert Europe S.r.l.",
                 "M.G BUGATTI CERTIFICATION sh.p.k",
                 "MIȘCAREA ROMÂNĂ PENTRU CALITATE (MRC-OCS – Organism de Certificare Sisteme și Produse)",
                 "MSC CERTIFICATIONS sh.p.k",
-                "Nord Est Certificazioni S.p.A.",
-                "Polcert Sp. z o.o.",
                 "PROCERT LABORATORY SRL",
                 "QUALITAS SA",
                 "QUALITY CERT SA",
                 "RAD CERT SRL",
                 "RINA SIMTEX - ORGANISMUL DE CERTIFICARE SRL",
                 "Risk Control Advisory – R.C.A sh.p.k",
-                "Sigma Quality Registrar Ltd",
                 "SOCIETATEA ROMÂNĂ PENTRU CERTIFICARE ROCERT SRL",
                 "SRAC CERT SRL",
                 "SUCERT- RO SRL",
                 "SUN CERT SRL",
                 "TÜV AUSTRIA ROMÂNIA SRL (TAR CERT)",
                 "UNICERT SRL"), names);
-        // No EA 17 right, 45001/14001 only, 27006 only, withdrawn scope, suspended accreditation.
-        assertFalse(names.contains("Qualitas Certificazioni S.r.l."));
-        assertFalse(names.contains("Lombardia Safety Cert S.r.l."));
-        assertFalse(names.contains("InfoSec Assurance Italia S.r.l."));
-        assertFalse(names.contains("Energia Certa S.r.l."));
-        assertFalse(names.contains("CertRom Audit S.R.L."));
     }
 
     @Test
@@ -120,27 +107,11 @@ class CertifindApplicationTests {
                 "MIȘCAREA ROMÂNĂ PENTRU CALITATE (MRC-OCS – Organism de Certificare Sisteme și Produse)",
                 "MSC CERTIFICATIONS sh.p.k",
                 "PROCERT LABORATORY SRL",
-                "Qualitas Certificazioni S.r.l.",
                 "RINA SIMTEX - ORGANISMUL DE CERTIFICARE SRL",
                 "Risk Control Advisory – R.C.A sh.p.k",
-                "Sigma Quality Registrar Ltd",
                 "SRAC CERT SRL",
-                "Tecno Audit Italia S.r.l.",
                 "TÜV AUSTRIA ROMÂNIA SRL (TAR CERT)");
         assertEquals(expected, namesFor("ISO/IEC 27001", "EA 17"));
         assertEquals(expected, namesFor("ISO/IEC 27001", "EA 39"));
-    }
-
-    @Test
-    @DisplayName("Expired 50003 accreditation is excluded")
-    void testExpiredAccreditation() {
-        assertFalse(namesFor("ISO 50001", "EA 17").contains("Polcert Sp. z o.o."));
-    }
-
-    @Test
-    @DisplayName("Suspended single scope is excluded but the rest of the accreditation stays valid")
-    void testSuspendedScope() {
-        assertFalse(namesFor("ISO 9001", "EA 38").contains("Tecno Audit Italia S.r.l."));
-        assertTrue(namesFor("ISO 9001", "EA 37").contains("Tecno Audit Italia S.r.l."));
     }
 }

@@ -1,0 +1,30 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+ARMNAB,006/M-012,«ՆԱՐԵԿ» ԳԻՏԱՀԵՏԱԶՈՏԱԿԱՆ ՓԲԸ,ISO/IEC 17021-1,active,2025-10-13,2029-10-13,https://armnab.am/management-systems/MS00000016
+ARMNAB,004/M-011,«ԻՆՍՏՐՈՒԿՏԱՐԻՈՒՄ» ՍՊԸ,ISO/IEC 17021-1,active,2025-08-25,2029-08-25,https://armnab.am/management-systems/MS00000015
+ARMNAB,005/M-010,«ՏԵՍՏՍՎՅԱԶ» ՍՊԸ,ISO/IEC 17021-1,active,2025-07-09,2029-07-09,https://armnab.am/management-systems/MS00000014
+ARMNAB,003/M-009,«ՍՏԱՆԴԱՐՏԱՑՄԱՆ ԵՎ ՉԱՓԱԳԻՏՈՒԹՅԱՆ ԱԶԳԱՅԻՆ ՄԱՐՄԻՆ» ՓԲԸ,ISO/IEC 17021-1,active,2024-10-25,2028-10-25,https://armnab.am/management-systems/MS00000013
+ARMNAB,002/M-008,«ՍԵՐՏԻՖԻԿԱՑՈՒՄ ԵՎ ՈՐԱԿ» ՍՊԸ,ISO/IEC 17021-1,active,2023-12-25,2027-12-25,https://armnab.am/management-systems/MS00000012
+ARMNAB,007/M-007,«ԳԵՐՄԱՆԱԿԱՆ ՍԵՐՏԻՖԻԿԱՑՄԱՆ ՄԱՐՄԻՆ» ՍՊԸ,ISO/IEC 17021-1,withdrawn,2023-02-20,2026-02-20,https://armnab.am/management-systems/MS00000011
+ARMNAB,006/M-006,«ՆԱՐԵԿ» ԳԻՏԱՀԵՏԱԶՈՏԱԿԱՆ ՓԲԸ,ISO/IEC 17021-1,withdrawn,2022-10-11,2025-10-11,https://armnab.am/management-systems/MS00000010
+ARMNAB,005/M-005,«ՏԵՍՏՍՎՅԱԶ» ՍՊԸ,ISO/IEC 17021-1,withdrawn,2022-09-19,2025-09-19,https://armnab.am/management-systems/MS00000009
+ARMNAB,004/M-004,«ԻՆՍՏՐՈՒԿՏԱՐԻՈՒՄ» ՍՊԸ,ISO/IEC 17021-1,withdrawn,2022-08-24,2025-08-24,https://armnab.am/management-systems/MS00000008
+ARMNAB,003/M-003,«ՍՏԱՆԴԱՐՏԱՑՄԱՆ ԵՎ ՉԱՓԱԳԻՏՈՒԹՅԱՆ ԱԶԳԱՅԻՆ ՄԱՐՄԻՆ» ՓԲԸ,ISO/IEC 17021-1,withdrawn,2020-12-14,2024-10-24,https://armnab.am/management-systems/MS00000007
+ARMNAB,002/M-002,«ՍԵՐՏԻՖԻԿԱՑՈՒՄ ԵՎ ՈՐԱԿ» ՍՊԸ,ISO/IEC 17021-1,withdrawn,2020-06-09,2023-12-24,https://armnab.am/management-systems/MS00000006
+ARMNAB,001/M-001,«ՆԱՐԵԿ» ԳԻՏԱՀԵՏԱԶՈՏԱԿԱՆ ՓԲԸ,ISO/IEC 17021-1,withdrawn,2018-10-10,2022-10-10,https://armnab.am/management-systems/MS00000005
+ARMNAB,003/Q-004,«ՍՄԱՐԹԹՐԱՆՍ» ՍՊԸ,ISO/IEC 17021-1,withdrawn,2017-12-08,2020-12-08,https://armnab.am/management-systems/MS00000003
+ARMNAB,003/E-004,«ՍՄԱՐԹԹՐԱՆՍ» ՍՊԸ,ISO/IEC 17021-1,withdrawn,2017-12-08,2020-12-08,https://armnab.am/management-systems/MS00000003
+ARMNAB,003/F-004,«ՍՄԱՐԹԹՐԱՆՍ» ՍՊԸ,ISO/IEC 17021-1,withdrawn,2017-12-08,2020-12-08,https://armnab.am/management-systems/MS00000003
+ARMNAB,002/L-002,«ՍՄԱՐԹԹՐԱՆՍ» ՍՊԸ,ISO/IEC 17021-1,withdrawn,2017-12-08,2020-12-08,https://armnab.am/management-systems/MS00000003
+ARMNAB,002/H-002,«ՍՄԱՐԹԹՐԱՆՍ» ՍՊԸ,ISO/IEC 17021-1,withdrawn,2017-12-08,2020-12-08,https://armnab.am/management-systems/MS00000003
+ARMNAB,001/Q-003,«ՍՏԱՆԴԱՐՏԱՑՄԱՆ ԵՎ ՉԱՓԱԳԻՏՈՒԹՅԱՆ ԱԶԳԱՅԻՆ ՄԱՐՄԻՆ» ՓԲԸ,ISO/IEC 17021-1,withdrawn,2017-11-28,2020-12-13,https://armnab.am/management-systems/MS00000002
+ARMNAB,001/E-003,«ՍՏԱՆԴԱՐՏԱՑՄԱՆ ԵՎ ՉԱՓԱԳԻՏՈՒԹՅԱՆ ԱԶԳԱՅԻՆ ՄԱՐՄԻՆ» ՓԲԸ,ISO/IEC 17021-1,withdrawn,2017-11-28,2020-12-13,https://armnab.am/management-systems/MS00000002
+ARMNAB,001/F-003,«ՍՏԱՆԴԱՐՏԱՑՄԱՆ ԵՎ ՉԱՓԱԳԻՏՈՒԹՅԱՆ ԱԶԳԱՅԻՆ ՄԱՐՄԻՆ» ՓԲԸ,ISO/IEC 17021-1,withdrawn,2017-11-28,2020-12-13,https://armnab.am/management-systems/MS00000002
+ARMNAB,002/Q-002,«ՆԱՐԵԿ» ԳԻՏԱՀԵՏԱԶՈՏԱԿԱՆ ՓԲԸ,ISO/IEC 17021-1,withdrawn,2015-03-24,2018-10-10,https://armnab.am/management-systems/MS00000004
+ARMNAB,002/E-002,«ՆԱՐԵԿ» ԳԻՏԱՀԵՏԱԶՈՏԱԿԱՆ ՓԲԸ,ISO/IEC 17021-1,withdrawn,2015-03-24,2018-10-10,https://armnab.am/management-systems/MS00000004
+ARMNAB,002/F-002,«ՆԱՐԵԿ» ԳԻՏԱՀԵՏԱԶՈՏԱԿԱՆ ՓԲԸ,ISO/IEC 17021-1,withdrawn,2015-03-24,2018-10-10,https://armnab.am/management-systems/MS00000004
+ARMNAB,001/K-001,«ՆԱՐԵԿ» ԳԻՏԱՀԵՏԱԶՈՏԱԿԱՆ ՓԲԸ,ISO/IEC 17021-1,withdrawn,2015-03-24,2018-10-10,https://armnab.am/management-systems/MS00000004
+ARMNAB,001/L-001,«ՆԱՐԵԿ» ԳԻՏԱՀԵՏԱԶՈՏԱԿԱՆ ՓԲԸ,ISO/IEC 17021-1,withdrawn,2015-03-24,2018-10-10,https://armnab.am/management-systems/MS00000004
+ARMNAB,001/H-001,«ՆԱՐԵԿ» ԳԻՏԱՀԵՏԱԶՈՏԱԿԱՆ ՓԲԸ,ISO/IEC 17021-1,withdrawn,2015-03-24,2018-10-10,https://armnab.am/management-systems/MS00000004
+ARMNAB,001/Q-001,«ՍՏԱՆԴԱՐՏՆԵՐԻ ԱԶԳԱՅԻՆ ԻՆՍՏԻՏՈՒՏ» ՓԲԸ,ISO/IEC 17021-1,withdrawn,2014-10-31,2017-10-31,https://armnab.am/management-systems/MS00000001
+ARMNAB,001/E-001,«ՍՏԱՆԴԱՐՏՆԵՐԻ ԱԶԳԱՅԻՆ ԻՆՍՏԻՏՈՒՏ» ՓԲԸ,ISO/IEC 17021-1,withdrawn,2014-10-31,2017-10-31,https://armnab.am/management-systems/MS00000001
+ARMNAB,001/F-001,«ՍՏԱՆԴԱՐՏՆԵՐԻ ԱԶԳԱՅԻՆ ԻՆՍՏԻՏՈՒՏ» ՓԲԸ,ISO/IEC 17021-1,withdrawn,2014-10-31,2017-10-31,https://armnab.am/management-systems/MS00000001

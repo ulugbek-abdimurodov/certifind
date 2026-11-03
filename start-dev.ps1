@@ -35,4 +35,4 @@ Write-Host "  Frontend:   npm run dev (http://localhost:3000)"
 Write-Host ""
 Write-Host "Run the backend first, then start the frontend in a separate terminal."
 Write-Host "On a new database volume, load the company data first (see README, 'Start locally'):"
-Write-Host '  cd backend; .\mvnw.cmd spring-boot:run "-Dspring-boot.run.profiles=import" "-Dspring-boot.run.arguments=--certifind.import.paths=../data,../data-demo"'
+Write-Host '  cd backend; .\mvnw.cmd spring-boot:run "-Dspring-boot.run.profiles=import" "-Dspring-boot.run.arguments=--certifind.import.paths=../data"'

@@ -1,7 +1,7 @@
 "use client";
 
 import type { Body, ResultFilter, SearchResponse } from "../app/search-types";
-import { flagFor, matchesFilter, scopeListLabel } from "../app/search-data";
+import { flagFor, matchesFilter, scopeListLabel, standardLabel } from "../app/search-data";
 
 type ResultsSectionProps = {
   data: SearchResponse | null;
@@ -20,17 +20,20 @@ export function ResultsSection({
   onFilterChange,
   onSelect,
 }: ResultsSectionProps) {
+  // One pill per (country, accreditation body): ESYD accredits Greek, Cypriot and Maltese bodies.
   const accreditorInfo = data
     ? Array.from(
         new Map(
           data.results
             .filter((body) => body.accreditationBodyCode !== "ACCREDIA")
             .map((body) => [
-              body.accreditationBodyCode,
+              `${body.accreditationBodyCode}|${body.country}`,
               { code: body.accreditationBodyCode, country: body.country },
             ]),
         ).values(),
-      ).sort((a, b) => a.code.localeCompare(b.code))
+      ).sort(
+        (a, b) => a.country.localeCompare(b.country) || a.code.localeCompare(b.code),
+      )
     : [];
   const filteredResults =
     data?.results.filter((body) => matchesFilter(body, resultFilter)) ?? [];
@@ -62,7 +65,7 @@ export function ResultsSection({
               <p>
                 {data.directory
                   ? "Elenco completo delle aziende presenti nel database"
-                  : `Per ${iso} · ${data.resolvedEaDescription} (EA ${data.resolvedEaCode})`}
+                  : `Per ${standardLabel(iso)} · ${data.resolvedEaDescription} (EA ${data.resolvedEaCode})`}
               </p>
             </div>
             <div className="results-mark">
@@ -92,10 +95,10 @@ export function ResultsSection({
                     </FilterButton>
                   )}
                   {accreditorInfo.map(({ code, country }) => {
-                    const filter = `accreditor:${code}` as const;
+                    const filter = `accreditor:${code}|${country}` as const;
                     return (
                       <FilterButton
-                        key={code}
+                        key={filter}
                         active={resultFilter === filter}
                         onClick={() => onFilterChange(filter)}
                       >

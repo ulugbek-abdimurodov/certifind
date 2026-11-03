@@ -1,0 +1,32 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+ATS,08-002,EVROCERT DOO Kragujevac,ISO/IEC 17021-1,ACTIVE,2009-08-14,2026-12-20,http://www.registar.ats.rs/predmet/495/
+ATS,08-007,KVALITET AD Niš,ISO/IEC 17021-1,ACTIVE,2010-07-12,2027-01-09,http://www.registar.ats.rs/predmet/496/
+ATS,08-007 (27006),KVALITET AD Niš,ISO/IEC 27006,ACTIVE,2010-07-12,2027-01-09,http://www.registar.ats.rs/predmet/496/
+ATS,08-001,"Ministarstvo odbrane, Sektor za materijalne resurse, Vojna kontrola kvaliteta",ISO/IEC 17021-1,ACTIVE,2001-09-11,2031-06-08,http://www.registar.ats.rs/predmet/497/
+ATS,08-004,PANCERT DOO NOVI SAD,ISO/IEC 17021-1,ACTIVE,2002-09-10,2027-04-26,http://www.registar.ats.rs/predmet/498/
+ATS,08-004 (22000),PANCERT DOO NOVI SAD,ISO 22003-1,ACTIVE,2002-09-10,2027-04-26,http://www.registar.ats.rs/predmet/498/
+ATS,08-003,JUQS DOO Beograd,ISO/IEC 17021-1,ACTIVE,2008-02-29,2028-12-16,http://www.registar.ats.rs/predmet/499/
+ATS,08-003 (22000),JUQS DOO Beograd,ISO 22003-1,ACTIVE,2008-02-29,2028-12-16,http://www.registar.ats.rs/predmet/499/
+ATS,08-006,GLOBALSERT d.o.o. Beograd,ISO/IEC 17021-1,ACTIVE,2010-05-05,2031-09-17,http://www.registar.ats.rs/predmet/503/
+ATS,08-006 (22000),GLOBALSERT d.o.o. Beograd,ISO 22003-1,ACTIVE,2010-05-05,2031-09-17,http://www.registar.ats.rs/predmet/503/
+ATS,08-005,StandCert d.o.o. Beograd,ISO/IEC 17021-1,ACTIVE,2009-10-23,2031-10-11,http://www.registar.ats.rs/predmet/504/
+ATS,08-005 (22000),StandCert d.o.o. Beograd,ISO 22003-1,ACTIVE,2009-10-23,2031-10-11,http://www.registar.ats.rs/predmet/504/
+ATS,08-005 (27006),StandCert d.o.o. Beograd,ISO/IEC 27006,ACTIVE,2009-10-23,2031-10-11,http://www.registar.ats.rs/predmet/504/
+ATS,08-005 (50003),StandCert d.o.o. Beograd,ISO 50003,ACTIVE,2009-10-23,2031-10-11,http://www.registar.ats.rs/predmet/504/
+ATS,08-019,WRG EUROPE DOO BEOGRAD,ISO/IEC 17021-1,ACTIVE,2010-12-20,2031-01-02,http://www.registar.ats.rs/predmet/505/
+ATS,08-019 (22000),WRG EUROPE DOO BEOGRAD,ISO 22003-1,ACTIVE,2010-12-20,2031-01-02,http://www.registar.ats.rs/predmet/505/
+ATS,08-019 (27006),WRG EUROPE DOO BEOGRAD,ISO/IEC 27006,ACTIVE,2010-12-20,2031-01-02,http://www.registar.ats.rs/predmet/505/
+ATS,08-013,SGS BEOGRAD DOO Beograd,ISO/IEC 17021-1,ACTIVE,2015-10-16,2028-04-04,http://www.registar.ats.rs/predmet/508/
+ATS,08-010,MANAGEMENT SYSTEMS CERTIFICATION DOO BEOGRAD (ZEMUN),ISO/IEC 17021-1,ACTIVE,2013-01-31,2029-07-22,http://www.registar.ats.rs/predmet/779/
+ATS,08-012,TMS CEE DOO BEOGRAD,ISO/IEC 17021-1,ACTIVE,2014-06-30,2026-12-26,http://www.registar.ats.rs/predmet/861/
+ATS,08-012 (22000),TMS CEE DOO BEOGRAD,ISO 22003-1,ACTIVE,2014-06-30,2026-12-26,http://www.registar.ats.rs/predmet/861/
+ATS,08-012 (27006),TMS CEE DOO BEOGRAD,ISO/IEC 27006,ACTIVE,2014-06-30,2026-12-26,http://www.registar.ats.rs/predmet/861/
+ATS,08-014,INTERNATIONAL CERTIFICATION GROUP DOO BEOGRAD,ISO/IEC 17021-1,ACTIVE,2015-12-09,2027-12-08,http://www.registar.ats.rs/predmet/975/
+ATS,08-017,IQM NET DOO BEOGRAD,ISO/IEC 17021-1,ACTIVE,2016-11-10,2028-11-09,http://www.registar.ats.rs/predmet/996/
+ATS,08-017 (27006),IQM NET DOO BEOGRAD,ISO/IEC 27006,ACTIVE,2016-11-10,2028-11-09,http://www.registar.ats.rs/predmet/996/
+ATS,08-018,CERTOP CO DOO za sertifikacione usluge Kanjiža,ISO/IEC 17021-1,ACTIVE,2016-11-25,2028-11-24,http://www.registar.ats.rs/predmet/1002/
+ATS,08-018 (27006),CERTOP CO DOO za sertifikacione usluge Kanjiža,ISO/IEC 27006,ACTIVE,2016-11-25,2028-11-24,http://www.registar.ats.rs/predmet/1002/
+ATS,08-021,Institut za standardizaciju Srbije,ISO/IEC 17021-1,ACTIVE,2019-10-15,2028-01-11,http://www.registar.ats.rs/predmet/1211/
+ATS,08-020,QUALITY CERT DOO Beograd,ISO/IEC 17021-1,ACTIVE,2019-08-01,2027-10-30,http://www.registar.ats.rs/predmet/1248/
+ATS,08-022,SIQ Ljubljana,ISO/IEC 17021-1,ACTIVE,2022-12-06,2026-12-05,http://www.registar.ats.rs/predmet/1363/
+ATS,08-022 (27006),SIQ Ljubljana,ISO/IEC 27006,ACTIVE,2022-12-06,2026-12-05,http://www.registar.ats.rs/predmet/1363/

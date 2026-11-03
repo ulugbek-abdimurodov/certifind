@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import type { Body } from "../app/search-types";
-import { flagFor, scopeLinesByStandard } from "../app/search-data";
+import { flagFor, scopeLinesByStandard, standardLabel } from "../app/search-data";
 
 export function OrganizationDrawer({
   body,
@@ -128,7 +128,7 @@ export function OrganizationDrawer({
                 : scopeLines.filter((line) => line.standard === selectedStandard)
               ).map(({ standard, allSectors, sectors }) => (
                 <div key={standard}>
-                  <strong>{standard}</strong>
+                  <strong>{standardLabel(standard)}</strong>
                   {allSectors ? (
                     <p>Tutti i settori</p>
                   ) : (

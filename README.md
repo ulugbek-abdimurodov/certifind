@@ -41,12 +41,11 @@ docker compose up -d postgres
 ```
 
 Load the company data. Flyway creates the schema and reference data first, then
-the importer loads the real datasets in `data/` and the fictional demo bodies in
-`data-demo/` (the tests expect both):
+the importer loads the datasets in `data/`:
 
 ```powershell
 cd backend
-.\mvnw.cmd spring-boot:run "-Dspring-boot.run.profiles=import" "-Dspring-boot.run.arguments=--certifind.import.paths=../data,../data-demo"
+.\mvnw.cmd spring-boot:run "-Dspring-boot.run.profiles=import" "-Dspring-boot.run.arguments=--certifind.import.paths=../data"
 ```
 
 Alternatively, `.\start-dev.ps1` starts the database and checks that ports 8080
@@ -108,7 +107,6 @@ Data lives in three places, each managed differently:
 | Schema | `backend/src/main/resources/db/migration/V1__schema.sql` | New Flyway migration (`V3__...sql`); never edit an applied one |
 | Reference data (accreditation bodies, EA sectors, standards, scheme rules, sector keywords) | `V2__reference_data.sql` | New Flyway migration |
 | Certification bodies, accreditations, scopes | `data/<dataset>/*.csv` | Edit the CSVs, run the importer |
-| Fictional demo bodies | `data-demo/fictional/*.csv` | Same, but only loaded in development and tests |
 
 Real datasets: `data/dpa-albania` (transcribed from DPA accreditation annexes) and
 `data/renar-romania` (extracted from RENAR certificates and annexes). Each folder's
@@ -212,24 +210,9 @@ Data model (`V1__schema.sql`):
 A body is returned for "standard S in EA n" when it has a valid right for S in
 EA n.
 
-### Demo data
+### Datasets
 
-The fictional demo bodies (`data-demo/fictional`) cover these cases, for example with
-ISO 9001 + "metallo":
-
-| Body | Rights | Result |
-| --- | --- | --- |
-| Qualitas Certificazioni | 17021-1: 9001 in EA 1, 2, 5, 23, 25, 26; 27006: 27001 in all EA | not in EA 17 |
-| Nord Est, Metalcert, Sigma, Albion, Mainfranken, Polcert, Adriatik | 17021-1: 9001 incl. EA 17 | returned |
-| Lombardia Safety Cert | 14001/45001 in EA 17, 9001 elsewhere | not for 9001 |
-| InfoSec Assurance | 27006 only | not for 9001 |
-| Energia Certa | 9001 EA 17 scope withdrawn | excluded |
-| CertRom Audit | whole accreditation suspended | excluded |
-| Polcert | 50003 expired 2026-06-30 | excluded for 50001 |
-| Tecno Audit | 9001 EA 38 scope suspended | excluded for EA 38 only |
-
-The bodies in the table above, with their certificate numbers, contacts and URLs,
-are fictional. `data/dpa-albania` contains the real Albanian bodies accredited by
+All company data is real. `data/dpa-albania` contains the Albanian bodies accredited by
 DPA (Legal Cert, AXE Register, AQScert, Career Cert Institute, EQSC, CERTIS, e-Cert,
 R.C.A, M.G Bugatti Certification, MSC Certifications, Autenticert Albania, CERTI AL).
 `data/renar-romania` contains the 22 Romanian bodies holding a RENAR ISO/IEC 17021-1
@@ -242,7 +225,7 @@ it is reloaded from the repository):
 docker compose down -v
 docker compose up -d postgres
 cd backend
-.\mvnw.cmd spring-boot:run "-Dspring-boot.run.profiles=import" "-Dspring-boot.run.arguments=--certifind.import.paths=../data,../data-demo"
+.\mvnw.cmd spring-boot:run "-Dspring-boot.run.profiles=import" "-Dspring-boot.run.arguments=--certifind.import.paths=../data"
 ```
 
 A database created by the old `init-db/` scripts has no Flyway history, so the
@@ -310,7 +293,7 @@ $C run --rm importer                                   # load it
 $C up -d backend                                       # restart on the new image
 ```
 
-The importer loads only `data/` (never `data-demo/`). Import before restarting the
+Import before restarting the
 backend: the importer also applies new Flyway migrations, which the new backend
 code may need. A dry run rolls back the data but not the migrations.
 

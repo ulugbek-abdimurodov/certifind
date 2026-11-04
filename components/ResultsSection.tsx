@@ -1,7 +1,13 @@
 "use client";
 
 import type { Body, ResultFilter, SearchResponse } from "../app/search-types";
-import { flagFor, matchesFilter, scopeListLabel, standardLabel } from "../app/search-data";
+import {
+  flagFor,
+  formatExpiry,
+  matchesFilter,
+  shortStandard,
+  standardsLabel,
+} from "../app/search-data";
 
 type ResultsSectionProps = {
   data: SearchResponse | null;
@@ -65,7 +71,7 @@ export function ResultsSection({
               <p>
                 {data.directory
                   ? "Elenco completo delle aziende presenti nel database"
-                  : `Per ${standardLabel(iso)} · ${data.resolvedEaDescription} (EA ${data.resolvedEaCode})`}
+                  : `Per ${shortStandard(iso)} · ${data.resolvedEaDescription} (EA ${data.resolvedEaCode})`}
               </p>
             </div>
             <div className="results-mark">
@@ -128,18 +134,26 @@ export function ResultsSection({
                           <h3>{body.name}</h3>
                         </div>
                         <div className="scope-subtitle">
-                          Scopo accreditato: {body.scopeSection}
+                          Scopo accreditato:{" "}
+                          {body.scopes.length
+                            ? standardsLabel(body.scopes)
+                            : data.directory
+                              ? body.scopeSection
+                              : iso}
                         </div>
                         <div className="result-meta">
                           <span>{body.country}</span>
                           <i /> <span>{body.accreditationBodyCode}</span>
                           <i />{" "}
                           <span>
-                            {data.directory
-                              ? body.scopes.length
-                                ? scopeListLabel(body.scopes)
-                                : "Nessun settore disponibile"
-                              : `${iso} · ${body.scopes.length ? scopeListLabel(body.scopes) : `EA ${body.eaCode}`}`}
+                            {(() => {
+                              const expiry = formatExpiry(
+                                body.expiryDate ??
+                                  body.scopes.find((s) => s.expiryDate)?.expiryDate ??
+                                  null,
+                              );
+                              return expiry ? `Scadenza ${expiry}` : "Scadenza non disponibile";
+                            })()}
                           </span>
                         </div>
                         <div className="verified-label">

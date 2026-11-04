@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { demoPresets, standardLabel } from "../app/search-data";
+import { compareStandards, demoPresets, standardOptionLabel } from "../app/search-data";
 import type { SearchOptions, SearchPreset } from "../app/search-types";
 
 type SearchFormProps = {
@@ -83,9 +83,9 @@ export function SearchForm({
               }
             }}
           >
-            {options.standards.map((standard) => (
+            {[...options.standards].sort(compareStandards).map((standard) => (
               <option key={standard} value={standard}>
-                {standardLabel(standard)}
+                {standardOptionLabel(standard)}
               </option>
             ))}
           </select>

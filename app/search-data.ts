@@ -63,6 +63,22 @@ const standardTitles: Record<string, string> = {
 /** Full Italian label for a standard code; unknown codes are shown as-is. */
 export const standardLabel = (code: string) => standardTitles[code] ?? code;
 
+/** UI shorthand: "ISO/IEC 27001:2022" → "ISO 27001", "ISO/IEC 17021-1" → "ISO 17021". */
+export const shortStandard = (code: string) =>
+  code
+    .replace(/^ISO\/IEC\s+/i, "ISO ")
+    .replace(/:\d{4}$/, "")
+    .replace(/(\d)-\d+$/, "$1");
+
+/** Shorthand plus Italian name: "ISO 9001 – Sistemi di gestione per la qualità – Requisiti". */
+export const standardOptionLabel = (code: string) => {
+  const title = standardTitles[code];
+  const description = title?.replace(/^.*?(:\d{4}|\sv\d+)\s+/, "");
+  return description && description !== title
+    ? `${shortStandard(code)} – ${description}`
+    : shortStandard(code);
+};
+
 /** Short label for a scope: "EA 37", or "ISO 17025 (non-EA)" when no EA sector applies. */
 export const scopeCode = (scope: AccreditationScope) =>
   scope.eaCode == null ? `${scope.isoStandard} (non-EA)` : `EA ${scope.eaCode}`;
@@ -73,13 +89,30 @@ const coversAllSectors = (scopes: AccreditationScope[]) =>
   new Set(scopes.map((scope) => scope.eaCode).filter((code) => code != null))
     .size === EA_SECTOR_COUNT;
 
-/** Scope list for one standard; a body covering all 39 EA sectors reads "Tutti i settori". */
-export const scopeListLabel = (scopes: AccreditationScope[]) => {
-  if (coversAllSectors(scopes)) return "Tutti i settori";
-  return scopes.map(scopeCode).join(", ");
+const standardNumbers = (code: string) =>
+  (code.match(/\d+/g) ?? []).map(Number);
+
+/** Orders standards by number, ignoring the prefix: ISO 3834, ISO 9001, ISO 13485, EN 15224, … */
+export const compareStandards = (a: string, b: string) => {
+  const [na, nb] = [standardNumbers(a), standardNumbers(b)];
+  for (let i = 0; i < Math.max(na.length, nb.length); i++) {
+    const diff = (na[i] ?? -1) - (nb[i] ?? -1);
+    if (diff !== 0) return diff;
+  }
+  return a.localeCompare(b);
 };
 
-const scopeDetail = (scope: AccreditationScope) =>
+/** Distinct ISO standards of a body's scopes, by number: "ISO 9001, ISO 14001". */
+export const standardsLabel = (scopes: AccreditationScope[]) =>
+  [...new Set(scopes.map((scope) => shortStandard(scope.isoStandard)))]
+    .sort(compareStandards)
+    .join(", ");
+
+/** Certificate expiry as "31/12/2027"; null when unknown. */
+export const formatExpiry = (date: string | null) =>
+  date ? new Date(date).toLocaleDateString("it-IT") : null;
+
+const scopeDetail =(scope: AccreditationScope) =>
   scope.eaCode == null
     ? scope.scopeSection
     : `EA ${scope.eaCode} (${scope.eaDescription})`;

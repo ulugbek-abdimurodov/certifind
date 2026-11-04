@@ -2,7 +2,12 @@
 
 import { useState } from "react";
 import type { Body } from "../app/search-types";
-import { flagFor, scopeLinesByStandard, standardLabel } from "../app/search-data";
+import {
+  flagFor,
+  scopeLinesByStandard,
+  shortStandard,
+  standardLabel,
+} from "../app/search-data";
 
 export function OrganizationDrawer({
   body,
@@ -116,7 +121,7 @@ export function OrganizationDrawer({
                   onClick={() => setSelectedStandard(standard)}
                   className={selectedStandard === standard ? "active" : ""}
                 >
-                  {standard}
+                  {shortStandard(standard)}
                 </button>
               ))}
             </div>

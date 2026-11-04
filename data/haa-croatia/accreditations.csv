@@ -1,0 +1,8 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+HAA,4014,"Croatian Register of Shipping (Hrvatski registar brodova, HRB) – Sektor certifikacije sustava upravljanja",ISO/IEC 17021-1,ACTIVE,2001-06-25,2031-05-22,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,4075,DNV Adriatica d.o.o.,ISO/IEC 17021-1,ACTIVE,2005-09-30,2031-06-18,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,4092,SGS Adriatica d.o.o. – Sektor Business Assurance,ISO/IEC 17021-1,ACTIVE,2006-10-30,2027-02-26,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,4184,Bureau Veritas Croatia d.o.o. – Sektor certifikacije sustava,ISO/IEC 17021-1,ACTIVE,2007-11-27,2028-04-23,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,4534,UDEM Adriatic d.o.o.,ISO/IEC 17021-1,ACTIVE,2016-07-05,2031-07-07,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,4618,ICR Adriatica d.o.o.,ISO/IEC 17021-1,ACTIVE,2019-10-07,2029-10-06,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,4622,"CRO CERT, Centar za certificiranje sustava upravljanja d.o.o.",ISO/IEC 17021-1,ACTIVE,2024-09-03,2029-09-02,https://akreditacija.gov.hr/frontend/registar-akreditacija

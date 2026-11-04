@@ -23,7 +23,6 @@ import com.certifind.dto.SearchOptionsResponse;
 import com.certifind.dto.SearchRequest;
 import com.certifind.dto.SearchResponse;
 import com.certifind.dto.SectorOption;
-import com.certifind.repository.AccreditationRepository;
 import com.certifind.repository.AccreditedScopeRepository;
 import com.certifind.repository.CertificationBodyRepository;
 import com.certifind.repository.EaSectorRepository;
@@ -39,19 +38,16 @@ public class SearchService {
 
     private final SectorKeywordRepository sectorKeywordRepository;
     private final AccreditedScopeRepository accreditedScopeRepository;
-    private final AccreditationRepository accreditationRepository;
     private final CertificationBodyRepository certificationBodyRepository;
     private final EaSectorRepository eaSectorRepository;
 
     public SearchService(
             SectorKeywordRepository sectorKeywordRepository,
             AccreditedScopeRepository accreditedScopeRepository,
-            AccreditationRepository accreditationRepository,
             CertificationBodyRepository certificationBodyRepository,
             EaSectorRepository eaSectorRepository) {
         this.sectorKeywordRepository = sectorKeywordRepository;
         this.accreditedScopeRepository = accreditedScopeRepository;
-        this.accreditationRepository = accreditationRepository;
         this.certificationBodyRepository = certificationBodyRepository;
         this.eaSectorRepository = eaSectorRepository;
     }
@@ -130,16 +126,11 @@ public class SearchService {
         Map<Integer, String> sectorNames = loadSectorNames();
         Map<Integer, List<AccreditedScope>> scopesByBody =
                 groupByCertificationBody(accreditedScopeRepository.findAllValidScopes());
-        // The card shows the body's first accreditation even when none of its rights is currently valid.
-        Map<Integer, Accreditation> firstAccreditation = accreditationRepository.findAllWithAccreditationBody()
-                .stream()
-                .collect(Collectors.toMap(
-                        accreditation -> accreditation.getCertificationBody().getId(),
-                        accreditation -> accreditation,
-                        (first, ignored) -> first));
-
+        // Only bodies that hold at least one valid issuing right are listed (the same rule as
+        // search): withdrawn, suspended and expired bodies stay in the database but are hidden.
         List<CertificationBodyCardDto> cards = certificationBodyRepository.findAllByOrderByNameAsc()
                 .stream()
+                .filter(cb -> scopesByBody.containsKey(cb.getId()))
                 .map(cb -> {
                     List<AccreditationScopeDto> scopes = scopesByBody
                             .getOrDefault(cb.getId(), List.of())
@@ -155,14 +146,15 @@ public class SearchService {
                             .entrySet().stream()
                             .map(entry -> entry.getKey() + ": EA " + entry.getValue())
                             .collect(Collectors.joining(" / "));
-                    AccreditationScopeDto firstScope = scopes.isEmpty() ? null : scopes.get(0);
+                    AccreditationScopeDto firstScope = scopes.get(0);
 
+                    // The card shows the accreditation behind the body's first valid right.
                     return toCard(
                             cb,
-                            firstAccreditation.get(cb.getId()),
-                            firstScope != null ? firstScope.eaCode() : 0,
-                            firstScope != null ? firstScope.eaDescription() : ALL_SECTORS,
-                            scopeSection.isBlank() ? "Nessun accreditamento valido" : scopeSection,
+                            scopesByBody.get(cb.getId()).get(0).getAccreditation(),
+                            firstScope.eaCode(),
+                            firstScope.eaDescription(),
+                            scopeSection,
                             scopes);
                 })
                 .toList();

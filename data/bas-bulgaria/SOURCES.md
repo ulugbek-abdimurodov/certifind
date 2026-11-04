@@ -30,7 +30,7 @@ Extraction rules:
   a scope note.
 - Not imported: PEFC forest management (MG Global) and PAS 24000 / FSSC 24000 social
   management (TÜV NORD), which are not international management-system standards.
-- Status from the register: "Отнета акредитация" (revoked) is `WITHDRAWN` without scopes
+- Status from the register: "Отнета акредитация" (revoked) is `WITHDRAWN` and removed (see the last rule);
   (Axerta International).
 - Names: the register only has the Cyrillic legal name and a machine translation, and the
   certificates are scans, so the Latin name is curated (English annex, e-mail domain) and the
@@ -39,7 +39,9 @@ Extraction rules:
 - Contacts: the register office's first phone number and one e-mail (the generic one when
   several are listed); the address from the annex header (office address when given),
   otherwise the office city.
+- Only bodies that currently hold a valid accreditation are kept: withdrawn, expired (including an active-listed row whose valid-to date has passed) and suspended bodies and rows are removed by `database/prune_inactive.py`, which the prepare script runs after writing the CSVs.
 
 | Retrieved | By | Notes |
 | --- | --- | --- |
 | 2026-11-03 | nab_scraper.py | 20 register entries; 19 bodies after merging the two 17 ОСС (Q-Aid Europe) entries |
+| 2026-11-04 | prune_inactive.py | removed 1 withdrawn body (Axerta International); 18 bodies kept |

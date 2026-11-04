@@ -159,8 +159,6 @@ certificate_number,certification_standard,ea_codes,status,scope_note
 8O146 (22000),ISO 22000,3;7;14-15;17;29-31,ACTIVE,"ISO 22003-1 categories C, E, F, G, I (classified to EA by sector)"
 8O147 (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, E, F, G (classified to EA by sector)"
 8O147 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
-8O149,ISO 9001,28,SUSPENDED,
-8O149 (22000),ISO 22000,3;31,SUSPENDED,"ISO 22003-1 categories C, G (classified to EA by sector)"
 8O156,ISO 9001,4;12;14;18-19;22-23;28;34-35;38,ACTIVE,
 8O156 (22000),ISO 22000,3,ACTIVE,ISO 22003-1 categories C (classified to EA by sector)
 8O156,ISO 13485,12-14;17;19,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices (classified to EA by sector)

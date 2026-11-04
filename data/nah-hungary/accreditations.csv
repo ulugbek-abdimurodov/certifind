@@ -1,0 +1,71 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+NAH,NAH-4-0008/2024,ÉMI-TÜV SÜD Minőségügyi és Biztonságtechnikai Kft.,ISO/IEC 17021-1,ACTIVE,2023-08-24,2031-08-13,https://nah.gov.hu/hu/szervezet/emi-tuv-sud-minosegugyi-es-biztonsagtechnikai-kft-da607561-853c-474d-9781-bb35f1ebbc62-1/
+NAH,NAH-4-0009/2026,NEOEMKI Nemzeti Orvostechnikai Eszköz Megfelelőségértékelő és Tanúsító Kft.,ISO/IEC 17021-1,ACTIVE,2026-04-23,2031-04-23,https://nah.gov.hu/hu/szervezet/neoemki-nemzeti-orvostechnikai-eszkoz-megfelelosegertekelo-es-tanusito-kft-1/
+NAH,NAH-4-0039/2023,Konformitás Tanúsító Szolgáltató Kft.,ISO/IEC 17021-1,ACTIVE,2022-11-10,2028-08-10,https://nah.gov.hu/hu/szervezet/konformitas-tanusito-szolgaltato-kft-0faf99d6-5034-4e5e-9982-6fc427da2c04-1/
+NAH,NAH-4-0041/2023 (27006),ÉMI-TÜV SÜD Minőségügyi és Biztonságtechnikai Kft.,ISO/IEC 27006,ACTIVE,2023-08-24,2028-08-24,https://nah.gov.hu/hu/szervezet/emi-tuv-sud-minosegugyi-es-biztonsagtechnikai-kft-cfc9895d-9445-4c82-986e-bcbc38ec5cdf-1/
+NAH,NAH-4-0041/2023 (50003),ÉMI-TÜV SÜD Minőségügyi és Biztonságtechnikai Kft.,ISO 50003,ACTIVE,2023-08-24,2028-08-24,https://nah.gov.hu/hu/szervezet/emi-tuv-sud-minosegugyi-es-biztonsagtechnikai-kft-cfc9895d-9445-4c82-986e-bcbc38ec5cdf-1/
+NAH,NAH-4-0044/2023,Magyar Szabványügyi Testület,ISO/IEC 17021-1,ACTIVE,2023-06-22,2028-06-22,https://nah.gov.hu/hu/szervezet/magyar-szabvanyugyi-testulet-b9ed212c-1ec1-4367-8553-23af10ed4cba-1/
+NAH,NAH-4-0044/2023 (50003),Magyar Szabványügyi Testület,ISO 50003,ACTIVE,2023-06-22,2028-06-22,https://nah.gov.hu/hu/szervezet/magyar-szabvanyugyi-testulet-b9ed212c-1ec1-4367-8553-23af10ed4cba-1/
+NAH,NAH-4-0045/2023,FERRCERT Tanúsító és Ellenőrző Kft.,ISO/IEC 17021-1,ACTIVE,2023-08-31,2028-08-31,https://nah.gov.hu/hu/szervezet/ferrcert-tanusito-es-ellenorzo-kft-0ab6c484-5b6f-4042-abec-f53069a4493c-1/
+NAH,NAH-4-0047/2023,MCert Rendszertanúsító Kft.,ISO/IEC 17021-1,ACTIVE,2023-07-13,2030-03-06,https://nah.gov.hu/hu/szervezet/mcert-rendszertanusito-/
+NAH,NAH-4-0047/2023 (22000),MCert Rendszertanúsító Kft.,ISO 22003-1,ACTIVE,2023-07-13,2028-07-13,https://nah.gov.hu/hu/szervezet/mcert-rendszertanusito-/
+NAH,NAH-4-0047/2023 (27006),MCert Rendszertanúsító Kft.,ISO/IEC 27006,ACTIVE,2023-07-13,2028-07-13,https://nah.gov.hu/hu/szervezet/mcert-rendszertanusito-/
+NAH,NAH-4-0047/2023 (50003),MCert Rendszertanúsító Kft.,ISO 50003,ACTIVE,2023-07-13,2028-07-13,https://nah.gov.hu/hu/szervezet/mcert-rendszertanusito-/
+NAH,NAH-4-0060/2022,INTERNATIONAL CERT Hungary Szolgáltató Kft.,ISO/IEC 17021-1,ACTIVE,2022-07-07,2027-07-07,https://nah.gov.hu/hu/szervezet/international-cert-hungary-szolgaltato-kft-bb839771-35ed-4774-8fb1-c6556fb84e9f-1/
+NAH,NAH-4-0068/2024,INTERCERT Minősítő és Tanúsító Kft.,ISO/IEC 17021-1,ACTIVE,2024-12-05,2029-12-05,https://nah.gov.hu/hu/szervezet/intercert-minosito-es-tanusito-kft-a2b820be-4d4a-45fd-8a00-dda897ef8789-1/
+NAH,NAH-4-0071/2023,e.com-CERT Rendszertanúsító Kft.,ISO/IEC 17021-1,ACTIVE,2023-02-23,2028-02-23,https://nah.gov.hu/hu/szervezet/ecom-cert-rendszertanusito-kft/
+NAH,NAH-4-0071/2023 (50003),e.com-CERT Rendszertanúsító Kft.,ISO 50003,ACTIVE,2023-02-23,2028-02-23,https://nah.gov.hu/hu/szervezet/ecom-cert-rendszertanusito-kft/
+NAH,NAH-4-0080/2023,e.com-CERT International Certification Bureau Rendszertanúsító Kft.,ISO/IEC 17021-1,ACTIVE,2023-12-07,2030-01-09,https://nah.gov.hu/hu/szervezet/e-com-cert-international-certification-bureau-rendszertanusito-kft-d83f461b-8fd5-43e6-a683-384c40fdf7c5-1/
+NAH,NAH-4-0085/2023,SGS Hungária Kft.,ISO/IEC 17021-1,ACTIVE,2023-08-10,2028-08-10,https://nah.gov.hu/hu/szervezet/sgs-hungaria-kft1/
+NAH,NAH-4-0086/2023 (22000),Magyar Szabványügyi Testület,ISO 22003-1,ACTIVE,2023-09-21,2028-09-21,https://nah.gov.hu/hu/szervezet/magyar-szabvanyugyi-testulet-e4fb3f5a-a0db-4361-8027-38a242db097f-1/
+NAH,NAH-4-0087/2024,QT-CERT Tanúsító és Minőségfejlesztő Kft.,ISO/IEC 17021-1,ACTIVE,2024-06-21,2029-06-21,https://nah.gov.hu/hu/szervezet/qt-cert-tanusito-es-minosegfejleszto-kft-8a870564-035f-4813-b66d-efd73c7475a3-1/
+NAH,NAH-4-0088/2024,European-Cert Tanúsító Kft.,ISO/IEC 17021-1,ACTIVE,2024-06-13,2029-06-13,https://nah.gov.hu/hu/szervezet/european-cert-tanusito-kft-a46c923d-f8f7-4c89-95e9-84f29bba8fe8-1/
+NAH,NAH-4-0092/2024,TAM CERT Magyarország Vizsgáló és Tanúsító Kft.,ISO/IEC 17021-1,ACTIVE,2024-10-11,2031-03-12,https://nah.gov.hu/hu/szervezet/tam-cert-magyarorszag-vizsgalo-es-tanusito-kft-tam-1/
+NAH,NAH-4-0100/2022,MERT-CERT Tanúsító Kft.,ISO/IEC 17021-1,ACTIVE,2022-04-07,2027-04-07,https://nah.gov.hu/hu/szervezet/mert-cert-tanusito-kft-0fa57bbd-78b9-436b-81d0-88c2ddcb35c7-1/
+NAH,NAH-4-0100/2022 (22000),MERT-CERT Tanúsító Kft.,ISO 22003-1,ACTIVE,2022-04-07,2027-04-07,https://nah.gov.hu/hu/szervezet/mert-cert-tanusito-kft-0fa57bbd-78b9-436b-81d0-88c2ddcb35c7-1/
+NAH,NAH-4-0105/2024,TÜV Rheinland InterCert Műszaki Felügyeleti és Tanúsító Kft.,ISO/IEC 17021-1,ACTIVE,2024-04-26,2029-04-26,https://nah.gov.hu/hu/szervezet/tuv-rheinland-intercert-muszaki-felugyeleti-es-tanusito-kft-80aff58d-fc61-4360-a342-3064b2f52a95-1/
+NAH,NAH-4-0107/2024,SYS CERT Rendszertanúsító Kft.,ISO/IEC 17021-1,ACTIVE,2022-04-21,2029-08-09,https://nah.gov.hu/hu/szervezet/sys-cert-rendszertanusito-kft-362614ed-13fd-4eff-b19c-60cb6ed5e820-1/
+NAH,NAH-4-0108/2024,CertUnion Hungary Tanúsító Kft.,ISO/IEC 17021-1,ACTIVE,2022-10-27,2029-04-04,https://nah.gov.hu/hu/szervezet/certunion-hungary-tanusito-kft-9735b375-3e6c-4bc9-a221-5f0d9ad3da00-1/
+NAH,NAH-4-0110/2025,"DEKRA TIC Vizsgáló, Ellenőrző, Tanúsító Kft.",ISO/IEC 17021-1,ACTIVE,2025-04-10,2030-04-10,https://nah.gov.hu/hu/szervezet/dekra-tic-vizsgalo-ellenorzo-tanusito-kft-ir/
+NAH,NAH-4-0118/2026 (27006),CertUnion Hungary Tanúsító Kft.,ISO/IEC 27006,ACTIVE,2026-06-30,2031-06-30,https://nah.gov.hu/hu/szervezet/certunion-hungary-tanusito-kft-bcab354d-2387-4c37-b292-59e3621d6ecf-1/
+NAH,NAH-4-0119/2022,EUROCERT Minősítő és Tanúsító Kft.,ISO/IEC 17021-1,ACTIVE,2022-03-30,2027-03-30,https://nah.gov.hu/hu/szervezet/eurocert-minosito-es-tanusito-kft-17667-1/
+NAH,NAH-4-0119/2022 (27006),EUROCERT Minősítő és Tanúsító Kft.,ISO/IEC 27006,ACTIVE,2022-03-30,2027-03-30,https://nah.gov.hu/hu/szervezet/eurocert-minosito-es-tanusito-kft-17667-1/
+NAH,NAH-4-0127/2023 (27006),Magyar Szabványügyi Testület,ISO/IEC 27006,ACTIVE,2023-01-12,2028-01-12,https://nah.gov.hu/hu/szervezet/magyar-szabvanyugyi-testulet-a47b2dde-e29f-4f6c-8d22-a105f6b47636-1/
+NAH,NAH-4-0130/2023,QUALI-CERT Rendszer Tanúsító Kft.,ISO/IEC 17021-1,ACTIVE,2023-06-08,2028-06-08,https://nah.gov.hu/hu/szervezet/quali-cert-rendszer-tanusito-kft-e8487a8e-63ec-42de-96d8-c34e6042d426-1/
+NAH,NAH-4-0130/2023 (27006),QUALI-CERT Rendszer Tanúsító Kft.,ISO/IEC 27006,ACTIVE,2023-06-08,2028-06-08,https://nah.gov.hu/hu/szervezet/quali-cert-rendszer-tanusito-kft-e8487a8e-63ec-42de-96d8-c34e6042d426-1/
+NAH,NAH-4-0130/2023 (50003),QUALI-CERT Rendszer Tanúsító Kft.,ISO 50003,ACTIVE,2023-06-08,2028-06-08,https://nah.gov.hu/hu/szervezet/quali-cert-rendszer-tanusito-kft-e8487a8e-63ec-42de-96d8-c34e6042d426-1/
+NAH,NAH-4-0134/2026 (37001),CERTOP Termék- és Rendszertanúsító Kft.,ISO/IEC 17021-9,ACTIVE,2026-05-07,2031-05-07,https://nah.gov.hu/hu/szervezet/certop-termek-es-rendszertanusito-kft-e829d638-669b-4023-ba4b-86891f938277-1/
+NAH,NAH-4-0134/2026 (50003),CERTOP Termék- és Rendszertanúsító Kft.,ISO 50003,ACTIVE,2026-05-07,2031-05-07,https://nah.gov.hu/hu/szervezet/certop-termek-es-rendszertanusito-kft-e829d638-669b-4023-ba4b-86891f938277-1/
+NAH,NAH-4-0136/2024,CE Certiso Orvos- és Kórháztechnikai Ellenőrző és Tanúsító Kft.,ISO/IEC 17021-1,ACTIVE,2024-07-11,2029-07-11,https://nah.gov.hu/hu/szervezet/ce-certiso-orvos-es-korhaztechnikai-ellenorzo-es-tanusito-kft-a2178423-5342-4d86-81f5-bb60ce5beae8-1/
+NAH,NAH-4-0137/2022 (27006),CERTOP Termék- és Rendszertanúsító Kft.,ISO/IEC 27006,ACTIVE,2022-03-24,2027-03-24,https://nah.gov.hu/hu/szervezet/certop-termek-es-rendszertanusito-kft-d82c7cd9-02dd-4acb-9f24-82bea0b96d93-1/
+NAH,NAH-4-0138/2022 (50003),INTERCERT Minősítő és Tanúsító Kft.,ISO 50003,ACTIVE,2022-06-30,2027-06-30,https://nah.gov.hu/hu/szervezet/intercert-minosito-es-tanusito-kft-5e4b6a0d-49fc-442d-9ce3-55de4876d8f0-1/
+NAH,NAH-4-0139/2022,CERT Tanúsító Zrt.,ISO/IEC 17021-1,ACTIVE,2022-08-25,2027-08-25,https://nah.gov.hu/hu/szervezet/cert-tanusito-zrt-1/
+NAH,NAH-4-0141/2023,CERTOP Termék- és Rendszertanúsító Kft.,ISO/IEC 17021-1,ACTIVE,2023-10-26,2028-10-26,https://nah.gov.hu/hu/szervezet/certop-termek-es-rendszertanusito-kft-irt/
+NAH,NAH-4-0141/2023 (22000),CERTOP Termék- és Rendszertanúsító Kft.,ISO 22003-1,ACTIVE,2023-10-26,2028-10-26,https://nah.gov.hu/hu/szervezet/certop-termek-es-rendszertanusito-kft-irt/
+NAH,NAH-4-0143/2024,MultiCert Europe Irányítási Rendszereket Tanúsító Kft.,ISO/IEC 17021-1,ACTIVE,2024-12-12,2029-12-12,https://nah.gov.hu/hu/szervezet/multicert-europe-iranyitasi-rendszereket-tanusito-kft-1/
+NAH,NAH-4-0145/2025 (27006),e.com-CERT International Certification Bureau Rendszertanúsító Kft.,ISO/IEC 27006,ACTIVE,2025-01-09,2030-01-09,https://nah.gov.hu/hu/szervezet/e-com-cert-international-certification-bureau-rendszertanusito-kft-9e9ac07b-71ec-4ed9-9a14-66de15fb8cda-1/
+NAH,NAH-4-0147/2025,EMKI-cert Orvostechnikai Eszközminősítő Kft.,ISO/IEC 17021-1,ACTIVE,2025-07-17,2030-07-17,https://nah.gov.hu/hu/szervezet/emki-cert-orvostechnikai-eszkozminosito-kft-1/
+NAH,NAH-4-0148/2025 (37001),Magyar Szabványügyi Testület,ISO/IEC 17021-9,ACTIVE,2025-12-04,2030-12-04,https://nah.gov.hu/hu/szervezet/magyar-szabvanyugyi-testulet-66d8c8b8-c098-48a7-9a18-f317bb5c1cc4-1/
+NAH,NAH-4-0152/2022,IWS Solutions Kft.,ISO/IEC 17021-1,ACTIVE,2022-04-28,2027-04-28,https://nah.gov.hu/hu/szervezet/iws-solutions-kft-/
+NAH,NAH-4-0152/2022 (27006),IWS Solutions Kft.,ISO/IEC 27006,ACTIVE,2022-04-28,2027-04-28,https://nah.gov.hu/hu/szervezet/iws-solutions-kft-/
+NAH,NAH-4-0152/2022 (50003),IWS Solutions Kft.,ISO 50003,ACTIVE,2022-04-28,2027-04-28,https://nah.gov.hu/hu/szervezet/iws-solutions-kft-/
+NAH,NAH-4-0153/2022 (37001),CertUnion Hungary Tanúsító Kft.,ISO/IEC 17021-9,ACTIVE,2022-06-09,2027-06-09,https://nah.gov.hu/hu/szervezet/certunion/
+NAH,NAH-4-0154/2023 (37001),MCert Rendszertanúsító Kft.,ISO/IEC 17021-9,ACTIVE,2023-06-08,2028-06-08,https://nah.gov.hu/hu/szervezet/mcert-rendszertanusito-kft/
+NAH,NAH-4-0155/2023,NoBoMed Zrt.,ISO/IEC 17021-1,ACTIVE,2023-11-09,2028-11-09,https://nah.gov.hu/hu/szervezet/nobomed-zrt/
+NAH,NAH-4-0156/2023/K,BUREAU VERITAS Magyarország Kft.,ISO/IEC 17021-1,ACTIVE,2023-12-14,2028-12-14,https://nah.gov.hu/hu/szervezet/bureau-veritas-magyarorszag-kft-ped-iroda-mir/
+NAH,NAH-4-0157/2023 (27006),TAM CERT Magyarország Vizsgáló és Tanúsító Kft.,ISO/IEC 27006,ACTIVE,2023-11-30,2028-11-30,https://nah.gov.hu/hu/szervezet/tam-cert-magyarorszag-vizsgalo-es-tanusito-kft-ta/
+NAH,NAH-4-0157/2023 (37001),TAM CERT Magyarország Vizsgáló és Tanúsító Kft.,ISO/IEC 17021-9,ACTIVE,2023-11-30,2028-11-30,https://nah.gov.hu/hu/szervezet/tam-cert-magyarorszag-vizsgalo-es-tanusito-kft-ta/
+NAH,NAH-4-0157/2023 (50003),TAM CERT Magyarország Vizsgáló és Tanúsító Kft.,ISO 50003,ACTIVE,2023-11-30,2028-11-30,https://nah.gov.hu/hu/szervezet/tam-cert-magyarorszag-vizsgalo-es-tanusito-kft-ta/
+NAH,NAH-4-0159/2025,D.A.S. CERTIFICATION Kft.,ISO/IEC 17021-1,ACTIVE,2025-03-27,2030-03-27,https://nah.gov.hu/hu/szervezet/das-certification-kft/
+NAH,NAH-4-0161/2025,OMNIA CERTAB Kft.,ISO/IEC 17021-1,ACTIVE,2025-01-16,2030-01-16,https://nah.gov.hu/hu/szervezet/omnia-certab-kft/
+NAH,NAH-4-0162/2025 (20000),MCert Rendszertanúsító Kft.,ISO/IEC 20000-6,ACTIVE,2025-03-06,2030-03-06,https://nah.gov.hu/hu/szervezet/mcert-rendszertanusito-kft-/
+NAH,NAH-4-0162/2025 (22301),MCert Rendszertanúsító Kft.,ISO/IEC 17021-6,ACTIVE,2025-03-06,2030-03-06,https://nah.gov.hu/hu/szervezet/mcert-rendszertanusito-kft-/
+NAH,NAH-4-0162/2025 (42001),MCert Rendszertanúsító Kft.,ISO/IEC 42006,ACTIVE,2025-03-06,2030-03-06,https://nah.gov.hu/hu/szervezet/mcert-rendszertanusito-kft-/
+NAH,NAH-4-0163/2025,EMT Első Magyar Tanúsító Zártkörűen Működő Részvénytársaság,ISO/IEC 17021-1,ACTIVE,2025-10-22,2030-10-22,https://nah.gov.hu/hu/szervezet/emt-elso-magyar-tanusito-zartkoruen-mukodo-reszven/
+NAH,NAH-4-0164/2025,VantaSec Korlátolt Felelősségű Társaság,ISO/IEC 17021-1,ACTIVE,2025-12-18,2030-12-18,https://nah.gov.hu/hu/szervezet/vantasec-korlatolt-felelossegu-tarsasag/
+NAH,NAH-4-0164/2025 (27006),VantaSec Korlátolt Felelősségű Társaság,ISO/IEC 27006,ACTIVE,2025-12-18,2030-12-18,https://nah.gov.hu/hu/szervezet/vantasec-korlatolt-felelossegu-tarsasag/
+NAH,NAH-4-0165/2026 (42001),TAM CERT Magyarország Vizsgáló és Tanúsító Kft.,ISO/IEC 42006,ACTIVE,2026-03-26,2031-03-26,https://nah.gov.hu/hu/szervezet/tam-cert-magyarorszag-vizsgalo-es-tanusito-kft-ki/
+NAH,NAH-4-0167/2026,CQA Certification Korlátolt Felelősségű Társaság,ISO/IEC 17021-1,ACTIVE,2026-05-14,2031-05-14,https://nah.gov.hu/hu/szervezet/cqa-certification-korlatolt-felelossegu-tarsasag/
+NAH,NAH-4-0169/2026,Ekvitas Certification Kft.,ISO/IEC 17021-1,ACTIVE,2026-04-23,2031-04-23,https://nah.gov.hu/hu/szervezet/ekvitas-certification-kft/
+NAH,NAH-4-0169/2026 (22000),Ekvitas Certification Kft.,ISO 22003-1,ACTIVE,2026-04-23,2031-04-23,https://nah.gov.hu/hu/szervezet/ekvitas-certification-kft/
+NAH,NAH-4-0170/2026,Main State Service „Turkmenstandardlary” (Turkmen Standards Information Centre),ISO/IEC 17021-1,ACTIVE,2026-07-16,2031-07-16,https://nah.gov.hu/hu/szervezet/main-state-service-turkmenstandardlary-turkmen-sta/

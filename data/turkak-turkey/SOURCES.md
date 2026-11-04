@@ -28,7 +28,8 @@ Extraction rules:
 - `issue_date` is TÜRKAK's initial accreditation date and `expiry_date` its validity date.
   Every row of a certificate shares them.
 - `status` comes from the TÜRKAK status: `Active…` = ACTIVE, `Suspend…` = SUSPENDED,
-  `Accreditation Withdrawn…` = WITHDRAWN. Partial withdrawals and suspensions ("… Some
+  `Accreditation Withdrawn…` = WITHDRAWN; suspended and withdrawn bodies are then removed
+  (see the last rule). Partial withdrawals and suspensions ("… Some
   Scopes") are not modelled; the annex is taken to list the scopes still held.
 - Sector lists come from the "EA Code" / "EA Kodu" column of each annex.
 - ISO 50001 technical areas, ISO 22000 / FSSC 22000 categories and ISO 13485 technical
@@ -42,7 +43,9 @@ Extraction rules:
 - Country is Turkey, except bodies whose city is Bakü (Azerbaijan) or Taşkent (Uzbekistan).
 - 16 bodies have no scopes: 15 with no certificate published (14 of them suspended or
   withdrawn) and AB-0181-YS, whose only annex is an EU directive.
+- Only bodies that currently hold a valid accreditation are kept: withdrawn, expired (including an active-listed row whose valid-to date has passed) and suspended bodies and rows are removed by `database/prune_inactive.py`, which the prepare script runs after writing the CSVs.
 
 | Retrieved | By | Notes |
 | --- | --- | --- |
 | 2026-11-02 | prepare_certifind.py | Initial extraction from the scraper output |
+| 2026-11-04 | prune_inactive.py | removed 14 suspended or withdrawn bodies; 86 bodies kept |

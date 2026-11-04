@@ -38,8 +38,9 @@ Extraction rules:
 - Scanned annexes without text: those of active bodies 8O011, 8O043, 8O047 and 8O070 were
   read from the PDF by hand (`MANUAL` in the prepare script). Suspended bodies with scanned
   or missing annexes have no scope rows; search shows only active scopes anyway.
-- Status: `active` = ACTIVE, `suspended` = SUSPENDED (scopes also SUSPENDED), `expired` and
-  `cancelled` = WITHDRAWN, kept for the record without scopes.
+- Status: only `active` register entries are imported; `suspended`, `expired` and `cancelled`
+  bodies are removed.
+- Only bodies that currently hold a valid accreditation are kept: withdrawn, expired (including an active-listed row whose valid-to date has passed) and suspended bodies and rows are removed by `database/prune_inactive.py`, which the prepare script runs after writing the CSVs.
 - Names: the register's English name as printed (NAAU's casing kept; Cyrillic look-alike
   letters inside Latin words corrected). No address, e-mail or website in the register.
   Phone: the first complete number, written +380 with the area code; two register numbers
@@ -50,3 +51,4 @@ Extraction rules:
 | Retrieved | By | Notes |
 | --- | --- | --- |
 | 2026-11-04 | naau_ms_scraper.py | 104 bodies: 64 active, 13 suspended, 27 expired or cancelled |
+| 2026-11-04 | prune_inactive.py | removed 40 suspended, expired or cancelled bodies; 64 active bodies kept |

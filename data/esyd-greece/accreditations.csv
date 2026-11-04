@@ -1,8 +1,4 @@
 ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
-ESYD,396 (22000),A CERT European Organization for Certification S.A. (Α CERT S.A.),ISO 22003-1,ACTIVE,2008-07-24,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=18112
-ESYD,396,A CERT European Organization for Certification S.A. (Α CERT S.A.),ISO/IEC 17021-1,ACTIVE,2008-07-24,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=18112
-ESYD,396 (50003),A CERT European Organization for Certification S.A. (Α CERT S.A.),ISO 50003,ACTIVE,2008-07-24,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=18112
-ESYD,396 (27006),A CERT European Organization for Certification S.A. (Α CERT S.A.),ISO/IEC 27006,ACTIVE,2008-07-24,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=18112
 ESYD,204,BUREAU VERITAS HELLAS SINGLE PERSON SOCIETE ANONYME (BUREAU VERITAS HELLAS S.P. S.A.),ISO/IEC 17021-1,ACTIVE,2008-09-15,2029-09-14,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17810
 ESYD,204 (22000),BUREAU VERITAS HELLAS SINGLE PERSON SOCIETE ANONYME (BUREAU VERITAS HELLAS S.P. S.A.),ISO 22003-1,ACTIVE,2008-09-15,2029-09-14,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17810
 ESYD,204 (39001),BUREAU VERITAS HELLAS SINGLE PERSON SOCIETE ANONYME (BUREAU VERITAS HELLAS S.P. S.A.),ISO/IEC 17021-7,ACTIVE,2023-06-02,2029-09-14,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17810
@@ -29,9 +25,6 @@ ESYD,3 (20000),EUROCERT Α.Ε.- European Inspection and Certification Company SA
 ESYD,3 (27006),EUROCERT Α.Ε.- European Inspection and Certification Company SA (EUROCERT Α.Ε.),ISO/IEC 27006,ACTIVE,2011-06-24,2029-11-29,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17589
 ESYD,826 (22000),INSPECTION INSTITUTE for ORGANIC PRODUCTS S.A. - BIOHELLAS S.A.,ISO 22003-1,ACTIVE,2012-07-13,2029-11-04,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17793
 ESYD,826,INSPECTION INSTITUTE for ORGANIC PRODUCTS S.A. - BIOHELLAS S.A.,ISO/IEC 17021-1,ACTIVE,2012-07-13,2029-11-04,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17793
-ESYD,12,LETRINA S.A.,ISO/IEC 17021-1,ACTIVE,2008-09-15,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17931
-ESYD,12 (22000),LETRINA S.A.,ISO 22003-1,ACTIVE,2008-09-15,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17931
-ESYD,12 (27006),LETRINA S.A.,ISO/IEC 27006,ACTIVE,2014-04-01,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17931
 ESYD,58,National Evaluation Center of Quality and Technology in Health S.A. (EKAPTY SA),ISO/IEC 17021-1,ACTIVE,2008-09-19,2029-09-18,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17885
 ESYD,58 (37001),National Evaluation Center of Quality and Technology in Health S.A. (EKAPTY SA),ISO/IEC 17021-9,ACTIVE,2024-07-30,2029-09-18,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17885
 ESYD,110 (22000),QMSCERT AUDITS-INSPECTIONS-CERTIFICATIONS SA (Q-CERT SA),ISO 22003-1,ACTIVE,2008-09-15,2030-01-12,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17715
@@ -48,10 +41,6 @@ ESYD,236 (39001),TÜV AUSTRIA HELLAS LTD,ISO/IEC 17021-7,ACTIVE,2015-02-17,2029-
 ESYD,236 (50003),TÜV AUSTRIA HELLAS LTD,ISO 50003,ACTIVE,2011-11-28,2029-12-27,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17722
 ESYD,236 (20000),TÜV AUSTRIA HELLAS LTD,ISO/IEC 20000-6,ACTIVE,2021-12-06,2029-12-27,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17722
 ESYD,236 (27006),TÜV AUSTRIA HELLAS LTD,ISO/IEC 27006,ACTIVE,2008-09-15,2029-12-27,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17722
-ESYD,26,MIRTEC S.A. - MATERIALS INDUSTRIAL RESEARCH AND TECHNOLOGY CENTER S.A. (MIRTEC S.A.),ISO/IEC 17021-1,ACTIVE,2008-09-15,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17463
-ESYD,26 (22000),MIRTEC S.A. - MATERIALS INDUSTRIAL RESEARCH AND TECHNOLOGY CENTER S.A. (MIRTEC S.A.),ISO 22003-1,ACTIVE,2012-09-14,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17463
-ESYD,26 (50003),MIRTEC S.A. - MATERIALS INDUSTRIAL RESEARCH AND TECHNOLOGY CENTER S.A. (MIRTEC S.A.),ISO 50003,ACTIVE,2018-11-15,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17463
-ESYD,26 (27006),MIRTEC S.A. - MATERIALS INDUSTRIAL RESEARCH AND TECHNOLOGY CENTER S.A. (MIRTEC S.A.),ISO/IEC 27006,ACTIVE,2021-02-03,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17463
 ESYD,656,THEODYNAMICS LTD,ISO/IEC 17021-1,ACTIVE,2010-02-23,2027-02-22,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17902
 ESYD,656 (22000),THEODYNAMICS LTD,ISO 22003-1,ACTIVE,2010-02-23,2027-02-22,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17902
 ESYD,656 (37001),THEODYNAMICS LTD,ISO/IEC 17021-9,ACTIVE,2023-08-02,2027-02-22,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17902
@@ -71,20 +60,13 @@ ESYD,546 (22000),BQC PRIVATE COMPANY (BQC),ISO 22003-1,ACTIVE,2016-01-19,2030-05
 ESYD,546 (37001),BQC PRIVATE COMPANY (BQC),ISO/IEC 17021-9,ACTIVE,2018-06-14,2030-05-14,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=28211
 ESYD,546 (39001),BQC PRIVATE COMPANY (BQC),ISO/IEC 17021-7,ACTIVE,2024-04-26,2030-05-14,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=28211
 ESYD,546 (27006),BQC PRIVATE COMPANY (BQC),ISO/IEC 27006,ACTIVE,2021-07-29,2030-05-14,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=28211
-ESYD,248,DQS HELLAS Ltd (DQS HELLAS Ltd),ISO/IEC 17021-1,ACTIVE,2008-09-15,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=18083
-ESYD,248 (22000),DQS HELLAS Ltd (DQS HELLAS Ltd),ISO 22003-1,ACTIVE,2009-02-19,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=18083
 ESYD,1037,LABOR S.A.,ISO/IEC 17021-1,ACTIVE,2016-04-28,2029-04-27,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=31893
-ESYD,442,NOVA CERTIFICATIONS Ltd (NOVA CERTIFICATIONS Ltd),ISO/IEC 17021-1,ACTIVE,2008-07-25,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17854
 ESYD,767,A. GALANOPOULOU Ε.E. (S.Q.S.S. SOLUTIONS FOR QUALITY - ENVIRONMENTAL AND SHIPPING SAFETY),ISO/IEC 17021-1,ACTIVE,2011-10-14,2028-10-13,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=99094
 ESYD,692,AVRV Inspection Audit and Certification Societe Anonyme (AVRV S.A.),ISO/IEC 17021-1,ACTIVE,2010-07-27,2027-07-26,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=70139
 ESYD,692 (22000),AVRV Inspection Audit and Certification Societe Anonyme (AVRV S.A.),ISO 22003-1,ACTIVE,2010-07-27,2027-07-26,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=70139
 ESYD,692 (39001),AVRV Inspection Audit and Certification Societe Anonyme (AVRV S.A.),ISO/IEC 17021-7,ACTIVE,2019-02-22,2027-07-26,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=70139
 ESYD,692 (50003),AVRV Inspection Audit and Certification Societe Anonyme (AVRV S.A.),ISO 50003,ACTIVE,2020-02-18,2027-07-26,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=70139
 ESYD,692 (27006),AVRV Inspection Audit and Certification Societe Anonyme (AVRV S.A.),ISO/IEC 27006,ACTIVE,2018-08-02,2027-07-26,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=70139
-ESYD,1314,ERGOCERT HELLAS ΑΕ,ISO/IEC 17021-1,ACTIVE,2022-10-19,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=18180
-ESYD,748 (22000),REAL TIME AUDITS LTD (RTA HELLAS),ISO 22003-1,ACTIVE,2011-06-02,2028-06-01,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=88741
-ESYD,1306,COSMOCERT S.A. - CERTIFICATION SERVICES,ISO/IEC 17021-1,ACTIVE,2022-09-02,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=161424
-ESYD,1306 (22000),COSMOCERT S.A. - CERTIFICATION SERVICES,ISO 22003-1,ACTIVE,2022-09-02,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=161424
 ESYD,915,ESQ CERT Ltd,ISO/IEC 17021-1,ACTIVE,2014-05-14,2027-05-23,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=155773
 ESYD,915 (37001),ESQ CERT Ltd,ISO/IEC 17021-9,ACTIVE,2023-09-11,2027-05-23,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=155773
 ESYD,915 (39001),ESQ CERT Ltd,ISO/IEC 17021-7,ACTIVE,2023-09-11,2027-05-23,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=155773
@@ -108,8 +90,6 @@ ESYD,1008,QS QUALITY SERVICES LTD,ISO/IEC 17021-1,ACTIVE,2015-11-03,2028-11-02,h
 ESYD,1008 (50003),QS QUALITY SERVICES LTD,ISO 50003,ACTIVE,2015-11-03,2028-11-02,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=178326
 ESYD,1008 (20000),QS QUALITY SERVICES LTD,ISO/IEC 20000-6,ACTIVE,2024-09-26,2028-11-02,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=178326
 ESYD,1008 (27006),QS QUALITY SERVICES LTD,ISO/IEC 27006,ACTIVE,2019-01-23,2028-11-02,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=178326
-ESYD,469,SWISS APPROVAL TECHNISCHE BEWERTUNG SOCIETE ANONYME,ISO/IEC 17021-1,ACTIVE,2017-03-28,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17915
-ESYD,469 (27006),SWISS APPROVAL TECHNISCHE BEWERTUNG SOCIETE ANONYME,ISO/IEC 27006,ACTIVE,2025-02-18,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=17915
 ESYD,963 (22000),TÜV CYPRUS (TÜV NORD) LIMITED,ISO 22003-1,ACTIVE,2015-01-19,2028-01-18,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=145872
 ESYD,963,TÜV CYPRUS (TÜV NORD) LIMITED,ISO/IEC 17021-1,ACTIVE,2015-01-19,2028-01-18,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=145872
 ESYD,1007,W.C.S. - WORLDWIDE CERTIFICATION STANDARDS LTD (WORLDWIDE CERTIFICATION STANDARDS LTD),ISO/IEC 17021-1,ACTIVE,2015-11-02,2028-11-01,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=178012
@@ -128,10 +108,6 @@ ESYD,1174 (42001),AXIA CERT LTD,ISO/IEC 42006,ACTIVE,2026-01-16,2028-07-10,http:
 ESYD,1202 (22000),BM CERT - BUSINESS MANAGEMENT CERTIFICATION - PCC,ISO 22003-1,ACTIVE,2020-03-31,2029-03-30,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=234989
 ESYD,1202,BM CERT - BUSINESS MANAGEMENT CERTIFICATION - PCC,ISO/IEC 17021-1,ACTIVE,2024-11-28,2029-03-30,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=234989
 ESYD,1202 (27006),BM CERT - BUSINESS MANAGEMENT CERTIFICATION - PCC,ISO/IEC 27006,ACTIVE,2025-02-24,2029-03-30,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=234989
-ESYD,1226,GLOBAL CERT S.A.,ISO/IEC 17021-1,ACTIVE,2020-11-09,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=172265
-ESYD,1226 (37001),GLOBAL CERT S.A.,ISO/IEC 17021-9,ACTIVE,2020-12-22,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=172265
-ESYD,1226 (50003),GLOBAL CERT S.A.,ISO 50003,ACTIVE,2020-12-22,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=172265
-ESYD,1226 (27006),GLOBAL CERT S.A.,ISO/IEC 27006,ACTIVE,2020-11-09,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=172265
 ESYD,1177,ISONIKE Ltd,ISO/IEC 17021-1,ACTIVE,2019-07-26,2028-07-25,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=224285
 ESYD,1177 (37001),ISONIKE Ltd,ISO/IEC 17021-9,ACTIVE,2021-12-23,2028-07-25,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=224285
 ESYD,1177 (20000),ISONIKE Ltd,ISO/IEC 20000-6,ACTIVE,2020-04-02,2028-07-25,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=224285
@@ -167,8 +143,6 @@ ESYD,1268 (37001),PAPADAKIS IOANNIS CERTIFICATIONS & CO L.P. (IQCERT L.P.),ISO/I
 ESYD,1268 (50003),PAPADAKIS IOANNIS CERTIFICATIONS & CO L.P. (IQCERT L.P.),ISO 50003,ACTIVE,2025-02-04,2030-09-22,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=320374
 ESYD,1364 (22000),CERTIFY STANDARDS LTD,ISO 22003-1,ACTIVE,2023-09-08,2028-09-07,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=356719
 ESYD,1364,CERTIFY STANDARDS LTD,ISO/IEC 17021-1,ACTIVE,2023-09-08,2028-09-07,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=356719
-ESYD,1304 (22000),KYROS PRIVATE COMPANY (KYROS IKE),ISO 22003-1,ACTIVE,2024-08-01,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=348475
-ESYD,1304,KYROS PRIVATE COMPANY (KYROS IKE),ISO/IEC 17021-1,ACTIVE,2022-08-04,,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=348475
 ESYD,1367,HEALTH CERT ΠΙΣΤΟΠΟΙΗΣΗ ΥΓΕΙΑΣ Ι.Κ.Ε.,ISO/IEC 17021-1,ACTIVE,2023-09-13,2028-08-03,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=377093
 ESYD,1367 (27006),HEALTH CERT ΠΙΣΤΟΠΟΙΗΣΗ ΥΓΕΙΑΣ Ι.Κ.Ε.,ISO/IEC 27006,ACTIVE,2023-08-04,2028-08-03,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=377093
 ESYD,1431,NB INSPECTION SERVICES ΙΔΙΩΤΙΚΗ ΚΕΦΑΛΑΙΟΥΧΙΚΗ ΕΤΑΙΡΕΙΑ (NBIS),ISO/IEC 17021-1,ACTIVE,2024-12-23,2029-10-30,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=428168
@@ -182,8 +156,6 @@ ESYD,1428 (27006),MEGNUSCERT,ISO/IEC 27006,ACTIVE,2024-10-08,2029-10-07,http://w
 ESYD,1396,PROFESSIONAL AWARDING SERVICES SOLUTIONS - PASS,ISO/IEC 17021-1,ACTIVE,2025-02-11,2029-09-04,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=369814
 ESYD,1396 (37001),PROFESSIONAL AWARDING SERVICES SOLUTIONS - PASS,ISO/IEC 17021-9,ACTIVE,2024-04-29,2029-09-04,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=369814
 ESYD,1396 (27006),PROFESSIONAL AWARDING SERVICES SOLUTIONS - PASS,ISO/IEC 27006,ACTIVE,2025-02-11,2029-09-04,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=369814
-ESYD,1399 (37001),Quality Services L.L.C Certification & Notification Body (QS HELLAS L.L.C.),ISO/IEC 17021-9,ACTIVE,2024-05-21,2029-05-20,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=398676
-ESYD,1399 (39001),Quality Services L.L.C Certification & Notification Body (QS HELLAS L.L.C.),ISO/IEC 17021-7,ACTIVE,2024-05-21,2029-05-20,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=398676
 ESYD,1457,ATTESTAR ΜΟΝΟΠΡΟΣΩΠΗ ΙΔΙΩΤΙΚΗ ΚΕΦΑΛΑΙΟΥΧΙΚΗ ΕΤΑΙΡΕΙΑ (ATTESTAR),ISO/IEC 17021-1,ACTIVE,2025-05-30,2030-05-29,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=437365
 ESYD,1457 (22000),ATTESTAR ΜΟΝΟΠΡΟΣΩΠΗ ΙΔΙΩΤΙΚΗ ΚΕΦΑΛΑΙΟΥΧΙΚΗ ΕΤΑΙΡΕΙΑ (ATTESTAR),ISO 22003-1,ACTIVE,2025-05-30,2030-05-29,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=437365
 ESYD,1457 (37001),ATTESTAR ΜΟΝΟΠΡΟΣΩΠΗ ΙΔΙΩΤΙΚΗ ΚΕΦΑΛΑΙΟΥΧΙΚΗ ΕΤΑΙΡΕΙΑ (ATTESTAR),ISO/IEC 17021-9,ACTIVE,2026-02-05,2030-05-29,http://www.esydops.gr/portal/p/esyd/en/showOrgInfo.jsp?id=437365

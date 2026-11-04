@@ -22,9 +22,13 @@ Extraction rules:
   missing get no scope row.
 - Not imported: Greek national schemes (ELOT 1429, ELOT 1435, AGRO 2) and EU-directive
   notified-body modules, which are not international management-system standards.
-- An expiry date already in the past while ESYD still lists the body is left empty.
+- An expiry date already in the past is kept, even while ESYD still lists the body, so the body
+  counts as expired and is removed (10 bodies on 2026-11-04). Bodies with only a scheme
+  accreditation and no ISO/IEC 17021-1 row (RTA HELLAS, QS HELLAS) are removed too.
+- Only bodies that currently hold a valid accreditation are kept: withdrawn, expired (including an active-listed row whose valid-to date has passed) and suspended bodies and rows are removed by `database/prune_inactive.py`, which the prepare script runs after writing the CSVs.
 - Contacts: the first phone number and one email per body.
 
 | Retrieved | By | Notes |
 | --- | --- | --- |
 | 2026-11-03 | esyd_scraper.py | 62 bodies with 17021, 389 register rows; 61 bodies after merging Delta Cert |
+| 2026-11-04 | prune_inactive.py | removed 10 expired bodies and 2 without a 17021-1 row; 48 bodies kept |

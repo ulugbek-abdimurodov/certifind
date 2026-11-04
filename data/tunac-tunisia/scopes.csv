@@ -1,0 +1,14 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+3-0001,ISO 9001,2;4-7;9;12-19;23;25-29;32-38,ACTIVE,EA 7 limited to paper and cardboard industries
+3-0003,ISO 9001,1-4;6-7;9-10;12-20;22;24-39,ACTIVE,EA 7 limited to paper and cardboard industries
+3-0003,ISO 14001,2-4;7;9-10;12-19;22;24-37;39,ACTIVE,EA 7 limited to paper and cardboard industries; EA 17 limited to fabricated metal products
+3-0003,ISO 45001,1-4;7;9;12-14;16-19;22;26-37;39,ACTIVE,EA 7 limited to paper and cardboard industries; EA 17 limited to fabricated metal products
+3-0003 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+3-0006,ISO 9001,3-6;9;12-14;16-19;23;25-39,ACTIVE,
+3-0006,ISO 14001,2-6;9;12-14;16-19;23;28-31;34-35;37,ACTIVE,EA 17 listed twice (fabricated metal products; production of basic metals); together they cover the sector
+3-0006,ISO 45001,2-6;9;12-14;16-19;28-31;34-35;37,ACTIVE,EA 17 listed twice (fabricated metal products; production of basic metals); together they cover the sector
+3-0007,ISO 22000,3;30,ACTIVE,"ISO 22003-1 categories C (C0, CI, CII, CIII, CIV), D, E (classified to EA by sector)"
+3-0012,ISO 9001,1;3-10;12-35;37-39,ACTIVE,EA 7 listed twice (paper and cardboard industry; limited to pulp)
+3-0012,ISO 14001,1;3-10;12;14-20;22-35;37-39,ACTIVE,EA 7 listed twice (paper and cardboard industry; limited to pulp); EA 17 listed twice (fabricated metal products; production of basic metals)
+3-0012,ISO 45001,1;3-7;9-10;12;14-20;22-24;26-35;37-39,ACTIVE,EA 7 listed twice (paper and cardboard industry; limited to pulp); EA 17 listed twice (fabricated metal products; production of basic metals)
+3-0015,ISO 22000,1;3;12-13;30,ACTIVE,"ISO 22003-1 categories B (BIII only), C (CI, CII, CIV), E, K (classified to EA by sector)"

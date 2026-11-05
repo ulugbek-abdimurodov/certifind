@@ -1,0 +1,51 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+MSYS 001,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices; Sterilization methods; Parts or services (classified to EA by sector)
+MSYS 001,ISO 14001,1-10;12;14-20;22-39,ACTIVE,
+MSYS 001,ISO 45001,1-4;6-10;12;14-20;22-25;27-29;31-36;38-39,ACTIVE,
+MSYS 001,ISO 9001,1-10;12;14-20;22-39,ACTIVE,
+MSYS 001 (22000),ISO 22000,3;7;14-15;17;29;31;35,ACTIVE,"ISO 22003-1 categories C, D, F, G, H, I (classified to EA by sector)"
+MSYS 001 (22301),ISO 22301,1-39,ACTIVE,No sector list in the NA register; recorded for all EA sectors
+MSYS 001 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the NA register; recorded for all EA sectors
+MSYS 001 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the NA register; recorded for all EA sectors
+MSYS 001 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F, G, H (classified to EA by sector)"
+MSYS 002,ISO 14001,1-10;12-39,ACTIVE,
+MSYS 002,ISO 3834,1-39,ACTIVE,No sector list in the NA register; recorded for all EA sectors
+MSYS 002,ISO 45001,1-10;12-29;31-39,ACTIVE,
+MSYS 002,ISO 9001,1-10;12-39,ACTIVE,
+MSYS 002 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F, G, H (classified to EA by sector)"
+MSYS 003,ISO 14001,2;4;6;14;16-19;23-24;26-29;31;34-35;38-39,ACTIVE,
+MSYS 003,ISO 3834,1-39,ACTIVE,No sector list in the NA register; recorded for all EA sectors
+MSYS 003,ISO 45001,2;4;6;14;16-19;23-24;26-29;31;34-35;38-39,ACTIVE,
+MSYS 003,ISO 9001,2;4;6;12;14;16-19;23-24;26-29;31;34-35;38-39,ACTIVE,
+MSYS 004,ISO 14001,1-4;6;8-9;12-20;22-39,ACTIVE,
+MSYS 004,ISO 21001,1-39,ACTIVE,No sector list in the NA register; recorded for all EA sectors
+MSYS 004,ISO 3834,1-39,ACTIVE,No sector list in the NA register; recorded for all EA sectors
+MSYS 004,ISO 45001,1-4;6;8;13-20;22-38,ACTIVE,
+MSYS 004,ISO 9001,1-4;6;8-9;12-20;22-39,ACTIVE,
+MSYS 004 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the NA register; recorded for all EA sectors
+MSYS 004 (37001),ISO 37001,1-39,ACTIVE,No sector list in the NA register; recorded for all EA sectors
+MSYS 004 (39001),ISO 39001,1-39,ACTIVE,No sector list in the NA register; recorded for all EA sectors
+MSYS 004 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F, G, H (classified to EA by sector)"
+MSYS 005,ISO 14001,2;15-17;39,ACTIVE,
+MSYS 005,ISO 45001,2;15-17,ACTIVE,
+MSYS 005,ISO 9001,2;15-17;39,ACTIVE,
+MSYS 011,ISO 14001,1;17-18;20;24;28-29;33-34,ACTIVE,
+MSYS 011,ISO 45001,17;28;34,ACTIVE,
+MSYS 011,ISO 9001,1;14;17-18;20;24;28-29;33-34,ACTIVE,
+MSYS 012,ISO 14001,17-19;23;28-29;34-36,ACTIVE,
+MSYS 012,ISO 45001,17-18;23;28-29;34,ACTIVE,
+MSYS 012,ISO 9001,4;17-19;23;28-29;33-38,ACTIVE,
+MSYS 018,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services (classified to EA by sector)
+MSYS 019,ISO 14001,6;16-20;24;28-39,ACTIVE,
+MSYS 019,ISO 45001,6;16-20;24;28-39,ACTIVE,
+MSYS 019,ISO 9001,6;16-20;24;28-39,ACTIVE,
+MSYS 019 (22000),ISO 22000,29;31,ACTIVE,"ISO 22003-1 categories F, G (classified to EA by sector)"
+MSYS 019 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the NA register; recorded for all EA sectors
+MSYS 019 (39001),ISO 39001,1-39,ACTIVE,No sector list in the NA register; recorded for all EA sectors
+MSYS 021,ISO 14001,17-19;22;28-29;31-35;38-39,ACTIVE,
+MSYS 021,ISO 45001,17-19;28-29;31-35;39,ACTIVE,
+MSYS 021,ISO 9001,17-19;28-29;31-35;38-39,ACTIVE,
+MSYS 021 (39001),ISO 39001,1-39,ACTIVE,No sector list in the NA register; recorded for all EA sectors
+MSYS 023,ISO 14001,2;17-20;23;28-29;34-35;38-39,ACTIVE,
+MSYS 023,ISO 45001,2;17-20;23;28-29;34-35;38-39,ACTIVE,
+MSYS 023,ISO 9001,2;17-20;23;28-29;34-35;38-39,ACTIVE,

@@ -1,0 +1,25 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+NA,MSYS 001,Nemko Scandinavia AS,ISO/IEC 17021-1,ACTIVE,2006-01-10,2027-08-19,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=676
+NA,MSYS 001 (22000),Nemko Scandinavia AS,ISO 22003-1,ACTIVE,2006-01-10,2027-08-19,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=676
+NA,MSYS 001 (22301),Nemko Scandinavia AS,ISO/IEC 17021-6,ACTIVE,2006-01-10,2027-08-19,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=676
+NA,MSYS 001 (27006),Nemko Scandinavia AS,ISO/IEC 27006,ACTIVE,2006-01-10,2027-08-19,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=676
+NA,MSYS 001 (50003),Nemko Scandinavia AS,ISO 50003,ACTIVE,2006-01-10,2027-08-19,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=676
+NA,MSYS 002,DNV Business Assurance Norway AS,ISO/IEC 17021-1,ACTIVE,1992-04-08,2028-11-04,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=673
+NA,MSYS 002 (50003),DNV Business Assurance Norway AS,ISO 50003,ACTIVE,1992-04-08,2028-11-04,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=673
+NA,MSYS 003,Dovre Sertifisering AS,ISO/IEC 17021-1,ACTIVE,2004-06-10,2029-01-26,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=664
+NA,MSYS 004,Kiwa AS,ISO/IEC 17021-1,ACTIVE,1994-02-04,2030-02-25,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=675
+NA,MSYS 004 (27006),Kiwa AS,ISO/IEC 27006,ACTIVE,1994-02-04,2030-02-25,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=675
+NA,MSYS 004 (37001),Kiwa AS,ISO/IEC 17021-9,ACTIVE,1994-02-04,2030-02-25,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=675
+NA,MSYS 004 (39001),Kiwa AS,ISO/IEC 17021-7,ACTIVE,1994-02-04,2030-02-25,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=675
+NA,MSYS 004 (50003),Kiwa AS,ISO 50003,ACTIVE,1994-02-04,2030-02-25,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=675
+NA,MSYS 005,Stiftelsen Kontrollrådet,ISO/IEC 17021-1,ACTIVE,2000-05-18,2028-02-09,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=654
+NA,MSYS 011,Akvasafe AS,ISO/IEC 17021-1,ACTIVE,2004-10-29,2027-07-01,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=668
+NA,MSYS 012,Norsk Sertifisering AS,ISO/IEC 17021-1,ACTIVE,2005-03-02,2030-03-25,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=672
+NA,MSYS 018,DNV Product Assurance AS,ISO/IEC 17021-1,ACTIVE,2013-04-12,2028-03-03,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=817
+NA,MSYS 019,Scandinavian Certification AS,ISO/IEC 17021-1,ACTIVE,2016-05-23,2031-05-10,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=926
+NA,MSYS 019 (22000),Scandinavian Certification AS,ISO 22003-1,ACTIVE,2016-05-23,2031-05-10,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=926
+NA,MSYS 019 (27006),Scandinavian Certification AS,ISO/IEC 27006,ACTIVE,2016-05-23,2031-05-10,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=926
+NA,MSYS 019 (39001),Scandinavian Certification AS,ISO/IEC 17021-7,ACTIVE,2016-05-23,2031-05-10,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=926
+NA,MSYS 021,Verify AS,ISO/IEC 17021-1,ACTIVE,2017-12-20,2027-12-13,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=995
+NA,MSYS 021 (39001),Verify AS,ISO/IEC 17021-7,ACTIVE,2017-12-20,2027-12-13,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=995
+NA,MSYS 023,Synfaring AS,ISO/IEC 17021-1,ACTIVE,2023-08-22,2028-08-22,https://www.akkreditert.no/en/akkrediterte-organisasjoner/system/?AkkId=1068

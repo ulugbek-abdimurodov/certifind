@@ -1,0 +1,357 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+0001,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Active (non-implantable) medical devices; Devices incorporating specific substances / technologies; In vitro diagnostic medical devices; Non-active medical devices; Parts or services; Sterilization methods (classified to EA by sector)
+0001,ISO 14001,1-39,ACTIVE,
+0001,ISO 19443,2;11;16-19;28;33-35,ACTIVE,
+0001,ISO 28000,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0001,ISO 44001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0001,ISO 45001,1-39,ACTIVE,
+0001,ISO 9001,1-39,ACTIVE,
+0001 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0001 (22000),FSSC 22000,1;3;7;12-15;17;30-31,ACTIVE,"ISO 22003-1 categories B, C, D, E, G, I, K (classified to EA by sector)"
+0001 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories B, C, D, E, F, G, H, I, J, K (classified to EA by sector)"
+0001 (22301),ISO 22301,1-39,ACTIVE,
+0001 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0001 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors
+0001 (42001),ISO/IEC 42001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0001 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F, G, H (classified to EA by sector)"
+0001 (55001),ISO 55001,2-22;24-31;34-36;39,ACTIVE,
+0001 (9104),AS 9100,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors
+0002,ISO 14001,12;16-17;25;28-29,ACTIVE,
+0002,ISO 45001,12;16-17;25;28-29,ACTIVE,
+0002,ISO 9001,16-17;28-29,ACTIVE,
+0003,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Active (non-implantable) medical devices; Active implantable medical devices; Devices incorporating specific substances / technologies; In vitro diagnostic medical devices; Non-active medical devices; Parts or services; Sterilization methods (classified to EA by sector)
+0003,ISO 14001,1-10;12-39,ACTIVE,
+0003,ISO 44001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0003,ISO 45001,1-10;12-25;27-39,ACTIVE,
+0003,ISO 9001,1-10;12-13;22-39,ACTIVE,
+0003 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0003 (22301),ISO 22301,1-10;12-23;25-38,ACTIVE,
+0003 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0003 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors
+0003 (42001),ISO/IEC 42001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0003 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F, G, H (classified to EA by sector)"
+0003 (55001),ISO 55001,3-9;14-22;25-31;34-36,ACTIVE,
+0003 (9104),AS 9100,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors
+0004,ISO 14001,19;29,ACTIVE,
+0004,ISO 9001,19;29,ACTIVE,
+0005,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Active (non-implantable) medical devices; Devices incorporating specific substances / technologies; In vitro diagnostic medical devices; Non-active medical devices; Parts or services; Sterilization methods (classified to EA by sector)
+0005,ISO 14001,1-10;12-39,ACTIVE,
+0005,ISO 45001,1-4;6-10;12-39,ACTIVE,
+0005,ISO 9001,1-10;12-39,ACTIVE,
+0005 (22000),FSSC 22000,1;3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories B, C, D, E, F, G, I, K (classified to EA by sector)"
+0005 (22000),ISO 22000,1;3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories B, C, D, E, F, G, I, K (classified to EA by sector)"
+0005 (22301),ISO 22301,3;9;13;19-22;24;30-39,ACTIVE,
+0005 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0005 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors
+0005 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F, G, H (classified to EA by sector)"
+0005 (55001),ISO 55001,3-6;10;12-13;15-18;22;24-32;34-36;38-39,ACTIVE,
+0005 (9104),AS 9100,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors
+0006,ISO 14001,2-3;12;14-17;22;31-32,ACTIVE,
+0006,ISO 45001,2;9;12;14-18;28-29;31,ACTIVE,
+0006,ISO 9001,2;9;12;14-18;28-29;31,ACTIVE,
+0006 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F, G, H (classified to EA by sector)"
+0007,ISO 14001,6;14-15;17-19;23;28-29;34,ACTIVE,
+0007,ISO 45001,4;6;9;14-15;17-19;23;28-29;34,ACTIVE,
+0007,ISO 9001,4;6;14-15;17-19;23;28-29;31;34-35,ACTIVE,
+0008,ISO 14001,1-10;12-39,ACTIVE,
+0008,ISO 19443,2;16-19;28;33-35,ACTIVE,
+0008,ISO 45001,1-10;12-39,ACTIVE,
+0008,ISO 9001,1-10;12-39,ACTIVE,
+0008 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0008 (22000),FSSC 22000,1;3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories B, C, D, E, F, G, I, K (classified to EA by sector)"
+0008 (22000),ISO 22000,1;3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, I, K (classified to EA by sector)"
+0008 (22301),ISO 22301,1-10;12-39,ACTIVE,
+0008 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0008 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors
+0008 (50003),ISO 50001,2-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F, H (classified to EA by sector)"
+0008 (55001),ISO 55001,2-22;24-31;34-36;39,ACTIVE,
+0008 (9104),AS 9100,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors
+0009,ISO 14001,2;6;15-16;28,ACTIVE,
+0009,ISO 19443,2;16;28,ACTIVE,
+0009,ISO 45001,2;6;15-16;28,ACTIVE,
+0009,ISO 9001,2;6;15-16;28;34,ACTIVE,
+0011,ISO 14001,17-19;28-29;34,ACTIVE,
+0011,ISO 45001,17-19;28-29;34,ACTIVE,
+0011,ISO 9001,17-19;28-29;34,ACTIVE,
+0013,ISO 14001,2-3;7;10;12;14;17-22;24-26;28-29;31-35;37;39,ACTIVE,
+0013,ISO 45001,2-3;7;10;12;14;17-22;24-29;31-35;37;39,ACTIVE,
+0013,ISO 9001,2-3;7;10;12;14;17-22;25-29;31-35;37;39,ACTIVE,
+0013 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0013 (22301),ISO 22301,2-10;12-39,ACTIVE,
+0013 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0013 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors
+0013 (55001),ISO 55001,1-22;24-31;34-36;39,ACTIVE,
+0014,ISO 14001,1-10;12-39,ACTIVE,
+0014,ISO 18788,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0014,ISO 44001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0014,ISO 45001,1-10;12-39,ACTIVE,
+0014,ISO 9001,1-10;12-39,ACTIVE,
+0014 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0014 (22000),FSSC 22000,1;3;7;12-15;17,ACTIVE,"ISO 22003-1 categories B, C, I, K (classified to EA by sector)"
+0014 (22000),ISO 22000,1;3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, I, K (classified to EA by sector)"
+0014 (22301),ISO 22301,1-10;12-39,ACTIVE,
+0014 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0014 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors
+0014 (37001),ISO 37001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0014 (55001),ISO 55001,1-22;24-31;34-36;39,ACTIVE,
+0015,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Active (non-implantable) medical devices; In vitro diagnostic medical devices; Non-active medical devices; Parts or services; Sterilization methods (classified to EA by sector)
+0015,ISO 14001,1-10;12-39,ACTIVE,
+0015,ISO 44001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0015,ISO 45001,1-10;12-39,ACTIVE,
+0015,ISO 9001,1-10;12-39,ACTIVE,
+0015 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0015 (22000),FSSC 22000,1;3;12-13;31,ACTIVE,"ISO 22003-1 categories B, C, G, K (classified to EA by sector)"
+0015 (22000),ISO 22000,1;3;12-13;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, K (classified to EA by sector)"
+0015 (22301),ISO 22301,4-10;12-35;37;39,ACTIVE,
+0015 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0015 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors
+0015 (37001),ISO 37001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0015 (42001),ISO/IEC 42001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0015 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F, G, H (classified to EA by sector)"
+0015 (55001),ISO 55001,1;3-19;21-22;24-31;34-36;39,ACTIVE,
+0015 (9104),AS 9100,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors
+0021,ISO 14001,17;28;34,ACTIVE,
+0021,ISO 45001,17;28;34,ACTIVE,
+0021,ISO 9001,17;28;34,ACTIVE,
+0022,ISO 14001,2;14;17-19;21;24-25;27-29;31-32;34-35;39,ACTIVE,
+0022,ISO 45001,17-19;21;23;25;27-28;32;34-35;39,ACTIVE,
+0022,ISO 9001,2;6;9;14;17-19;21;23;25;27-29;31-37;39,ACTIVE,
+0022 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0022 (55001),ISO 55001,3-19;21;24-28;39,ACTIVE,
+0026,ISO 14001,1-10;12-20;22-25;28-39,ACTIVE,
+0026,ISO 45001,1-10;12-20;22-25;28-39,ACTIVE,
+0026,ISO 9001,1-10;12-26;28-39,ACTIVE,
+0026 (22000),FSSC 22000,1;3;12-13,ACTIVE,"ISO 22003-1 categories B, C, K (classified to EA by sector)"
+0026 (22000),ISO 22000,1;3;7;12-15;17;30,ACTIVE,"ISO 22003-1 categories B, C, D, E, I, K (classified to EA by sector)"
+0026 (22301),ISO 22301,1-10;12-20;22-26;28-39,ACTIVE,
+0026 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0026 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors
+0026 (42001),ISO/IEC 42001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0026 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F, G, H (classified to EA by sector)"
+0027,ISO 9001,4-5;14;17-19;23;34,ACTIVE,
+0030,ISO 9001,37,ACTIVE,
+0036,ISO 9001,35,ACTIVE,
+0042,ISO 9001,14;17-19;29;33-35,ACTIVE,
+0043,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Active (non-implantable) medical devices; Devices incorporating specific substances / technologies; In vitro diagnostic medical devices; Non-active medical devices; Parts or services; Sterilization methods (classified to EA by sector)
+0043,ISO 14001,1;3-4;6-9;12-19;22-24;27-31;33-39,ACTIVE,
+0043,ISO 28000,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0043,ISO 45001,3-9;12-19;21-24;27-39,ACTIVE,
+0043,ISO 9001,1;3-9;12-19;21-24;27-39,ACTIVE,
+0043 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0043 (22000),FSSC 22000,3;30,ACTIVE,"ISO 22003-1 categories C, E (classified to EA by sector)"
+0043 (22000),ISO 22000,1;3;30,ACTIVE,"ISO 22003-1 categories A, B, C, E (classified to EA by sector)"
+0043 (22301),ISO 22301,7-9;17-22;32-33;35;38,ACTIVE,
+0043 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0043 (37001),ISO 37001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0043 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F, G, H (classified to EA by sector)"
+0043 (9104),AS 9100,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors
+0045,ISO 14001,4;6-9;12;14-20;23-24;28-31;33-35;39,ACTIVE,
+0045,ISO 45001,17-19;24;28-29;31-35;39,ACTIVE,
+0045,ISO 9001,3-7;9;12;14-20;23-24;28-29;31-35;39,ACTIVE,
+0051,ISO 14001,3-4;6-9;11-19;21-25;27-37;39,ACTIVE,
+0051,ISO 9001,3-4;6-9;12;14-19;22-24;27-37;39,ACTIVE,
+0051 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0054,ISO 14001,4-6;9;12;14-19;22-24;28-35;37;39,ACTIVE,
+0054,ISO 45001,6;9;14-19;23-24;28-29;31;34-35;39,ACTIVE,
+0054,ISO 9001,3-7;9;12;14-19;22-24;28-39,ACTIVE,
+0057,ISO 14001,17;19;22;28;31;34-35,ACTIVE,
+0057,ISO 45001,17-19;22;28;31;34-35,ACTIVE,
+0057,ISO 9001,16-19;22;28;31;34-35,ACTIVE,
+0057 (50003),ISO 50001,3-9;12-14;18-19;22-24;30-32;36-39,ACTIVE,"ISO 50003 technical areas A, C, D, E (classified to EA by sector)"
+0058,ISO 14001,29;31-32,ACTIVE,
+0058,ISO 9001,18-19;22;29;31-32;35;37;39,ACTIVE,
+0060,ISO 14001,4;7;9;12;14-19;22-24;28-29;31-37;39,ACTIVE,
+0060,ISO 45001,14;17-19;24;28-29;31-35,ACTIVE,
+0060,ISO 9001,2-7;9;12;14-19;22-24;28-37;39,ACTIVE,
+0060 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0063,ISO 14001,2-10;12;14-19;22-25;27-39,ACTIVE,
+0063,ISO 45001,1-7;9-10;12;14-20;22-25;27-39,ACTIVE,
+0063,ISO 9001,1-10;12-20;22-25;27-39,ACTIVE,
+0063 (22000),FSSC 22000,3,ACTIVE,ISO 22003-1 categories C (classified to EA by sector)
+0063 (22000),ISO 22000,3,ACTIVE,ISO 22003-1 categories C (classified to EA by sector)
+0063 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0063 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, H (classified to EA by sector)"
+0065,ISO 14001,3;7-9;12;14;17-19;22-23;28-29;31-32;34-35;37,ACTIVE,
+0065,ISO 45001,8-9;12;14;17-19;22-23;28-37,ACTIVE,
+0065,ISO 9001,6;9;12;14;17-19;22-23;28-29;31-35;37;39,ACTIVE,
+0065 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0065 (42001),ISO/IEC 42001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0066,ISO 14001,3-4;6-7;9-10;12-19;22-25;27-36;39,ACTIVE,
+0066,ISO 45001,4;9-10;12-19;22-23;25;27-35,ACTIVE,
+0066,ISO 9001,3-10;12-19;23;25;28-37;39,ACTIVE,
+0066 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0066 (22000),ISO 22000,1;3;30,ACTIVE,"ISO 22003-1 categories B, C, E (classified to EA by sector)"
+0066 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0066 (50003),ISO 50001,2;10;15-17;20-21;25-28;34,ACTIVE,"ISO 50003 technical areas B, F, H (classified to EA by sector)"
+0067,ISO 14001,2-4;10;12-14;17-19;22;25-26;28;30-31;34-35;39,ACTIVE,
+0067,ISO 45001,2-4;10;12-14;17-19;22;25-26;28;30-31;34-35;39,ACTIVE,
+0067,ISO 9001,2-4;10;12-14;17-19;22;25-26;28;30-31;34-35;39,ACTIVE,
+0067 (50003),ISO 50001,2-10;12-28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, F, H (classified to EA by sector)"
+0068,ISO 14001,9;14-16;18-19;28-30;32;34-35;39,ACTIVE,
+0068,ISO 9001,2-6;9;12;14-19;23;27-29;31-38,ACTIVE,
+0068 (55001),ISO 55001,3-9;14;19;24-30;34-36;39,ACTIVE,
+0072,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Active (non-implantable) medical devices; Non-active medical devices; Parts or services; Sterilization methods (classified to EA by sector)
+0074,ISO 14001,2;6-7;9-10;12-17;19;21-26;28-32;34-36;39,ACTIVE,
+0074,ISO 9001,2-4;6-7;9-10;12-19;21-22;24-25;28-39,ACTIVE,
+0074 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0074 (9104),AS 9100,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors
+0083,ISO 9001,38,ACTIVE,
+0085 (22000),FSSC 22000,1;3;7;12-15;17,ACTIVE,"ISO 22003-1 categories B, C, I, K (classified to EA by sector)"
+0085 (22000),ISO 22000,1;3;7;12-15;17;31,ACTIVE,"ISO 22003-1 categories B, C, G, I, K (classified to EA by sector)"
+0091,ISO 14001,1-10;12-20;22-39,ACTIVE,
+0091,ISO 9001,1-10;12-19;21-24;28-39,ACTIVE,
+0091 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0105,ISO 14001,1-9;12-24;28-37;39,ACTIVE,
+0105,ISO 45001,2-4;6-7;12-24;27-35;37-39,ACTIVE,
+0105,ISO 9001,1-10;12-15;17-24;27-35;37-39,ACTIVE,
+0105 (22000),FSSC 22000,3;7;12-15;17;31,ACTIVE,"ISO 22003-1 categories C, D, G, I, K (classified to EA by sector)"
+0105 (22000),ISO 22000,1;3;7;12-15;17;30-31;35,ACTIVE,"ISO 22003-1 categories A, C, D, E, G, H, I, K (classified to EA by sector)"
+0105 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0105 (37001),ISO 37001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0105 (50003),ISO 50001,3-10;12-24;28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D (classified to EA by sector)"
+0120,ISO 14001,14;17-19;23-24;28-29;31-35;37-39,ACTIVE,
+0120,ISO 45001,14;17-19;23-24;28-29;31-35;37;39,ACTIVE,
+0120,ISO 9001,4-7;9;14;17-19;23-24;28-35;37-39,ACTIVE,
+0120 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0131,ISO 14001,28;34-35,ACTIVE,
+0131,ISO 45001,28;34-35,ACTIVE,
+0131,ISO 9001,28;34-35,ACTIVE,
+0140,ISO 14001,6-7;23;28;35,ACTIVE,
+0140,ISO 9001,6-7;9;23;28;35,ACTIVE,
+0142,ISO 14001,28;34-35,ACTIVE,
+0142,ISO 45001,28;34-35,ACTIVE,
+0142,ISO 9001,28;34-35,ACTIVE,
+0155,ISO 9001,1-4;7-10;12;14-20;22;25-26;28-35;37-39,ACTIVE,
+0158,ISO 9001,3-9;12;14-19;22-23;25;29-35;37;39,ACTIVE,
+0172,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Active (non-implantable) medical devices; Active implantable medical devices; Devices incorporating specific substances / technologies; In vitro diagnostic medical devices; Non-active medical devices; Parts or services; Sterilization methods (classified to EA by sector)
+0200 (22000),FSSC 22000,1;3;7;12-15;17,ACTIVE,"ISO 22003-1 categories B, C, I, K (classified to EA by sector)"
+0200 (22000),ISO 22000,1;3;7;12-15;17,ACTIVE,"ISO 22003-1 categories B, C, I, K (classified to EA by sector)"
+0241,ISO 9001,12;14-15;17-19;23;33,ACTIVE,
+0246,ISO 9001,4;23;29,ACTIVE,
+0250,ISO 9001,4-7;12;14;17-19;23;28-29;39,ACTIVE,
+0257,ISO 14001,7-9,ACTIVE,
+0257,ISO 9001,7-9,ACTIVE,
+0260,ISO 14001,4-7;9;14-15;17-19;22-23;29-30;32,ACTIVE,
+0260,ISO 45001,4;14;17-19;22;29,ACTIVE,
+0260,ISO 9001,4-7;9-10;12;14-15;17-19;22-23;29;31-32;34-35;39,ACTIVE,
+0260 (37001),ISO 37001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+0260 (55001),ISO 55001,3-9;14-19;22;25-31;34-36,ACTIVE,
+0273,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Active (non-implantable) medical devices; In vitro diagnostic medical devices; Non-active medical devices; Parts or services; Sterilization methods (classified to EA by sector)
+0273,ISO 14001,2-10;12;14-19;22-26;28-37;39,ACTIVE,
+0273,ISO 45001,4;13;17;19;24;28-29;31-39,ACTIVE,
+0273,ISO 9001,2-10;12-20;22-24;28-39,ACTIVE,
+0273 (22000),ISO 22000,1;3;30-31,ACTIVE,"ISO 22003-1 categories B, C, D, E, G (classified to EA by sector)"
+0273 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, H (classified to EA by sector)"
+0277,ISO 14001,1-2;4-5;9;12;14;17-19;22-23;28-30;32;34-36;39,ACTIVE,
+0277,ISO 45001,4;12;14;16-19;23;28-30;32;34-36;39,ACTIVE,
+0277,ISO 9001,1-9;12;14-19;22-24;28-39,ACTIVE,
+10093,ISO 13485,13-14;17-18;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Non-active medical devices; Parts or services (classified to EA by sector)
+10093,ISO 14001,4;17-19;24;28;31;34;39,ACTIVE,
+10093,ISO 45001,4;17-19;24;28;31;34;39,ACTIVE,
+10093,ISO 9001,4;17-19;23-24;28-29;31;34;37;39,ACTIVE,
+10720 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+10727,ISO 14001,4-9;12;14-19;22-23;29;31-35;39,ACTIVE,
+10727,ISO 45001,7-9;14-15;17-18;22;28-29;31-35;39,ACTIVE,
+10727,ISO 9001,4-7;9;12;14-19;22-23;29;31-35;39,ACTIVE,
+20271,ISO 14001,17-19;22;28-29;31-37,ACTIVE,
+20271,ISO 45001,17-19;22;28-29;31-37,ACTIVE,
+20271,ISO 9001,17-19;28-29;31-37,ACTIVE,
+20271 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+20382 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+21062,ISO 14001,16-19;28-29;32-35;37,ACTIVE,
+21062,ISO 45001,16-19;28-29;34-35;37,ACTIVE,
+21062,ISO 9001,16-19;28-29;32-35;37,ACTIVE,
+21062 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+22707,ISO 9001,17;29;31;34-35,ACTIVE,
+23064,ISO 9001,17-18;29;35,ACTIVE,
+23158,ISO 13485,12-14;17;19;35,ACTIVE,ISO 13485 main technical areas: Active (non-implantable) medical devices; Active implantable medical devices; Devices incorporating specific substances / technologies; In vitro diagnostic medical devices; Non-active medical devices; Sterilization methods (classified to EA by sector)
+23422,ISO 13485,19,ACTIVE,ISO 13485 main technical areas: Active (non-implantable) medical devices (classified to EA by sector)
+23495,ISO 14001,31,ACTIVE,
+23495,ISO 45001,31,ACTIVE,
+23495,ISO 9001,31,ACTIVE,
+23495 (50003),ISO 50001,31,ACTIVE,ISO 50003 technical areas E (classified to EA by sector)
+26341,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Active (non-implantable) medical devices; Devices incorporating specific substances / technologies; Non-active medical devices; Parts or services; Sterilization methods (classified to EA by sector)
+26692,ISO 9001,14-15;17-19,ACTIVE,
+27461 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+27461 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors
+28938 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+28953,ISO 13485,13-14;17-18;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Non-active medical devices; Parts or services; Sterilization methods (classified to EA by sector)
+29621 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+29911,ISO 13485,35,ACTIVE,ISO 13485 main technical areas: Sterilization methods (classified to EA by sector)
+30141,ISO 45001,4;12;14;17;28-29;34-35,ACTIVE,
+30141,ISO 9001,4;6-7;10;12;14;17-19;28-29;34-35,ACTIVE,
+30203,ISO 14001,30,ACTIVE,
+30203,ISO 45001,30,ACTIVE,
+30812,ISO 14001,17-19;28;34,ACTIVE,
+30812,ISO 45001,17-19;28;34,ACTIVE,
+30812,ISO 9001,17-19;28;34,ACTIVE,
+30812 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+4163,ISO 14001,12;34-35,ACTIVE,
+4163,ISO 45001,12,ACTIVE,
+4163,ISO 9001,12;34,ACTIVE,
+4163 (50003),ISO 50001,3-10;12-24;28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E (classified to EA by sector)"
+4191,ISO 14001,14;19;23;28;33;35;39,ACTIVE,
+4191,ISO 9001,7;9;14;16-19;23;28-29;31-35;37;39,ACTIVE,
+4426,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Active (non-implantable) medical devices; Active implantable medical devices; In vitro diagnostic medical devices; Non-active medical devices; Parts or services; Sterilization methods (classified to EA by sector)
+4426,ISO 9001,4;12-14;17;19;23;29;33-35,ACTIVE,
+4558,ISO 14001,18;28,ACTIVE,
+4558,ISO 45001,18;28,ACTIVE,
+4558,ISO 9001,18;28;34;39,ACTIVE,
+4585,ISO 9001,6;14-15;17,ACTIVE,
+4656 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+4718,ISO 14001,1;6-7;9;17-19;23;28-29;31-32;34-35;37,ACTIVE,
+4718,ISO 45001,1;6-7;9;17-19;23;28-29;31-32;34-35;37,ACTIVE,
+4718,ISO 9001,1;6-7;9;17-19;23;28-29;31-32;34-35;37,ACTIVE,
+5965,ISO 14001,1;3-9;12;14-20;22-24;28-35;37-39,ACTIVE,
+5965,ISO 45001,28;31;34-35,ACTIVE,
+5965,ISO 9001,1;3-9;12;14-24;28-39,ACTIVE,
+5965 (22000),FSSC 22000,1;3;12-13,ACTIVE,"ISO 22003-1 categories B, C, K (classified to EA by sector)"
+5965 (22000),ISO 22000,1;3;12-13;30,ACTIVE,"ISO 22003-1 categories B, C, E, K (classified to EA by sector)"
+6178,ISO 9001,29,ACTIVE,
+7818,ISO 14001,35,ACTIVE,
+7818,ISO 18788,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+7818,ISO 28000,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+7818,ISO 45001,35,ACTIVE,
+7818,ISO 9001,35,ACTIVE,
+8175,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Active (non-implantable) medical devices; In vitro diagnostic medical devices; Non-active medical devices; Parts or services; Sterilization methods (classified to EA by sector)
+8175,ISO 9001,17-19,ACTIVE,
+8190,ISO 9001,14;17-19;22;28-29;31;33;35,ACTIVE,
+8289,ISO 13485,13-14;17-18;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Non-active medical devices; Parts or services (classified to EA by sector)
+8289,ISO 14001,1;3-4;6-9;12;14-15;17-24;28-39,ACTIVE,
+8289,ISO 45001,1-9;12-24;26-39,ACTIVE,
+8289,ISO 9001,1-9;12;14-24;28-39,ACTIVE,
+8289 (22301),ISO 22301,31-33;35-36;38,ACTIVE,
+8289 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+8289 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors
+8320,ISO 14001,4;9;14;17-19;22-24;28-29;31;33;35;37,ACTIVE,
+8320,ISO 45001,17-19;24;28-29;31-33;35,ACTIVE,
+8320,ISO 9001,4;6-7;9;14;16-19;22-24;28-29;31-35;37,ACTIVE,
+8320 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+8320 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors
+8414,ISO 14001,17-18;28;34;37,ACTIVE,
+8414,ISO 45001,17-18;28;34,ACTIVE,
+8414,ISO 9001,15;17-18;28;34;37,ACTIVE,
+8631,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Active (non-implantable) medical devices; In vitro diagnostic medical devices; Non-active medical devices; Parts or services; Sterilization methods (classified to EA by sector)
+8685 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+8933,ISO 14001,14;17-19;24;28-29;31-35;39,ACTIVE,
+8933,ISO 45001,17-19;24;28-29;31-35;39,ACTIVE,
+8933,ISO 9001,14;17-19;24;28-29;31-35;37;39,ACTIVE,
+8933 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+8933 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F, G, H (classified to EA by sector)"
+9191,ISO 14001,3-4;12;14-19;23;29-35;39,ACTIVE,
+9191,ISO 45001,3-4;12;14-19;23;29-35;39,ACTIVE,
+9191,ISO 9001,3-4;12;14-19;23;29-35;39,ACTIVE,
+9230,ISO 9001,17;34,ACTIVE,
+9235,ISO 14001,17-18;24;28-29;34-35;37;39,ACTIVE,
+9235,ISO 45001,17-18;24;28-29;34-35;37;39,ACTIVE,
+9235,ISO 9001,17-18;24;28-29;34-35;37;39,ACTIVE,
+9846,ISO 9001,14;17-19,ACTIVE,
+9940,ISO 14001,7-9;12;14;17-19;22-24;28-29;31-35;37;39,ACTIVE,
+9940,ISO 45001,7-9;14;17-19;22-24;28-29;31-35;37;39,ACTIVE,
+9940,ISO 9001,4-9;12;14;17-19;22-24;28-29;31-35;37;39,ACTIVE,
+9940 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+9963,ISO 14001,14;17-19;24;28-29;31-32;34-35;37;39,ACTIVE,
+9963,ISO 45001,14;17-19;24;28-29;31-32;34-35;37;39,ACTIVE,
+9963,ISO 9001,4-6;14;17-19;21;23-24;28-29;31-35;37;39,ACTIVE,
+9963 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+9963 (9104),AS 9100,1-39,ACTIVE,No sector list in the schedule (sector scheme); recorded for all EA sectors

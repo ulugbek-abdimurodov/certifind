@@ -12,6 +12,7 @@
 node_modules/
 .pnpm-store/
 vendor/
+.claude/
 
 # Build artifacts and targets (Rust / Maven / Cargo / Next / Webpack)
 target/

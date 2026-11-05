@@ -1,0 +1,122 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+CAI,108/2026,"Elektrotechnický zkušební ústav, s.p.",ISO/IEC 17021-1,ACTIVE,2026-03-10,2026-12-13,https://www.cai.cz/en/OA/pdf/108_2026_CS.pdf
+CAI,108/2026 (27006),"Elektrotechnický zkušební ústav, s.p.",ISO/IEC 27006,ACTIVE,2026-03-10,2026-12-13,https://www.cai.cz/en/OA/pdf/108_2026_CS.pdf
+CAI,137/2026,Systémové certifikace s.r.o.,ISO/IEC 17021-1,ACTIVE,2026-03-24,2028-10-02,https://www.cai.cz/en/OA/pdf/137_2026_CS.pdf
+CAI,137/2026 (27006),Systémové certifikace s.r.o.,ISO/IEC 27006,ACTIVE,2026-03-24,2028-10-02,https://www.cai.cz/en/OA/pdf/137_2026_CS.pdf
+CAI,137/2026 (50003),Systémové certifikace s.r.o.,ISO 50003,ACTIVE,2026-03-24,2028-10-02,https://www.cai.cz/en/OA/pdf/137_2026_CS.pdf
+CAI,138/2026,SILMOS-Q s.r.o.,ISO/IEC 17021-1,ACTIVE,2026-03-24,2029-12-06,https://www.cai.cz/en/OA/pdf/138_2026_CS.pdf
+CAI,140/2026,"Výzkumný ústav pozemních staveb – Certifikační společnost, s.r.o.",ISO/IEC 17021-1,ACTIVE,2026-03-24,2027-06-06,https://www.cai.cz/en/OA/pdf/140_2026_CS.pdf
+CAI,140/2026 (27006),"Výzkumný ústav pozemních staveb – Certifikační společnost, s.r.o.",ISO/IEC 27006,ACTIVE,2026-03-24,2027-06-06,https://www.cai.cz/en/OA/pdf/140_2026_CS.pdf
+CAI,140/2026 (50003),"Výzkumný ústav pozemních staveb – Certifikační společnost, s.r.o.",ISO 50003,ACTIVE,2026-03-24,2027-06-06,https://www.cai.cz/en/OA/pdf/140_2026_CS.pdf
+CAI,141/2026,"CERTLINE, s.r.o.",ISO/IEC 17021-1,ACTIVE,2026-03-24,2027-03-10,https://www.cai.cz/en/OA/pdf/141_2026_CS.pdf
+CAI,141/2026 (27006),"CERTLINE, s.r.o.",ISO/IEC 27006,ACTIVE,2026-03-24,2027-03-10,https://www.cai.cz/en/OA/pdf/141_2026_CS.pdf
+CAI,141/2026 (50003),"CERTLINE, s.r.o.",ISO 50003,ACTIVE,2026-03-24,2027-03-10,https://www.cai.cz/en/OA/pdf/141_2026_CS.pdf
+CAI,143/2026,eucert s.r.o.,ISO/IEC 17021-1,ACTIVE,2026-03-24,2027-08-12,https://www.cai.cz/en/OA/pdf/143_2026_CS.pdf
+CAI,143/2026 (27006),eucert s.r.o.,ISO/IEC 27006,ACTIVE,2026-03-24,2027-08-12,https://www.cai.cz/en/OA/pdf/143_2026_CS.pdf
+CAI,178/2026,"T Cert, s.r.o.",ISO/IEC 17021-1,ACTIVE,2026-04-09,2027-01-25,https://www.cai.cz/en/OA/pdf/178_2026_CS.pdf
+CAI,178/2026 (20000),"T Cert, s.r.o.",ISO/IEC 20000-6,ACTIVE,2026-04-09,2027-01-25,https://www.cai.cz/en/OA/pdf/178_2026_CS.pdf
+CAI,178/2026 (22000),"T Cert, s.r.o.",ISO 22003-1,ACTIVE,2026-04-09,2027-01-25,https://www.cai.cz/en/OA/pdf/178_2026_CS.pdf
+CAI,178/2026 (27006),"T Cert, s.r.o.",ISO/IEC 27006,ACTIVE,2026-04-09,2027-01-25,https://www.cai.cz/en/OA/pdf/178_2026_CS.pdf
+CAI,178/2026 (50003),"T Cert, s.r.o.",ISO 50003,ACTIVE,2026-04-09,2027-01-25,https://www.cai.cz/en/OA/pdf/178_2026_CS.pdf
+CAI,181/2025,"BEST QUALITY, s.r.o.",ISO/IEC 17021-1,ACTIVE,2025-04-11,2030-04-11,https://www.cai.cz/en/OA/pdf/P181_2025_CS.pdf
+CAI,181/2025 (50003),"BEST QUALITY, s.r.o.",ISO 50003,ACTIVE,2025-04-11,2030-04-11,https://www.cai.cz/en/OA/pdf/P181_2025_CS.pdf
+CAI,21/2026,"3EC International, s.r.o.",ISO/IEC 17021-1,ACTIVE,2026-01-13,2027-03-10,https://www.cai.cz/en/OA/pdf/21_2026_CS.pdf
+CAI,21/2026 (22000),"3EC International, s.r.o.",ISO 22003-1,ACTIVE,2026-01-13,2027-03-10,https://www.cai.cz/en/OA/pdf/21_2026_CS.pdf
+CAI,21/2026 (27006),"3EC International, s.r.o.",ISO/IEC 27006,ACTIVE,2026-01-13,2027-03-10,https://www.cai.cz/en/OA/pdf/21_2026_CS.pdf
+CAI,21/2026 (50003),"3EC International, s.r.o.",ISO 50003,ACTIVE,2026-01-13,2027-03-10,https://www.cai.cz/en/OA/pdf/21_2026_CS.pdf
+CAI,211/2024,CERT QUALITY SYSTEM s.r.o.,ISO/IEC 17021-1,ACTIVE,2024-05-10,2029-05-10,https://www.cai.cz/en/OA/pdf/P211_2024_CS.pdf
+CAI,246/2022,Český svářečský ústav s.r.o.,ISO/IEC 17021-1,ACTIVE,2022-05-25,2027-05-25,https://www.cai.cz/en/OA/pdf/P246_2022_CS.pdf
+CAI,259/2026,Intercert DOOEL Skopje (Интерцерт ДООЕЛ Скопје),ISO/IEC 17021-1,ACTIVE,2026-05-21,2027-12-19,https://www.cai.cz/en/OA/pdf/259_2026_CS.pdf
+CAI,259/2026 (20000),Intercert DOOEL Skopje (Интерцерт ДООЕЛ Скопје),ISO/IEC 20000-6,ACTIVE,2026-05-21,2027-12-19,https://www.cai.cz/en/OA/pdf/259_2026_CS.pdf
+CAI,259/2026 (22000),Intercert DOOEL Skopje (Интерцерт ДООЕЛ Скопје),ISO 22003-1,ACTIVE,2026-05-21,2027-12-19,https://www.cai.cz/en/OA/pdf/259_2026_CS.pdf
+CAI,259/2026 (22301),Intercert DOOEL Skopje (Интерцерт ДООЕЛ Скопје),ISO/IEC 17021-6,ACTIVE,2026-05-21,2027-12-19,https://www.cai.cz/en/OA/pdf/259_2026_CS.pdf
+CAI,259/2026 (27006),Intercert DOOEL Skopje (Интерцерт ДООЕЛ Скопје),ISO/IEC 27006,ACTIVE,2026-05-21,2027-12-19,https://www.cai.cz/en/OA/pdf/259_2026_CS.pdf
+CAI,259/2026 (50003),Intercert DOOEL Skopje (Интерцерт ДООЕЛ Скопје),ISO 50003,ACTIVE,2026-05-21,2027-12-19,https://www.cai.cz/en/OA/pdf/259_2026_CS.pdf
+CAI,279/2025,"Technický a zkušební ústav stavební Praha, s.p.",ISO/IEC 17021-1,ACTIVE,2025-06-12,2030-06-12,https://www.cai.cz/en/OA/pdf/279_2025_CS.pdf
+CAI,279/2025 (50003),"Technický a zkušební ústav stavební Praha, s.p.",ISO 50003,ACTIVE,2025-06-12,2030-06-12,https://www.cai.cz/en/OA/pdf/279_2025_CS.pdf
+CAI,281/2025,"United Registrar of Systems Czech, s.r.o.",ISO/IEC 17021-1,ACTIVE,2025-06-12,2029-02-15,https://www.cai.cz/en/OA/pdf/281_2025_CS.pdf
+CAI,281/2025 (27006),"United Registrar of Systems Czech, s.r.o.",ISO/IEC 27006,ACTIVE,2025-06-12,2029-02-15,https://www.cai.cz/en/OA/pdf/281_2025_CS.pdf
+CAI,281/2025 (50003),"United Registrar of Systems Czech, s.r.o.",ISO 50003,ACTIVE,2025-06-12,2029-02-15,https://www.cai.cz/en/OA/pdf/281_2025_CS.pdf
+CAI,294/2026,Bohemia Certification s.r.o.,ISO/IEC 17021-1,ACTIVE,2026-06-12,2029-12-10,https://www.cai.cz/en/OA/pdf/294_2026_CS.pdf
+CAI,294/2026 (22000),Bohemia Certification s.r.o.,ISO 22003-1,ACTIVE,2026-06-12,2029-12-10,https://www.cai.cz/en/OA/pdf/294_2026_CS.pdf
+CAI,305/2025,"ASMcert, s.r.o.",ISO/IEC 17021-1,ACTIVE,2025-06-26,2030-06-26,https://www.cai.cz/en/OA/pdf/305_2025_CS.pdf
+CAI,329/2026,TAYLLORCOX s.r.o.,ISO/IEC 17021-1,ACTIVE,2026-07-03,2029-03-14,https://www.cai.cz/en/OA/pdf/329_2026_CS.pdf
+CAI,329/2026 (20000),TAYLLORCOX s.r.o.,ISO/IEC 20000-6,ACTIVE,2026-07-03,2029-03-14,https://www.cai.cz/en/OA/pdf/329_2026_CS.pdf
+CAI,329/2026 (27006),TAYLLORCOX s.r.o.,ISO/IEC 27006,ACTIVE,2026-07-03,2029-03-14,https://www.cai.cz/en/OA/pdf/329_2026_CS.pdf
+CAI,329/2026 (37001),TAYLLORCOX s.r.o.,ISO/IEC 17021-9,ACTIVE,2026-07-03,2029-03-14,https://www.cai.cz/en/OA/pdf/329_2026_CS.pdf
+CAI,329/2026 (50003),TAYLLORCOX s.r.o.,ISO 50003,ACTIVE,2026-07-03,2029-03-14,https://www.cai.cz/en/OA/pdf/329_2026_CS.pdf
+CAI,344/2025,CQS z.s.,ISO/IEC 17021-1,ACTIVE,2025-07-08,2028-03-30,https://www.cai.cz/en/OA/pdf/344_2025_CS.pdf
+CAI,344/2025 (20000),CQS z.s.,ISO/IEC 20000-6,ACTIVE,2025-07-08,2028-03-30,https://www.cai.cz/en/OA/pdf/344_2025_CS.pdf
+CAI,344/2025 (22000),CQS z.s.,ISO 22003-1,ACTIVE,2025-07-08,2028-03-30,https://www.cai.cz/en/OA/pdf/344_2025_CS.pdf
+CAI,344/2025 (27006),CQS z.s.,ISO/IEC 27006,ACTIVE,2025-07-08,2028-03-30,https://www.cai.cz/en/OA/pdf/344_2025_CS.pdf
+CAI,344/2025 (50003),CQS z.s.,ISO 50003,ACTIVE,2025-07-08,2028-03-30,https://www.cai.cz/en/OA/pdf/344_2025_CS.pdf
+CAI,345/2024,"Strojírenský zkušební ústav, s.p.",ISO/IEC 17021-1,ACTIVE,2024-07-11,2029-07-11,https://www.cai.cz/en/OA/pdf/P345_2024_CS.pdf
+CAI,356/2026,"Výzkumný Ústav Železniční, a.s.",ISO/IEC 17021-1,ACTIVE,2026-07-23,2030-06-02,https://www.cai.cz/en/OA/pdf/356_2026_CS.pdf
+CAI,356/2026 (27006),"Výzkumný Ústav Železniční, a.s.",ISO/IEC 27006,ACTIVE,2026-07-23,2030-06-02,https://www.cai.cz/en/OA/pdf/356_2026_CS.pdf
+CAI,356/2026 (50003),"Výzkumný Ústav Železniční, a.s.",ISO 50003,ACTIVE,2026-07-23,2030-06-02,https://www.cai.cz/en/OA/pdf/356_2026_CS.pdf
+CAI,362/2026,QES Cert s.r.o.,ISO/IEC 17021-1,ACTIVE,2026-07-28,2026-11-22,https://www.cai.cz/en/OA/pdf/362_2026_CS.pdf
+CAI,362/2026 (20000),QES Cert s.r.o.,ISO/IEC 20000-6,ACTIVE,2026-07-28,2026-11-22,https://www.cai.cz/en/OA/pdf/362_2026_CS.pdf
+CAI,362/2026 (27006),QES Cert s.r.o.,ISO/IEC 27006,ACTIVE,2026-07-28,2026-11-22,https://www.cai.cz/en/OA/pdf/362_2026_CS.pdf
+CAI,362/2026 (50003),QES Cert s.r.o.,ISO 50003,ACTIVE,2026-07-28,2026-11-22,https://www.cai.cz/en/OA/pdf/362_2026_CS.pdf
+CAI,363/2026,"STAVCERT Praha, spol. s r.o.",ISO/IEC 17021-1,ACTIVE,2026-07-28,2029-09-12,https://www.cai.cz/en/OA/pdf/363_2026_CS.pdf
+CAI,363/2026 (22301),"STAVCERT Praha, spol. s r.o.",ISO/IEC 17021-6,ACTIVE,2026-07-28,2029-09-12,https://www.cai.cz/en/OA/pdf/363_2026_CS.pdf
+CAI,363/2026 (27006),"STAVCERT Praha, spol. s r.o.",ISO/IEC 27006,ACTIVE,2026-07-28,2029-09-12,https://www.cai.cz/en/OA/pdf/363_2026_CS.pdf
+CAI,363/2026 (50003),"STAVCERT Praha, spol. s r.o.",ISO 50003,ACTIVE,2026-07-28,2029-09-12,https://www.cai.cz/en/OA/pdf/363_2026_CS.pdf
+CAI,369/2025,"BUREAU VERITAS CERTIFICATION CZ, s.r.o.",ISO/IEC 17021-1,ACTIVE,2025-07-17,2030-07-17,https://www.cai.cz/en/OA/pdf/369_2025_CS.pdf
+CAI,369/2025 (20000),"BUREAU VERITAS CERTIFICATION CZ, s.r.o.",ISO/IEC 20000-6,ACTIVE,2025-07-17,2030-07-17,https://www.cai.cz/en/OA/pdf/369_2025_CS.pdf
+CAI,369/2025 (22000),"BUREAU VERITAS CERTIFICATION CZ, s.r.o.",ISO 22003-1,ACTIVE,2025-07-17,2030-07-17,https://www.cai.cz/en/OA/pdf/369_2025_CS.pdf
+CAI,369/2025 (27006),"BUREAU VERITAS CERTIFICATION CZ, s.r.o.",ISO/IEC 27006,ACTIVE,2025-07-17,2030-07-17,https://www.cai.cz/en/OA/pdf/369_2025_CS.pdf
+CAI,369/2025 (50003),"BUREAU VERITAS CERTIFICATION CZ, s.r.o.",ISO 50003,ACTIVE,2025-07-17,2030-07-17,https://www.cai.cz/en/OA/pdf/369_2025_CS.pdf
+CAI,381/2026,DQS Cert s.r.o.,ISO/IEC 17021-1,ACTIVE,2026-08-11,2030-03-14,https://www.cai.cz/en/OA/pdf/381_2026_CS.pdf
+CAI,381/2026 (27006),DQS Cert s.r.o.,ISO/IEC 27006,ACTIVE,2026-08-11,2030-03-14,https://www.cai.cz/en/OA/pdf/381_2026_CS.pdf
+CAI,383/2025,AZ Cert EU s.r.o.,ISO/IEC 17021-1,ACTIVE,2025-07-24,2029-05-13,https://www.cai.cz/en/OA/pdf/383_2025_CS.pdf
+CAI,383/2025 (27006),AZ Cert EU s.r.o.,ISO/IEC 27006,ACTIVE,2025-07-24,2029-05-13,https://www.cai.cz/en/OA/pdf/383_2025_CS.pdf
+CAI,383/2025 (50003),AZ Cert EU s.r.o.,ISO 50003,ACTIVE,2025-07-24,2029-05-13,https://www.cai.cz/en/OA/pdf/383_2025_CS.pdf
+CAI,384/2025,"Česká společnost pro jakost, z.s.",ISO/IEC 17021-1,ACTIVE,2025-07-24,2028-07-04,https://www.cai.cz/en/OA/pdf/384_2025_CS.pdf
+CAI,384/2025 (20000),"Česká společnost pro jakost, z.s.",ISO/IEC 20000-6,ACTIVE,2025-07-24,2028-07-04,https://www.cai.cz/en/OA/pdf/384_2025_CS.pdf
+CAI,384/2025 (22000),"Česká společnost pro jakost, z.s.",ISO 22003-1,ACTIVE,2025-07-24,2028-07-04,https://www.cai.cz/en/OA/pdf/384_2025_CS.pdf
+CAI,384/2025 (22301),"Česká společnost pro jakost, z.s.",ISO/IEC 17021-6,ACTIVE,2025-07-24,2028-07-04,https://www.cai.cz/en/OA/pdf/384_2025_CS.pdf
+CAI,384/2025 (27006),"Česká společnost pro jakost, z.s.",ISO/IEC 27006,ACTIVE,2025-07-24,2028-07-04,https://www.cai.cz/en/OA/pdf/384_2025_CS.pdf
+CAI,384/2025 (50003),"Česká společnost pro jakost, z.s.",ISO 50003,ACTIVE,2025-07-24,2028-07-04,https://www.cai.cz/en/OA/pdf/384_2025_CS.pdf
+CAI,401/2026,TÜV SÜD Czech s.r.o.,ISO/IEC 17021-1,ACTIVE,2026-08-25,2027-05-17,https://www.cai.cz/en/OA/pdf/401_2026_CS.pdf
+CAI,401/2026 (20000),TÜV SÜD Czech s.r.o.,ISO/IEC 20000-6,ACTIVE,2026-08-25,2027-05-17,https://www.cai.cz/en/OA/pdf/401_2026_CS.pdf
+CAI,401/2026 (22000),TÜV SÜD Czech s.r.o.,ISO 22003-1,ACTIVE,2026-08-25,2027-05-17,https://www.cai.cz/en/OA/pdf/401_2026_CS.pdf
+CAI,401/2026 (27006),TÜV SÜD Czech s.r.o.,ISO/IEC 27006,ACTIVE,2026-08-25,2027-05-17,https://www.cai.cz/en/OA/pdf/401_2026_CS.pdf
+CAI,401/2026 (50003),TÜV SÜD Czech s.r.o.,ISO 50003,ACTIVE,2026-08-25,2027-05-17,https://www.cai.cz/en/OA/pdf/401_2026_CS.pdf
+CAI,402/2022,"SGS ICS Czech Republic, s.r.o.",ISO/IEC 17021-1,ACTIVE,2022-08-15,2027-08-15,https://www.cai.cz/en/OA/pdf/P402_2022_CS.pdf
+CAI,402/2022 (50003),"SGS ICS Czech Republic, s.r.o.",ISO 50003,ACTIVE,2022-08-15,2027-08-15,https://www.cai.cz/en/OA/pdf/P402_2022_CS.pdf
+CAI,430/2023,"TESYDO, s.r.o.",ISO/IEC 17021-1,ACTIVE,2023-08-10,2028-08-10,https://www.cai.cz/en/OA/pdf/P430_2023_CS.pdf
+CAI,454/2025,"DOM – ZO 13, s.r.o.",ISO/IEC 17021-1,ACTIVE,2025-09-08,2030-09-08,https://www.cai.cz/en/OA/pdf/454_2025_CS.pdf
+CAI,454/2025 (27006),"DOM – ZO 13, s.r.o.",ISO/IEC 27006,ACTIVE,2025-09-08,2030-09-08,https://www.cai.cz/en/OA/pdf/454_2025_CS.pdf
+CAI,459/2025,"TDS Brno – Sekce řízení jakosti a certifikace, p.s.",ISO/IEC 17021-1,ACTIVE,2025-09-11,2030-09-11,https://www.cai.cz/en/OA/pdf/459_2025_CS.pdf
+CAI,459/2025 (27006),"TDS Brno – Sekce řízení jakosti a certifikace, p.s.",ISO/IEC 27006,ACTIVE,2025-09-11,2030-09-11,https://www.cai.cz/en/OA/pdf/459_2025_CS.pdf
+CAI,483/2026,DEKRA CZ a.s.,ISO/IEC 17021-1,ACTIVE,2026-10-30,2028-12-18,https://www.cai.cz/en/OA/pdf/483_2026_CS.pdf
+CAI,491/2026,"EURO CERT CZ, a.s.",ISO/IEC 17021-1,ACTIVE,2026-11-03,2031-05-21,https://www.cai.cz/en/OA/pdf/491_2026_CS.pdf
+CAI,491/2026 (27006),"EURO CERT CZ, a.s.",ISO/IEC 27006,ACTIVE,2026-11-03,2031-05-21,https://www.cai.cz/en/OA/pdf/491_2026_CS.pdf
+CAI,491/2026 (50003),"EURO CERT CZ, a.s.",ISO 50003,ACTIVE,2026-11-03,2031-05-21,https://www.cai.cz/en/OA/pdf/491_2026_CS.pdf
+CAI,514/2023 (20000),LL-C (Certification) Czech Republic a. s.,ISO/IEC 20000-6,ACTIVE,2023-10-02,2027-12-14,https://www.cai.cz/en/OA/pdf/P514_2023_CS.pdf
+CAI,579/2025,"QUALIFORM, a.s.",ISO/IEC 17021-1,ACTIVE,2025-11-13,2028-02-09,https://www.cai.cz/en/OA/pdf/579_2025_CS.pdf
+CAI,579/2025 (27006),"QUALIFORM, a.s.",ISO/IEC 27006,ACTIVE,2025-11-13,2028-02-09,https://www.cai.cz/en/OA/pdf/579_2025_CS.pdf
+CAI,579/2025 (50003),"QUALIFORM, a.s.",ISO 50003,ACTIVE,2025-11-13,2028-02-09,https://www.cai.cz/en/OA/pdf/579_2025_CS.pdf
+CAI,602/2025,"Institut pro testování a certifikaci, a.s.",ISO/IEC 17021-1,ACTIVE,2025-11-20,2030-11-20,https://www.cai.cz/en/OA/pdf/602_2025_CS.pdf
+CAI,602/2025 (22000),"Institut pro testování a certifikaci, a.s.",ISO 22003-1,ACTIVE,2025-11-20,2030-11-20,https://www.cai.cz/en/OA/pdf/602_2025_CS.pdf
+CAI,602/2025 (27006),"Institut pro testování a certifikaci, a.s.",ISO/IEC 27006,ACTIVE,2025-11-20,2030-11-20,https://www.cai.cz/en/OA/pdf/602_2025_CS.pdf
+CAI,602/2025 (50003),"Institut pro testování a certifikaci, a.s.",ISO 50003,ACTIVE,2025-11-20,2030-11-20,https://www.cai.cz/en/OA/pdf/602_2025_CS.pdf
+CAI,63/2026,Český metrologický institut,ISO/IEC 17021-1,ACTIVE,2026-02-10,2027-12-16,https://www.cai.cz/en/OA/pdf/63_2026_CS.pdf
+CAI,646/2025,KOMORA s.r.o.,ISO/IEC 17021-1,ACTIVE,2025-12-08,2030-12-08,https://www.cai.cz/en/OA/pdf/646_2025_CS.pdf
+CAI,667/2025,"Textilní zkušební ústav, s.p.",ISO/IEC 17021-1,ACTIVE,2025-12-18,2030-12-18,https://www.cai.cz/en/OA/pdf/667_2025_CS.pdf
+CAI,699/2025,"TÜV NORD Czech, s.r.o.",ISO/IEC 17021-1,ACTIVE,2025-12-22,2028-03-08,https://www.cai.cz/en/OA/pdf/699_2025_CS.pdf
+CAI,699/2025 (27006),"TÜV NORD Czech, s.r.o.",ISO/IEC 27006,ACTIVE,2025-12-22,2028-03-08,https://www.cai.cz/en/OA/pdf/699_2025_CS.pdf
+CAI,699/2025 (50003),"TÜV NORD Czech, s.r.o.",ISO 50003,ACTIVE,2025-12-22,2028-03-08,https://www.cai.cz/en/OA/pdf/699_2025_CS.pdf
+CAI,88/2026,LL-C (Certification) Czech Republic a. s.,ISO/IEC 17021-1,ACTIVE,2026-02-24,2027-12-14,https://www.cai.cz/en/OA/pdf/88_2026_CS.pdf
+CAI,88/2026 (22000),LL-C (Certification) Czech Republic a. s.,ISO 22003-1,ACTIVE,2026-02-24,2027-12-14,https://www.cai.cz/en/OA/pdf/88_2026_CS.pdf
+CAI,88/2026 (27006),LL-C (Certification) Czech Republic a. s.,ISO/IEC 27006,ACTIVE,2026-02-24,2027-12-14,https://www.cai.cz/en/OA/pdf/88_2026_CS.pdf
+CAI,88/2026 (50003),LL-C (Certification) Czech Republic a. s.,ISO 50003,ACTIVE,2026-02-24,2027-12-14,https://www.cai.cz/en/OA/pdf/88_2026_CS.pdf
+CAI,89/2026,AUDISO a.s.,ISO/IEC 17021-1,ACTIVE,2026-02-24,2028-12-28,https://www.cai.cz/en/OA/pdf/89_2026_CS.pdf
+CAI,89/2026 (20000),AUDISO a.s.,ISO/IEC 20000-6,ACTIVE,2026-02-24,2028-12-28,https://www.cai.cz/en/OA/pdf/89_2026_CS.pdf
+CAI,89/2026 (22000),AUDISO a.s.,ISO 22003-1,ACTIVE,2026-02-24,2028-12-28,https://www.cai.cz/en/OA/pdf/89_2026_CS.pdf
+CAI,89/2026 (27006),AUDISO a.s.,ISO/IEC 27006,ACTIVE,2026-02-24,2028-12-28,https://www.cai.cz/en/OA/pdf/89_2026_CS.pdf
+CAI,89/2026 (50003),AUDISO a.s.,ISO 50003,ACTIVE,2026-02-24,2028-12-28,https://www.cai.cz/en/OA/pdf/89_2026_CS.pdf
+CAI,90/2026,"CERT-ACO, s.r.o.",ISO/IEC 17021-1,ACTIVE,2026-02-24,2029-12-19,https://www.cai.cz/en/OA/pdf/90_2026_CS.pdf
+CAI,90/2026 (27006),"CERT-ACO, s.r.o.",ISO/IEC 27006,ACTIVE,2026-02-24,2029-12-19,https://www.cai.cz/en/OA/pdf/90_2026_CS.pdf
+CAI,90/2026 (50003),"CERT-ACO, s.r.o.",ISO 50003,ACTIVE,2026-02-24,2029-12-19,https://www.cai.cz/en/OA/pdf/90_2026_CS.pdf

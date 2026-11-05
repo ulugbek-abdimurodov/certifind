@@ -1,0 +1,165 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+NABCB,AB001,TUV SUD South Asia Pvt. Ltd.,ISO/IEC 17021-9,ACTIVE,2025-08-05,2028-08-04,https://nabcb.qci.org.in/ab-001/
+NABCB,AI001,Tuv India Pvt. Ltd.,ISO/IEC 42006,ACTIVE,2025-02-11,2028-02-10,https://nabcb.qci.org.in/ai-001/
+NABCB,AI002,TUV SUD South Asia Pvt. Ltd.,ISO/IEC 42006,ACTIVE,2025-08-05,2028-08-04,https://nabcb.qci.org.in/ai-002/
+NABCB,AI003,Maverick Quality Advisory Services Pvt. Ltd.,ISO/IEC 42006,ACTIVE,2026-03-31,2029-03-30,https://nabcb.qci.org.in/ai-003/
+NABCB,AI004,Bureau Veritas (India) Pvt. Ltd.,ISO/IEC 42006,ACTIVE,2026-06-02,2029-06-01,https://nabcb.qci.org.in/ai-004/
+NABCB,AM001,Tuv India Pvt. Ltd.,ISO/IEC 17021-5,ACTIVE,2025-12-08,2028-12-07,https://nabcb.qci.org.in/am-001/
+NABCB,AM002,URS Certification Ltd.,ISO/IEC 17021-5,ACTIVE,2026-08-13,2029-08-12,https://nabcb.qci.org.in/am-002/
+NABCB,AQ001,TUV SUD South Asia Pvt. Ltd.,AS 9104-1,ACTIVE,2024-03-06,2027-03-05,https://nabcb.qci.org.in/aq-001/
+NABCB,AQ002,Tuv India Pvt. Ltd.,AS 9104-1,ACTIVE,2024-03-28,2027-03-27,https://nabcb.qci.org.in/aq-002/
+NABCB,AQ003,MTIC InterCert India Private Limited,ISO/IEC 17021-1,ACTIVE,2025-09-17,2028-09-16,https://nabcb.qci.org.in/aq-003/
+NABCB,AQ003 (9100),MTIC InterCert India Private Limited,AS 9104-1,ACTIVE,2025-09-17,2028-09-16,https://nabcb.qci.org.in/aq-003/
+NABCB,AQ004,Deutsch Quality Systems (India) Pvt. Ltd.,AS 9104-1,ACTIVE,2026-03-20,2029-03-19,https://nabcb.qci.org.in/aq-004/
+NABCB,BC001,Maverick Quality Advisory Services Pvt. Ltd.,ISO/IEC 17021-6,ACTIVE,2022-02-02,2029-02-01,https://nabcb.qci.org.in/bcms/bc-001
+NABCB,BC002,TUV SUD South Asia Pvt. Ltd.,ISO/IEC 17021-6,ACTIVE,2023-05-24,2030-04-15,https://nabcb.qci.org.in/bc-002
+NABCB,BC003,Tuv India Pvt. Ltd.,ISO/IEC 17021-6,ACTIVE,2025-01-15,2028-01-14,https://nabcb.qci.org.in/bc-003
+NABCB,EN001,ISSPL Limited (formerly IRCLASS Systems and Solutions; Indian Register Quality Systems),ISO 50003,ACTIVE,2013-12-23,2029-04-10,https://nabcb.qci.org.in/enms/en001/
+NABCB,EN002,Vexil Business Process Services Pvt. Ltd.,ISO 50003,ACTIVE,2014-10-29,2030-01-28,https://nabcb.qci.org.in/enms/en002/
+NABCB,EN003,Bureau Veritas (India) Pvt. Ltd.,ISO 50003,ACTIVE,2015-05-20,2030-05-19,https://nabcb.qci.org.in/enms/en003/
+NABCB,EN004,Tuv India Pvt. Ltd.,ISO 50003,ACTIVE,2016-07-25,2027-09-24,https://nabcb.qci.org.in/enms/enm004/
+NABCB,EN005,TUV SUD South Asia Pvt. Ltd.,ISO 50003,ACTIVE,2017-09-18,2029-03-17,https://nabcb.qci.org.in/enms/en005/
+NABCB,EN006,Bureau of Indian Standards,ISO 50003,ACTIVE,2022-11-14,2029-11-13,https://nabcb.qci.org.in/enms/en006/
+NABCB,EN007,INTERCERTIFIKA LLC,ISO 50003,ACTIVE,2023-09-13,2029-04-28,https://nabcb.qci.org.in/en-007/
+NABCB,EN008,DKS RUS LLC,ISO 50003,ACTIVE,2023-09-21,2029-04-28,https://nabcb.qci.org.in/en-008/
+NABCB,EN009,Quality Asia Certifications Pvt. Ltd.,ISO 50003,ACTIVE,2025-03-28,2028-03-27,https://nabcb.qci.org.in/en-009/
+NABCB,EN010,Intertek India Private Limited,ISO/IEC 17021-1,ACTIVE,2025-10-21,2028-10-20,https://nabcb.qci.org.in/en-010/
+NABCB,EN010 (50003),Intertek India Private Limited,ISO 50003,ACTIVE,2025-10-21,2028-10-20,https://nabcb.qci.org.in/en-010/
+NABCB,EN011,NOICE Academy Private Limited,ISO 50003,ACTIVE,2026-09-02,2029-09-01,https://nabcb.qci.org.in/en-011/
+NABCB,FS001,Bureau Veritas (India) Pvt. Ltd.,ISO 22003-1,ACTIVE,2007-02-13,2030-04-12,https://nabcb.qci.org.in/fsms/fs-001/
+NABCB,FS002,TQ cert Services Private Limited,ISO 22003-1,ACTIVE,2007-08-17,2027-02-16,https://nabcb.qci.org.in/fsms/fs-002/
+NABCB,FS003,TUV SUD South Asia Pvt. Ltd.,ISO 22003-1,ACTIVE,2008-12-16,2028-04-15,https://nabcb.qci.org.in/fsms/fs-003/
+NABCB,FS004,Tuv India Pvt. Ltd.,ISO 22003-1,ACTIVE,2009-03-24,2028-09-22,https://nabcb.qci.org.in/fsms/fs-004/
+NABCB,FS005,ISSPL Limited (formerly IRCLASS Systems and Solutions; Indian Register Quality Systems),ISO 22003-1,ACTIVE,2009-06-25,2028-06-24,https://nabcb.qci.org.in/fsms/fs-005/
+NABCB,FS007,SGS India Private Limited,ISO 22003-1,ACTIVE,2010-04-01,2029-10-31,https://nabcb.qci.org.in/fsms/fs-007/
+NABCB,FS008,DNV Business Assurance India Pvt. Ltd.,ISO 22003-1,ACTIVE,2010-12-21,2029-12-20,https://nabcb.qci.org.in/fsms/fs-008/
+NABCB,FS009,OneCert International Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2011-06-20,2030-09-19,https://nabcb.qci.org.in/fsms/fs-009/
+NABCB,FS009 (22000),OneCert International Pvt. Ltd.,ISO 22003-1,ACTIVE,2011-06-20,2030-09-19,https://nabcb.qci.org.in/fsms/fs-009/
+NABCB,FS010,Intertek India Pvt. Ltd.,ISO 22003-1,ACTIVE,2011-12-09,2026-12-08,https://nabcb.qci.org.in/fsms/fs-010/
+NABCB,FS011,Vexil Business Process Services Pvt. Ltd.,ISO 22003-1,ACTIVE,2012-06-22,2027-12-21,https://nabcb.qci.org.in/fsms/fs-011/
+NABCB,FS013,BSI Group India Pvt Ltd.,ISO 22003-1,ACTIVE,2013-10-18,2028-12-15,https://nabcb.qci.org.in/fsms/fs-013/
+NABCB,FS014,MS Certification Services Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2014-03-28,2029-06-27,https://nabcb.qci.org.in/fsms/fs-014/
+NABCB,FS014 (22000),MS Certification Services Pvt. Ltd.,ISO 22003-1,ACTIVE,2014-03-28,2029-06-27,https://nabcb.qci.org.in/fsms/fs-014/
+NABCB,FS016,Cotecna Inspection India Pvt. Ltd.,ISO 22003-1,ACTIVE,2018-03-28,2029-03-27,https://nabcb.qci.org.in/fsms/fs-016/
+NABCB,FS020,BSCIC Certifications Pvt. Ltd.,ISO 22003-1,ACTIVE,2020-02-20,2027-02-19,https://nabcb.qci.org.in/fsms/fs-020/
+NABCB,FS021,Bureau of Indian Standards,ISO 22003-1,ACTIVE,2020-08-04,2027-08-03,https://nabcb.qci.org.in/fsms/fs-021/
+NABCB,FS022,URS Certification Ltd.,ISO 22003-1,ACTIVE,2021-09-03,2028-09-02,https://nabcb.qci.org.in/fsms/fs-022/
+NABCB,FS023,CU Inspections & Certifications India Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2022-03-07,2029-03-06,https://nabcb.qci.org.in/fsms/fs-023/
+NABCB,FS023 (22000),CU Inspections & Certifications India Pvt. Ltd.,ISO 22003-1,ACTIVE,2022-03-07,2029-03-06,https://nabcb.qci.org.in/fsms/fs-023/
+NABCB,FS024,Eurofins Assurance India Pvt. Ltd.,ISO 22003-1,ACTIVE,2022-03-10,2029-03-09,https://nabcb.qci.org.in/fsms/fs-024/
+NABCB,FS025,Auriga Research Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2022-07-07,2029-07-06,https://nabcb.qci.org.in/fsms/fs-025/
+NABCB,FS025 (22000),Auriga Research Pvt. Ltd.,ISO 22003-1,ACTIVE,2022-07-07,2029-07-06,https://nabcb.qci.org.in/fsms/fs-025/
+NABCB,FS027,ALS Testing Services India Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2023-03-31,2030-03-30,https://nabcb.qci.org.in/fsms/fs-027/
+NABCB,FS027 (22000),ALS Testing Services India Pvt. Ltd.,ISO 22003-1,ACTIVE,2023-03-31,2030-03-30,https://nabcb.qci.org.in/fsms/fs-027/
+NABCB,FS028,TEST-St. Petersburg Co. Ltd.,ISO 22003-1,ACTIVE,2023-05-02,2028-05-28,https://nabcb.qci.org.in/fsms/fs-028/
+NABCB,FS031,GCQ Certifications India LLP,ISO 22003-1,ACTIVE,2023-09-27,2030-09-26,https://nabcb.qci.org.in/fs-031/
+NABCB,FS033,Certification Association “Russian Register”,ISO 22003-1,ACTIVE,2024-01-29,2030-10-09,https://nabcb.qci.org.in/fs-033/
+NABCB,FS034,IQCS International LLP,ISO/IEC 17021-1,ACTIVE,2024-02-26,2027-02-25,https://nabcb.qci.org.in/fs-034/
+NABCB,FS034 (22000),IQCS International LLP,ISO 22003-1,ACTIVE,2024-02-26,2027-02-25,https://nabcb.qci.org.in/fs-034/
+NABCB,FS035,FSATO Certification Services,ISO/IEC 17021-1,ACTIVE,2025-02-13,2028-02-12,https://nabcb.qci.org.in/fs-035/
+NABCB,FS035 (22000),FSATO Certification Services,ISO 22003-1,ACTIVE,2025-02-13,2028-02-12,https://nabcb.qci.org.in/fs-035/
+NABCB,FS036,Rina Classification and Certification India Private Limited,ISO/IEC 17021-1,ACTIVE,2025-03-27,2028-03-26,https://nabcb.qci.org.in/fs-036/
+NABCB,FS036 (22000),Rina Classification and Certification India Private Limited,ISO 22003-1,ACTIVE,2025-03-27,2028-03-26,https://nabcb.qci.org.in/fs-036/
+NABCB,FS037,Zenith Quality Assessors Pvt. Ltd.,ISO 22003-1,ACTIVE,2025-03-27,2028-03-26,https://nabcb.qci.org.in/fs-037/
+NABCB,FS038,Quality Asia Certifications Pvt. Ltd.,ISO 22003-1,ACTIVE,2025-06-19,2028-06-18,https://nabcb.qci.org.in/fs-038/
+NABCB,FS039,International Certification Services Pvt. Ltd.,ISO 22003-1,ACTIVE,2025-08-06,2028-08-05,https://nabcb.qci.org.in/fs-039/
+NABCB,FS040,FARE Labs Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2025-10-03,2028-10-02,https://nabcb.qci.org.in/fs-040/
+NABCB,FS040 (22000),FARE Labs Pvt. Ltd.,ISO 22003-1,ACTIVE,2025-10-03,2028-10-02,https://nabcb.qci.org.in/fs-040/
+NABCB,FS041,Trace Assure Global Certifications Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2026-03-18,2029-03-17,https://nabcb.qci.org.in/fs-041/
+NABCB,FS041 (22000),Trace Assure Global Certifications Pvt. Ltd.,ISO 22003-1,ACTIVE,2026-03-18,2029-03-17,https://nabcb.qci.org.in/fs-041/
+NABCB,FS042,Unavar Food Inspection and Certification Private Limited,ISO/IEC 17021-1,ACTIVE,2026-06-29,2029-06-28,https://nabcb.qci.org.in/fs-041-2/
+NABCB,FS042 (22000),Unavar Food Inspection and Certification Private Limited,ISO 22003-1,ACTIVE,2026-06-29,2029-06-28,https://nabcb.qci.org.in/fs-041-2/
+NABCB,FS043,RIR CERTIFICATION PVT. LTD.,ISO/IEC 17021-1,ACTIVE,2026-07-02,2029-07-01,https://nabcb.qci.org.in/fs-43/
+NABCB,FS043 (22000),RIR CERTIFICATION PVT. LTD.,ISO 22003-1,ACTIVE,2026-07-02,2029-07-01,https://nabcb.qci.org.in/fs-43/
+NABCB,FS044,Eurocert Inspection Services Private Limited,ISO/IEC 17021-1,ACTIVE,2026-08-24,2029-08-23,https://nabcb.qci.org.in/fs-044/
+NABCB,FS044 (22000),Eurocert Inspection Services Private Limited,ISO 22003-1,ACTIVE,2026-08-24,2029-08-23,https://nabcb.qci.org.in/fs-044/
+NABCB,IS001,TUV SUD South Asia Pvt. Ltd.,ISO/IEC 27006,ACTIVE,2013-12-16,2029-04-15,https://nabcb.qci.org.in/is001/
+NABCB,IS002,Maverick Quality Advisory Services Pvt. Ltd.,ISO/IEC 27006,ACTIVE,2014-06-02,2030-01-01,https://nabcb.qci.org.in/isms/is002/
+NABCB,IS003,STQC Directorate (STQC Certification Services),ISO/IEC 27006,ACTIVE,2014-08-20,2029-12-19,https://nabcb.qci.org.in/is003/
+NABCB,IS004,ISSPL Limited (formerly IRCLASS Systems and Solutions; Indian Register Quality Systems),ISO/IEC 27006,ACTIVE,2018-01-31,2029-01-30,https://nabcb.qci.org.in/is0004/
+NABCB,IS005,ControlCase Infosec Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2018-03-15,2029-03-14,https://nabcb.qci.org.in/is005/
+NABCB,IS005 (27006),ControlCase Infosec Pvt. Ltd.,ISO/IEC 27006,ACTIVE,2018-03-15,2029-03-14,https://nabcb.qci.org.in/is005/
+NABCB,IS006,Bureau Veritas (India) Pvt. Ltd.,ISO/IEC 27006,ACTIVE,2020-01-08,2027-04-13,https://nabcb.qci.org.in/is006/
+NABCB,IS007,Tuv India Pvt. Ltd.,ISO/IEC 27006,ACTIVE,2021-10-20,2028-10-19,https://nabcb.qci.org.in/is007/
+NABCB,IS009,INTERCERTIFIKA LLC,ISO/IEC 27006,ACTIVE,2023-09-13,2029-04-28,https://nabcb.qci.org.in/is-008/
+NABCB,IS013,Quality Asia Certifications Pvt. Ltd.,ISO/IEC 27006,ACTIVE,2025-08-27,2028-08-26,https://nabcb.qci.org.in/is-013/
+NABCB,IS014,Vexil Business Process Services Pvt. Ltd.,ISO/IEC 27006,ACTIVE,2025-09-17,2028-09-16,https://nabcb.qci.org.in/is-014/
+NABCB,IS015,CEREIV Advisory LLP,ISO/IEC 17021-1,ACTIVE,2026-01-21,2029-01-20,https://nabcb.qci.org.in/is-015/
+NABCB,IS015 (27006),CEREIV Advisory LLP,ISO/IEC 27006,ACTIVE,2026-01-21,2029-01-20,https://nabcb.qci.org.in/is-015/
+NABCB,IS016,First Wave International Certification Private Limited,ISO/IEC 27006,ACTIVE,2026-03-09,2029-03-08,https://nabcb.qci.org.in/is-016/
+NABCB,IS017,Cybertryzub Infosec Private Limited,ISO/IEC 17021-1,ACTIVE,2026-03-18,2029-03-17,https://nabcb.qci.org.in/is-017/
+NABCB,IS017 (27006),Cybertryzub Infosec Private Limited,ISO/IEC 27006,ACTIVE,2026-03-18,2029-03-17,https://nabcb.qci.org.in/is-017/
+NABCB,IS018,Innovative Quality Certifications Pvt. Ltd.,ISO/IEC 27006,ACTIVE,2026-05-27,2029-05-26,https://nabcb.qci.org.in/is-018/
+NABCB,IS019,International Certification Services Pvt. Ltd.,ISO/IEC 27006,ACTIVE,2026-05-27,2029-05-26,https://nabcb.qci.org.in/is-019/
+NABCB,IS020,COAE International Pvt. Ltd.,ISO/IEC 27006,ACTIVE,2026-09-28,2029-09-27,https://nabcb.qci.org.in/is-20/
+NABCB,IT001,Maverick Quality Advisory Services Pvt. Ltd.,ISO/IEC 20000-6,ACTIVE,2014-11-04,2030-01-01,https://nabcb.qci.org.in/itms/it-001
+NABCB,IT002,TUV SUD South Asia Pvt. Ltd.,ISO/IEC 20000-6,ACTIVE,2021-05-29,2028-05-28,https://nabcb.qci.org.in/tuv-sud-south-asia-pvt-ltd/
+NABCB,IT003,Concept Quality Assurance Labs Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2023-06-28,2030-06-27,https://nabcb.qci.org.in/concept-quality-assurance-labs-pvt-ltd/
+NABCB,IT003 (20000),Concept Quality Assurance Labs Pvt. Ltd.,ISO/IEC 20000-6,ACTIVE,2023-06-28,2030-06-27,https://nabcb.qci.org.in/concept-quality-assurance-labs-pvt-ltd/
+NABCB,IT004,Tuv India Pvt. Ltd.,ISO/IEC 20000-6,ACTIVE,2025-01-15,2028-01-14,https://nabcb.qci.org.in/tuv-india-pvt-ltd-3
+NABCB,IT005,First Wave International Certification Private Limited,ISO/IEC 20000-6,ACTIVE,2026-03-09,2029-03-08,https://nabcb.qci.org.in/first-wave-international-certification-private-limited
+NABCB,QM001,DNV Business Assurance India Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2001-06-21,2028-09-20,https://nabcb.qci.org.in/dnv-business-assurance-india
+NABCB,QM002,Tuv India Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2002-09-12,2029-09-11,https://nabcb.qci.org.in/tuv-india
+NABCB,QM003,Bureau Veritas (India) Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2003-04-14,2030-07-26,https://nabcb.qci.org.in/accreditations-withdrawn/bureau-veritas-india-pvt-ltd
+NABCB,QM004,Integrated Quality Certification Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2003-09-11,2028-09-10,https://nabcb.qci.org.in/iaf-ilac-mla/intergrated-quality-certification-pvt-ltd
+NABCB,QM005,AGSI Certification Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2004-04-12,2030-04-11,https://nabcb.qci.org.in/agsi-certification-2
+NABCB,QM006,ISSPL Limited (formerly IRCLASS Systems and Solutions; Indian Register Quality Systems),ISO/IEC 17021-1,ACTIVE,2004-04-19,2029-04-10,https://nabcb.qci.org.in/irclass-systems-and-solutions-private-limited-2
+NABCB,QM008,BSI Group India Pvt Ltd.,ISO/IEC 17021-1,ACTIVE,2004-08-12,2027-08-11,https://nabcb.qci.org.in/bsi-group-india-2
+NABCB,QM009,International Certification Services Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2004-08-16,2030-08-15,https://nabcb.qci.org.in/international-certifications-services-private-ltd-2
+NABCB,QM010,TUV Rheinland (India) Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2004-08-16,2027-08-15,https://nabcb.qci.org.in/tuv-rheinland-2
+NABCB,QM011,TUV SUD South Asia Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2004-11-29,2030-04-15,https://nabcb.qci.org.in/tuv-sud-south-asia
+NABCB,QM012,NVT Quality Certification International LLP,ISO/IEC 17021-1,ACTIVE,2005-03-09,2028-05-30,https://nabcb.qci.org.in/nvt-quality-certification-international-llp
+NABCB,QM016,URS Certification Ltd.,ISO/IEC 17021-1,ACTIVE,2006-02-02,2029-02-01,https://nabcb.qci.org.in/urs-certification
+NABCB,QM022,Vexil Business Process Services Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2006-06-21,2028-12-07,https://nabcb.qci.org.in/vexil-business-process-services
+NABCB,QM027,SGS India Private Limited,ISO/IEC 17021-1,ACTIVE,2006-10-16,2028-10-15,https://nabcb.qci.org.in/sgs-india
+NABCB,QM028,MTIC Intercert India Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2006-10-27,2028-10-26,https://nabcb.qci.org.in/mtic-intercert-india
+NABCB,QM030,BSCIC Certifications Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2007-03-15,2030-07-14,https://nabcb.qci.org.in/bscic-certifications
+NABCB,QM031,SWISS CERT Pvt. Ltd. (Formerly Swiso India Pvt Ltd),ISO/IEC 17021-1,ACTIVE,2007-03-19,2030-06-18,https://nabcb.qci.org.in/swiss-cert
+NABCB,QM033,Intertek India Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2017-05-19,2030-04-17,https://nabcb.qci.org.in/intertek-india
+NABCB,QM034,STQC Directorate (STQC Certification Services),ISO/IEC 17021-1,ACTIVE,2007-04-18,2027-03-17,https://nabcb.qci.org.in/stqc-directorate-operating-certification-services-through-stqc-certification-services
+NABCB,QM039,TQ cert Services Private Limited,ISO/IEC 17021-1,ACTIVE,2009-04-24,2028-04-23,https://nabcb.qci.org.in/tata-projects
+NABCB,QM044,Quality Austria Central Asia Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2013-02-01,2028-05-28,https://nabcb.qci.org.in/quality-austria-central-asia
+NABCB,QM046,Nepal Bureau of Standards and Metrology,ISO/IEC 17021-1,ACTIVE,2013-03-20,2028-06-19,https://nabcb.qci.org.in/nepal-bureau-of-standards-and-metrology
+NABCB,QM050,Bureau of Indian Standards,ISO/IEC 17021-1,ACTIVE,2013-12-16,2029-11-13,https://nabcb.qci.org.in/bureau-of-indian-standards
+NABCB,QM052,Maverick Quality Advisory Services Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2014-06-02,2030-01-01,https://nabcb.qci.org.in/maverick-quality-advisory-services
+NABCB,QM055,AITF Management Certification Ltd,ISO/IEC 17021-1,ACTIVE,2016-07-15,2028-10-05,https://nabcb.qci.org.in/aitf-management-certification
+NABCB,QM057,Equalitas SystemCert Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2017-05-02,2028-05-01,https://nabcb.qci.org.in/equalitas-systemcert
+NABCB,QM058,QUEST Certification (P) Ltd.,ISO/IEC 17021-1,ACTIVE,2017-06-12,2028-09-11,https://nabcb.qci.org.in/quest-certification
+NABCB,QM060,Bhutan Standards Bureau,ISO/IEC 17021-1,ACTIVE,2018-10-05,2029-10-04,https://nabcb.qci.org.in/bhutan-standards-bureau
+NABCB,QM062,Zenith Quality Assessors Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2019-07-15,2030-07-14,https://nabcb.qci.org.in/zenith-quality-assessors
+NABCB,QM065,COAE International Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2019-04-05,2030-04-04,https://nabcb.qci.org.in/coae-international
+NABCB,QM066,BSA International Certification Co. Pvt Ltd.,ISO/IEC 17021-1,ACTIVE,2020-03-17,2027-03-16,https://nabcb.qci.org.in/bsa-international-certification
+NABCB,QM067,Cotecna Inspection India Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2020-06-23,2027-06-22,https://nabcb.qci.org.in/cotecna-inspection-india
+NABCB,QM068,Innovative Quality Certifications Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2020-07-09,2029-05-26,https://nabcb.qci.org.in/innovative-quality-certifications
+NABCB,QM069,Krishtech Certification Pvt. Ltd. (Formerly know as ACM EMB Pvt. Ltd.),ISO/IEC 17021-1,ACTIVE,2021-04-08,2028-04-07,https://nabcb.qci.org.in/acm-emb
+NABCB,QM070,UL India Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2021-04-20,2028-04-19,https://nabcb.qci.org.in/mdqms/qm070
+NABCB,QM071,Deutsch Quality Systems (India) Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2021-05-12,2028-05-11,https://nabcb.qci.org.in/deutsch-quality-systems
+NABCB,QM075,TEST-St. Petersburg Co. Ltd.,ISO/IEC 17021-1,ACTIVE,2023-05-02,2028-05-28,https://nabcb.qci.org.in/test-st-petersburg
+NABCB,QM077,INTERCERTIFIKA LLC,ISO/IEC 17021-1,ACTIVE,2023-09-13,2029-04-28,https://nabcb.qci.org.in/intercertifika-llc/
+NABCB,QM078,DKS RUS LLC,ISO/IEC 17021-1,ACTIVE,2023-09-21,2029-04-28,https://nabcb.qci.org.in/dks-rus-llc/
+NABCB,QM079,GCQ Certifications India LLP,ISO/IEC 17021-1,ACTIVE,2023-09-27,2030-09-26,https://nabcb.qci.org.in/qm-079/
+NABCB,QM081,Eurofins Assurance India Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2023-12-29,2028-03-26,https://nabcb.qci.org.in/qm-081/
+NABCB,QM082,Certification Association “Russian Register”,ISO/IEC 17021-1,ACTIVE,2024-01-29,2030-07-09,https://nabcb.qci.org.in/qm-082/
+NABCB,QM083,KIHT Certification Services,ISO/IEC 17021-1,ACTIVE,2024-04-05,2027-04-04,https://nabcb.qci.org.in/qm083/
+NABCB,QM084,ACK Certifications Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2024-08-09,2027-08-08,https://nabcb.qci.org.in/qm-084/
+NABCB,QM085,Quality Asia Certifications Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2024-09-04,2028-06-18,https://nabcb.qci.org.in/qm-085/
+NABCB,QM088,Inter Cert Private Limited,ISO/IEC 17021-1,ACTIVE,2025-02-04,2029-02-03,https://nabcb.qci.org.in/qm-088/
+NABCB,QM089,Qualcert Solutions Private Limited,ISO/IEC 17021-1,ACTIVE,2025-02-04,2028-02-03,https://nabcb.qci.org.in/qm-089/
+NABCB,QM090,TQMS Certifications Private Limited,ISO/IEC 17021-1,ACTIVE,2025-02-14,2028-02-13,https://nabcb.qci.org.in/qm-090/
+NABCB,QM091,Phistream Consulting Private Limited,ISO/IEC 17021-1,ACTIVE,2025-03-11,2028-03-10,https://nabcb.qci.org.in/qm-091/
+NABCB,QM092,DI Quality Certification Services Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2025-03-21,2028-03-20,https://nabcb.qci.org.in/qm092/
+NABCB,QM093,Signox Evaluations Private Limited,ISO/IEC 17021-1,ACTIVE,2025-06-19,2028-06-18,https://nabcb.qci.org.in/qm-093/
+NABCB,QM094,Astraleus Services Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2026-02-27,2028-07-08,https://nabcb.qci.org.in/qm-094
+NABCB,QM095,BCI Management Systems Private Limited,ISO/IEC 17021-1,ACTIVE,2025-08-26,2028-08-25,https://nabcb.qci.org.in/qm-095
+NABCB,QM096,NOICE Academy Private Limited,ISO/IEC 17021-1,ACTIVE,2025-09-19,2028-09-18,https://nabcb.qci.org.in/qm-096
+NABCB,QM097,Nature Science Foundation,ISO/IEC 17021-1,ACTIVE,2025-11-11,2028-11-10,https://nabcb.qci.org.in/qm-097
+NABCB,QM098,Galaxy Certification Services Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2026-02-19,2029-02-18,https://nabcb.qci.org.in/qm-098
+NABCB,QM099,Ecoqual Cert LLP,ISO/IEC 17021-1,ACTIVE,2026-03-05,2029-03-04,https://nabcb.qci.org.in/qm-099
+NABCB,QM100,First Wave International Certification Private Limited,ISO/IEC 17021-1,ACTIVE,2026-03-09,2029-03-08,https://nabcb.qci.org.in/qm-100
+NABCB,QM101,IQMC Certification Private Limited,ISO/IEC 17021-1,ACTIVE,2026-03-31,2029-03-30,https://nabcb.qci.org.in/qm-101
+NABCB,QM102,BULGYO CERTIFICATION LLP,ISO/IEC 17021-1,ACTIVE,2026-03-31,2029-03-30,https://nabcb.qci.org.in/qm-102
+NABCB,QM103,Nustar Certification Inspection Private Limited.,ISO/IEC 17021-1,ACTIVE,2026-04-09,2029-04-08,https://nabcb.qci.org.in/qm-103
+NABCB,QM104,TPS Xperts Global Certifications Private Limited,ISO/IEC 17021-1,ACTIVE,2026-05-15,2029-05-14,https://nabcb.qci.org.in/qm-104
+NABCB,QM105,PRNS GLOBAL CERTIFICATIONS PRIVATE LIMITED,ISO/IEC 17021-1,ACTIVE,2026-07-09,2029-07-08,https://nabcb.qci.org.in/qm-105/
+NABCB,QM106,KBS Certification Services Ltd.,ISO/IEC 17021-1,ACTIVE,2026-08-17,2029-08-16,https://nabcb.qci.org.in/qm-106/
+NABCB,QM107,Credenza Certs India Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2026-09-30,2029-09-29,https://nabcb.qci.org.in/qm-107/

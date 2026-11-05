@@ -1,0 +1,24 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+DANAK,5001,DNV Business Assurance Denmark A/S,ISO/IEC 17021-1,ACTIVE,2025-01-13,2028-09-15,https://registry.danak.dk/registry/5001
+DANAK,5001 (50003),DNV Business Assurance Denmark A/S,ISO 50003,ACTIVE,2025-01-13,2028-09-15,https://registry.danak.dk/registry/5001
+DANAK,5004,Dancert A/S,ISO/IEC 17021-1,ACTIVE,2024-03-20,2028-04-01,https://registry.danak.dk/registry/5004
+DANAK,5005,Bureau Veritas Denmark A/S,ISO/IEC 17021-1,ACTIVE,2025-09-11,2029-09-15,https://registry.danak.dk/registry/5005
+DANAK,5005 (22000),Bureau Veritas Denmark A/S,ISO 22003-1,ACTIVE,2025-09-11,2029-09-15,https://registry.danak.dk/registry/5005
+DANAK,5005 (50003),Bureau Veritas Denmark A/S,ISO 50003,ACTIVE,2025-09-11,2029-09-15,https://registry.danak.dk/registry/5005
+DANAK,5005 (55001),Bureau Veritas Denmark A/S,ISO/IEC 17021-5,ACTIVE,2025-09-11,2029-09-15,https://registry.danak.dk/registry/5005
+DANAK,5008,FORCE Certification A/S,ISO/IEC 17021-1,ACTIVE,2024-12-16,2029-01-29,https://registry.danak.dk/registry/5008
+DANAK,5008 (22000),FORCE Certification A/S,ISO 22003-1,ACTIVE,2024-12-16,2029-01-29,https://registry.danak.dk/registry/5008
+DANAK,5008 (50003),FORCE Certification A/S,ISO 50003,ACTIVE,2024-12-16,2029-01-29,https://registry.danak.dk/registry/5008
+DANAK,5014,TEKNIQ Kvalitet ApS,ISO/IEC 17021-1,ACTIVE,2023-02-14,2027-02-15,https://registry.danak.dk/registry/5014
+DANAK,5015,Intertek DIC A/S,ISO/IEC 17021-1,ACTIVE,2025-03-10,2029-03-26,https://registry.danak.dk/registry/5015
+DANAK,5016,Baltic Control Certification A/S,ISO/IEC 17021-1,ACTIVE,2025-11-24,2030-01-04,https://registry.danak.dk/registry/5016
+DANAK,5016 (22000),Baltic Control Certification A/S,ISO 22003-1,ACTIVE,2025-11-24,2030-01-04,https://registry.danak.dk/registry/5016
+DANAK,5019,Bruun Inspektion A/S,ISO/IEC 17021-1,ACTIVE,2025-07-03,2029-07-09,https://registry.danak.dk/registry/5019
+DANAK,5021,Validan ApS,ISO/IEC 17021-1,ACTIVE,2023-08-17,2027-08-25,https://registry.danak.dk/registry/5021
+DANAK,5022,Valcert ApS,ISO/IEC 17021-1,ACTIVE,2025-01-31,2029-03-15,https://registry.danak.dk/registry/5022
+DANAK,5023,Compliance Group International ApS,ISO/IEC 17021-1,ACTIVE,2025-10-09,2030-01-12,https://registry.danak.dk/registry/5023
+DANAK,5023 (27006),Compliance Group International ApS,ISO/IEC 27006,ACTIVE,2025-10-09,2030-01-12,https://registry.danak.dk/registry/5023
+DANAK,5024,Dansk Audit Institut ApS,ISO/IEC 17021-1,ACTIVE,2025-11-24,2030-02-24,https://registry.danak.dk/registry/5024
+DANAK,5024 (27006),Dansk Audit Institut ApS,ISO/IEC 27006,ACTIVE,2025-11-24,2030-02-24,https://registry.danak.dk/registry/5024
+DANAK,5026,Elumi Certification ApS,ISO/IEC 17021-1,ACTIVE,2026-08-28,2030-12-18,https://registry.danak.dk/registry/5026
+DANAK,5026 (27006),Elumi Certification ApS,ISO/IEC 27006,ACTIVE,2026-08-28,2030-12-18,https://registry.danak.dk/registry/5026

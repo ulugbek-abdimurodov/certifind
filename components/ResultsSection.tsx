@@ -1,7 +1,13 @@
 "use client";
 
 import type { Body, ResultFilter, SearchResponse } from "../app/search-types";
-import { flagFor, matchesFilter, scopeListLabel } from "../app/search-data";
+import {
+  flagFor,
+  formatExpiry,
+  matchesFilter,
+  shortStandard,
+  standardsLabel,
+} from "../app/search-data";
 
 type ResultsSectionProps = {
   data: SearchResponse | null;
@@ -20,17 +26,20 @@ export function ResultsSection({
   onFilterChange,
   onSelect,
 }: ResultsSectionProps) {
+  // One pill per (country, accreditation body): ESYD accredits Greek, Cypriot and Maltese bodies.
   const accreditorInfo = data
     ? Array.from(
         new Map(
           data.results
             .filter((body) => body.accreditationBodyCode !== "ACCREDIA")
             .map((body) => [
-              body.accreditationBodyCode,
+              `${body.accreditationBodyCode}|${body.country}`,
               { code: body.accreditationBodyCode, country: body.country },
             ]),
         ).values(),
-      ).sort((a, b) => a.code.localeCompare(b.code))
+      ).sort(
+        (a, b) => a.country.localeCompare(b.country) || a.code.localeCompare(b.code),
+      )
     : [];
   const filteredResults =
     data?.results.filter((body) => matchesFilter(body, resultFilter)) ?? [];
@@ -62,7 +71,7 @@ export function ResultsSection({
               <p>
                 {data.directory
                   ? "Elenco completo delle aziende presenti nel database"
-                  : `Per ${iso} · ${data.resolvedEaDescription} (EA ${data.resolvedEaCode})`}
+                  : `Per ${shortStandard(iso)} · ${data.resolvedEaDescription} (EA ${data.resolvedEaCode})`}
               </p>
             </div>
             <div className="results-mark">
@@ -83,17 +92,19 @@ export function ResultsSection({
                   >
                     Tutti ({countForFilter("all")})
                   </FilterButton>
-                  <FilterButton
-                    active={resultFilter === "italy"}
-                    onClick={() => onFilterChange("italy")}
-                  >
-                    Italia • ACCREDIA ({countForFilter("italy")})
-                  </FilterButton>
+                  {countForFilter("italy") > 0 && (
+                    <FilterButton
+                      active={resultFilter === "italy"}
+                      onClick={() => onFilterChange("italy")}
+                    >
+                      Italia • ACCREDIA ({countForFilter("italy")})
+                    </FilterButton>
+                  )}
                   {accreditorInfo.map(({ code, country }) => {
-                    const filter = `accreditor:${code}` as const;
+                    const filter = `accreditor:${code}|${country}` as const;
                     return (
                       <FilterButton
-                        key={code}
+                        key={filter}
                         active={resultFilter === filter}
                         onClick={() => onFilterChange(filter)}
                       >
@@ -123,18 +134,26 @@ export function ResultsSection({
                           <h3>{body.name}</h3>
                         </div>
                         <div className="scope-subtitle">
-                          Scopo accreditato: {body.scopeSection}
+                          Scopo accreditato:{" "}
+                          {body.scopes.length
+                            ? standardsLabel(body.scopes)
+                            : data.directory
+                              ? body.scopeSection
+                              : iso}
                         </div>
                         <div className="result-meta">
                           <span>{body.country}</span>
                           <i /> <span>{body.accreditationBodyCode}</span>
                           <i />{" "}
                           <span>
-                            {data.directory
-                              ? body.scopes.length
-                                ? scopeListLabel(body.scopes)
-                                : "Nessun settore disponibile"
-                              : `${iso} · ${body.scopes.length ? scopeListLabel(body.scopes) : `EA ${body.eaCode}`}`}
+                            {(() => {
+                              const expiry = formatExpiry(
+                                body.expiryDate ??
+                                  body.scopes.find((s) => s.expiryDate)?.expiryDate ??
+                                  null,
+                              );
+                              return expiry ? `Scadenza ${expiry}` : "Scadenza non disponibile";
+                            })()}
                           </span>
                         </div>
                         <div className="verified-label">

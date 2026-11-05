@@ -1,0 +1,5 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+EAK,MSC004,Bureau Veritas Eesti Ltd,ISO/IEC 17021-1,ACTIVE,2025-12-16,2030-12-15,https://eak.ee/index_eng.php?pageCus=akr&id=415
+EAK,MSC004 (22000),Bureau Veritas Eesti Ltd,ISO 22003-1,ACTIVE,2025-12-16,2030-12-15,https://eak.ee/index_eng.php?pageCus=akr&id=415
+EAK,MSC002,KIWA Estonia OÜ,ISO/IEC 17021-1,ACTIVE,2022-11-02,2027-11-01,https://eak.ee/index_eng.php?pageCus=akr&id=201
+EAK,MSC001,Metrosert Ltd.,ISO/IEC 17021-1,ACTIVE,2024-02-06,2029-02-05,https://eak.ee/index_eng.php?pageCus=akr&id=469

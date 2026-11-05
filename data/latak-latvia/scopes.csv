@@ -1,0 +1,46 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+S2-307,ISO 9001,2;4;6-7;10;12;14-20;22-23;25-29;31-37;39,ACTIVE,
+S2-307,ISO 14001,2;4;6;15-20;22-23;25-29;31-37;39,ACTIVE,
+S2-307,ISO 45001,2;4-6;15-20;22-23;25-29;31-37;39,ACTIVE,
+S2-402,ISO 9001,1-10;12;14-19;22-24;28-39,ACTIVE,
+S2-402,ISO 14001,1-10;12;14-19;22-24;28-39,ACTIVE,
+S2-402,ISO 45001,1-10;12;14-19;22-24;28-39,ACTIVE,
+S2-402,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; In vitro diagnostic medical devices; Parts or services (classified to EA by sector)
+S2-402 (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G (classified to EA by sector)"
+S2-402 (50003),ISO 50001,ALL,ACTIVE,"Assessed according to ISO 50003; no technical-area list in annex, recorded for all EA sectors"
+S2-402 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+S2-402 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+S2-402,ISO 21001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+S2-402,ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+S2-402 (20000-6),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+S2-402,ISO 22301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+S2-424,ISO 9001,2-4;6-9;12-20;22-39,ACTIVE,
+S2-424,ISO 14001,2-4;6-9;12-20;22-37;39,ACTIVE,
+S2-424,ISO 45001,2-4;6;8-9;12-13;15-20;22-23;25-37;39,ACTIVE,
+S2-424 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+S2-424 (50003),ISO 50001,ALL,ACTIVE,"Assessed according to ISO 50003; no technical-area list in annex, recorded for all EA sectors"
+S2-424,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Sterilization methods; Parts or services; In vitro diagnostic medical devices (classified to EA by sector)
+S2-424 (22000),ISO 22000,1;3;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G (classified to EA by sector)"
+S2-443,ISO 9001,2-4;6-9;12-19;22-23;25;27-39,ACTIVE,"Limited scope (part of the sector): EA 2 (NACE 05, 07, 08, 09.9); EA 7 (NACE 17.2); EA 18 (NACE 28, 33.12, 33.2); EA 31 (NACE 49.1, 49.4, 50, 52.1, 52.21, 52.22, 52.23, 52.24, 52.25, 52.26, 52.29, 61); EA 35 (NACE 69, 70, 73, 74.2, 74.3, 78, 80, 82); EA 38 (NACE 86); EA 39 (NACE 37, 38.1, 38.2, 39, 94)"
+S2-443,ISO 14001,2-4;6-9;12-19;22-23;25-37;39,ACTIVE,"Limited scope (part of the sector): EA 2 (NACE 05.1, 05.2, 07.1, 07.2, 08.1, 08.9, 09.9); EA 7 (NACE 17.2); EA 18 (NACE 28, 33.12, 33.2); EA 31 (NACE 49.1, 49.4, 50, 52.1, 52.21, 52.22, 52.23, 52.24, 52.25, 52.26, 52.29, 53, 61); EA 39 (NACE 03, 07, 38.1, 38.2, 39, 94)"
+S2-443,ISO 45001,2-4;6-9;12-19;22-23;25;27-37;39,ACTIVE,"Limited scope (part of the sector): EA 2 (NACE 05.1, 05.2, 07.1, 07.2, 08.1, 08.9, 09.9); EA 7 (NACE 17.2); EA 18 (NACE 28, 33.12, 33.2); EA 31 (NACE 49.1, 49.4, 50, 52.1, 52.21, 52.22, 52.23, 52.24, 52.25, 52.26, 52.29, 53, 61); EA 39 (NACE 37, 38.1, 38.2, 39, 94)"
+S2-443 (50003),ISO 50001,ALL,ACTIVE,"Assessed according to ISO 50003; no technical-area list in annex, recorded for all EA sectors"
+S2-443 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+S2-471 (22000),ISO 22000,12-13,ACTIVE,ISO 22003-1 categories K (classified to EA by sector)
+S2-564,ISO 9001,1-9;12;14;16-19;22-25;27-39,ACTIVE,"Limited scope (part of the sector): EA 1 (NACE 01 except 01.4, 01.5, 01.7, 02); EA 2 (NACE 08); EA 3 (NACE 10, 11); EA 7 (NACE 17.2); EA 17 (NACE 25 except 25.4, 33.11); EA 25 (NACE 35.1 except 35.12, 35.13); EA 29 (NACE 46, 47, 95.2); EA 30 (NACE 56); EA 39 (NACE 37, 38.1, 38.3, 39, 59.1, 60, 63.9, 79, 90, 91, 92, 93, 94, 96)"
+S2-564,ISO 14001,1-9;12;14;16-19;22-24;27-37;39,ACTIVE,"Limited scope (part of the sector): EA 1 (NACE 01 except 01.4, 01.5, 01.7, 02); EA 2 (NACE 08); EA 3 (NACE 10, 11); EA 17 (NACE 25 except 25.4, 33.11); EA 22 (NACE 29, 30.9, 33.17); EA 29 (NACE 46, 47, 95.2); EA 30 (NACE 56); EA 39 (NACE 37, 38.1, 38.3, 39, 59.1, 60, 63.9, 79, 90, 91, 92, 93, 94, 96)"
+S2-564,ISO 45001,1;3-4;6-7;9;12;14;17-19;22-24;28-37;39,ACTIVE,"Limited scope (part of the sector): EA 3 (NACE 10, 11); EA 17 (NACE 25 except 25.4, 33.11); EA 18 (NACE 28, 33.12, 33.2); EA 22 (NACE 29, 30.9, 33.17); EA 29 (NACE 46, 47, 95.2); EA 30 (NACE 56); EA 39 (NACE 37, 38.1, 38.3, 39, 59.1, 60, 63.9, 79, 90, 91, 92, 93, 94, 96)"
+S2-564 (22000),ISO 22000,1;3;7;12-15;17;29;31,ACTIVE,"ISO 22003-1 categories B, C, F, G, I, K (classified to EA by sector)"
+S2-564 (22000),FSSC 22000,1;3;7;12-15;17;29;31,ACTIVE,"ISO 22003-1 categories B, C, F, G, I, K (classified to EA by sector)"
+S2-564,ISO 22301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+S2-564,ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+S2-564 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+S2-564 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+S2-641 (50003),ISO 50001,ALL,ACTIVE,"Assessed according to ISO 50003; no technical-area list in annex, recorded for all EA sectors"
+S2-694 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C, D (classified to EA by sector)"
+S2-697,ISO 9001,1-3;7;10;12;15-20;22;24;28-39,ACTIVE,
+S2-697,ISO 14001,3;12;14-19;22;24;28-39,ACTIVE,
+S2-697,ISO 45001,3;12;14-15;17-19;22;24;28-39,ACTIVE,
+S2-698,ISO 9001,17;31;35,ACTIVE,"Limited scope (part of the sector): EA 31 (NACE 49.2, 49.4, 52, 53.2); EA 35 (NACE 69, 70, 73, 74.3, 78, 80, 81, 82)"
+S2-698,ISO 14001,31,ACTIVE,"Limited scope (part of the sector): EA 31 (NACE 49.2, 49.4, 52, 53.2)"
+S2-712,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services (classified to EA by sector)

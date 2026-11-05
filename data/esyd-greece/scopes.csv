@@ -1,0 +1,314 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+1007,ISO 14001,2-3;6-7;9;12;14-19;22;24;28-35;37-39,ACTIVE,"Limited scope (part of the sector) for EA 2-3, 7, 9, 12, 17-19, 22, 29, 31-33, 35, 37-39"
+1007,ISO 22301,33;35,ACTIVE,
+1007,ISO 45001,2-3;6-7;9;12;14-20;22-24;28-35;37-39,ACTIVE,
+1007,ISO 9001,2-3;6-7;9;12;14-20;22;24;28-35;37-39,ACTIVE,"Limited scope (part of the sector) for EA 2-3, 9, 12, 17-19, 22, 29, 31, 37-38"
+1007 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1007 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1007 (50003),ISO 50001,3-9;12-14;18-19;22-24;30;32;36-39,ACTIVE,"ISO 50003 technical areas A, C (classified to EA by sector)"
+1008,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Devices incorporating specific substances / technologies; Parts or services (classified to EA by sector)
+1008,ISO 14001,4;9;12;14;16-19;24;28-31;33-35;37-39,ACTIVE,"Limited scope (part of the sector) for EA 9, 12, 16-19, 29-31, 34-35, 37-39"
+1008,ISO 22301,28-29;33;35;37,ACTIVE,
+1008,ISO 45001,3-4;6-7;9;12;14-20;23-24;28-35;37-39,ACTIVE,
+1008,ISO 9001,1;3-4;6;9;12;14-20;22-24;28-35;37-39,ACTIVE,"Limited scope (part of the sector) for EA 1, 3, 9, 12, 17-18, 31, 37-38"
+1008 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1008 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1008 (50003),ISO 50001,30-32;36-39,ACTIVE,"ISO 50003 technical areas C, D, E (classified to EA by sector)"
+1033,ISO 14001,17-20;22;24;28-29;32-35;37;39,ACTIVE,"Limited scope (part of the sector) for EA 17-18, 32, 39"
+1033,ISO 22301,28-29;31;33-35;39,ACTIVE,
+1033,ISO 45001,17-20;22;28-29;31-35;37;39,ACTIVE,
+1033,ISO 9001,17-20;22;24;28-29;31-32;34-37;39,ACTIVE,"Limited scope (part of the sector) for EA 17-19, 29, 31"
+1033 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1033 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1033 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1033 (50003),ISO 50001,3-9;12-14;18-19;22-24;30-32;36-39,ACTIVE,"ISO 50003 technical areas A, C, E (classified to EA by sector)"
+1037,ISO 14001,17-18;29,ACTIVE,"Limited scope (part of the sector) for EA 17-18, 29"
+1037,ISO 9001,17-19;28-30;33-35,ACTIVE,"Limited scope (part of the sector) for EA 17-19, 34-35"
+1099,ISO 14001,2;9;15-19;23-24;28-29;31-39,ACTIVE,"Limited scope (part of the sector) for EA 2, 17-18, 23, 31, 38-39"
+1099,ISO 45001,2;9;15-19;23-24;28-29;31-35;38-39,ACTIVE,
+1099,ISO 9001,1;3;6-9;15-19;23-24;28-39,ACTIVE,"Limited scope (part of the sector) for EA 1, 3, 17-19, 29, 31, 38"
+1099 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1099 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors; Listed in the ISO/IEC 27001 annex (1.225328_en.doc)
+1099 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1099 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+110,ISO 14001,1-8;10;12-19;22-39,ACTIVE,"Limited scope (part of the sector) for EA 1-3, 8, 12, 17-19, 22-23, 27, 29, 31-32, 36, 38-39"
+110,ISO 22301,3;17-19;28-35;37;39,ACTIVE,
+110,ISO 45001,1-4;6-10;12-19;23-35;37-39,ACTIVE,
+110,ISO 9001,1-10;12-20;22-39,ACTIVE,"Limited scope (part of the sector) for EA 1-3, 12, 18-19, 22, 31, 37"
+110 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+110 (22000),FSSC 22000,1;3;7;14-15;17,ACTIVE,"ISO 22003-1 categories B, C, I (classified to EA by sector)"
+110 (22000),ISO 22000,1;3;7;14-15;17-18;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, I, J (classified to EA by sector)"
+110 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+110 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors; Listed in the ISO/IEC 27001 annex (1.179906_en.doc)
+110 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+110 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+110 (50003),ISO 50001,2-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, E, F, H (classified to EA by sector)"
+1151,ISO 9001,35;37;39,ACTIVE,"Limited scope (part of the sector) for EA 35, 37, 39"
+1151 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1151 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors; Listed in the ISO/IEC 27001 annex (1.225762_en.doc)
+1164,ISO 14001,17-18;29-30,ACTIVE,"Limited scope (part of the sector) for EA 17-18, 29"
+1164,ISO 45001,17-18;29-30,ACTIVE,
+1164,ISO 9001,17-18;29-30;38,ACTIVE,"Limited scope (part of the sector) for EA 17-18, 29, 38"
+1164 (22000),ISO 22000,1;3;29-30,ACTIVE,"ISO 22003-1 categories B, C, E, F (classified to EA by sector)"
+1174,ISO 13485,18;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Parts or services (classified to EA by sector)
+1174,ISO 14001,28-29;31;33-35;37;39,ACTIVE,"Limited scope (part of the sector) for EA 29, 31, 34, 37"
+1174,ISO 22301,1;12;14;17-19;23-24;28-35;37-39,ACTIVE,
+1174,ISO 37301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1174,ISO 41001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1174,ISO 45001,17-20;22;24;28-29;31-35;39,ACTIVE,
+1174,ISO 55001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1174,ISO 9001,4;6-9;12;14;17-20;22-24;28-29;31-37;39,ACTIVE,"Limited scope (part of the sector) for EA 9, 12, 17-19, 31"
+1174 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1174 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1174 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors; Listed in the ISO/IEC 27001 annex (1.309396_en.doc)
+1174 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1174 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1174 (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1174 (50003),ISO 50001,3-9;12-14;18-19;22-24;30-32;36-39,ACTIVE,"ISO 50003 technical areas A, C, E (classified to EA by sector)"
+1177,ISO 22301,29;31;33;35;37,ACTIVE,
+1177,ISO 9001,17;28-29;31-37,ACTIVE,"Limited scope (part of the sector) for EA 17, 29, 31"
+1177 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1177 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1177 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors; Listed in the ISO/IEC 27001 annex (1.438839_en.doc)
+1177 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1202,ISO 14001,3;17-19;23;28-30;34-35,ACTIVE,"Limited scope (part of the sector) for EA 3, 17-19, 29-30, 35"
+1202,ISO 45001,17-19;23;28-29;34-35,ACTIVE,
+1202,ISO 9001,3;17-19;23;28-30;33-35,ACTIVE,"Limited scope (part of the sector) for EA 3, 17-19, 29"
+1202 (22000),FSSC 22000,3;29,ACTIVE,"ISO 22003-1 categories C, F (classified to EA by sector)"
+1202 (22000),ISO 22000,1;3;7;14-15;17;29-30,ACTIVE,"ISO 22003-1 categories B, C, E, F, I (classified to EA by sector)"
+1202 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1222,ISO 45001,2;6-7;9;14-20;23-24;28-29;31-35;39,ACTIVE,
+1222,ISO 46001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1222,ISO 55001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1222,ISO 9001,1-2;6-7;9;12;14-20;22-24;28-37;39,ACTIVE,"Limited scope (part of the sector) for EA 1-2, 12, 17-19, 31, 37"
+1222 (22000),ISO 22000,30,ACTIVE,ISO 22003-1 categories E (classified to EA by sector)
+1222 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1222 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1222 (50003),ISO 50001,3-9;12-14;18-19;22-24;30-32;36-39,ACTIVE,"ISO 50003 technical areas A, C, E (classified to EA by sector)"
+1224,ISO 21001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1224,ISO 29993,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1224,ISO 9001,35;37;39,ACTIVE,"Limited scope (part of the sector) for EA 35, 37, 39"
+1224 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1224 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors; Listed in the ISO/IEC 27001 annex (1.293952_en.doc)
+1224 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1251,ISO 14001,1-10;12-21;23-39,ACTIVE,"Limited scope (part of the sector) for EA 1-3, 6, 8-9, 12, 17-18, 29, 39"
+1251,ISO 22301,3;16;28-31;33;35;38,ACTIVE,
+1251,ISO 37301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1251,ISO 45001,1-10;12-21;23-39,ACTIVE,
+1251,ISO 9001,1-10;12-21;23-39,ACTIVE,"Limited scope (part of the sector) for EA 2, 9, 12, 23"
+1251 (22000),ISO 22000,1;3;12-13;29-31,ACTIVE,"ISO 22003-1 categories B, C, E, F, G, K (classified to EA by sector)"
+1251 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1251 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors; Listed in the ISO/IEC 27001 annex (1.360384_en.doc)
+1251 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1251 (50003),ISO 50001,1-10;12-24;28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, E, F, G (classified to EA by sector)"
+1268,ISO 14001,9;12;14;18-19;23-24;28-32;34-35;39,ACTIVE,"Limited scope (part of the sector) for EA 12, 31, 39"
+1268,ISO 22301,12;29;32;35,ACTIVE,
+1268,ISO 45001,12;18;24;28-29;31-35;39,ACTIVE,
+1268,ISO 9001,1;3;5-7;9;12;14;17-19;23-24;28-35;37;39,ACTIVE,"Limited scope (part of the sector) for EA 12, 31, 37"
+1268 (22000),ISO 22000,1;3;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, E, F, G (classified to EA by sector)"
+1268 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1268 (50003),ISO 50001,30;32;36-39,ACTIVE,"ISO 50003 technical areas C, D (classified to EA by sector)"
+1364,ISO 9001,3;30,ACTIVE,Limited scope (part of the sector) for EA 3
+1364 (22000),ISO 22000,3;30,ACTIVE,"ISO 22003-1 categories C, E (classified to EA by sector)"
+1367,EN 15224,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1367,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Non-active medical devices; In vitro diagnostic medical devices; Parts or services (classified to EA by sector)
+1367,ISO 9001,4;7;12;23;29;31;34;37-38,ACTIVE,"Limited scope (part of the sector) for EA 12, 29, 31, 34"
+1367 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1378,ISO 21001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1378,ISO 22301,33;35;37,ACTIVE,
+1378,ISO 29993,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1378,ISO 9001,33;35;37,ACTIVE,
+1378 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1378 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors; Listed in the ISO/IEC 27001 annex (1.382890_en.doc)
+1378 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1396,ISO 21001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1396,ISO 22301,35;37;39,ACTIVE,
+1396,ISO 29993,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1396,ISO 9001,35;37;39,ACTIVE,"Limited scope (part of the sector) for EA 35, 37, 39"
+1396 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1396 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors; Listed in the ISO/IEC 27001 annex (1.444347_en.doc)
+1396 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1404,ISO 14001,6;9;17-18;23-24;28-29;31-35;39,ACTIVE,"Limited scope (part of the sector) for EA 9, 17-18, 29, 31-35, 39"
+1404,ISO 45001,6;9;17-19;23-24;28-29;31-35;37;39,ACTIVE,
+1404,ISO 9001,6;9;17-19;24;28-29;31-35;37;39,ACTIVE,"Limited scope (part of the sector) for EA 17-19, 31"
+1404 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1428,ISO 22301,28;34-35,ACTIVE,
+1428,ISO 9001,28-29;32;34-35,ACTIVE,"Limited scope (part of the sector) for EA 29, 34"
+1428 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1428 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1428 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1431,ISO 14001,1;3;6;8;14;17-19;22;24;28-35;37;39,ACTIVE,"Limited scope (part of the sector) for EA 1, 3, 8, 17-19, 22, 29, 31-32, 35, 39"
+1431,ISO 22301,3;28-30;33,ACTIVE,
+1431,ISO 45001,3;18-19;24;28-29;31;33;35;39,ACTIVE,
+1431,ISO 9001,1;3-4;6-9;12;14;16-19;23-24;28-39,ACTIVE,"Limited scope (part of the sector) for EA 1, 3, 12, 17-19, 29, 31, 37"
+1431 (22000),ISO 22000,3;7;14-15;17;29-31,ACTIVE,"ISO 22003-1 categories C, E, F, G, I (classified to EA by sector)"
+1431 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1431 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1443,ISO 14001,24;28-29;31-37;39,ACTIVE,Limited scope (part of the sector) for EA 31
+1443,ISO 45001,24;28-29;31-37;39,ACTIVE,
+1443,ISO 9001,3;18;24;28-37;39,ACTIVE,"Limited scope (part of the sector) for EA 18, 31"
+1443 (22000),ISO 22000,3,ACTIVE,ISO 22003-1 categories C (classified to EA by sector)
+1447,ISO 14001,18;31;34;36,ACTIVE,"Limited scope (part of the sector) for EA 18, 31, 34"
+1447,ISO 22301,31;33,ACTIVE,
+1447,ISO 9001,31;33-34;36,ACTIVE,Limited scope (part of the sector) for EA 31
+1457,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Parts or services (classified to EA by sector)
+1457,ISO 9001,1;3;7-9;29-31,ACTIVE,"Limited scope (part of the sector) for EA 1, 3, 9, 29, 31"
+1457 (22000),ISO 22000,1;7;14-15;17;29;31,ACTIVE,"ISO 22003-1 categories B, F, G, I (classified to EA by sector)"
+1457 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1498,ISO 14001,3;7;9;28-29;32-35;37-38,ACTIVE,"Limited scope (part of the sector) for EA 3, 29, 32, 34-35, 38"
+1498,ISO 45001,3;7;9;28-29;32-35;37-38,ACTIVE,
+1498,ISO 9001,7;9;28-29;32-35;37-38,ACTIVE,Limited scope (part of the sector) for EA 38
+1498 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+185,EN 15224,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+185,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Non-active medical devices; In vitro diagnostic medical devices; Parts or services; Active (non-implantable) medical devices; Sterilization methods (classified to EA by sector)
+185,ISO 14001,2-4;6;8-9;12-19;23-25;27-39,ACTIVE,"Limited scope (part of the sector) for EA 2, 4, 8-9, 18-19, 23, 27, 31-32, 34-36, 38-39"
+185,ISO 18295,25-27;29;31-33;35,ACTIVE,
+185,ISO 21001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+185,ISO 21401,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+185,ISO 22301,3;10;17;19;25-26;28-36,ACTIVE,
+185,ISO 29993,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+185,ISO 37301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+185,ISO 41001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+185,ISO 45001,2-3;6;8-9;12;14-19;21;23-26;28-35;37-39,ACTIVE,
+185,ISO 55001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+185,ISO 9001,1-10;12-20;22-24;26-39,ACTIVE,"Limited scope (part of the sector) for EA 1-2, 12, 18, 29, 31, 38"
+185 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+185 (22000),ISO 22000,1;3;7;14-15;17;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, I (classified to EA by sector)"
+185 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+185 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors; Listed in the ISO/IEC 27001 annex (1.396702_en.doc)
+185 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+185 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+185 (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+185 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, H (classified to EA by sector)"
+193,EN 15224,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+193,ISO 13485,18;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Parts or services (classified to EA by sector)
+193,ISO 14001,8-9;12;14;18-19;28-35;39,ACTIVE,"Annex lists NACE codes; classified to EA with the IAF ID 1 table; Limited scope (part of the sector) for EA 8-9, 12, 18-19, 31, 33, 39"
+193,ISO 22301,28-31;33-35;39,ACTIVE,
+193,ISO 41001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+193,ISO 45001,12;14;16-19;23-24;28-35;39,ACTIVE,
+193,ISO 9001,1;3-4;6-9;12;14-19;23-24;28-39,ACTIVE,"Limited scope (part of the sector) for EA 1, 3, 12, 17-18, 29, 31, 38"
+193 (22000),ISO 22000,1;3;7;14-15;17;29-31,ACTIVE,"ISO 22003-1 categories B, C, E, F, G, I (classified to EA by sector)"
+193 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+193 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors; Listed in the ISO/IEC 27001 annex (1.281006_en.doc)
+193 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+193 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+193 (50003),ISO 50001,3-9;12-14;18-19;22-24;30-32;36-39,ACTIVE,"ISO 50003 technical areas A, C, D, E (classified to EA by sector)"
+204,EN 15224,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+204,ISO 22301,29;31;33-35,ACTIVE,
+204,ISO 37301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+204 (22000),ISO 22000,1;3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories B, C, D, E, F, G, I, K (classified to EA by sector)"
+204 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+204 (50003),ISO 50001,2-10;12-24;28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F (classified to EA by sector)"
+236,EN 15224,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+236,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services (classified to EA by sector)
+236,ISO 14001,1-3;6-10;12-19;22-26;28-39,ACTIVE,"Limited scope (part of the sector) for EA 1, 3, 8-9, 12, 15, 18-19, 23, 29, 31-32, 34-35, 38-39"
+236,ISO 21001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+236,ISO 22301,3;12;17-19;23;26-29;31-37;39,ACTIVE,
+236,ISO 29993,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+236,ISO 37301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+236,ISO 3834,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+236,ISO 41001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+236,ISO 45001,1-4;6-7;9-10;12;14-20;22-35;37-39,ACTIVE,
+236,ISO 46001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+236,ISO 55001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+236,ISO 9001,1-4;6-10;12-20;22-39,ACTIVE,"Limited scope (part of the sector) for EA 1-2, 9, 17-18, 31"
+236 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+236 (22000),FSSC 22000,1;3;7;12-15;17;29-30,ACTIVE,"ISO 22003-1 categories B, C, E, F, I, K (classified to EA by sector)"
+236 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, H, I, J, K (classified to EA by sector)"
+236 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+236 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors; Listed in the ISO/IEC 27001 annex (1.24960_en.doc)
+236 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+236 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+236 (50003),ISO 50001,2-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F, H (classified to EA by sector)"
+282,ISO 14001,1;3;6-8;10;12;14-17;19;23-35;37-39,ACTIVE,"Limited scope (part of the sector) for EA 1, 7-8, 12, 14-17, 19, 23, 31-32, 34, 38"
+282,ISO 22301,28-29;31-35;37;39,ACTIVE,
+282,ISO 45001,2-3;6;12;14-18;23;25;27-39,ACTIVE,
+282,ISO 9001,1-3;6-7;9-10;12-19;23;25;28-39,ACTIVE,"Limited scope (part of the sector) for EA 2-3, 12, 17-19, 29, 31, 38"
+282 (22000),ISO 22000,3;7;14-15;17;29-30,ACTIVE,"ISO 22003-1 categories C, E, F, I (classified to EA by sector)"
+282 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+282 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors; Listed in the ISO/IEC 27001 annex (1.184310_en.doc)
+282 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+282 (50003),ISO 50001,10;15-17;20-21;25-28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas B, C, D, H (classified to EA by sector)"
+3,EN 15224,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+3,ISO 14001,1;3-4;6-10;12;14-15;17-39,ACTIVE,"Annex lists NACE codes; classified to EA with the IAF ID 1 table; Limited scope (part of the sector) for EA 1, 8, 10, 12, 17-27, 29, 33, 39"
+3,ISO 22301,2;9;13;18-19;24-25;27-36;38-39,ACTIVE,
+3,ISO 37301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+3,ISO 41001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+3,ISO 45001,1-4;6-9;12;14-24;28-35;38-39,ACTIVE,
+3,ISO 9001,1-4;6-10;12-26;28-39,ACTIVE,"Limited scope (part of the sector) for EA 2-3, 12, 31, 38"
+3 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+3 (22000),FSSC 22000,1;3;7;14-15;17,ACTIVE,"ISO 22003-1 categories B, C, I (classified to EA by sector)"
+3 (22000),ISO 22000,1;3;7;14-15;17;29-31;35,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, H, I (classified to EA by sector)"
+3 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+3 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors; Listed in the ISO/IEC 27001 annex (1.106369_en.doc)
+3 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+3 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+3 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F, G, H (classified to EA by sector)"
+546,ISO 14001,3;5-7;9;13-20;22-24;28-39,ACTIVE,"Limited scope (part of the sector) for EA 3, 5, 9, 13, 16-18, 22-23, 29, 31-33, 35, 38-39"
+546,ISO 22301,28-29;32-35;37;39,ACTIVE,
+546,ISO 41001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+546,ISO 45001,3-6;13-14;17-20;22-24;28-35;37;39,ACTIVE,
+546,ISO 9001,1-10;12-20;22-24;28-39,ACTIVE,"Limited scope (part of the sector) for EA 1-2, 9, 12, 17-19, 31, 38"
+546 (22000),ISO 22000,1;3;7;14-15;17;29-31;35,ACTIVE,"ISO 22003-1 categories B, C, E, F, G, H, I (classified to EA by sector)"
+546 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+546 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors; Listed in the ISO/IEC 27001 annex (1.345045_en.doc)
+546 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+546 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+58,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services (classified to EA by sector)
+58,ISO 14001,18-19;29;31,ACTIVE,"Limited scope (part of the sector) for EA 18-19, 29, 31"
+58,ISO 9001,12-13;18-19;23;29;31;33;35;38,ACTIVE,"Limited scope (part of the sector) for EA 12, 18-19, 29, 31, 35, 38"
+58 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+581,ISO 9001,17-18;29;31,ACTIVE,Limited scope (part of the sector) for EA 31
+656,ISO 14001,1;3;6;12;14;17-19;23-24;28-32;35;39,ACTIVE,"Limited scope (part of the sector) for EA 1, 3, 12, 17-19, 23, 31-32, 35, 39"
+656,ISO 22301,1;23-24;28-29;31;33;35;39,ACTIVE,
+656,ISO 41001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+656,ISO 45001,1;6;12;14;17-19;23-24;28-32;35;39,ACTIVE,
+656,ISO 9001,1;3;7;9;12;14;16-19;23-24;28-39,ACTIVE,"Limited scope (part of the sector) for EA 1, 3, 12, 17-18, 31, 37-38"
+656 (22000),ISO 22000,1;3;29-31,ACTIVE,"ISO 22003-1 categories B, C, E, F, G (classified to EA by sector)"
+656 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+656 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+656 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+656 (50003),ISO 50001,3-9;12-14;18-19;22-24;30-32;36-39,ACTIVE,"ISO 50003 technical areas A, C, E (classified to EA by sector)"
+692,ISO 14001,3;9;12;14-17;19;23-25;28-37;39,ACTIVE,"Annex lists NACE codes; classified to EA with the IAF ID 1 table; Limited scope (part of the sector) for EA 9, 12, 14-17, 19, 24-25, 33-34, 36, 39"
+692,ISO 22301,19;28-31;33-35,ACTIVE,
+692,ISO 45001,3;9;12;14;16-19;24-25;28-35;37;39,ACTIVE,
+692,ISO 9001,3-4;6-7;9;12;14-20;22-25;28-39,ACTIVE,"Limited scope (part of the sector) for EA 3, 12, 17-19, 22, 31, 37-38"
+692 (22000),ISO 22000,3;7;14-15;17;29-31,ACTIVE,"ISO 22003-1 categories C, E, F, G, I (classified to EA by sector)"
+692 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+692 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+692 (50003),ISO 50001,30;32;36-39,ACTIVE,"ISO 50003 technical areas C, D (classified to EA by sector)"
+708,ISO 9001,3,ACTIVE,Limited scope (part of the sector) for EA 3
+708 (22000),ISO 22000,1;3;29;31,ACTIVE,"ISO 22003-1 categories B, C, D, F, G (classified to EA by sector)"
+725,ISO 14001,3;10;16-18;24;28-31;34-35;39,ACTIVE,"Limited scope (part of the sector) for EA 17-18, 31, 39"
+725,ISO 45001,17-18;28-29;31;34-35,ACTIVE,
+725,ISO 9001,1;3-4;6-7;9;12;14;16-19;23-24;28-30;33-35;37-38,ACTIVE,"Limited scope (part of the sector) for EA 1, 12, 17-19, 29, 35, 37-38"
+725 (22000),FSSC 22000,3;7;14-15;17;31,ACTIVE,"ISO 22003-1 categories C, G, I (classified to EA by sector)"
+725 (22000),ISO 22000,1;3;7;14-15;17;29-31,ACTIVE,"ISO 22003-1 categories B, C, D, E, F, G, I (classified to EA by sector)"
+725 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+767,ISO 9001,7;9;17-20;22;29;31,ACTIVE,"Limited scope (part of the sector) for EA 17-19, 31"
+826,ISO 9001,1;29;35,ACTIVE,"Limited scope (part of the sector) for EA 1, 29, 35"
+826 (22000),ISO 22000,1;3;29,ACTIVE,"ISO 22003-1 categories B, C, F (classified to EA by sector)"
+831,ISO 14001,2-3;15-19;24;28-35;39,ACTIVE,"Limited scope (part of the sector) for EA 2-3, 17-19, 29, 31-35, 39"
+831,ISO 45001,2-3;14;16-19;24;28-31;34-35;37-39,ACTIVE,
+831,ISO 9001,2-3;14-19;22-24;28-35;37-39,ACTIVE,"Limited scope (part of the sector) for EA 2-3, 17-18, 29, 31, 38"
+831 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+865,ISO 14001,17-19;25;28-30,ACTIVE,"Limited scope (part of the sector) for EA 17-19, 28-29"
+865,ISO 22301,18;28-29;34,ACTIVE,
+865,ISO 45001,18-19;25;28-29;34,ACTIVE,
+865,ISO 9001,3;12;17-19;23;25;28-36;38-39,ACTIVE,"Limited scope (part of the sector) for EA 3, 12, 17-19, 29, 31, 38"
+865 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+915,ISO 14001,2;14-17;19;22-24;28-35;38-39,ACTIVE,"Limited scope (part of the sector) for EA 2, 15-17, 19, 22-23, 29, 31-35, 38-39"
+915,ISO 45001,2;14-20;24;28-29;31-35;37-39,ACTIVE,
+915,ISO 9001,2-4;9;12;14-20;22-24;28-35;37-39,ACTIVE,"Limited scope (part of the sector) for EA 2-3, 12, 17-19, 22, 28-29, 31, 38-39"
+915 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+915 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+915 (50003),ISO 50001,3-9;12-14;18-19;22-24;30-32;36-39,ACTIVE,"ISO 50003 technical areas A, C, E (classified to EA by sector)"
+945,ISO 14001,28-29;34-35,ACTIVE,Annex lists NACE codes; classified to EA with the IAF ID 1 table; Limited scope (part of the sector) for EA 29
+945,ISO 45001,28;34-35,ACTIVE,
+945,ISO 9001,17-18;28-29;31;33-35,ACTIVE,"Limited scope (part of the sector) for EA 18, 31"
+945 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+963,ISO 14001,3;16-24;28-30;34-37,ACTIVE,"Annex lists NACE codes; classified to EA with the IAF ID 1 table; Limited scope (part of the sector) for EA 16-24, 34, 36"
+963,ISO 45001,2-3;16-19;23;28-30;32-35;37,ACTIVE,
+963,ISO 9001,2-3;9;12;14;16-19;23;28-35;37;39,ACTIVE,"Limited scope (part of the sector) for EA 2-3, 9, 12, 17-19, 29, 31, 35, 37, 39"
+963 (22000),FSSC 22000,1;3;29-31,ACTIVE,"ISO 22003-1 categories B, C, E, F, G (classified to EA by sector)"
+963 (22000),ISO 22000,1;3;29-31,ACTIVE,"ISO 22003-1 categories B, C, E, F, G (classified to EA by sector)"

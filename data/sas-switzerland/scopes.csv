@@ -1,0 +1,66 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+SCESm 0001,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Active implantable medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services (classified to EA by area)
+SCESm 0001,ISO 14001,1-19;21-39,ACTIVE,
+SCESm 0001,ISO 15378,ALL,ACTIVE,No sector list in the SAS directory; recorded for all EA sectors
+SCESm 0001,ISO 21001,ALL,ACTIVE,No sector list in the SAS directory; recorded for all EA sectors
+SCESm 0001,ISO 3834,ALL,ACTIVE,No sector list in the SAS directory; recorded for all EA sectors
+SCESm 0001,ISO 45001,2-19;21-39,ACTIVE,
+SCESm 0001,ISO 9001,ALL,ACTIVE,EA 20: Shipbuilding (Code NACE 35-12 pleasure and sporting boats)
+SCESm 0001 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in the SAS directory; recorded for all EA sectors
+SCESm 0001 (22000),FSSC 22000,1;3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 food chain categories: B, C, D, E, F, G, I, K (classified to EA by category)"
+SCESm 0001 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 food chain categories: B, C, D, E, F, G, H, I, J, K (classified to EA by category)"
+SCESm 0001 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in the SAS directory; recorded for all EA sectors
+SCESm 0001 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+SCESm 0001 (9104),AS 9100,ALL,ACTIVE,No sector list in the SAS directory; recorded for all EA sectors
+SCESm 0003,ISO 14001,1-4;6-9;12-19;22-37;39,ACTIVE,
+SCESm 0003,ISO 45001,2-3;7;12;14;17-19;23-24;28;30-32;34-35,ACTIVE,
+SCESm 0003,ISO 9001,1-4;6-9;12-20;22-39,ACTIVE,
+SCESm 0013,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Sterilization methods; Parts or services (classified to EA by area)
+SCESm 0013,ISO 14001,1;3-4;6-9;12-14;16-19;22-31;33-35,ACTIVE,
+SCESm 0013,ISO 21001,ALL,ACTIVE,No sector list in the SAS directory; recorded for all EA sectors
+SCESm 0013,ISO 3834,ALL,ACTIVE,No sector list in the SAS directory; recorded for all EA sectors
+SCESm 0013,ISO 45001,ALL,ACTIVE,
+SCESm 0013,ISO 9001,ALL,ACTIVE,
+SCESm 0013 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in the SAS directory; recorded for all EA sectors
+SCESm 0013 (22000),ISO 22000,1;3;7;12-15;17;29;31,ACTIVE,"ISO 22003-1 food chain categories: B, C, D, F, G, I, K (classified to EA by category)"
+SCESm 0013 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in the SAS directory; recorded for all EA sectors
+SCESm 0013 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+SCESm 0017,ISO 14001,1-10;12-19;22-39,ACTIVE,
+SCESm 0017,ISO 21001,ALL,ACTIVE,No sector list in the SAS directory; recorded for all EA sectors
+SCESm 0017,ISO 45001,1-10;12-19;22-39,ACTIVE,
+SCESm 0017,ISO 9001,1-10;12-19;22-39,ACTIVE,
+SCESm 0039,ISO 14001,1;3;12-14;17-19;24-25;27-31;33-39,ACTIVE,
+SCESm 0039,ISO 21001,ALL,ACTIVE,No sector list in the SAS directory; recorded for all EA sectors
+SCESm 0039,ISO 9001,1;3;12-14;17-19;24-25;27-31;33-39,ACTIVE,
+SCESm 0039 (22000),FSSC 22000,1;3;7;12-15;17;29;31,ACTIVE,"ISO 22003-1 food chain categories: B, C, D, F, G, I, K (classified to EA by category)"
+SCESm 0039 (22000),ISO 22000,1;3;7;12-15;17;29-31;35,ACTIVE,"ISO 22003-1 food chain categories: A, B, C, D, E, F, G, H, I, K (classified to EA by category)"
+SCESm 0040,ISO 14001,5-7;9;12;14;16-19;22;24-25;28-29;31;34-36,ACTIVE,
+SCESm 0040,ISO 9001,2-7;9;12;14;16-19;22;24-25;27-32;34-38,ACTIVE,EA 37: Education (only continuing education for adults)
+SCESm 0047,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services (classified to EA by area)
+SCESm 0047,ISO 14001,2-3;8-9;12;14;16-19;22-24;27-39,ACTIVE,
+SCESm 0047,ISO 3834,ALL,ACTIVE,No sector list in the SAS directory; recorded for all EA sectors
+SCESm 0047,ISO 45001,3;8;12;14;17-19;22-24;27-35;37-39,ACTIVE,
+SCESm 0047,ISO 9001,2-4;8-9;12-14;16-19;22-24;27-39,ACTIVE,
+SCESm 0047 (22000),ISO 22000,1;3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 food chain categories: B, C, D, E, F, G, I, K (classified to EA by category)"
+SCESm 0047 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+SCESm 0059,ISO 14001,2-3;6;8-9;12-14;16-19;21-22;24;27-37;39,ACTIVE,EA 33: Information technology without software development
+SCESm 0059,ISO 3834,ALL,ACTIVE,No sector list in the SAS directory; recorded for all EA sectors
+SCESm 0059,ISO 45001,2-3;6;8-9;12-14;16-19;21-24;27-39,ACTIVE,EA 33: Information technology without software development
+SCESm 0059,ISO 9001,2-3;6;8-9;12-14;16-19;21-24;27-39,ACTIVE,EA 33: Information technology without software development
+SCESm 0067,ISO 14001,1;3-4;6;14-15;17;23-24;28-32;34-35;37;39,ACTIVE,
+SCESm 0067,ISO 45001,1-4;6;9;14-20;24;28-35;37-39,ACTIVE,
+SCESm 0067,ISO 9001,1;3-6;8-9;14-19;23-24;28-32;34-35;37-39,ACTIVE,
+SCESm 0067 (22000),ISO 22000,3;29-30,ACTIVE,"ISO 22003-1 food chain categories: C, E, F (classified to EA by category)"
+SCESm 0071 (20000),ISO/IEC 20000-1,31;33;35,ACTIVE,
+SCESm 0071 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in the SAS directory; recorded for all EA sectors
+SCESm 0071 (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in the SAS directory; recorded for all EA sectors
+SCESm 0095,ISO 14001,3;14-19;24;28-31;34-35;37;39,ACTIVE,
+SCESm 0095,ISO 3834,ALL,ACTIVE,No sector list in the SAS directory; recorded for all EA sectors
+SCESm 0095,ISO 45001,1;3-4;6;14-19;22;24;27-35;37;39,ACTIVE,
+SCESm 0095,ISO 9001,3;14-19;22;24;28-32;34-35;37-39,ACTIVE,
+SCESm 0095 (50003),ISO 50001,ALL,ACTIVE,No ISO 50003 technical areas listed in the SAS directory; recorded for all EA sectors
+SCESm 0105,ISO 14001,1-6;14-19;23-24;27-36;39,ACTIVE,
+SCESm 0105,ISO 45001,2-3;6;14-20;24;28-35;37-39,ACTIVE,
+SCESm 0105,ISO 9001,1-6;14-19;23-24;27-39,ACTIVE,
+SCESm 0105 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+SCESm 0128,ISO 9001,38,ACTIVE,

@@ -1,0 +1,64 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+0901,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Active implantable medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services (classified to EA by area)
+0901,ISO 14001,1-10;12-19;21-39,ACTIVE,
+0901,ISO 21001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0901,ISO 29993,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0901,ISO 37301,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0901,ISO 3834,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0901,ISO 45001,1-10;12-19;21-39,ACTIVE,
+0901,ISO 7101,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0901,ISO 9001,1-10;12-39,ACTIVE,
+0901 (22000),FSSC 22000,1;3;7;12-15;17;29;31,ACTIVE,"ISO 22003-1 food chain categories: BIII, C, C0, CI, CII, CIII, CIV, F, FI, FII, G, I, K (classified to EA by category)"
+0901 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 food chain categories: A, AI, AII, B, BI, BII, BIII, C, C0, CI, CII, CIII, CIV, D, E, F, FI, FII, G, H, I, J, K (classified to EA by category)"
+0901 (22301),ISO 22301,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0901 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0901 (37001),ISO 37001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0901 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+0901 (55001),ISO 55001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0901 (9104),AS 9100,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0911,ISO 37301,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0911 (37001),ISO 37001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0914,ISO 14001,14-15;17-19;22;24;28;34-35,ACTIVE,
+0914,ISO 45001,2;14-15;17-19;22;28-29;32-37,ACTIVE,EA 17 limited to fabricated metal products (Mechanische Industrie - Gefertigte Metallwaren)
+0914,ISO 9001,2;6;14-19;22;24;28-29;31-37;39,ACTIVE,
+0914 (50003),ISO 50001,2-10;12-24;28;30;32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; mining (classified to EA by area)
+0917,ISO 14001,2-4;7-9;12-19;22-37;39,ACTIVE,
+0917,ISO 29993,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0917,ISO 45001,7;10;12;14-19;22;24;28-29;31-39,ACTIVE,
+0917,ISO 9001,1-10;12;14-19;22-37;39,ACTIVE,
+0917 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0917 (27006),ISO/IEC 27017,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0917 (27006),ISO/IEC 27018,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0917 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0917 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; energy supply (classified to EA by area)
+0920,ISO 13485,12-13;18-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Active (non-implantable) medical devices; Active implantable medical devices; In vitro diagnostic medical devices; Devices incorporating specific substances / technologies; Parts or services (classified to EA by area)
+0920,ISO 9001,18-19;23,ACTIVE,
+0924 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0924 (22301),ISO 22301,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0924 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0924 (27006),ISO/IEC 27017,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0924 (27006),ISO/IEC 27018,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0924 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0930,ISO 14001,6-7;12;14;17-19;22;24;28-29;31-32;34-36;39,ACTIVE,
+0930,ISO 21001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0930,ISO 29993,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0930,ISO 37301,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0930,ISO 45001,4-7;12;17-19;22-24;28;31;35;38-39,ACTIVE,
+0930,ISO 9001,4-10;12;14;17-19;22-24;28-29;31-39,ACTIVE,
+0930 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; energy supply (classified to EA by area)
+0944,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Sterilization methods; Parts or services (classified to EA by area)
+0944,ISO 14001,1-10;12-20;22-39,ACTIVE,
+0944,ISO 21001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0944,ISO 29993,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0944,ISO 37301,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0944,ISO 45001,1-10;12-19;22-39,ACTIVE,
+0944,ISO 9001,1-10;12-20;22-39,ACTIVE,
+0944 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0944 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 food chain categories: A, AI, AII, B, BII, C, CI, CII, CIII, CIV, D, E, F, FI, FII, G, H, I, J, K (classified to EA by category)"
+0944 (22301),ISO 22301,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0944 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0944 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0944 (37001),ISO 37001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0944 (42001),ISO/IEC 42001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+0944 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+0948 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors

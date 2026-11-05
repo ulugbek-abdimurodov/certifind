@@ -30,7 +30,10 @@ export default function Home() {
   const [selected, setSelected] = useState<Body | null>(null);
   const [resultFilter, setResultFilter] = useState<ResultFilter>("all");
   const [recentSearches, setRecentSearches] = useState<SearchPreset[]>([]);
-  const [options, setOptions] = useState<SearchOptions>({ standards: [], sectors: [] });
+  const [options, setOptions] = useState<SearchOptions>({
+    standards: [],
+    sectorsByStandard: {},
+  });
 
   useEffect(() => {
     const timeoutId = window.setTimeout(() => {

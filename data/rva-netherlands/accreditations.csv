@@ -1,0 +1,92 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+RvA,C010,LRQA Nederland B.V.,ISO/IEC 17021-1,ACTIVE,2026-08-26,2030-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C010-sce.pdf
+RvA,C013,DEKRA Certification B.V.,ISO/IEC 17021-1,ACTIVE,2026-08-26,2030-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C013-sce.pdf
+RvA,C013 (20000),DEKRA Certification B.V.,ISO/IEC 20000-6,ACTIVE,2026-08-26,2030-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C013-sce.pdf
+RvA,C013 (27006),DEKRA Certification B.V.,ISO/IEC 27006,ACTIVE,2026-08-26,2030-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C013-sce.pdf
+RvA,C024,DNV Business Assurance B.V,ISO/IEC 17021-1,ACTIVE,2026-10-14,2030-09-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C024-sce.pdf
+RvA,C024 (20000),DNV Business Assurance B.V,ISO/IEC 20000-6,ACTIVE,2026-10-14,2030-09-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C024-sce.pdf
+RvA,C024 (22301),DNV Business Assurance B.V,ISO/IEC 17021-6,ACTIVE,2026-10-14,2030-09-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C024-sce.pdf
+RvA,C024 (27006),DNV Business Assurance B.V,ISO/IEC 27006,ACTIVE,2026-10-14,2030-09-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C024-sce.pdf
+RvA,C024 (42001),DNV Business Assurance B.V,ISO/IEC 42006,ACTIVE,2026-10-14,2030-09-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C024-sce.pdf
+RvA,C024 (50003),DNV Business Assurance B.V,ISO 50003,ACTIVE,2026-10-14,2030-09-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C024-sce.pdf
+RvA,C025,Kiwa Nederland B.V.,ISO/IEC 17021-1,ACTIVE,2026-10-28,2030-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C025-sce.pdf
+RvA,C025 (27006),Kiwa Nederland B.V.,ISO/IEC 27006,ACTIVE,2026-10-28,2030-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C025-sce.pdf
+RvA,C025 (50003),Kiwa Nederland B.V.,ISO 50003,ACTIVE,2026-10-28,2030-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C025-sce.pdf
+RvA,C025 (55001),Kiwa Nederland B.V.,ISO/IEC 17021-5,ACTIVE,2026-10-28,2030-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C025-sce.pdf
+RvA,C029,TÜV NORD Nederland B.V.,ISO/IEC 17021-1,ACTIVE,2026-11-04,2028-11-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C029-sce.pdf
+RvA,C029 (22301),TÜV NORD Nederland B.V.,ISO/IEC 17021-6,ACTIVE,2026-11-04,2028-11-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C029-sce.pdf
+RvA,C029 (27006),TÜV NORD Nederland B.V.,ISO/IEC 27006,ACTIVE,2026-11-04,2028-11-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C029-sce.pdf
+RvA,C029 (42001),TÜV NORD Nederland B.V.,ISO/IEC 42006,ACTIVE,2026-11-04,2028-11-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C029-sce.pdf
+RvA,C055,SGS Nederland B.V.,ISO/IEC 17021-1,ACTIVE,2025-09-24,2028-05-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C055-sce.pdf
+RvA,C058,TÜV Rheinland Nederland B.V.,ISO/IEC 17021-1,ACTIVE,2025-03-20,2029-05-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C058-sce.pdf
+RvA,C060,SKH B.V.,ISO/IEC 17021-1,ACTIVE,2025-06-19,2029-07-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C060-scn.pdf
+RvA,C063,SKG-IKOB Certificatie B.V.,ISO/IEC 17021-1,ACTIVE,2026-03-11,2029-12-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C063-scn.pdf
+RvA,C071,ISSPL Limited (formerly IRCLASS Systems and Solutions; Indian Register Quality Systems),ISO/IEC 17021-1,ACTIVE,2026-08-12,2030-05-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C071-sce.pdf
+RvA,C071 (22000),ISSPL Limited (formerly IRCLASS Systems and Solutions; Indian Register Quality Systems),ISO 22003-1,ACTIVE,2026-08-12,2030-05-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C071-sce.pdf
+RvA,C071 (27006),ISSPL Limited (formerly IRCLASS Systems and Solutions; Indian Register Quality Systems),ISO/IEC 27006,ACTIVE,2026-08-12,2030-05-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C071-sce.pdf
+RvA,C096,The Standards Institution of Israel,ISO/IEC 17021-1,ACTIVE,2025-09-03,2028-09-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C096-sce.pdf
+RvA,C109,SABS Commercial SOC Ltd.,ISO/IEC 17021-1,ACTIVE,2026-07-29,2029-11-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C109-sce.pdf
+RvA,C109 (22000),SABS Commercial SOC Ltd.,ISO 22003-1,ACTIVE,2026-07-29,2029-11-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C109-sce.pdf
+RvA,C122,BSI Group The Netherlands B.V.,ISO/IEC 17021-1,ACTIVE,2026-10-28,2029-06-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C122-sce.pdf
+RvA,C122 (42001),BSI Group The Netherlands B.V.,ISO/IEC 42006,ACTIVE,2026-10-28,2029-06-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C122-sce.pdf
+RvA,C141,Japan Gas Appliances Inspection Association,ISO/IEC 17021-1,ACTIVE,2024-06-20,2028-08-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C141-sce.pdf
+RvA,C171,ECAS B.V.,ISO/IEC 17021-1,ACTIVE,2026-03-04,2028-03-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C171-sce.pdf
+RvA,C171 (22000),ECAS B.V.,ISO 22003-1,ACTIVE,2026-03-04,2028-03-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C171-sce.pdf
+RvA,C248,Bureau Veritas Inspection and Certification The Netherlands,ISO/IEC 17021-1,ACTIVE,2026-03-19,2027-04-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C248-sce.pdf
+RvA,C250,Aboma Certification B.V.,ISO/IEC 17021-1,ACTIVE,2026-08-12,2029-07-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C250-sce.pdf
+RvA,C259,"Shanghai Audit Centre of Quality System Co., Ltd.",ISO/IEC 17021-1,ACTIVE,2025-11-12,2027-04-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C259-sce.pdf
+RvA,C264,Qlip B.V.,ISO/IEC 17021-1,ACTIVE,2025-07-24,2029-10-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C264-sce.pdf
+RvA,C264 (22000),Qlip B.V.,ISO 22003-1,ACTIVE,2025-07-24,2029-10-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C264-sce.pdf
+RvA,C274,Normec Certification B.V.,ISO/IEC 17021-1,ACTIVE,2026-10-14,2029-10-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C274-scn.pdf
+RvA,C274 (27006),Normec Certification B.V.,ISO/IEC 27006,ACTIVE,2026-10-14,2029-10-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C274-scn.pdf
+RvA,C276,"VTI, Vouching Technical Inspection Ltd",ISO/IEC 17021-1,ACTIVE,2023-12-21,2027-04-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C276-sce.pdf
+RvA,C322,Keurmerkinstituut B.V.,ISO/IEC 17021-1,ACTIVE,2026-04-15,2029-06-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C322-scn.pdf
+RvA,C399,EBN Certification B.V.,ISO/IEC 17021-1,ACTIVE,2026-01-08,2029-07-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C399-scn.pdf
+RvA,C435,Normec Certificatie Instituut,ISO/IEC 17021-1,ACTIVE,2026-09-23,2026-12-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C435-sce.pdf
+RvA,C435 (27006),Normec Certificatie Instituut,ISO/IEC 27006,ACTIVE,2026-09-23,2026-12-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C435-sce.pdf
+RvA,C466,Ernst & Young CertifyPoint B.V.,ISO/IEC 17021-1,ACTIVE,2026-07-29,2027-07-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C466-sce.pdf
+RvA,C466 (20000),Ernst & Young CertifyPoint B.V.,ISO/IEC 20000-6,ACTIVE,2026-07-29,2027-07-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C466-sce.pdf
+RvA,C466 (22301),Ernst & Young CertifyPoint B.V.,ISO/IEC 17021-6,ACTIVE,2026-07-29,2027-07-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C466-sce.pdf
+RvA,C466 (27006),Ernst & Young CertifyPoint B.V.,ISO/IEC 27006,ACTIVE,2026-07-29,2027-07-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C466-sce.pdf
+RvA,C466 (50003),Ernst & Young CertifyPoint B.V.,ISO 50003,ACTIVE,2026-07-29,2027-07-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C466-sce.pdf
+RvA,C499,Control Union Certifications B.V.,ISO/IEC 17021-1,ACTIVE,2026-10-22,2030-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C499-sce.pdf
+RvA,C499 (22000),Control Union Certifications B.V.,ISO 22003-1,ACTIVE,2026-10-22,2030-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C499-sce.pdf
+RvA,C501,Normec NCK B.V.,ISO/IEC 17021-1,ACTIVE,2025-08-27,2029-02-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C501-scn.pdf
+RvA,C548,Brand Compliance B.V.,ISO/IEC 17021-1,ACTIVE,2026-04-29,2027-05-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C548-sce.pdf
+RvA,C548 (27006),Brand Compliance B.V.,ISO/IEC 27006,ACTIVE,2026-04-29,2027-05-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C548-sce.pdf
+RvA,C559,CIIO B.V.,ISO/IEC 17021-1,ACTIVE,2026-02-11,2027-12-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C559-scn.pdf
+RvA,C559 (27006),CIIO B.V.,ISO/IEC 27006,ACTIVE,2026-02-11,2027-12-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C559-scn.pdf
+RvA,C560,Institute of Quality & Control Ltd.(IQC),ISO/IEC 17021-1,ACTIVE,2026-06-10,2028-06-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C560-sce.pdf
+RvA,C560 (22000),Institute of Quality & Control Ltd.(IQC),ISO 22003-1,ACTIVE,2026-06-10,2028-06-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C560-sce.pdf
+RvA,C560 (27006),Institute of Quality & Control Ltd.(IQC),ISO/IEC 27006,ACTIVE,2026-06-10,2028-06-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C560-sce.pdf
+RvA,C584,ControlCase Infosec Pvt. Ltd.,ISO/IEC 17021-1,ACTIVE,2026-09-30,2029-12-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C584-sce.pdf
+RvA,C584 (27006),ControlCase Infosec Pvt. Ltd.,ISO/IEC 27006,ACTIVE,2026-09-30,2029-12-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C584-sce.pdf
+RvA,C590,Duijnborgh Certification BV,ISO/IEC 17021-1,ACTIVE,2024-12-04,2027-02-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C590-scn.pdf
+RvA,C590 (27006),Duijnborgh Certification BV,ISO/IEC 27006,ACTIVE,2024-12-04,2027-02-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C590-scn.pdf
+RvA,C616,DIfAM Certification B.V.,ISO/IEC 17021-1,ACTIVE,2026-03-25,2027-05-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C616-sce.pdf
+RvA,C616 (55001),DIfAM Certification B.V.,ISO/IEC 17021-5,ACTIVE,2026-03-25,2027-05-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C616-sce.pdf
+RvA,C617,Cetradex Certificatie B.V.,ISO/IEC 17021-1,ACTIVE,2024-07-18,2028-08-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C617-scn.pdf
+RvA,C618,Digitrust B.V.,ISO/IEC 17021-1,ACTIVE,2026-09-03,2028-06-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C618-sce.pdf
+RvA,C618 (27006),Digitrust B.V.,ISO/IEC 27006,ACTIVE,2026-09-03,2028-06-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C618-sce.pdf
+RvA,C630,Rwanda Standards Board,ISO/IEC 17021-1,ACTIVE,2025-10-23,2029-11-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C630-sce.pdf
+RvA,C630 (22000),Rwanda Standards Board,ISO 22003-1,ACTIVE,2025-10-23,2029-11-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C630-sce.pdf
+RvA,C637,Kiwa Assurance B.V.,ISO/IEC 17021-1,ACTIVE,2026-10-23,2030-07-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C637-sce.pdf
+RvA,C663,Noordbeek Certification B.V.,ISO/IEC 17021-1,ACTIVE,2026-05-21,2030-06-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C663-scn.pdf
+RvA,C663 (27006),Noordbeek Certification B.V.,ISO/IEC 27006,ACTIVE,2026-05-21,2030-06-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C663-scn.pdf
+RvA,C669,EIK Certificering B.V.,ISO/IEC 17021-1,ACTIVE,2024-12-04,2028-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C669-scn.pdf
+RvA,C669 (27006),EIK Certificering B.V.,ISO/IEC 27006,ACTIVE,2024-12-04,2028-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C669-scn.pdf
+RvA,C676,GLI Europe B.V.,ISO/IEC 17021-1,ACTIVE,2026-05-13,2029-06-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C676-sce.pdf
+RvA,C676 (27006),GLI Europe B.V.,ISO/IEC 27006,ACTIVE,2026-05-13,2029-06-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C676-sce.pdf
+RvA,C683,Scarlet NB B.V.,ISO/IEC 17021-1,ACTIVE,2024-06-05,2027-04-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C683-sce.pdf
+RvA,C684,Kiwa VERIN B.V.,ISO/IEC 17021-1,ACTIVE,2025-08-21,2030-07-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C684-sce.pdf
+RvA,C684 (22000),Kiwa VERIN B.V.,ISO 22003-1,ACTIVE,2025-08-21,2030-07-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C684-sce.pdf
+RvA,C693,Forvis Mazars Certification Hub B.V.,ISO/IEC 17021-1,ACTIVE,2026-03-18,2027-11-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C693-scn.pdf
+RvA,C693 (27006),Forvis Mazars Certification Hub B.V.,ISO/IEC 27006,ACTIVE,2026-03-18,2027-11-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C693-scn.pdf
+RvA,C707,ProCertify B.V.,ISO/IEC 17021-1,ACTIVE,2025-09-25,2029-10-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C707-scn.pdf
+RvA,C707 (27006),ProCertify B.V.,ISO/IEC 27006,ACTIVE,2025-09-25,2029-10-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C707-scn.pdf
+RvA,C708,3angles Certify B.V.,ISO/IEC 17021-1,ACTIVE,2026-01-29,2027-02-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C708-scn.pdf
+RvA,C708 (27006),3angles Certify B.V.,ISO/IEC 27006,ACTIVE,2026-01-29,2027-02-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C708-scn.pdf
+RvA,C714,CERCOMS B.V.,ISO/IEC 17021-1,ACTIVE,2026-01-29,2030-02-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C714-scn.pdf
+RvA,C714 (27006),CERCOMS B.V.,ISO/IEC 27006,ACTIVE,2026-01-29,2030-02-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C714-scn.pdf
+RvA,C715,The Certification Leaders B.V.,ISO/IEC 17021-1,ACTIVE,2026-07-23,2030-08-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C715-scn.pdf
+RvA,C715 (27006),The Certification Leaders B.V.,ISO/IEC 27006,ACTIVE,2026-07-23,2030-08-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C715-scn.pdf

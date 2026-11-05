@@ -1,0 +1,8 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+MSC004,ISO 9001,1-7;9;12-37;39,ACTIVE,"Limited scope (part of the sector) for EA 1-3, 12, 29-30, 32, 35, 39"
+MSC004,ISO 14001,1-4;6-7;9;12;14-39,ACTIVE,"Limited scope (part of the sector) for EA 1-3, 12, 29-30, 32, 35, 38-39"
+MSC004,ISO 45001,2-4;6-7;9;12;14-20;22-29;31-32;34-35;37;39,ACTIVE,"Limited scope (part of the sector) for EA 2-3, 12, 18, 20, 22, 29, 31-32, 35, 39"
+MSC004 (22000),ISO 22000,3;7;12-15;17;29;31,ACTIVE,"ISO 22003-1 categories C, F, G, I, K (classified to EA by sector)"
+MSC002,ISO 9001,6;12;14;17-19;22;25-29;32;34-35,ACTIVE,"Limited scope (part of the sector) for EA 17-19, 22, 27, 29, 32, 34-35"
+MSC002,ISO 14001,6;12;14;17-19;22;25-29;32;34-35,ACTIVE,"Limited scope (part of the sector) for EA 17-19, 22, 27, 29, 32, 34-35"
+MSC002,ISO 45001,14;17-19;28-29;34,ACTIVE,"Limited scope (part of the sector) for EA 17-19, 29, 34"

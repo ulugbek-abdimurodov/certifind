@@ -1,0 +1,431 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+AB-0001-YS,ISO 14001,6-7;9;14;17-20;28-29;31;33-34;36;39,ACTIVE,
+AB-0001-YS,ISO 45001,9;17-20;22;29;31-37,ACTIVE,
+AB-0001-YS,ISO 9001,3-4;6-7;9;12;14-20;22-23;29;31-34;36-37;39,ACTIVE,
+AB-0001-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0001-YS (50003),ISO 50001,3-10;12-24;28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D (classified to EA by sector)"
+AB-0002-YS,ISO 13485,12-14;17;19;35,ACTIVE,ISO 13485 technical areas: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies (classified to EA by sector)
+AB-0002-YS,ISO 14001,1-10;12-39,ACTIVE,
+AB-0002-YS,ISO 45001,3;18-19;21-22;29-30;32-33;35-37,ACTIVE,
+AB-0002-YS,ISO 9001,1-10;12-39,ACTIVE,
+AB-0002-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0002-YS (22000),FSSC 22000,1;3;7;12-15;17,ACTIVE,"ISO 22003-1 categories B, C, I, K (classified to EA by sector)"
+AB-0002-YS (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, H, I, J, K (classified to EA by sector)"
+AB-0002-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0002-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0002-YS (50003),ISO 50001,3-10;12-24;28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C (classified to EA by sector)"
+AB-0003-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0004-YS,ISO 14001,17-19,ACTIVE,
+AB-0004-YS,ISO 9001,1;3-7;9;12;14-19;23;28-30;32-37;39,ACTIVE,
+AB-0004-YS (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C, D (classified to EA by sector)"
+AB-0006-YS,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 technical areas: Non-active medical devices; Active (non-implantable) medical devices; Active implantable medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services (classified to EA by sector)
+AB-0006-YS,ISO 14001,3-4;7;9;12;14-23;25-37;39,ACTIVE,
+AB-0006-YS,ISO 45001,3-4;7-9;12;14;17-19;21-22;25-27;29-33;35-37,ACTIVE,
+AB-0006-YS,ISO 9001,1;3-4;6-9;12;14-23;25;28-39,ACTIVE,
+AB-0006-YS (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G (classified to EA by sector)"
+AB-0006-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0006-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0006-YS (50003),ISO 50001,2-10;12-28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, F, H (classified to EA by sector)"
+AB-0009-YS,ISO 14001,1;3;6;12;14;17-19;23;28-31;33-35;37;39,ACTIVE,
+AB-0009-YS,ISO 22301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0009-YS,ISO 45001,3;12;14-17;19;28-30;32-37,ACTIVE,
+AB-0009-YS,ISO 9001,1;3-6;12;14-19;23;28-37;39,ACTIVE,
+AB-0009-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0009-YS (22000),FSSC 22000,1;3;7;12-15;17,ACTIVE,"ISO 22003-1 categories B, C, I, K (classified to EA by sector)"
+AB-0009-YS (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, H, I, J, K (classified to EA by sector)"
+AB-0009-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0009-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0009-YS (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0009-YS (50003),ISO 50001,3-10;12-24;28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D (classified to EA by sector)"
+AB-0011-YS,ISO 9001,1;3-4;12;14;16-19;22-23;28-31;33-35,ACTIVE,
+AB-0011-YS (50003),ISO 50001,3-10;12-24;28;34,ACTIVE,"ISO 50003 technical areas A, B (classified to EA by sector)"
+AB-0012-YS,ISO 14001,3;9;22;28;30;33-36,ACTIVE,
+AB-0012-YS,ISO 45001,3;22;28;30;34-35,ACTIVE,
+AB-0012-YS,ISO 9001,3-4;7;9;14;17-19;22;28-31;33-36,ACTIVE,
+AB-0012-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0012-YS (50003),ISO 50001,3-10;12-24;28;34,ACTIVE,"ISO 50003 technical areas A, B (classified to EA by sector)"
+AB-0014-YS,ISO 14001,1;6-9;12;14;18-19;23;27-37,ACTIVE,
+AB-0014-YS,ISO 9001,1;3-9;12;14-19;23;27-39,ACTIVE,
+AB-0014-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0014-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0014-YS (50003),ISO 50001,3-10;12-24;28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D (classified to EA by sector)"
+AB-0017-YS,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 technical areas: Non-active medical devices; Active (non-implantable) medical devices; Active implantable medical devices; In vitro diagnostic medical devices; Sterilization methods; Parts or services (classified to EA by sector)
+AB-0017-YS,ISO 14001,1-10;12-39,ACTIVE,
+AB-0017-YS,ISO 22301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0017-YS,ISO 45001,2-4;10;12-19;22;24-37;39,ACTIVE,
+AB-0017-YS,ISO 9001,1-10;12-39,ACTIVE,
+AB-0017-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0017-YS (22000),ISO 22000,3;7;12-15;17;29-31;35,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, H, I, K (classified to EA by sector)"
+AB-0017-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0017-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0017-YS (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, H (classified to EA by sector)"
+AB-0018-YS,ISO 14001,1;3;6-9;12-17;19-20;22-24;28-39,ACTIVE,
+AB-0018-YS,ISO 45001,4;12-20;22;24;28-29;32-37,ACTIVE,
+AB-0018-YS,ISO 9001,1;3-9;12-20;22-24;28-39,ACTIVE,
+AB-0018-YS (22000),ISO 22000,1;3;7;14-15;17;29-31;35,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, H, I (classified to EA by sector)"
+AB-0018-YS (50003),ISO 50001,3-10;12-24;28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D (classified to EA by sector)"
+AB-0021-YS,ISO 14001,1-6;12-37;39,ACTIVE,
+AB-0021-YS,ISO 45001,2-6;10;12-37;39,ACTIVE,
+AB-0021-YS,ISO 9001,1-10;12-25;28-39,ACTIVE,
+AB-0021-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0021-YS (22000),ISO 22000,3;12-13;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, K (classified to EA by sector)"
+AB-0021-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0021-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0021-YS (50003),ISO 50001,3-10;12-28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, H (classified to EA by sector)"
+AB-0023-YS,ISO 14001,1-3;6;8-9;12;14-20;22-25;27-37;39,ACTIVE,
+AB-0023-YS,ISO 45001,12;14-16;18-19;22;28-30;32-37,ACTIVE,
+AB-0023-YS,ISO 9001,1-9;12;14-19;22-25;27-39,ACTIVE,
+AB-0023-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0023-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0029-YS,ISO 14001,1-4;6;8-9;12;16-19;22-23;25-37;39,ACTIVE,
+AB-0029-YS,ISO 22301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0029-YS,ISO 45001,3-4;8-9;12;14-15;18-19;22-37;39,ACTIVE,
+AB-0029-YS,ISO 9001,1-9;12;14-19;22-23;25-39,ACTIVE,
+AB-0029-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0029-YS (22000),ISO 22000,1;3;30,ACTIVE,"ISO 22003-1 categories A, B, C, D, E (classified to EA by sector)"
+AB-0029-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0029-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0029-YS (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0029-YS (50003),ISO 50001,3-10;12-28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, H (classified to EA by sector)"
+AB-0037-YS,ISO 14001,16,ACTIVE,
+AB-0037-YS,ISO 45001,16,ACTIVE,
+AB-0037-YS,ISO 9001,16;29;35,ACTIVE,
+AB-0037-YS (50003),ISO 50001,10;15-17;20-21;28;34,ACTIVE,ISO 50003 technical areas B (classified to EA by sector)
+AB-0039-YS,ISO 14001,4;12;14;17-19;22;29;32-37;39,ACTIVE,
+AB-0039-YS,ISO 45001,4;12;14;17-18;22;29;32-33;35-37,ACTIVE,
+AB-0039-YS,ISO 9001,4;6;12;14;17-19;22-23;29;34;36;39,ACTIVE,
+AB-0039-YS (50003),ISO 50001,3-9;12-14;18-19;22-24,ACTIVE,ISO 50003 technical areas A (classified to EA by sector)
+AB-0043-YS,ISO 14001,1;3-4;6;8-9;12-14;17-19;23;27-37,ACTIVE,
+AB-0043-YS,ISO 45001,4;7;12-19;28-29;31-37,ACTIVE,
+AB-0043-YS,ISO 9001,1;3-9;12-19;23;28-39,ACTIVE,
+AB-0043-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0043-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0043-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0044-YS,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 technical areas: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services (classified to EA by sector)
+AB-0044-YS,ISO 14001,1;3;6;8-9;12;14;17-19;22-23;27-30;32-34;36-38,ACTIVE,
+AB-0044-YS,ISO 45001,14;18;28-29;34-35,ACTIVE,
+AB-0044-YS,ISO 9001,1-9;12-19;22-23;28-39,ACTIVE,
+AB-0044-YS (50003),ISO 50001,3-10;12-28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, D, H (classified to EA by sector)"
+AB-0047-YS,ISO 14001,1;3;6;9;12;14-19;22-24;28-30;32-36;39,ACTIVE,
+AB-0047-YS,ISO 9001,1-7;9;12;14-19;22-24;28-37;39,ACTIVE,
+AB-0047-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0047-YS (22000),ISO 22000,3;7;14-15;17;29-31;35,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, H, I (classified to EA by sector)"
+AB-0047-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0047-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0047-YS (50003),ISO 50001,10;15-17;20-21;28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas B, C (classified to EA by sector)"
+AB-0049-YS,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,ISO 13485 technical areas: Non-active medical devices; Active (non-implantable) medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services (classified to EA by sector)
+AB-0051-YS,ISO 14001,4;6;9;14-19;22-23;28-37;39,ACTIVE,
+AB-0051-YS,ISO 45001,3-4;6;9;14-15;18-19;22;28-30;32-37,ACTIVE,
+AB-0051-YS,ISO 9001,3-7;9;14-20;22-23;28-37;39,ACTIVE,
+AB-0051-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0051-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0051-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0051-YS (50003),ISO 50001,3-9;12-14;18-19;22-27;30;32;36-39,ACTIVE,"ISO 50003 technical areas A, C, D, H (classified to EA by sector)"
+AB-0052-YS,ISO 14001,2-3;12;14;16-17;23;28-30;32-33;35-37,ACTIVE,
+AB-0052-YS,ISO 45001,2-3;12;14;23;28-30;33-34,ACTIVE,
+AB-0052-YS,ISO 9001,1-4;6;9;12;14-18;22-23;27-32;34-37;39,ACTIVE,
+AB-0055-YS,ISO 14001,3;10;12;14-19;23;28-37;39,ACTIVE,
+AB-0055-YS,ISO 45001,10;12;14-15;17-19;23-24;28-29;31-37;39,ACTIVE,
+AB-0055-YS,ISO 9001,3-4;6-7;10;12;14-19;23;28-37;39,ACTIVE,
+AB-0055-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0055-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0055-YS (50003),ISO 50001,3-10;12-28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, H (classified to EA by sector)"
+AB-0056-YS,ISO 14001,1-4;6-9;12;14-19;22-37;39,ACTIVE,
+AB-0056-YS,ISO 22301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0056-YS,ISO 45001,3-4;6-7;9;12;14-19;22-37;39,ACTIVE,
+AB-0056-YS,ISO 9001,1-10;12;14-19;22-39,ACTIVE,
+AB-0056-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0056-YS (22000),FSSC 22000,3;7;12-15;17,ACTIVE,"ISO 22003-1 categories C, I, K (classified to EA by sector)"
+AB-0056-YS (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, H, I, J, K (classified to EA by sector)"
+AB-0056-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0056-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0056-YS (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0056-YS (50003),ISO 50001,2-10;12-28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, F, H (classified to EA by sector)"
+AB-0060-YS,ISO 14001,1;3-4;6-9;12;14-20;22-23;25-39,ACTIVE,
+AB-0060-YS,ISO 45001,4;6;12;14-15;17-20;22-23;25-29;32-37,ACTIVE,
+AB-0060-YS,ISO 9001,1-10;12;14-20;22-23;25-39,ACTIVE,
+AB-0060-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0060-YS (22000),ISO 22000,3;7;14-15;17-18;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, I, J (classified to EA by sector)"
+AB-0060-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0060-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0060-YS (50003),ISO 50001,3-9;12-14;18-19;22-27;30;32;36-39,ACTIVE,"ISO 50003 technical areas A, C, H (classified to EA by sector)"
+AB-0065-YS,ISO 14001,6;9;14;17-20;22-23;27-30;32-37,ACTIVE,
+AB-0065-YS,ISO 9001,1;4-7;9;14-20;22-23;28-37;39,ACTIVE,
+AB-0066-YS,ISO 14001,1;3;14;17-19;23;28-37;39,ACTIVE,
+AB-0066-YS,ISO 9001,1;3-5;7-9;12;14-19;23;28-37;39,ACTIVE,
+AB-0066-YS (22000),ISO 22000,30,ACTIVE,ISO 22003-1 categories E (classified to EA by sector)
+AB-0072-YS,ISO 14001,14;17-19;22-23;28-29;32-36,ACTIVE,
+AB-0072-YS,ISO 9001,14;17-19;22-23;28-29;31-37;39,ACTIVE,
+AB-0072-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0074-YS,ISO 14001,17-18;29;34,ACTIVE,
+AB-0074-YS,ISO 45001,17-18;29;34,ACTIVE,
+AB-0074-YS,ISO 9001,3-4;7;9;12;14;17-19;23;29-30;33-35,ACTIVE,
+AB-0074-YS (50003),ISO 50001,3-9;12-14;18-19;22-24,ACTIVE,ISO 50003 technical areas A (classified to EA by sector)
+AB-0076-YS,ISO 14001,1;3;6;8-9;12;14;17-18;23;28-37;39,ACTIVE,
+AB-0076-YS,ISO 9001,1;3-4;6;9;12;14-18;23;28-37;39,ACTIVE,
+AB-0076-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0076-YS (50003),ISO 50001,3-10;12-28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, H (classified to EA by sector)"
+AB-0077-YS,ISO 14001,4;12;14-19;22-23;28-30;32-37,ACTIVE,
+AB-0077-YS,ISO 9001,1;3-6;9-10;12;14-19;22-23;28-37;39,ACTIVE,
+AB-0077-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0081-YS,ISO 14001,1-4;6-9;12;14-19;22-23;25-37;39,ACTIVE,
+AB-0081-YS,ISO 22301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0081-YS,ISO 45001,2-4;7;12;14-19;23;25-37;39,ACTIVE,
+AB-0081-YS,ISO 9001,1-7;9-10;12;14-19;23;25-37;39,ACTIVE,
+AB-0081-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0081-YS (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G (classified to EA by sector)"
+AB-0081-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0081-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0081-YS (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0081-YS (50003),ISO 50001,2-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F, H (classified to EA by sector)"
+AB-0082-YS,ISO 9001,4;6;8-9;12;14;17-20;23;28-37;39,ACTIVE,
+AB-0088-YS,ISO 14001,12;15-16;25;29;32-34;37,ACTIVE,
+AB-0088-YS,ISO 45001,14-16;32-33;37,ACTIVE,
+AB-0088-YS,ISO 9001,12;15-16;25;29-31;33-34;36-37,ACTIVE,
+AB-0088-YS (50003),ISO 50001,3-10;12-24;28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C (classified to EA by sector)"
+AB-0089-YS,ISO 14001,1;3;5-9;12;14-19;22-37;39,ACTIVE,
+AB-0089-YS,ISO 45001,3;5-6;14;18-19;23;25-33;35-37,ACTIVE,
+AB-0089-YS,ISO 9001,1;3-9;12;14-19;22-25;27-37;39,ACTIVE,
+AB-0089-YS (22000),ISO 22000,3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, I, K (classified to EA by sector)"
+AB-0089-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0089-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0089-YS (50003),ISO 50001,3-9;12-14;18-19;22-27;30-32;36-39,ACTIVE,"ISO 50003 technical areas A, C, D, E, H (classified to EA by sector)"
+AB-0090-YS,ISO 9001,14-19;22-23;29;34,ACTIVE,
+AB-0091-YS,ISO 14001,28;34,ACTIVE,
+AB-0091-YS,ISO 45001,28;34,ACTIVE,
+AB-0091-YS,ISO 9001,1;3-6;14-18;23;28-34;36-37;39,ACTIVE,
+AB-0094-YS,ISO 14001,12;14-15;17-19;22-26;28-29;31-35;39,ACTIVE,
+AB-0094-YS,ISO 45001,12;14-15;18-19;22;24-26;28-29;31-37;39,ACTIVE,
+AB-0094-YS,ISO 9001,4;12;14;17-19;22-26;28-29;31-37;39,ACTIVE,
+AB-0094-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0094-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0094-YS (50003),ISO 50001,3-10;12-28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, H (classified to EA by sector)"
+AB-0098-YS,ISO 14001,1;3;6-7;9-10;12;14-15;17-19;22-35;37,ACTIVE,
+AB-0098-YS,ISO 45001,1;3;7;9-10;12;14-19;22-23;25-37;39,ACTIVE,
+AB-0098-YS,ISO 9001,1;3-7;9-10;12;14-19;22-25;27-35;37;39,ACTIVE,
+AB-0098-YS (22000),ISO 22000,1;3;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G (classified to EA by sector)"
+AB-0098-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0098-YS (50003),ISO 50001,3-10;12-28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, H (classified to EA by sector)"
+AB-0102-YS,ISO 9001,3-4;12;14;16-19;29-35;37;39,ACTIVE,
+AB-0102-YS (50003),ISO 50001,3-10;12-24;28;34,ACTIVE,"ISO 50003 technical areas A, B (classified to EA by sector)"
+AB-0104-YS,ISO 14001,1;3-4;6;8-9;12;14;17-19;22-23;25-37;39,ACTIVE,
+AB-0104-YS,ISO 45001,3;12;17-19;22-23;25-37;39,ACTIVE,
+AB-0104-YS,ISO 9001,1;3-4;6-9;12;14-19;22-23;25-37;39,ACTIVE,
+AB-0104-YS (22000),ISO 22000,3;30,ACTIVE,"ISO 22003-1 categories C, E (classified to EA by sector)"
+AB-0104-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0104-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0104-YS (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, H (classified to EA by sector)"
+AB-0106-YS,ISO 14001,3;9;12;14;17-19;29-35;37,ACTIVE,
+AB-0106-YS,ISO 9001,1;3-7;9;12;14;17-19;29-37,ACTIVE,
+AB-0106-YS (22000),FSSC 22000,1;3;7;12-15;17;29;31,ACTIVE,"ISO 22003-1 categories B, C, D, F, G, I, K (classified to EA by sector)"
+AB-0106-YS (22000),ISO 22000,1;3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, I, K (classified to EA by sector)"
+AB-0108-YS,ISO 14001,1;3-4;6;8-9;12;14-19;22-37;39,ACTIVE,
+AB-0108-YS,ISO 45001,3-4;6;12;14-15;18-19;22-37;39,ACTIVE,
+AB-0108-YS,ISO 9001,1;3-9;12;14-19;22-25;27-37;39,ACTIVE,
+AB-0108-YS (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G (classified to EA by sector)"
+AB-0108-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0108-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0108-YS (50003),ISO 50001,3-10;12-28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, H (classified to EA by sector)"
+AB-0110-YS,ISO 9001,14;17-19;23;28-29;31;33-34;37,ACTIVE,
+AB-0111-YS,ISO 14001,1;3-4;6-9;12;14-19;22-37;39,ACTIVE,
+AB-0111-YS,ISO 22301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0111-YS,ISO 45001,14-15;17-19;22;24-29;31-37;39,ACTIVE,
+AB-0111-YS,ISO 9001,1-10;12;14-19;23-39,ACTIVE,
+AB-0111-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0111-YS (22000),ISO 22000,3;7;14-15;17;30-31,ACTIVE,"ISO 22003-1 categories C, D, E, G, I (classified to EA by sector)"
+AB-0111-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0111-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0111-YS (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0111-YS (50003),ISO 50001,3-10;12-28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, H (classified to EA by sector)"
+AB-0115-YS,ISO 9001,3-5;14;17;29-30;32;36-37,ACTIVE,
+AB-0117-YS,ISO 22301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0117-YS,ISO 9001,4-9;14-19;22-23;29-34;36-37;39,ACTIVE,
+AB-0117-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0117-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0117-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0117-YS (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0127-YS,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,ISO 13485 technical areas: Non-active medical devices; Active (non-implantable) medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services (classified to EA by sector)
+AB-0128-YS,ISO 14001,3-4;6;23;29-30;33;35,ACTIVE,
+AB-0128-YS,ISO 9001,1;3-9;14;17-19;23;29-30;32-37,ACTIVE,
+AB-0128-YS (22000),ISO 22000,3;29-30,ACTIVE,"ISO 22003-1 categories C, E, F (classified to EA by sector)"
+AB-0130-YS,ISO 14001,1;3;6;8-9;12;14-19;22-23;28-37;39,ACTIVE,
+AB-0130-YS,ISO 45001,3;12;14-15;18-19;22;24;28-30;32-37;39,ACTIVE,
+AB-0130-YS,ISO 9001,1;3-9;12;14-19;23;28-37;39,ACTIVE,
+AB-0130-YS (22000),ISO 22000,3;12-13;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, K (classified to EA by sector); ISO 22003-1 categories C, D, E, F, G (classified to EA by sector)"
+AB-0130-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0130-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0130-YS (50003),ISO 50001,3-9;12-14;18-19;22-27;30;32;36-39,ACTIVE,"ISO 50003 technical areas A, C, D, H (classified to EA by sector)"
+AB-0132-YS,ISO 14001,12;17-18;22;29;33-35,ACTIVE,
+AB-0132-YS,ISO 22301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0132-YS,ISO 9001,4;7;12;14;17-19;22;29;31-35;37,ACTIVE,
+AB-0132-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0132-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0132-YS (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0132-YS (50003),ISO 50001,3-10;12-28;34,ACTIVE,"ISO 50003 technical areas A, B, H (classified to EA by sector)"
+AB-0134-YS,ISO 22301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0134-YS,ISO 9001,3-4;12;14;17-19;22-23;29-35;37;39,ACTIVE,
+AB-0134-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0134-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0134-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0134-YS (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0138-YS,ISO 14001,1;3-9;12-20;22-26;28-37;39,ACTIVE,
+AB-0138-YS,ISO 22301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0138-YS,ISO 45001,3-9;12-15;17-20;22-26;28-30;32-37;39,ACTIVE,
+AB-0138-YS,ISO 9001,1-10;12-20;22-25;28-37;39,ACTIVE,
+AB-0138-YS (22000),ISO 22000,1;3;7;12-15;17;29-30,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, I, K (classified to EA by sector)"
+AB-0138-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0138-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0138-YS (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0138-YS (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, H (classified to EA by sector)"
+AB-0140-YS,ISO 14001,3;7;12;14-19;22;24;28-37;39,ACTIVE,
+AB-0140-YS,ISO 45001,3;10;12;14-19;22;24;28-37;39,ACTIVE,
+AB-0140-YS,ISO 9001,1-4;6-7;10;12;14-19;22-24;28-37;39,ACTIVE,
+AB-0140-YS (22000),ISO 22000,3;30,ACTIVE,"ISO 22003-1 categories C, D, E (classified to EA by sector)"
+AB-0140-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0140-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0140-YS (50003),ISO 50001,2-10;12-28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, F, H (classified to EA by sector)"
+AB-0143-YS,ISO 9001,3;29-30,ACTIVE,
+AB-0143-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0143-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0143-YS (50003),ISO 50001,3-10;12-24;28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C (classified to EA by sector)"
+AB-0144-YS,ISO 14001,3-4;12;14-15;17-19;22;25-37,ACTIVE,
+AB-0144-YS,ISO 45001,3-6;12;14;17-19;22;25-37,ACTIVE,
+AB-0144-YS,ISO 9001,3-6;10;12-14;17-20;22-23;25;28-32;34-36;38,ACTIVE,
+AB-0144-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0144-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0144-YS (50003),ISO 50001,3-10;12-24;28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D (classified to EA by sector)"
+AB-0149-YS,ISO 14001,3;12;14;17;30,ACTIVE,
+AB-0149-YS,ISO 9001,3;7;12;14;17;23;30,ACTIVE,
+AB-0149-YS (22000),FSSC 22000,12-13,ACTIVE,ISO 22003-1 categories K (classified to EA by sector)
+AB-0149-YS (22000),ISO 22000,3;12-13,ACTIVE,"ISO 22003-1 categories C, K (classified to EA by sector)"
+AB-0150-YS,ISO 14001,3-4;6;12;14-20;22-24;28-37;39,ACTIVE,
+AB-0150-YS,ISO 9001,1;3-7;12;14;17-20;22-24;28-37;39,ACTIVE,
+AB-0150-YS (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, E, F, G (classified to EA by sector)"
+AB-0150-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0151-YS,ISO 14001,2-6;12;14-20;22-37;39,ACTIVE,
+AB-0151-YS,ISO 45001,2-3;12;14-15;18;25-37,ACTIVE,
+AB-0151-YS,ISO 9001,1-6;10;12;14-20;22-37;39,ACTIVE,
+AB-0151-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0151-YS (22000),ISO 22000,30,ACTIVE,ISO 22003-1 categories E (classified to EA by sector)
+AB-0151-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0151-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0151-YS (50003),ISO 50001,3-9;12-14;18-19;22-27;30-32;36-39,ACTIVE,"ISO 50003 technical areas A, C, D, E, H (classified to EA by sector)"
+AB-0155-YS,ISO 14001,3-6;12;14-19;23;28-30;32-37,ACTIVE,
+AB-0155-YS,ISO 9001,1;3-6;12;14;17-19;23;28-30;32-37,ACTIVE,
+AB-0155-YS (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G (classified to EA by sector)"
+AB-0155-YS (50003),ISO 50001,3-9;12-14;18-19;22-24;30;32;36-39,ACTIVE,"ISO 50003 technical areas A, C (classified to EA by sector)"
+AB-0162-YS,ISO 14001,1;3-4;6-7;12;14-23;25-37,ACTIVE,
+AB-0162-YS,ISO 45001,1;3-4;7;12;14-22;25-37;39,ACTIVE,
+AB-0162-YS,ISO 9001,1-4;6-7;10;12;14-23;25-37,ACTIVE,
+AB-0162-YS (22000),ISO 22000,3;30,ACTIVE,"ISO 22003-1 categories C, D, E (classified to EA by sector)"
+AB-0162-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0162-YS (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, H (classified to EA by sector)"
+AB-0163-YS,ISO 14001,17-20;22;29;33,ACTIVE,
+AB-0163-YS,ISO 45001,17-19;29;33,ACTIVE,
+AB-0163-YS,ISO 9001,6;10;12;17-20;22;29;33,ACTIVE,
+AB-0163-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0163-YS (50003),ISO 50001,3-9;12-14;18-19;22-24;30;32;36-39,ACTIVE,"ISO 50003 technical areas A, C (classified to EA by sector)"
+AB-0172-YS,ISO 14001,10;14-19;22;24;28-29;31-37;39,ACTIVE,
+AB-0172-YS,ISO 22301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0172-YS,ISO 45001,10;14-15;17-19;22;24;28-29;31-37;39,ACTIVE,
+AB-0172-YS,ISO 9001,10;17-20;22;24;28-29;31-37;39,ACTIVE,
+AB-0172-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0172-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0172-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0172-YS (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0172-YS (50003),ISO 50001,25-27;30;32;36-39,ACTIVE,"ISO 50003 technical areas C, D, H (classified to EA by sector)"
+AB-0179-YS,ISO 14001,2-4;6-9;12;14-20;22-37;39,ACTIVE,
+AB-0179-YS,ISO 45001,2-4;6-9;12;14-15;17-20;22-37;39,ACTIVE,
+AB-0179-YS,ISO 9001,1-10;12;14-20;22-37;39,ACTIVE,
+AB-0179-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0179-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0179-YS (50003),ISO 50001,3-9;12-14;18-19;22-27;30;32;36-39,ACTIVE,"ISO 50003 technical areas A, C, D, H (classified to EA by sector)"
+AB-0182-YS,ISO 14001,1;3;12;14-20;22;24-37;39,ACTIVE,
+AB-0182-YS,ISO 45001,1;3;10;12;14-20;22;24-37;39,ACTIVE,
+AB-0182-YS,ISO 9001,1;3-7;10;12;14;17-20;22-25;27-36;39,ACTIVE,
+AB-0182-YS (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, H, I, J, K (classified to EA by sector)"
+AB-0182-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0182-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0182-YS (50003),ISO 50001,3-10;12-28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, H (classified to EA by sector)"
+AB-0184-YS,ISO 14001,2-3;6;8-9;12;14-19;21-23;28-30;32-37,ACTIVE,
+AB-0184-YS,ISO 22301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0184-YS,ISO 45001,2-3;8-9;12;14-15;18-19;21-23;28-30;32-37,ACTIVE,
+AB-0184-YS,ISO 9001,2-4;6-9;12;14-19;21-23;28-30;32-37,ACTIVE,
+AB-0184-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0184-YS (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G (classified to EA by sector)"
+AB-0184-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0184-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0184-YS (50003),ISO 50001,3-9;12-14;18-19;22-27;30;32;36-39,ACTIVE,"ISO 50003 technical areas A, C, D, H (classified to EA by sector)"
+AB-0186-YS,ISO 14001,3-9;12;14-19;22-23;28-37;39,ACTIVE,
+AB-0186-YS,ISO 9001,1;3-9;12;14;17-19;22-23;28-37;39,ACTIVE,
+AB-0186-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0186-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0187-YS,ISO 9001,3,ACTIVE,
+AB-0187-YS (22000),ISO 22000,3,ACTIVE,ISO 22003-1 categories C (classified to EA by sector)
+AB-0189-YS,ISO 14001,3;17-19;22;25;28-37,ACTIVE,
+AB-0189-YS,ISO 45001,3;19;25;28-37,ACTIVE,
+AB-0189-YS,ISO 9001,1;3;17-19;22;25;28-37,ACTIVE,
+AB-0189-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0189-YS (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C, D (classified to EA by sector)"
+AB-0189-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0189-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0189-YS (50003),ISO 50001,3-9;12-14;18-19;22-27;30-32;36-39,ACTIVE,"ISO 50003 technical areas A, C, E, H (classified to EA by sector)"
+AB-0190-YS,ISO 9001,14;17-19;22;29,ACTIVE,
+AB-0197-YS,ISO 13485,13-14;17;19;35,ACTIVE,ISO 13485 technical areas: Non-active medical devices; Active (non-implantable) medical devices; Sterilization methods (classified to EA by sector)
+AB-0198-YS,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 technical areas: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services (classified to EA by sector)
+AB-0199-YS (22000),ISO 22000,3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, I, K (classified to EA by sector)"
+AB-0200-YS,ISO 9001,3;30,ACTIVE,
+AB-0201-YS,ISO 14001,3-4;6;12;14-19;22-23;28-30;32-37,ACTIVE,
+AB-0201-YS,ISO 45001,3-4;6;12;14-19;22-23;28-30;32-37,ACTIVE,
+AB-0201-YS,ISO 9001,3-6;12;14;17-20;22-23;28-30;32-37,ACTIVE,
+AB-0201-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0201-YS (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, E, F, G (classified to EA by sector)"
+AB-0201-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0201-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0204-YS (50003),ISO 50001,3-10;12-24;28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C (classified to EA by sector)"
+AB-0206-YS,ISO 9001,29;32-33;35-37,ACTIVE,
+AB-0206-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0206-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0206-YS (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0207-YS,ISO 9001,1;3;17-19;22;28-30;33-37,ACTIVE,
+AB-0207-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0207-YS (50003),ISO 50001,3-10;12-24;28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D (classified to EA by sector)"
+AB-0214-YS,ISO 14001,2-3;5-7;12;14-24;28-37;39,ACTIVE,
+AB-0214-YS,ISO 45001,2-3;5-7;12;14-15;17-20;22-24;28-37;39,ACTIVE,
+AB-0214-YS,ISO 9001,1-7;10;12;14-20;22-24;28-39,ACTIVE,
+AB-0214-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0214-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0214-YS (50003),ISO 50001,3-9;12-14;18-19;22-24;30;32;36-39,ACTIVE,"ISO 50003 technical areas A, C, D (classified to EA by sector)"
+AB-0215-YS,ISO 14001,3;9;12;17;22;28-31;33-37,ACTIVE,
+AB-0215-YS,ISO 45001,3;9;12;17;22;28-31;33-37,ACTIVE,
+AB-0215-YS,ISO 9001,1;3;7;9-10;12;17;22;28-37,ACTIVE,
+AB-0215-YS (22000),ISO 22000,3;7;14-15;17;30,ACTIVE,"ISO 22003-1 categories C, E, I (classified to EA by sector)"
+AB-0215-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0215-YS (50003),ISO 50001,3-9;12-14;18-19;22-24;30;32;36-39,ACTIVE,"ISO 50003 technical areas A, C (classified to EA by sector)"
+AB-0216-YS,ISO 14001,12;14;17-20;22,ACTIVE,
+AB-0216-YS,ISO 45001,12;14;18-20;22,ACTIVE,
+AB-0216-YS,ISO 9001,10;12;14;17-20;22,ACTIVE,
+AB-0216-YS (50003),ISO 50001,3-10;12-28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, H (classified to EA by sector)"
+AB-0218-YS,ISO 14001,17-19;22;29;32-33;35-37,ACTIVE,
+AB-0218-YS,ISO 45001,18-19;22;29;32-33;35-37,ACTIVE,
+AB-0218-YS,ISO 9001,17-20;22;29;32-33;35-37,ACTIVE,
+AB-0218-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0218-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0218-YS (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0220-YS,ISO 14001,1;3-7;10;12;14;17-20;22-24;28-37;39,ACTIVE,
+AB-0220-YS,ISO 22301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0220-YS,ISO 45001,3;12;14-15;17-20;22;24;28-37;39,ACTIVE,
+AB-0220-YS,ISO 9001,1;3-7;10;12;14;17-20;22-24;28-37;39,ACTIVE,
+AB-0220-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0220-YS (22000),ISO 22000,3;29;31,ACTIVE,"ISO 22003-1 categories C, D, F, G (classified to EA by sector)"
+AB-0220-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0220-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0220-YS (50003),ISO 50001,3-10;12-24;28;34,ACTIVE,"ISO 50003 technical areas A, B (classified to EA by sector)"
+AB-0221-YS,ISO 14001,1;3;6;17-19;22-23;28-30;32-34;36-37,ACTIVE,
+AB-0221-YS,ISO 45001,18-19;22-23;28;34,ACTIVE,
+AB-0221-YS,ISO 9001,1;3-4;6;14;16-19;22-23;28-37;39,ACTIVE,
+AB-0221-YS (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0221-YS (22000),ISO 22000,3;30,ACTIVE,"ISO 22003-1 categories C, E (classified to EA by sector)"
+AB-0221-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0221-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+AB-0221-YS (50003),ISO 50001,30;32;36-39,ACTIVE,"ISO 50003 technical areas C, D (classified to EA by sector)"

@@ -58,15 +58,26 @@ CREATE TABLE sector_keywords (
 
 -- Certification bodies and their accreditations --------------------------------
 
+-- registration_no is the national company ID (NIPT in Albania, CUI in Romania);
+-- when known it identifies the body even if its name is spelled differently.
+-- source_url / verified_at record where the contact details come from and when
+-- a person last checked them against the official record.
 CREATE TABLE certification_bodies (
-    id       SERIAL PRIMARY KEY,
-    name     VARCHAR(255) NOT NULL UNIQUE,
-    country  VARCHAR(100) NOT NULL,
-    phone    VARCHAR(50),
-    email    VARCHAR(100),
-    website  VARCHAR(255),
-    address  TEXT
+    id               SERIAL PRIMARY KEY,
+    name             VARCHAR(255) NOT NULL,
+    country          VARCHAR(100) NOT NULL,
+    registration_no  VARCHAR(50),
+    phone            VARCHAR(50),
+    email            VARCHAR(100),
+    website          VARCHAR(255),
+    address          TEXT,
+    source_url       TEXT,
+    verified_at      DATE,
+    CONSTRAINT uq_cb_country_name UNIQUE (country, name)
 );
+
+CREATE UNIQUE INDEX uq_cb_registration_no ON certification_bodies (country, registration_no)
+    WHERE registration_no IS NOT NULL;
 
 -- One accreditation certificate held by a CB.
 CREATE TABLE accreditations (
@@ -80,6 +91,9 @@ CREATE TABLE accreditations (
     issue_date              DATE        NOT NULL,
     expiry_date             DATE,
     proof_url               TEXT,
+    -- Dataset folder under data/ that owns this row (e.g. 'dpa-albania'). The
+    -- importer withdraws a dataset's accreditations that vanish from its CSVs.
+    data_source             VARCHAR(50),
     CONSTRAINT uq_accreditation_certificate UNIQUE (accreditation_body_id, certificate_number),
     CONSTRAINT uq_cb_ab_standard UNIQUE (certification_body_id, accreditation_body_id, accreditation_standard),
     CONSTRAINT ck_accreditation_dates CHECK (expiry_date IS NULL OR expiry_date >= issue_date),
@@ -110,6 +124,7 @@ CREATE TABLE accredited_scopes (
 -- Indexes for the search path and company detail lookups.
 CREATE INDEX idx_scopes_search        ON accredited_scopes (certification_standard, ea_code, status);
 CREATE INDEX idx_accreditations_cb    ON accreditations (certification_body_id);
+CREATE INDEX idx_accreditations_src   ON accreditations (data_source);
 CREATE INDEX idx_sector_keywords_ea   ON sector_keywords (ea_code);
 CREATE INDEX idx_sector_keywords_text ON sector_keywords (lower(keyword));
 

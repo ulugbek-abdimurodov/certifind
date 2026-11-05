@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { demoPresets } from "../app/search-data";
+import { compareStandards, demoPresets, standardOptionLabel } from "../app/search-data";
 import type { SearchOptions, SearchPreset } from "../app/search-types";
 
 type SearchFormProps = {
@@ -30,7 +30,7 @@ export function SearchForm({
   const presets = recentSearches.length ? recentSearches : demoPresets;
   const [sectorFocused, setSectorFocused] = useState(false);
   const sectorQuery = sector.trim().toLocaleLowerCase();
-  const sectorSuggestions = options.sectors.filter(
+  const sectorSuggestions = (options.sectorsByStandard?.[iso] ?? []).filter(
     (option) =>
       sectorQuery.length === 0 ||
       `EA ${option.code} ${option.name}`.toLocaleLowerCase().includes(sectorQuery),
@@ -72,10 +72,21 @@ export function SearchForm({
           <select
             id="standard"
             value={iso}
-            onChange={(event) => onIsoChange(event.target.value)}
+            onChange={(event) => {
+              const nextIso = event.target.value;
+              onIsoChange(nextIso);
+              // Drop a chosen "EA nn" sector the new standard does not offer.
+              const chosenCode = sector.match(/\bEA\s*(\d{1,2})\b/i)?.[1];
+              const available = options.sectorsByStandard?.[nextIso] ?? [];
+              if (chosenCode && !available.some((option) => option.code === Number(chosenCode))) {
+                onSectorChange("");
+              }
+            }}
           >
-            {options.standards.map((standard) => (
-              <option key={standard}>{standard}</option>
+            {[...options.standards].sort(compareStandards).map((standard) => (
+              <option key={standard} value={standard}>
+                {standardOptionLabel(standard)}
+              </option>
             ))}
           </select>
           <span className="select-chevron">⌄</span>

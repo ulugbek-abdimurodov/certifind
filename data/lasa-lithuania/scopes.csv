@@ -1,0 +1,17 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+LA.04.001,ISO 9001,3-4;8-9;17-19;23;28-29;31;33-39,ACTIVE,"Limited scope (part of the sector): EA 18 (NACE 28, 33.12, 33.2); EA 31 (NACE 49, 50, 52, 53, 61); EA 36 (NACE 84 except 84.21, 84.22); EA 39 (NACE 96)"
+LA.04.001,ISO 14001,3-4;17;19;23;28-29;31;33-37;39,ACTIVE,"Limited scope (part of the sector): EA 31 (NACE 49, 50, 52, 53, 61); EA 39 (NACE 96)"
+LA.04.001,ISO 45001,19;28;35;39,ACTIVE,Limited scope (part of the sector): EA 39 (NACE 96)
+LA.04.001 (22000),ISO 22000,3,ACTIVE,ISO 22003-1 category C (CI and CIV only) (classified to EA by sector)
+LA.04.001 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+LA.04.002,ISO 9001,2;4;14;16;19;23-24;28-29;31-39,ACTIVE,"Limited scope (part of the sector): EA 2 (NACE 08.1); EA 16 (NACE 23.6); EA 23 (NACE 31, 32.50); EA 29 (NACE 45, 46, 47); EA 31 (NACE 49.41, 52); EA 32 (NACE 68); EA 34 (NACE 71, 72, 74.1, 74.9); EA 35 (NACE 69.2, 70.2, 73, 74.3, 81.2, 81.3, 82.92); EA 36 (NACE 84 except 84.21, 84.22); EA 38 (NACE 86, 87); EA 39 (NACE 38.1, 38.2)"
+LA.04.002,ISO 14001,2;4;14;19;23-24;28-29;31-39,ACTIVE,"Limited scope (part of the sector): EA 2 (NACE 08.1); EA 23 (NACE 31, 32.50); EA 29 (NACE 45, 46, 47); EA 31 (NACE 49.41, 52); EA 32 (NACE 68); EA 34 (NACE 71, 72, 74.1, 74.9); EA 35 (NACE 69.2, 70.2, 73, 74.3, 81.2, 81.3, 82.92); EA 36 (NACE 84 except 84.21, 84.22); EA 38 (NACE 86, 87); EA 39 (NACE 38.1, 38.2)"
+LA.04.002,ISO 45001,2;19;23-24;28-29;31;34;39,ACTIVE,"Limited scope (part of the sector): EA 2 (NACE 08.1); EA 23 (NACE 31, 32.50); EA 29 (NACE 45, 46, 47); EA 31 (NACE 49.41, 52); EA 34 (NACE 71, 72, 74.1, 74.9); EA 39 (NACE 38.1, 38.2)"
+LA.04.002 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+LA.04.003,ISO 9001,17-18;28-29;31-32;34-39,ACTIVE,"Limited scope (part of the sector): EA 18 (NACE 28, 30.4, 33.12, 33.2); EA 31 (NACE 49, 52, 53, 61); EA 38 (NACE 88)"
+LA.04.003,ISO 14001,17;28-29;31-32;34-37,ACTIVE,"Limited scope (part of the sector): EA 31 (NACE 49, 52, 53, 61)"
+LA.04.003,ISO 45001,17;28-29;31-32;34-37,ACTIVE,"Limited scope (part of the sector): EA 31 (NACE 49, 52, 53, 61)"
+LA.04.004,ISO 45001,2-4;6-7;12;14-19;23-35;37;39,ACTIVE,"Limited scope (part of the sector): EA 2 (NACE 08); EA 4 (NACE 13); EA 16 (NACE 23.6); EA 17 (NACE 24 except 24.46, 25 except 25.4); EA 30 (NACE 56); EA 31 (NACE 52, 53, 61); EA 34 (NACE 71, 72); EA 35 (NACE 80, 81); EA 39 (NACE 38.1, 38.2)"
+LA.04.005,ISO 9001,6;14;17-18;23;28-29;31-39,ACTIVE,"Limited scope (part of the sector): EA 18 (NACE 28, 33.12, 33.2); EA 29 (NACE 45, 46, 47); EA 31 (NACE 49, 52, 53); EA 39 (NACE 37, 38.1, 38.2, 39)"
+LA.04.005,ISO 14001,6;14;17-18;23;28-29;31-39,ACTIVE,"Limited scope (part of the sector): EA 18 (NACE 28, 33.12, 33.2); EA 29 (NACE 45, 46, 47); EA 31 (NACE 49, 52, 53); EA 39 (NACE 37, 38.1, 38.2, 39)"
+LA.04.005,ISO 45001,6;14;17-18;23;28-29;31-39,ACTIVE,"Limited scope (part of the sector): EA 18 (NACE 28, 33.12, 33.2); EA 29 (NACE 45, 46, 47); EA 31 (NACE 49, 52, 53); EA 39 (NACE 37, 38.1, 38.2, 39)"

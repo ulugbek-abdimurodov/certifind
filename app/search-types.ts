@@ -36,8 +36,10 @@ export type SearchResponse = {
 
 export type SearchOptions = {
   standards: string[];
-  sectors: { code: number; name: string }[];
+  sectorsByStandard: Record<string, SectorOption[]>;
 };
+
+export type SectorOption = { code: number; name: string };
 
 export type ResultFilter = "all" | "italy" | "foreign" | `accreditor:${string}`;
 

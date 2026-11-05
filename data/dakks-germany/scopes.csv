@@ -1,0 +1,346 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+D-ZM-11054-01-00,ISO 14001,6-7;9;12;14;18;23;28-29;35,ACTIVE,
+D-ZM-11054-01-00,ISO 9001,6-7;9;12;14;18;23;28-29;35,ACTIVE,
+D-ZM-11054-01-00 (50003),ISO 50001,3-9;12-14;18-19;22-27;30-32;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; buildings; building complexes; transport; energy supply (classified to EA by area)
+D-ZM-11146-01-00,ISO 9001,17-19,ACTIVE,
+D-ZM-11149-01-00,ISO 14001,14;17-19;33-35,ACTIVE,
+D-ZM-11149-01-00,ISO 45001,14;17-19;33-35,ACTIVE,
+D-ZM-11149-01-00,ISO 9001,14;17-19;33-35,ACTIVE,
+D-ZM-11200-01-00,ISO 14001,12;14;17-19;29;31;35,ACTIVE,
+D-ZM-11200-01-00,ISO 9001,4;12-14;17-19;23;29;31;33-35;37-39,ACTIVE,
+D-ZM-11200-01-00 (50003),ISO 50001,3-10;12-24;28;34,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy (classified to EA by area)
+D-ZM-11321-01-00,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Active implantable medical devices; Devices incorporating specific substances / technologies; Parts or services (classified to EA by area)
+D-ZM-11349-01-00,ISO 14001,6-7;14-15;17-19;23;28-29;33-35;39,ACTIVE,
+D-ZM-11349-01-00,ISO 45001,6-7;14-15;17-19;28-29;33-35,ACTIVE,
+D-ZM-11349-01-00,ISO 9001,6-7;14-15;17-19;23-24;28-29;33-35;39,ACTIVE,
+D-ZM-11349-01-00 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; energy supply (classified to EA by area)
+D-ZM-12007-01-00,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Devices incorporating specific substances / technologies; Parts or services (classified to EA by area)
+D-ZM-12007-01-00,ISO 14001,1-39,ACTIVE,
+D-ZM-12007-01-00,ISO 15378,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-12007-01-00,ISO 19443,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-12007-01-00,ISO 21001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-12007-01-00,ISO 29001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-12007-01-00,ISO 37301,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-12007-01-00,ISO 45001,1-10;12-20;22-39,ACTIVE,
+D-ZM-12007-01-00,ISO 9001,1-39,ACTIVE,IAF 22 from the automotive annex (EU 2018/858)
+D-ZM-12007-01-00 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-12007-01-00 (22000),FSSC 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 food chain categories: A, B, C, D, E, F, G, H, I, J, K (classified to EA by category)"
+D-ZM-12007-01-00 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 food chain categories: A, B, C, D, E, F, G, H, I, J, K (classified to EA by category)"
+D-ZM-12007-01-00 (22301),ISO 22301,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-12007-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-12007-01-00 (37001),ISO 37001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-12007-01-00 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+D-ZM-12007-01-00 (9104),AS 9100,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-14137-01-00,ISO 13485,13-14;17;19,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Devices incorporating specific substances / technologies (classified to EA by area)
+D-ZM-14137-01-00,ISO 14001,3-7;10;12-19;22-31;33-39,ACTIVE,
+D-ZM-14137-01-00,ISO 21001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-14137-01-00,ISO 45001,3-9;12-19;21-39,ACTIVE,
+D-ZM-14137-01-00,ISO 9001,1-39,ACTIVE,IAF 22 from the automotive annex (EU 2018/858)
+D-ZM-14137-01-00 (22301),ISO 22301,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-14137-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-14137-01-00 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; energy supply (classified to EA by area)
+D-ZM-14143-01-00,ISO 14001,1-39,ACTIVE,
+D-ZM-14143-01-00,ISO 45001,1-10;12-19;22-39,ACTIVE,
+D-ZM-14143-01-00,ISO 9001,1-39,ACTIVE,IAF 22 from the automotive annex (EU 2018/858)
+D-ZM-14143-01-00 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-14143-01-00 (22000),FSSC 22000,1;3;7;12-15;17;29-31;35,ACTIVE,"ISO 22003-1 food chain categories: A, B, C, D, E, F, G, H, I, K (classified to EA by category)"
+D-ZM-14143-01-00 (22000),ISO 22000,1;3;7;12-15;17;29-31;35,ACTIVE,"ISO 22003-1 food chain categories: A, B, C, D, E, F, G, H, I, K (classified to EA by category)"
+D-ZM-14143-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-14143-01-00 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+D-ZM-14143-01-00 (9104),AS 9100,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-14150-01-00,ISO 13485,13-14;17-18;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Parts or services (classified to EA by area)
+D-ZM-14150-01-00,ISO 14001,4-5;12;14;16-19;23;28-29;33-35;37,ACTIVE,
+D-ZM-14150-01-00,ISO 9001,4-5;12;14;16-19;23;28-29;33-35;37-38,ACTIVE,
+D-ZM-14150-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-14150-01-00 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; transport; energy supply (classified to EA by area)
+D-ZM-14169-01-00,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Active implantable medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services (classified to EA by area)
+D-ZM-14530-01-00 (22000),FSSC 22000,3;29;31,ACTIVE,"ISO 22003-1 food chain categories: C, F, G (classified to EA by category)"
+D-ZM-14530-01-00 (22000),ISO 22000,3;29;31,ACTIVE,"ISO 22003-1 food chain categories: C, F, G (classified to EA by category)"
+D-ZM-15110-01-00,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Devices incorporating specific substances / technologies; Parts or services (classified to EA by area)
+D-ZM-15110-01-00,ISO 9001,17-19;29;33-35,ACTIVE,
+D-ZM-15209-01-00,ISO 9001,12;14,ACTIVE,
+D-ZM-16001-01-00,ISO 14001,3-4;6-7;9;12;14;17-19;22-24;28-35;37;39,ACTIVE,
+D-ZM-16001-01-00,ISO 45001,3;12;14;17-19;22;24;29;31-33;35;37;39,ACTIVE,
+D-ZM-16001-01-00,ISO 9001,2-4;6-7;9;12-15;17-19;22-24;28-39,ACTIVE,
+D-ZM-16001-01-00 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; energy supply (classified to EA by area)
+D-ZM-16002-01-00,ISO 13485,12-14;17;19,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; In vitro diagnostic medical devices (classified to EA by area)
+D-ZM-16002-01-00,ISO 9001,4-5;12-15;17-19;23;29;33;35;37-38,ACTIVE,
+D-ZM-16003-01-00,ISO 14001,2-4;6-7;9-19;22-35;37-39,ACTIVE,
+D-ZM-16003-01-00,ISO 45001,3;6-19;22-35;37;39,ACTIVE,
+D-ZM-16003-01-00,ISO 9001,3-4;6-7;9-10;12-15;17-19;22-27;29-39,ACTIVE,
+D-ZM-16003-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16003-01-00 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+D-ZM-16003-01-00 (55001),ISO 55001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16004-01-00,ISO 14001,2;16;28;32;34-35,ACTIVE,
+D-ZM-16004-01-00,ISO 37301,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16004-01-00,ISO 45001,28;34,ACTIVE,
+D-ZM-16004-01-00,ISO 9001,2;16-17;24;28;32;34-35;37,ACTIVE,
+D-ZM-16004-01-00 (37001),ISO 37001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16006-01-00,ISO 14001,1-39,ACTIVE,
+D-ZM-16006-01-00,ISO 21001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16006-01-00,ISO 45001,1-20;22-39,ACTIVE,
+D-ZM-16006-01-00,ISO 9001,1-39,ACTIVE,IAF 22 from the automotive annex (EU 2018/858)
+D-ZM-16006-01-00 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16006-01-00 (22000),FSSC 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 food chain categories: A, B, C, D, E, F, G, H, I, J, K (classified to EA by category)"
+D-ZM-16006-01-00 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 food chain categories: A, B, C, D, E, F, G, H, I, J, K (classified to EA by category)"
+D-ZM-16006-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16006-01-00 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+D-ZM-16007-01-00,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices; Devices incorporating specific substances / technologies; Parts or services (classified to EA by area)
+D-ZM-16007-01-00,ISO 14001,14;17-19;24;29;35;37,ACTIVE,
+D-ZM-16007-01-00,ISO 45001,14;17-19;24;28-29;31;33-35;37;39,ACTIVE,
+D-ZM-16007-01-00,ISO 9001,13-14;17-19;23-24;28-29;31;33-35;37-39,ACTIVE,
+D-ZM-16007-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16007-01-00 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+D-ZM-16012-01-00,ISO 14001,1-3;7-10;12;14-20;22;24;28-37;39,ACTIVE,
+D-ZM-16012-01-00,ISO 45001,3;6-10;12;14-20;22;24;26-37;39,ACTIVE,
+D-ZM-16012-01-00,ISO 9001,1-3;7-10;12;14-20;22;24-39,ACTIVE,
+D-ZM-16012-01-00 (22000),ISO 22000,1;3;29-31,ACTIVE,"ISO 22003-1 food chain categories: A, B, C, D, E, F, G (classified to EA by category)"
+D-ZM-16012-01-00 (50003),ISO 50001,2-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; transport; mining; energy supply (classified to EA by area)
+D-ZM-16013-01-00,ISO 13485,18;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Parts or services (classified to EA by area)
+D-ZM-16013-01-00,ISO 14001,14;17-19;22;28-31;35,ACTIVE,
+D-ZM-16013-01-00,ISO 45001,14;17-19;22;28-29;33-35;37,ACTIVE,
+D-ZM-16013-01-00,ISO 9001,3;6;9;13-14;17-19;22-23;28-35;37-38,ACTIVE,
+D-ZM-16013-01-00 (50003),ISO 50001,3-9;12-14;18-19;22-24;30-32;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; buildings; building complexes; transport (classified to EA by area)
+D-ZM-16014-01-00,ISO 9001,13;29-30;35;37-38,ACTIVE,
+D-ZM-16015-01-00,ISO 14001,14;17-19;24;28-31;34-35;39,ACTIVE,
+D-ZM-16015-01-00,ISO 45001,6;12;14;16-19;24;28-29;31;33-35;39,ACTIVE,
+D-ZM-16015-01-00,ISO 9001,3;6-7;9;12-19;23-39,ACTIVE,
+D-ZM-16015-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16015-01-00 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; energy supply (classified to EA by area)
+D-ZM-16019-01-00,ISO 13485,13-14;17-18;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Parts or services (classified to EA by area)
+D-ZM-16019-01-00,ISO 14001,14;17-19,ACTIVE,
+D-ZM-16019-01-00,ISO 9001,13-14;17-19;29;35,ACTIVE,
+D-ZM-16021-01-00,ISO 13485,13-14;17;19;35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Sterilization methods; Devices incorporating specific substances / technologies (classified to EA by area)
+D-ZM-16021-01-00,ISO 15378,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16023-01-00,ISO 14001,17-19;24;29;31;33-35;37;39,ACTIVE,
+D-ZM-16023-01-00,ISO 9001,17-19;28-29;31;33-35;37-39,ACTIVE,
+D-ZM-16023-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16028-01-00,ISO 9001,2;14;17-19;28,ACTIVE,
+D-ZM-16029-01-00,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices; Devices incorporating specific substances / technologies; Parts or services (classified to EA by area)
+D-ZM-16029-01-00,ISO 14001,1-4;6-7;9;12-19;22-39,ACTIVE,
+D-ZM-16029-01-00,ISO 45001,1-4;6-9;12-19;22-37;39,ACTIVE,
+D-ZM-16029-01-00,ISO 9001,1-7;9;12-39,ACTIVE,IAF 22 from the automotive annex (EU 2018/858)
+D-ZM-16029-01-00 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16029-01-00 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 food chain categories: B, C, D, E, F, G, H, I, J, K (classified to EA by category)"
+D-ZM-16029-01-00 (22301),ISO 22301,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16029-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16029-01-00 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+D-ZM-16029-01-00 (9104),AS 9100,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16030-02-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16031-01-00,ISO 14001,1-39,ACTIVE,
+D-ZM-16031-01-00,ISO 15378,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16031-01-00,ISO 19443,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16031-01-00,ISO 45001,1-39,ACTIVE,
+D-ZM-16031-01-00,ISO 9001,1-39,ACTIVE,IAF 22 from the automotive annex (EU 2018/858)
+D-ZM-16031-01-00 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16031-01-00 (22000),FSSC 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 food chain categories: A, B, C, D, E, F, G, H, I, J, K (classified to EA by category)"
+D-ZM-16031-01-00 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 food chain categories: A, B, C, D, E, F, G, H, I, J, K (classified to EA by category)"
+D-ZM-16031-01-00 (22301),ISO 22301,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16031-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16031-01-00 (37001),ISO 37001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16031-01-00 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+D-ZM-16031-01-00 (55001),ISO 55001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16031-01-00 (9104),AS 9100,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16033-01-00,ISO 14001,2-3;6;9;12;14-15;17-19;22-23;29;33-35;37,ACTIVE,
+D-ZM-16033-01-00,ISO 45001,6;9;14-19;22-23;29;33;35-37;39,ACTIVE,
+D-ZM-16033-01-00,ISO 9001,2-4;6-7;9;12;14-15;17-19;22-27;29;33-35;37-39,ACTIVE,
+D-ZM-16033-01-00 (22301),ISO 22301,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16033-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16033-01-00 (50003),ISO 50001,1-9;12-14;18-19;22-27;30-32;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+D-ZM-16034-01-00,EN 15224,38,ACTIVE,Health care sectors (Sektoren des Gesundheitswesens): EA 38
+D-ZM-16034-01-00,ISO 9001,13;29;35;37-39,ACTIVE,
+D-ZM-16035-01-00,ISO 9001,17-19;29;35;37-39,ACTIVE,
+D-ZM-16038-01-00,ISO 14001,4-5;14-15;17-19;22;35,ACTIVE,
+D-ZM-16038-01-00,ISO 15378,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16038-01-00,ISO 45001,14-15;17-19;22,ACTIVE,
+D-ZM-16038-01-00,ISO 9001,4-6;14-15;17-19;22-23;29;34-35;38,ACTIVE,
+D-ZM-16038-01-00 (50003),ISO 50001,3-9;12-14;18-19;22-24,ACTIVE,ISO 50003 technical areas: industry – light to medium (classified to EA by area)
+D-ZM-16039-01-00,ISO 9001,2-4;6-7;9;12-19;22-24;28-39,ACTIVE,
+D-ZM-16040-01-00,ISO 9001,13-14;17-19;29;31-39,ACTIVE,
+D-ZM-16051-01-00,ISO 14001,12;24-25;29;31;33;35;39,ACTIVE,
+D-ZM-16051-01-00,ISO 45001,12;24;29;31;35;39,ACTIVE,
+D-ZM-16051-01-00,ISO 9001,12;24-25;29;31;35;39,ACTIVE,
+D-ZM-16051-01-00 (50003),ISO 50001,2-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; energy supply (classified to EA by area)
+D-ZM-16054-01-00,ISO 45001,2;12;14;16-17;24-27;31;39,ACTIVE,
+D-ZM-16054-01-00,ISO 9001,24;29;31;35;39,ACTIVE,
+D-ZM-16054-01-00 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+D-ZM-16056-01-00,ISO 9001,33;35;37,ACTIVE,
+D-ZM-16062-01-00,ISO 14001,24;31;35;39,ACTIVE,
+D-ZM-16062-01-00,ISO 45001,31;35;39,ACTIVE,
+D-ZM-16062-01-00,ISO 9001,24;29;31;35;39,ACTIVE,
+D-ZM-16062-01-00 (50003),ISO 50001,30-32;36-39,ACTIVE,ISO 50003 technical areas: buildings; transport (classified to EA by area)
+D-ZM-16064-01-00,ISO 14001,14;17-19;24;29;31;34-35;39,ACTIVE,
+D-ZM-16064-01-00,ISO 45001,14;17-19;24;29;31;34-35;39,ACTIVE,
+D-ZM-16064-01-00,ISO 9001,14;17-19;24;28-29;31;34-35;37-39,ACTIVE,
+D-ZM-16064-01-00 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; energy supply (classified to EA by area)
+D-ZM-16066-01-00,ISO 9001,35;37-38,ACTIVE,
+D-ZM-16068-01-00,ISO 14001,14;18-19;24-25;27;39,ACTIVE,
+D-ZM-16068-01-00,ISO 9001,18-19;23-24;29;31;34;39,ACTIVE,
+D-ZM-16068-01-00 (50003),ISO 50001,3-9;12-14;18-19;22-27;30-32;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; buildings; building complexes; transport; energy supply (classified to EA by area)
+D-ZM-16069-01-00,ISO 14001,2;15-16;28;34,ACTIVE,
+D-ZM-16069-01-00,ISO 45001,2;15-16;28;34,ACTIVE,
+D-ZM-16069-01-00,ISO 9001,2;15-16;28;34,ACTIVE,
+D-ZM-16069-01-00 (50003),ISO 50001,2-10;12-24;28;31;34,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; transport; mining (classified to EA by area)
+D-ZM-16070-01-00,ISO 21001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16070-01-00,ISO 9001,17-19;28-29;31;33-39,ACTIVE,
+D-ZM-16070-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16072-01-00,ISO 14001,3;29;34,ACTIVE,
+D-ZM-16072-01-00,ISO 9001,1;3;13;29-30;34-35;37-38,ACTIVE,
+D-ZM-16072-01-00 (22000),FSSC 22000,1;3;12-13;29;31,ACTIVE,"ISO 22003-1 food chain categories: B, C, F, G, K (classified to EA by category)"
+D-ZM-16072-01-00 (22000),ISO 22000,1;3;12-13;29;31,ACTIVE,"ISO 22003-1 food chain categories: B, C, F, G, K (classified to EA by category)"
+D-ZM-16072-01-00 (50003),ISO 50001,1;3-10;12-28;30;32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; building complexes; agriculture; energy supply (classified to EA by area)
+D-ZM-16074-01-00,ISO 14001,1-10;12-39,ACTIVE,
+D-ZM-16074-01-00,ISO 21001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16074-01-00,ISO 45001,2-10;12-39,ACTIVE,
+D-ZM-16074-01-00,ISO 9001,1-10;12-39,ACTIVE,IAF 22 from the automotive annex (EU 2018/858)
+D-ZM-16074-01-00 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16074-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16074-01-00 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+D-ZM-16074-01-00 (9104),AS 9100,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16077-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16077-01-00 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16078-01-00,ISO 21001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16078-01-00,ISO 9001,35;37-39,ACTIVE,
+D-ZM-16083-01-00,ISO 45001,17-19;22;28;34-35,ACTIVE,
+D-ZM-16083-01-00,ISO 9001,17-19;22;28;34-35,ACTIVE,
+D-ZM-16089-01-00,ISO 14001,3-4;6-7;9;12-15;17-19;22-29;31;34-35;38-39,ACTIVE,
+D-ZM-16089-01-00,ISO 45001,4;6;13-15;17-19;22-24;34-35,ACTIVE,
+D-ZM-16089-01-00,ISO 9001,2-4;6-7;9;12;14-15;17-19;22-29;31;34-35;37-39,ACTIVE,
+D-ZM-16089-01-00 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+D-ZM-16092-01-00,ISO 14001,2;6-7;9;12;14;17-18;24;28-29;31;33-35;39,ACTIVE,
+D-ZM-16092-01-00,ISO 45001,7;12;14;17-19;29;31;33-35;37,ACTIVE,
+D-ZM-16092-01-00,ISO 9001,7;9;12;14;17-19;24;28-29;31;33-35;37-39,ACTIVE,
+D-ZM-16092-01-00 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+D-ZM-16093-01-00,ISO 14001,14;17-19;24;29;34-35,ACTIVE,
+D-ZM-16093-01-00,ISO 9001,14;17-19;29;34-35;38,ACTIVE,
+D-ZM-16095-01-00,ISO 14001,14;17-19;24;28-29;31;34-35;37;39,ACTIVE,
+D-ZM-16095-01-00,ISO 45001,14;17-19;24;29;35,ACTIVE,
+D-ZM-16095-01-00,ISO 9001,14;17-19;24;28-29;31;34-35;37-39,ACTIVE,
+D-ZM-16095-01-00 (50003),ISO 50001,3-9;12-14;18-19;22-27;30;32;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; buildings; building complexes; energy supply (classified to EA by area)
+D-ZM-16098-01-00,ISO 14001,6-9;12;14;17-19;22-24;28-29;31-32;34-37;39,ACTIVE,
+D-ZM-16098-01-00,ISO 45001,14;17-19;28;35,ACTIVE,
+D-ZM-16098-01-00,ISO 9001,2;7;9;12-14;16-19;22-23;28-29;32-36;39,ACTIVE,
+D-ZM-16098-01-00 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+D-ZM-16100-01-00,ISO 14001,14;17-19;29;35,ACTIVE,
+D-ZM-16100-01-00,ISO 45001,17-18;35,ACTIVE,
+D-ZM-16100-01-00,ISO 9001,4;7;9;12;14;17-19;23;28;31-35;37-39,ACTIVE,
+D-ZM-16100-01-00 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; energy supply (classified to EA by area)
+D-ZM-16102-01-00,ISO 14001,1;3-6;9;12-19;22-35;38-39,ACTIVE,
+D-ZM-16102-01-00,ISO 45001,5;12;14-19;22-23;25-29;31-35;37;39,ACTIVE,
+D-ZM-16102-01-00,ISO 9001,3-6;9;12-19;22-25;28-35;37-39,ACTIVE,
+D-ZM-16102-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16102-01-00 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; energy supply (classified to EA by area)
+D-ZM-16103-01-00,ISO 14001,1-3;8-10;12-19;21-39,ACTIVE,
+D-ZM-16103-01-00,ISO 45001,10;12;14-15;17;19;24-29;31-38,ACTIVE,
+D-ZM-16103-01-00,ISO 9001,1-3;8-10;12-19;21-22;24-39,ACTIVE,
+D-ZM-16103-01-00 (22301),ISO 22301,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16103-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16103-01-00 (37001),ISO 37001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-16103-01-00 (50003),ISO 50001,2-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; energy supply (classified to EA by area)
+D-ZM-16104-01-00,ISO 14001,12;17-18;28-29;31;33-35,ACTIVE,
+D-ZM-16104-01-00,ISO 9001,12;17-19;22;28-29;31;33-35,ACTIVE,
+D-ZM-16108-01-00,ISO 14001,1-2;12;17;19;25;29;31;33-35,ACTIVE,
+D-ZM-16108-01-00,ISO 45001,17-19;34-35,ACTIVE,
+D-ZM-16108-01-00,ISO 9001,12;14;17-19;25;28-29;31;33-35,ACTIVE,
+D-ZM-16108-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-17165-01-00,ISO 14001,17-19;29;34-35,ACTIVE,
+D-ZM-17165-01-00,ISO 21001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-17165-01-00,ISO 45001,17-19;29;35;37,ACTIVE,
+D-ZM-17165-01-00,ISO 9001,14;17-19;29;31;33-35;37-39,ACTIVE,
+D-ZM-17165-01-00 (22301),ISO 22301,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-17165-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-17265-01-00,ISO 14001,14;17-18;24;29,ACTIVE,
+D-ZM-17265-01-00,ISO 45001,14;17-18;24;29;34,ACTIVE,
+D-ZM-17265-01-00,ISO 9001,14;17-18;23-24;29;34-35,ACTIVE,
+D-ZM-17265-01-00 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; energy supply (classified to EA by area)
+D-ZM-17431-01-00,ISO 14001,17;24;27-29;31;34-35;37;39,ACTIVE,
+D-ZM-17431-01-00,ISO 45001,17-19;24;27-29;31;34-35;39,ACTIVE,
+D-ZM-17431-01-00,ISO 9001,2;12;14;17-19;24-29;31;33-35;37;39,ACTIVE,
+D-ZM-17431-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-17431-01-00 (50003),ISO 50001,3-9;12-14;18-19;22-27;30-32;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; buildings; building complexes; transport; energy supply (classified to EA by area)
+D-ZM-17500-01-00,ISO 14001,7;9;12;14;17-19;28-29;31;35,ACTIVE,
+D-ZM-17500-01-00,ISO 9001,7;9;12-14;16-19;22-24;28-29;31;33-35;37-39,ACTIVE,
+D-ZM-17500-01-00 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; agriculture; energy supply (classified to EA by area)
+D-ZM-17591-01-00,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Sterilization methods; Parts or services (classified to EA by area)
+D-ZM-17670-01-00,ISO 14001,2-3;15-16;24;28-29;31;34-35,ACTIVE,
+D-ZM-17670-01-00,ISO 45001,2;15-16;24;28-29;31;34-35,ACTIVE,
+D-ZM-17670-01-00,ISO 9001,1-3;15-19;24;28-29;31;34-35;38,ACTIVE,
+D-ZM-17670-01-00 (50003),ISO 50001,2-10;12-24;28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; transport; mining (classified to EA by area)
+D-ZM-17751-03-00,ISO 13485,18;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Parts or services (classified to EA by area)
+D-ZM-17751-03-00,ISO 14001,12;17-19;29;35,ACTIVE,
+D-ZM-17751-03-00,ISO 45001,6;12;17-19;28-29;31;34-35;39,ACTIVE,
+D-ZM-17751-03-00,ISO 9001,6;12-14;17-19;28-29;31-35;37-39,ACTIVE,
+D-ZM-17751-03-00 (50003),ISO 50001,1;3-9;12-14;18-19;22-27;30-32;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; buildings; building complexes; transport; agriculture; energy supply (classified to EA by area)
+D-ZM-18078-01-00,ISO 14001,14-15;17-19;29,ACTIVE,
+D-ZM-18078-01-00,ISO 9001,14-15;17-19;29;35,ACTIVE,
+D-ZM-18078-01-00 (50003),ISO 50001,3-10;12-24;28;30;32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes (classified to EA by area)
+D-ZM-18402-01-00,ISO 37301,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-18402-01-00 (22000),FSSC 22000,1;3;7;12-15;17;29-31;35,ACTIVE,"ISO 22003-1 food chain categories: B, C, D, E, F, G, H, I, K (classified to EA by category)"
+D-ZM-18402-01-00 (22000),ISO 22000,1;3;7;12-15;17;29-31;35,ACTIVE,"ISO 22003-1 food chain categories: B, C, D, E, F, G, H, I, K (classified to EA by category)"
+D-ZM-18402-01-00 (22301),ISO 22301,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-18402-01-00 (37001),ISO 37001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-18455-02-00,ISO 14001,6;14-19;22;28-29;31;34-39,ACTIVE,
+D-ZM-18455-02-00,ISO 9001,6;14-19;22;28-29;31;34-37;39,ACTIVE,
+D-ZM-18455-02-00 (50003),ISO 50001,3-9;12-14;18-19;22-24;30-32;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; buildings; building complexes; transport (classified to EA by area)
+D-ZM-18660-02-00,ISO 9001,17-19;29;35;37-39,ACTIVE,
+D-ZM-18709-01-00,ISO 14001,2-3;6-10;12-27;29-39,ACTIVE,
+D-ZM-18709-01-00,ISO 45001,17-18,ACTIVE,
+D-ZM-18709-01-00,ISO 9001,3;7-9;15-19;24-27;31;33;39,ACTIVE,
+D-ZM-18709-01-00 (50003),ISO 50001,2-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; mining; energy supply (classified to EA by area)
+D-ZM-18824-01-00,ISO 9001,14;17-19;22-23;29;33-35,ACTIVE,IAF 22 from the automotive annex (EU 2018/858)
+D-ZM-18824-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-18855-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-18926-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-18953-01-00,ISO 14001,1;3;29,ACTIVE,
+D-ZM-18953-01-00,ISO 9001,1;3;29,ACTIVE,
+D-ZM-18953-01-00 (50003),ISO 50001,3-9;12-14;18-19;22-27;30-32;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; buildings; transport; energy supply (classified to EA by area)
+D-ZM-18982-01-00,ISO 9001,2;15-16;24;28-29;31;34-35,ACTIVE,
+D-ZM-19509-01-00,ISO 14001,3-4;6-9;12-15;17-19;22-24;27-39,ACTIVE,
+D-ZM-19509-01-00,ISO 45001,3;13-15;17-19;22;29;32-37,ACTIVE,
+D-ZM-19509-01-00,ISO 9001,4;6;9;12;14-15;17-19;22-24;29;31;35-36;39,ACTIVE,
+D-ZM-19509-01-00 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; energy supply (classified to EA by area)
+D-ZM-19585-01-00,ISO 14001,3;12-14;17-19;22;29-30;32-33;35-37,ACTIVE,
+D-ZM-19585-01-00,ISO 45001,3;13;30;34-35,ACTIVE,
+D-ZM-19585-01-00 (50003),ISO 50001,1;3-10;12-24;28;30;32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; agriculture (classified to EA by area)
+D-ZM-19630-04-00,ISO 13485,13-14;17;19,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Active implantable medical devices; Devices incorporating specific substances / technologies (classified to EA by area)
+D-ZM-19660-01-00,ISO 9001,14;17-19;29;31-32;35;37-38,ACTIVE,
+D-ZM-19936-01-00,ISO 9001,35;38,ACTIVE,
+D-ZM-20010-01-00,ISO 14001,7;14;17-19;29;32-33;35;39,ACTIVE,
+D-ZM-20010-01-00,ISO 45001,7;9;14;17-19;28-29;35;39,ACTIVE,
+D-ZM-20010-01-00,ISO 9001,7;9;14;17-19;22;29;31-33;35;39,ACTIVE,
+D-ZM-20010-01-00 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; energy supply (classified to EA by area)
+D-ZM-20214-01-00,ISO 9001,19;29-30;35;37-38,ACTIVE,
+D-ZM-20244-01-00 (50003),ISO 50001,1;3-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; agriculture; energy supply (classified to EA by area)
+D-ZM-20532-01-00,ISO 14001,12;14-15;17;19;22;24;29;31;35,ACTIVE,
+D-ZM-20532-01-00,ISO 45001,14;17-18;24;29;31;35,ACTIVE,
+D-ZM-20532-01-00,ISO 9001,14;17-18;24;29;31;34-35,ACTIVE,
+D-ZM-20532-01-00 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; transport; energy supply (classified to EA by area)
+D-ZM-20646-01-00 (50003),ISO 50001,1;3-9;12-14;18-19;22-27;30-32;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; buildings; building complexes; transport; agriculture; energy supply (classified to EA by area)
+D-ZM-20736-01-00,ISO 14001,17-19;22;29;33;35-37,ACTIVE,
+D-ZM-20736-01-00,ISO 45001,35;37-38,ACTIVE,
+D-ZM-20736-01-00,ISO 9001,17-19;22;28-29;31-32;35-39,ACTIVE,
+D-ZM-21011-01-00,ISO 14001,2;4-5;14;17-19;22-24;28-29;31-35;37;39,ACTIVE,
+D-ZM-21011-01-00,ISO 45001,17-19;22;28;31;34;39,ACTIVE,
+D-ZM-21011-01-00,ISO 9001,4-6;12;14;17-19;22-24;28-29;31-35;37-39,ACTIVE,
+D-ZM-21011-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-21011-01-00 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; energy supply (classified to EA by area)
+D-ZM-21170-01-00,ISO 14001,17;29;35,ACTIVE,
+D-ZM-21170-01-00,ISO 45001,35,ACTIVE,
+D-ZM-21170-01-00,ISO 9001,12;17-18;29;33;35,ACTIVE,
+D-ZM-21170-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-21201-01-00,ISO 9001,18-19;29;33;35,ACTIVE,
+D-ZM-21201-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-21202-01-00,ISO 45001,17,ACTIVE,
+D-ZM-21371-01-00,ISO 9001,31;33;35,ACTIVE,
+D-ZM-21371-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-21575-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-21753-01-00,ISO 13485,13-14;17-18;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Devices incorporating specific substances / technologies; Parts or services (classified to EA by area)
+D-ZM-22342-01-00,ISO 14001,14;17-19;29;35,ACTIVE,
+D-ZM-22342-01-00,ISO 45001,14;17-19,ACTIVE,
+D-ZM-22342-01-00,ISO 9001,14;17-19;29;32;34-35,ACTIVE,
+D-ZM-22467-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-22855-01-00 (22000),FSSC 22000,1;3;7;12-15;17,ACTIVE,"ISO 22003-1 food chain categories: B, C, I, K (classified to EA by category)"
+D-ZM-23224-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-23239-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+D-ZM-23286-01-00,ISO 9001,17-19;29,ACTIVE,
+D-ZM-23393-01-00 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors

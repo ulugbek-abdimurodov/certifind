@@ -1,0 +1,25 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+BELAC,005-QMS,SGS BELGIUM nv,ISO/IEC 17021-1,ACTIVE,2026-09-24,2031-05-09,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/005-QMS.pdf
+BELAC,016-QMS,VINÇOTTE SA/nv,ISO/IEC 17021-1,ACTIVE,2026-07-01,2029-12-30,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/016-QMS.pdf
+BELAC,016-QMS (22000),VINÇOTTE SA/nv,ISO 22003-1,ACTIVE,2026-07-01,2029-12-30,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/016-QMS.pdf
+BELAC,016-QMS (27006),VINÇOTTE SA/nv,ISO/IEC 27006,ACTIVE,2026-07-01,2029-12-30,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/016-QMS.pdf
+BELAC,016-QMS (50003),VINÇOTTE SA/nv,ISO 50003,ACTIVE,2026-07-01,2029-12-30,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/016-QMS.pdf
+BELAC,019-QMS,BELGIAN QUALITY ASSOCIATION nv,ISO/IEC 17021-1,ACTIVE,2026-03-12,2029-11-30,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/019-QMS.pdf
+BELAC,019-QMS (27006),BELGIAN QUALITY ASSOCIATION nv,ISO/IEC 27006,ACTIVE,2026-03-12,2029-11-30,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/019-QMS.pdf
+BELAC,019-QMS (50003),BELGIAN QUALITY ASSOCIATION nv,ISO 50003,ACTIVE,2026-03-12,2029-11-30,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/019-QMS.pdf
+BELAC,021-QMS,BELGIAN CONSTRUCTION CERTIFICATION ASSOCIATION (B.C.C.A.) vzw,ISO/IEC 17021-1,ACTIVE,2026-07-01,2029-05-24,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/021-QMS.pdf
+BELAC,022-QMS,BUREAU VERITAS CERTIFICATION BELGIUM nv,ISO/IEC 17021-1,ACTIVE,2026-07-01,2029-11-30,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/022-QMS.pdf
+BELAC,022-QMS (27006),BUREAU VERITAS CERTIFICATION BELGIUM nv,ISO/IEC 27006,ACTIVE,2026-07-01,2029-11-30,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/022-QMS.pdf
+BELAC,022-QMS (50003),BUREAU VERITAS CERTIFICATION BELGIUM nv,ISO 50003,ACTIVE,2026-07-01,2029-11-30,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/022-QMS.pdf
+BELAC,084-QMS,"ASSOCIATION DES PROPRIÉTAIRES DE RÉCIPIENTS A GAZ COMPRIMÉS, LIQUÉFIÉS OU DISSOUS (APRAGAZ) ASBL",ISO/IEC 17021-1,ACTIVE,2026-10-29,2030-05-03,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/084-QMS.pdf
+BELAC,306-QMS,PME Cert SA,ISO/IEC 17021-1,ACTIVE,2026-09-24,2029-06-26,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/306-QMS.pdf
+BELAC,306-QMS (27006),PME Cert SA,ISO/IEC 27006,ACTIVE,2026-09-24,2029-06-26,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/306-QMS.pdf
+BELAC,335-QMS,CERTIFER BELGORAIL SA,ISO/IEC 17021-1,ACTIVE,2025-12-11,2030-10-21,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/335-QMS.pdf
+BELAC,600-QMS,CertUp nv - Normec CertUp,ISO/IEC 17021-1,ACTIVE,2026-08-02,2030-03-29,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/600-QMS.pdf
+BELAC,615-QMS,KPMG CERTIFICATION bv,ISO/IEC 17021-1,ACTIVE,2026-01-18,2031-01-17,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/615-QMS.pdf
+BELAC,615-QMS (27006),KPMG CERTIFICATION bv,ISO/IEC 27006,ACTIVE,2026-01-18,2031-01-17,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/615-QMS.pdf
+BELAC,620-QMS,Foodchain ID Certification SA,ISO/IEC 17021-1,ACTIVE,2025-07-30,2027-04-18,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/620-QMS.pdf
+BELAC,620-QMS (22000),Foodchain ID Certification SA,ISO 22003-1,ACTIVE,2025-07-30,2027-04-18,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/620-QMS.pdf
+BELAC,683-QMS,GALIO & PARTNERS SRL,ISO/IEC 17021-1,ACTIVE,2026-07-08,2027-01-07,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/683-QMS.pdf
+BELAC,766-QMS,BRAND COMPLIANCE BELGIË bv,ISO/IEC 17021-1,ACTIVE,2025-10-01,2028-09-03,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/766-QMS.pdf
+BELAC,766-QMS (27006),BRAND COMPLIANCE BELGIË bv,ISO/IEC 27006,ACTIVE,2025-10-01,2028-09-03,https://ng3.economie.fgov.be/NI/belac/QMS/scope_pdf/766-QMS.pdf

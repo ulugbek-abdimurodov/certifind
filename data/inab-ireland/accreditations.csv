@@ -1,0 +1,13 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+INAB,5001,NSAI,ISO/IEC 17021-1,ACTIVE,2023-08-18,2028-08-18,https://www.inab.ie/media/iaommkip/5001-sc.pdf
+INAB,5001 (22000),NSAI,ISO 22003-1,ACTIVE,2023-08-18,2028-08-18,https://www.inab.ie/media/iaommkip/5001-sc.pdf
+INAB,5001 (27006),NSAI,ISO/IEC 27006,ACTIVE,2023-08-18,2028-08-18,https://www.inab.ie/media/iaommkip/5001-sc.pdf
+INAB,5001 (50003),NSAI,ISO 50003,ACTIVE,2023-08-18,2028-08-18,https://www.inab.ie/media/iaommkip/5001-sc.pdf
+INAB,5006,Amtivo (Ireland) Limited,ISO/IEC 17021-1,ACTIVE,2023-07-27,2028-07-27,https://www.inab.ie/media/fdbfnlcm/5006-sc.pdf
+INAB,5006 (27006),Amtivo (Ireland) Limited,ISO/IEC 27006,ACTIVE,2023-07-27,2028-07-27,https://www.inab.ie/media/fdbfnlcm/5006-sc.pdf
+INAB,5006 (50003),Amtivo (Ireland) Limited,ISO 50003,ACTIVE,2023-07-27,2028-07-27,https://www.inab.ie/media/fdbfnlcm/5006-sc.pdf
+INAB,5011,Management Systems Certification Ltd,ISO/IEC 17021-1,ACTIVE,2023-12-01,2028-12-01,https://www.inab.ie/media/utbms3f3/5011-sc.pdf
+INAB,5016,OMNI Assured Certification International Limited,ISO/IEC 17021-1,ACTIVE,2023-11-15,2028-11-15,https://www.inab.ie/media/s2hdlb5a/5016-sc.pdf
+INAB,5017,Hartford Steam Boiler Ireland Ltd.,ISO/IEC 17021-1,ACTIVE,2024-07-18,2029-07-18,https://www.inab.ie/media/m5accc3s/5017-sc.pdf
+INAB,5021,West Assured Solutions Limited,ISO/IEC 17021-1,ACTIVE,2025-11-11,2030-11-11,https://www.inab.ie/media/qjyfcttz/5021-sc.pdf
+INAB,5021 (27006),West Assured Solutions Limited,ISO/IEC 27006,ACTIVE,2025-11-11,2030-11-11,https://www.inab.ie/media/qjyfcttz/5021-sc.pdf

@@ -1,0 +1,25 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+5001,ISO 14001,2-4;6-9;12-19;23-37,ACTIVE,
+5001,ISO 45001,3;6-9;12;14-19;22-39,ACTIVE,
+5001,ISO 9001,1-4;6-9;12;14-19;23-37;39,ACTIVE,
+5001 (22000),FSSC 22000,3;7;12-15;17;31,ACTIVE,"ISO 22003-1 categories C, G, I, K (classified to EA by sector)"
+5001 (22000),ISO 22000,3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories C, E, F, G, I, K (classified to EA by sector)"
+5001 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+5001 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F, G, H (classified to EA by sector)"
+5006,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Parts or services (classified to EA by sector)
+5006,ISO 14001,2-7;9;12-19;22-25;27-29;31-35;37;39,ACTIVE,
+5006,ISO 45001,3-9;13-19;22-25;27-39,ACTIVE,
+5006,ISO 9001,1-4;6-9;12-24;27-39,ACTIVE,
+5006 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+5006 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F, G, H (classified to EA by sector)"
+5011,ISO 14001,17;24;28-29;31;34-35;39,ACTIVE,
+5011,ISO 45001,17;28-29;31;34-35,ACTIVE,
+5011,ISO 9001,3;6;14;17-18;22;28-29;31;34-35;37,ACTIVE,
+5016,ISO 14001,16-17,ACTIVE,
+5016,ISO 45001,16-17,ACTIVE,
+5016,ISO 9001,16-17,ACTIVE,
+5017,ISO 19443,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors
+5021,ISO 14001,2-3;9;13-14;16-19;24;28-29;31-35;39,ACTIVE,
+5021,ISO 45001,2-3;9;13-14;16-19;24;28-29;31-35;39,ACTIVE,
+5021,ISO 9001,2-3;9;14;16-19;24;28-29;31-35;39,ACTIVE,
+5021 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the schedule; recorded for all EA sectors

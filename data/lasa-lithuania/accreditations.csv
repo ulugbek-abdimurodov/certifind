@@ -1,0 +1,9 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+LASA,LA.04.001,Viešoji įstaiga „LST Sert“,ISO/IEC 17021-1,ACTIVE,2001-10-10,2028-09-07,http://db.nab.lt/ais/accreditation/a9759b32-e433-4bcf-851b-f52ce0ad8660
+LASA,LA.04.001 (22000),Viešoji įstaiga „LST Sert“,ISO 22003-1,ACTIVE,2001-10-10,2028-09-07,http://db.nab.lt/ais/accreditation/a9759b32-e433-4bcf-851b-f52ce0ad8660
+LASA,LA.04.001 (27006),Viešoji įstaiga „LST Sert“,ISO/IEC 27006,ACTIVE,2001-10-10,2028-09-07,http://db.nab.lt/ais/accreditation/a9759b32-e433-4bcf-851b-f52ce0ad8660
+LASA,LA.04.002,UAB „Sertika“,ISO/IEC 17021-1,ACTIVE,2009-06-19,2029-06-17,http://db.nab.lt/ais/accreditation/cba132c9-b887-453c-8dd3-2176dd447698
+LASA,LA.04.002 (27006),UAB „Sertika“,ISO/IEC 27006,ACTIVE,2009-06-19,2029-06-17,http://db.nab.lt/ais/accreditation/cba132c9-b887-453c-8dd3-2176dd447698
+LASA,LA.04.003,UAB „Euromatas“,ISO/IEC 17021-1,ACTIVE,2011-12-05,2026-12-04,http://db.nab.lt/ais/accreditation/f240123c-9edd-47a4-87b8-56dc8d1d08eb
+LASA,LA.04.004,UAB „Bureau Veritas Lit“,ISO/IEC 17021-1,ACTIVE,2012-08-21,2027-05-31,http://db.nab.lt/ais/accreditation/18e1bc10-bdaf-423c-9296-086ff21ec569
+LASA,LA.04.005,UAB „Sistemų registras“,ISO/IEC 17021-1,ACTIVE,2015-06-10,2030-06-07,http://db.nab.lt/ais/accreditation/3f04f6cf-334c-45da-8cf6-3a084af0cae4

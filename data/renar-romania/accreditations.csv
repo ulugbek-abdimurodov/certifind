@@ -1,0 +1,47 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+RENAR,SM 003,AEROQ SA,ISO/IEC 17021-1,ACTIVE,2025-02-06,2029-01-29,https://www.renar.ro/index.php/oec/get_oec_details/43514
+RENAR,SM 003 (27006),AEROQ SA,ISO/IEC 27006,ACTIVE,2025-02-06,2029-01-29,https://www.renar.ro/index.php/oec/get_oec_details/43523
+RENAR,SM 003 (50003),AEROQ SA,ISO 50003,ACTIVE,2025-02-06,2029-01-29,https://www.renar.ro/index.php/oec/get_oec_details/44426
+RENAR,SM 004,SRAC CERT SRL,ISO/IEC 17021-1,ACTIVE,2024-08-17,2028-08-16,https://www.renar.ro/index.php/oec/get_oec_details/43266
+RENAR,SM 004 (22000),SRAC CERT SRL,ISO 22003-1,ACTIVE,2024-08-17,2028-08-16,https://www.renar.ro/index.php/oec/get_oec_details/43273
+RENAR,SM 004 (27006),SRAC CERT SRL,ISO/IEC 27006,ACTIVE,2024-08-17,2028-08-16,https://www.renar.ro/index.php/oec/get_oec_details/43265
+RENAR,SM 004 (37001),SRAC CERT SRL,ISO/IEC 17021-9,ACTIVE,2024-08-17,2028-08-16,https://www.renar.ro/index.php/oec/get_oec_details/43272
+RENAR,SM 004 (50003),SRAC CERT SRL,ISO 50003,ACTIVE,2024-08-17,2028-08-16,https://www.renar.ro/index.php/oec/get_oec_details/43275
+RENAR,SM 007,RINA SIMTEX - ORGANISMUL DE CERTIFICARE SRL,ISO/IEC 17021-1,ACTIVE,2024-08-01,2028-07-25,https://www.renar.ro/index.php/oec/get_oec_details/43233
+RENAR,SM 007 (27006),RINA SIMTEX - ORGANISMUL DE CERTIFICARE SRL,ISO/IEC 27006,ACTIVE,2024-08-01,2028-07-25,https://www.renar.ro/index.php/oec/get_oec_details/43236
+RENAR,SM 009,AUTORITATEA FEROVIARĂ ROMÂNĂ - AFER (OCSM - AFER),ISO/IEC 17021-1,ACTIVE,2024-09-05,2028-09-04,https://www.renar.ro/index.php/oec/get_oec_details/43282
+RENAR,SM 014,QUALITAS SA,ISO/IEC 17021-1,ACTIVE,2024-08-11,2028-08-10,https://www.renar.ro/index.php/oec/get_oec_details/43255
+RENAR,SM 016,SOCIETATEA ROMÂNĂ PENTRU CERTIFICARE ROCERT SRL,ISO/IEC 17021-1,ACTIVE,2025-01-30,2029-01-29,https://www.renar.ro/index.php/oec/get_oec_details/43511
+RENAR,SM 025,CERTROM SRL,ISO/IEC 17021-1,ACTIVE,2024-09-01,2028-08-31,https://www.renar.ro/index.php/oec/get_oec_details/43283
+RENAR,SM 037,SUCERT- RO SRL,ISO/IEC 17021-1,ACTIVE,2024-09-26,2028-09-25,https://www.renar.ro/index.php/oec/get_oec_details/43319
+RENAR,SM 041,CERTIND SA,ISO/IEC 17021-1,ACTIVE,2024-11-24,2028-11-23,https://www.renar.ro/index.php/oec/get_oec_details/43403
+RENAR,SM 041 (22000),CERTIND SA,ISO 22003-1,ACTIVE,2024-11-24,2028-11-23,https://www.renar.ro/index.php/oec/get_oec_details/43408
+RENAR,SM 041 (27006),CERTIND SA,ISO/IEC 27006,ACTIVE,2024-11-24,2028-11-23,https://www.renar.ro/index.php/oec/get_oec_details/43406
+RENAR,SM 041 (37001),CERTIND SA,ISO/IEC 17021-9,ACTIVE,2024-11-24,2028-11-23,https://www.renar.ro/index.php/oec/get_oec_details/43405
+RENAR,SM 041 (50003),CERTIND SA,ISO 50003,ACTIVE,2024-11-24,2028-11-23,https://www.renar.ro/index.php/oec/get_oec_details/43410
+RENAR,SM 060,QUALITY CERT SA,ISO/IEC 17021-1,ACTIVE,2025-01-30,2029-01-29,https://www.renar.ro/index.php/oec/get_oec_details/43517
+RENAR,SM 068,GRUPUL DE CERTIFICARE SISTEME DE MANAGEMENT SRL,ISO/IEC 17021-1,ACTIVE,2025-10-31,2029-10-30,https://www.renar.ro/index.php/oec/get_oec_details/43936
+RENAR,SM 082,MIȘCAREA ROMÂNĂ PENTRU CALITATE (MRC-OCS – Organism de Certificare Sisteme și Produse),ISO/IEC 17021-1,ACTIVE,2024-09-05,2028-09-04,https://www.renar.ro/index.php/oec/get_oec_details/43295
+RENAR,SM 082 (22000),MIȘCAREA ROMÂNĂ PENTRU CALITATE (MRC-OCS – Organism de Certificare Sisteme și Produse),ISO 22003-1,ACTIVE,2024-09-05,2028-09-04,https://www.renar.ro/index.php/oec/get_oec_details/43300
+RENAR,SM 082 (27006),MIȘCAREA ROMÂNĂ PENTRU CALITATE (MRC-OCS – Organism de Certificare Sisteme și Produse),ISO/IEC 27006,ACTIVE,2024-09-05,2028-09-04,https://www.renar.ro/index.php/oec/get_oec_details/43298
+RENAR,SM 082 (37001),MIȘCAREA ROMÂNĂ PENTRU CALITATE (MRC-OCS – Organism de Certificare Sisteme și Produse),ISO/IEC 17021-9,ACTIVE,2024-09-05,2028-09-04,https://www.renar.ro/index.php/oec/get_oec_details/43303
+RENAR,SM 082 (50003),MIȘCAREA ROMÂNĂ PENTRU CALITATE (MRC-OCS – Organism de Certificare Sisteme și Produse),ISO 50003,ACTIVE,2024-09-05,2028-09-04,https://www.renar.ro/index.php/oec/get_oec_details/43302
+RENAR,SM 097,RAD CERT SRL,ISO/IEC 17021-1,ACTIVE,2024-07-25,2028-07-24,https://www.renar.ro/index.php/oec/get_oec_details/43225
+RENAR,SM 099,SUN CERT SRL,ISO/IEC 17021-1,ACTIVE,2025-02-06,2029-01-29,https://www.renar.ro/index.php/oec/get_oec_details/43515
+RENAR,SM 099 (22000),SUN CERT SRL,ISO 22003-1,ACTIVE,2025-02-06,2029-01-29,https://www.renar.ro/index.php/oec/get_oec_details/43525
+RENAR,SM 099 (37001),SUN CERT SRL,ISO/IEC 17021-9,ACTIVE,2025-02-06,2029-01-29,https://www.renar.ro/index.php/oec/get_oec_details/44400
+RENAR,SM 099 (50003),SUN CERT SRL,ISO 50003,ACTIVE,2025-02-06,2029-01-29,https://www.renar.ro/index.php/oec/get_oec_details/44560
+RENAR,SM 104,AMG INITIUM CERT SRL,ISO/IEC 17021-1,ACTIVE,2023-01-22,2027-01-21,https://www.renar.ro/index.php/oec/get_oec_details/42477
+RENAR,SM 107,UNICERT SRL,ISO/IEC 17021-1,ACTIVE,2025-06-30,2029-06-27,https://www.renar.ro/index.php/oec/get_oec_details/43729
+RENAR,SM 107 (37001),UNICERT SRL,ISO/IEC 17021-9,ACTIVE,2025-06-30,2029-06-27,https://www.renar.ro/index.php/oec/get_oec_details/44159
+RENAR,SM 108,EXPERT CERT SYSTEMS SRL,ISO/IEC 17021-1,ACTIVE,2025-08-18,2029-08-17,https://www.renar.ro/index.php/oec/get_oec_details/43850
+RENAR,SM 110,CERTINSPECT REGISTER SRL,ISO/IEC 17021-1,ACTIVE,2019-09-27,2027-09-26,https://www.renar.ro/index.php/oec/get_oec_details/42785
+RENAR,SM 110 (22000),CERTINSPECT REGISTER SRL,ISO 22003-1,ACTIVE,2019-09-27,2027-09-26,https://www.renar.ro/index.php/oec/get_oec_details/44188
+RENAR,SM 110 (27006),CERTINSPECT REGISTER SRL,ISO/IEC 27006,ACTIVE,2019-09-27,2027-09-26,https://www.renar.ro/index.php/oec/get_oec_details/42788
+RENAR,SM 110 (37001),CERTINSPECT REGISTER SRL,ISO/IEC 17021-9,ACTIVE,2019-09-27,2027-09-26,https://www.renar.ro/index.php/oec/get_oec_details/44317
+RENAR,SM 111,PROCERT LABORATORY SRL,ISO/IEC 17021-1,ACTIVE,2024-02-13,2028-02-12,https://www.renar.ro/index.php/oec/get_oec_details/43005
+RENAR,SM 111 (27006),PROCERT LABORATORY SRL,ISO/IEC 27006,ACTIVE,2024-02-13,2028-02-12,https://www.renar.ro/index.php/oec/get_oec_details/43009
+RENAR,SM 112,TÜV AUSTRIA ROMÂNIA SRL (TAR CERT),ISO/IEC 17021-1,ACTIVE,2025-02-06,2029-01-26,https://www.renar.ro/index.php/oec/get_oec_details/43494
+RENAR,SM 112 (27006),TÜV AUSTRIA ROMÂNIA SRL (TAR CERT),ISO/IEC 27006,ACTIVE,2025-02-06,2029-01-26,https://www.renar.ro/index.php/oec/get_oec_details/43499
+RENAR,SM 113,"COMPANIA NATIONALĂ PENTRU CONTROLUL CAZANELOR, INSTALAȚIILOR DE RIDICAT ȘI RECIPIENTELOR SUB PRESIUNE - (CNCIR) S.A. (CNCIR CERT)",ISO/IEC 17021-1,ACTIVE,2023-12-22,2027-12-21,https://www.renar.ro/index.php/oec/get_oec_details/44347
+RENAR,SM 114,ALL CERT SYSTEMS SRL,ISO/IEC 17021-1,ACTIVE,2025-11-11,2029-11-10,https://www.renar.ro/index.php/oec/get_oec_details/44488

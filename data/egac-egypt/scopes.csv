@@ -1,0 +1,833 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+0105002,ISO 9001,1-7;9-10;12-19;22-25;27-35;37-39,ACTIVE,
+0105002,ISO 14001,1-7;9-10;12-14;16-19;22-25;27-35;37-39,ACTIVE,
+0105002,ISO 45001,1-7;9-10;12-14;16-19,ACTIVE,
+0105002 (22000),ISO 22000,3;7;12-15;17;31,ACTIVE,"ISO 22003-1 categories C, D, G, I, K (sub-categories CI, CII, CIII, CIV) (classified to EA by sector)"
+0105002,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0105002 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+010601/1,ISO 9001,1;3;7-8;10;12;29-30;32-33;35-37,ACTIVE,EA 7 Limited to “Paper products”
+010601/1,ISO 14001,7-8;12;14-19;22,ACTIVE,EA 7 Limited to “Paper products”
+010601/1,ISO 45001,7-8;12;14-19;22,ACTIVE,EA 7 Limited to “Paper products”
+010601/1 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C (sub-categories CI, CII, CIII, CIV) (classified to EA by sector)"
+011004/1,ISO 9001,1-9;12-19;23;30,ACTIVE,EA 7 Limited to “Paper products”
+011004/1,ISO 14001,2-3;7-9;12-16;30,ACTIVE,EA 7 Limited to “Paper products”
+011004/1,ISO 45001,2;4;6;12-16;19;23;31,ACTIVE,
+011004/1 (22000),ISO 22000,3;7;12-15;17;30,ACTIVE,"ISO 22003-1 categories C, E, I, K (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+011201,ISO 9001,1;3-9;12;14-19;23;28-37;39,ACTIVE,EA 7 Limited to “Paper products”
+011201,ISO 14001,10;12-19;28-37,ACTIVE,
+011201,ISO 45001,10;12-19;28-37,ACTIVE,
+011201 (22000),ISO 22000,3;29-30,ACTIVE,"ISO 22003-1 categories C, E, F (sub-categories C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+011201 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011201 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0113002,ISO 9001,2-7;10;12;14;16-19;22-23;28-31;33-35;37,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing; EA 19 Electrical Equipment (excluding Medical)
+0113002,ISO 14001,2-4;6;10;12;14-19;22-23;28-31;33-35;37,ACTIVE,EA 19 Electrical Equipment (excluding Medical)
+0113002,ISO 45001,1-4;6;10;12;14-19;22-23;28-31;33-35;37,ACTIVE,EA 19 Electrical Equipment (excluding Medical)
+0113002 (22000),ISO 22000,3;30-31,ACTIVE,"ISO 22003-1 categories C, E, G (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+0113002,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011401,ISO 9001,1;3-7;10;12;14;17-20;22-23;29-33;35-37;39,ACTIVE,
+011401,ISO 14001,3-4;6;12;14-23;29-33;35-37,ACTIVE,
+011401,ISO 45001,3-4;6;10;12;14-17;20;23;29-33;35-37,ACTIVE,EA 17 Limited to “Base metals production”
+011401 (22000),ISO 22000,3;7;14-15;17,ACTIVE,"ISO 22003-1 categories C, D, I (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+011401 (22000),FSSC 22000,1;3;7;14-15;17,ACTIVE,"ISO 22003-1 categories B, C, I (sub-categories BIII, C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+011401 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011401,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Active implantable medical devices; In vitro diagnostic medical devices; Parts or services (classified to EA by sector)
+011402/1,ISO 9001,1;3-4;6-7;10;12;14;17-20;22;29-30;32-36,ACTIVE,
+011402/1,ISO 14001,4;6;12;22;29;32-37,ACTIVE,
+011402/1,ISO 45001,3-6;12;15-17;22;30-36;39,ACTIVE,
+011402/1 (22000),ISO 22000,3;7;14-15;17,ACTIVE,"ISO 22003-1 categories C, I (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+011402/1,ISO 13485,13-14;17,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices (classified to EA by sector)
+011402/1,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011501/1,ISO 9001,1;3-9;12-19;21-24;28-35;37-39,ACTIVE,
+011501/1,ISO 14001,3-9;12-19;22-24;28-37;39,ACTIVE,
+011501/1,ISO 45001,3-9;12-19;22-24;28-37;39,ACTIVE,
+011501/1 (22000),ISO 22000,3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, H, I, J, K (sub-categories C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+011501/1,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Parts or services (classified to EA by sector)
+011501/1 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011501/1 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011501/1 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011501/1,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011501/1,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011501/1 (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011602,ISO 9001,1-10;12-20;22-23;28-39,ACTIVE,
+011602,ISO 14001,2;4-10;12-19;22-23;28-29;31-39,ACTIVE,
+011602,ISO 45001,4-9;12-19;22-23;28-29;31-38,ACTIVE,
+011602 (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, E, F, G (sub-categories C0, CI, CII, CIII, CIV, FI, FII, GI, GII) (classified to EA by sector)"
+011602 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011602,ISO 13485,13-14;17;19,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices (classified to EA by sector)
+011602 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011602 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011603,ISO 9001,1-10;12-39,ACTIVE,
+011603,ISO 14001,1-10;12-39,ACTIVE,
+011603,ISO 45001,1-10;12-39,ACTIVE,
+011603 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, H, I, J, K (sub-categories AI, AII, BI, BII, BIII, C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+011603 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011603 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011701,ISO 9001,1-10;12-19;22-37,ACTIVE,
+011701,ISO 14001,1-10;12-19;23-37,ACTIVE,
+011701,ISO 45001,1-10;12-19;23-37,ACTIVE,
+011701 (22000),ISO 22000,1;3;7;12-15;17;29-31;35,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, H, I, K (sub-categories AI, AII, BI, BII, BIII, C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+011701 (22000),FSSC 22000,1;3;7;12-15;17;29;31,ACTIVE,"ISO 22003-1 categories B, C, F, G, I, K (sub-categories BIII, C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+011701,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Parts or services; In vitro diagnostic medical devices; Sterilization methods (classified to EA by sector)
+011701 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011701 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011701 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011701,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011701,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011701,ISO 28001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011701,ISO 55001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011701,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011702,ISO 9001,1-10;12-20;22-25;27-39,ACTIVE,
+011702,ISO 14001,1;3-10;12-20;22-25;27-38,ACTIVE,
+011702,ISO 45001,1;3-10;12-20;22-25;27-39,ACTIVE,
+011702 (22000),ISO 22000,1;3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, I, K (sub-categories AI, AII, BI, BII, BIII, C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+011702,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices; Parts or services (classified to EA by sector)
+011702 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011702,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011702 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011702 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011704,ISO 9001,1;3-5;7;10;12;29-30;32-33;35-37,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+011704,ISO 14001,3;7;10;12;29-30;32-33;35-37,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+011704,ISO 45001,3;7;10;12;29-30;32-33;35-37,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+011704 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+011704,ISO 13485,13-14;17,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices (classified to EA by sector)
+011704 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011704 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011704 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011704,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011704,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011704,ISO 55001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011704,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011704,ISO 18788,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011705/1,ISO 9001,1-9;13-34;37-39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing; EA 19 Electrical Equipment (excluding Medical)
+011705/1,ISO 14001,2-9;13-34;37-39,ACTIVE,EA 7 Limited to “Paper products”; EA 17 Limited to “Base metals production”
+011705/1,ISO 45001,2-3;5-9;13-22;24-30;34;37-39,ACTIVE,EA 7 Limited to “Paper products”; EA 17 Limited to “Base metals production”; EA 19 Electrical Equipment (excluding Medical)
+011705/1 (22000),ISO 22000,3;7;14-15;17,ACTIVE,"ISO 22003-1 categories C, I (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+011705/1,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011705/1 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011706,ISO 9001,1-7;9-10;12-19;23;28-39,ACTIVE,
+011706,ISO 14001,3-4;6;9-10;12;14-19;22-23;28-38,ACTIVE,
+011706,ISO 45001,3-4;6-7;9-10;12-19;22-23;28-38,ACTIVE,
+011706 (22000),ISO 22000,3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories C, E, F, G, I, K (sub-categories C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+011801/1,ISO 9001,14;17-19;29;36,ACTIVE,EA 19 Electrical Equipment (excluding Medical)
+011801/1,ISO 14001,12;14-17;29;32-33;35-37,ACTIVE,EA 17 Limited to “Base metals production”
+011801/1,ISO 45001,12;14-15;17;29;32-33;35-37,ACTIVE,EA 17 Limited to “Base metals production”
+011802,ISO 9001,1;3-10;12-19;22-24;28-39,ACTIVE,EA 7 Limited to “Paper products”
+011802,ISO 14001,1;3-10;12-19;22-24;28-39,ACTIVE,EA 7 Limited to “Paper products”
+011802,ISO 45001,1;3-10;12-19;22-23;28-39,ACTIVE,EA 7 Limited to “Paper products”
+011802 (22000),ISO 22000,3;29-30,ACTIVE,"ISO 22003-1 categories C, E, F (sub-categories C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+011802 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011804,ISO 9001,1;3-10;12-20;22-24;28-39,ACTIVE,
+011804,ISO 14001,1;3;5-10;12-19;22-24;28-39,ACTIVE,
+011804,ISO 45001,1;3;5-9;12-19;22-24;28-39,ACTIVE,
+011804 (22000),ISO 22000,3;7;12-15;17;29-30,ACTIVE,"ISO 22003-1 categories C, D, E, F, I, K (sub-categories C0, CI, CII, CIII, CIV, DI, DII, FI, FII) (classified to EA by sector)"
+011804 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011804,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Active implantable medical devices; Parts or services; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies (classified to EA by sector)
+011804 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011804 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011804,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011804,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011804,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011804 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011804 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011804 (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011805,ISO 9001,1-10;12-20;22-24;28-39,ACTIVE,EA 7 Limited to “Paper products”
+011805,ISO 45001,2-10;12-19;22-24;28-39,ACTIVE,EA 7 Limited to “Paper products”
+011805 (22000),ISO 22000,3;7;12-15;17;29-30,ACTIVE,"ISO 22003-1 categories C, D, E, F, I, K (sub-categories C0, CI, CII, CIII, CIV, DI, DII, FI, FII) (classified to EA by sector)"
+011805 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011805 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011805 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011806,ISO 9001,4-6;10;12-14;17-20;22-23;28-29;32-38,ACTIVE,
+011806,ISO 14001,7;10;12-19;22;28-29;32-37,ACTIVE,
+011806,ISO 45001,7;10;12-19;22;28-29;32-37,ACTIVE,
+011807/1,ISO 9001,7-9;12-14;17-19;37,ACTIVE,
+011807/1,ISO 14001,12-19;22,ACTIVE,
+011807/1,ISO 45001,12-15;17-19;22,ACTIVE,
+011902,ISO 9001,1;3-9;12-14;17-20;22-23;28-30;32-37,ACTIVE,
+011902,ISO 14001,3-9;12-19;22-23;28-30;32-37,ACTIVE,
+011902,ISO 45001,3-9;12-15;17-19;22-23;28-30;32-37,ACTIVE,
+011903,ISO 9001,1-4;6-10;12;14-20;22-23;28;30-31;34;38-39,ACTIVE,
+011903,ISO 14001,1;3-4;6-10;12;14-23;28;30-31;34;38,ACTIVE,
+011903,ISO 45001,1;3-4;6-10;12;14-23;28;30-31;34;38-39,ACTIVE,
+011903 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C, D (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+011903 (22000),FSSC 22000,1;3;7;12-15;17;29;31,ACTIVE,"ISO 22003-1 categories B, C, F, G, I, K (sub-categories BIII, C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+011903 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011903,ISO 28000,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011903,ISO 55001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011903,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011903,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011903 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011903 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011903,ISO 18788,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011905,ISO 9001,1-10;12-39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+011905,ISO 14001,1-10;12-39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+011905,ISO 45001,1-10;12-39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+011905 (22000),ISO 22000,1;3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, I, K (sub-categories AI, AII, BI, BII, BIII, C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+011905,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices; Sterilization methods; Parts or services (classified to EA by sector)
+011905 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011905 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011905 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011905,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011905,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011905 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011905 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011905 (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011905,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011907,ISO 9001,1-10;12-20;22-24;28-39,ACTIVE,EA 7 Limited to “Paper products”
+011907,ISO 14001,2;4-10;12-20;22-24;28;31-35;37-39,ACTIVE,EA 7 Limited to “Paper products”
+011907,ISO 45001,2;4-10;12-20;22-24;28;31-35;37-39,ACTIVE,EA 7 Limited to “Paper products”
+011907 (22000),ISO 22000,3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, H, I, J, K (sub-categories C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+011907,ISO 13485,13-14;17,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices (classified to EA by sector)
+011907 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011907 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011908,ISO 9001,1;3;7;10;12;29-30;32;35-36,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+011908,ISO 14001,3;12;14-17;29-30;32-33;35-37,ACTIVE,EA 17 Limited to “Base metals production”
+011908,ISO 45001,3;12;14-15;29-30;32-33;35-37,ACTIVE,
+011908 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C, D (sub-categories C0, CI, CII, CIII, CIV, DI, DII) (classified to EA by sector)"
+011910,ISO 9001,1;3-7;9-10;12-14;17-20;22-23;28-37,ACTIVE,EA 7 Limited to “Paper products”
+011910,ISO 14001,3;7;9-10;12-19;22-23;28;30-31;34;37,ACTIVE,EA 7 Limited to “Paper products”; EA 17 Limited to “Base metals production”
+011910,ISO 45001,3;7;9-10;12-19;22-23;28;30-31;34;37,ACTIVE,EA 7 Limited to “Paper products”; EA 17 Limited to “Base metals production”
+011910 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011910,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011911,ISO 9001,1;3-7;10;12-15;17;23;25-28;30;32-39,ACTIVE,EA 7 Limited to “Paper products”
+011911,ISO 14001,12-17;28-29;32-38,ACTIVE,
+011911,ISO 45001,12-15;17;25-29;32-38,ACTIVE,
+011911 (22000),ISO 22000,3;30,ACTIVE,"ISO 22003-1 categories C, E (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+011911 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011914,ISO 9001,1-10;12-20;22-24;27-39,ACTIVE,
+011914,ISO 14001,3-10;12-20;22-24;27-39,ACTIVE,
+011914,ISO 45001,3-10;12-20;22-24;27-39,ACTIVE,
+011914 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories A, C, D, E, F, G, H, I, J, K (sub-categories AI, AII, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+011914,ISO 13485,12-14;17;19;35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices; Sterilization methods (classified to EA by sector)
+011914,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011914 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011914,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+011914 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012005,ISO 9001,1-10;12-19;23-24;27-39,ACTIVE,
+012005,ISO 14001,1;3-4;7-9;12-19;22;24;27-39,ACTIVE,
+012005,ISO 45001,1;3-4;7-9;12-19;22-24;27-39,ACTIVE,
+012005 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, H, I, J, K (sub-categories AI, AII, BI, BII, BIII, C0, CI, CII, CIII, CIV, DI, DII, FI, FII) (classified to EA by sector)"
+012005 (22000),FSSC 22000,3;7;14-15;17,ACTIVE,"ISO 22003-1 categories C, I (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012005,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Active implantable medical devices; In vitro diagnostic medical devices; Sterilization methods; Parts or services (classified to EA by sector)
+012005,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012005,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012005 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012005 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012005,ISO 55001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012005,ISO 28001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012007,ISO 9001,3-4;6-7;12-19;24;28-37,ACTIVE,
+012007,ISO 14001,3-4;6-7;12-19;24;28-32;34-37,ACTIVE,EA 17 Limited to “Base metals production”
+012007,ISO 45001,3-4;6-7;12-19;24;28-32;34-37,ACTIVE,
+012007 (22000),ISO 22000,1;3,ACTIVE,"ISO 22003-1 categories A, C (sub-categories AI, AII, C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012007,ISO 13485,13-14;17,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices (classified to EA by sector)
+012007,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012008,ISO 9001,1-10;12-20;22-39,ACTIVE,
+012008,ISO 14001,2-9;12-13;17-20;22-39,ACTIVE,
+012008,ISO 45001,2-9;12-13;17-20;22-39,ACTIVE,
+012008 (22000),ISO 22000,3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, H, I, J, K (sub-categories C0, FI, FII) (classified to EA by sector)"
+012008,ISO 13485,13-14;17;19,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices (classified to EA by sector)
+012008 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012008 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012008 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012008 (39001),ISO 39001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012008,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012008,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012008,ISO 29993,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012008,ISO 29994,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012008,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012008 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012008,ISO 7101,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012008 (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012008,ISO 37301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012008,ISO 56001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012008,ISO 55001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0121004,ISO 9001,29;32-33;35-37,ACTIVE,
+0121004,ISO 14001,29;32-33;35-37,ACTIVE,
+0121004,ISO 45001,29;32-33;35-37,ACTIVE,
+0121006,ISO 9001,1;3;16-19;28-30;32-37,ACTIVE,
+0121006,ISO 14001,3;17-19;22;28-30;32-37,ACTIVE,
+0121006,ISO 45001,3;17-19;22;28-30;32-37,ACTIVE,
+0121006 (22000),ISO 22000,3;30,ACTIVE,"ISO 22003-1 categories C, E (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+0121006 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0121006 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0121006 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0121006,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0121006,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0121006,ISO 55001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0121006,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0121006 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0121006,ISO 37301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0121006 (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0121006 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0121006,ISO 44001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0121006,ISO 56001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0121006,ISO 30401,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0121006,ISO 7101,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012101,ISO 9001,1;3-6;14;23;29-30;32-33;35-37,ACTIVE,
+012101,ISO 14001,3-6;23;29-30;32-33;35-37,ACTIVE,
+012101,ISO 45001,3-6;23;29-30;32-33;35-37,ACTIVE,
+012101 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C (sub-categories CI, CII, CIII, CIV) (classified to EA by sector)"
+012101,ISO 13485,13-14;17,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices (classified to EA by sector)
+012101 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012101 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012101,ISO 28000,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012103,ISO 9001,1-3;6-10;12-13;16-17;19;23;26;28-30;32-38,ACTIVE,
+012103,ISO 14001,1-3;6-10;12-13;16-17;19;23;26;28-30;32-38,ACTIVE,
+012103,ISO 45001,1-3;6-10;12-13;16-17;19;23;26;28-38,ACTIVE,
+012103 (22000),FSSC 22000,1;3;7;12-15;17;30,ACTIVE,"ISO 22003-1 categories B, C, D, E, I, K (sub-categories BIII, C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012103,ISO 13485,13-14;17;19,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active implantable medical devices (classified to EA by sector)
+012103,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012103,ISO 29993,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012103,ISO 29994,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012103,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012103 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012103 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012103 (39001),ISO 39001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012103,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012103,ISO 55001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012103 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012109,ISO 9001,1-9;12-20;22-39,ACTIVE,
+012109,ISO 14001,1-10;12-20;22-39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing
+012109,ISO 45001,1-9;12-20;22-39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing
+012109 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, H, I, J, K (sub-categories AI, AII, BI, BII, BIII, C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+012109,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012109 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012109 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012109 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012109,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices; Parts or services (classified to EA by sector)
+012109,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012109 (39001),ISO 39001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012109,ISO 28001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012109,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012109 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012109 (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012111,ISO 9001,1-10;12-20;22-23;25-39,ACTIVE,
+012111,ISO 14001,1-9;12-19;23;28-38,ACTIVE,
+012111,ISO 45001,1-9;12-19;23;25-38,ACTIVE,
+012111 (22000),ISO 22000,1;3;7;14-15;17;29-30,ACTIVE,"ISO 22003-1 categories A, B, C, E, F, I (sub-categories AI, AII, BI, BII, BIII, C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+012111 (22000),FSSC 22000,1;3;7;12-15;17;31,ACTIVE,"ISO 22003-1 categories B, C, G, I, K (sub-categories BIII, C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012111,ISO 13485,13-14;17,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices (classified to EA by sector)
+012111,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012111 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012111 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012111 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012111 (39001),ISO 39001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012111,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012111 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012111,ISO 37301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012114,ISO 9001,29;32-33;35-37,ACTIVE,
+012114,ISO 14001,29-30;32-33;35-37,ACTIVE,
+012114,ISO 45001,29;32-33;35-37,ACTIVE,
+012114,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012114,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012114 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012116,ISO 9001,1;3;7;10;12;17-19;29-30;32;34-36,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012116,ISO 14001,3;12;17-19;22;29-30;32-37,ACTIVE,
+012116,ISO 45001,3;12;17-19;22;29-30;32-37,ACTIVE,
+012116 (22000),ISO 22000,3;30,ACTIVE,"ISO 22003-1 categories C, E (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012116 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012116,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012116,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012116 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012116,ISO 55001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012116 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012116,ISO 7101,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012116,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012116 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012116,ISO 13485,13-14;17,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices (classified to EA by sector)
+0122001,ISO 9001,1-7;10;12-15;17-19;23;28-38,ACTIVE,EA 7 Limited to “Paper products”; EA 17 Limited to “Fabricated metal products”
+0122001,ISO 14001,2-6;12-15;17-19;23;28;30-31;34;38,ACTIVE,EA 17 Limited to “Fabricated metal products”
+0122001,ISO 45001,2-6;12-15;17-19;23;28;30-31;34;38,ACTIVE,EA 17 Limited to “Fabricated metal products”
+0122001 (22000),ISO 22000,3;7;12-15;17,ACTIVE,"ISO 22003-1 categories C, D, I, K (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+0122001,ISO 13485,13-14;17;19,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices (classified to EA by sector)
+0122001 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122001,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122001,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122001 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122006,ISO 9001,1;3-4;6-7;10;12;17-19;23;25;27-30;32-38,ACTIVE,EA 7 Limited to “Paper products”
+0122006,ISO 14001,3-4;6;12;14-19;22-23;27-30;32-34;37-38,ACTIVE,
+0122006,ISO 45001,3-4;6;12;14-19;22-23;27-30;32-33;37-38,ACTIVE,
+0122006 (22000),ISO 22000,3;7;14-15;17,ACTIVE,"ISO 22003-1 categories C, D, I (sub-categories CI, CII, CIII, CIV, DI, DII) (classified to EA by sector)"
+0122006 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122006,ISO 13485,13-14;17,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices (classified to EA by sector)
+0122006,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122006 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122006,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122006,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122006,ISO 30401,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122007,ISO 9001,1-7;10;12-20;22-23;28-37;39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+0122007,ISO 14001,3-6;12;14-19;22-23;28-37,ACTIVE,EA 17 Limited to “Base metals production”
+0122007,ISO 45001,3-6;12;14-15;17-19;22-23;28-37,ACTIVE,EA 17 Limited to “Fabricated metal products”
+0122007 (22000),ISO 22000,3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, H, I, J, K (sub-categories C0, CI, CII, CIII, CIV, DI, DII, FI, FII) (classified to EA by sector)"
+0122007,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122007,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122007 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122007,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122007 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122007 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122007,ISO 7101,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122012,ISO 9001,3-7;10;12-14;16-20;22-39,ACTIVE,
+0122012,ISO 14001,3-6;12-38,ACTIVE,
+0122012,ISO 45001,3-7;10;12-20;22-38,ACTIVE,
+0122012 (22000),ISO 22000,3;7;12-15;17,ACTIVE,"ISO 22003-1 categories C, I, K (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+0122012,ISO 13485,12-14;17;19;35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Active implantable medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies (classified to EA by sector)
+0122012 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122012 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122012 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122012,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0122012 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012202,ISO 9001,1;3-4;6-9;12;14;16-19;23;26;28-37;39,ACTIVE,
+012202,ISO 14001,1;3-4;6-9;12;14;16;18-19;22-23;26;28-37;39,ACTIVE,
+012202,ISO 45001,1;3-4;7-9;12;14;16-19;22-23;26;28-37;39,ACTIVE,EA 17 Limited to “Fabricated metal products”
+012202 (22000),ISO 22000,1;3;7;14-15;17;29-30,ACTIVE,"ISO 22003-1 categories A, C, D, E, F, I (sub-categories CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+012202,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Parts or services (classified to EA by sector)
+012202 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012202 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012202,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012202,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012203,ISO 9001,2-9;12-20;22-23;28-29;32-37,ACTIVE,EA 7 Limited to “Paper products”
+012203,ISO 14001,2-4;7-9;12-19;22;29;32-37,ACTIVE,EA 7 Limited to “Paper products”
+012203,ISO 45001,2-4;7-9;12-19;22;28-29;32-37,ACTIVE,EA 7 Limited to “Paper products”
+012203,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012203 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012203,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012203,ISO 55001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012203,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012203 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012205,ISO 9001,1-9;12-20;22-39,ACTIVE,
+012205,ISO 14001,1;3-9;12-20;22-39,ACTIVE,
+012205,ISO 45001,1;3-9;12-20;22-39,ACTIVE,
+012205 (22000),ISO 22000,3;7;12-15;17-18;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, I, J, K (sub-categories C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+012205 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012205 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012205,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012205 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012205 (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012208,ISO 9001,1;3-4;6;16;23;29-30;32-33;35-38,ACTIVE,
+012208,ISO 14001,3;16;29-30;32-33;35-37,ACTIVE,
+012208,ISO 45001,3;16;29-30;32-33;35-37,ACTIVE,
+012208 (22000),ISO 22000,1;3;30,ACTIVE,"ISO 22003-1 categories A, B, C, E (sub-categories AI, AII, BI, BII, BIII, C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012208,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012209,ISO 9001,28;34;38,ACTIVE,
+012214,ISO 9001,1-7;10;12;14-19;23;28-38,ACTIVE,
+012214,ISO 14001,3-4;6-7;12;14-19;23;28-38,ACTIVE,
+012214,ISO 45001,3-4;7;10;12-19;23;28-38,ACTIVE,EA 17 Limited to “Base metals production”
+012214 (22000),ISO 22000,1;3;7;14-15;17;29;31,ACTIVE,"ISO 22003-1 categories B, C, F, G, I (sub-categories C0, CI, CII, CIII, CIV, BI, BII, BIII, FI, FII) (classified to EA by sector)"
+012214,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012214,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012216,ISO 9001,1;3-6;14;17-19;23;29-30;32-33;35-38,ACTIVE,
+012216,ISO 14001,3;14-19;30;32-33;37-38,ACTIVE,
+012216,ISO 45001,3;14-15;17-19;30;32-33;37-38,ACTIVE,
+012219,ISO 9001,1;3;30,ACTIVE,
+012219,ISO 14001,3;30,ACTIVE,
+012219,ISO 45001,3;30,ACTIVE,
+012219 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012220 (22000),ISO 22000,3;30,ACTIVE,"ISO 22003-1 categories C, D, E (sub-categories C0, CI, CII, CIII, CIV, DI, DII) (classified to EA by sector)"
+012220 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012220,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Active implantable medical devices; Parts or services (classified to EA by sector)
+012220 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012220,ISO 37301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012220,ISO 44001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012220 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012220,ISO 56001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012220,ISO 30401,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012222,ISO 9001,4-7;10;12;14;17-20;22-23;28-29;32-37,ACTIVE,EA 7 Limited to pulp and paper manufacturing
+012222,ISO 14001,4;6;12;14-19;23;28;32-34;37,ACTIVE,
+012222,ISO 45001,4;7;10;12-19;22-23;28;32-34;37,ACTIVE,
+012222 (22000),ISO 22000,29;31,ACTIVE,"ISO 22003-1 categories F, G (sub-categories FI, FII) (classified to EA by sector)"
+012222 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012222,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012223,ISO 9001,2;7;10;15-16;25-27;31,ACTIVE,
+012223,ISO 14001,2;7;10;25-27;29;31-33;35-37,ACTIVE,
+012223,ISO 45001,2;7;10;25-27;29;31-33;35-37,ACTIVE,
+012223 (22000),ISO 22000,30,ACTIVE,ISO 22003-1 categories E (classified to EA by sector)
+012223 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012224,ISO 9001,1-10;12-20;22-24;28-39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012224,ISO 14001,1;3-9;12-19;22-24;28-39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012224,ISO 45001,1;3-9;12-19;22-24;28-39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012224 (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G (sub-categories C0, CI, CII, CIII, CIV, DI, DII, FI, FII) (classified to EA by sector)"
+012224,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices; Parts or services (classified to EA by sector)
+012224 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012224 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012224 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012224 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012224 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012224 (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012226,ISO 9001,1-10;12-24;28-39,ACTIVE,
+012226,ISO 14001,1-3;5-10;12-24;28-39,ACTIVE,
+012226,ISO 45001,1-10;12-24;28-39,ACTIVE,EA 17 Limited to “Fabricated metal products
+012226 (22000),ISO 22000,1;3;7;12-15;17;29-31;35,ACTIVE,"ISO 22003-1 categories B, C, D, E, F, G, H, I, K (sub-categories C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+012226 (22000),FSSC 22000,3;7;12-15;17,ACTIVE,"ISO 22003-1 categories C, I, K (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012226 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012226 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012226,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Active implantable medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services (classified to EA by sector)
+012226 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012227,ISO 9001,1;3;30,ACTIVE,
+012227,ISO 45001,3;30,ACTIVE,
+012227 (22000),ISO 22000,30,ACTIVE,ISO 22003-1 categories E (classified to EA by sector)
+012301,ISO 9001,1-7;10;12-19;23;29-33;35-39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012301,ISO 14001,2;12-17;29;32-33;35-37,ACTIVE,EA 17 Limited to “Base metals production”
+012301,ISO 45001,12-17;29;31-33;35-37,ACTIVE,EA 17 Limited to “Base metals production”
+012301 (22000),ISO 22000,3;12-13,ACTIVE,"ISO 22003-1 categories C, K (sub-categories CI, CII, CIII, CIV) (classified to EA by sector)"
+012302,ISO 9001,13;32,ACTIVE,
+012302,ISO 14001,13,ACTIVE,
+012302,ISO 45001,13,ACTIVE,
+012302,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Sterilization methods; Parts or services; In vitro diagnostic medical devices (classified to EA by sector)
+012303,ISO 9001,1;3;30,ACTIVE,
+012303 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012304,ISO 9001,1;3;30-31,ACTIVE,
+012304,ISO 14001,3;30,ACTIVE,
+012304,ISO 45001,3;30,ACTIVE,
+012304 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012305,ISO 9001,1;3-10;12-14;17-19;23;29-30;32-33;35-36,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing; EA 17 ”Limited to “Fabricated metal products
+012305,ISO 14001,3;7-9;12-19;22;29-30;32-33;35-37,ACTIVE,EA 7 Limited to “Paper products”; EA 17 Limited to “Fabricated metal products”
+012305,ISO 45001,3;7-9;12-15;17-19;29-30;32-33;35-37,ACTIVE,EA 7 Limited to “Paper products”; EA 17 Limited to “Fabricated metal products”
+012305 (22000),ISO 22000,3;7;14-15;17,ACTIVE,"ISO 22003-1 categories C, I (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012306,ISO 9001,1;3-6;14;23;29-30;32-33;35-37,ACTIVE,
+012306,ISO 14001,3-6;14;23;29-30;32-33;35-37,ACTIVE,
+012306,ISO 45001,3-6;14;23;29-30;32-33;35-37,ACTIVE,
+012306 (22000),ISO 22000,1;3;29-30,ACTIVE,"ISO 22003-1 categories B, C, E, F (sub-categories BI, BII, BIII, C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+012306,ISO 13485,13-14;17,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices (classified to EA by sector)
+012306 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012306 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012306,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012307,ISO 9001,1;3-10;12-14;17-19;23;28-32;34-36;39,ACTIVE,EA 7 Limited to “Paper products”
+012307,ISO 14001,1;3;7-9;12-19;28-37,ACTIVE,EA 7 Limited to “Paper products”; EA 17 Limited to “Base metals production”
+012307,ISO 45001,1;3;7-10;12-19;28-37,ACTIVE,EA 7 Limited to “Paper products”; EA 17 Limited to “Base metals production”
+012307 (22000),ISO 22000,1;3;7;12-15;17;29;31,ACTIVE,"ISO 22003-1 categories A, C, D, F, G, I, K (sub-categories AI, AII, C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+012308,ISO 9001,1;3-10;12-19;22-24;28-39,ACTIVE,
+012308,ISO 14001,3-10;12-19;22-24;28-39,ACTIVE,
+012308,ISO 45001,3-10;12-19;22-24;28-39,ACTIVE,
+012308 (22000),ISO 22000,3;7;12-15;17;29-31;35,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, H, I, K (sub-categories C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+012308,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Parts or services (classified to EA by sector)
+012308 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012308 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012308,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012308,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012308 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012308,ISO 37301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012308 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012309,ISO 9001,1;3;17-19;28-30;32-37,ACTIVE,
+012309,ISO 14001,3;17-19;28-30;32-37,ACTIVE,
+012309,ISO 45001,3;17-19;28-30;32-37,ACTIVE,
+012309 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012309,ISO 55001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012310,ISO 9001,1;3-7;10;12;14;16;23;28-37,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing
+012310,ISO 14001,3;12;14-17;28-30;32-37,ACTIVE,
+012310,ISO 45001,3;12;14-17;28-30;32-37,ACTIVE,
+012310 (22000),ISO 22000,3;7;14-15;17;30,ACTIVE,"ISO 22003-1 categories C, D, E, I (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012310,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Parts or services; In vitro diagnostic medical devices (classified to EA by sector)
+012310 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012310,ISO 18788,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012310 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012310,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012310,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012310,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012310,ISO 44001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012310,ISO 55001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012310,ISO 37301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012311,ISO 9001,32;34,ACTIVE,
+012311,ISO 14001,34,ACTIVE,
+012311,ISO 45001,34,ACTIVE,
+012311,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012311 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012311 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012312,ISO 9001,1-10;12-20;22-24;28-39,ACTIVE,
+012312,ISO 14001,3;5-9;12-24;28-39,ACTIVE,
+012312,ISO 45001,1-10;12-20;22-24;28-39,ACTIVE,
+012312 (22000),ISO 22000,3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, I, K (sub-categories C0, CI, CII, CIII, CIV, DI, DII, FI, FII) (classified to EA by sector)"
+012312 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012312,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Active implantable medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services (classified to EA by sector)
+012312 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012312 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012312 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012312 (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012314,ISO 9001,17-19;25;27;29;32;35-36,ACTIVE,
+012314,ISO 14001,17-19;22;27;29;32-33;35-37,ACTIVE,EA 17 Limited to “Fabricated metal products”
+012314,ISO 45001,17-19;22;27;29;32-33;35-37,ACTIVE,EA 17 Limited to “Fabricated metal products”
+012314 (22000),ISO 22000,7;14-15;17,ACTIVE,ISO 22003-1 categories I (classified to EA by sector)
+012314 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012314 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012314,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012315,ISO 9001,16-19;28-29;31-37;39,ACTIVE,
+012315,ISO 14001,14-19;22;28-29;31-37,ACTIVE,
+012315,ISO 45001,14-19;22;28-29;31-37,ACTIVE,
+012315,ISO 19443,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012316,ISO 9001,1-4;6-7;10;12-19;22-23;25;27-39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012316,ISO 14001,7;10;12-19;22;25-29;31-37;39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012316,ISO 45001,7;10;12-19;22;25-29;31-37;39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012316 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012316 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012317,ISO 9001,1;3-7;10;12;14;17-19;23;28-30;32-37,ACTIVE,
+012317,ISO 14001,3;12;14-17;28-30;32-37,ACTIVE,EA 17 Limited to “Base metals production”
+012317,ISO 45001,3;7;10;12-17;28-30;32-37,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”; EA 17 Limited to “Base metals production”
+012317 (22000),ISO 22000,3;7;12-15;17,ACTIVE,"ISO 22003-1 categories C, D, I, K (sub-categories CI, CII, CIII, CIV, DI, DII) (classified to EA by sector)"
+012317 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012317 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012317,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012318,ISO 9001,4-10;12;14;17-20;22-23;28-29;32-37,ACTIVE,EA 7 Limited to “Paper products”
+012318,ISO 14001,7-9;12;14-22;28-29;32-37,ACTIVE,EA 7 Limited to “Paper products”; EA 17 Limited to “Fabricated metal products”
+012318,ISO 45001,7-9;12;14-15;17-20;22;28-29;32-37,ACTIVE,EA 7 Limited to “Paper products; EA 17 Limited to “Base metals production
+012318 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012319,ISO 9001,1;3-6;13;16-20;22-24;28-37;39,ACTIVE,
+012319,ISO 14001,1;3-6;17-20;22-24;28-37;39,ACTIVE,
+012319,ISO 45001,1;3-6;17-20;22-24;28-37;39,ACTIVE,
+012319 (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, E, F, G (sub-categories C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+012319,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Parts or services (classified to EA by sector)
+012319 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012320,ISO 9001,1;3;7;10;12;17-19;28-30;32;34-36,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012320,ISO 14001,3;12;14-19;28-30;32-37,ACTIVE,EA 17 Limited to “Base metals production”
+012320,ISO 45001,3;7;10;12;14-17;28-30;32-37,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”(cid:13); EA 17 Limited to “Base metals production”
+012320 (22000),ISO 22000,3;7;14-15;17,ACTIVE,"ISO 22003-1 categories C, I (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012401,ISO 9001,1;3-7;10;12;14;17-20;22-23;29-30;32-33;35-37,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”; EA 17 Limited to “Base metals production”
+012401,ISO 14001,3-6;12;14-23;30;32-33;37,ACTIVE,EA 17 Limited to “Base metals production”
+012401,ISO 45001,3-7;10;12;14-23;30;32-33;37,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”; EA 17 Limited to “Base metals production”
+012401 (22000),ISO 22000,3;12-13,ACTIVE,"ISO 22003-1 categories C, D, K (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012401,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; In vitro diagnostic medical devices; Active (non-implantable) medical devices; Parts or services (classified to EA by sector)
+012401 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012401 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012402,ISO 9001,1;3-7;10;12;14;23;29-30;32-33;35-37,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012402,ISO 14001,3-4;6-8;12;14-17;23;30;32-33;37,ACTIVE,EA 7 Limited to “Paper products”; EA 17 Limited to “Base metals production”
+012402,ISO 45001,3-4;7-8;12;14-15;23;30;32-33;37,ACTIVE,EA 7 Limited to “Paper products”
+012402 (22000),ISO 22000,3;7;12-15;17;30,ACTIVE,"ISO 22003-1 categories C, E, I, K (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012403,ISO 9001,1;3-10;12;14;17-19;23;28-30;32;34-36,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012403,ISO 14001,3;7-9;12;14-19;22;28-30;32-37,ACTIVE,EA 7 Limited to “Paper products”; EA 17 Limited to “Fabricated metal products”
+012403,ISO 45001,3;7-9;12;14-15;17-19;22;28-30;32-37,ACTIVE,EA 7 Limited to “Paper products”; EA 17 Limited to “Fabricated metal products”
+012403 (22000),ISO 22000,3;7;12-15;17,ACTIVE,"ISO 22003-1 categories C, I, K (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012404,ISO 9001,2-10;12-39,ACTIVE,
+012404,ISO 14001,1-4;6-10;12-37;39,ACTIVE,
+012404,ISO 45001,2-4;6-8;10;12-22;24-37;39,ACTIVE,
+012404 (22000),ISO 22000,1;3;7;12-15;17;31,ACTIVE,"ISO 22003-1 categories A, B, C, D, G, I, K (sub-categories AI, AII, BI, BII, BIII, C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012404 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012404 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012405,ISO 9001,1;3;29-30;35,ACTIVE,
+012405 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012406,ISO 9001,1;3-4;6-7;10;12;23;29-30;32;35-36,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012406,ISO 14001,3-4;6;12;23;29-30;32-33;35-37,ACTIVE,
+012406,ISO 45001,3-4;12;14-15;23;29-30;32-33;35-37,ACTIVE,
+012406 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012409,ISO 9001,1-8;10;12;14-19;23;25;27-38,ACTIVE,
+012409,ISO 14001,2-8;10;12;14-19;22-23;25;27-37,ACTIVE,EA 17 Limited to “Fabricated metal products”
+012409,ISO 45001,2-8;10;12;14-19;22-23;25;27-37,ACTIVE,EA 17 Limited to “Fabricated metal products”
+012409 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C, D (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012409 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012409 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012412,ISO 9001,1;3-10;12;14;23;28-30;32;34-36,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012412,ISO 14001,3-9;12;14-17;23;28-30;32-37,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012412,ISO 45001,3-9;12;14-15;23;28-30;32-37,ACTIVE,EA 7 Limited to “Paper products”
+012412 (22000),ISO 22000,3;29,ACTIVE,"ISO 22003-1 categories C, F (sub-categories C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+012412,ISO 13485,13-14;17;19,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices (classified to EA by sector)
+012412 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012412 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012412 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012412 (39001),ISO 39001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012412,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012412,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012412,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012412 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012412,ISO 37301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012414,ISO 9001,1-7;10;12-16;23;28-37;39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012414,ISO 14001,3;12-17;28-30;32-37;39,ACTIVE,EA 17 Limited to “Base metals production”
+012414,ISO 45001,3;12-16;28-30;32-37;39,ACTIVE,
+012414 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012415,ISO 9001,1-10;12-19;22-24;28-39,ACTIVE,EA 7 Limited to “Paper products”
+012415,ISO 14001,2-9;12-19;22-24;28-39,ACTIVE,EA 7 Limited to “Paper products”
+012415,ISO 45001,2-10;12-19;23-24;28-39,ACTIVE,EA 7 Limited to “Paper products”
+012415 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, H, I, J, K (sub-categories AI, AII, BI, BII, BIII, C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+012415,ISO 13485,12-14;17;19,ACTIVE,IAF MD 8 main technical areas: Active (non-implantable) medical devices; Non-active medical devices; In vitro diagnostic medical devices (classified to EA by sector)
+012415 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012415 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012415,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012415,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012415,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012415 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012415 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012415,ISO 55001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012415,ISO 37301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012417,ISO 9001,1;3-6;14;23;30,ACTIVE,
+012417,ISO 14001,4;6;14;23,ACTIVE,
+012417,ISO 45001,4;14;23,ACTIVE,
+012417 (22000),ISO 22000,1;3,ACTIVE,"ISO 22003-1 categories B, C (sub-categories C0, CI, CII, CIII, CIV, BI, BII, BIII) (classified to EA by sector)"
+012417 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012418,ISO 9001,1-10;12-19;23-24;28-39,ACTIVE,
+012418,ISO 14001,1-10;12-19;23-24;28-39,ACTIVE,
+012418,ISO 45001,1-10;12-19;23-24;28-39,ACTIVE,
+012418 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, H, I, J, K (sub-categories AI, AII, BI, BII, BIII, C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+012418 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012418,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012419,ISO 9001,1;4;6-7;10;12;17-20;22-23;29-37,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012419,ISO 14001,6;12;14-23;29-37,ACTIVE,EA 17 Limited to “Fabricated metal products”
+012419,ISO 45001,12;17-20;23;29-37,ACTIVE,EA 17 Limited to “Fabricated metal products”
+012419 (22000),ISO 22000,30,ACTIVE,ISO 22003-1 categories E (classified to EA by sector)
+012419 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012419 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012419 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012419,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012419,ISO 55001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012419,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012420,ISO 9001,1;3-7;10;12-14;17;23;28-30;32-38,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing
+012420,ISO 14001,3-6;12-17;23;28-30;32-37,ACTIVE,EA 17 Limited to “Base metals production”
+012420,ISO 45001,3-7;10;12-17;23;28-30;32-38,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”; EA 17 Limited to “Base metals production”
+012420 (22000),ISO 22000,3;7;12-15;17;30,ACTIVE,"ISO 22003-1 categories C, E, I, K (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012420,ISO 13485,13-14;17-18;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Parts or services (classified to EA by sector)
+012420 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012420 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012420 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012420,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012421,ISO 9001,1;3;30,ACTIVE,
+012421 (22000),ISO 22000,30,ACTIVE,ISO 22003-1 categories E (classified to EA by sector)
+012501,ISO 9001,17-19;34,ACTIVE,
+012501,ISO 14001,17-19;22;34,ACTIVE,
+012501,ISO 45001,12;14-15;34,ACTIVE,
+0125011,ISO 9001,1;3-6;14;23;29-30;32-33;35-37,ACTIVE,
+0125011,ISO 14001,3;14-17;29-30;32-33;35-37,ACTIVE,EA 17 Limited to “Base metals production”
+0125011,ISO 45001,3;14-15;29-30;32-33;35-37,ACTIVE,
+0125011 (22000),ISO 22000,3;30,ACTIVE,"ISO 22003-1 categories C, E (sub-categories CI, CII, CIII, CIV) (classified to EA by sector)"
+0125014,ISO 9001,1;3;29-30;32-33;35-37,ACTIVE,
+0125014,ISO 14001,3;29-30;32-33;35-37,ACTIVE,
+0125014,ISO 45001,3;29-30;32-33;35-37,ACTIVE,
+0125014 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+0125015,ISO 9001,4-6;13-14;23;29;32-33;35-37,ACTIVE,
+0125015,ISO 14001,13-14,ACTIVE,
+0125015,ISO 45001,13-14,ACTIVE,
+0125019,ISO 9001,1;3;16-19;28-30;32-37,ACTIVE,
+0125019,ISO 14001,3;16-19;28-30;32-37,ACTIVE,
+0125019,ISO 45001,3;17-19;29-30;32-37,ACTIVE,
+0125019 (22000),ISO 22000,3;12-13,ACTIVE,"ISO 22003-1 categories C, K (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+0125019,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012502,ISO 9001,2-10;12;14;16-19;22-24;26;28-29;31-38,ACTIVE,EA 7 Limited to “Paper products”
+012502,ISO 14001,2-4;7-9;12;14-19;22;24;26;28-29;31;33-34;38,ACTIVE,EA 7 Limited to “Paper products”; EA 17 Limited to “Fabricated metal products”
+012502,ISO 45001,2-4;7-9;12;14-19;22;24;26;28-29;31;33-35;37-38,ACTIVE,EA 7 Limited to “Paper products”; EA 17 Limited to “Fabricated metal products”
+012502 (22000),ISO 22000,3;7;14-15;17;30,ACTIVE,"ISO 22003-1 categories C, E, I (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012502 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012502 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012502,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012502,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012502 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012502,ISO 55001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012502,ISO 41001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012502,ISO 37301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012502,ISO 37101,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012502 (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012502 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012502 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012502,ISO 28000,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0125020,ISO 9001,1;3;29-30;32-33;35-38,ACTIVE,
+0125020,ISO 14001,3;29-30;32-33;35-38,ACTIVE,
+0125020,ISO 45001,3;29-30;32-33;35-38,ACTIVE,
+0125020 (22000),ISO 22000,3;29,ACTIVE,"ISO 22003-1 categories C, F (sub-categories C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+0125020,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0125020,ISO 13485,13-14;17,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices (classified to EA by sector)
+0125025,ISO 9001,38,ACTIVE,
+0125025,ISO 14001,38,ACTIVE,
+0125025,ISO 45001,38,ACTIVE,
+0125025,ISO 7101,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0125027,ISO 9001,1-9;14-20;22-23;25-30;32-37,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing; EA 19 Electrical Equipment (excluding Medical)
+0125027,ISO 14001,2-3;5-9;17-23;25-30;32-37,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing; EA 19 Electrical Equipment (excluding Medical)
+0125027,ISO 45001,2-3;5-9;17-20;22-23;25-30;32-37,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing; EA 19 Electrical Equipment (excluding Medical)
+0125027 (22000),ISO 22000,3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories C, E, F, G, I, K (sub-categories C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+0125027,ISO 13485,13-14;17;19,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices (classified to EA by sector)
+0125027 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0125027 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0125027 (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012503,ISO 9001,1;3;7-10;12;17-19;29-30;32-33;35-37,ACTIVE,
+012503,ISO 14001,3;12;14-17;29-30;32-33;35-37,ACTIVE,
+012503,ISO 45001,3;29-30;32-33;35-37,ACTIVE,
+012503 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012503,ISO 13485,18;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Parts or services (classified to EA by sector)
+012503 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012503 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012503,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012504,ISO 9001,1;3;7;10;12;29-33;35-37;39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012504,ISO 14001,3;30-33;37,ACTIVE,
+012504,ISO 45001,3;30-33;37,ACTIVE,
+012504 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C, D (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012504,ISO 13485,12-13;19,ACTIVE,IAF MD 8 main technical areas: In vitro diagnostic medical devices (classified to EA by sector)
+012504 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012506,ISO 9001,29;31-33;35-37,ACTIVE,
+012506,ISO 45001,29;32-33;35-37,ACTIVE,
+012506 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012506 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012506,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012507,ISO 9001,2;15-16;23;29;32-33;35-37,ACTIVE,
+012507,ISO 45001,4-6;17-19;23,ACTIVE,
+012507,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012507,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012507 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012507,ISO 37301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012508,ISO 9001,1;3;29-30;32-33;35-37,ACTIVE,
+012508,ISO 45001,7;10;12-17;24;31;39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012508,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012509,ISO 9001,1;3;29-30;32-33;35-37,ACTIVE,
+012509,ISO 14001,3;29-30;32-33;35-37,ACTIVE,
+012509,ISO 45001,3;29-30;32-33;35-37,ACTIVE,
+012509 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012509 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012509 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012509 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012509,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012509,ISO 55001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012509,ISO 37301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012510,ISO 9001,1;3-10;14;23-24;28-37;39,ACTIVE,
+012510,ISO 14001,3-9;14-17;23-24;28-37;39,ACTIVE,
+012510,ISO 45001,3-9;14-15;23-24;28-37;39,ACTIVE,
+012510 (22000),ISO 22000,3;7;14-15;17;29;31,ACTIVE,"ISO 22003-1 categories C, D, F, G, I (sub-categories C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+012510,ISO 13485,13-14;17-18;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; Parts or services (classified to EA by sector)
+012510 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012510 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012510 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012510,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012510,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012510,ISO 55001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012510,ISO 30401,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012512,ISO 9001,2-10;12-19;23;28-30;32-37,ACTIVE,EA 7 Limited to “Paper products”
+012512 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012513,ISO 9001,3-7;10;12;14-20;22-23;28-39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012513,ISO 14001,3-4;6-7;12;14-20;22-24;28-39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012513,ISO 45001,3-4;6-7;14-20;22-24;28-39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012513 (22000),ISO 22000,3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, I, K (sub-categories C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+012513 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012513,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012513 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012513,ISO 13485,18;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Parts or services (classified to EA by sector)
+012516,ISO 9001,1;3-10;12;14;23;25;28-30;32-37,ACTIVE,
+012516,ISO 14001,3-9;12;23;25-30;32-37,ACTIVE,
+012516,ISO 45001,3-9;12;25-30;32-37,ACTIVE,
+012516 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012516 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012517,ISO 9001,1-4;7;10;15-16;25-37;39,ACTIVE,EA 7 Limited to “Pulp and paper manufacturing”
+012517,ISO 14001,1-4;10;15-16;23;25-28;30-34;37,ACTIVE,
+012517,ISO 45001,1-5;10;15-16;25-28;30-34;37,ACTIVE,
+012517 (22000),ISO 22000,1;3;7;12-15;17;30,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, I, K (sub-categories AI, AII, BI, BII, BIII, C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012517,ISO 13485,13-14;17,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices (classified to EA by sector)
+012517 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012517 (37001),ISO 37001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012518,ISO 9001,1;3-10;12;14;17-19;23;29-30;32-33;35-37,ACTIVE,
+012518,ISO 14001,3;12;14-19;22;29-30;32-33;35-37,ACTIVE,
+012518,ISO 45001,3;12;14-17;29-30;32-33;35-37,ACTIVE,EA 17 Limited to “Base metals production”
+012518 (22000),ISO 22000,3;7;14-15;17,ACTIVE,"ISO 22003-1 categories C, I (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+012518,ISO 13485,18;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Parts or services (classified to EA by sector)
+012518,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012518 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012518,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+012518 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0126001,ISO 9001,1-10;12-20;22-24;28-39,ACTIVE,
+0126001,ISO 14001,1;3-10;12;14-20;22-24;28-38,ACTIVE,
+0126001,ISO 45001,1;3-10;12-20;22-24;28-39,ACTIVE,
+0126001 (22000),ISO 22000,3;7;14-15;17;29-31;35,ACTIVE,"ISO 22003-1 categories C, E, F, G, H, I (sub-categories C0, CI, CII, CIII, CIV, FI, FII) (classified to EA by sector)"
+0126004,ISO 9001,1-4;6-7;10;12;15-20;22;28;34,ACTIVE,
+0126004,ISO 14001,2-4;6;12;14-23;28;30;34,ACTIVE,
+0126004,ISO 45001,2-4;12;14-15;17-20;22-23;28;30;34,ACTIVE,
+0126004 (22000),ISO 22000,3;7;14-15;17,ACTIVE,"ISO 22003-1 categories C, I (sub-categories C0, CI, CII, CIII, CIV) (classified to EA by sector)"
+0126004 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0126004 (50003),ISO 50001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0126004 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0126004 (39001),ISO 39001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+0126004,ISO 22301,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors
+119012,ISO 9001,17-20;22;29;32-33;36-37,ACTIVE,
+119012,ISO 14001,17-20;22;29;32-33;36-37,ACTIVE,
+119012,ISO 45001,17-20;22;29;32-33;36-37,ACTIVE,
+119013,ISO 9001,3-4;17-19;22;29-30;32-33;35-37,ACTIVE,
+119013,ISO 14001,17-19;22,ACTIVE,
+119013,ISO 45001,17-19;22,ACTIVE,
+119013 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 categories C, D (sub-categories CI, CII, CIII, CIV, DI, DII) (classified to EA by sector)"
+119013,ISO 21001,ALL,ACTIVE,No sector list in schedule; recorded for all EA sectors

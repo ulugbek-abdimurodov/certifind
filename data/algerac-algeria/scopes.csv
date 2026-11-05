@@ -1,0 +1,15 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+3-1-001,ISO 9001,2-4;8;10;12;14-19;22-23;25-31;33-38,ACTIVE,
+3-1-001,ISO 14001,2-3;10;12;16-19;22;25-31;34;36-37,ACTIVE,"EA 17 is listed twice, limited to fabricated metal products and to basic metals production; together they cover the sector"
+3-1-001,ISO 45001,2;10;12;14-19;22;25-31;34;36-37,ACTIVE,"EA 17 is listed twice, limited to fabricated metal products and to basic metals production; together they cover the sector"
+3-1-006,ISO 9001,2-3;12;14;16-19;22-23;26-31;34-35;37;39,ACTIVE,
+3-1-006,ISO 45001,12;14;16-18;26;28-31;34-35,ACTIVE,
+3-1-007,ISO 9001,3;10;14;16-18;28-30;35,ACTIVE,
+3-1-007 (22000),ISO 22000,3,ACTIVE,Category C (CIV) only
+3-1-008,ISO 9001,3;7;10;16;18-19;22-23;27-32;34-35;37,ACTIVE,Limited scope for EA 7: production of pulp and paper only
+3-1-008,ISO 14001,7;10;14;16;19;23;28;30-31;33;37,ACTIVE,Limited scope for EA 7: production of paper only
+3-1-008,ISO 45001,10;14;16;19;23;28;30-31;34;37,ACTIVE,
+3-1-008 (22000),ISO 22000,3,ACTIVE,Category C (CII and CIV) only
+3-1-009,ISO 9001,3;10;12;14;17-18;28-29;34-35,ACTIVE,
+3-1-009,ISO 14001,3;10;12;14;17-18;28-29;34-35,ACTIVE,"EA 17 is listed twice, limited to fabricated metal products and to basic metals production; together they cover the sector"
+3-1-009,ISO 45001,3;10;12;14;17-18;28-29;34-35,ACTIVE,"EA 17 is listed twice, limited to fabricated metal products and to basic metals production; together they cover the sector"

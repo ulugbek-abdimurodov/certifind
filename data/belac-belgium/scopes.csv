@@ -1,0 +1,29 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+005-QMS,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Non-active medical devices; In vitro diagnostic medical devices; Devices incorporating specific substances / technologies; Active (non-implantable) medical devices; Sterilization methods; Parts or services (classified to EA by area)
+005-QMS,ISO 9001,2-4;6-7;9-10;12-19;22-24;28-29;31-39,ACTIVE,
+016-QMS,ISO 45001,12-19;22;24-25;27-29;31-32;34-36;39,ACTIVE,
+016-QMS,ISO 9001,1-4;6-7;9-12;14-19;22-39,ACTIVE,
+016-QMS (22000),FSSC 22000,3;7;12-15;17;29;31,ACTIVE,"ISO 22003-1 food chain categories: C, F, G, I, K (classified to EA by category)"
+016-QMS (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+016-QMS (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,ISO 50003 technical areas: industry – light to medium; industry – heavy; buildings; building complexes; transport; energy supply (classified to EA by area)
+019-QMS,ISO 45001,4;7;14-15;28;34-35,ACTIVE,
+019-QMS,ISO 9001,4;6-7;9;12;14-19;22;24;28-29;31;33-35;37;39,ACTIVE,
+019-QMS (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+019-QMS (50003),ISO 50001,3-9;12-14;18-19;22-24,ACTIVE,ISO 50003 technical areas: industry – light to medium (classified to EA by area)
+021-QMS,ISO 45001,15-18;22;28;34,ACTIVE,
+021-QMS,ISO 9001,6;12;14-18;28-29;31-32;34-37;39,ACTIVE,
+022-QMS,ISO 9001,2-4;6-7;9-10;12-15;17-19;21-24;28-39,ACTIVE,
+022-QMS (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+022-QMS (50003),ISO 50001,10;15-17;20-21;28;34,ACTIVE,ISO 50003 technical areas: industry – heavy (classified to EA by area)
+084-QMS,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 main technical areas: Active (non-implantable) medical devices; Non-active medical devices; Parts or services (classified to EA by area)
+084-QMS,ISO 9001,17-19;22;31;35;39,ACTIVE,
+306-QMS,ISO 9001,7;12;16-19;28-29;33-36;39,ACTIVE,
+306-QMS (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+335-QMS,ISO 9001,18;29;32-33,ACTIVE,
+600-QMS,ISO 9001,32-33;35;37,ACTIVE,
+615-QMS (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors
+620-QMS (22000),FSSC 22000,1;3;12-13,ACTIVE,"ISO 22003-1 food chain categories: B, C, K (classified to EA by category)"
+620-QMS (22000),ISO 22000,1;3;12-13;29,ACTIVE,"ISO 22003-1 food chain categories: B, C, F, K (classified to EA by category)"
+683-QMS,ISO 45001,17,ACTIVE,
+683-QMS,ISO 9001,12;17-18;24;29;34-35,ACTIVE,
+766-QMS (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the register; recorded for all EA sectors

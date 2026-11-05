@@ -1,0 +1,32 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+SAS,SCESm 0001,Schweizerische Vereinigung für Qualitäts- und Managementsysteme (SQS),ISO/IEC 17021-1,ACTIVE,2022-08-12,2027-08-11,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0001-de.pdf
+SAS,SCESm 0001 (20000),Schweizerische Vereinigung für Qualitäts- und Managementsysteme (SQS),ISO/IEC 20000-6,ACTIVE,2022-08-12,2027-08-11,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0001-de.pdf
+SAS,SCESm 0001 (22000),Schweizerische Vereinigung für Qualitäts- und Managementsysteme (SQS),ISO 22003-1,ACTIVE,2022-08-12,2027-08-11,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0001-de.pdf
+SAS,SCESm 0001 (27006),Schweizerische Vereinigung für Qualitäts- und Managementsysteme (SQS),ISO/IEC 27006,ACTIVE,2022-08-12,2027-08-11,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0001-de.pdf
+SAS,SCESm 0001 (50003),Schweizerische Vereinigung für Qualitäts- und Managementsysteme (SQS),ISO 50003,ACTIVE,2022-08-12,2027-08-11,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0001-de.pdf
+SAS,SCESm 0001 (9104),Schweizerische Vereinigung für Qualitäts- und Managementsysteme (SQS),AS 9104-1,ACTIVE,2022-08-12,2027-08-11,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0001-de.pdf
+SAS,SCESm 0003,Bureau Veritas Switzerland AG,ISO/IEC 17021-1,ACTIVE,2022-07-30,2027-07-29,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0003-de.pdf
+SAS,SCESm 0013,Swiss Safety Center AG,ISO/IEC 17021-1,ACTIVE,2024-07-01,2029-06-30,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0013-de.pdf
+SAS,SCESm 0013 (20000),Swiss Safety Center AG,ISO/IEC 20000-6,ACTIVE,2024-07-01,2029-06-30,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0013-de.pdf
+SAS,SCESm 0013 (22000),Swiss Safety Center AG,ISO 22003-1,ACTIVE,2024-07-01,2029-06-30,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0013-de.pdf
+SAS,SCESm 0013 (27006),Swiss Safety Center AG,ISO/IEC 27006,ACTIVE,2024-07-01,2029-06-30,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0013-de.pdf
+SAS,SCESm 0013 (50003),Swiss Safety Center AG,ISO 50003,ACTIVE,2024-07-01,2029-06-30,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0013-de.pdf
+SAS,SCESm 0017,SGS Société Générale de Surveillance SA,ISO/IEC 17021-1,ACTIVE,2026-05-15,2031-05-14,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0017-de.pdf
+SAS,SCESm 0039,ProCert AG,ISO/IEC 17021-1,ACTIVE,2026-01-13,2031-01-12,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0039-de.pdf
+SAS,SCESm 0039 (22000),ProCert AG,ISO 22003-1,ACTIVE,2026-01-13,2031-01-12,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0039-de.pdf
+SAS,SCESm 0040,SWISO GmbH,ISO/IEC 17021-1,ACTIVE,2022-05-23,2027-05-22,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0040-de.pdf
+SAS,SCESm 0047,QS Zürich AG,ISO/IEC 17021-1,ACTIVE,2025-03-24,2030-03-23,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0047-de.pdf
+SAS,SCESm 0047 (22000),QS Zürich AG,ISO 22003-1,ACTIVE,2025-03-24,2030-03-23,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0047-de.pdf
+SAS,SCESm 0047 (50003),QS Zürich AG,ISO 50003,ACTIVE,2025-03-24,2030-03-23,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0047-de.pdf
+SAS,SCESm 0059,QS Schaffhausen AG,ISO/IEC 17021-1,ACTIVE,2022-04-03,2027-04-02,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0059-de.pdf
+SAS,SCESm 0067,SI Cert Sagl,ISO/IEC 17021-1,ACTIVE,2026-06-15,2031-06-14,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0067-it.pdf
+SAS,SCESm 0067 (22000),SI Cert Sagl,ISO 22003-1,ACTIVE,2026-06-15,2031-06-14,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0067-it.pdf
+SAS,SCESm 0071,KPMG AG,ISO/IEC 17021-1,ACTIVE,2022-01-22,2027-01-21,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0071-de.pdf
+SAS,SCESm 0071 (20000),KPMG AG,ISO/IEC 20000-6,ACTIVE,2022-01-22,2027-01-21,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0071-de.pdf
+SAS,SCESm 0071 (27006),KPMG AG,ISO/IEC 27006,ACTIVE,2022-01-22,2027-01-21,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0071-de.pdf
+SAS,SCESm 0071 (42001),KPMG AG,ISO/IEC 42006,ACTIVE,2022-01-22,2027-01-21,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0071-de.pdf
+SAS,SCESm 0095,IAS Register AG,ISO/IEC 17021-1,ACTIVE,2025-07-28,2030-07-27,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0095-it.pdf
+SAS,SCESm 0095 (50003),IAS Register AG,ISO 50003,ACTIVE,2025-07-28,2030-07-27,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0095-it.pdf
+SAS,SCESm 0105,DIMITTO AG,ISO/IEC 17021-1,ACTIVE,2022-06-19,2027-06-18,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0105-de.pdf
+SAS,SCESm 0105 (50003),DIMITTO AG,ISO 50003,ACTIVE,2022-06-19,2027-06-18,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0105-de.pdf
+SAS,SCESm 0128,EdelCert SA,ISO/IEC 17021-1,ACTIVE,2022-11-03,2027-11-02,https://sas.seco.amboss.liip.cloud/media/pdf/SCESm-0128-fr.pdf

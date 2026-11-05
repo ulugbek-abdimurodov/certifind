@@ -1,0 +1,78 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+SNAS,Q-003,CERTICOM s. r. o.,ISO/IEC 17021-1,ACTIVE,2025-11-03,2030-11-03,https://ais.snas.sk/web-report
+SNAS,Q-004,SKQS s. r. o.,ISO/IEC 17021-1,ACTIVE,2026-05-07,2031-05-07,https://ais.snas.sk/web-report
+SNAS,Q-005,Výskumný ústav zváračský,ISO/IEC 17021-1,ACTIVE,2023-12-18,2028-12-18,https://ais.snas.sk/web-report
+SNAS,Q-006,"PQM, s.r.o.",ISO/IEC 17021-1,ACTIVE,2024-12-17,2028-07-17,https://ais.snas.sk/web-report
+SNAS,Q-007,"Technický skúšobný ústav Piešťany, a. s.",ISO/IEC 17021-1,ACTIVE,2025-11-18,2028-10-16,https://ais.snas.sk/web-report
+SNAS,Q-009,"LIGNOTESTING, a.s.",ISO/IEC 17021-1,ACTIVE,2025-03-27,2030-03-27,https://ais.snas.sk/web-report
+SNAS,Q-011,TÜV SÜD Slovakia s.r.o.,ISO/IEC 17021-1,ACTIVE,2025-02-11,2030-02-11,https://ais.snas.sk/web-report
+SNAS,Q-012,"Technická inšpekcia, a.s.",ISO/IEC 17021-1,ACTIVE,2026-01-30,2031-01-30,https://ais.snas.sk/web-report
+SNAS,Q-014,"CVI, s.r.o.",ISO/IEC 17021-1,ACTIVE,2026-08-20,2029-12-21,https://ais.snas.sk/web-report
+SNAS,Q-017,"CERTOP, Dom pre certifikáciu produktov a systémov, s.r.o.",ISO/IEC 17021-1,ACTIVE,2025-12-02,2030-12-02,https://ais.snas.sk/web-report
+SNAS,Q-028,"ACB, s.r.o.",ISO/IEC 17021-1,ACTIVE,2026-08-27,2031-08-27,https://ais.snas.sk/web-report
+SNAS,Q-030,QUALIFORM SLOVAKIA s.r.o.,ISO/IEC 17021-1,ACTIVE,2025-04-18,2030-04-18,https://ais.snas.sk/web-report
+SNAS,Q-033,"PRVÁ ZVÁRAČSKÁ, a.s.",ISO/IEC 17021-1,ACTIVE,2023-10-16,2028-10-16,https://ais.snas.sk/web-report
+SNAS,Q-036,"ELBACERT, akciová spoločnosť",ISO/IEC 17021-1,ACTIVE,2026-06-16,2028-09-07,https://ais.snas.sk/web-report
+SNAS,Q-040,"QECON, spol. s r.o.",ISO/IEC 17021-1,ACTIVE,2025-01-01,2028-03-02,https://ais.snas.sk/web-report
+SNAS,Q-044,SGS Slovakia spol. s r.o.,ISO/IEC 17021-1,ACTIVE,2024-05-02,2029-05-02,https://ais.snas.sk/web-report
+SNAS,Q-050,3EC International a. s.,ISO/IEC 17021-1,ACTIVE,2025-06-27,2030-06-27,https://ais.snas.sk/web-report
+SNAS,Q-055,Cech zváračských odborníkov,ISO/IEC 17021-1,ACTIVE,2023-03-02,2028-03-02,https://ais.snas.sk/web-report
+SNAS,Q-057,"CERTY CEQ, s. r. o.",ISO/IEC 17021-1,ACTIVE,2026-10-13,2031-10-13,https://ais.snas.sk/web-report
+SNAS,Q-058,SMC Slovensko a. s.,ISO/IEC 17021-1,ACTIVE,2026-05-19,2031-05-19,https://ais.snas.sk/web-report
+SNAS,Q-061,"ASTRAIA Certification, s.r.o.",ISO/IEC 17021-1,ACTIVE,2025-09-20,2030-09-20,https://ais.snas.sk/web-report
+SNAS,Q-065,"CERT International, s. r. o.",ISO/IEC 17021-1,ACTIVE,2026-04-11,2030-08-14,https://ais.snas.sk/web-report
+SNAS,Q-072,ANCCP Certification Agency s.r.o.,ISO/IEC 17021-1,ACTIVE,2025-04-03,2030-04-03,https://ais.snas.sk/web-report
+SNAS,Q-073,bqs. s.r.o.,ISO/IEC 17021-1,ACTIVE,2025-11-11,2028-04-21,https://ais.snas.sk/web-report
+SNAS,Q-076,"TSÜ, a.s.",ISO/IEC 17021-1,ACTIVE,2024-02-20,2029-02-20,https://ais.snas.sk/web-report
+SNAS,Q-077,"ITQ- INŠTITÚT TEÓRIE KVALITY, s.r.o.",ISO/IEC 17021-1,ACTIVE,2022-11-07,2027-11-07,https://ais.snas.sk/web-report
+SNAS,Q-079,SDMCERT s.r.o.,ISO/IEC 17021-1,ACTIVE,2024-09-07,2029-09-07,https://ais.snas.sk/web-report
+SNAS,Q-080,"QSCert, spol. s r.o.",ISO/IEC 17021-1,ACTIVE,2025-11-06,2030-09-29,https://ais.snas.sk/web-report
+SNAS,Q-082,SV Certification s.r.o.,ISO/IEC 17021-1,ACTIVE,2024-12-18,2029-12-18,https://ais.snas.sk/web-report
+SNAS,Q-084,Procedo International Certification s.r.o.,ISO/IEC 17021-1,ACTIVE,2025-11-10,2030-11-10,https://ais.snas.sk/web-report
+SNAS,Q-085,TÜV Thüringen Slovakia s.r.o.,ISO/IEC 17021-1,ACTIVE,2026-07-01,2031-07-01,https://ais.snas.sk/web-report
+SNAS,Q-087,MSQcert s.r.o.,ISO/IEC 17021-1,ACTIVE,2021-11-11,2026-11-11,https://ais.snas.sk/web-report
+SNAS,Q-089,"Certifikačný a inšpekčný orgán SR, s. r. o.",ISO/IEC 17021-1,ACTIVE,2024-04-05,2029-04-05,https://ais.snas.sk/web-report
+SNAS,Q-092,E.I.C.Engineering inspection company s.r.o.,ISO/IEC 17021-1,ACTIVE,2024-10-06,2029-10-06,https://ais.snas.sk/web-report
+SNAS,Q-101,TBX Cert s.r.o,ISO/IEC 17021-1,ACTIVE,2026-10-22,2031-08-20,https://ais.snas.sk/web-report
+SNAS,R-011,SKQS s. r. o.,ISO/IEC 27006,ACTIVE,2026-05-07,2031-05-07,https://ais.snas.sk/web-report
+SNAS,R-045,TÜV SÜD Slovakia s.r.o.,ISO 22003-1,ACTIVE,2025-11-24,2028-10-16,https://ais.snas.sk/web-report
+SNAS,R-055,SGS Slovakia spol. s r.o.,ISO 22003-1,ACTIVE,2026-07-21,2029-05-02,https://ais.snas.sk/web-report
+SNAS,R-062,"PQM, s.r.o.",ISO/IEC 27006,ACTIVE,2025-05-16,2028-07-17,https://ais.snas.sk/web-report
+SNAS,R-074,TÜV SÜD Slovakia s.r.o.,ISO/IEC 27006,ACTIVE,2026-01-31,2027-07-19,https://ais.snas.sk/web-report
+SNAS,R-084,"ASTRAIA Certification, s.r.o.",ISO/IEC 27006,ACTIVE,2025-09-20,2030-09-20,https://ais.snas.sk/web-report
+SNAS,R-094,SMC Slovensko a. s.,ISO 22003-1,ACTIVE,2026-05-19,2031-05-19,https://ais.snas.sk/web-report
+SNAS,R-097,TÜV SÜD Slovakia s.r.o.,ISO 50003,ACTIVE,2025-02-11,2030-02-11,https://ais.snas.sk/web-report
+SNAS,R-099,SGS Slovakia spol. s r.o.,ISO 50003,ACTIVE,2024-05-02,2029-05-02,https://ais.snas.sk/web-report
+SNAS,R-105,SMC Slovensko a. s.,ISO 50003,ACTIVE,2026-05-19,2031-05-19,https://ais.snas.sk/web-report
+SNAS,R-106,SMC Slovensko a. s.,ISO/IEC 27006,ACTIVE,2026-05-19,2031-05-19,https://ais.snas.sk/web-report
+SNAS,R-109,"ELBACERT, akciová spoločnosť",ISO/IEC 27006,ACTIVE,2026-04-16,2028-09-07,https://ais.snas.sk/web-report
+SNAS,R-110,"ASTRAIA Certification, s.r.o.",ISO 50003,ACTIVE,2025-09-20,2030-09-20,https://ais.snas.sk/web-report
+SNAS,R-111,3EC International a. s.,ISO/IEC 17021-9,ACTIVE,2026-02-08,2030-06-27,https://ais.snas.sk/web-report
+SNAS,R-113,"CERTY CEQ, s. r. o.",ISO/IEC 17021-9,ACTIVE,2026-10-13,2031-10-13,https://ais.snas.sk/web-report
+SNAS,R-114,"PQM, s.r.o.",ISO/IEC 17021-9,ACTIVE,2026-01-29,2028-07-17,https://ais.snas.sk/web-report
+SNAS,R-115,TÜV SÜD Slovakia s.r.o.,ISO/IEC 17021-9,ACTIVE,2026-03-04,2028-10-16,https://ais.snas.sk/web-report
+SNAS,R-116,"QSCert, spol. s r.o.",ISO/IEC 17021-9,ACTIVE,2025-11-06,2030-09-29,https://ais.snas.sk/web-report
+SNAS,R-121,"ELBACERT, akciová spoločnosť",ISO/IEC 17021-9,ACTIVE,2026-02-19,2028-09-07,https://ais.snas.sk/web-report
+SNAS,R-124,"CERT International, s. r. o.",ISO 22003-1,ACTIVE,2026-04-10,2030-08-14,https://ais.snas.sk/web-report
+SNAS,R-125,"CERT International, s. r. o.",ISO 50003,ACTIVE,2026-04-11,2030-08-14,https://ais.snas.sk/web-report
+SNAS,R-130,"QSCert, spol. s r.o.",ISO/IEC 27006,ACTIVE,2025-11-06,2030-09-29,https://ais.snas.sk/web-report
+SNAS,R-131,"QSCert, spol. s r.o.",ISO 50003,ACTIVE,2025-11-06,2030-09-29,https://ais.snas.sk/web-report
+SNAS,R-132,SGS Slovakia spol. s r.o.,ISO/IEC 17021-9,ACTIVE,2026-02-21,2029-05-02,https://ais.snas.sk/web-report
+SNAS,R-133,"CERT International, s. r. o.",ISO/IEC 17021-9,ACTIVE,2026-04-11,2030-08-14,https://ais.snas.sk/web-report
+SNAS,R-135,SMC Slovensko a. s.,ISO/IEC 17021-9,ACTIVE,2026-05-19,2031-05-19,https://ais.snas.sk/web-report
+SNAS,R-136,CERTICOM s. r. o.,ISO/IEC 17021-9,ACTIVE,2026-02-27,2030-11-03,https://ais.snas.sk/web-report
+SNAS,R-137,"ITQ- INŠTITÚT TEÓRIE KVALITY, s.r.o.",ISO/IEC 17021-9,ACTIVE,2026-03-19,2027-11-07,https://ais.snas.sk/web-report
+SNAS,R-138,"ASTRAIA Certification, s.r.o.",ISO/IEC 17021-9,ACTIVE,2026-02-21,2030-09-20,https://ais.snas.sk/web-report
+SNAS,R-141,SV Certification s.r.o.,ISO/IEC 27006,ACTIVE,2026-01-31,2029-12-18,https://ais.snas.sk/web-report
+SNAS,R-142,"ACB, s.r.o.",ISO/IEC 17021-9,ACTIVE,2026-03-06,2031-03-06,https://ais.snas.sk/web-report
+SNAS,R-146,"QSCert, spol. s r.o.",ISO/IEC 17021-6,ACTIVE,2025-11-06,2030-09-29,https://ais.snas.sk/web-report
+SNAS,R-147,"QSCert, spol. s r.o.",ISO/IEC 20000-6,ACTIVE,2025-11-06,2030-09-29,https://ais.snas.sk/web-report
+SNAS,R-149,"ELBACERT, akciová spoločnosť",ISO/IEC 17021-6,ACTIVE,2024-11-29,2028-09-07,https://ais.snas.sk/web-report
+SNAS,R-150,TÜV SÜD Slovakia s.r.o.,ISO/IEC 17021-6,ACTIVE,2022-07-19,2027-07-19,https://ais.snas.sk/web-report
+SNAS,R-152,"CERT International, s. r. o.",ISO/IEC 27006,ACTIVE,2026-04-11,2030-08-14,https://ais.snas.sk/web-report
+SNAS,R-153,CERTICOM s. r. o.,ISO/IEC 27006,ACTIVE,2025-11-03,2030-11-03,https://ais.snas.sk/web-report
+SNAS,R-154,bqs. s.r.o.,ISO/IEC 27006,ACTIVE,2025-11-11,2028-04-21,https://ais.snas.sk/web-report
+SNAS,R-155,ANCCP Certification Agency s.r.o.,ISO/IEC 17021-9,ACTIVE,2026-02-27,2030-04-03,https://ais.snas.sk/web-report
+SNAS,R-157,KRONOCERT s.r.o.,ISO/IEC 17021-1,ACTIVE,2026-08-20,2029-04-05,https://ais.snas.sk/web-report
+SNAS,R-161,"QSCert, spol. s r.o.",ISO 22003-1,ACTIVE,2025-11-06,2030-09-29,https://ais.snas.sk/web-report
+SNAS,R-168,SMC Slovensko a. s.,ISO/IEC 17021-7,ACTIVE,2026-09-11,2031-05-19,https://ais.snas.sk/web-report

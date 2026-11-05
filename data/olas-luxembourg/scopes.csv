@@ -1,0 +1,5 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+4/005 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the annex; recorded for all EA sectors
+6/001,ISO 14001,2-4;9;12;14;17-19;22;24;28-29;31-32;34-35,ACTIVE,
+6/001,ISO 45001,2-4;9;12;14;17-19;22;24;28-29;31-32;34-35,ACTIVE,
+6/001,ISO 9001,3-4;9;12;14-15;17-19;22;24;28-29;31-32;34-38,ACTIVE,

@@ -1,0 +1,31 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+FINAS,S001,DNV Business Assurance Finland Oy Ab,ISO/IEC 17021-1,ACTIVE,2025-06-05,2028-08-31,https://www.finas.fi/Scopes/S001%20M53%202025.pdf
+FINAS,S001 (22000),DNV Business Assurance Finland Oy Ab,ISO 22003-1,ACTIVE,2025-06-05,2028-08-31,https://www.finas.fi/Scopes/S001%20M53%202025.pdf
+FINAS,S001 (50003),DNV Business Assurance Finland Oy Ab,ISO 50003,ACTIVE,2025-06-05,2028-08-31,https://www.finas.fi/Scopes/S001%20M53%202025.pdf
+FINAS,S001 (27006),DNV Business Assurance Finland Oy Ab,ISO/IEC 27006,ACTIVE,2025-06-05,2028-08-31,https://www.finas.fi/Scopes/S001%20M53%202025.pdf
+FINAS,S002,Kiwa Sertifiointi Oy,ISO/IEC 17021-1,ACTIVE,2026-10-07,2028-10-25,https://www.finas.fi/Scopes/S002%20M73%202026.pdf
+FINAS,S002 (22000),Kiwa Sertifiointi Oy,ISO 22003-1,ACTIVE,2026-10-07,2028-10-25,https://www.finas.fi/Scopes/S002%20M73%202026.pdf
+FINAS,S002 (50003),Kiwa Sertifiointi Oy,ISO 50003,ACTIVE,2026-10-07,2028-10-25,https://www.finas.fi/Scopes/S002%20M73%202026.pdf
+FINAS,S002 (27006),Kiwa Sertifiointi Oy,ISO/IEC 27006,ACTIVE,2026-10-07,2028-10-25,https://www.finas.fi/Scopes/S002%20M73%202026.pdf
+FINAS,S002 (20000),Kiwa Sertifiointi Oy,ISO/IEC 20000-6,ACTIVE,2026-10-07,2028-10-25,https://www.finas.fi/Scopes/S002%20M73%202026.pdf
+FINAS,S002 (22301),Kiwa Sertifiointi Oy,ISO/IEC 17021-6,ACTIVE,2026-10-07,2028-10-25,https://www.finas.fi/Scopes/S002%20M73%202026.pdf
+FINAS,S009,SGS Fimko Ltd,ISO/IEC 17021-1,ACTIVE,2026-03-25,2028-05-30,https://www.finas.fi/Scopes/S009_M38_2026.pdf
+FINAS,S009 (27006),SGS Fimko Ltd,ISO/IEC 27006,ACTIVE,2026-03-25,2028-05-30,https://www.finas.fi/Scopes/S009_M38_2026.pdf
+FINAS,S021,Eurofins Electric & Electronics Finland Oy,ISO/IEC 17021-1,ACTIVE,2025-10-30,2029-12-31,https://www.finas.fi/Scopes/S021%20A32%202025.pdf
+FINAS,S023,Labquality Oy,ISO/IEC 17021-1,ACTIVE,2025-12-30,2028-06-21,https://www.finas.fi/Scopes/S023%20M22%202025.pdf
+FINAS,S035,Bureau Veritas Certification Finland,ISO/IEC 17021-1,ACTIVE,2025-08-14,2027-02-18,https://www.finas.fi/Scopes/S035%20M14%202025.pdf
+FINAS,S035 (27006),Bureau Veritas Certification Finland,ISO/IEC 27006,ACTIVE,2025-08-14,2027-02-18,https://www.finas.fi/Scopes/S035%20M14%202025.pdf
+FINAS,S044,AKL-Sertifiointi Oy,ISO/IEC 17021-1,ACTIVE,2022-11-16,2026-11-14,https://www.finas.fi/Scopes/S044%20M08%202022.pdf
+FINAS,S045,KPMG IT Certification Ltd,ISO/IEC 17021-1,ACTIVE,2025-11-25,2027-01-30,https://www.finas.fi/Scopes/S045%20M10%202025.pdf
+FINAS,S045 (27006),KPMG IT Certification Ltd,ISO/IEC 27006,ACTIVE,2025-11-25,2027-01-30,https://www.finas.fi/Scopes/S045%20M10%202025.pdf
+FINAS,S047,Nixu Certification Ltd,ISO/IEC 17021-1,ACTIVE,2026-01-15,2028-03-29,https://www.finas.fi/Scopes/S047%20M10%202026.pdf
+FINAS,S047 (27006),Nixu Certification Ltd,ISO/IEC 27006,ACTIVE,2026-01-15,2028-03-29,https://www.finas.fi/Scopes/S047%20M10%202026.pdf
+FINAS,S051,Oy Testmill Ltd,ISO/IEC 17021-1,ACTIVE,2026-04-30,2029-10-17,https://www.finas.fi/Scopes/S051%20M10%202026.pdf
+FINAS,S053,DEKRA Industrial Oy,ISO/IEC 17021-1,ACTIVE,2026-02-12,2030-04-27,https://www.finas.fi/Scopes/S053_A06_2026.pdf
+FINAS,S064,Into Certification Oy,ISO/IEC 17021-1,ACTIVE,2025-12-09,2030-03-24,https://www.finas.fi/Scopes/S064%20A05%202025.pdf
+FINAS,S064 (27006),Into Certification Oy,ISO/IEC 27006,ACTIVE,2025-12-09,2030-03-24,https://www.finas.fi/Scopes/S064%20A05%202025.pdf
+FINAS,S068,Valpas Certifications Ltd,ISO/IEC 17021-1,ACTIVE,2023-06-22,2027-04-20,https://www.finas.fi/Scopes/S068%20M02%202023.pdf
+FINAS,S070,Sertio Oy,ISO/IEC 17021-1,ACTIVE,2025-10-10,2029-10-10,https://www.finas.fi/Scopes/S070%20A01%202025.pdf
+FINAS,S072,SF Certification Ltd,ISO/IEC 17021-1,ACTIVE,2025-12-17,2029-12-17,https://www.finas.fi/Scopes/S072%20A01%202025.pdf
+FINAS,S073,Enemi Oy,ISO/IEC 17021-1,ACTIVE,2026-01-27,2030-01-27,https://www.finas.fi/Scopes/S073%20A01%202026.pdf
+FINAS,S074,Sertiqo Oy,ISO/IEC 17021-1,ACTIVE,2026-03-19,2030-03-19,https://www.finas.fi/Scopes/S074%20A01%202026.pdf

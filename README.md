@@ -96,7 +96,7 @@ The sector is resolved from an explicit `EA nn` code (1–39) if present,
 otherwise through the IT/EN keyword vocabulary (`sector_keywords`). An empty
 `isoStandard` defaults to ISO 9001.
 
-The response includes the resolved EA sector and matching bodies with accreditation, scope, contact, certificate expiry and source information. Each card lists all of the body's valid EA sectors for the requested standard. Unresolved sectors return HTTP 400; they are not silently mapped to a default sector.
+The response includes the resolved EA sector and matching bodies with declared accreditation, scope, contact, certificate expiry and source information. Each card lists all of the body's valid EA sectors for the requested standard. Unresolved sectors return HTTP 400; they are not silently mapped to a default sector.
 
 ## Data notes
 
@@ -110,10 +110,11 @@ Data lives in three places, each managed differently:
 
 Real datasets: `data/dpa-albania` (transcribed from DPA accreditation annexes) and
 `data/renar-romania` (extracted from RENAR certificates and annexes). Each folder's
-`SOURCES.md` records where the data came from and the transcription rules. Contact
-and accreditation details must be confirmed against current official records before
-being represented as independently verified; `verified_at` records when that was done.
-The interface links the scope source supplied with each record and includes that caveat.
+`SOURCES.md` records where the data came from and the transcription rules. Contact and accreditation details must be confirmed against current official records
+before being represented as independently verified; `verified_at` records the last
+recorded check of the contact details. The interface shows available sources and
+the recorded date, but an accreditation label means that the right is present in
+the imported dataset, not that CertiFind independently verified it.
 
 ### Entering company data
 
@@ -278,6 +279,31 @@ created the tables (it keeps restarting until then).
 Do not open ports 5432 or 8080 in the server's firewall; both are bound to
 `127.0.0.1`. To serve the API publicly, put a reverse proxy with HTTPS (nginx,
 Caddy) in front of port 8080.
+
+### Production frontend hosting
+
+The production Compose file intentionally runs PostgreSQL, the API and the
+one-off importer; it does not run Next.js. Host the frontend on a managed
+Next.js platform or on a separate web server. Set
+`NEXT_PUBLIC_API_URL` to the public API origin when building it, for example
+`https://api.example.com`. The API origin must be HTTPS in production.
+
+The recommended arrangement is one HTTPS reverse proxy with separate routes:
+
+```text
+https://app.example.com        -> the Next.js frontend
+https://api.example.com        -> 127.0.0.1:8080 (backend container)
+```
+
+Set `CERTIFIND_CORS_ALLOWED_ORIGINS=https://app.example.com` in
+`deploy/.env` before starting the backend. Multiple frontend origins may be
+listed as a comma-separated value. Origins must include the scheme and exact
+host (and port when used); do not use a path, wildcard, or trailing slash.
+
+For a same-origin reverse proxy, serve the Next.js frontend and API under one
+origin and proxy `/api/` to the backend. Set `NEXT_PUBLIC_API_URL` to the same origin and leave
+`CERTIFIND_CORS_ALLOWED_ORIGINS` empty; same-origin requests do not need CORS.
+Never expose PostgreSQL publicly.
 
 ### Updating data or code (on the server)
 

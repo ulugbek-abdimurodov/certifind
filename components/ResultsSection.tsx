@@ -75,7 +75,7 @@ export function ResultsSection({
               </p>
             </div>
             <div className="results-mark">
-              <span>✓</span> Accreditamenti consultabili
+              <span>ⓘ</span> Dati da verificare
             </div>
           </div>
           {data.results.length ? (
@@ -157,9 +157,17 @@ export function ResultsSection({
                           </span>
                         </div>
                         <div className="verified-label">
-                          <span>✓</span> Accreditamento{" "}
+                          <span>ⓘ</span> Accreditamento dichiarato ·{" "}
                           {body.accreditationBodyCode}
                         </div>
+                        {(body.proofUrl || body.sourceUrl || body.verifiedAt) && (
+                          <div className="provenance-label">
+                            {body.proofUrl || body.sourceUrl ? "Fonte disponibile" : null}
+                            {body.verifiedAt
+                              ? ` · Ultimo controllo ${new Date(body.verifiedAt).toLocaleDateString("it-IT")}`
+                              : null}
+                          </div>
+                        )}
                       </div>
                       <span className="card-arrow">↗</span>
                     </button>
@@ -179,7 +187,8 @@ export function ResultsSection({
           <p className="data-note">
             <span>ⓘ</span> Verifica sempre lo stato corrente
             dell’accreditamento presso l’ente nazionale competente. I dati
-            mostrati sono dimostrativi.
+            provengono da fonti dichiarate, ma non costituiscono una verifica
+            indipendente dell’accreditamento corrente.
           </p>
         </>
       ) : (

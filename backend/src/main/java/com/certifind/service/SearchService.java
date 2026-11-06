@@ -227,6 +227,8 @@ public class SearchService {
                 cb.getEmail(),
                 cb.getWebsite(),
                 cb.getAddress(),
+                cb.getSourceUrl(),
+                cb.getVerifiedAt(),
                 accreditation != null ? accreditation.getProofUrl() : null,
                 eaCode,
                 eaDescription,

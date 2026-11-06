@@ -586,6 +586,11 @@ a {
   color: var(--green);
   font-size: 9px;
 }
+.provenance-label {
+  margin-top: 5px;
+  color: #7a8881;
+  font-size: 9px;
+}
 .card-arrow {
   font-size: 17px;
   color: #8aa096;
@@ -1336,6 +1341,7 @@ footer {
 [data-theme="dark"] .result-meta { color: #8a9a93; }
 [data-theme="dark"] .result-meta i { background: #4a5953; }
 [data-theme="dark"] .verified-label { color: #6fb79a; }
+[data-theme="dark"] .provenance-label { color: #8a9a93; }
 [data-theme="dark"] .card-arrow { color: #6c7c75; }
 [data-theme="dark"] .result-card:hover .card-arrow { color: #4fc39b; }
 [data-theme="dark"] .data-note { color: #7d8d86; }

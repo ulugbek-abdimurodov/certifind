@@ -19,6 +19,8 @@ export type Body = {
   email: string | null;
   website: string | null;
   address: string | null;
+  sourceUrl: string | null;
+  verifiedAt: string | null;
   proofUrl: string | null;
   eaCode: number;
   eaDescription: string;

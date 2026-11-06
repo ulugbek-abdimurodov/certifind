@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { Body } from "../app/search-types";
 import {
   flagFor,
@@ -19,6 +19,47 @@ export function OrganizationDrawer({
   onClose: () => void;
 }) {
   const [selectedStandard, setSelectedStandard] = useState<string | null>(null);
+  const returnFocusRef = useRef<HTMLElement | null>(null);
+  const onCloseRef = useRef(onClose);
+  useEffect(() => {
+    onCloseRef.current = onClose;
+  }, [onClose]);
+
+  useEffect(() => {
+    if (!body) return;
+    returnFocusRef.current = document.activeElement as HTMLElement | null;
+    const drawer = document.querySelector<HTMLElement>("[data-organization-drawer]");
+    const closeButton = drawer?.querySelector<HTMLButtonElement>("[data-drawer-close]");
+    closeButton?.focus();
+    const onKeyDown = (event: globalThis.KeyboardEvent) => {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        onCloseRef.current();
+        return;
+      }
+      if (event.key !== "Tab" || !drawer) return;
+      const focusable = Array.from(
+        drawer.querySelectorAll<HTMLElement>(
+          'a[href], button:not([disabled]), input, select, textarea, [tabindex]:not([tabindex="-1"])',
+        ),
+      );
+      if (!focusable.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.removeEventListener("keydown", onKeyDown);
+      returnFocusRef.current?.focus();
+    };
+  }, [body]);
 
   if (!body) return null;
   const { scopes } = body;
@@ -40,13 +81,19 @@ export function OrganizationDrawer({
     >
       <aside
         className="drawer"
+        data-organization-drawer
         role="dialog"
         aria-modal="true"
         aria-labelledby="drawer-title"
       >
         <div className="drawer-top">
           <span>SCHEDA ORGANISMO</span>
-          <button type="button" aria-label="Chiudi" onClick={onClose}>
+          <button
+            type="button"
+            aria-label="Chiudi"
+            data-drawer-close
+            onClick={onClose}
+          >
             ×
           </button>
         </div>
@@ -54,7 +101,7 @@ export function OrganizationDrawer({
           <div className="drawer-flag">{flagFor(body.country)}</div>
           <div>
             <div className="verified-label">
-              <span>✓</span> {body.accreditationBodyCode}
+              <span>ⓘ</span> Accreditamento dichiarato · {body.accreditationBodyCode}
             </div>
             <h2 id="drawer-title">{body.name}</h2>
             <p>
@@ -175,6 +222,22 @@ export function OrganizationDrawer({
           >
             Consulta la fonte dell’accreditamento <span>↗</span>
           </a>
+        )}
+        {body.sourceUrl && (
+          <a
+            className="source-link"
+            href={body.sourceUrl}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Fonte dei dati di contatto <span>↗</span>
+          </a>
+        )}
+        {body.verifiedAt && (
+          <p className="drawer-disclaimer">
+            Ultimo controllo registrato:{" "}
+            {new Date(body.verifiedAt).toLocaleDateString("it-IT")}.
+          </p>
         )}
         <p className="drawer-disclaimer">
           Le informazioni e la disponibilità dei servizi vanno confermate

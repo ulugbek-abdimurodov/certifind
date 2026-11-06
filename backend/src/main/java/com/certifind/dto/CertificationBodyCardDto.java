@@ -12,6 +12,8 @@ public record CertificationBodyCardDto(
     String email,
     String website,
     String address,
+    String sourceUrl,
+    LocalDate verifiedAt,
     String proofUrl,
     int eaCode,
     String eaDescription,

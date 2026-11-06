@@ -6,6 +6,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import java.time.LocalDate;
 import java.util.Objects;
 
 @Entity
@@ -34,6 +35,12 @@ public class CertificationBody {
     @Column(name = "address", columnDefinition = "TEXT")
     private String address;
 
+    @Column(name = "source_url", columnDefinition = "TEXT")
+    private String sourceUrl;
+
+    @Column(name = "verified_at")
+    private LocalDate verifiedAt;
+
     public Integer getId() {
         return id;
     }
@@ -60,6 +67,14 @@ public class CertificationBody {
 
     public String getAddress() {
         return address;
+    }
+
+    public String getSourceUrl() {
+        return sourceUrl;
+    }
+
+    public LocalDate getVerifiedAt() {
+        return verifiedAt;
     }
 
     @Override

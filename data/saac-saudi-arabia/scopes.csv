@@ -1,0 +1,113 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+N-BCMS-00001 (22301),ISO 22301,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-BCMS-00015 (22301),ISO 22301,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-BCMS-00028 (22301),ISO 22301,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-BCMS-00030 (22301),ISO 22301,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-BCMS-00031 (22301),ISO 22301,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-BCMS-00032 (22301),ISO 22301,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-BCMS-00034 (22301),ISO 22301,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-BCMS-00040 (22301),ISO 22301,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-EMS-00013,ISO 14001,29-30;32-37,ACTIVE,IAF codes as listed in the SAAC register
+N-EMS-00013,ISO 45001,29-30;32-37,ACTIVE,IAF codes as listed in the SAAC register
+N-EMS-00013,ISO 9001,30;34-35,ACTIVE,IAF codes as listed in the SAAC register
+N-EMS-00028,ISO 13485,18;29;31;34-35,ACTIVE,Classified to EA from IAF MD 8 main technical areas: Parts or services
+N-EMS-00028,ISO 14001,28-29;31-37,ACTIVE,IAF codes as listed in the SAAC register
+N-EMS-00028,ISO 45001,28-29;31-37,ACTIVE,IAF codes as listed in the SAAC register
+N-EMS-00028,ISO 9001,28;31;34-35,ACTIVE,IAF codes as listed in the SAAC register
+N-EMS-00032,ISO 14001,28;34,ACTIVE,IAF codes as listed in the SAAC register
+N-EMS-00032,ISO 45001,28;34,ACTIVE,IAF codes as listed in the SAAC register
+N-EMS-00032,ISO 9001,28;34,ACTIVE,IAF codes as listed in the SAAC register
+N-EnMS-00002 (50003),ISO 50001,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-EnMS-00003 (50003),ISO 50001,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-EnMS-00004 (50003),ISO 50001,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-EnMS-00014 (50003),ISO 50001,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-EnMS-00015 (50003),ISO 50001,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-EnMS-00016 (50003),ISO 50001,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-EnMS-00017 (50003),ISO 50001,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-FSMS-00001 (22000),ISO 22000,3;7;14-15;17;30,ACTIVE,"Classified to EA from ISO 22003-1 categories C, D, E, I"
+N-FSMS-00002 (22000),ISO 22000,3;30,ACTIVE,"Classified to EA from ISO 22003-1 categories C, E"
+N-FSMS-00004 (22000),ISO 22000,3,ACTIVE,Classified to EA from ISO 22003-1 categories C
+N-FSMS-00005 (22000),ISO 22000,3,ACTIVE,"Classified to EA from ISO 22003-1 categories C, D"
+N-FSMS-00006 (22000),ISO 22000,1;3;7;14-15;17;29-30,ACTIVE,"Classified to EA from ISO 22003-1 categories A, C, E, F, I"
+N-FSMS-00007 (22000),ISO 22000,3;7;14-15;17,ACTIVE,"Classified to EA from ISO 22003-1 categories C, D, I"
+N-FSMS-00008 (22000),ISO 22000,3;7;14-15;17;30,ACTIVE,"Classified to EA from ISO 22003-1 categories C, E, I"
+N-FSMS-00009 (22000),ISO 22000,3;7;14-15;17;30,ACTIVE,"Classified to EA from ISO 22003-1 categories C, D, E, I"
+N-FSMS-00010 (22000),ISO 22000,3;12-13;30,ACTIVE,"Classified to EA from ISO 22003-1 categories C, E, K"
+N-FSMS-00011 (22000),ISO 22000,3;7;14-15;17;30,ACTIVE,"Classified to EA from ISO 22003-1 categories C, D, E, I"
+N-FSMS-00012 (22000),ISO 22000,3,ACTIVE,Classified to EA from ISO 22003-1 categories C
+N-FSMS-00021 (22000),ISO 22000,3;29;31,ACTIVE,"Classified to EA from ISO 22003-1 categories C, F, G"
+N-FSMS-00022 (22000),ISO 22000,1;3;31,ACTIVE,"Classified to EA from ISO 22003-1 categories A, C, G"
+N-FSMS-00027 (22000),ISO 22000,1;3;30,ACTIVE,"Classified to EA from ISO 22003-1 categories A, C, D, E"
+N-FSMS-00029 (22000),ISO 22000,3;7;14-15;17;30,ACTIVE,"Classified to EA from ISO 22003-1 categories C, E, I"
+N-FSMS-00030 (22000),ISO 22000,3;7;14-15;17,ACTIVE,"Classified to EA from ISO 22003-1 categories C, I"
+N-FSMS-00031 (22000),ISO 22000,3;7;14-15;17,ACTIVE,"Classified to EA from ISO 22003-1 categories C, D, I"
+N-FSMS-00035 (22000),ISO 22000,3,ACTIVE,"Classified to EA from ISO 22003-1 categories C, D"
+N-FSMS-00036 (22000),ISO 22000,3;7;14-15;17;30,ACTIVE,"Classified to EA from ISO 22003-1 categories C, E, I"
+N-FSMS-00037 (22000),ISO 22000,3,ACTIVE,Classified to EA from ISO 22003-1 categories C
+N-FSMS-00039 (22000),ISO 22000,3,ACTIVE,"Classified to EA from ISO 22003-1 categories C, D"
+N-ISMS-00001 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-ISMS-00002 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-ISMS-00003 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-ISMS-00004 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-ISMS-00006 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-ISMS-00008 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-ISMS-00009 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-ISMS-00017 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the SAAC register; recorded for all EA sectors
+N-MDMS-00002,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,Classified to EA from IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Active implantable medical devices; Parts or services
+N-MDMS-00002,ISO 14001,3;6-9;12-15;19;22;24;28-30;32-38,ACTIVE,IAF codes as listed in the SAAC register
+N-MDMS-00002,ISO 45001,3-9;12-15;19;22-24;28-30;32-38,ACTIVE,IAF codes as listed in the SAAC register
+N-MDMS-00002,ISO 9001,1-10;12-20;22-24;28-39,ACTIVE,IAF codes as listed in the SAAC register
+N-MDMS-00005,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,Classified to EA from IAF MD 8 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Parts or services
+N-MDMS-00005,ISO 14001,28;34,ACTIVE,IAF codes as listed in the SAAC register
+N-MDMS-00005,ISO 45001,28;34,ACTIVE,IAF codes as listed in the SAAC register
+N-MDMS-00005,ISO 9001,28;34,ACTIVE,IAF codes as listed in the SAAC register
+N-MDMS-00006,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,Classified to EA from IAF MD 8 main technical areas: Non-active medical devices; In vitro diagnostic medical devices; Parts or services
+N-MDMS-00006,ISO 14001,16;28;34,ACTIVE,IAF codes as listed in the SAAC register
+N-MDMS-00006,ISO 45001,16;28;34,ACTIVE,IAF codes as listed in the SAAC register
+N-MDMS-00006,ISO 9001,1;3;28-30;32-37,ACTIVE,IAF codes as listed in the SAAC register
+N-MDMS-00008,ISO 13485,18;29;31;34-35,ACTIVE,Classified to EA from IAF MD 8 main technical areas: Parts or services
+N-MDMS-00008,ISO 9001,4-6;14;23;29-30;32-33;35-38,ACTIVE,IAF codes as listed in the SAAC register
+N-OHS-00019,ISO 45001,3;30,ACTIVE,IAF codes as listed in the SAAC register
+N-OHS-00022,ISO 14001,29;32-33;35-37,ACTIVE,IAF codes as listed in the SAAC register
+N-OHS-00022,ISO 45001,29;32-33;35-37,ACTIVE,IAF codes as listed in the SAAC register
+N-OHS-00022,ISO 9001,29;32;35-36,ACTIVE,IAF codes as listed in the SAAC register
+N-OHS-00029,ISO 14001,29;32-33;35-37,ACTIVE,IAF codes as listed in the SAAC register
+N-OHS-00029,ISO 45001,29;32-33;35-37,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00001,ISO 9001,29;31-33;35-37;39,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00002,ISO 13485,13-14;17-18;29;31;34-35,ACTIVE,Classified to EA from IAF MD 8 main technical areas: Non-active medical devices; Sterilization methods; Parts or services
+N-QMS-00002,ISO 14001,3;12;14-17;28-30;32-37,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00002,ISO 45001,3;12;14-15;28-30;32-37,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00002,ISO 9001,1-10;12;14-17;23-37;39,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00003,ISO 14001,3;17-19;28-30;32-37,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00003,ISO 45001,3;17-19;28-30;32-37,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00003,ISO 9001,1-10;12;14-19;21;23;25-37;39,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00004,ISO 14001,3;30,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00004,ISO 9001,1;3;30,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00006,ISO 14001,7;12;28-29;34-36,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00006,ISO 45001,7;9;12;28-29;34-36,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00006,ISO 9001,6-7;9;12;14;17;28-29;32-37,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00008,ISO 9001,29;32-33;35-37,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00009,ISO 9001,3,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00010,ISO 9001,3;14;35,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00011,ISO 14001,3;14-17;24;30;34,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00011,ISO 45001,3;10;12;14-17;24;30;34,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00011,ISO 9001,3;10;12;14;16-17;24;29-37;39,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00012,ISO 14001,6;29;32-33;35-37,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00012,ISO 45001,4-6;23;29;32-33;35-37,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00012,ISO 9001,1;3;6;29-30;32-37,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00013,ISO 14001,3;29-31,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00013,ISO 45001,3;29-31,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00013,ISO 9001,3;29;31,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00014,ISO 9001,35,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00022,ISO 9001,38,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00025,ISO 14001,28-29;32-37,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00025,ISO 45001,28-29;32-37,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00025,ISO 9001,1;3;28-30;32-39,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00027,ISO 9001,37,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00041,ISO 13485,13-14;17-18;29;31;34-35,ACTIVE,Classified to EA from IAF MD 8 main technical areas: Non-active medical devices; Parts or services
+N-QMS-00041,ISO 9001,3;10;12;17-19;28-30;34-36,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00042,ISO 9001,35-37,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00044,ISO 14001,29;32-33;35-38,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00044,ISO 45001,29;32-33;35-38,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00044,ISO 9001,1;3;29-30;32-33;35-38,ACTIVE,IAF codes as listed in the SAAC register
+N-QMS-00064,ISO 9001,3-5;14;16-17;19;23;30,ACTIVE,IAF codes as listed in the SAAC register

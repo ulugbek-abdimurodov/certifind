@@ -1,0 +1,5 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+SOAC,CS20001,BUREAU NORME AUDIT (BNA),ISO/IEC 17021-1,ACTIVE,2025-01-09,2027-01-08,https://www.soac-waas.org
+SOAC,CS20001 (22000),BUREAU NORME AUDIT (BNA),ISO 22003-1,ACTIVE,2025-01-09,2027-01-08,https://www.soac-waas.org
+SOAC,CS26001,APAVE CÔTE D’IVOIRE,ISO/IEC 17021-1,ACTIVE,2026-05-29,2030-05-28,https://www.soac-waas.org
+SOAC,CS26001 (50003),APAVE CÔTE D’IVOIRE,ISO 50003,ACTIVE,2026-05-29,2030-05-28,https://www.soac-waas.org

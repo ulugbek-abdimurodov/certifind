@@ -1,0 +1,32 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+TAF,MS001,SGS Taiwan Limited,ISO/IEC 17021-1,ACTIVE,1999-09-30,2028-04-01,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS001&language=EN
+TAF,MS001 (22000),SGS Taiwan Limited,ISO 22003-1,ACTIVE,1999-09-30,2028-04-01,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS001&language=EN
+TAF,MS001 (27006),SGS Taiwan Limited,ISO/IEC 27006,ACTIVE,1999-09-30,2028-04-01,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS001&language=EN
+TAF,MS001 (50003),SGS Taiwan Limited,ISO 50003,ACTIVE,1999-09-30,2028-04-01,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS001&language=EN
+TAF,MS003,"Bureau Veritas Certification (Taiwan) Co., Ltd.",ISO/IEC 17021-1,ACTIVE,2001-04-30,2028-09-05,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS003&language=EN
+TAF,MS004,BSI Group Singapore Pte. Ltd. Taiwan Branch,ISO/IEC 17021-1,ACTIVE,2001-08-16,2028-09-28,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS004&language=EN
+TAF,MS004 (27006),BSI Group Singapore Pte. Ltd. Taiwan Branch,ISO/IEC 27006,ACTIVE,2001-08-16,2028-09-28,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS004&language=EN
+TAF,MS006,LRQA Group Limited Taiwan Branch,ISO/IEC 17021-1,ACTIVE,2002-05-17,2029-10-15,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS006&language=EN
+TAF,MS007,TÜV Rheinland Taiwan Ltd.,ISO/IEC 17021-1,ACTIVE,2003-05-27,2027-05-26,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS007&language=EN
+TAF,MS007 (50003),TÜV Rheinland Taiwan Ltd.,ISO 50003,ACTIVE,2003-05-27,2027-05-26,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS007&language=EN
+TAF,MS008,"Universal Certification Service Co., LTD.",ISO/IEC 17021-1,ACTIVE,2004-02-12,2028-07-28,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS008&language=EN
+TAF,MS008 (22000),"Universal Certification Service Co., LTD.",ISO 22003-1,ACTIVE,2004-02-12,2028-07-28,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS008&language=EN
+TAF,MS008 (50003),"Universal Certification Service Co., LTD.",ISO 50003,ACTIVE,2004-02-12,2028-07-28,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS008&language=EN
+TAF,MS010,United Registrar of Systems Taiwan Ltd.,ISO/IEC 17021-1,ACTIVE,2006-09-28,2027-09-27,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS010&language=EN
+TAF,MS011,DQS Taiwan Inc.,ISO/IEC 17021-1,ACTIVE,2006-01-24,2029-08-30,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS011&language=EN
+TAF,MS012,"AFNOR Asia, Ltd.",ISO/IEC 17021-1,ACTIVE,2006-01-24,2028-07-04,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS012&language=EN
+TAF,MS012 (22000),"AFNOR Asia, Ltd.",ISO 22003-1,ACTIVE,2006-01-24,2028-07-04,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS012&language=EN
+TAF,MS012 (27006),"AFNOR Asia, Ltd.",ISO/IEC 27006,ACTIVE,2006-01-24,2028-07-04,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS012&language=EN
+TAF,MS012 (50003),"AFNOR Asia, Ltd.",ISO 50003,ACTIVE,2006-01-24,2028-07-04,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS012&language=EN
+TAF,MS016,"DNV Business Assurance Co., Ltd.",ISO/IEC 17021-1,ACTIVE,2011-04-20,2027-12-27,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS016&language=EN
+TAF,MS016 (50003),"DNV Business Assurance Co., Ltd.",ISO 50003,ACTIVE,2011-04-20,2027-12-27,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS016&language=EN
+TAF,MS017,Ares International Certification Ltd,ISO/IEC 17021-1,ACTIVE,2012-12-26,2028-03-24,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS017&language=EN
+TAF,MS017 (27006),Ares International Certification Ltd,ISO/IEC 27006,ACTIVE,2012-12-26,2028-03-24,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS017&language=EN
+TAF,MS019,Metal Industries Research & Development Centre,ISO/IEC 17021-1,ACTIVE,2015-07-08,2027-07-07,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS019&language=EN
+TAF,MS020,Taiwan Testing and Certification Center,ISO/IEC 17021-1,ACTIVE,2015-09-25,2027-09-24,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS020&language=EN
+TAF,MS020 (27006),Taiwan Testing and Certification Center,ISO/IEC 27006,ACTIVE,2015-09-25,2027-09-24,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS020&language=EN
+TAF,MS023,"Master Quality Certification Service Co., Ltd.",ISO/IEC 17021-1,ACTIVE,2017-06-28,2029-06-27,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS023&language=EN
+TAF,MS025,Taiwan Electric Research & Testing Center,ISO/IEC 17021-1,ACTIVE,2017-06-28,2029-06-27,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS025&language=EN
+TAF,MS031,"TUV NORD Taiwan Co., Ltd.",ISO/IEC 17021-1,ACTIVE,2022-09-15,2027-12-27,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS031&language=EN
+TAF,MS031 (27006),"TUV NORD Taiwan Co., Ltd.",ISO/IEC 27006,ACTIVE,2022-09-15,2027-12-27,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS031&language=EN
+TAF,MS031 (50003),"TUV NORD Taiwan Co., Ltd.",ISO 50003,ACTIVE,2022-09-15,2027-12-27,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=MS031&language=EN

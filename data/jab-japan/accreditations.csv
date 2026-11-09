@@ -1,0 +1,50 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+JAB,CM018,"The Building Center of Japan, System Assessment And Registration Department",ISO/IEC 17021-1,ACTIVE,1997-06-30,2027-12-31,https://www.jab.or.jp/cms/uploads/CM018-en_d0237f2b85.pdf
+JAB,CM017,Japan L.P.Gas Instrument Inspection Association ISO Assessment Center,ISO/IEC 17021-1,ACTIVE,1997-02-19,2028-02-29,https://www.jab.or.jp/cms/uploads/CM017-en_e8e4304c84.pdf
+JAB,CM023,DFEII System Assessment Center,ISO/IEC 17021-1,ACTIVE,1997-12-03,2028-08-31,https://www.jab.or.jp/cms/uploads/CM023-en_c8c7c2be4f.pdf
+JAB,CM023 (9104),DFEII System Assessment Center,AS 9104-1,ACTIVE,1997-12-03,2028-08-31,https://www.jab.or.jp/cms/uploads/CM023-en_c8c7c2be4f.pdf
+JAB,CM027,Center for Better Living System Certification and Registration Center,ISO/IEC 17021-1,ACTIVE,1998-07-03,2030-07-31,https://www.jab.or.jp/cms/uploads/CM027-en_3247becfbd.pdf
+JAB,CM033,"Organization of International Standards Certification Co., Ltd.",ISO/IEC 17021-1,ACTIVE,2001-04-25,2029-04-30,https://www.jab.or.jp/cms/uploads/CM033-en_55985e7bbd.pdf
+JAB,CM042,"Bureau Veritas Japan Co., Ltd. Certification Division",ISO/IEC 17021-1,ACTIVE,2003-07-29,2027-07-31,https://www.jab.or.jp/cms/uploads/CM042-en_da3e9b36e1.pdf
+JAB,CM042 (9104),"Bureau Veritas Japan Co., Ltd. Certification Division",AS 9104-1,ACTIVE,2003-07-29,2027-07-31,https://www.jab.or.jp/cms/uploads/CM042-en_da3e9b36e1.pdf
+JAB,CM058,Japan Industrial Safety and Health Association Safety and Health Management System Audit and Certification Center,ISO/IEC 17021-1,ACTIVE,2020-07-06,2028-07-31,https://www.jab.or.jp/cms/uploads/CM058-en_81d22a2eb1.pdf
+JAB,CM005,NIPPON KAIJI KYOKAI,ISO/IEC 17021-1,ACTIVE,1994-12-07,2028-06-30,https://www.jab.or.jp/cms/uploads/CM005-en_9fb6b870ef.pdf
+JAB,CM020,"Japan Automobile Research Institute, Registration Body",ISO/IEC 17021-1,ACTIVE,1997-09-05,2028-06-30,https://www.jab.or.jp/cms/uploads/CM020-en_a2773338c6.pdf
+JAB,CM021,Japan Audit and Certification Organization for Environment & Quality,ISO/IEC 17021-1,ACTIVE,1997-10-29,2028-09-30,https://www.jab.or.jp/cms/uploads/CM021-en_503db15c1e.pdf
+JAB,CM021 (22000),Japan Audit and Certification Organization for Environment & Quality,ISO 22003-1,ACTIVE,1997-10-29,2028-09-30,https://www.jab.or.jp/cms/uploads/CM021-en_503db15c1e.pdf
+JAB,CM040,"Japan Value-Added Certification Co., Ltd.",ISO/IEC 17021-1,ACTIVE,2019-07-12,2031-01-31,https://www.jab.or.jp/cms/uploads/CM040-en_63797b99fd.pdf
+JAB,CM006,NIPPON KAIJI KENTEI QUALITY ASSURANCE Ltd.,ISO/IEC 17021-1,ACTIVE,1994-12-07,2027-02-28,https://www.jab.or.jp/cms/uploads/CM006-en_265f8679c3.pdf
+JAB,CM006 (22000),NIPPON KAIJI KENTEI QUALITY ASSURANCE Ltd.,ISO 22003-1,ACTIVE,1994-12-07,2027-02-28,https://www.jab.or.jp/cms/uploads/CM006-en_265f8679c3.pdf
+JAB,CM009,Japan Quality Assurance Organization,ISO/IEC 17021-1,ACTIVE,1995-03-14,2029-03-31,https://www.jab.or.jp/cms/uploads/CM009-en_dc0890109b.pdf
+JAB,CM009 (9104),Japan Quality Assurance Organization,AS 9104-1,ACTIVE,1995-03-14,2029-03-31,https://www.jab.or.jp/cms/uploads/CM009-en_dc0890109b.pdf
+JAB,CM009 (22000),Japan Quality Assurance Organization,ISO 22003-1,ACTIVE,1995-03-14,2029-03-31,https://www.jab.or.jp/cms/uploads/CM009-en_dc0890109b.pdf
+JAB,CM028,DQS Japan Inc.,ISO/IEC 17021-1,ACTIVE,1998-10-12,2030-10-31,https://www.jab.or.jp/cms/uploads/CM028-en_0dc33f8b29.pdf
+JAB,CM013,Japan Electrical Safety & Environment Technology Laboratories ISO Registration Center,ISO/IEC 17021-1,ACTIVE,1995-10-19,2027-02-28,https://www.jab.or.jp/cms/uploads/CM013-en_6cf1f7388b.pdf
+JAB,CM026,Japan Heating Appliances Inspection Association Management Systems Certification Center,ISO/IEC 17021-1,ACTIVE,1998-06-09,2030-06-30,https://www.jab.or.jp/cms/uploads/CM026-en_bb9fcfa0c2.pdf
+JAB,CM044,"Registration Body for IS, Inc.",ISO/IEC 17021-1,ACTIVE,2003-09-10,2027-09-30,https://www.jab.or.jp/cms/uploads/CM044-en_5d5aefa38a.pdf
+JAB,CM044 (27006),"Registration Body for IS, Inc.",ISO/IEC 27006,ACTIVE,2003-09-10,2027-09-30,https://www.jab.or.jp/cms/uploads/CM044-en_5d5aefa38a.pdf
+JAB,CM003,Japan Chemical Quality Assurance Ltd.,ISO/IEC 17021-1,ACTIVE,1994-07-18,2030-12-31,https://www.jab.or.jp/cms/uploads/CM003-en_a7f6d5e5e5.pdf
+JAB,CM004,Japan Gas Appliances Inspection Association,ISO/IEC 17021-1,ACTIVE,1994-09-09,2028-01-31,https://www.jab.or.jp/cms/uploads/CM004-en_1e380f9602.pdf
+JAB,CM004 (22000),Japan Gas Appliances Inspection Association,ISO 22003-1,ACTIVE,1994-09-09,2028-01-31,https://www.jab.or.jp/cms/uploads/CM004-en_1e380f9602.pdf
+JAB,CM012,SGS Japan Inc.,ISO/IEC 17021-1,ACTIVE,1995-07-13,2029-07-31,https://www.jab.or.jp/cms/uploads/CM012-en_eef7284129.pdf
+JAB,CM024,"Management System Assessment Center Co., Ltd.",ISO/IEC 17021-1,ACTIVE,1997-12-26,2028-12-31,https://www.jab.or.jp/cms/uploads/CM024-en_00c3cd0ed0.pdf
+JAB,CM007,The High Pressure Gas Safety Institute of Japan ISO Registration Center,ISO/IEC 17021-1,ACTIVE,1994-12-07,2027-12-31,https://www.jab.or.jp/cms/uploads/CM007-en_d59a1d3749.pdf
+JAB,CM007 (22000),The High Pressure Gas Safety Institute of Japan ISO Registration Center,ISO 22003-1,ACTIVE,1994-12-07,2027-12-31,https://www.jab.or.jp/cms/uploads/CM007-en_d59a1d3749.pdf
+JAB,CM014,Japan Management Association JMA QA Registration Center,ISO/IEC 17021-1,ACTIVE,1995-10-19,2028-05-31,https://www.jab.or.jp/cms/uploads/CM014-en_e257ac530a.pdf
+JAB,CM014 (22000),Japan Management Association JMA QA Registration Center,ISO 22003-1,ACTIVE,1995-10-19,2028-05-31,https://www.jab.or.jp/cms/uploads/CM014-en_e257ac530a.pdf
+JAB,CM008,Union of Japanese Scientists and Engineers ISO Center,ISO/IEC 17021-1,ACTIVE,1995-03-14,2028-07-31,https://www.jab.or.jp/cms/uploads/CM008-en_b1385de65a.pdf
+JAB,CM008 (22000),Union of Japanese Scientists and Engineers ISO Center,ISO 22003-1,ACTIVE,1995-03-14,2028-07-31,https://www.jab.or.jp/cms/uploads/CM008-en_b1385de65a.pdf
+JAB,CM029,Japan Power Engineering and Inspection Corporation Management System & Product Certification Center,ISO/IEC 17021-1,ACTIVE,1999-06-02,2030-06-30,https://www.jab.or.jp/cms/uploads/CM029-en_44a84df53e.pdf
+JAB,CM025,"Perry Johnson Registrars, Inc.",ISO/IEC 17021-1,ACTIVE,1998-03-11,2028-12-31,https://www.jab.or.jp/cms/uploads/CM025-en_9930756dcb.pdf
+JAB,CM034,"International System Audit Co., Ltd.",ISO/IEC 17021-1,ACTIVE,2001-07-31,2028-05-31,https://www.jab.or.jp/cms/uploads/CM034-en_c44ad6fd13.pdf
+JAB,CM038,"IMJ Certification Body of Registration Center Co.,Ltd.",ISO/IEC 17021-1,ACTIVE,2002-07-29,2030-07-31,https://www.jab.or.jp/cms/uploads/CM038-en_d6e8a96764.pdf
+JAB,CM047,"North Japan Certification Service Co.,Ltd.",ISO/IEC 17021-1,ACTIVE,2004-12-15,2028-12-31,https://www.jab.or.jp/cms/uploads/CM047-en_5427954f6b.pdf
+JAB,CM059,SOCOTEC Certification Japan,ISO/IEC 17021-1,ACTIVE,2021-11-16,2029-11-30,https://www.jab.or.jp/cms/uploads/CM059-en_16be56b113.pdf
+JAB,CM059 (27006),SOCOTEC Certification Japan,ISO/IEC 27006,ACTIVE,2021-11-16,2029-11-30,https://www.jab.or.jp/cms/uploads/CM059-en_16be56b113.pdf
+JAB,CM054,AUDIX Registrars Inc.,ISO/IEC 17021-1,ACTIVE,2007-08-22,2027-08-31,https://www.jab.or.jp/cms/uploads/CM054-en_3a791f67bd.pdf
+JAB,CM001,"JSA Solutions Co.,Ltd. Management Systems Enhancement Department",ISO/IEC 17021-1,ACTIVE,1994-07-08,2028-02-29,https://www.jab.or.jp/cms/uploads/CM001-en_e1b890203a.pdf
+JAB,CM001 (22000),"JSA Solutions Co.,Ltd. Management Systems Enhancement Department",ISO 22003-1,ACTIVE,1994-07-08,2028-02-29,https://www.jab.or.jp/cms/uploads/CM001-en_e1b890203a.pdf
+JAB,CM002,JIC Quality Assurance Ltd.,ISO/IEC 17021-1,ACTIVE,1994-07-08,2030-12-31,https://www.jab.or.jp/cms/uploads/CM002-en_7138e8a2cd.pdf
+JAB,CM002 (9104),JIC Quality Assurance Ltd.,AS 9104-1,ACTIVE,1994-07-08,2030-12-31,https://www.jab.or.jp/cms/uploads/CM002-en_7138e8a2cd.pdf
+JAB,CM002 (22000),JIC Quality Assurance Ltd.,ISO 22003-1,ACTIVE,1994-07-08,2030-12-31,https://www.jab.or.jp/cms/uploads/CM002-en_7138e8a2cd.pdf
+JAB,CM015,Japan Testing Center for Construction Materials Headquarters to ISO Certifications,ISO/IEC 17021-1,ACTIVE,1995-12-21,2030-10-31,https://www.jab.or.jp/cms/uploads/CM015-en_1d2beef111.pdf

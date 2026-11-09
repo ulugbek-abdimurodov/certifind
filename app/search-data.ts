@@ -138,7 +138,7 @@ export const scopeLinesByStandard = (scopes: AccreditationScope[]) => {
   return [...byStandard].map(([standard, group]) => ({
     standard,
     allSectors: coversAllSectors(group),
-    sectors: group.map(scopeDetail),
+    sectors: [...new Set(group.map(scopeDetail))],
   }));
 };
 

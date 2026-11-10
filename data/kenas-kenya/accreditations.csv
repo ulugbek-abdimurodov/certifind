@@ -1,0 +1,12 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+KENAS,KENAS/CB/001,Kenya Bureau of Standards Management System Certification Body,ISO/IEC 17021-1,ACTIVE,2024-03-17,2028-03-16,https://kenas.s3.amazonaws.com/cabs/all_cabs/11713-66392dd0-12db-4d2c-839c-adc76c7bbdc3.pdf
+KENAS,KENAS/CB/001 (27006),Kenya Bureau of Standards Management System Certification Body,ISO/IEC 27006,ACTIVE,2024-03-17,2028-03-16,https://kenas.s3.amazonaws.com/cabs/all_cabs/11713-66392dd0-12db-4d2c-839c-adc76c7bbdc3.pdf
+KENAS,KENAS/CB/03,Bureau Veritas Certification Kenya Limited,ISO/IEC 17021-1,ACTIVE,2024-02-17,2028-02-17,https://media.kenas.go.ke/cabs/cb/BUREAU-VERITAS-Schedule.pdf
+KENAS,KENAS/CB/02,SGS Kenya Limited,ISO/IEC 17021-1,ACTIVE,2022-12-03,2026-12-02,https://kenas.s3.amazonaws.com/cabs/cb/SGS-CB-schedule.pdf
+KENAS,KENAS/CB/02 (22000),SGS Kenya Limited,ISO 22003-1,ACTIVE,2022-12-03,2026-12-02,https://kenas.s3.amazonaws.com/cabs/cb/SGS-CB-schedule.pdf
+KENAS,KENAS/CB/028,Interdigicert Kenya Limited (Certi-Trust),ISO/IEC 17021-1,ACTIVE,2023-12-21,2027-12-20,https://media.kenas.go.ke/cabs/all_cabs/13740-INTERDIGICERT-KENYA-LIMITED-(CERT-TRUST)Juneschedule.pdf
+KENAS,KENAS/CB/028 (27006),Interdigicert Kenya Limited (Certi-Trust),ISO/IEC 27006,ACTIVE,2023-12-21,2027-12-20,https://media.kenas.go.ke/cabs/all_cabs/13740-INTERDIGICERT-KENYA-LIMITED-(CERT-TRUST)Juneschedule.pdf
+KENAS,KENAS/CB/028 (22301),Interdigicert Kenya Limited (Certi-Trust),ISO/IEC 17021-6,ACTIVE,2023-12-21,2027-12-20,https://media.kenas.go.ke/cabs/all_cabs/13740-INTERDIGICERT-KENYA-LIMITED-(CERT-TRUST)Juneschedule.pdf
+KENAS,KENAS/CB/038,Global Standards Certification Limited,ISO/IEC 17021-1,ACTIVE,2025-07-11,2029-07-10,https://media.kenas.go.ke/cabs/all_cabs/5002-GLOBAL-STANDARDS-CERTIFICATION-LIMITEDSeptemberschedule.pdf
+KENAS,KENAS/CB/038 (22000),Global Standards Certification Limited,ISO 22003-1,ACTIVE,2025-07-11,2029-07-10,https://media.kenas.go.ke/cabs/all_cabs/5002-GLOBAL-STANDARDS-CERTIFICATION-LIMITEDSeptemberschedule.pdf
+KENAS,KENAS/MsCB/37,Jenga Zetu Africa Limited,ISO/IEC 17021-1,ACTIVE,2025-09-05,2029-09-04,https://media.kenas.go.ke/cabs/all_cabs/8023-JENGA-ZETU-AFRICA-LIMITEDSeptemberschedule.pdf

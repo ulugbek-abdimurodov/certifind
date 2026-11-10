@@ -1,0 +1,4 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+MAURITAS,CB001,Mauritius Standards Bureau - Quality Assurance Unit,ISO/IEC 17021-1,ACTIVE,2026-05-25,2029-07-23,https://www.mauritas.org/files/CB001.pdf
+MAURITAS,CB001 (22000),Mauritius Standards Bureau - Quality Assurance Unit,ISO 22003-1,ACTIVE,2026-05-25,2029-07-23,https://www.mauritas.org/files/CB001.pdf
+MAURITAS,CB001 (27006),Mauritius Standards Bureau - Quality Assurance Unit,ISO/IEC 27006,ACTIVE,2026-05-25,2029-07-23,https://www.mauritas.org/files/CB001.pdf

@@ -1,0 +1,5 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+QMS0003,ISO 9001,1-10;12-19;23;28-37,ACTIVE,
+QMS0003,ISO 14001,2-3;12-17;27-28;30;34,ACTIVE,EAS certificate EMS0001
+QMS0003,ISO 45001,2-3;14;17;28;30;34,ACTIVE,EAS certificate OHSMS0001
+FSMS0001 (22000),ISO 22000,1;3;7;14-15;17,ACTIVE,"Classified to EA from ISO 22003-1 categories B, C, I"

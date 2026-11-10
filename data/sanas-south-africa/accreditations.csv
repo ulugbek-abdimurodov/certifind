@@ -1,0 +1,45 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+SANAS,C47,i-Cert (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2006-07-01,2029-11-29,https://www.sanas.co.za/Certificate%20Published/C47-07-2026.pdf
+SANAS,C02a,SGS South Africa (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,1998-05-01,2028-04-30,https://www.sanas.co.za/Certificate%20Published/C02a-06-2025.pdf
+SANAS,C09,TUV Rheinland Inspection Services (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2001-06-01,2028-11-19,https://www.sanas.co.za/Certificate%20Published/C09-11-2024.pdf
+SANAS,C14,Alpha Certification Services CC,ISO/IEC 17021-1,ACTIVE,2002-06-01,2029-06-11,https://www.sanas.co.za/Certificate%20Published/C14-06-2024.pdf
+SANAS,C34b,Southern African Institute of Welding NPC,ISO/IEC 17021-1,ACTIVE,2018-10-05,2028-06-30,https://www.sanas.co.za/Certificate%20Published/C34b-10-2026.pdf
+SANAS,C22,Environmental Quality Certification Services Africa (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2003-03-06,2029-08-21,https://www.sanas.co.za/Certificate%20Published/C22-07-2026.pdf
+SANAS,C01a,SABS Commercial SOC Ltd.,ISO/IEC 17021-1,ACTIVE,1999-01-21,2028-10-20,https://www.sanas.co.za/Certificate%20Published/C01a-03-2026.pdf
+SANAS,C01a (22000),SABS Commercial SOC Ltd.,ISO 22003-1,ACTIVE,2007-08-01,2028-10-20,https://www.sanas.co.za/Certificate%20Published/C01c-03-2026.pdf
+SANAS,C01a (50003),SABS Commercial SOC Ltd.,ISO 50003,ACTIVE,2014-10-21,2028-10-20,https://www.sanas.co.za/Certificate%20Published/C01e-03-2026.pdf
+SANAS,C01a (27006),SABS Commercial SOC Ltd.,ISO/IEC 27006,ACTIVE,2019-11-04,2028-10-20,https://www.sanas.co.za/Certificate%20Published/C01g-03-2026.pdf
+SANAS,C59a,South African Certification and Auditing Services (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2011-11-02,2028-11-01,https://www.sanas.co.za/Certificate%20Published/C59a-01-2025.pdf
+SANAS,C59a (22000),South African Certification and Auditing Services (Pty) Ltd,ISO 22003-1,ACTIVE,2012-10-08,2028-11-01,https://www.sanas.co.za/Certificate%20Published/C59d-01-2025.pdf
+SANAS,C59a (27006),South African Certification and Auditing Services (Pty) Ltd,ISO/IEC 27006,ACTIVE,2022-03-15,2028-11-01,https://www.sanas.co.za/Certificate%20Published/C59g-04-2026.pdf
+SANAS,C69a,Sheq National Cert International (PTY) LTD,ISO/IEC 17021-1,ACTIVE,2014-12-02,2028-12-01,https://www.sanas.co.za/Certificate%20Published/C69a-11-2025.pdf
+SANAS,C78b,African Certification and Testing (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2018-09-13,2028-06-08,https://www.sanas.co.za/Certificate%20Published/C78b-08-2025.pdf
+SANAS,C85a,Uganda National Bureau of Standards,ISO/IEC 17021-1,ACTIVE,2019-02-11,2030-02-10,https://www.sanas.co.za/Certificate%20Published/C85a-02-2025.pdf
+SANAS,C85a (22000),Uganda National Bureau of Standards,ISO 22003-1,ACTIVE,2019-02-11,2030-02-10,https://www.sanas.co.za/Certificate%20Published/C85b-02-2025.pdf
+SANAS,C76b,Judah Compliance Auditors CC,ISO/IEC 17021-1,ACTIVE,2019-08-22,2027-08-21,https://www.sanas.co.za/Certificate%20Published/C76b-08-2026.pdf
+SANAS,C76b (22000),Judah Compliance Auditors CC,ISO 22003-1,ACTIVE,2021-05-13,2027-08-21,https://www.sanas.co.za/Certificate%20Published/C76e-08-2026.pdf
+SANAS,C76b (27006),Judah Compliance Auditors CC,ISO/IEC 27006,ACTIVE,2026-02-18,2027-09-29,https://www.sanas.co.za/Certificate%20Published/C76h-08-2026.pdf
+SANAS,C89b,BSI Group South Africa (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2019-08-26,2027-08-25,https://www.sanas.co.za/Certificate%20Published/C89b-08-2026.pdf
+SANAS,C89b (27006),BSI Group South Africa (Pty) Ltd,ISO/IEC 27006,ACTIVE,2019-08-26,2027-08-25,https://www.sanas.co.za/Certificate%20Published/C89f-11-2025.pdf
+SANAS,C88a,Isoqar Africa (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2019-08-26,2027-07-25,https://www.sanas.co.za/Certificate%20Published/C88a-01-2026.pdf
+SANAS,C95a,AfriCert (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2020-02-24,2028-02-23,https://www.sanas.co.za/Certificate%20Published/C95a-10-2026.pdf
+SANAS,C95a (27006),AfriCert (Pty) Ltd,ISO/IEC 27006,ACTIVE,2020-11-02,2028-02-23,https://www.sanas.co.za/Certificate%20Published/C95d-10-2026.pdf
+SANAS,C98a,South African Compliance and Certification (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2020-05-22,2028-05-21,https://www.sanas.co.za/Certificate%20Published/C98a-08-2024.pdf
+SANAS,C99a,Sancert (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2021-02-05,2029-02-04,https://www.sanas.co.za/Certificate%20Published/C99a-11-2024.pdf
+SANAS,C99a (27006),Sancert (Pty) Ltd,ISO/IEC 27006,ACTIVE,2022-03-04,2029-03-03,https://www.sanas.co.za/Certificate%20Published/C99e-02-2026.pdf
+SANAS,C100a,Industry Compliance and Certification Authority of South Africa (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2021-02-04,2029-02-04,https://www.sanas.co.za/Certificate%20Published/C100a-03-2025.pdf
+SANAS,C101,Certification and Training Services for Africa (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2021-04-20,2029-04-19,https://www.sanas.co.za/Certificate%20Published/C101-04-2026.pdf
+SANAS,C110,NST Total Compliance (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2022-01-28,2030-01-27,https://www.sanas.co.za/Certificate%20Published/C110-01-2025.pdf
+SANAS,C110 (27006),NST Total Compliance (Pty) Ltd,ISO/IEC 27006,ACTIVE,2022-01-26,2030-01-27,https://www.sanas.co.za/Certificate%20Published/C110d-08-2025.pdf
+SANAS,C107a,Wynleigh International Certification Services (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2022-02-09,2030-02-08,https://www.sanas.co.za/Certificate%20Published/C107a-03-2025.pdf
+SANAS,C107a (27006),Wynleigh International Certification Services (Pty) Ltd,ISO/IEC 27006,ACTIVE,2025-03-11,2030-02-08,https://www.sanas.co.za/Certificate%20Published/C107d-03-2025.pdf
+SANAS,C111,Southern Africa Conformity Assessment Authority (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2022-03-08,2030-03-07,https://www.sanas.co.za/Certificate%20Published/C111-05-2026.pdf
+SANAS,C117a,CertX SA (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2022-03-04,2030-03-03,https://www.sanas.co.za/Certificate%20Published/C117a-03-2025.pdf
+SANAS,C75b,CMA Certification Services (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2022-05-12,2028-08-10,https://www.sanas.co.za/Certificate%20Published/C75b-06-2025.pdf
+SANAS,C109,Institute of Bio Research Auditing and Training in Southern Africa (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2022-09-06,2027-09-05,https://www.sanas.co.za/Certificate%20Published/C109-04-2026.pdf
+SANAS,C97c,DQS (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2023-04-20,2029-04-02,https://www.sanas.co.za/Certificate%20Published/C97c-01-2026.pdf
+SANAS,C120a,MI Cert Africa (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2023-05-08,2028-05-07,https://www.sanas.co.za/Certificate%20Published/C120a-07-2025.pdf
+SANAS,C121,UbiCerts (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2024-04-05,2029-04-04,https://www.sanas.co.za/Certificate%20Published/C121-07-2026.pdf
+SANAS,C129a,ISO Global Certification (Pty) Ltd,ISO/IEC 17021-1,ACTIVE,2024-04-05,2029-04-04,https://www.sanas.co.za/Certificate%20Published/C129a-08-2026.pdf
+SANAS,C92b,Certification Partner Global FZ LLC,ISO/IEC 17021-1,ACTIVE,2024-12-13,2027-06-04,https://www.sanas.co.za/Certificate%20Published/C92b-12-2024.pdf
+SANAS,C135a,ESSH,ISO/IEC 17021-1,ACTIVE,2026-07-24,2031-07-23,https://www.sanas.co.za/Certificate%20Published/C135a-07-2026.pdf

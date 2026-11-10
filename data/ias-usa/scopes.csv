@@ -1,0 +1,716 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+MSCB-101,ISO 13485,12-13;18-19;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.4, A1.7 classified to EA"
+MSCB-101,ISO 14001,17-19;22-24;26-31;33-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-101,ISO 45001,3-4;6;9;12;14;16-19;22-23;28-31;33-39,ACTIVE,IAF codes from the IAS scope
+MSCB-101,ISO 9001,4;6;13-14;17-20;22-23;28-31;33-38,ACTIVE,IAF codes from the IAS scope
+MSCB-101 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-101 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-102,ISO 13485,13-14;17-18;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.1, A1.7 classified to EA"
+MSCB-102,ISO 14001,14;17;19;22;28,ACTIVE,IAF codes from the IAS scope
+MSCB-102,ISO 45001,19,ACTIVE,IAF codes from the IAS scope
+MSCB-102,ISO 9001,4;6-7;9-10;12;14;17-19;22-24;28-29;31;34-35;37,ACTIVE,IAF codes from the IAS scope
+MSCB-103,ISO 13485,12-14;17;19,ACTIVE,"IAF MD 8 tables A1.1, A1.2, A1.3, A1.4 classified to EA"
+MSCB-103,ISO 14001,1;3-4;6;8-9;12;14-19;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-103,ISO 9001,1;3-4;6;8-9;12;14-19;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-103 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, H, I, J, K classified to EA"
+MSCB-103 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-103 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-104,ISO 14001,3-5;10;12-15;17-19;22;28-29;31;33-35;38-39,ACTIVE,IAF codes from the IAS scope
+MSCB-104,ISO 29993,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-104,ISO 45001,3-5;7;9-10;12-19;22;28-31;33-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-104,ISO 9001,3-5;7;9-10;12-19;22-23;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-104 (22000),ISO 22000,3;7;14-15;17;30,ACTIVE,"ISO 22003-1 categories C, E, I classified to EA"
+MSCB-104 (22301),ISO 22301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-104 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-107,ISO 14001,1;3-5;7;12-14;17-19;22-24;28-31;33-39,ACTIVE,IAF codes from the IAS scope
+MSCB-107,ISO 21001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-107,ISO 37301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-107,ISO 45001,17-18;22;28-29;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-107,ISO 9001,1;3-5;7;12-14;17-19;22-24;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-107 (22000),ISO 22000,1;3;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G classified to EA"
+MSCB-107 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-107 (37001),ISO 37001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-107 (42001),ISO/IEC 42001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-107 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-109,ISO 13485,13-14;17;19,ACTIVE,"IAF MD 8 tables A1.1, A1.2 classified to EA"
+MSCB-109,ISO 14001,1-10;12-19;22-39,ACTIVE,IAF codes from the IAS scope
+MSCB-109,ISO 45001,3;7-8;10;12-18;23;25-31;33-37,ACTIVE,IAF codes from the IAS scope
+MSCB-109,ISO 9001,1-10;12-19;22-39,ACTIVE,IAF codes from the IAS scope
+MSCB-109 (22000),ISO 22000,3;7;12-15;17;29;31;35,ACTIVE,"ISO 22003-1 categories C, D, F, G, H, I, K classified to EA"
+MSCB-109 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-110,ISO 9001,16,ACTIVE,IAF codes from the IAS scope
+MSCB-111,ISO 13485,12-14;17;19;35,ACTIVE,"IAF MD 8 tables A1.1, A1.2, A1.4, A1.5 classified to EA"
+MSCB-111,ISO 14001,7;10;12-17;24;28;30-31;33-35;37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-111,ISO 9001,2-7;9-10;12-20;22-23;25-39,ACTIVE,IAF codes from the IAS scope
+MSCB-111 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-111 (20121),ISO 20121,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-111 (22301),ISO 22301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-111 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-111 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-111 (37001),ISO 37001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-111 (42001),ISO/IEC 42001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-113,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.1, A1.2, A1.3, A1.7 classified to EA"
+MSCB-113,ISO 14001,3-9;12;14-20;22-24;28-31;33-35;37-39,ACTIVE,IAF codes from the IAS scope
+MSCB-113,ISO 45001,3-4;6-8;12;14;16-20;22-23;28-31;33-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-113,ISO 9001,1;3-9;12;14-20;22-24;28-31;33-35;37-39,ACTIVE,IAF codes from the IAS scope
+MSCB-113 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-113 (22000),ISO 22000,3;7;14-15;17;29-31,ACTIVE,"ISO 22003-1 categories C, E, F, G, I classified to EA"
+MSCB-113 (22301),ISO 22301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-113 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-113 (37001),ISO 37001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-114,ISO 14001,1-10;12-19;22-25;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-114,ISO 45001,1-10;12-19;22-25;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-114,ISO 9001,1-10;12-19;22-25;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-114 (22000),ISO 22000,3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, H, I, J, K classified to EA"
+MSCB-114 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-114 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-123,ISO 14001,14;17-19;22-23,ACTIVE,IAF codes from the IAS scope
+MSCB-123,ISO 9001,12;14;17-19;22-23;28;31;35,ACTIVE,IAF codes from the IAS scope
+MSCB-127,ISO 14001,2;4-6;8-10;12-20;22-39,ACTIVE,IAF codes from the IAS scope
+MSCB-127,ISO 45001,2;4-10;12-20;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-127,ISO 9001,1-10;12-20;22-25;27-39,ACTIVE,IAF codes from the IAS scope
+MSCB-127 (22000),ISO 22000,3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, H, I, J, K classified to EA"
+MSCB-127 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-129,ISO 14001,3-4;6-9;12-19;22-24;28-35;37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-129,ISO 45001,1-4;6-10;12-19;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-129,ISO 9001,1;3-10;12-19;22-23;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-131,ISO 14001,3-4;6-9;12-19;22-24;28-38,ACTIVE,IAF codes from the IAS scope
+MSCB-131,ISO 21001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-131,ISO 41001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-131,ISO 45001,3-10;12-19;22-24;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-131,ISO 9001,3-10;12-19;22-24;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-131 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-131 (22000),ISO 22000,3;12-13;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, K classified to EA"
+MSCB-131 (22301),ISO 22301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-131 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-131 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-131 (37001),ISO 37001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-135,ISO 13485,13-14;17;19,ACTIVE,"IAF MD 8 tables A1.1, A1.2 classified to EA"
+MSCB-135,ISO 14001,3-4;6;8;12;14-19;22-24;28-35;37-39,ACTIVE,IAF codes from the IAS scope
+MSCB-135,ISO 45001,1;3;15;17-19;22;24;28-32;34-36;39,ACTIVE,IAF codes from the IAS scope
+MSCB-135,ISO 9001,1;3-8;12;14-19;23-24;28-32;34-36;38-39,ACTIVE,IAF codes from the IAS scope
+MSCB-135 (22000),FSSC 22000,3;7;12-15;17,ACTIVE,"ISO 22003-1 categories C, I, K classified to EA"
+MSCB-135 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, H, I, J, K classified to EA"
+MSCB-135 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-139,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.1, A1.2, A1.3, A1.4, A1.5, A1.6, A1.7 classified to EA"
+MSCB-139,ISO 14001,1;3;6-9;12;14-19;22-23;25-28;30-34;37,ACTIVE,IAF codes from the IAS scope
+MSCB-139,ISO 45001,3;12;17-18;24;28-30;32-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-139,ISO 9001,1;3-10;12;14;17-19;23-36;39,ACTIVE,IAF codes from the IAS scope
+MSCB-139 (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, E, F, G classified to EA"
+MSCB-139 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-139 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-142,ISO 14001,3;5-9;12;14-19;22-23;27-37,ACTIVE,IAF codes from the IAS scope
+MSCB-142,ISO 9001,1;3-10;12;14-20;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-142 (37001),ISO 37001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-148,ISO 14001,3-4;6;8;12;14-19;22-24;28-37,ACTIVE,IAF codes from the IAS scope
+MSCB-148,ISO 45001,3-4;6-8;12;14-15;17-19;22-23;28-37,ACTIVE,IAF codes from the IAS scope
+MSCB-148,ISO 9001,1;3-8;10;12;14;16-20;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-148 (22000),FSSC 22000,3;7;14-15;17,ACTIVE,"ISO 22003-1 categories C, I classified to EA"
+MSCB-148 (22000),ISO 22000,3;7;14-15;17;29-30,ACTIVE,"ISO 22003-1 categories C, D, E, F, I classified to EA"
+MSCB-148 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-150,ISO 14001,1-10;12-20;22-24;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-150,ISO 21001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-150,ISO 45001,1-10;12-20;22-24;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-150,ISO 9001,1-10;12-20;22-24;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-150 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-150 (22000),ISO 22000,3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, H, I, J, K classified to EA"
+MSCB-150 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-150 (37001),ISO 37001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-151,ISO 14001,28,ACTIVE,IAF codes from the IAS scope
+MSCB-151,ISO 45001,28,ACTIVE,IAF codes from the IAS scope
+MSCB-151,ISO 9001,28,ACTIVE,IAF codes from the IAS scope
+MSCB-152,ISO 9001,28;34-35,ACTIVE,IAF codes from the IAS scope
+MSCB-153,ISO 14001,3-4;7;9;12;14;17-19;23;28-38,ACTIVE,IAF codes from the IAS scope
+MSCB-153,ISO 21001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-153,ISO 45001,3-4;7;9;12;14;17-19;23;28-38,ACTIVE,IAF codes from the IAS scope
+MSCB-153,ISO 9001,3-4;6-7;9;12;14;17-19;23;25-26;28-38,ACTIVE,IAF codes from the IAS scope
+MSCB-153 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-153 (22000),FSSC 22000,3;7;14-15;17;30-31,ACTIVE,"ISO 22003-1 categories C, E, G, I classified to EA"
+MSCB-153 (22000),ISO 22000,3;7;14-15;17;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, I classified to EA"
+MSCB-153 (22301),ISO 22301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-153 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-153 (37001),ISO 37001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-154,ISO 14001,12;14-17;28-29;32-38,ACTIVE,IAF codes from the IAS scope
+MSCB-154,ISO 45001,12;14-15;28-29;32-38,ACTIVE,IAF codes from the IAS scope
+MSCB-154,ISO 9001,1;3-7;10;12;14;17-20;22-23;28-30;32-38,ACTIVE,IAF codes from the IAS scope
+MSCB-154 (22301),ISO 22301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-154 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-154 (37001),ISO 37001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-156,ISO 13485,12-14;17;19;35,ACTIVE,"IAF MD 8 tables A1.1, A1.2, A1.3, A1.4, A1.5 classified to EA"
+MSCB-156 (22000),ISO 22000,3,ACTIVE,ISO 22003-1 categories C classified to EA
+MSCB-158,ISO 14001,10;12;28-30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-158,ISO 45001,10;12;28-30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-158,ISO 9001,1;3-4;10;12;28;30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-158 (22000),ISO 22000,3;30,ACTIVE,"ISO 22003-1 categories C, D, E classified to EA"
+MSCB-160,ISO 14001,17-18;28;32;34-35,ACTIVE,IAF codes from the IAS scope
+MSCB-160,ISO 45001,17-18;28;32;34-35,ACTIVE,IAF codes from the IAS scope
+MSCB-160,ISO 9001,17-19;28-29;32-35,ACTIVE,IAF codes from the IAS scope
+MSCB-160 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-161,ISO 14001,1;3-8;13-14;17-20;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-161,ISO 45001,1;3-8;13-14;17-20;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-161,ISO 9001,1;3-8;13-14;17-20;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-161 (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G classified to EA"
+MSCB-161 (22301),ISO 22301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-161 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-165,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.1, A1.2, A1.4, A1.5, A1.7 classified to EA"
+MSCB-165,ISO 14001,12-19;28-29;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-165,ISO 45001,12-15;18-19;22-23;28-29;32-34;37,ACTIVE,IAF codes from the IAS scope
+MSCB-165,ISO 9001,1-8;10;12;14-19;23;25;27-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-165 (22000),ISO 22000,3;7;12-15;17-18;35,ACTIVE,"ISO 22003-1 categories C, D, H, I, J, K classified to EA"
+MSCB-165 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-166,ISO 14001,3;8-9;12;14;17-19;22;24;28;30-31;34;37-39,ACTIVE,IAF codes from the IAS scope
+MSCB-166,ISO 45001,3;7-10;12;14;17-19;22;24;28;30-31;34;37-39,ACTIVE,IAF codes from the IAS scope
+MSCB-166,ISO 9001,1;3-4;6-10;12;14;17-19;22-24;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-166 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-166 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-166 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-168,ISO 14001,14-15;17-18,ACTIVE,IAF codes from the IAS scope
+MSCB-168,ISO 9001,4-6;12;14-15;17-19;23;33;35,ACTIVE,IAF codes from the IAS scope
+MSCB-169,ISO 14001,12;14-17;19;24;27;31,ACTIVE,IAF codes from the IAS scope
+MSCB-169,ISO 45001,3;12;14-15;17-19;24;30-31;33-34;39,ACTIVE,IAF codes from the IAS scope
+MSCB-169,ISO 9001,4-10;12;14;17-20;22-24;29;31-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-169 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-171,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.1, A1.2, A1.4, A1.5, A1.7 classified to EA"
+MSCB-171,ISO 14001,1;3-4;6-7;12;14-15;17-19;23-29;31-39,ACTIVE,IAF codes from the IAS scope
+MSCB-171,ISO 45001,1;3-4;6-7;12;14-15;17-19;23-29;31-39,ACTIVE,IAF codes from the IAS scope
+MSCB-171,ISO 9001,1;3-4;6-7;9;12;14-19;23-25;27-35;38-39,ACTIVE,IAF codes from the IAS scope
+MSCB-171 (22000),ISO 22000,1;3;7;12-15;17;30,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, I, K classified to EA"
+MSCB-171 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-171 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-171 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-173,ISO 13485,13-14;17-18;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.1, A1.7 classified to EA"
+MSCB-173,ISO 14001,1;3-4;6-7;9;12-19;23-24;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-173,ISO 45001,1;3-4;6-7;9;12-19;23-24;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-173,ISO 9001,1;3-4;6-7;9;12-19;23-24;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-173 (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, E, F, G classified to EA"
+MSCB-173 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-184,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.1, A1.2, A1.4, A1.5, A1.7 classified to EA"
+MSCB-184,ISO 9001,13;19;23;29;31;33,ACTIVE,IAF codes from the IAS scope
+MSCB-185,ISO 14001,7;9;14;17-19;23;29;35,ACTIVE,IAF codes from the IAS scope
+MSCB-185,ISO 45001,7;9;14;17-19;23;29;35,ACTIVE,IAF codes from the IAS scope
+MSCB-185,ISO 9001,4-7;9;14;17-19;23;29;33;35,ACTIVE,IAF codes from the IAS scope
+MSCB-186,ISO 14001,3-6;12;14-19;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-186,ISO 9001,1;3-7;10;12;14;17-19;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-186 (22000),ISO 22000,3;29;31,ACTIVE,"ISO 22003-1 categories C, D, F, G classified to EA"
+MSCB-187,ISO 14001,14;17-19;28-29;34-35,ACTIVE,IAF codes from the IAS scope
+MSCB-187,ISO 45001,14;16-19;28-29;34,ACTIVE,IAF codes from the IAS scope
+MSCB-187,ISO 9001,4;12;14-20;22;28-29;31-32;34-35;37,ACTIVE,IAF codes from the IAS scope
+MSCB-188,ISO 37301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-189,ISO 9001,17,ACTIVE,IAF codes from the IAS scope
+MSCB-191,ISO 14001,10;12;15-18;28-30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-191,ISO 45001,10;12;15-18;28-30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-191,ISO 9001,2;10;12;15-18;28-30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-191 (22000),ISO 22000,30,ACTIVE,ISO 22003-1 categories E classified to EA
+MSCB-193,ISO 14001,3;5-6;12;14;17-19;23-24;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-193,ISO 37301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-193,ISO 45001,3;5-6;12;14;17-19;23-24;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-193,ISO 9001,3-6;12;14;17-19;23-24;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-193 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-193 (20121),ISO 20121,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-193 (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G classified to EA"
+MSCB-193 (22301),ISO 22301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-193 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-193 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-193 (37001),ISO 37001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-193 (39001),ISO 39001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-193 (42001),ISO/IEC 42001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-193 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-194,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.1, A1.4, A1.7 classified to EA"
+MSCB-194,ISO 14001,18-19;24;31,ACTIVE,IAF codes from the IAS scope
+MSCB-194,ISO 45001,17-18;24;31,ACTIVE,IAF codes from the IAS scope
+MSCB-194,ISO 9001,7-10;12-15;17-19;22-24;31;33;35,ACTIVE,IAF codes from the IAS scope
+MSCB-194 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-195,ISO 14001,24,ACTIVE,IAF codes from the IAS scope
+MSCB-195,ISO 45001,24,ACTIVE,IAF codes from the IAS scope
+MSCB-195,ISO 9001,4;7-10;12;14;17-19;23-24;29;31-33;35,ACTIVE,IAF codes from the IAS scope
+MSCB-198,ISO 9001,5-6;17-19;23;26;28-29;34-35;38-39,ACTIVE,IAF codes from the IAS scope
+MSCB-198 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-199,ISO 14001,7-9;17-22;28-29;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-199,ISO 45001,7-10;12-20;22;28-29;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-199,ISO 9001,7-10;12;17-20;22;28-29;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-200,ISO 13485,18;29;31;34-35,ACTIVE,IAF MD 8 tables A1.7 classified to EA
+MSCB-200,ISO 14001,17;19;23;29,ACTIVE,IAF codes from the IAS scope
+MSCB-200,ISO 9001,14;17-19;22-23;29;31;35,ACTIVE,IAF codes from the IAS scope
+MSCB-204,ISO 14001,1;3-4;6-9;12;14-19;22;24;28-30;32-38,ACTIVE,IAF codes from the IAS scope
+MSCB-204,ISO 45001,1;3-9;12;14-19;22-24;28-30;32-38,ACTIVE,IAF codes from the IAS scope
+MSCB-204,ISO 9001,1;3-10;12;14-20;22-24;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-207,ISO 9001,1;3;7;9-10;12;14;17-19;29-31;35,ACTIVE,IAF codes from the IAS scope
+MSCB-208,ISO 14001,3;7-9;12;14-19;24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-208,ISO 45001,4;7-9;12;14-15;17-19;23;28-29;31-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-208,ISO 9001,1-10;12;14-19;23-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-208 (22000),ISO 22000,3,ACTIVE,ISO 22003-1 categories C classified to EA
+MSCB-208 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-209,ISO 14001,3;6;12;14-19;22-23;28-37,ACTIVE,IAF codes from the IAS scope
+MSCB-209,ISO 45001,17-19;22;28-29;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-209,ISO 9001,1-7;10;12;14-19;23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-210,ISO 14001,3;7-9;12;14-19;22;28;30,ACTIVE,IAF codes from the IAS scope
+MSCB-210,ISO 45001,3;7-10;12-18;28;30;34,ACTIVE,IAF codes from the IAS scope
+MSCB-210,ISO 9001,1;3-10;12;14;17-19;23;28-30;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-212,ISO 41001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-212 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-212 (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, E, F, G classified to EA"
+MSCB-212 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-212 (37001),ISO 37001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-212 (55001),ISO 55001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-214,ISO 9001,17-19;22;29,ACTIVE,IAF codes from the IAS scope
+MSCB-215,ISO 14001,3;6;14-19;22-24;28-37,ACTIVE,IAF codes from the IAS scope
+MSCB-215,ISO 45001,3;14;17-19;22-24;28-30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-215,ISO 9001,1;3-6;14;17-19;23-24;28-32;34-36;39,ACTIVE,IAF codes from the IAS scope
+MSCB-215 (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G classified to EA"
+MSCB-218,ISO 9001,29;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-218 (22301),ISO 22301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-218 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-218 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-218 (42001),ISO/IEC 42001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-219,ISO 14001,17-22;28;32-34;37,ACTIVE,IAF codes from the IAS scope
+MSCB-219,ISO 45001,17-20;22;28;32-34;37,ACTIVE,IAF codes from the IAS scope
+MSCB-219,ISO 9001,17-20;22;28-29;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-222,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.1, A1.2, A1.4, A1.7 classified to EA"
+MSCB-222,ISO 14001,3-6;12;14-19;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-222,ISO 45001,3;7;10;12-19;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-222,ISO 9001,1;3-7;12;14;16-20;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-222 (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, E, F, G classified to EA"
+MSCB-224,ISO 14001,3;14-22;24;28-35;37-39,ACTIVE,IAF codes from the IAS scope
+MSCB-224,ISO 45001,3;14-20;22;24;28-35;37-39,ACTIVE,IAF codes from the IAS scope
+MSCB-224,ISO 9001,3-6;14;16-20;22-24;28-35;37-39,ACTIVE,IAF codes from the IAS scope
+MSCB-224 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-224 (37001),ISO 37001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-226,ISO 13485,18;29;31;34-35,ACTIVE,IAF MD 8 tables A1.7 classified to EA
+MSCB-226,ISO 14001,3-9;18-19;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-226,ISO 45001,3-5;7-9;18-19;22-23;28-35;37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-226,ISO 9001,3-9;14;17-19;23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-226 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-226 (22301),ISO 22301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-226 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-226 (42001),ISO/IEC 42001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-227,ISO 14001,12;14-19;22,ACTIVE,IAF codes from the IAS scope
+MSCB-227,ISO 9001,4-7;10;12;14;17-20;22-23,ACTIVE,IAF codes from the IAS scope
+MSCB-230,ISO 14001,3-4;6;12;14-20;22-24;28-36;39,ACTIVE,IAF codes from the IAS scope
+MSCB-230,ISO 9001,1;3-7;10;12;14-20;22-24;28-36;39,ACTIVE,IAF codes from the IAS scope
+MSCB-230 (22000),ISO 22000,3;7;12-15;17;29-30,ACTIVE,"ISO 22003-1 categories C, E, F, I, K classified to EA"
+MSCB-230 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-230 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-235,ISO 14001,4-9;12;14;16-20;22-24;29;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-235,ISO 45001,4-9;12;14-20;22-24;29;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-235,ISO 9001,4-10;12;14;16-20;22-24;29;31-33;35-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-238,ISO 37301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-238,ISO 9001,7-9;28-29;31-37,ACTIVE,IAF codes from the IAS scope
+MSCB-238 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-240,ISO 14001,1-10;12-39,ACTIVE,IAF codes from the IAS scope
+MSCB-240,ISO 45001,1-10;12-39,ACTIVE,IAF codes from the IAS scope
+MSCB-240,ISO 9001,1-10;12-39,ACTIVE,IAF codes from the IAS scope
+MSCB-240 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, H, I, J, K classified to EA"
+MSCB-240 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-240 (37001),ISO 37001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-240 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-241,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.1, A1.2, A1.4, A1.7 classified to EA"
+MSCB-241,ISO 14001,4-9;12-19;22-29;31-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-241,ISO 45001,4-9;12-19;22-29;31-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-241,ISO 9001,4-9;12-19;22-24;28-29;31-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-248,ISO 14001,1;3-9;14-24;28-29;32-33;35-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-248,ISO 45001,1;3-7;9;14-24;28-29;31-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-248,ISO 9001,1-9;14-20;22-24;28-30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-250,ISO 14001,3-4;7-9;12;14-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-250,ISO 45001,3-10;12-20;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-250,ISO 9001,1-4;7-10;12;14-20;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-250 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-250 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-250 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-251,ISO 14001,12-19;28-29;32-38,ACTIVE,IAF codes from the IAS scope
+MSCB-251,ISO 37301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-251,ISO 45001,3;12-15;17-19;28-30;32-38,ACTIVE,IAF codes from the IAS scope
+MSCB-251,ISO 9001,4-5;7;10;12;14;18-19;23;28-29;32-38,ACTIVE,IAF codes from the IAS scope
+MSCB-251 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-251 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-251 (37001),ISO 37001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-252,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.1, A1.2, A1.4, A1.7 classified to EA"
+MSCB-252,ISO 14001,3-5;7-9;12;14-20;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-252,ISO 45001,3-6;12;14-15;17-23;28-30;32-39,ACTIVE,IAF codes from the IAS scope
+MSCB-252,ISO 9001,3-9;12;14-20;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-252 (22000),ISO 22000,3;7;14-15;17;30,ACTIVE,"ISO 22003-1 categories C, E, I classified to EA"
+MSCB-252 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-254,ISO 14001,1-3;7-10;12;14-19;22-25;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-254,ISO 41001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-254,ISO 45001,1-3;7-10;12;14-19;22-25;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-254,ISO 9001,1-3;7-10;12;14-19;22-25;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-254 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-254 (22000),ISO 22000,1;3;7;14-15;17;29-31;35,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, H, I classified to EA"
+MSCB-254 (22301),ISO 22301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-254 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-254 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-256,ISO 14001,3-9;12;14-20;22-23;29-30;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-256,ISO 45001,3-9;12;14-20;22-23;29-30;32-33;35;37,ACTIVE,IAF codes from the IAS scope
+MSCB-256,ISO 9001,1;3-9;12;14-20;22-23;29-30;32-33;35-36,ACTIVE,IAF codes from the IAS scope
+MSCB-257,ISO 14001,3-4;6-9;14-19;22-30;32-39,ACTIVE,IAF codes from the IAS scope
+MSCB-257,ISO 45001,3-4;8-9;14-19;22-30;32-39,ACTIVE,IAF codes from the IAS scope
+MSCB-257,ISO 9001,3-9;14-20;22-30;32-39,ACTIVE,IAF codes from the IAS scope
+MSCB-258,ISO 9001,29;31-33;35-36;39,ACTIVE,IAF codes from the IAS scope
+MSCB-258 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-258 (22301),ISO 22301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-258 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-258 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-258 (42001),ISO/IEC 42001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-259,ISO 14001,4-9;14-15;17-20;22-23;29;32-33;37,ACTIVE,IAF codes from the IAS scope
+MSCB-259,ISO 45001,4;7-9;14-15;17-20;22;29;32-33;37,ACTIVE,IAF codes from the IAS scope
+MSCB-259,ISO 9001,4-9;14;17-20;22-23;29;32-33;35-36,ACTIVE,IAF codes from the IAS scope
+MSCB-261,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.1, A1.2, A1.4, A1.7 classified to EA"
+MSCB-261,ISO 14001,1-10;12-39,ACTIVE,IAF codes from the IAS scope
+MSCB-261,ISO 45001,1-10;12-39,ACTIVE,IAF codes from the IAS scope
+MSCB-261,ISO 9001,1-10;12-39,ACTIVE,IAF codes from the IAS scope
+MSCB-263,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.1, A1.2, A1.4, A1.7 classified to EA"
+MSCB-263,ISO 14001,5-9;12;14-23;29;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-263,ISO 45001,5;7-9;17-20;22;29;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-263,ISO 9001,4-10;12;14;17-20;22-23;29,ACTIVE,IAF codes from the IAS scope
+MSCB-264,ISO 14001,7;9;12;14;17-19;23;29;31;33;35,ACTIVE,IAF codes from the IAS scope
+MSCB-264,ISO 9001,7;9;12;14;17-19;23;29;31;33;35,ACTIVE,IAF codes from the IAS scope
+MSCB-265,ISO 14001,14;17-19;24;28-35;37-39,ACTIVE,IAF codes from the IAS scope
+MSCB-265,ISO 45001,14;17-19;24;28-35;37-39,ACTIVE,IAF codes from the IAS scope
+MSCB-265,ISO 9001,14;17-19;24;28-35;37-39,ACTIVE,IAF codes from the IAS scope
+MSCB-265 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-265 (37001),ISO 37001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-267,ISO 9001,33,ACTIVE,IAF codes from the IAS scope
+MSCB-267 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-267 (22301),ISO 22301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-267 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-267 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-267 (42001),ISO/IEC 42001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-268,ISO 14001,3-4;6-9;12;14-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-268,ISO 45001,3-4;7-10;12-20;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-268,ISO 9001,1-10;12;14-20;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-268 (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, E, F, G classified to EA"
+MSCB-268 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-269,ISO 14001,4-7;9;12;14-19;22-23;28-29;31-35,ACTIVE,IAF codes from the IAS scope
+MSCB-269,ISO 45001,4-7;9;12;14-15;17-19;22-23;28-29;31-35,ACTIVE,IAF codes from the IAS scope
+MSCB-269,ISO 9001,4-7;9;12;14-15;17-19;22-23;28-29;31-35,ACTIVE,IAF codes from the IAS scope
+MSCB-270,ISO 13485,18-19;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.2, A1.5, A1.7 classified to EA"
+MSCB-270,ISO 14001,3-4;6-7;9;12;14-15;17-19;22-23;25;27-29;31-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-270,ISO 37301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-270,ISO 45001,9;12;15;17-18;22-23;25;28-29;31-35;37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-270,ISO 9001,1-7;9;12;14-19;22-23;25;27-39,ACTIVE,IAF codes from the IAS scope
+MSCB-270 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-270 (22301),ISO 22301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-270 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-270 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-270 (42001),ISO/IEC 42001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-272,ISO 14001,6-9;12-19;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-272,ISO 45001,4-5;7-9;12-15;17-19;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-272,ISO 9001,1;4-9;12-14;17-19;23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-273,ISO 9001,29;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-273 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-273 (22301),ISO 22301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-273 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-273 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-273 (42001),ISO/IEC 42001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-273 (55001),ISO 55001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-275,ISO 14001,4;6-9;12;14-19;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-275,ISO 45001,4;6-9;12;14-19;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-275,ISO 9001,3-4;6-10;12;14-19;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-276,ISO 14001,2-4;6-9;12;14-19;22-24;29-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-276,ISO 45001,2-9;12;14-19;22-24;29-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-276,ISO 9001,2-9;12;14-19;22-24;29-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-278,ISO 14001,3;5-9;12;14-23;28-37,ACTIVE,IAF codes from the IAS scope
+MSCB-278,ISO 45001,3;7-10;12-20;22;28-37,ACTIVE,IAF codes from the IAS scope
+MSCB-278,ISO 9001,1;3-10;12;14;17-20;22-23;28-37,ACTIVE,IAF codes from the IAS scope
+MSCB-279,ISO 14001,4;7;12;14;17-19;23;29;31;35,ACTIVE,IAF codes from the IAS scope
+MSCB-279,ISO 45001,4;7;12;14;17-19;23;29;31;35,ACTIVE,IAF codes from the IAS scope
+MSCB-279,ISO 9001,4;7;12;14;17-19;23;29;31;35,ACTIVE,IAF codes from the IAS scope
+MSCB-280,ISO 14001,4;6;23-24;29;31-34;37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-280,ISO 45001,24;29;31-34;37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-280,ISO 9001,4;24;28-29;31;33-35;37-39,ACTIVE,IAF codes from the IAS scope
+MSCB-280 (39001),ISO 39001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-280 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-281,ISO 9001,33,ACTIVE,IAF codes from the IAS scope
+MSCB-281 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-282,ISO 14001,1;3-10;12;14-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-282,ISO 45001,1;3-10;12-20;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-282,ISO 9001,1-10;12;14-20;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-282 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-282 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-282 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-283,ISO 14001,4-9;12;14-19;22-23;25-27;29;31-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-283,ISO 45001,4-9;12;14-15;17-19;22-27;29;31-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-283,ISO 9001,1-10;12;14-20;22-23;25;27;29-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-284,ISO 14001,3-9;12;14-19;22-23;28-30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-284,ISO 45001,3-9;12;14-19;22-23;28-30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-284,ISO 9001,1;3-10;12;14;17-20;22-23;28-30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-287,ISO 14001,4-7;9;12;14-19;22-23;28-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-287,ISO 45001,4-7;9;12;14-19;22-23;28-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-287,ISO 9001,4-7;9;12;14-19;22-23;28-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-290,ISO 14001,1;3-4;6-9;14;17-19;23;28;30;33-34;38,ACTIVE,IAF codes from the IAS scope
+MSCB-290,ISO 45001,1;3-4;7-9;14;17-19;23;28;30;33-34;38,ACTIVE,IAF codes from the IAS scope
+MSCB-290,ISO 9001,1;3-9;14;17-19;23;28-30;32-38,ACTIVE,IAF codes from the IAS scope
+MSCB-290 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-290 (22301),ISO 22301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-290 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-290 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-290 (42001),ISO/IEC 42001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-291,ISO 14001,3;6;14-19;23;28-30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-291,ISO 45001,3;14-15;17-19;23;28-30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-291,ISO 9001,1;3;6;14;17-19;23;28-30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-293,ISO 14001,14;17-19;22;28-29;33-35,ACTIVE,IAF codes from the IAS scope
+MSCB-293,ISO 45001,14;17-19;22;28-29;33-35,ACTIVE,IAF codes from the IAS scope
+MSCB-293,ISO 9001,14;17-19;22-23;28-29;33-35,ACTIVE,IAF codes from the IAS scope
+MSCB-295,ISO 14001,14;17-19;22;29;32-35;37,ACTIVE,IAF codes from the IAS scope
+MSCB-295,ISO 45001,14;17-19;22;29;32-35;37,ACTIVE,IAF codes from the IAS scope
+MSCB-295,ISO 9001,4;6-7;9;14;17-19;22-23;29;32-35,ACTIVE,IAF codes from the IAS scope
+MSCB-296,ISO 14001,4-10;12-24;28-29;31;33-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-296,ISO 45001,4-10;12-24;28-29;31;33-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-296,ISO 9001,2;4-10;12;14-20;22-24;28-29;31-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-297,ISO 14001,3-4;6-9;12;14-20;22-24;29;31-33;35-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-297,ISO 45001,4;6-7;10;12-20;22-24;28-29;31;34-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-297,ISO 9001,2-9;12;14-20;22-23;28-29;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-297 (22000),ISO 22000,3;7;14-15;17-18;29;31;35,ACTIVE,"ISO 22003-1 categories C, D, F, G, H, I, J classified to EA"
+MSCB-299,ISO 14001,4-7;9;14-19;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-299,ISO 45001,4-7;9;14-19;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-299,ISO 9001,4-7;9;14-19;23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-300,ISO 14001,3;17-19;22;28-30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-300,ISO 45001,3;17-19;22;28-30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-300,ISO 9001,1;3;17-20;22;28-30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-301,ISO 14001,1;3-10;12;14-24;28-30;32-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-301,ISO 45001,1;3;7;9;12;14;17;22;24;28-29;34-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-301,ISO 9001,1;3;7;9-10;12;14;17;22;24;28-29;32-39,ACTIVE,IAF codes from the IAS scope
+MSCB-301 (22000),ISO 22000,1;3;7;12-15;17-18;29-30;35,ACTIVE,"ISO 22003-1 categories B, C, D, E, F, H, I, J, K classified to EA"
+MSCB-301 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-301 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-302,ISO 13485,13-14;17,ACTIVE,IAF MD 8 tables A1.1 classified to EA
+MSCB-302,ISO 14001,17-19;28;34,ACTIVE,IAF codes from the IAS scope
+MSCB-302,ISO 45001,17;19;28;34,ACTIVE,IAF codes from the IAS scope
+MSCB-302,ISO 9001,1;3-7;10;12;14;17-19;23;28-30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-302 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-304,ISO 14001,4-9;12;14-20;22-25;27-29;31-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-304,ISO 45001,4-9;12;14-20;22-25;27-29;31-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-304,ISO 9001,4-10;12;14-20;22-25;27-29;31-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-305,ISO 14001,1;3-9;12;17-19;22-24;29-30;32-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-305,ISO 45001,1;3-10;12-19;22-24;29-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-305,ISO 9001,1;3-10;12;14-19;22-24;29-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-307,ISO 14001,3;6;14;17-19;22-23;29-30;33;35,ACTIVE,IAF codes from the IAS scope
+MSCB-307,ISO 45001,3;6;14;17-19;22-23;29-30;33;35,ACTIVE,IAF codes from the IAS scope
+MSCB-307,ISO 9001,3;6;14;17-19;22-23;29-30;33;35,ACTIVE,IAF codes from the IAS scope
+MSCB-308,ISO 14001,4-7;9;12;14;17-19;22-23;29-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-308,ISO 45001,4-7;9;12;14;17-19;22-23;29-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-308,ISO 9001,4-7;9;12;14-15;17-19;22-23;29-36;39,ACTIVE,IAF codes from the IAS scope
+MSCB-309,ISO 14001,14;17-19;22-23;29;33-35,ACTIVE,IAF codes from the IAS scope
+MSCB-309,ISO 45001,14;17-19;22-23;29;33-35,ACTIVE,IAF codes from the IAS scope
+MSCB-309,ISO 9001,14;17-19;22-23;29;33-35,ACTIVE,IAF codes from the IAS scope
+MSCB-315,ISO 13485,13-14;17-19;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.1, A1.2, A1.6, A1.7 classified to EA"
+MSCB-315,ISO 14001,12;14-19;22-23;29;33-34,ACTIVE,IAF codes from the IAS scope
+MSCB-315,ISO 45001,12;14-19;22-23;29;33-34,ACTIVE,IAF codes from the IAS scope
+MSCB-315,ISO 9001,12;14-19;22-23;29;33-34,ACTIVE,IAF codes from the IAS scope
+MSCB-316,ISO 14001,3;7-9;12;14-19;22;28-30;32-34;37,ACTIVE,IAF codes from the IAS scope
+MSCB-316,ISO 45001,3;7-9;12;14-15;17-19;22-23;28-30;32-34;37,ACTIVE,IAF codes from the IAS scope
+MSCB-316,ISO 9001,1;3;7-10;12;17-19;22;24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-319,ISO 9001,29;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-319 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-321,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.1, A1.2, A1.3, A1.4, A1.5, A1.7 classified to EA"
+MSCB-321,ISO 14001,1;3-9;12-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-321,ISO 45001,1;3-10;12-19;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-321,ISO 9001,1-10;12-20;22-24;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-321 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-322,ISO 14001,4;14;17-19;28-29;34-35,ACTIVE,IAF codes from the IAS scope
+MSCB-322,ISO 45001,4;14;17-19;28-29;34-35,ACTIVE,IAF codes from the IAS scope
+MSCB-322,ISO 9001,4;14;17-19;22;28-29;34-35,ACTIVE,IAF codes from the IAS scope
+MSCB-325,ISO 14001,4;9;14;17-19;29-35,ACTIVE,IAF codes from the IAS scope
+MSCB-325,ISO 45001,4;9;14;17-19;29-35,ACTIVE,IAF codes from the IAS scope
+MSCB-325,ISO 9001,4;9;14;17-19;29-35,ACTIVE,IAF codes from the IAS scope
+MSCB-326,ISO 14001,3-4;6-7;9;12;14-19;22-23;29-35;37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-326,ISO 45001,3-4;6-7;9;12;14-19;22-23;29-35;37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-326,ISO 9001,3-4;6-7;9;12;14-19;22-23;29-35;37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-326 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-326 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-327,ISO 14001,3-4;6-9;14;17-19;22-23;29-37,ACTIVE,IAF codes from the IAS scope
+MSCB-327,ISO 9001,3-4;6-9;14;17-19;22-23;29-37,ACTIVE,IAF codes from the IAS scope
+MSCB-327 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-328,ISO 14001,3;7-10;12;14-20;22;24;28-37,ACTIVE,IAF codes from the IAS scope
+MSCB-328,ISO 41001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-328,ISO 45001,3;7-10;12;14-15;17-20;22;24;28-37,ACTIVE,IAF codes from the IAS scope
+MSCB-328,ISO 9001,1;3;7-10;12;14;17-20;22;24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-328 (22000),FSSC 22000,3;7;14-15;17;29;31,ACTIVE,"ISO 22003-1 categories C, F, G, I classified to EA"
+MSCB-328 (22000),ISO 22000,1;3;7;14-15;17;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, E, F, G, I classified to EA"
+MSCB-328 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-328 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-328 (55001),ISO 55001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-331,ISO 14001,12;14;16-19;28-29;31-37,ACTIVE,IAF codes from the IAS scope
+MSCB-331,ISO 45001,12;14;16-19;28-29;31-37,ACTIVE,IAF codes from the IAS scope
+MSCB-331,ISO 9001,7;9;12;14;16-19;28-29;31-37,ACTIVE,IAF codes from the IAS scope
+MSCB-331 (22301),ISO 22301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-331 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-333,ISO 14001,28,ACTIVE,IAF codes from the IAS scope
+MSCB-333,ISO 45001,28,ACTIVE,IAF codes from the IAS scope
+MSCB-333,ISO 9001,28,ACTIVE,IAF codes from the IAS scope
+MSCB-333 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-337,ISO 14001,3-6;23;29-30;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-337,ISO 45001,3-6;23;29-30;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-337,ISO 9001,3-6;14;23;29-30;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-338,ISO 9001,33;35;37,ACTIVE,IAF codes from the IAS scope
+MSCB-338 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-338 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-339,ISO 14001,1-10;12-39,ACTIVE,IAF codes from the IAS scope
+MSCB-339,ISO 45001,1-10;12-39,ACTIVE,IAF codes from the IAS scope
+MSCB-339,ISO 9001,1-10;12-39,ACTIVE,IAF codes from the IAS scope
+MSCB-339 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-339 (55001),ISO 55001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-340,ISO 14001,3;10;12;19;28;30,ACTIVE,IAF codes from the IAS scope
+MSCB-340,ISO 45001,10;12;26;28;32;34,ACTIVE,IAF codes from the IAS scope
+MSCB-340,ISO 9001,2-4;6;8-10;12-18;25-26;28-36;39,ACTIVE,IAF codes from the IAS scope
+MSCB-340 (22000),ISO 22000,3,ACTIVE,ISO 22003-1 categories C classified to EA
+MSCB-341,ISO 14001,14;17-19;29;35,ACTIVE,IAF codes from the IAS scope
+MSCB-341,ISO 45001,14;17-19;29;35,ACTIVE,IAF codes from the IAS scope
+MSCB-341,ISO 9001,14;17-19;29;35,ACTIVE,IAF codes from the IAS scope
+MSCB-342,ISO 14001,4;6-7;9;14-19;22-23;29;31-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-342,ISO 45001,4;6-7;9;14-19;22-23;29;31-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-342,ISO 9001,4;6-7;9;14;16-19;23;29;31-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-344,ISO 14001,4-7;9;14;17-19;22-23;29;33-35,ACTIVE,IAF codes from the IAS scope
+MSCB-344,ISO 45001,4-7;9;14;17-19;22-23;29;33-35,ACTIVE,IAF codes from the IAS scope
+MSCB-344,ISO 9001,4-7;9;14;17-19;22-23;29;33-35,ACTIVE,IAF codes from the IAS scope
+MSCB-345,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.1, A1.2, A1.4, A1.7 classified to EA"
+MSCB-345,ISO 14001,3-9;12-20;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-345,ISO 45001,3-10;12-20;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-345,ISO 9001,1-10;12-20;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-345 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-345 (22000),ISO 22000,3;7;14-15;17;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G, I classified to EA"
+MSCB-345 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-345 (50003),ISO 50001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-346,ISO 14001,4-9;14-19;22-23;28-29;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-346,ISO 45001,4-10;12-19;22-23;28-29;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-346,ISO 9001,2;4-9;14-19;22-23;28-29;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-347,ISO 14001,2-4;6-9;12;14-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-347,ISO 45001,2-4;7-9;12;14-20;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-347,ISO 9001,1-10;12;14-20;22-24;28-39,ACTIVE,IAF codes from the IAS scope
+MSCB-347 (22000),ISO 22000,3;7;14-15;17;29;31,ACTIVE,"ISO 22003-1 categories C, D, F, G, I classified to EA"
+MSCB-347 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-348,ISO 14001,4-9;12;14-19;22-23;29;33;35,ACTIVE,IAF codes from the IAS scope
+MSCB-348,ISO 45001,4-9;12;14-15;17-19;22-23;29;33;35,ACTIVE,IAF codes from the IAS scope
+MSCB-348,ISO 9001,4-9;12;14-19;23;29;35,ACTIVE,IAF codes from the IAS scope
+MSCB-349,ISO 14001,14-19;22;29;32-35;37,ACTIVE,IAF codes from the IAS scope
+MSCB-349,ISO 45001,14-19;22;29;32-35;37,ACTIVE,IAF codes from the IAS scope
+MSCB-349,ISO 9001,4;6;14-19;22-23;29;32-36,ACTIVE,IAF codes from the IAS scope
+MSCB-350,ISO 14001,4;7;9;12;14-15;17-19;23;29;35,ACTIVE,IAF codes from the IAS scope
+MSCB-350,ISO 45001,4;7;9;12;14-15;17-19;23;29;35,ACTIVE,IAF codes from the IAS scope
+MSCB-350,ISO 9001,4;7;9;12;14-15;17-19;23;29;35,ACTIVE,IAF codes from the IAS scope
+MSCB-351,ISO 14001,17-19;28-35,ACTIVE,IAF codes from the IAS scope
+MSCB-351,ISO 45001,17-19;28-35,ACTIVE,IAF codes from the IAS scope
+MSCB-351,ISO 9001,17-19;28-35,ACTIVE,IAF codes from the IAS scope
+MSCB-354,ISO 14001,4;6-7;9;14;17-19;22-23;28-35;37,ACTIVE,IAF codes from the IAS scope
+MSCB-354,ISO 45001,4;6-7;9;14;17-19;22-23;28-35,ACTIVE,IAF codes from the IAS scope
+MSCB-354,ISO 9001,1;4;6-7;9;14;17-19;22-23;29-36;39,ACTIVE,IAF codes from the IAS scope
+MSCB-355,ISO 14001,3;17-18;22;28-29;32-34;37,ACTIVE,IAF codes from the IAS scope
+MSCB-355,ISO 45001,3;17-19;22;28-29;31-34;37,ACTIVE,IAF codes from the IAS scope
+MSCB-355,ISO 9001,3;17-19;22;28-29;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-357,ISO 9001,4-10;12;14;17-19;23-24;28-29;31-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-359,ISO 14001,4;6-7;9;12;14-19;23;29;32;34-35,ACTIVE,IAF codes from the IAS scope
+MSCB-359,ISO 45001,4;6-7;9;12;14-19;23;29;32;34-35,ACTIVE,IAF codes from the IAS scope
+MSCB-359,ISO 9001,4;6-7;9;12;14-19;23;29;32;34-35,ACTIVE,IAF codes from the IAS scope
+MSCB-361,ISO 9001,19;33-35,ACTIVE,IAF codes from the IAS scope
+MSCB-361 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-361 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-362,ISO 14001,4;6;17-19;23-24;29;35,ACTIVE,IAF codes from the IAS scope
+MSCB-362,ISO 45001,6;17-19;23-24,ACTIVE,IAF codes from the IAS scope
+MSCB-362,ISO 9001,4;6;14;17-19;23-24;29;35,ACTIVE,IAF codes from the IAS scope
+MSCB-362 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-364,ISO 14001,15;17-19;22-23;26-29;31;34-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-364,ISO 45001,15;17-19;22-23;26;28-29;31;34-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-364,ISO 9001,15;17-19;23;26-29;31;33-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-366,ISO 14001,3;6;14-19;22-23;28-30;32-38,ACTIVE,IAF codes from the IAS scope
+MSCB-366,ISO 21001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-366,ISO 45001,3;15;17-19;22-23;28-30;32-38,ACTIVE,IAF codes from the IAS scope
+MSCB-366,ISO 9001,1-4;6;15-19;22-23;28-30;32-38,ACTIVE,IAF codes from the IAS scope
+MSCB-366 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-366 (37001),ISO 37001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-368,ISO 14001,4;6-9;14;17-20;22-24;29-33;35-38,ACTIVE,IAF codes from the IAS scope
+MSCB-368,ISO 45001,4;6-9;14;17-20;22-24;29-30;32-33;35-38,ACTIVE,IAF codes from the IAS scope
+MSCB-368,ISO 9001,4-9;14;17-20;22-24;29-33;35-38,ACTIVE,IAF codes from the IAS scope
+MSCB-371,ISO 14001,1;3-9;14-19;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-371,ISO 45001,1;3-9;14-19;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-371,ISO 9001,1;3-9;14-19;22-23;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-373,ISO 14001,17-20;22;24;28;31-34;37,ACTIVE,IAF codes from the IAS scope
+MSCB-373,ISO 45001,17-20;22;24;28;31-34;37,ACTIVE,IAF codes from the IAS scope
+MSCB-373,ISO 9001,17-20;22;24;28-29;31-35;37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-373 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-374,ISO 14001,3-4;6-7;9;12;14-19;22-23;28-30;32-35;37-38,ACTIVE,IAF codes from the IAS scope
+MSCB-374,ISO 45001,3-4;7;9;12;14-19;22-23;28-30;32-38,ACTIVE,IAF codes from the IAS scope
+MSCB-374,ISO 9001,1;3-7;9;12;14-19;22-24;28-35;37-39,ACTIVE,IAF codes from the IAS scope
+MSCB-375,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,"IAF MD 8 tables A1.1, A1.2, A1.4, A1.7 classified to EA"
+MSCB-375,ISO 14001,7;9;14;17-19;23,ACTIVE,IAF codes from the IAS scope
+MSCB-375,ISO 45001,7;9;14;17-19;23,ACTIVE,IAF codes from the IAS scope
+MSCB-375,ISO 9001,7;9;14;17-19;23,ACTIVE,IAF codes from the IAS scope
+MSCB-377,ISO 13485,12-14;17;19,ACTIVE,"IAF MD 8 tables A1.1, A1.4 classified to EA"
+MSCB-378,ISO 14001,4;7;9;12;14-19;22-23;28-29;31-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-378,ISO 45001,4;7;9;12;14-19;22-23;28-29;31-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-378,ISO 9001,4-5;7;9;12;14-19;22-23;28-29;31-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-380,ISO 14001,2;4;6-7;9;12;14-19;22-23;28-29;31-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-380,ISO 45001,2;4;6-7;9;12;14-19;22-23;28-29;31-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-380,ISO 9001,2;4;6-7;9;12;14-19;22-23;28-29;31-35;39,ACTIVE,IAF codes from the IAS scope
+MSCB-381,ISO 9001,29;31-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-383,ISO 14001,14;17-19;29;33,ACTIVE,IAF codes from the IAS scope
+MSCB-383,ISO 45001,14;17-19;29;33,ACTIVE,IAF codes from the IAS scope
+MSCB-383,ISO 9001,7;9;14;17-19;29;33,ACTIVE,IAF codes from the IAS scope
+MSCB-384,ISO 14001,14;17-19;29;35,ACTIVE,IAF codes from the IAS scope
+MSCB-384,ISO 45001,14;17-19;29;35,ACTIVE,IAF codes from the IAS scope
+MSCB-384,ISO 9001,5;14;17-19;29;35,ACTIVE,IAF codes from the IAS scope
+MSCB-385,ISO 14001,3-9;12;14-19;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-385,ISO 45001,3-9;12;14-19;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-385,ISO 9001,1-10;12;14-20;22-24;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-388,ISO 14001,3-4;6-9;12;14-19;22-23;28-35,ACTIVE,IAF codes from the IAS scope
+MSCB-388,ISO 45001,4;6-9;12;14-15;17-19;22-23;28-29;31-35,ACTIVE,IAF codes from the IAS scope
+MSCB-388,ISO 9001,3-4;6-9;12;14-19;22-23;28-35,ACTIVE,IAF codes from the IAS scope
+MSCB-394,ISO 9001,33,ACTIVE,IAF codes from the IAS scope
+MSCB-395,ISO 13485,18;29;31;34-35,ACTIVE,IAF MD 8 tables A1.7 classified to EA
+MSCB-395,ISO 14001,4;6-7;9;12;14-16;23;26;28-29;31-39,ACTIVE,IAF codes from the IAS scope
+MSCB-395,ISO 45001,7;9;12;14-16;24;26;28-29;31-39,ACTIVE,IAF codes from the IAS scope
+MSCB-395,ISO 9001,4-7;9;12;14-16;23;26;28-29;31-39,ACTIVE,IAF codes from the IAS scope
+MSCB-396,ISO 14001,12;14-19;22-23;29-32;34-35,ACTIVE,IAF codes from the IAS scope
+MSCB-396,ISO 45001,12;14-19;22-23;29-32;34-35,ACTIVE,IAF codes from the IAS scope
+MSCB-396,ISO 9001,12;14-19;22-23;29-32;34-35,ACTIVE,IAF codes from the IAS scope
+MSCB-398,ISO 9001,12;17-18,ACTIVE,IAF codes from the IAS scope
+MSCB-400,ISO 14001,4;12;14;17-19;22;29;31;34-35,ACTIVE,IAF codes from the IAS scope
+MSCB-400,ISO 45001,4;12;14;17-19;22;29;31;34-35,ACTIVE,IAF codes from the IAS scope
+MSCB-400,ISO 9001,4;12;14;17-19;22;29;31;34-35,ACTIVE,IAF codes from the IAS scope
+MSCB-403,ISO 14001,12;19;29;33;35,ACTIVE,IAF codes from the IAS scope
+MSCB-403,ISO 45001,12;19;29;33;35,ACTIVE,IAF codes from the IAS scope
+MSCB-403,ISO 9001,12;19;29;33;35,ACTIVE,IAF codes from the IAS scope
+MSCB-404,ISO 14001,3;12;14-22;28-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-404,ISO 45001,12;14-15;17-20;22;24;28-29;31;33-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-404,ISO 9001,1;3-7;10;12;14;17-20;22-23;28-30;32-37,ACTIVE,IAF codes from the IAS scope
+MSCB-404 (22301),ISO 22301,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-404 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-404 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-404 (37001),ISO 37001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-405,ISO 14001,4-7;9;12;14-19;23;28-29;32-35;37,ACTIVE,IAF codes from the IAS scope
+MSCB-405,ISO 45001,4-7;9;12;14-19;23;28-29;32-35;37,ACTIVE,IAF codes from the IAS scope
+MSCB-405,ISO 9001,4-7;9;12;14;17-19;23;28-29;32-35;37,ACTIVE,IAF codes from the IAS scope
+MSCB-406,ISO 14001,6-7;14;16-19;22-23;29;32-33;35;37,ACTIVE,IAF codes from the IAS scope
+MSCB-406,ISO 45001,4;6-7;14;16-19;22-23;29;32-33;35;37,ACTIVE,IAF codes from the IAS scope
+MSCB-406,ISO 9001,4;6-7;14;16-19;22-23;29;32;35,ACTIVE,IAF codes from the IAS scope
+MSCB-410,ISO 14001,14;17-19;29;32-33;35,ACTIVE,IAF codes from the IAS scope
+MSCB-410,ISO 45001,14;17-19;29;32-33;35,ACTIVE,IAF codes from the IAS scope
+MSCB-410,ISO 9001,14;17-19;29;32-33;35,ACTIVE,IAF codes from the IAS scope
+MSCB-411,ISO 9001,29;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-416,ISO 9001,17-18;33,ACTIVE,IAF codes from the IAS scope
+MSCB-416 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-416 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-416 (42001),ISO/IEC 42001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-420,ISO 14001,32-33;37,ACTIVE,IAF codes from the IAS scope
+MSCB-420,ISO 45001,32-33;37,ACTIVE,IAF codes from the IAS scope
+MSCB-420,ISO 9001,29;32;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-421,ISO 9001,17,ACTIVE,IAF codes from the IAS scope
+MSCB-423,ISO 14001,3-4;6-9;12;14-20;22-24;28-35;37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-423,ISO 45001,3-4;6-9;12;14-20;22-24;28-30;32-35;37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-423,ISO 9001,1;3-10;12;14-20;22-24;28-35;37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-427,ISO 9001,17-19,ACTIVE,IAF codes from the IAS scope
+MSCB-429,ISO 9001,29;32-33;35-36,ACTIVE,IAF codes from the IAS scope
+MSCB-429 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-431,ISO 14001,17-19;29;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-431,ISO 45001,17-19;29;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-431,ISO 9001,17-19;29;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-432,ISO 14001,1-7;9-10;12;14-19;22-23;25-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-432,ISO 45001,1;3-7;9-10;12;14-19;22-23;25-37;39,ACTIVE,IAF codes from the IAS scope
+MSCB-432,ISO 9001,1-10;12;14-19;22-23;25-39,ACTIVE,IAF codes from the IAS scope
+MSCB-434,ISO 14001,12;14-19;22;29;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-434,ISO 45001,12;14-15;17-19;22;29;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-434,ISO 9001,4-7;10;12;14;17-19;23;29;32-33;35-37,ACTIVE,IAF codes from the IAS scope
+MSCB-436,ISO 14001,4-6;17-19;23,ACTIVE,IAF codes from the IAS scope
+MSCB-436,ISO 45001,4-6;17-19;23,ACTIVE,IAF codes from the IAS scope
+MSCB-436,ISO 9001,4-6;14;17-19;23,ACTIVE,IAF codes from the IAS scope
+MSCB-439,ISO 9001,33,ACTIVE,IAF codes from the IAS scope
+MSCB-439 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the IAS scope; recorded for all EA sectors
+MSCB-444,ISO 9001,12,ACTIVE,IAF codes from the IAS scope

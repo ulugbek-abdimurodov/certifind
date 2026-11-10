@@ -1,0 +1,282 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+51702070102,ISO 14001,12-19;22-23;28-37,ACTIVE,IAF codes from the UAF schedule
+51702070102,ISO 45001,12-19;22-23;28-30;32-37,ACTIVE,IAF codes from the UAF schedule
+51702070102,ISO 9001,1-10;12-19;22-23;28-39,ACTIVE,IAF codes from the UAF schedule
+51703110103,ISO 14001,3;7-9;12-19;22;28-37,ACTIVE,IAF codes from the UAF schedule
+51703110103,ISO 9001,1;3-9;12-14;17-19;23;28-37;39,ACTIVE,IAF codes from the UAF schedule
+51707270105,ISO 14001,7-10;12;14-19;22;28-29;32-38,ACTIVE,IAF codes from the UAF schedule
+51707270105,ISO 37301,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors (listed on the UAF certificate without a separate accreditation number)
+51707270105,ISO 41001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors (listed on the UAF certificate without a separate accreditation number)
+51707270105,ISO 45001,7-10;12;14-15;17-20;22;28-29;32-37,ACTIVE,IAF codes from the UAF schedule
+51707270105,ISO 9001,2;7-10;12;15-19;28-29;32-38,ACTIVE,IAF codes from the UAF schedule
+51708220107,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 areas classified to EA: Non-active medical devices; Active implantable medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services
+51708220107,ISO 14001,12-19;22-39,ACTIVE,IAF codes from the UAF schedule
+51708220107,ISO 21001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors (listed on the UAF certificate without a separate accreditation number)
+51708220107,ISO 41001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors (listed on the UAF certificate without a separate accreditation number)
+51708220107,ISO 45001,12-19;22;24-39,ACTIVE,IAF codes from the UAF schedule
+51708220107,ISO 9001,1-10;12-20;22-25;27-39,ACTIVE,IAF codes from the UAF schedule
+51708260106,ISO 13485,13-14;17-18;29;31;34-35,ACTIVE,IAF MD 8 areas classified to EA: Non-active medical devices; Sterilization methods; Parts or services
+51708260106,ISO 14001,1-10;12-20;22-38,ACTIVE,IAF codes from the UAF schedule
+51708260106,ISO 45001,1-10;12-20;22-30;32-38,ACTIVE,IAF codes from the UAF schedule
+51708260106,ISO 9001,1-10;12;14-20;22-24;28-39,ACTIVE,IAF codes from the UAF schedule
+51712220402 (22000),ISO 22000,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+51712280109,ISO 14001,6-9;12;14-19;22-24;28-38,ACTIVE,IAF codes from the UAF schedule
+51712280109,ISO 45001,5-9;12;14-15;17-19;22-24;28-39,ACTIVE,IAF codes from the UAF schedule
+51712280109,ISO 9001,1-10;12;14-19;23-24;28-39,ACTIVE,IAF codes from the UAF schedule
+51803170113,ISO 14001,12;14-20;22-23;28-38,ACTIVE,IAF codes from the UAF schedule
+51803170113,ISO 45001,9;17-20;22-23;28-38,ACTIVE,IAF codes from the UAF schedule
+51803170113,ISO 9001,1;3-9;12-14;17-20;22-23;28-38,ACTIVE,IAF codes from the UAF schedule
+51806310117,ISO 13485,13-14;17;19,ACTIVE,IAF MD 8 areas classified to EA: Non-active medical devices; Active (non-implantable) medical devices
+51806310117,ISO 14001,1;3-4;6-9;12-19;22-23;28-37;39,ACTIVE,IAF codes from the UAF schedule
+51806310117,ISO 45001,3-9;12-15;17-19;22-23;28-37;39,ACTIVE,IAF codes from the UAF schedule
+51806310117,ISO 9001,1;3-4;6-10;12-14;17-19;23;28-37;39,ACTIVE,IAF codes from the UAF schedule
+51809380119,ISO 14001,14-17;22-23;28-38,ACTIVE,IAF codes from the UAF schedule
+51809380119,ISO 21001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors (listed on the UAF certificate without a separate accreditation number)
+51809380119,ISO 45001,14-15;22-23;28-38,ACTIVE,IAF codes from the UAF schedule
+51809380119,ISO 9001,1-3;15-20;22-23;28-38,ACTIVE,IAF codes from the UAF schedule
+51901390123,ISO 13485,13-14;17-18;29;31;34-35,ACTIVE,IAF MD 8 areas classified to EA: Non-active medical devices; Sterilization methods; Parts or services
+51901390123,ISO 14001,3;7-9;12-20;22;24;28-39,ACTIVE,IAF codes from the UAF schedule
+51901390123,ISO 21001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors (listed on the UAF certificate without a separate accreditation number)
+51901390123,ISO 45001,3;7-9;12-15;17-20;22;24;28-39,ACTIVE,IAF codes from the UAF schedule
+51901390123,ISO 9001,1;3;7-10;12-13;17-20;22;24;28-39,ACTIVE,IAF codes from the UAF schedule
+51908510127,ISO 14001,7-9;12;14-19;22;25-29;32-37,ACTIVE,IAF codes from the UAF schedule
+51908510127,ISO 9001,4-10;12;14;17-19;23;25;27-29;32-37,ACTIVE,IAF codes from the UAF schedule
+52003540128,ISO 14001,4;6;10;12-17;23,ACTIVE,IAF codes from the UAF schedule
+52003540128,ISO 45001,10;12-17,ACTIVE,IAF codes from the UAF schedule
+52003540128,ISO 9001,2;4-7;10;12-19;23;29;32-33;35-37,ACTIVE,IAF codes from the UAF schedule
+52003540412 (22000),ISO 22000,1;3;29-31,ACTIVE,"ISO 22003-1 categories A, C, D, E, F, G classified to EA"
+52007540210 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52301600723,ISO 45001,10;12-20;22;28-37;39,ACTIVE,IAF codes from the UAF schedule
+52302610212 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52302610212 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52303260213 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52303260413 (22000),ISO 22000,1;3;7;12-15;17-18;29-31,ACTIVE,"ISO 22003-1 categories A, C, D, E, F, G, I, J, K classified to EA"
+52303590131,ISO 14001,12;14-20;22-37;39,ACTIVE,IAF codes from the UAF schedule
+52303590131,ISO 9001,1-10;12;14-20;22-37;39,ACTIVE,IAF codes from the UAF schedule
+52304590415 (22000),ISO 22000,1;3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, I, K classified to EA"
+52304640132,ISO 14001,10;12;14-20;22-24;28-29;31-37,ACTIVE,IAF codes from the UAF schedule
+52304640132,ISO 45001,10;12;14-20;22-24;28-29;32-37,ACTIVE,IAF codes from the UAF schedule
+52304640132,ISO 9001,4;6-8;10;12;14-15;17-20;23-24;28-29;31-37;39,ACTIVE,IAF codes from the UAF schedule
+52304690133,ISO 14001,3-8;12;14-39,ACTIVE,IAF codes from the UAF schedule
+52304690133,ISO 45001,3-5;7-8;12;14-20;22-39,ACTIVE,IAF codes from the UAF schedule
+52304690133,ISO 9001,7;10;12;14;16-20;22-25;27-39,ACTIVE,IAF codes from the UAF schedule
+52304690214 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52304690414 (22000),ISO 22000,1;3;7;14-15;17;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, I classified to EA"
+52304691207 (50003),ISO 50001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52305570135,ISO 14001,4-6;12;14-19;22-24;28-29;31-35;37,ACTIVE,IAF codes from the UAF schedule
+52305570135,ISO 45001,4-5;12;14-15;17-19;22-24;28-29;31-35;37,ACTIVE,IAF codes from the UAF schedule
+52305570135,ISO 9001,3-7;10;12;14-19;23-24;28-35;37,ACTIVE,IAF codes from the UAF schedule
+52306630135,ISO 14001,12-19;22-24;28-38,ACTIVE,IAF codes from the UAF schedule
+52306630135,ISO 45001,12-19;22-24;28-38,ACTIVE,IAF codes from the UAF schedule
+52306630135,ISO 9001,3-7;9;12-19;22-24;28-39,ACTIVE,IAF codes from the UAF schedule
+52306630417 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories A, C, D, E, F, G, H, I, J, K classified to EA"
+52307570418 (22000),ISO 22000,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52308560138,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 areas classified to EA: Non-active medical devices; In vitro diagnostic medical devices; Sterilization methods; Parts or services
+52308560138,ISO 14001,12-16;18-38,ACTIVE,IAF codes from the UAF schedule
+52308560138,ISO 21001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors (listed on the UAF certificate without a separate accreditation number)
+52308560138,ISO 41001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors (listed on the UAF certificate without a separate accreditation number)
+52308560138,ISO 45001,12-16;18-30;32-38,ACTIVE,IAF codes from the UAF schedule
+52308560138,ISO 9001,1-2;7-10;12-39,ACTIVE,IAF codes from the UAF schedule
+52308560217 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52308560217 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52308560419 (22000),ISO 22000,1;3;7;12-15;17-18;29-31;35,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, H, I, J, K classified to EA"
+52308700617,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 areas classified to EA: Non-active medical devices; In vitro diagnostic medical devices; Sterilization methods; Parts or services
+52308710139,ISO 14001,17-19;22;28-29;32-37,ACTIVE,IAF codes from the UAF schedule
+52308710139,ISO 45001,18-19;22;28-29;32-37,ACTIVE,IAF codes from the UAF schedule
+52308710139,ISO 9001,3-6;14;17-19;22-23;28-30;32-37,ACTIVE,IAF codes from the UAF schedule
+52309680140,ISO 9001,10;12;17-19;28-29;32-37,ACTIVE,IAF codes from the UAF schedule
+52309680219 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52310780142,ISO 14001,12-19;22-24;28-39,ACTIVE,IAF codes from the UAF schedule
+52310780142,ISO 45001,10;12-19;22-24;28-39,ACTIVE,IAF codes from the UAF schedule
+52310780142,ISO 9001,1-7;10;12-19;23-24;28-39,ACTIVE,IAF codes from the UAF schedule
+52311310222 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52311310423 (22000),ISO 22000,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52311311208 (50003),ISO 50001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52311620144,ISO 14001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52311620144,ISO 45001,28;34,ACTIVE,IAF codes from the UAF schedule
+52311620144,ISO 9001,28-29;32-37,ACTIVE,IAF codes from the UAF schedule
+52311620221 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52311780220 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52311780422 (22000),ISO 22000,1;3;7;12-15;17;29;31,ACTIVE,"ISO 22003-1 categories A, C, D, F, G, I, K classified to EA"
+52311790143,ISO 14001,4;12-19;22-24;28-39,ACTIVE,IAF codes from the UAF schedule
+52311790143,ISO 45001,4-7;10;12-19;22-24;28-39,ACTIVE,IAF codes from the UAF schedule
+52311790143,ISO 9001,1-10;12-14;17-20;22-24;29-39,ACTIVE,IAF codes from the UAF schedule
+52311790421 (22000),ISO 22000,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52312670146,ISO 13485,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52312670146,ISO 14001,12-16;23-29;31-38,ACTIVE,IAF codes from the UAF schedule
+52312670146,ISO 45001,12-20;22-25;28-29;32-38,ACTIVE,IAF codes from the UAF schedule
+52312670146,ISO 9001,4-6;12-14;16-20;22-25;28-29;31-39,ACTIVE,IAF codes from the UAF schedule
+52401380224 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52402550148,ISO 13485,13-14;17-18;29;31;34-35,ACTIVE,IAF MD 8 areas classified to EA: Non-active medical devices; Sterilization methods; Parts or services
+52402550148,ISO 14001,14-19;22;29;32-33;35-37,ACTIVE,IAF codes from the UAF schedule
+52402550148,ISO 45001,14-15;17-19;22;29;32-33;35-37,ACTIVE,IAF codes from the UAF schedule
+52402550148,ISO 9001,1;3-6;14;17-19;23;29-30;32;34-36;38,ACTIVE,IAF codes from the UAF schedule
+52402550227 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52402550424 (22000),ISO 22000,1;3;7;14-15;17-18;30;35,ACTIVE,"ISO 22003-1 categories A, C, D, E, H, I, J classified to EA"
+52402610149,ISO 13485,13-14;17;19,ACTIVE,IAF MD 8 areas classified to EA: Non-active medical devices; Active implantable medical devices; Active (non-implantable) medical devices
+52402610149,ISO 14001,2-10;12;14-24;28-37;39,ACTIVE,IAF codes from the UAF schedule
+52402610149,ISO 21001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors (listed on the UAF certificate without a separate accreditation number)
+52402610149,ISO 45001,2-5;7-10;12-20;22-24;28-37;39,ACTIVE,IAF codes from the UAF schedule
+52402610149,ISO 9001,1-10;12;14-20;22-24;28-39,ACTIVE,IAF codes from the UAF schedule
+52402610425 (22000),ISO 22000,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52403800623,ISO 9001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52403880150,ISO 14001,10;12-19;22-24;28-37;39,ACTIVE,IAF codes from the UAF schedule
+52403880150,ISO 45001,10;12-19;22-24;28-29;31-37;39,ACTIVE,IAF codes from the UAF schedule
+52403880150,ISO 9001,4-10;12-14;17-19;23-24;28-29;31-37;39,ACTIVE,IAF codes from the UAF schedule
+52404220233 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52404220233 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52404221212 (50003),ISO 50001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52404390232 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52404390232 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52404631210 (50003),ISO 50001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52404740152,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 areas classified to EA: Non-active medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services
+52404740152,ISO 14001,10;12-24;28-39,ACTIVE,IAF codes from the UAF schedule
+52404740152,ISO 45001,10;12-24;28-39,ACTIVE,IAF codes from the UAF schedule
+52404740152,ISO 9001,1-10;12-24;28-39,ACTIVE,IAF codes from the UAF schedule
+52404740227 (22000),ISO 22000,1;3;7;12-15;17;29-31;35,ACTIVE,"ISO 22003-1 categories A, C, D, E, F, G, H, I, K classified to EA"
+52404740229 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52404740808 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52404741211 (50003),ISO 50001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52404760154,ISO 14001,12;14-16;18-19;22;24;28-29;31-38,ACTIVE,IAF codes from the UAF schedule
+52404760154,ISO 45001,12;14-15;17-19;22;24;28-29;32-38,ACTIVE,IAF codes from the UAF schedule
+52404760154,ISO 9001,4-6;12;14;17-19;22-24;28-29;31-39,ACTIVE,IAF codes from the UAF schedule
+52404762731 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52404840626,ISO 13485,12-13;18-19;29;31;34-35,ACTIVE,IAF MD 8 areas classified to EA: In vitro diagnostic medical devices; Sterilization methods; Parts or services
+52404900624,ISO 13485,13;18;29;31;34-35,ACTIVE,IAF MD 8 areas classified to EA: Sterilization methods; Devices incorporating specific substances / technologies; Parts or services
+52404910153,ISO 14001,5-6;17-19;22-23;28-30;32-37,ACTIVE,IAF codes from the UAF schedule
+52404910153,ISO 45001,5;17-19;22-23;28-30;32-37,ACTIVE,IAF codes from the UAF schedule
+52404910153,ISO 9001,1;3-6;14;17-20;22-23;28-30;32-37,ACTIVE,IAF codes from the UAF schedule
+52404910230 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52405750155,ISO 9001,32-33;35-37,ACTIVE,IAF codes from the UAF schedule
+52405750234 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52405750234 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52405810156,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 areas classified to EA: Non-active medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services
+52405810156,ISO 14001,8-9;12-20;22-37;39,ACTIVE,IAF codes from the UAF schedule
+52405810156,ISO 45001,10;12-20;22-30;32-37,ACTIVE,IAF codes from the UAF schedule
+52405810156,ISO 9001,1;3-10;12-20;22-37;39,ACTIVE,IAF codes from the UAF schedule
+52405810228 (22000),ISO 22000,1;3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, I, K classified to EA"
+52405810235 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52405811213 (50003),ISO 50001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52406950157,ISO 9001,29;36,ACTIVE,IAF codes from the UAF schedule
+52408600236 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52409510237 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+524101030158,ISO 14001,5-6;12;14-16;18-20;22-24;28-29;31-39,ACTIVE,IAF codes from the UAF schedule
+524101030158,ISO 45001,5;12;14-15;18-20;22-24;28-29;32-39,ACTIVE,IAF codes from the UAF schedule
+524101030158,ISO 9001,4-6;10;12;14;17-20;22-24;28-29;31-39,ACTIVE,IAF codes from the UAF schedule
+524101030238 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52410781214 (50003),ISO 50001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+524111040349,ISO 14001,32-33;37,ACTIVE,IAF codes from the UAF schedule
+524111040349,ISO 21001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors (listed on the UAF certificate without a separate accreditation number)
+524111041215 (50003),ISO 50001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+524111070159,ISO 14001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+524111070159,ISO 45001,4-6;23-24;28-29;31-37;39,ACTIVE,IAF codes from the UAF schedule
+524111070159,ISO 9001,4-6;14;17-20;22-24;28-29;31-37;39,ACTIVE,IAF codes from the UAF schedule
+524111070429 (22000),ISO 22000,1;3;29-31,ACTIVE,"ISO 22003-1 categories A, C, D, E, F, G classified to EA"
+524111071216 (50003),ISO 50001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+525011150160,ISO 13485,12-14;17;19,ACTIVE,IAF MD 8 areas classified to EA: Non-active medical devices; In vitro diagnostic medical devices; Devices incorporating specific substances / technologies
+525011150160,ISO 14001,1;4-6;8-9;12-19;22-24;28-39,ACTIVE,IAF codes from the UAF schedule
+525011150160,ISO 45001,1;18-19;22;24;28-37;39,ACTIVE,IAF codes from the UAF schedule
+525011150160,ISO 9001,1-6;8-10;12-20;22-24;28-39,ACTIVE,IAF codes from the UAF schedule
+525011150430 (22000),ISO 22000,1;3;7;12-15;17-18;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, I, J, K classified to EA"
+52501150240 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52501870161,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 areas classified to EA: Non-active medical devices; In vitro diagnostic medical devices; Sterilization methods; Parts or services
+52501870161,ISO 14001,13-19;28;34,ACTIVE,IAF codes from the UAF schedule
+52501870161,ISO 45001,10;12-19;28,ACTIVE,IAF codes from the UAF schedule
+52501870161,ISO 9001,1;3-8;10;12-19;21;23;28-30;32-37;39,ACTIVE,IAF codes from the UAF schedule
+52501870241 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+525031080162,ISO 21001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors (listed on the UAF certificate without a separate accreditation number)
+525031080162,ISO 9001,17-20;22;24;29;31-33;35-37;39,ACTIVE,IAF codes from the UAF schedule
+525031080242 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+525051100163,ISO 14001,29;32-33;35-37,ACTIVE,IAF codes from the UAF schedule
+525051100163,ISO 45001,29;32-33;35-37,ACTIVE,IAF codes from the UAF schedule
+525051100163,ISO 9001,29;32-33;35-37,ACTIVE,IAF codes from the UAF schedule
+525051100244 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+525051101217 (50003),ISO 50001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+525061130164,ISO 14001,9;12;14-19;28;32-34,ACTIVE,IAF codes from the UAF schedule
+525061130164,ISO 45001,12;14-15;17-19;28;32-34;36-37,ACTIVE,IAF codes from the UAF schedule
+525061130164,ISO 9001,4-6;9;12;14-19;23;28;32-34,ACTIVE,IAF codes from the UAF schedule
+525071010165,ISO 14001,3;5-9;17-19;22-23;28-30;32-37,ACTIVE,IAF codes from the UAF schedule
+525071010165,ISO 45001,5;17-19;22-23;28-30;32-37,ACTIVE,IAF codes from the UAF schedule
+525071010165,ISO 9001,1;3-6;8-9;14;17-20;22-23;28-30;32-37,ACTIVE,IAF codes from the UAF schedule
+52509621218 (50003),ISO 50001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+525102000166,ISO 13485,12-14;17;19;35,ACTIVE,IAF MD 8 areas classified to EA: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices; Sterilization methods
+525102000166,ISO 14001,4;6;12;14-28;30;32-34;37,ACTIVE,IAF codes from the UAF schedule
+525102000166,ISO 21001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors (listed on the UAF certificate without a separate accreditation number)
+525102000166,ISO 37301,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors (listed on the UAF certificate without a separate accreditation number)
+525102000166,ISO 45001,4;12;14-15;18-20;22-23;28;30;32-34;37,ACTIVE,IAF codes from the UAF schedule
+525102000166,ISO 9001,1;3-6;10;12-23;25-30;32-37,ACTIVE,IAF codes from the UAF schedule
+525102000245 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+525102000245 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+525102000431 (22000),ISO 22000,1;3,ACTIVE,"ISO 22003-1 categories A, C classified to EA"
+52510561219 (50003),ISO 50001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+526011110169,ISO 9001,1;3;30,ACTIVE,IAF codes from the UAF schedule
+526011110433 (22000),ISO 22000,1;3,ACTIVE,"ISO 22003-1 categories A, C, D classified to EA"
+526011200168,ISO 14001,3;5-7;12;14;17-19;22-24;28-37;39,ACTIVE,IAF codes from the UAF schedule
+526011200168,ISO 45001,3;5;7;12;14;17-19;22-24;28-30;32-37;39,ACTIVE,IAF codes from the UAF schedule
+526011200168,ISO 9001,12;14;17-20;22-24;28-37;39,ACTIVE,IAF codes from the UAF schedule
+52601710434 (22000),ISO 22000,1;3;29;31,ACTIVE,"ISO 22003-1 categories A, C, D, F, G classified to EA"
+526021270171,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 areas classified to EA: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services
+526021270171,ISO 14001,3-4;6;12;14-16;23;29;32-33;35-38,ACTIVE,IAF codes from the UAF schedule
+526021270171,ISO 45001,3;14;18-19;22;28-30;32-37,ACTIVE,IAF codes from the UAF schedule
+526021270171,ISO 9001,3-10;12;14;23;29-30;32-33;35-37,ACTIVE,IAF codes from the UAF schedule
+526021270248 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+526021270436 (22000),ISO 22000,1;3,ACTIVE,"ISO 22003-1 categories A, C classified to EA"
+526031210172,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,IAF MD 8 areas classified to EA: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices; Parts or services
+526031210172,ISO 14001,12;14-16;24-38,ACTIVE,IAF codes from the UAF schedule
+526031210172,ISO 41001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors (listed on the UAF certificate without a separate accreditation number)
+526031210172,ISO 45001,3;7-9;12;14-15;24-30;32-38,ACTIVE,IAF codes from the UAF schedule
+526031210172,ISO 9001,1;7-10;12;14;23-39,ACTIVE,IAF codes from the UAF schedule
+526031210249 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+526031210249 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+526031210437 (22000),ISO 22000,1;3;29;31,ACTIVE,"ISO 22003-1 categories A, C, F, G classified to EA"
+526031211221 (50003),ISO 50001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+526032001222 (50003),ISO 50001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+526041230173,ISO 13485,12-13;18-19;29;31;34-35,ACTIVE,IAF MD 8 areas classified to EA: In vitro diagnostic medical devices; Parts or services
+526041230173,ISO 14001,29-30;32-33;35-37,ACTIVE,IAF codes from the UAF schedule
+526041230173,ISO 45001,3;29-30;32-33;35-37,ACTIVE,IAF codes from the UAF schedule
+526041230173,ISO 9001,1;29-30;32;35-37,ACTIVE,IAF codes from the UAF schedule
+526041230250 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+526041230250 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+526041230438 (22000),ISO 22000,1;3;29;31,ACTIVE,"ISO 22003-1 categories A, C, D, F, G classified to EA"
+526041280175,ISO 14001,3;18-19;22;28-30;32-37,ACTIVE,IAF codes from the UAF schedule
+526041280175,ISO 45001,3;18-19;22;28-30;32-37,ACTIVE,IAF codes from the UAF schedule
+526041280175,ISO 9001,1;3;17-19;22;28-30;32-37,ACTIVE,IAF codes from the UAF schedule
+526041300174,ISO 14001,1;3-9;12;14-19;22-37;39,ACTIVE,IAF codes from the UAF schedule
+526041300174,ISO 45001,1;3-10;12-16;18-19;22-37;39,ACTIVE,IAF codes from the UAF schedule
+526041300174,ISO 9001,1;3-10;12;14-19;23-37;39,ACTIVE,IAF codes from the UAF schedule
+52605390439 (22000),ISO 22000,1;3;30,ACTIVE,"ISO 22003-1 categories A, C, D, E classified to EA"
+52605391223 (50003),ISO 50001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+52605910440 (22000),ISO 22000,1;3;7;14-15;17;29-31,ACTIVE,"ISO 22003-1 categories A, C, D, E, F, G, I classified to EA"
+52607110441 (22000),ISO 22000,1;3;29;31,ACTIVE,"ISO 22003-1 categories A, B, C, D, F, G classified to EA"
+526101330176,ISO 14001,4-6;8-9;12-24;28-29;31-39,ACTIVE,IAF codes from the UAF schedule
+526101330176,ISO 45001,4-9;12-15;17-19;21-24;28-29;31-39,ACTIVE,IAF codes from the UAF schedule
+526101330176,ISO 9001,1;3-10;12-14;17-24;28-39,ACTIVE,IAF codes from the UAF schedule
+526101330252 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+526101330442 (22000),ISO 22000,1;3;7;14-15;17;29-31,ACTIVE,"ISO 22003-1 categories A, C, D, E, F, G, I classified to EA"
+71808270205 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+71811271102 (22301),ISO 22301,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+71811271202 (50003),ISO 50001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+71910270803 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+72302610805 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+72302611106 (22301),ISO 22301,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+72303260806 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+72307571802 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+72311620807 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+72404220809 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+72405750810 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+72410780811 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+72410781107 (22301),ISO 22301,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+72501171805 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+72501171805 (27006),ISO/IEC 27701,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+725031080813 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+72503390812 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+72503391108 (22301),ISO 22301,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+725051100814 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+72510560815 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+72510561110 (22301),ISO 22301,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+726031210817 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+726031211111 (22301),ISO 22301,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+726032000818 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+726032001112 (22301),ISO 22301,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+726041230819 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors
+72609570820 (20000),ISO/IEC 20000-1,1-39,ACTIVE,No sector list in the UAF schedule; recorded for all EA sectors

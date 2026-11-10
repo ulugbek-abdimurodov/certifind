@@ -22,8 +22,7 @@ Not yet verified by a person, so `verified_at` is empty. `source_url` and `proof
   classified to EA; ISO 13485 technical areas classified to EA. ISO/IEC 27001, 20000-1, ISO 50001, ISO/IEC 42001 and
   ISO 55001 have no sector list in the register and are recorded for all EA sectors (1-39).
 - "ISO/IEC 27001:2022 (DEWR)" is merged into the body's ISO/IEC 27001 entry.
-- Bodies already in another dataset reuse that row: six from `nabcb-india` (International Certification Services,
-  Integrated Quality Certification, KBS, MS Certification Services, BSCIC, QUEST, Vexil) and Beijing Daluhangxing from
+- Bodies already in another dataset reuse that row: seven from `nabcb-india` (International Certification Services, Integrated Quality Certification, KBS, MS Certification Services, BSCIC, QUEST, Vexil) and Beijing Daluhangxing from
   `ukas-united-kingdom`.
 - Phones are international. Australian 1300/1800 numbers cannot be dialled from abroad and were left empty.
 

@@ -11,16 +11,55 @@ export const stages = [
   "Risultati",
 ];
 
-const countryFlags: Record<string, string> = {
-  Italy: "🇮🇹",
-  Romania: "🇷🇴",
-  Poland: "🇵🇱",
-  Germany: "🇩🇪",
-  "United Kingdom": "🇬🇧",
-  Albania: "🇦🇱",
+/** ISO 3166-1 alpha-2 code for each English country name stored in the database. */
+const countryCodes: Record<string, string> = {
+  Albania: "AL", Algeria: "DZ", Australia: "AU", Austria: "AT", Azerbaijan: "AZ",
+  Bahrain: "BH", Belgium: "BE", Bhutan: "BT", Bolivia: "BO",
+  "Bosnia and Herzegovina": "BA", Botswana: "BW", Brazil: "BR", Bulgaria: "BG",
+  Canada: "CA", Chile: "CL", China: "CN", Colombia: "CO", "Costa Rica": "CR",
+  Croatia: "HR", Cyprus: "CY", Czechia: "CZ", "Côte d’Ivoire": "CI", Denmark: "DK",
+  "Dominican Republic": "DO", Ecuador: "EC", Egypt: "EG", "El Salvador": "SV",
+  Estonia: "EE", Eswatini: "SZ", Ethiopia: "ET", Finland: "FI", France: "FR",
+  Germany: "DE", Ghana: "GH", Greece: "GR", "Hong Kong": "HK", Hungary: "HU",
+  India: "IN", Iraq: "IQ", Ireland: "IE", Israel: "IL", Italy: "IT", Jamaica: "JM",
+  Japan: "JP", Jordan: "JO", Kazakhstan: "KZ", Kenya: "KE", Kyrgyzstan: "KG",
+  Latvia: "LV", Lebanon: "LB", Libya: "LY", Liechtenstein: "LI", Lithuania: "LT",
+  Luxembourg: "LU", Malawi: "MW", Malaysia: "MY", Malta: "MT", Mauritius: "MU",
+  Mexico: "MX", Moldova: "MD", Mongolia: "MN", Morocco: "MA", Namibia: "NA",
+  Nepal: "NP", Netherlands: "NL", "New Zealand": "NZ", Nigeria: "NG",
+  "North Macedonia": "MK", Norway: "NO", Oman: "OM", Pakistan: "PK", Peru: "PE",
+  Philippines: "PH", Poland: "PL", Portugal: "PT", Qatar: "QA", Romania: "RO",
+  Russia: "RU", Rwanda: "RW", "San Marino": "SM", "Saudi Arabia": "SA",
+  Serbia: "RS", Singapore: "SG", Slovakia: "SK", Slovenia: "SI",
+  "South Africa": "ZA", "South Korea": "KR", Spain: "ES", "Sri Lanka": "LK",
+  Sudan: "SD", Sweden: "SE", Switzerland: "CH", Taiwan: "TW", Tanzania: "TZ",
+  Thailand: "TH", Tunisia: "TN", Turkey: "TR", Turkmenistan: "TM", Uganda: "UG",
+  Ukraine: "UA", "United Arab Emirates": "AE", "United Kingdom": "GB",
+  "United States": "US", Uruguay: "UY", Uzbekistan: "UZ", Venezuela: "VE",
+  Vietnam: "VN", Zambia: "ZM", Zimbabwe: "ZW",
 };
 
-export const flagFor = (country: string) => countryFlags[country] ?? "🌐";
+const italianRegionNames = new Intl.DisplayNames(["it"], { type: "region" });
+
+/** Where the CLDR Italian name is not the one Italian users expect. */
+const italianOverrides: Record<string, string> = {
+  HK: "Hong Kong",
+  CZ: "Repubblica Ceca",
+};
+
+/** Italian display name for a country stored in English; unknown names pass through. */
+export const countryLabel = (country: string) => {
+  const code = countryCodes[country];
+  if (!code) return country;
+  return italianOverrides[code] ?? italianRegionNames.of(code) ?? country;
+};
+
+export const flagFor = (country: string) => {
+  const code = countryCodes[country];
+  return code
+    ? String.fromCodePoint(...[...code].map((c) => 0x1f1e6 + c.charCodeAt(0) - 65))
+    : "🌐";
+};
 
 /** Edition and Italian title per standard code, as in "ISO 9001:2015 Sistemi di gestione per la qualità – Requisiti". */
 const standardTitles: Record<string, string> = {
@@ -138,7 +177,7 @@ export const scopeLinesByStandard = (scopes: AccreditationScope[]) => {
   return [...byStandard].map(([standard, group]) => ({
     standard,
     allSectors: coversAllSectors(group),
-    sectors: group.map(scopeDetail),
+    sectors: [...new Set(group.map(scopeDetail))],
   }));
 };
 

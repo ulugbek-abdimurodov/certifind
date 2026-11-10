@@ -1,0 +1,48 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+OZAK,O'ZAK.MT.0001 (22000),Management Certification LLC,ISO 22003-1,ACTIVE,2021-05-03,2031-04-29,https://api-e.akkred.uz/media/file/pdf/2026-10/pdf_WHlEFsn.pdf
+OZAK,O'ZAK.MT.0001 (50003),Management Certification LLC,ISO 50003,ACTIVE,2021-05-03,2031-04-29,https://api-e.akkred.uz/media/file/pdf/2026-10/pdf_WHlEFsn.pdf
+OZAK,O'ZAK.MT.0001,Management Certification LLC,ISO/IEC 17021-1,ACTIVE,2021-05-03,2031-04-29,https://api-e.akkred.uz/media/file/pdf/2026-10/pdf_WHlEFsn.pdf
+OZAK,O'ZAK.MT.0001 (37001),Management Certification LLC,ISO/IEC 17021-9,ACTIVE,2021-05-03,2031-04-29,https://api-e.akkred.uz/media/file/pdf/2026-10/pdf_WHlEFsn.pdf
+OZAK,O'ZAK.MT.0001 (27006),Management Certification LLC,ISO/IEC 27006,ACTIVE,2021-05-03,2031-04-29,https://api-e.akkred.uz/media/file/pdf/2026-10/pdf_WHlEFsn.pdf
+OZAK,O'ZAK.MT.0003 (22000),Astraia Management LLC,ISO 22003-1,ACTIVE,2021-01-11,2031-03-09,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_lqPRWkJ.pdf
+OZAK,O'ZAK.MT.0003,Astraia Management LLC,ISO/IEC 17021-1,ACTIVE,2021-01-11,2031-03-09,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_lqPRWkJ.pdf
+OZAK,O'ZAK.MT.0004 (22000),Nika-Certification LLC,ISO 22003-1,ACTIVE,2020-11-09,2030-11-06,https://api-e.akkred.uz/media/file/pdf/2026-06/pdf_Wb7ODSX.pdf
+OZAK,O'ZAK.MT.0004 (50003),Nika-Certification LLC,ISO 50003,ACTIVE,2020-11-09,2030-11-06,https://api-e.akkred.uz/media/file/pdf/2026-06/pdf_Wb7ODSX.pdf
+OZAK,O'ZAK.MT.0004,Nika-Certification LLC,ISO/IEC 17021-1,ACTIVE,2020-11-09,2030-11-06,https://api-e.akkred.uz/media/file/pdf/2026-06/pdf_Wb7ODSX.pdf
+OZAK,O'ZAK.MT.0004 (37001),Nika-Certification LLC,ISO/IEC 17021-9,ACTIVE,2020-11-09,2030-11-06,https://api-e.akkred.uz/media/file/pdf/2026-06/pdf_Wb7ODSX.pdf
+OZAK,O'ZAK.MT.0008 (22000),Central Asia Certification LLC,ISO 22003-1,ACTIVE,2021-01-25,2031-01-21,https://api-e.akkred.uz/media/file/pdf/2026-10/pdf_rQwwXfc.pdf
+OZAK,O'ZAK.MT.0008 (50003),Central Asia Certification LLC,ISO 50003,ACTIVE,2021-01-25,2031-01-21,https://api-e.akkred.uz/media/file/pdf/2026-10/pdf_rQwwXfc.pdf
+OZAK,O'ZAK.MT.0008,Central Asia Certification LLC,ISO/IEC 17021-1,ACTIVE,2021-01-25,2031-01-21,https://api-e.akkred.uz/media/file/pdf/2026-10/pdf_rQwwXfc.pdf
+OZAK,O'ZAK.MT.0008 (37001),Central Asia Certification LLC,ISO/IEC 17021-9,ACTIVE,2021-01-25,2031-01-21,https://api-e.akkred.uz/media/file/pdf/2026-10/pdf_rQwwXfc.pdf
+OZAK,O'ZAK.MT.0009 (22000),Sert Management LLC,ISO 22003-1,ACTIVE,2021-03-24,2031-03-18,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_K4CfwDs.pdf
+OZAK,O'ZAK.MT.0009 (50003),Sert Management LLC,ISO 50003,ACTIVE,2021-03-24,2031-03-18,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_K4CfwDs.pdf
+OZAK,O'ZAK.MT.0009,Sert Management LLC,ISO/IEC 17021-1,ACTIVE,2021-03-24,2031-03-18,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_K4CfwDs.pdf
+OZAK,O'ZAK.MT.0010 (22000),Cert International LLC,ISO 22003-1,ACTIVE,2021-03-24,2031-03-18,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_BQIbxLe.pdf
+OZAK,O'ZAK.MT.0010 (50003),Cert International LLC,ISO 50003,ACTIVE,2021-03-24,2031-03-18,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_BQIbxLe.pdf
+OZAK,O'ZAK.MT.0010,Cert International LLC,ISO/IEC 17021-1,ACTIVE,2021-03-24,2031-03-18,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_BQIbxLe.pdf
+OZAK,O'ZAK.MT.0010 (37001),Cert International LLC,ISO/IEC 17021-9,ACTIVE,2021-03-24,2031-03-18,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_BQIbxLe.pdf
+OZAK,O'ZAK.MT.0010 (27006),Cert International LLC,ISO/IEC 27006,ACTIVE,2021-03-24,2031-03-18,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_BQIbxLe.pdf
+OZAK,O'ZAK.MT.0012 (22000),Leaders Certification LLC,ISO 22003-1,ACTIVE,2021-06-07,2031-06-03,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_O9rgj3g.pdf
+OZAK,O'ZAK.MT.0012 (50003),Leaders Certification LLC,ISO 50003,ACTIVE,2021-06-07,2031-06-03,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_O9rgj3g.pdf
+OZAK,O'ZAK.MT.0012,Leaders Certification LLC,ISO/IEC 17021-1,ACTIVE,2021-06-07,2031-06-03,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_O9rgj3g.pdf
+OZAK,O'ZAK.MT.0012 (37001),Leaders Certification LLC,ISO/IEC 17021-9,ACTIVE,2021-06-07,2031-06-03,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_O9rgj3g.pdf
+OZAK,O'ZAK.MT.0019,Amis Cert LLC,ISO/IEC 17021-1,ACTIVE,2022-07-25,2027-07-24,https://api-e.akkred.uz/media/file/pdf/2026-06/pdf_HnUbMOL.pdf
+OZAK,O'ZAK.MT.0022 (50003),Bureau Veritas Tashkent LLC,ISO 50003,ACTIVE,2022-12-26,2027-12-25,https://api-e.akkred.uz/media/file/pdf/2026-06/pdf_EEZQSDd.pdf
+OZAK,O'ZAK.MT.0022,Bureau Veritas Tashkent LLC,ISO/IEC 17021-1,ACTIVE,2022-12-26,2027-12-25,https://api-e.akkred.uz/media/file/pdf/2026-06/pdf_EEZQSDd.pdf
+OZAK,O'ZAK.MT.0023,Uzbekistan Standards Institute (state institution),ISO/IEC 17021-1,ACTIVE,2023-08-23,2028-08-22,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_yq4hZOy.pdf
+OZAK,O'ZAK.MT.0026,Iso-Union LLC,ISO/IEC 17021-1,ACTIVE,2023-10-19,2028-10-18,https://api-e.akkred.uz/media/file/pdf/2026-06/pdf_6o87Tvn.pdf
+OZAK,O'ZAK.MT.0027 (22000),Avviso Cert LLC,ISO 22003-1,ACTIVE,2023-10-27,2028-10-26,https://api-e.akkred.uz/media/file/pdf/2026-06/pdf_1JuY7ro.pdf
+OZAK,O'ZAK.MT.0027 (50003),Avviso Cert LLC,ISO 50003,ACTIVE,2023-10-27,2028-10-26,https://api-e.akkred.uz/media/file/pdf/2026-06/pdf_1JuY7ro.pdf
+OZAK,O'ZAK.MT.0027,Avviso Cert LLC,ISO/IEC 17021-1,ACTIVE,2023-10-27,2028-10-26,https://api-e.akkred.uz/media/file/pdf/2026-06/pdf_1JuY7ro.pdf
+OZAK,O'ZAK.MT.0027 (37001),Avviso Cert LLC,ISO/IEC 17021-9,ACTIVE,2023-10-27,2028-10-26,https://api-e.akkred.uz/media/file/pdf/2026-06/pdf_1JuY7ro.pdf
+OZAK,O'ZAK.MT.0030,Interqcert LLC,ISO/IEC 17021-1,ACTIVE,2024-05-30,2029-05-29,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_uEAvwVb.pdf
+OZAK,O'ZAK.MT.0031,ACERT Bureau LLC,ISO/IEC 17021-1,ACTIVE,2024-08-12,2029-08-11,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_OcYzNGp.pdf
+OZAK,O'ZAK.MT.0032,Global Iso LLC,ISO/IEC 17021-1,ACTIVE,2024-08-19,2029-08-18,https://api-e.akkred.uz/media/file/pdf/2026-06/pdf_dVNjVUt.pdf
+OZAK,O'ZAK.MT.0034 (22000),Asl Zehn Group LLC,ISO 22003-1,ACTIVE,2025-02-10,2030-02-09,https://api-e.akkred.uz/media/file/pdf/2026-06/pdf_ychTOMG.pdf
+OZAK,O'ZAK.MT.0034,Asl Zehn Group LLC,ISO/IEC 17021-1,ACTIVE,2025-02-10,2030-02-09,https://api-e.akkred.uz/media/file/pdf/2026-06/pdf_ychTOMG.pdf
+OZAK,O'ZAK.MT.0035 (22000),"Bishkek Center for Testing, Certification and Metrology",ISO 22003-1,ACTIVE,2025-02-20,2030-02-19,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_sOllwi1.pdf
+OZAK,O'ZAK.MT.0035,"Bishkek Center for Testing, Certification and Metrology",ISO/IEC 17021-1,ACTIVE,2025-02-20,2030-02-19,https://api-e.akkred.uz/media/file/pdf/2026-09/pdf_sOllwi1.pdf
+OZAK,O'ZAK.MT.0039,Center for Safety of Pharmaceutical Products (state institution),ISO/IEC 17021-1,ACTIVE,2025-11-17,2030-11-16,https://api-e.akkred.uz/media/file/pdf/2026-10/pdf_cFqAwDU.pdf
+OZAK,O'ZAK.MT.0040,Iso Hujjatlar Uyushmasi LLC,ISO/IEC 17021-1,ACTIVE,2026-01-08,2031-01-07,https://api-e.akkred.uz/media/file/pdf/2026-06/pdf_ZTPtKG7.pdf
+OZAK,O'ZAK.MT.0041,World Certification Organization LLC,ISO/IEC 17021-1,ACTIVE,2026-06-15,2031-06-14,https://api-e.akkred.uz/media/file/pdf/2026-08/pdf_ASqdcxA.pdf
+OZAK,O'ZAK.MT.0042,Iso Cert Group LLC,ISO/IEC 17021-1,ACTIVE,2026-07-06,2031-07-05,https://api-e.akkred.uz/media/file/pdf/2026-07/pdf_b5pI2Z8.pdf

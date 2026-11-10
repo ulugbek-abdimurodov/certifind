@@ -1,0 +1,139 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+CB-BCMS-007 (22301),ISO 22301,8-10;17-19;22-27;29;31;33-34,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-BCMS-046 (22301),ISO 22301,4-9;14-19;22-29;31;33-34,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-BCMS-076 (22301),ISO 22301,4;6;10;14-19;22-25;28-29;31;33-34,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-BCMS-095 (22301),ISO 22301,23;31-36;39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-002,ISO 14001,17-19;28-29;34-35,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-004,ISO 14001,1;3-10;12-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-006,ISO 14001,3;6;8-10;12-25;28-30;33;35-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-007,ISO 14001,3;10;12-16;28;30,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-009,ISO 14001,6-10;14-22;28;30-32;34-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-011,ISO 14001,8-10;14-19;22;28-32;35-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-016,ISO 14001,8-10;14-20;22;28-32;35-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-017,ISO 14001,1-7;10;12-22;24-29;33-34,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-018,ISO 14001,1;3-7;12-13;23-27;29;33-34,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-019,ISO 14001,9-10;12;14-20;22-35;37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-020,ISO 14001,2-3;17-22;28-30;32-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-021,ISO 14001,5-11;14-19;28-32;34-35;37;39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-035,ISO 14001,3;5-6;12;14-19;22-23;28-29;32-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-040,ISO 14001,9-10;14-19;28-32;34-38,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-045,ISO 14001,4-5;12-19;23;28-29;32-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-046,ISO 14001,1-10;12-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-058,ISO 14001,1-10;12-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-076,ISO 14001,3-10;17-18;22-23;28;34,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-079,ISO 14001,1;3-10;12;14-15;17-20;22;24;28-29;31-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-084,ISO 14001,14;16-17;25;28-29;31;34;37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-087,ISO 14001,8-9;14;16-19;23-24;28-29;31-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-089,ISO 14001,7;35,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-090,ISO 14001,3;17-18;25;28-29;31-32;34,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-091,ISO 14001,12;17;28-29;34-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-095,ISO 14001,2-3;17-19;24-25;28-30;33-35;39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-099,ISO 14001,2-7;10;12;14-24;28-29;31-37;39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-101,ISO 14001,2-6;12;14;16-20;23;28-30;32-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-102,ISO 14001,2-3;17;19;24;30,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-105,ISO 14001,1-2;17-18;25;28-29;31;34-35;37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-106,ISO 14001,3;12;14-19;22;24;28-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-109,ISO 14001,6-9;12;14-19;22-24;28-29;31-37;39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-110,ISO 14001,28-29;32-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-114,ISO 14001,12;14;17-19;24;28-29;31-32;34-35;37;39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-116,ISO 14001,28-29;34-35,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-119,ISO 14001,1;18-19;28-29;31-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-FSMS-002 (22000),ISO 22000,3;30,ACTIVE,"Classified to EA from the ISO 22003-1 categories listed (C, D, E)"
+CB-FSMS-006 (22000),ISO 22000,3;29-31,ACTIVE,"Classified to EA from the ISO 22003-1 categories listed (C, E, F, G)"
+CB-FSMS-007 (22000),ISO 22000,3;29-31,ACTIVE,"Classified to EA from the ISO 22003-1 categories listed (C, E, F, G)"
+CB-FSMS-009 (22000),ISO 22000,30,ACTIVE,Classified to EA from the ISO 22003-1 categories listed (E)
+CB-FSMS-011 (22000),ISO 22000,3;29-31,ACTIVE,"Classified to EA from the ISO 22003-1 categories listed (C, E, F, G)"
+CB-FSMS-017 (22000),ISO 22000,1;3;7;14;18,ACTIVE,"Classified to EA from the ISO 22003-1 categories listed (A, B, C, D, I, J)"
+CB-FSMS-018 (22000),ISO 22000,1;3;30,ACTIVE,"Classified to EA from the ISO 22003-1 categories listed (A, B, C, D, E)"
+CB-FSMS-019 (22000),ISO 22000,1;3;29-31,ACTIVE,"Classified to EA from the ISO 22003-1 categories listed (A, C, E, F, G)"
+CB-FSMS-020 (22000),ISO 22000,1;3;7;14;18;29-31;35,ACTIVE,"Classified to EA from the ISO 22003-1 categories listed (A, B, C, D, E, F, G, H, I, J)"
+CB-FSMS-021 (22000),ISO 22000,1;3;7;14;18;29-31;35,ACTIVE,"Classified to EA from the ISO 22003-1 categories listed (A, B, C, D, E, F, G, H, I, J)"
+CB-FSMS-035 (22000),ISO 22000,3;7;14;18;29-31;35,ACTIVE,"Classified to EA from the ISO 22003-1 categories listed (C, D, E, F, G, H, I, J)"
+CB-FSMS-040 (22000),ISO 22000,3;29;31,ACTIVE,"Classified to EA from the ISO 22003-1 categories listed (C, D, F, G)"
+CB-FSMS-045 (22000),ISO 22000,3,ACTIVE,Classified to EA from the ISO 22003-1 categories listed (C)
+CB-FSMS-046 (22000),ISO 22000,3;29-31,ACTIVE,"Classified to EA from the ISO 22003-1 categories listed (C, E, F, G)"
+CB-FSMS-057 (22000),ISO 22000,3;29-31,ACTIVE,"Classified to EA from the ISO 22003-1 categories listed (C, E, F, G)"
+CB-FSMS-089 (22000),ISO 22000,3;30,ACTIVE,"Classified to EA from the ISO 22003-1 categories listed (C, E)"
+CB-FSMS-095 (22000),ISO 22000,3,ACTIVE,Classified to EA from the ISO 22003-1 categories listed (C)
+CB-FSMS-101 (22000),ISO 22000,3;29-31,ACTIVE,"Classified to EA from the ISO 22003-1 categories listed (C, E, F, G)"
+CB-FSMS-102 (22000),ISO 22000,3;29-31,ACTIVE,"Classified to EA from the ISO 22003-1 categories listed (C, E, F, G)"
+CB-FSMS-109 (22000),ISO 22000,3;29,ACTIVE,"Classified to EA from the ISO 22003-1 categories listed (C, F)"
+CB-FSMS-119 (22000),ISO 22000,3;30,ACTIVE,"Classified to EA from the ISO 22003-1 categories listed (C, E)"
+CB-ISMS-011 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list readable in the EIAC scope annex; recorded for all EA sectors
+CB-ISMS-045 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list readable in the EIAC scope annex; recorded for all EA sectors
+CB-ISMS-079 (27006),ISO/IEC 27001,33,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-ISMS-095 (27006),ISO/IEC 27001,33,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-ISMS-099 (27006),ISO/IEC 27001,33,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-ISMS-105 (27006),ISO/IEC 27001,33,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-ISMS-109 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list readable in the EIAC scope annex; recorded for all EA sectors
+CB-EMS-002,ISO 45001,17-19;28-29;34-35,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-004,ISO 45001,17-19;22,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-006,ISO 45001,4-7;10;14-19;28-29,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-007,ISO 45001,3;10;12-16;28;30,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-009,ISO 45001,6-11;14-22;28;30-32;34-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-011,ISO 45001,8-10;14-22;25;28-32;35-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-016,ISO 45001,8-10;14-20;22;28-32;35-37;39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-017,ISO 45001,1-10;12-22;24-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-018,ISO 45001,24-27;29;33-34,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-020,ISO 45001,2-3;17-22;28-30;32-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-021,ISO 45001,1-6;8;10;14-19;28-35;37;39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-035,ISO 45001,1-7;10;12-17;19-23;28-29;32-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-040,ISO 45001,9-10;14-19;28-32;34-38,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-045,ISO 45001,1;4-5;12;14-15;17-18;23;28-29;32-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-046,ISO 45001,1-10;12-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-058,ISO 45001,1-10;12-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-076,ISO 45001,1-7;15;17-18;23;25;28;34,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-079,ISO 45001,1;3-12;14;17-20;24;28-29;31;33-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-084,ISO 45001,2-3;14;16-17;25;28-29;31;34;39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-087,ISO 45001,8-9;14;16-19;23-24;28-29;31-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-089,ISO 45001,7;35,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-090,ISO 45001,3-7;17-18;28-29;34,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-091,ISO 45001,12;17;25;28-29;34-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-095,ISO 45001,2-3;12;17-18;20;24-25;28;30;34;38,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-099,ISO 45001,2-3;7;10;12;14-20;22;24-25;28-29;31-37;39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-101,ISO 45001,2-6;12;14;17-20;23;25;28-30;32-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-102,ISO 45001,2-3;17;19;24;30,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-105,ISO 45001,1-2;17-18;28-29;31;34-35;37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-106,ISO 45001,3;12;14-15;17-19;22;24;28-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-109,ISO 45001,5-6;17-19;22-23;28-29;32-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-110,ISO 45001,28-29;32-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-116,ISO 45001,28-29;34-35,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-119,ISO 45001,1;18-19;28-29;31-37;39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-002,ISO 9001,8-9;17-19;24-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-004,ISO 9001,1;3-10;12-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-006,ISO 9001,3-10;12-22;24-25;28-30;32-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-007,ISO 9001,3;10;12-16;28;30,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-009,ISO 9001,8-12;28-32;34-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-011,ISO 9001,8-10;14-19;22;28-32;35-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-016,ISO 9001,8-9;29-32;35-37;39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-018,ISO 9001,1;3-10;12-19;22-23;28-32;35-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-020,ISO 9001,1-6;17-22;28-30;32-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-021,ISO 9001,8-14;16-19;23;28-32;34-35;37;39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-QMS-024,ISO 9001,10;12-19,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-035,ISO 9001,1;3-10;12-23;28-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-QMS-036,ISO 9001,1-23;28-32;35-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-040,ISO 9001,9-10;14-19;28-32;34-38,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-045,ISO 9001,3-6;12-19;23;28-29;31-32;34;36-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-046,ISO 9001,29;32;35-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-QMS-057,ISO 9001,17-18;25,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-076,ISO 9001,4-6;14;16-19;22-23;25;28;34,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-079,ISO 9001,1-4;6-10;12;15-20;22;24-25;28-29;31-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-084,ISO 9001,3-4;16-17;28-29;31;34;39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-QMS-085,ISO 9001,4;6;17-19;22-24,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-089,ISO 9001,7;12;35,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-091,ISO 9001,17;28-29;34-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-QMS-092,ISO 9001,34;39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-095,ISO 9001,2;12;17-18;24;28-30;32-33;36-37;39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-099,ISO 9001,2-10;12;14-20;22-25;28-29;31-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-101,ISO 9001,1-7;10;12;14;17-20;23-24;28-30;32;34-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-102,ISO 9001,1;3;30,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-105,ISO 9001,1-2;17-18;25;28-29;31-32;34-35;37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-106,ISO 9001,1-3;7;10;12;15-20;22;24;28-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-109,ISO 9001,1;3-10;12-24;28-39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-110,ISO 9001,28-29;32;34-36,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-QMS-111,ISO 9001,19;28-29;34,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-114,ISO 9001,1-39,ACTIVE,No sector list readable in the EIAC scope annex; recorded for all EA sectors
+CB-QMS-115,ISO 9001,4-6;14;17-19;22-23;29;32-33;35-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-116,ISO 9001,28-29;34-35,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-QMS-117,ISO 9001,4-5;14;16-19;22-23;28-29;32-37,ACTIVE,IAF/EA codes as listed in the EIAC scope annex
+CB-EMS-119,ISO 9001,1;18-19;28-29;31-32;35-36;39,ACTIVE,IAF/EA codes as listed in the EIAC scope annex

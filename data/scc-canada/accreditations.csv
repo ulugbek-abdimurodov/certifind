@@ -1,0 +1,35 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+SCC,8068,Beijing Kun Biao Certification & Inspection Co. Ltd. (KBRZ),ISO/IEC 17021-1,ACTIVE,2022-01-21,2030-01-21,https://scc-ccn.ca/system/files/2025-11/ASB_SOA_08068_v11_2025-11-10_EN.pdf
+SCC,8002,Bureau de Normalisation Du Québec,ISO/IEC 17021-1,ACTIVE,1993-04-06,2029-04-06,https://scc-ccn.ca/system/files/2026-09/ASB_SOA_08002_V28_2026-08-20_EN.pdf
+SCC,8002 (22301),Bureau de Normalisation Du Québec,ISO/IEC 17021-6,ACTIVE,1993-04-06,2029-04-06,https://scc-ccn.ca/system/files/2026-09/ASB_SOA_08002_V28_2026-08-20_EN.pdf
+SCC,8002 (50003),Bureau de Normalisation Du Québec,ISO 50003,ACTIVE,1993-04-06,2029-04-06,https://scc-ccn.ca/system/files/2026-09/ASB_SOA_08002_V28_2026-08-20_EN.pdf
+SCC,8086,CSA Group Testing & Certification Inc.,ISO/IEC 17021-1,ACTIVE,2026-02-18,2030-02-18,https://scc-ccn.ca/system/files/2026-02/ASB_SOA_08086_v1_2026-02-26_EN.pdf
+SCC,8013,CWB Registration (a Division of CWB Group Industry Solutions),ISO/IEC 17021-1,ACTIVE,1995-03-06,2027-03-06,https://scc-ccn.ca/system/files/2026-07/ASB_SOA_08013_v18_2026-07-23_EN.pdf
+SCC,8013 (27006),CWB Registration (a Division of CWB Group Industry Solutions),ISO/IEC 27006,ACTIVE,1995-03-06,2027-03-06,https://scc-ccn.ca/system/files/2026-07/ASB_SOA_08013_v18_2026-07-23_EN.pdf
+SCC,8047,DQS Medizinprodukte GmbH,ISO/IEC 17021-1,ACTIVE,2011-01-24,2027-01-24,https://scc-ccn.ca/system/files/2025-11/ASB_SOA_08047_Scope_v22_2025-11-03_EN.pdf
+SCC,8070,INTERCERT INC.,ISO/IEC 17021-1,ACTIVE,2022-02-25,2030-02-25,https://scc-ccn.ca/system/files/2025-11/ASB-SOA_08070_Scope_v11_2025-11-27_EN.pdf
+SCC,8070 (50003),INTERCERT INC.,ISO 50003,ACTIVE,2022-02-25,2030-02-25,https://scc-ccn.ca/system/files/2025-11/ASB-SOA_08070_Scope_v11_2025-11-27_EN.pdf
+SCC,8070 (37001),INTERCERT INC.,ISO/IEC 17021-9,ACTIVE,2022-02-25,2030-02-25,https://scc-ccn.ca/system/files/2025-11/ASB-SOA_08070_Scope_v11_2025-11-27_EN.pdf
+SCC,8070 (27006),INTERCERT INC.,ISO/IEC 27006,ACTIVE,2022-02-25,2030-02-25,https://scc-ccn.ca/system/files/2025-11/ASB-SOA_08070_Scope_v11_2025-11-27_EN.pdf
+SCC,8052,International Quality Registrars Corporation,ISO/IEC 17021-1,ACTIVE,2015-01-29,2027-01-29,https://scc-ccn.ca/system/files/2026-05/ASB_SOA_08052_Scope_v5_2026-05-13_EN.pdf
+SCC,8052 (9104),International Quality Registrars Corporation,AS 9104-1,ACTIVE,2015-01-29,2027-01-29,https://scc-ccn.ca/system/files/2026-05/ASB_SOA_08052_Scope_v5_2026-05-13_EN.pdf
+SCC,8006,Intertek Testing Services NA Inc.,ISO/IEC 17021-1,ACTIVE,1993-02-02,2027-02-02,https://scc-ccn.ca/system/files/2026-01/ASB_SOA_08006-Scope_v23_2025-11-03_EN.pdf
+SCC,8029,KPMG Performance Registrar Inc.,ISO/IEC 17021-1,ACTIVE,2002-08-26,2030-08-26,https://scc-ccn.ca/system/files/2026-11/ASB_SOA_08029-KPMG_v24_2026-11-09_EN.pdf
+SCC,8077,KVQA Certification Services PVT. LTD.,ISO/IEC 17021-1,ACTIVE,2023-07-24,2027-07-24,https://scc-ccn.ca/system/files/2025-10/ASB_08077_KVQA_MSAP_SCOPE_v5_2025-10-31_EN.pdf
+SCC,8077 (27006),KVQA Certification Services PVT. LTD.,ISO/IEC 27006,ACTIVE,2023-07-24,2027-07-24,https://scc-ccn.ca/system/files/2025-10/ASB_08077_KVQA_MSAP_SCOPE_v5_2025-10-31_EN.pdf
+SCC,8072,LMS Certifications FZE LLC,ISO/IEC 17021-1,ACTIVE,2023-03-21,2027-03-21,https://scc-ccn.ca/system/files/2026-05/ASB_SOA_08072_v6_2026-05-08_EN.pdf
+SCC,8072 (50003),LMS Certifications FZE LLC,ISO 50003,ACTIVE,2023-03-21,2027-03-21,https://scc-ccn.ca/system/files/2026-05/ASB_SOA_08072_v6_2026-05-08_EN.pdf
+SCC,8072 (27006),LMS Certifications FZE LLC,ISO/IEC 27006,ACTIVE,2023-03-21,2027-03-21,https://scc-ccn.ca/system/files/2026-05/ASB_SOA_08072_v6_2026-05-08_EN.pdf
+SCC,8091,Metal Industries Research & Development Centre,ISO/IEC 17021-1,ACTIVE,2025-10-01,2029-10-01,https://scc-ccn.ca/system/files/2025-10/ASB_SOA_08091_v2_2025-10-29_EN.pdf
+SCC,8028,NSAI,ISO/IEC 17021-1,ACTIVE,2003-12-31,2027-12-31,https://scc-ccn.ca/system/files/2026-02/ASB_SOA_08028-NSAI-Scope_v31_2026-02-24_EN.pdf
+SCC,8039,PricewaterhouseCoopers LLP,ISO/IEC 17021-1,ACTIVE,2003-02-20,2027-02-20,https://scc-ccn.ca/system/files/2026-10/ASB_SOA_08039_v2_2026-10-29_EN.pdf
+SCC,8039 (42001),PricewaterhouseCoopers LLP,ISO/IEC 42006,ACTIVE,2003-02-20,2027-02-20,https://scc-ccn.ca/system/files/2026-10/ASB_SOA_08039_v2_2026-10-29_EN.pdf
+SCC,8039 (27006),PricewaterhouseCoopers LLP,ISO/IEC 27006,ACTIVE,2003-02-20,2027-02-20,https://scc-ccn.ca/system/files/2026-10/ASB_SOA_08039_v2_2026-10-29_EN.pdf
+SCC,8039 (20000),PricewaterhouseCoopers LLP,ISO/IEC 20000-6,ACTIVE,2003-02-20,2027-02-20,https://scc-ccn.ca/system/files/2026-10/ASB_SOA_08039_v2_2026-10-29_EN.pdf
+SCC,8073,QFS MANAGEMENT SYSTEMS LLP,ISO/IEC 17021-1,ACTIVE,2023-03-18,2027-03-18,https://scc-ccn.ca/system/files/2026-11/ASB_SOA_08073-QFSMS-MSAP_v8_2026-11-09_EN.pdf
+SCC,8073 (37001),QFS MANAGEMENT SYSTEMS LLP,ISO/IEC 17021-9,ACTIVE,2023-03-18,2027-03-18,https://scc-ccn.ca/system/files/2026-11/ASB_SOA_08073-QFSMS-MSAP_v8_2026-11-09_EN.pdf
+SCC,8073 (22301),QFS MANAGEMENT SYSTEMS LLP,ISO/IEC 17021-6,ACTIVE,2023-03-18,2027-03-18,https://scc-ccn.ca/system/files/2026-11/ASB_SOA_08073-QFSMS-MSAP_v8_2026-11-09_EN.pdf
+SCC,8073 (27006),QFS MANAGEMENT SYSTEMS LLP,ISO/IEC 27006,ACTIVE,2023-03-18,2027-03-18,https://scc-ccn.ca/system/files/2026-11/ASB_SOA_08073-QFSMS-MSAP_v8_2026-11-09_EN.pdf
+SCC,8082,SAV Advisory Inc.,ISO/IEC 17021-1,ACTIVE,2024-12-07,2028-12-07,https://scc-ccn.ca/system/files/2026-04/ASB_SOA_08082_v5_2026-04-29_EN.pdf
+SCC,8082 (27006),SAV Advisory Inc.,ISO/IEC 27006,ACTIVE,2024-12-07,2028-12-07,https://scc-ccn.ca/system/files/2026-04/ASB_SOA_08082_v5_2026-04-29_EN.pdf
+SCC,8023,TÜV SÜD America Inc.,ISO/IEC 17021-1,ACTIVE,2001-08-03,2027-08-03,https://scc-ccn.ca/system/files/2025-10/ASB_SOA_08023_Scope_v11_2025-10-28_EN.pdf

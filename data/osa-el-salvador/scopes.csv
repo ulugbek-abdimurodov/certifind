@@ -1,0 +1,4 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+OCA-01:07,ISO 9001,25;28;36,ACTIVE,IAF/EA sectors as listed in the OSA scope annex
+OCA-01:15,ISO 9001,17;35-36,ACTIVE,IAF/EA sectors as listed in the OSA scope annex
+OCA-01:15 (37001),ISO 37001,1-39,ACTIVE,No sector list in the OSA register; recorded for all EA sectors

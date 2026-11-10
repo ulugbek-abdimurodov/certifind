@@ -1,0 +1,70 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+KAB,KAB-QC-01,Korean Foundation Quality,ISO/IEC 17021-1,ACTIVE,1993-10-18,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=150&menuNo=500044
+KAB,KAB-AS-02 (9104),Korean Foundation Quality,AS 9104-1,ACTIVE,2019-02-22,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=150&menuNo=500044
+KAB,KAB-FC-01 (22000),Korean Foundation Quality,ISO 22003-1,ACTIVE,2006-06-15,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=150&menuNo=500044
+KAB,KAB-IC-04 (27006),Korean Foundation Quality,ISO/IEC 27006,ACTIVE,2015-02-14,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=150&menuNo=500044
+KAB,KAB-EN-02 (50003),Korean Foundation Quality,ISO 50003,ACTIVE,2013-08-26,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=150&menuNo=500044
+KAB,KAB-BC-02 (22301),Korean Foundation Quality,ISO/IEC 17021-6,ACTIVE,2016-06-27,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=150&menuNo=500044
+KAB,KAB-AC-02 (37001),Korean Foundation Quality,ISO/IEC 17021-9,ACTIVE,2017-04-21,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=150&menuNo=500044
+KAB,KAB-AI-07 (42001),Korean Foundation Quality,ISO/IEC 42006,ACTIVE,2026-02-13,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=150&menuNo=500044
+KAB,KAB-QC-03,"CREBIZ CERTIFICATION BODY Co., Ltd.",ISO/IEC 17021-1,ACTIVE,1994-02-26,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=151&menuNo=500044
+KAB,KAB-AC-18 (37001),"CREBIZ CERTIFICATION BODY Co., Ltd.",ISO/IEC 17021-9,ACTIVE,2024-03-21,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=151&menuNo=500044
+KAB,KAB-QC-04,Korea Productivity Center Quality Assurance,ISO/IEC 17021-1,ACTIVE,1994-03-22,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=152&menuNo=500044
+KAB,KAB-FC-05 (22000),Korea Productivity Center Quality Assurance,ISO 22003-1,ACTIVE,2006-06-15,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=152&menuNo=500044
+KAB,KAB-IC-13 (27006),Korea Productivity Center Quality Assurance,ISO/IEC 27006,ACTIVE,2025-11-19,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=152&menuNo=500044
+KAB,KAB-EN-09 (50003),Korea Productivity Center Quality Assurance,ISO 50003,ACTIVE,2023-12-12,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=152&menuNo=500044
+KAB,KAB-BC-07 (22301),Korea Productivity Center Quality Assurance,ISO/IEC 17021-6,ACTIVE,2017-08-24,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=152&menuNo=500044
+KAB,KAB-AC-08 (37001),Korea Productivity Center Quality Assurance,ISO/IEC 17021-9,ACTIVE,2017-12-22,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=152&menuNo=500044
+KAB,KAB-AI-05 (42001),Korea Productivity Center Quality Assurance,ISO/IEC 42006,ACTIVE,2025-09-17,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=152&menuNo=500044
+KAB,KAB-QC-05,Korea Quality Assurance,ISO/IEC 17021-1,ACTIVE,1994-05-24,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=153&menuNo=500044
+KAB,KAB-FC-06 (22000),Korea Quality Assurance,ISO 22003-1,ACTIVE,2006-06-15,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=153&menuNo=500044
+KAB,KAB-IC-01 (27006),Korea Quality Assurance,ISO/IEC 27006,ACTIVE,2011-04-27,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=153&menuNo=500044
+KAB,KAB-QC-06,KTC Quality Assurance,ISO/IEC 17021-1,ACTIVE,1994-12-02,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=154&menuNo=500044
+KAB,KAB-QC-07,KOTRIC Certification Center,ISO/IEC 17021-1,ACTIVE,1995-03-02,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=155&menuNo=500044
+KAB,KAB-IC-23 (27006),KOTRIC Certification Center,ISO/IEC 27006,ACTIVE,2026-10-14,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=155&menuNo=500044
+KAB,KAB-QC-09,Korea SMEs & Startups Registrar,ISO/IEC 17021-1,ACTIVE,1996-01-09,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=156&menuNo=500044
+KAB,KAB-FC-08 (22000),Korea SMEs & Startups Registrar,ISO 22003-1,ACTIVE,2009-05-01,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=156&menuNo=500044
+KAB,KAB-IC-18 (27006),Korea SMEs & Startups Registrar,ISO/IEC 27006,ACTIVE,2026-04-15,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=156&menuNo=500044
+KAB,KAB-BC-14 (22301),Korea SMEs & Startups Registrar,ISO/IEC 17021-6,ACTIVE,2025-08-21,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=156&menuNo=500044
+KAB,KAB-AC-07 (37001),Korea SMEs & Startups Registrar,ISO/IEC 17021-9,ACTIVE,2017-12-22,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=156&menuNo=500044
+KAB,KAB-QC-08,Korean Register of Shipping,ISO/IEC 17021-1,ACTIVE,1996-01-09,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=157&menuNo=500044
+KAB,KAB-QC-11,M.I.T. Certification Center,ISO/IEC 17021-1,ACTIVE,1996-10-23,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=159&menuNo=500044
+KAB,KAB-QC-13,LRQA Korea Limited,ISO/IEC 17021-1,ACTIVE,1997-01-16,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=160&menuNo=500044
+KAB,KAB-AS-03 (9104),LRQA Korea Limited,AS 9104-1,ACTIVE,2019-05-30,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=160&menuNo=500044
+KAB,KAB-AC-09 (37001),LRQA Korea Limited,ISO/IEC 17021-9,ACTIVE,2019-07-29,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=160&menuNo=500044
+KAB,KAB-QC-14,Korea Institute of Construction Materials-Quality Assurance,ISO/IEC 17021-1,ACTIVE,1997-02-28,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=161&menuNo=500044
+KAB,KAB-QC-17,Korea Management Register,ISO/IEC 17021-1,ACTIVE,1998-03-28,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=162&menuNo=500044
+KAB,KAB-FC-07 (22000),Korea Management Register,ISO 22003-1,ACTIVE,2007-07-26,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=162&menuNo=500044
+KAB,KAB-IC-03 (27006),Korea Management Register,ISO/IEC 27006,ACTIVE,2014-11-29,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=162&menuNo=500044
+KAB,KAB-EN-07 (50003),Korea Management Register,ISO 50003,ACTIVE,2023-06-20,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=162&menuNo=500044
+KAB,KAB-BC-06 (22301),Korea Management Register,ISO/IEC 17021-6,ACTIVE,2016-12-15,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=162&menuNo=500044
+KAB,KAB-AC-03 (37001),Korea Management Register,ISO/IEC 17021-9,ACTIVE,2017-04-21,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=162&menuNo=500044
+KAB,KAB-AI-01 (42001),Korea Management Register,ISO/IEC 42006,ACTIVE,2024-09-26,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=162&menuNo=500044
+KAB,KAB-QC-18,"K-Certi Co.,Ltd.",ISO/IEC 17021-1,ACTIVE,1998-07-01,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=163&menuNo=500044
+KAB,KAB-AC-06 (37001),"K-Certi Co.,Ltd.",ISO/IEC 17021-9,ACTIVE,2017-07-21,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=163&menuNo=500044
+KAB,KAB-AI-10 (42001),"K-Certi Co.,Ltd.",ISO/IEC 42006,ACTIVE,2026-09-23,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=163&menuNo=500044
+KAB,KAB-QC-22,Korea Gas Safety Corporation,ISO/IEC 17021-1,ACTIVE,1999-03-27,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=164&menuNo=500044
+KAB,KAB-QC-23,Korea Employers' Federation Certification Register,ISO/IEC 17021-1,ACTIVE,1999-04-01,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=165&menuNo=500044
+KAB,KAB-QC-26,International Technology-Quality Assurance,ISO/IEC 17021-1,ACTIVE,1999-10-28,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=168&menuNo=500044
+KAB,KAB-IC-12 (27006),International Technology-Quality Assurance,ISO/IEC 27006,ACTIVE,2025-04-17,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=168&menuNo=500044
+KAB,KAB-EN-10 (50003),International Technology-Quality Assurance,ISO 50003,ACTIVE,2024-07-23,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=168&menuNo=500044
+KAB,KAB-AI-08 (42001),International Technology-Quality Assurance,ISO/IEC 42006,ACTIVE,2026-02-13,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=168&menuNo=500044
+KAB,KAB-QC-28,International Standard Certification Co Ltd,ISO/IEC 17021-1,ACTIVE,1999-11-27,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=169&menuNo=500044
+KAB,KAB-QC-29,"Korea Knowledge Standard Registrars Co., Ltd.",ISO/IEC 17021-1,ACTIVE,2000-02-25,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=170&menuNo=500044
+KAB,KAB-IC-06 (27006),"Korea Knowledge Standard Registrars Co., Ltd.",ISO/IEC 27006,ACTIVE,2020-09-23,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=170&menuNo=500044
+KAB,KAB-EN-08 (50003),"Korea Knowledge Standard Registrars Co., Ltd.",ISO 50003,ACTIVE,2023-12-12,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=170&menuNo=500044
+KAB,KAB-BC-01 (22301),"Korea Knowledge Standard Registrars Co., Ltd.",ISO/IEC 17021-6,ACTIVE,2016-06-27,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=170&menuNo=500044
+KAB,KAB-AC-01 (37001),"Korea Knowledge Standard Registrars Co., Ltd.",ISO/IEC 17021-9,ACTIVE,2017-04-21,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=170&menuNo=500044
+KAB,KAB-AI-03 (42001),"Korea Knowledge Standard Registrars Co., Ltd.",ISO/IEC 42006,ACTIVE,2025-02-14,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=170&menuNo=500044
+KAB,KAB-QC-30,Korean Standards Association,ISO/IEC 17021-1,ACTIVE,2000-03-11,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=171&menuNo=500044
+KAB,KAB-FC-02 (22000),Korean Standards Association,ISO 22003-1,ACTIVE,2006-06-15,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=171&menuNo=500044
+KAB,KAB-IC-08 (27006),Korean Standards Association,ISO/IEC 27006,ACTIVE,2021-05-07,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=171&menuNo=500044
+KAB,KAB-EN-03 (50003),Korean Standards Association,ISO 50003,ACTIVE,2013-12-02,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=171&menuNo=500044
+KAB,KAB-BC-04 (22301),Korean Standards Association,ISO/IEC 17021-6,ACTIVE,2016-12-15,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=171&menuNo=500044
+KAB,KAB-AC-05 (37001),Korean Standards Association,ISO/IEC 17021-9,ACTIVE,2017-06-29,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=171&menuNo=500044
+KAB,KAB-AI-02 (42001),Korean Standards Association,ISO/IEC 42006,ACTIVE,2024-09-26,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=171&menuNo=500044
+KAB,KAB-QC-31,System Korea Certification,ISO/IEC 17021-1,ACTIVE,2000-06-17,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=172&menuNo=500044
+KAB,KAB-EN-14 (50003),System Korea Certification,ISO 50003,ACTIVE,2025-08-21,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=172&menuNo=500044
+KAB,KAB-BC-10 (22301),System Korea Certification,ISO/IEC 17021-6,ACTIVE,2018-04-24,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=172&menuNo=500044
+KAB,KAB-AC-19 (37001),System Korea Certification,ISO/IEC 17021-9,ACTIVE,2024-04-25,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=172&menuNo=500044
+KAB,KAB-QC-32,World Standard Certification Service Co. Ltd.,ISO/IEC 17021-1,ACTIVE,2003-08-21,,https://eng.kab.or.kr/eng/kcn/kcn/view.do?orgIdx=173&menuNo=500044

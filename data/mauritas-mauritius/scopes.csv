@@ -1,0 +1,4 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+CB001,ISO 9001,1;3-4;12;14;17;29;31-38,ACTIVE,"IAF ID1 sectors per schedule. Partial: EA 1: except NACE 02; EA 3: except NACE 12; EA 17: except NACE 24.46, 25.4, 33.11; EA 29: except NACE 95.2; EA 31: except NACE 49, 50, 51, 61; EA 32: except NACE 68, 77; EA 33: except NACE 58.2; EA 34: except NACE 74.2, 74.3; EA 35: except NACE 73, 74.2, 74.3"
+CB001 (22000),ISO 22000,3,ACTIVE,"ISO 22003-1 category C (C0, CI-CIV) mapped to EA"
+CB001 (27006),ISO/IEC 27001,1-39,ACTIVE,No sector list in the MAURITAS register; recorded for all EA sectors (ISO/IEC 27001:2022)

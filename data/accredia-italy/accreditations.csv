@@ -1,0 +1,284 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+ACCREDIA,00001,KIWA CERMET Italia S.p.A.,ISO/IEC 17021-1,ACTIVE,1991-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0014
+ACCREDIA,00001 (20000),KIWA CERMET Italia S.p.A.,ISO/IEC 20000-6,ACTIVE,1991-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0014
+ACCREDIA,00001 (22000),KIWA CERMET Italia S.p.A.,ISO 22003-1,ACTIVE,1991-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0014
+ACCREDIA,00001 (22301),KIWA CERMET Italia S.p.A.,ISO/IEC 17021-6,ACTIVE,1991-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0014
+ACCREDIA,00001 (27006),KIWA CERMET Italia S.p.A.,ISO/IEC 27006,ACTIVE,1991-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0014
+ACCREDIA,00001 (37001),KIWA CERMET Italia S.p.A.,ISO/IEC 17021-9,ACTIVE,1991-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0014
+ACCREDIA,00001 (39001),KIWA CERMET Italia S.p.A.,ISO/IEC 17021-7,ACTIVE,1991-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0014
+ACCREDIA,00001 (50003),KIWA CERMET Italia S.p.A.,ISO 50003,ACTIVE,1991-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0014
+ACCREDIA,00001 (9104),KIWA CERMET Italia S.p.A.,AS 9104-1,ACTIVE,1991-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0014
+ACCREDIA,00003,IGQ - Istituto Italiano di Garanzia della Qualità,ISO/IEC 17021-1,ACTIVE,1990-01-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0036
+ACCREDIA,00003 (50003),IGQ - Istituto Italiano di Garanzia della Qualità,ISO 50003,ACTIVE,1990-01-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0036
+ACCREDIA,00005,RINA Services SPA,ISO/IEC 17021-1,ACTIVE,1990-09-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0051
+ACCREDIA,00005 (20000),RINA Services SPA,ISO/IEC 20000-6,ACTIVE,1990-09-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0051
+ACCREDIA,00005 (20121),RINA Services SPA,ISO/IEC 17021-4,ACTIVE,1990-09-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0051
+ACCREDIA,00005 (22000),RINA Services SPA,ISO 22003-1,ACTIVE,1990-09-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0051
+ACCREDIA,00005 (22301),RINA Services SPA,ISO/IEC 17021-6,ACTIVE,1990-09-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0051
+ACCREDIA,00005 (27006),RINA Services SPA,ISO/IEC 27006,ACTIVE,1990-09-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0051
+ACCREDIA,00005 (37001),RINA Services SPA,ISO/IEC 17021-9,ACTIVE,1990-09-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0051
+ACCREDIA,00005 (39001),RINA Services SPA,ISO/IEC 17021-7,ACTIVE,1990-09-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0051
+ACCREDIA,00005 (42001),RINA Services SPA,ISO/IEC 42006,ACTIVE,1990-09-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0051
+ACCREDIA,00005 (50003),RINA Services SPA,ISO 50003,ACTIVE,1990-09-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0051
+ACCREDIA,00005 (9104),RINA Services SPA,AS 9104-1,ACTIVE,1990-09-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0051
+ACCREDIA,00010,DNV Business Assurance Italy S.r.l.,ISO/IEC 17021-1,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0027
+ACCREDIA,00010 (20121),DNV Business Assurance Italy S.r.l.,ISO/IEC 17021-4,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0027
+ACCREDIA,00010 (22000),DNV Business Assurance Italy S.r.l.,ISO 22003-1,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0027
+ACCREDIA,00010 (27006),DNV Business Assurance Italy S.r.l.,ISO/IEC 27006,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0027
+ACCREDIA,00010 (37001),DNV Business Assurance Italy S.r.l.,ISO/IEC 17021-9,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0027
+ACCREDIA,00010 (39001),DNV Business Assurance Italy S.r.l.,ISO/IEC 17021-7,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0027
+ACCREDIA,00010 (50003),DNV Business Assurance Italy S.r.l.,ISO 50003,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0027
+ACCREDIA,00010 (9104),DNV Business Assurance Italy S.r.l.,AS 9104-1,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0027
+ACCREDIA,00012,ICIM S.p.A.,ISO/IEC 17021-1,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0034
+ACCREDIA,00012 (20121),ICIM S.p.A.,ISO/IEC 17021-4,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0034
+ACCREDIA,00012 (27006),ICIM S.p.A.,ISO/IEC 27006,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0034
+ACCREDIA,00012 (37001),ICIM S.p.A.,ISO/IEC 17021-9,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0034
+ACCREDIA,00012 (39001),ICIM S.p.A.,ISO/IEC 17021-7,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0034
+ACCREDIA,00012 (50003),ICIM S.p.A.,ISO 50003,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0034
+ACCREDIA,00012 (9104),ICIM S.p.A.,AS 9104-1,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0034
+ACCREDIA,00013,IMQ S.p.A.,ISO/IEC 17021-1,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0040
+ACCREDIA,00013 (20000),IMQ S.p.A.,ISO/IEC 20000-6,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0040
+ACCREDIA,00013 (20121),IMQ S.p.A.,ISO/IEC 17021-4,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0040
+ACCREDIA,00013 (22000),IMQ S.p.A.,ISO 22003-1,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0040
+ACCREDIA,00013 (22301),IMQ S.p.A.,ISO/IEC 17021-6,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0040
+ACCREDIA,00013 (27006),IMQ S.p.A.,ISO/IEC 27006,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0040
+ACCREDIA,00013 (37001),IMQ S.p.A.,ISO/IEC 17021-9,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0040
+ACCREDIA,00013 (39001),IMQ S.p.A.,ISO/IEC 17021-7,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0040
+ACCREDIA,00013 (42001),IMQ S.p.A.,ISO/IEC 42006,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0040
+ACCREDIA,00013 (50003),IMQ S.p.A.,ISO 50003,ACTIVE,1990-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0040
+ACCREDIA,00016,IIP S.r.l.,ISO/IEC 17021-1,ACTIVE,1991-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0037
+ACCREDIA,00016 (27006),IIP S.r.l.,ISO/IEC 27006,ACTIVE,1991-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0037
+ACCREDIA,00016 (50003),IIP S.r.l.,ISO 50003,ACTIVE,1991-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0037
+ACCREDIA,00019,Istituto Giordano S.p.A.,ISO/IEC 17021-1,ACTIVE,2000-12-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0619
+ACCREDIA,00027,CERTIQUALITY S.r.l.,ISO/IEC 17021-1,ACTIVE,1992-07-01,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0016
+ACCREDIA,00027 (20000),CERTIQUALITY S.r.l.,ISO/IEC 20000-6,ACTIVE,1992-07-01,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0016
+ACCREDIA,00027 (22000),CERTIQUALITY S.r.l.,ISO 22003-1,ACTIVE,1992-07-01,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0016
+ACCREDIA,00027 (22301),CERTIQUALITY S.r.l.,ISO/IEC 17021-6,ACTIVE,1992-07-01,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0016
+ACCREDIA,00027 (27006),CERTIQUALITY S.r.l.,ISO/IEC 27006,ACTIVE,1992-07-01,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0016
+ACCREDIA,00027 (37001),CERTIQUALITY S.r.l.,ISO/IEC 17021-9,ACTIVE,1992-07-01,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0016
+ACCREDIA,00027 (39001),CERTIQUALITY S.r.l.,ISO/IEC 17021-7,ACTIVE,1992-07-01,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0016
+ACCREDIA,00027 (42001),CERTIQUALITY S.r.l.,ISO/IEC 42006,ACTIVE,1992-07-01,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0016
+ACCREDIA,00027 (50003),CERTIQUALITY S.r.l.,ISO 50003,ACTIVE,1992-07-01,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0016
+ACCREDIA,00031,Bureau Veritas Italia S.p.A.,ISO/IEC 17021-1,ACTIVE,1993-03-10,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0663
+ACCREDIA,00031 (20000),Bureau Veritas Italia S.p.A.,ISO/IEC 20000-6,ACTIVE,1993-03-10,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0663
+ACCREDIA,00031 (20121),Bureau Veritas Italia S.p.A.,ISO/IEC 17021-4,ACTIVE,1993-03-10,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0663
+ACCREDIA,00031 (22000),Bureau Veritas Italia S.p.A.,ISO 22003-1,ACTIVE,1993-03-10,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0663
+ACCREDIA,00031 (22301),Bureau Veritas Italia S.p.A.,ISO/IEC 17021-6,ACTIVE,1993-03-10,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0663
+ACCREDIA,00031 (27006),Bureau Veritas Italia S.p.A.,ISO/IEC 27006,ACTIVE,1993-03-10,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0663
+ACCREDIA,00031 (37001),Bureau Veritas Italia S.p.A.,ISO/IEC 17021-9,ACTIVE,1993-03-10,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0663
+ACCREDIA,00031 (39001),Bureau Veritas Italia S.p.A.,ISO/IEC 17021-7,ACTIVE,1993-03-10,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0663
+ACCREDIA,00031 (50003),Bureau Veritas Italia S.p.A.,ISO 50003,ACTIVE,1993-03-10,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0663
+ACCREDIA,00054,Eurofins Product Testing Italy S.r.l.,ISO/IEC 17021-1,ACTIVE,2015-12-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0862
+ACCREDIA,00064,ICMQ S.p.A. Società Benefit,ISO/IEC 17021-1,ACTIVE,1993-10-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0035
+ACCREDIA,00064 (22301),ICMQ S.p.A. Società Benefit,ISO/IEC 17021-6,ACTIVE,1993-10-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0035
+ACCREDIA,00064 (27006),ICMQ S.p.A. Società Benefit,ISO/IEC 27006,ACTIVE,1993-10-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0035
+ACCREDIA,00064 (37001),ICMQ S.p.A. Società Benefit,ISO/IEC 17021-9,ACTIVE,1993-10-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0035
+ACCREDIA,00064 (39001),ICMQ S.p.A. Società Benefit,ISO/IEC 17021-7,ACTIVE,1993-10-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0035
+ACCREDIA,00064 (50003),ICMQ S.p.A. Società Benefit,ISO 50003,ACTIVE,1993-10-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0035
+ACCREDIA,00070,CSQA Certificazioni S.r.l.,ISO/IEC 17021-1,ACTIVE,1994-03-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0010
+ACCREDIA,00070 (20000),CSQA Certificazioni S.r.l.,ISO/IEC 20000-6,ACTIVE,1994-03-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0010
+ACCREDIA,00070 (22000),CSQA Certificazioni S.r.l.,ISO 22003-1,ACTIVE,1994-03-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0010
+ACCREDIA,00070 (22301),CSQA Certificazioni S.r.l.,ISO/IEC 17021-6,ACTIVE,1994-03-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0010
+ACCREDIA,00070 (27006),CSQA Certificazioni S.r.l.,ISO/IEC 27006,ACTIVE,1994-03-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0010
+ACCREDIA,00070 (37001),CSQA Certificazioni S.r.l.,ISO/IEC 17021-9,ACTIVE,1994-03-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0010
+ACCREDIA,00070 (42001),CSQA Certificazioni S.r.l.,ISO/IEC 42006,ACTIVE,1994-03-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0010
+ACCREDIA,00070 (50003),CSQA Certificazioni S.r.l.,ISO 50003,ACTIVE,1994-03-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0010
+ACCREDIA,00077,TÜV Italia S.r.l.,ISO/IEC 17021-1,ACTIVE,1999-01-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0055
+ACCREDIA,00077 (20000),TÜV Italia S.r.l.,ISO/IEC 20000-6,ACTIVE,1999-01-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0055
+ACCREDIA,00077 (20121),TÜV Italia S.r.l.,ISO/IEC 17021-4,ACTIVE,1999-01-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0055
+ACCREDIA,00077 (22301),TÜV Italia S.r.l.,ISO/IEC 17021-6,ACTIVE,1999-01-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0055
+ACCREDIA,00077 (27006),TÜV Italia S.r.l.,ISO/IEC 27006,ACTIVE,1999-01-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0055
+ACCREDIA,00077 (37001),TÜV Italia S.r.l.,ISO/IEC 17021-9,ACTIVE,1999-01-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0055
+ACCREDIA,00077 (39001),TÜV Italia S.r.l.,ISO/IEC 17021-7,ACTIVE,1999-01-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0055
+ACCREDIA,00077 (50003),TÜV Italia S.r.l.,ISO 50003,ACTIVE,1999-01-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0055
+ACCREDIA,00077 (55001),TÜV Italia S.r.l.,ISO/IEC 17021-5,ACTIVE,1999-01-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0055
+ACCREDIA,00077 (9104),TÜV Italia S.r.l.,AS 9104-1,ACTIVE,1999-01-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0055
+ACCREDIA,00080,QUASER CERTIFICAZIONI S.r.l.,ISO/IEC 17021-1,ACTIVE,1994-09-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0049
+ACCREDIA,00080 (22000),QUASER CERTIFICAZIONI S.r.l.,ISO 22003-1,ACTIVE,1994-09-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0049
+ACCREDIA,00080 (27006),QUASER CERTIFICAZIONI S.r.l.,ISO/IEC 27006,ACTIVE,1994-09-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0049
+ACCREDIA,00080 (37001),QUASER CERTIFICAZIONI S.r.l.,ISO/IEC 17021-9,ACTIVE,1994-09-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0049
+ACCREDIA,00081,IIS CERT S.r.l.,ISO/IEC 17021-1,ACTIVE,1994-09-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0038
+ACCREDIA,00081 (9104),IIS CERT S.r.l.,AS 9104-1,ACTIVE,1994-09-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0038
+ACCREDIA,00088,ITALCERT S.r.l.,ISO/IEC 17021-1,ACTIVE,1995-03-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0042
+ACCREDIA,00092,CNIM S.r.l.,ISO/IEC 17021-1,ACTIVE,1995-06-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0022
+ACCREDIA,00107,UNITER S.r.l.,ISO/IEC 17021-1,ACTIVE,1996-04-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0058
+ACCREDIA,00109,ANCIS S.r.l.,ISO/IEC 17021-1,ACTIVE,1996-07-03,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0005
+ACCREDIA,00109 (37001),ANCIS S.r.l.,ISO/IEC 17021-9,ACTIVE,1996-07-03,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0005
+ACCREDIA,00109 (39001),ANCIS S.r.l.,ISO/IEC 17021-7,ACTIVE,1996-07-03,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0005
+ACCREDIA,00109 (50003),ANCIS S.r.l.,ISO 50003,ACTIVE,1996-07-03,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0005
+ACCREDIA,00122,I.CE.C. Istituto di Certificazione della Qualità per l'Industria Conciaria,ISO/IEC 17021-1,ACTIVE,1997-01-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0030
+ACCREDIA,00124,SIET S.p.A.,ISO/IEC 17021-1,ACTIVE,2019-11-05,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2887
+ACCREDIA,00124 (27006),SIET S.p.A.,ISO/IEC 27006,ACTIVE,2019-11-05,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2887
+ACCREDIA,00133,ANCCP Certification Agency S.r.l.,ISO/IEC 17021-1,ACTIVE,1997-07-09,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0004
+ACCREDIA,00134,LRQA Italy S.r.l.,ISO/IEC 17021-1,ACTIVE,1997-07-09,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0043
+ACCREDIA,00134 (27006),LRQA Italy S.r.l.,ISO/IEC 27006,ACTIVE,1997-07-09,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0043
+ACCREDIA,00134 (37001),LRQA Italy S.r.l.,ISO/IEC 17021-9,ACTIVE,1997-07-09,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0043
+ACCREDIA,00134 (50003),LRQA Italy S.r.l.,ISO 50003,ACTIVE,1997-07-09,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0043
+ACCREDIA,00151,INTERTEK ITALIA S.p.A.,ISO/IEC 17021-1,ACTIVE,1998-09-24,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0006
+ACCREDIA,00151 (39001),INTERTEK ITALIA S.p.A.,ISO/IEC 17021-7,ACTIVE,1998-09-24,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0006
+ACCREDIA,00151 (9104),INTERTEK ITALIA S.p.A.,AS 9104-1,ACTIVE,1998-09-24,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0006
+ACCREDIA,00152,DEKRA Testing and Certification S.r.l.,ISO/IEC 17021-1,ACTIVE,2010-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0948
+ACCREDIA,00152 (27006),DEKRA Testing and Certification S.r.l.,ISO/IEC 27006,ACTIVE,2010-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0948
+ACCREDIA,00162,MTIC InterCert S.r.l.,ISO/IEC 17021-1,ACTIVE,1999-01-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0041
+ACCREDIA,00190,DASA RÄGISTER S.p.A.,ISO/IEC 17021-1,ACTIVE,2000-06-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0540
+ACCREDIA,00190 (22000),DASA RÄGISTER S.p.A.,ISO 22003-1,ACTIVE,2000-06-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0540
+ACCREDIA,00190 (22301),DASA RÄGISTER S.p.A.,ISO/IEC 17021-6,ACTIVE,2000-06-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0540
+ACCREDIA,00190 (27006),DASA RÄGISTER S.p.A.,ISO/IEC 27006,ACTIVE,2000-06-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0540
+ACCREDIA,00190 (37001),DASA RÄGISTER S.p.A.,ISO/IEC 17021-9,ACTIVE,2000-06-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0540
+ACCREDIA,00190 (39001),DASA RÄGISTER S.p.A.,ISO/IEC 17021-7,ACTIVE,2000-06-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0540
+ACCREDIA,00190 (50003),DASA RÄGISTER S.p.A.,ISO 50003,ACTIVE,2000-06-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0540
+ACCREDIA,00195,PLC S.r.l.,ISO/IEC 17021-1,ACTIVE,2000-12-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0644
+ACCREDIA,00198,RINA AGRIFOOD S.P.A,ISO/IEC 17021-1,ACTIVE,2000-12-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0612
+ACCREDIA,00198 (22000),RINA AGRIFOOD S.P.A,ISO 22003-1,ACTIVE,2000-12-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0612
+ACCREDIA,00206,SICI S.r.l. Società Italiana di Certificazione,ISO/IEC 17021-1,ACTIVE,2001-06-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0054
+ACCREDIA,00234,ECO European Certifying Organization S.p.A.,ISO/IEC 17021-1,ACTIVE,2001-12-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0744
+ACCREDIA,00241,Progetto Costruzione Qualità - P.C.Q. S.r.l.,ISO/IEC 17021-1,ACTIVE,2014-12-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0753
+ACCREDIA,00241 (27006),Progetto Costruzione Qualità - P.C.Q. S.r.l.,ISO/IEC 27006,ACTIVE,2014-12-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0753
+ACCREDIA,00241 (37001),Progetto Costruzione Qualità - P.C.Q. S.r.l.,ISO/IEC 17021-9,ACTIVE,2014-12-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0753
+ACCREDIA,00241 (50003),Progetto Costruzione Qualità - P.C.Q. S.r.l.,ISO 50003,ACTIVE,2014-12-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0753
+ACCREDIA,00252,ACCERTA S.p.A.,ISO/IEC 17021-1,ACTIVE,2003-03-18,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0792
+ACCREDIA,00269,SUSTAINY S.r.l. a Socio unico,ISO/IEC 17021-1,ACTIVE,2017-06-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0787
+ACCREDIA,00269 (27006),SUSTAINY S.r.l. a Socio unico,ISO/IEC 27006,ACTIVE,2017-06-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0787
+ACCREDIA,00269 (37001),SUSTAINY S.r.l. a Socio unico,ISO/IEC 17021-9,ACTIVE,2017-06-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0787
+ACCREDIA,00273,ICDQ S.r.l.,ISO/IEC 17021-1,ACTIVE,2003-07-21,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0788
+ACCREDIA,00277,"Perry Johnson Registrars, Inc.",ISO/IEC 17021-1,ACTIVE,2003-10-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0774
+ACCREDIA,00277 (39001),"Perry Johnson Registrars, Inc.",ISO/IEC 17021-7,ACTIVE,2003-10-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0774
+ACCREDIA,00281,DI.QU. S.r.l.,ISO/IEC 17021-1,ACTIVE,2003-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0796
+ACCREDIA,00281 (37001),DI.QU. S.r.l.,ISO/IEC 17021-9,ACTIVE,2003-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0796
+ACCREDIA,00281 (39001),DI.QU. S.r.l.,ISO/IEC 17021-7,ACTIVE,2003-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0796
+ACCREDIA,00286,ICB Qualità S.r.l.,ISO/IEC 17021-1,ACTIVE,2004-02-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0813
+ACCREDIA,00289,APAVE CERTIFICATION ITALIA S.r.l.,ISO/IEC 17021-1,ACTIVE,2009-12-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0895
+ACCREDIA,00289 (20000),APAVE CERTIFICATION ITALIA S.r.l.,ISO/IEC 20000-6,ACTIVE,2009-12-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0895
+ACCREDIA,00289 (22301),APAVE CERTIFICATION ITALIA S.r.l.,ISO/IEC 17021-6,ACTIVE,2009-12-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0895
+ACCREDIA,00289 (27006),APAVE CERTIFICATION ITALIA S.r.l.,ISO/IEC 27006,ACTIVE,2009-12-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0895
+ACCREDIA,00289 (37001),APAVE CERTIFICATION ITALIA S.r.l.,ISO/IEC 17021-9,ACTIVE,2009-12-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0895
+ACCREDIA,00289 (39001),APAVE CERTIFICATION ITALIA S.r.l.,ISO/IEC 17021-7,ACTIVE,2009-12-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0895
+ACCREDIA,00292,Istituto Meridiana S.r.l.,ISO/IEC 17021-1,ACTIVE,2004-05-04,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0808
+ACCREDIA,00303,E.L.T.I. S.r.l.,ISO/IEC 17021-1,ACTIVE,2004-07-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0842
+ACCREDIA,00321,TÜV Rheinland Italia S.r.l.,ISO/IEC 17021-1,ACTIVE,2005-03-01,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0864
+ACCREDIA,00325,TUV AUSTRIA ITALIA S.p.A.,ISO/IEC 17021-1,ACTIVE,2005-06-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2851
+ACCREDIA,00325 (37001),TUV AUSTRIA ITALIA S.p.A.,ISO/IEC 17021-9,ACTIVE,2005-06-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2851
+ACCREDIA,00325 (39001),TUV AUSTRIA ITALIA S.p.A.,ISO/IEC 17021-7,ACTIVE,2005-06-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2851
+ACCREDIA,00326,AGIQUALITAS S.r.l.,ISO/IEC 17021-1,ACTIVE,2005-06-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0866
+ACCREDIA,00331,S.O.C.I.F. Eclat S.r.l.,ISO/IEC 17021-1,ACTIVE,2005-10-26,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0867
+ACCREDIA,00336,AMTIVO ITALIA S.r.l.,ISO/IEC 17021-1,ACTIVE,2005-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4838
+ACCREDIA,00336 (37001),AMTIVO ITALIA S.r.l.,ISO/IEC 17021-9,ACTIVE,2005-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4838
+ACCREDIA,00343,IS.E.CERT Istituto Europeo di Certificazione S.r.l. Unipersonale,ISO/IEC 17021-1,ACTIVE,2006-02-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0899
+ACCREDIA,00344,Q GEST S.r.l.,ISO/IEC 17021-1,ACTIVE,2006-02-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0915
+ACCREDIA,00349,CERTITALIA S.r.l.,ISO/IEC 17021-1,ACTIVE,2007-04-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0959
+ACCREDIA,00355,CERTY CEQ S.r.l.,ISO/IEC 17021-1,ACTIVE,2007-04-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0904
+ACCREDIA,00361,M.E.C. S.r.l. Marconi Engineering Certifying,ISO/IEC 17021-1,ACTIVE,2007-07-31,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0936
+ACCREDIA,00369,MSCERT- MANAGEMENT SYSTEMS CERT S.r.l.,ISO/IEC 17021-1,ACTIVE,2007-10-18,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0939
+ACCREDIA,00396,EZI INSPECTIONS S.r.l.,ISO/IEC 17021-1,ACTIVE,2008-05-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0967
+ACCREDIA,00396 (22000),EZI INSPECTIONS S.r.l.,ISO 22003-1,ACTIVE,2008-05-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0967
+ACCREDIA,00396 (27006),EZI INSPECTIONS S.r.l.,ISO/IEC 27006,ACTIVE,2008-05-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0967
+ACCREDIA,00402,G2S S.r.l.,ISO/IEC 17021-1,ACTIVE,2008-10-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0961
+ACCREDIA,00407,ABICERT S.a.s. di Bianco Antonio & C.,ISO/IEC 17021-1,ACTIVE,2009-04-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=1087
+ACCREDIA,00415,SMC Società Mediterranea Certificazioni S.p.A.,ISO/IEC 17021-1,ACTIVE,2009-07-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=1107
+ACCREDIA,00420,QUALITY ITALIA S.r.l.,ISO/IEC 17021-1,ACTIVE,2009-12-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=1109
+ACCREDIA,00422,CERSIST S.r.l.,ISO/IEC 17021-1,ACTIVE,2009-12-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=1108
+ACCREDIA,00422 (37001),CERSIST S.r.l.,ISO/IEC 17021-9,ACTIVE,2009-12-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=1108
+ACCREDIA,00450,Q-AID ASSESSMENT & CERTIFICATION S.r.l.,ISO/IEC 17021-1,ACTIVE,2010-09-30,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2483
+ACCREDIA,00450 (37001),Q-AID ASSESSMENT & CERTIFICATION S.r.l.,ISO/IEC 17021-9,ACTIVE,2010-09-30,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2483
+ACCREDIA,00450 (39001),Q-AID ASSESSMENT & CERTIFICATION S.r.l.,ISO/IEC 17021-7,ACTIVE,2010-09-30,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2483
+ACCREDIA,00450 (50003),Q-AID ASSESSMENT & CERTIFICATION S.r.l.,ISO 50003,ACTIVE,2010-09-30,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2483
+ACCREDIA,00451,CENTRO CERTIFICAZIONE QUALITA' - C.C.Q. S.r.l.,ISO/IEC 17021-1,ACTIVE,2010-09-30,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2633
+ACCREDIA,00468,DIMITTO Italia S.r.l. Società Benefit,ISO/IEC 17021-1,ACTIVE,2011-12-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2722
+ACCREDIA,00468 (22301),DIMITTO Italia S.r.l. Società Benefit,ISO/IEC 17021-6,ACTIVE,2011-12-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2722
+ACCREDIA,00468 (27006),DIMITTO Italia S.r.l. Società Benefit,ISO/IEC 27006,ACTIVE,2011-12-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2722
+ACCREDIA,00468 (37001),DIMITTO Italia S.r.l. Società Benefit,ISO/IEC 17021-9,ACTIVE,2011-12-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2722
+ACCREDIA,00491,I.E.C. S.r.l.,ISO/IEC 17021-1,ACTIVE,2012-04-03,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0952
+ACCREDIA,00494,FAKT CERTIFICATION SERVICES S.R.L.,ISO/IEC 17021-1,ACTIVE,2012-05-29,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3052
+ACCREDIA,00504,C. & P. S.r.l.,ISO/IEC 17021-1,ACTIVE,2016-09-26,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2972
+ACCREDIA,00980,QS CERTIFICAZIONI ITALIA S.r.l.,ISO/IEC 17021-1,ACTIVE,2013-05-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2559
+ACCREDIA,00998,AJA Europe S.r.l.,ISO/IEC 17021-1,ACTIVE,2020-10-05,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4543
+ACCREDIA,00998 (50003),AJA Europe S.r.l.,ISO 50003,ACTIVE,2020-10-05,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4543
+ACCREDIA,01039,SQS Italia S.r.l.,ISO/IEC 17021-1,ACTIVE,2013-12-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5120
+ACCREDIA,01039 (20121),SQS Italia S.r.l.,ISO/IEC 17021-4,ACTIVE,2013-12-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5120
+ACCREDIA,01039 (37001),SQS Italia S.r.l.,ISO/IEC 17021-9,ACTIVE,2013-12-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5120
+ACCREDIA,01039 (39001),SQS Italia S.r.l.,ISO/IEC 17021-7,ACTIVE,2013-12-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5120
+ACCREDIA,01039 (50003),SQS Italia S.r.l.,ISO 50003,ACTIVE,2013-12-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5120
+ACCREDIA,01132,TÜV NORD ITALIA S.r.l.,ISO/IEC 17021-1,ACTIVE,2023-04-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3362
+ACCREDIA,01132 (37001),TÜV NORD ITALIA S.r.l.,ISO/IEC 17021-9,ACTIVE,2023-04-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3362
+ACCREDIA,01209,ACM Cert S.r.l.,ISO/IEC 17021-1,ACTIVE,2015-12-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0973
+ACCREDIA,01209 (37001),ACM Cert S.r.l.,ISO/IEC 17021-9,ACTIVE,2015-12-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0973
+ACCREDIA,01209 (42001),ACM Cert S.r.l.,ISO/IEC 42006,ACTIVE,2015-12-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0973
+ACCREDIA,01242,IAS Register AG,ISO/IEC 17021-1,ACTIVE,2019-04-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0920
+ACCREDIA,01242 (37001),IAS Register AG,ISO/IEC 17021-9,ACTIVE,2019-04-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0920
+ACCREDIA,01244,European Quality Assurance Italia S.r.l. - Società Benefit,ISO/IEC 17021-1,ACTIVE,2016-05-18,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0940
+ACCREDIA,01271,GSC Global System Certification S.r.l.,ISO/IEC 17021-1,ACTIVE,2016-11-07,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3592
+ACCREDIA,01271 (37001),GSC Global System Certification S.r.l.,ISO/IEC 17021-9,ACTIVE,2016-11-07,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3592
+ACCREDIA,01282,ITEC - Istituto Tecnologico Europeo di Certificazione S.r.l.,ISO/IEC 17021-1,ACTIVE,2018-11-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3667
+ACCREDIA,01282 (27006),ITEC - Istituto Tecnologico Europeo di Certificazione S.r.l.,ISO/IEC 27006,ACTIVE,2018-11-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3667
+ACCREDIA,01292,I.T.A. International Technical Alliance S.r.l.,ISO/IEC 17021-1,ACTIVE,2017-02-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3668
+ACCREDIA,01292 (20000),I.T.A. International Technical Alliance S.r.l.,ISO/IEC 20000-6,ACTIVE,2017-02-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3668
+ACCREDIA,01292 (22000),I.T.A. International Technical Alliance S.r.l.,ISO 22003-1,ACTIVE,2017-02-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3668
+ACCREDIA,01292 (27006),I.T.A. International Technical Alliance S.r.l.,ISO/IEC 27006,ACTIVE,2017-02-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3668
+ACCREDIA,01292 (37001),I.T.A. International Technical Alliance S.r.l.,ISO/IEC 17021-9,ACTIVE,2017-02-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3668
+ACCREDIA,01292 (50003),I.T.A. International Technical Alliance S.r.l.,ISO 50003,ACTIVE,2017-02-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3668
+ACCREDIA,01306,CVI ITALIA S.r.l.s.,ISO/IEC 17021-1,ACTIVE,2017-04-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3715
+ACCREDIA,01306 (37001),CVI ITALIA S.r.l.s.,ISO/IEC 17021-9,ACTIVE,2017-04-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3715
+ACCREDIA,01442,GCERTI ITALY ASSESSMENT & CERTIFICATION S.r.l. Società Benefit,ISO/IEC 17021-1,ACTIVE,2018-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3812
+ACCREDIA,01442 (37001),GCERTI ITALY ASSESSMENT & CERTIFICATION S.r.l. Società Benefit,ISO/IEC 17021-9,ACTIVE,2018-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3812
+ACCREDIA,01442 (39001),GCERTI ITALY ASSESSMENT & CERTIFICATION S.r.l. Società Benefit,ISO/IEC 17021-7,ACTIVE,2018-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3812
+ACCREDIA,01468,VCA Europe S.r.l.,ISO/IEC 17021-1,ACTIVE,2023-05-25,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4214
+ACCREDIA,01479,ACSQ S.r.l.,ISO/IEC 17021-1,ACTIVE,2019-04-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2886
+ACCREDIA,01480,CETOC TECHNICAL SERVICE S.r.l.,ISO/IEC 17021-1,ACTIVE,2020-06-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2883
+ACCREDIA,01502,CERTIFICA S.r.l.,ISO/IEC 17021-1,ACTIVE,2019-05-29,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3836
+ACCREDIA,01502 (27006),CERTIFICA S.r.l.,ISO/IEC 27006,ACTIVE,2019-05-29,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3836
+ACCREDIA,01502 (37001),CERTIFICA S.r.l.,ISO/IEC 17021-9,ACTIVE,2019-05-29,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3836
+ACCREDIA,01530,AMiCERT Organismo di Certificazione,ISO/IEC 17021-1,ACTIVE,2022-07-21,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4380
+ACCREDIA,01612,TUV Thuringen Italia S.r.l.,ISO/IEC 17021-1,ACTIVE,2020-04-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3634
+ACCREDIA,01613,Automotive Technical Service Europe S.r.l. (ATS Europe S.r.l.),ISO/IEC 17021-1,ACTIVE,2020-11-04,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4476
+ACCREDIA,01795,SI CERT ITALY S.r.l.,ISO/IEC 17021-1,ACTIVE,2021-04-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4450
+ACCREDIA,01795 (20000),SI CERT ITALY S.r.l.,ISO/IEC 20000-6,ACTIVE,2021-04-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4450
+ACCREDIA,01795 (22301),SI CERT ITALY S.r.l.,ISO/IEC 17021-6,ACTIVE,2021-04-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4450
+ACCREDIA,01795 (27006),SI CERT ITALY S.r.l.,ISO/IEC 27006,ACTIVE,2021-04-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4450
+ACCREDIA,01795 (37001),SI CERT ITALY S.r.l.,ISO/IEC 17021-9,ACTIVE,2021-04-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4450
+ACCREDIA,01795 (39001),SI CERT ITALY S.r.l.,ISO/IEC 17021-7,ACTIVE,2021-04-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4450
+ACCREDIA,01817,CMCERT S.r.l.,ISO/IEC 17021-1,ACTIVE,2021-05-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4633
+ACCREDIA,01817 (27006),CMCERT S.r.l.,ISO/IEC 27006,ACTIVE,2021-05-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4633
+ACCREDIA,01817 (37001),CMCERT S.r.l.,ISO/IEC 17021-9,ACTIVE,2021-05-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4633
+ACCREDIA,01817 (39001),CMCERT S.r.l.,ISO/IEC 17021-7,ACTIVE,2021-05-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4633
+ACCREDIA,01839,Italy Bureau of Certification S.r.l. (IBC SRL),ISO/IEC 17021-1,ACTIVE,2023-04-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4625
+ACCREDIA,01879,BSI Group Italia S.r.l.,ISO/IEC 17021-1,ACTIVE,2021-11-09,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0945
+ACCREDIA,01879 (27006),BSI Group Italia S.r.l.,ISO/IEC 27006,ACTIVE,2021-11-09,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0945
+ACCREDIA,01879 (50003),BSI Group Italia S.r.l.,ISO 50003,ACTIVE,2021-11-09,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0945
+ACCREDIA,02033,CERTEED S.r.l.,ISO/IEC 17021-1,ACTIVE,2025-04-09,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4765
+ACCREDIA,02116,SQNET ASSESSMENTS Private Limited,ISO/IEC 17021-1,ACTIVE,2023-09-25,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4650
+ACCREDIA,02116 (50003),SQNET ASSESSMENTS Private Limited,ISO 50003,ACTIVE,2023-09-25,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4650
+ACCREDIA,02126,Autenticert S.r.l.,ISO/IEC 17021-1,ACTIVE,2023-11-08,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4927
+ACCREDIA,02126 (37001),Autenticert S.r.l.,ISO/IEC 17021-9,ACTIVE,2023-11-08,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4927
+ACCREDIA,02138,Bureau Veritas Certification Holding SAS Italy Branch,ISO/IEC 17021-1,ACTIVE,2023-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5056
+ACCREDIA,02138 (20000),Bureau Veritas Certification Holding SAS Italy Branch,ISO/IEC 20000-6,ACTIVE,2023-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5056
+ACCREDIA,02138 (20121),Bureau Veritas Certification Holding SAS Italy Branch,ISO/IEC 17021-4,ACTIVE,2023-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5056
+ACCREDIA,02138 (22000),Bureau Veritas Certification Holding SAS Italy Branch,ISO 22003-1,ACTIVE,2023-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5056
+ACCREDIA,02138 (22301),Bureau Veritas Certification Holding SAS Italy Branch,ISO/IEC 17021-6,ACTIVE,2023-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5056
+ACCREDIA,02138 (27006),Bureau Veritas Certification Holding SAS Italy Branch,ISO/IEC 27006,ACTIVE,2023-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5056
+ACCREDIA,02138 (37001),Bureau Veritas Certification Holding SAS Italy Branch,ISO/IEC 17021-9,ACTIVE,2023-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5056
+ACCREDIA,02138 (39001),Bureau Veritas Certification Holding SAS Italy Branch,ISO/IEC 17021-7,ACTIVE,2023-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5056
+ACCREDIA,02138 (42001),Bureau Veritas Certification Holding SAS Italy Branch,ISO/IEC 42006,ACTIVE,2023-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5056
+ACCREDIA,02138 (50003),Bureau Veritas Certification Holding SAS Italy Branch,ISO 50003,ACTIVE,2023-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5056
+ACCREDIA,02138 (55001),Bureau Veritas Certification Holding SAS Italy Branch,ISO/IEC 17021-5,ACTIVE,2023-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5056
+ACCREDIA,02139,Institute for system certification Ltd.,ISO/IEC 17021-1,ACTIVE,2023-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4382
+ACCREDIA,02139 (27006),Institute for system certification Ltd.,ISO/IEC 27006,ACTIVE,2023-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4382
+ACCREDIA,02139 (37001),Institute for system certification Ltd.,ISO/IEC 17021-9,ACTIVE,2023-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4382
+ACCREDIA,02227,Institute of Quality and Control Ltd.- IQC Israel,ISO/IEC 17021-1,ACTIVE,2024-11-05,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4705
+ACCREDIA,02242,SGS ICS ITALIA S.R.L.,ISO/IEC 17021-1,ACTIVE,1994-03-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0053
+ACCREDIA,02242 (20121),SGS ICS ITALIA S.R.L.,ISO/IEC 17021-4,ACTIVE,1994-03-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0053
+ACCREDIA,02242 (22000),SGS ICS ITALIA S.R.L.,ISO 22003-1,ACTIVE,1994-03-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0053
+ACCREDIA,02242 (27006),SGS ICS ITALIA S.R.L.,ISO/IEC 27006,ACTIVE,1994-03-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0053
+ACCREDIA,02242 (37001),SGS ICS ITALIA S.R.L.,ISO/IEC 17021-9,ACTIVE,1994-03-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0053
+ACCREDIA,02242 (39001),SGS ICS ITALIA S.R.L.,ISO/IEC 17021-7,ACTIVE,1994-03-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0053
+ACCREDIA,02242 (50003),SGS ICS ITALIA S.R.L.,ISO 50003,ACTIVE,1994-03-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0053
+ACCREDIA,02324,Ente Certificazione Macchine S.r.l.,ISO/IEC 17021-1,ACTIVE,2017-02-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5428
+ACCREDIA,02346,URS Certification Ltd.,ISO/IEC 17021-1,ACTIVE,2023-06-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5470
+ACCREDIA,02346 (20000),URS Certification Ltd.,ISO/IEC 20000-6,ACTIVE,2023-06-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5470
+ACCREDIA,02346 (22000),URS Certification Ltd.,ISO 22003-1,ACTIVE,2023-06-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5470
+ACCREDIA,02346 (22301),URS Certification Ltd.,ISO/IEC 17021-6,ACTIVE,2023-06-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5470
+ACCREDIA,02346 (27006),URS Certification Ltd.,ISO/IEC 27006,ACTIVE,2023-06-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5470
+ACCREDIA,02346 (37001),URS Certification Ltd.,ISO/IEC 17021-9,ACTIVE,2023-06-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5470
+ACCREDIA,02346 (50003),URS Certification Ltd.,ISO 50003,ACTIVE,2023-06-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5470
+ACCREDIA,02390,IMS INTERNATIONAL GmbH,ISO/IEC 17021-1,ACTIVE,2026-07-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5314
+ACCREDIA,02390 (27006),IMS INTERNATIONAL GmbH,ISO/IEC 27006,ACTIVE,2026-07-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5314
+ACCREDIA,02408,VALOR S.R.L.,ISO/IEC 17021-1,ACTIVE,2025-01-29,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5586

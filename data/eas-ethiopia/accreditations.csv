@@ -1,0 +1,3 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+EAS,QMS0003,Ethiopian Conformity Assessment Enterprise,ISO/IEC 17021-1,ACTIVE,2026-01-16,2030-07-16,https://eas-eth.org/wp-content/uploads/2026/02/QMS-Scanned-Certificate.pdf
+EAS,FSMS0001 (22000),Ethiopian Conformity Assessment Enterprise,ISO 22003-1,ACTIVE,2026-01-16,2030-07-16,https://eas-eth.org/wp-content/uploads/2026/02/Fsms-scanned-certificate.pdf

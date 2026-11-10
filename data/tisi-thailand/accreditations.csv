@@ -1,0 +1,11 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+TISI,OHSMS 002,TUV NORD (Thailand) Ltd.,ISO/IEC 17021-1,ACTIVE,2026-04-03,2027-04-04,https://center.tisi.go.th/report/certificate?sort=CB
+TISI,QMS 004,"Global Certification Service Co., Ltd.",ISO/IEC 17021-1,ACTIVE,2022-01-01,,https://center.tisi.go.th/report/certificate?sort=CB
+TISI,QMS 002,Management System Certification Institute (Thailand),ISO/IEC 17021-1,ACTIVE,2024-05-15,2027-01-28,https://center.tisi.go.th/report/certificate?sort=CB
+TISI,QMS 006,Bureau Veritas Certification (Thailand) Ltd.,ISO/IEC 17021-1,ACTIVE,2022-01-01,,https://center.tisi.go.th/report/certificate?sort=CB
+TISI,QMS 014,"Thai International Certification Co., Ltd.",ISO/IEC 17021-1,ACTIVE,2023-03-16,2027-09-25,https://center.tisi.go.th/report/certificate?sort=CB
+TISI,EnMS 005 (50003),Bureau Veritas Certification (Thailand) Ltd.,ISO 50003,ACTIVE,2023-01-01,,https://center.tisi.go.th/report/certificate?sort=CB
+TISI,EnMS 004 (50003),Management System Certification Institute (Thailand),ISO 50003,ACTIVE,2023-01-01,,https://center.tisi.go.th/report/certificate?sort=CB
+TISI,QMS 007,Thailand Institute of Scientific and Technological Research (TISTR),ISO/IEC 17021-1,ACTIVE,2023-09-13,2028-06-11,https://center.tisi.go.th/report/certificate?sort=CB
+TISI,QMS 015,"International Certification & Compliance Co., Ltd.",ISO/IEC 17021-1,ACTIVE,2024-09-11,2029-09-10,https://center.tisi.go.th/report/certificate?sort=CB
+TISI,QMS 001,SGS (Thailand) Limited,ISO/IEC 17021-1,ACTIVE,2024-12-27,2027-01-28,https://center.tisi.go.th/report/certificate?sort=CB

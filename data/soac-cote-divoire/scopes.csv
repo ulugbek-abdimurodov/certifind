@@ -1,0 +1,7 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+CS20001,ISO 9001,3;9;10;12;28;30,ACTIVE,IAF codes as listed in the SOAC technical annex
+CS20001 (22000),ISO 22000,3,ACTIVE,Classified to EA from ISO 22003-1 category C
+CS26001,ISO 9001,3;12;14;17;25;28;29;31-38,ACTIVE,IAF codes as listed in the SOAC technical annex
+CS26001,ISO 14001,3;14;16;17;28;29;31;32;34;35;39,ACTIVE,IAF codes as listed in the SOAC technical annex
+CS26001,ISO 45001,3;14;25;28;29;31;34;35;39,ACTIVE,IAF codes as listed in the SOAC technical annex
+CS26001 (50003),ISO 50001,1-39,ACTIVE,No sector list in the SOAC technical annex; recorded for all EA sectors

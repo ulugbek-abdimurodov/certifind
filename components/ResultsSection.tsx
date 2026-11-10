@@ -2,6 +2,7 @@
 
 import type { Body, ResultFilter, SearchResponse } from "../app/search-types";
 import {
+  countryLabel,
   flagFor,
   formatExpiry,
   matchesFilter,
@@ -38,7 +39,7 @@ export function ResultsSection({
             ]),
         ).values(),
       ).sort(
-        (a, b) => a.country.localeCompare(b.country) || a.code.localeCompare(b.code),
+        (a, b) => countryLabel(a.country).localeCompare(countryLabel(b.country), "it") || a.code.localeCompare(b.code),
       )
     : [];
   const filteredResults =
@@ -108,7 +109,7 @@ export function ResultsSection({
                         active={resultFilter === filter}
                         onClick={() => onFilterChange(filter)}
                       >
-                        {country} • {code} ({countForFilter(filter)})
+                        {countryLabel(country)} • {code} ({countForFilter(filter)})
                       </FilterButton>
                     );
                   })}
@@ -126,7 +127,7 @@ export function ResultsSection({
                       <div className="result-number">
                         {String(index + 1).padStart(2, "0")}
                       </div>
-                      <div className="country-flag" aria-label={body.country}>
+                      <div className="country-flag" aria-label={countryLabel(body.country)}>
                         {flagFor(body.country)}
                       </div>
                       <div className="result-main">
@@ -142,7 +143,7 @@ export function ResultsSection({
                               : iso}
                         </div>
                         <div className="result-meta">
-                          <span>{body.country}</span>
+                          <span>{countryLabel(body.country)}</span>
                           <i /> <span>{body.accreditationBodyCode}</span>
                           <i />{" "}
                           <span>

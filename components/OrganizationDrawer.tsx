@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { Body } from "../app/search-types";
 import {
-  flagFor,
+  countryLabel, flagFor,
   scopeLinesByStandard,
   shortStandard,
   standardLabel,
@@ -105,7 +105,7 @@ export function OrganizationDrawer({
             </div>
             <h2 id="drawer-title">{body.name}</h2>
             <p>
-              {body.country} <span>·</span>{" "}
+              {countryLabel(body.country)} <span>·</span>{" "}
               {scopeSummary(`EA ${body.eaCode} ${body.eaDescription}`)}
             </p>
           </div>

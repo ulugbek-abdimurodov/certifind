@@ -1,0 +1,5 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+OUA,OCSC 001,Instituto Uruguayo de Normas Técnicas (UNIT),ISO/IEC 17021-1,ACTIVE,2026-07-29,2030-07-29,https://www.organismouruguayodeacreditacion.org/wp-content/uploads/2026/11/OUAIMP034-UNIT-Alcance-V-3.pdf
+OUA,OCSC 005,Fikley S.A.,ISO/IEC 17021-1,ACTIVE,2026-07-29,2030-07-29,https://www.organismouruguayodeacreditacion.org/wp-content/uploads/2026/07/OUAIMP034-FIKLEY-Alcance-V-1.pdf
+OUA,OCSC 006,Global Certification Alliance SAS BIC (Ascend),ISO/IEC 17021-1,ACTIVE,2026-03-02,2030-03-02,https://www.organismouruguayodeacreditacion.org/wp-content/uploads/2026/10/OUAIMP034-Global-Certification-Alliance-SAS-BIC-Alcance-V5-1.pdf
+OUA,OCSC 006 (22000),Global Certification Alliance SAS BIC (Ascend),ISO 22003-1,ACTIVE,2026-03-02,2030-03-02,https://www.organismouruguayodeacreditacion.org/wp-content/uploads/2026/10/OUAIMP034-Global-Certification-Alliance-SAS-BIC-Alcance-V5-1.pdf

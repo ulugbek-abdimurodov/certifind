@@ -13,6 +13,6 @@ Extraction rules:
 | Retrieved | By | Notes |
 | --- | --- | --- |
 | 2026-11-09 | scrape_sadc_sadcas.py | 18 registrations, 18 scope PDFs |
-| 2026-11-09 | prepare_certifind.py | 7 bodies, 16 accreditations, 16 scope rows |
+| 2026-11-09 | prepare_certifind.py | 7 bodies, 12 accreditations, 16 scope rows |
 
 Merged registrations (constraint `uq_cb_ab_standard`): a body's QMS/EMS/OHS accreditations share the ISO/IEC 17021-1 row, so they are merged into its first listed certificate (earliest issue date, latest expiry): SAZ EMS-CERT 001, QMS-CERT 001, OHS-CERT 001 → EMS-CERT 001; ZABS OHS-CERT 002, QMS-CERT 006 → EMS-CERT 002. Final: 7 bodies, 12 accreditations, 16 scope rows.

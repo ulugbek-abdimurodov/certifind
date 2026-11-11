@@ -1,21 +1,21 @@
 ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
-DPA,CS 006,Legal Cert sh.p.k,ISO/IEC 17021-1,ACTIVE,2025-12-16,2029-12-15,https://www.dpa.gov.al
-DPA,CS 006 (27006),Legal Cert sh.p.k,ISO/IEC 27006,ACTIVE,2025-12-16,2029-12-15,https://www.dpa.gov.al
-DPA,CS 006 (37001),Legal Cert sh.p.k,ISO/IEC 17021-9,ACTIVE,2025-12-16,2029-12-15,https://www.dpa.gov.al
-DPA,CS 006 (50003),Legal Cert sh.p.k,ISO 50003,ACTIVE,2025-12-16,2029-12-15,https://www.dpa.gov.al
-DPA,CS 007,AXE Register sh.p.k,ISO/IEC 17021-1,ACTIVE,2026-02-24,2030-02-23,https://www.dpa.gov.al
-DPA,CS 007 (20000),AXE Register sh.p.k,ISO/IEC 20000-6,ACTIVE,2026-02-24,2030-02-23,https://www.dpa.gov.al
-DPA,CS 007 (20121),AXE Register sh.p.k,ISO/IEC 17021-4,ACTIVE,2026-02-24,2030-02-23,https://www.dpa.gov.al
-DPA,CS 007 (22000),AXE Register sh.p.k,ISO 22003-1,ACTIVE,2026-02-24,2030-02-23,https://www.dpa.gov.al
-DPA,CS 007 (22301),AXE Register sh.p.k,ISO/IEC 17021-6,ACTIVE,2026-02-24,2030-02-23,https://www.dpa.gov.al
-DPA,CS 007 (27006),AXE Register sh.p.k,ISO/IEC 27006,ACTIVE,2026-02-24,2030-02-23,https://www.dpa.gov.al
-DPA,CS 007 (37001),AXE Register sh.p.k,ISO/IEC 17021-9,ACTIVE,2026-02-24,2030-02-23,https://www.dpa.gov.al
-DPA,CS 007 (39001),AXE Register sh.p.k,ISO/IEC 17021-7,ACTIVE,2026-02-24,2030-02-23,https://www.dpa.gov.al
-DPA,CS 007 (50003),AXE Register sh.p.k,ISO 50003,ACTIVE,2026-02-24,2030-02-23,https://www.dpa.gov.al
-DPA,CS 008,AQScert,ISO/IEC 17021-1,ACTIVE,2026-03-27,2030-03-26,https://www.dpa.gov.al
-DPA,CS 008 (22000),AQScert,ISO 22003-1,ACTIVE,2026-03-27,2030-03-26,https://www.dpa.gov.al
-DPA,CS 008 (27006),AQScert,ISO/IEC 27006,ACTIVE,2026-03-27,2030-03-26,https://www.dpa.gov.al
-DPA,CS 008 (50003),AQScert,ISO 50003,ACTIVE,2026-03-27,2030-03-26,https://www.dpa.gov.al
+DPA,CS 006,Legal Cert sh.p.k,ISO/IEC 17021-1,ACTIVE,2025-12-16,2029-12-15,https://dpa.gov.al/wp-content/uploads/2024/11/Legal-Cert-nentor-2024.pdf
+DPA,CS 006 (27006),Legal Cert sh.p.k,ISO/IEC 27006,ACTIVE,2025-12-16,2029-12-15,https://dpa.gov.al/wp-content/uploads/2024/11/Legal-Cert-nentor-2024.pdf
+DPA,CS 006 (37001),Legal Cert sh.p.k,ISO/IEC 17021-9,ACTIVE,2025-12-16,2029-12-15,https://dpa.gov.al/wp-content/uploads/2024/11/Legal-Cert-nentor-2024.pdf
+DPA,CS 006 (50003),Legal Cert sh.p.k,ISO 50003,ACTIVE,2025-12-16,2029-12-15,https://dpa.gov.al/wp-content/uploads/2024/11/Legal-Cert-nentor-2024.pdf
+DPA,CS 007,AXE Register sh.p.k,ISO/IEC 17021-1,ACTIVE,2026-02-24,2030-02-23,https://dpa.gov.al/wp-content/uploads/2026/02/AXE-CS007-shkurt-2026.pdf
+DPA,CS 007 (20000),AXE Register sh.p.k,ISO/IEC 20000-6,ACTIVE,2026-02-24,2030-02-23,https://dpa.gov.al/wp-content/uploads/2026/02/AXE-CS007-shkurt-2026.pdf
+DPA,CS 007 (20121),AXE Register sh.p.k,ISO/IEC 17021-4,ACTIVE,2026-02-24,2030-02-23,https://dpa.gov.al/wp-content/uploads/2026/02/AXE-CS007-shkurt-2026.pdf
+DPA,CS 007 (22000),AXE Register sh.p.k,ISO 22003-1,ACTIVE,2026-02-24,2030-02-23,https://dpa.gov.al/wp-content/uploads/2026/02/AXE-CS007-shkurt-2026.pdf
+DPA,CS 007 (22301),AXE Register sh.p.k,ISO/IEC 17021-6,ACTIVE,2026-02-24,2030-02-23,https://dpa.gov.al/wp-content/uploads/2026/02/AXE-CS007-shkurt-2026.pdf
+DPA,CS 007 (27006),AXE Register sh.p.k,ISO/IEC 27006,ACTIVE,2026-02-24,2030-02-23,https://dpa.gov.al/wp-content/uploads/2026/02/AXE-CS007-shkurt-2026.pdf
+DPA,CS 007 (37001),AXE Register sh.p.k,ISO/IEC 17021-9,ACTIVE,2026-02-24,2030-02-23,https://dpa.gov.al/wp-content/uploads/2026/02/AXE-CS007-shkurt-2026.pdf
+DPA,CS 007 (39001),AXE Register sh.p.k,ISO/IEC 17021-7,ACTIVE,2026-02-24,2030-02-23,https://dpa.gov.al/wp-content/uploads/2026/02/AXE-CS007-shkurt-2026.pdf
+DPA,CS 007 (50003),AXE Register sh.p.k,ISO 50003,ACTIVE,2026-02-24,2030-02-23,https://dpa.gov.al/wp-content/uploads/2026/02/AXE-CS007-shkurt-2026.pdf
+DPA,CS 008,AQScert,ISO/IEC 17021-1,ACTIVE,2026-03-27,2030-03-26,https://dpa.gov.al/wp-content/uploads/2026/05/Aqscert-total.pdf
+DPA,CS 008 (22000),AQScert,ISO 22003-1,ACTIVE,2026-03-27,2030-03-26,https://dpa.gov.al/wp-content/uploads/2026/05/Aqscert-total.pdf
+DPA,CS 008 (27006),AQScert,ISO/IEC 27006,ACTIVE,2026-03-27,2030-03-26,https://dpa.gov.al/wp-content/uploads/2026/05/Aqscert-total.pdf
+DPA,CS 008 (50003),AQScert,ISO 50003,ACTIVE,2026-03-27,2030-03-26,https://dpa.gov.al/wp-content/uploads/2026/05/Aqscert-total.pdf
 DPA,CS 009,CAREER CERT INSTITUTE sh.p.k,ISO/IEC 17021-1,ACTIVE,2025-11-27,2026-12-01,https://www.dpa.gov.al
 DPA,CS 009 (20000),CAREER CERT INSTITUTE sh.p.k,ISO/IEC 20000-6,ACTIVE,2025-11-27,2026-12-01,https://www.dpa.gov.al
 DPA,CS 009 (22000),CAREER CERT INSTITUTE sh.p.k,ISO 22003-1,ACTIVE,2025-11-27,2026-12-01,https://www.dpa.gov.al
@@ -23,34 +23,34 @@ DPA,CS 009 (27006),CAREER CERT INSTITUTE sh.p.k,ISO/IEC 27006,ACTIVE,2025-11-27,
 DPA,CS 009 (37001),CAREER CERT INSTITUTE sh.p.k,ISO/IEC 17021-9,ACTIVE,2025-11-27,2026-12-01,https://www.dpa.gov.al
 DPA,CS 009 (39001),CAREER CERT INSTITUTE sh.p.k,ISO/IEC 17021-7,ACTIVE,2025-11-27,2026-12-01,https://www.dpa.gov.al
 DPA,CS 009 (50003),CAREER CERT INSTITUTE sh.p.k,ISO 50003,ACTIVE,2025-11-27,2026-12-01,https://www.dpa.gov.al
-DPA,CS 010,European Quality and Safety Control (EQSC) sh.p.k,ISO/IEC 17021-1,ACTIVE,2025-11-27,2026-12-02,https://www.dpa.gov.al
-DPA,CS 010 (22000),European Quality and Safety Control (EQSC) sh.p.k,ISO 22003-1,ACTIVE,2025-11-27,2026-12-02,https://www.dpa.gov.al
-DPA,CS 010 (27006),European Quality and Safety Control (EQSC) sh.p.k,ISO/IEC 27006,ACTIVE,2025-11-27,2026-12-02,https://www.dpa.gov.al
-DPA,CS 010 (50003),European Quality and Safety Control (EQSC) sh.p.k,ISO 50003,ACTIVE,2025-11-27,2026-12-02,https://www.dpa.gov.al
-DPA,CS 011,CERTIS sh.p.k,ISO/IEC 17021-1,ACTIVE,2025-11-27,2029-02-23,https://www.dpa.gov.al
-DPA,CS 011 (20000),CERTIS sh.p.k,ISO/IEC 20000-6,ACTIVE,2025-11-27,2029-02-23,https://www.dpa.gov.al
-DPA,CS 011 (22000),CERTIS sh.p.k,ISO 22003-1,ACTIVE,2025-11-27,2029-02-23,https://www.dpa.gov.al
-DPA,CS 011 (27006),CERTIS sh.p.k,ISO/IEC 27006,ACTIVE,2025-11-27,2029-02-23,https://www.dpa.gov.al
-DPA,CS 011 (37001),CERTIS sh.p.k,ISO/IEC 17021-9,ACTIVE,2025-11-27,2029-02-23,https://www.dpa.gov.al
-DPA,CS 011 (39001),CERTIS sh.p.k,ISO/IEC 17021-7,ACTIVE,2025-11-27,2029-02-23,https://www.dpa.gov.al
-DPA,CS 011 (50003),CERTIS sh.p.k,ISO 50003,ACTIVE,2025-11-27,2029-02-23,https://www.dpa.gov.al
-DPA,CS 014,e-Cert sh.p.k,ISO/IEC 17021-1,ACTIVE,2025-12-10,2027-11-08,https://www.dpa.gov.al
-DPA,CS 014 (22000),e-Cert sh.p.k,ISO 22003-1,ACTIVE,2025-12-10,2027-11-08,https://www.dpa.gov.al
-DPA,CS 014 (27006),e-Cert sh.p.k,ISO/IEC 27006,ACTIVE,2025-12-10,2027-11-08,https://www.dpa.gov.al
-DPA,CS 015,Risk Control Advisory – R.C.A sh.p.k,ISO/IEC 17021-1,ACTIVE,2025-11-27,2028-09-29,https://www.dpa.gov.al
-DPA,CS 015 (20000),Risk Control Advisory – R.C.A sh.p.k,ISO/IEC 20000-6,ACTIVE,2025-11-27,2028-09-29,https://www.dpa.gov.al
-DPA,CS 015 (22000),Risk Control Advisory – R.C.A sh.p.k,ISO 22003-1,ACTIVE,2025-11-27,2028-09-29,https://www.dpa.gov.al
-DPA,CS 015 (22301),Risk Control Advisory – R.C.A sh.p.k,ISO/IEC 17021-6,ACTIVE,2025-11-27,2028-09-29,https://www.dpa.gov.al
-DPA,CS 015 (27006),Risk Control Advisory – R.C.A sh.p.k,ISO/IEC 27006,ACTIVE,2025-11-27,2028-09-29,https://www.dpa.gov.al
-DPA,CS 015 (37001),Risk Control Advisory – R.C.A sh.p.k,ISO/IEC 17021-9,ACTIVE,2025-11-27,2028-09-29,https://www.dpa.gov.al
-DPA,CS 015 (39001),Risk Control Advisory – R.C.A sh.p.k,ISO/IEC 17021-7,ACTIVE,2025-11-27,2028-09-29,https://www.dpa.gov.al
-DPA,CS 015 (50003),Risk Control Advisory – R.C.A sh.p.k,ISO 50003,ACTIVE,2025-11-27,2028-09-29,https://www.dpa.gov.al
-DPA,CS 016,M.G BUGATTI CERTIFICATION sh.p.k,ISO/IEC 17021-1,ACTIVE,2025-11-27,2028-11-14,https://www.dpa.gov.al
-DPA,CS 016 (27006),M.G BUGATTI CERTIFICATION sh.p.k,ISO/IEC 27006,ACTIVE,2025-11-27,2028-11-14,https://www.dpa.gov.al
-DPA,CS 017,MSC CERTIFICATIONS sh.p.k,ISO/IEC 17021-1,ACTIVE,2025-11-27,2028-11-17,https://www.dpa.gov.al
-DPA,CS 017 (22000),MSC CERTIFICATIONS sh.p.k,ISO 22003-1,ACTIVE,2025-11-27,2028-11-17,https://www.dpa.gov.al
-DPA,CS 017 (27006),MSC CERTIFICATIONS sh.p.k,ISO/IEC 27006,ACTIVE,2025-11-27,2028-11-17,https://www.dpa.gov.al
-DPA,CS 017 (50003),MSC CERTIFICATIONS sh.p.k,ISO 50003,ACTIVE,2025-11-27,2028-11-17,https://www.dpa.gov.al
+DPA,CS 010,European Quality and Safety Control (EQSC) sh.p.k,ISO/IEC 17021-1,ACTIVE,2025-11-27,2026-12-02,https://dpa.gov.al/wp-content/uploads/2025/04/EQSC-prill-2025.pdf
+DPA,CS 010 (22000),European Quality and Safety Control (EQSC) sh.p.k,ISO 22003-1,ACTIVE,2025-11-27,2026-12-02,https://dpa.gov.al/wp-content/uploads/2025/04/EQSC-prill-2025.pdf
+DPA,CS 010 (27006),European Quality and Safety Control (EQSC) sh.p.k,ISO/IEC 27006,ACTIVE,2025-11-27,2026-12-02,https://dpa.gov.al/wp-content/uploads/2025/04/EQSC-prill-2025.pdf
+DPA,CS 010 (50003),European Quality and Safety Control (EQSC) sh.p.k,ISO 50003,ACTIVE,2025-11-27,2026-12-02,https://dpa.gov.al/wp-content/uploads/2025/04/EQSC-prill-2025.pdf
+DPA,CS 011,CERTIS sh.p.k,ISO/IEC 17021-1,ACTIVE,2025-11-27,2029-02-23,https://dpa.gov.al/wp-content/uploads/2025/05/certis-cs-011.pdf
+DPA,CS 011 (20000),CERTIS sh.p.k,ISO/IEC 20000-6,ACTIVE,2025-11-27,2029-02-23,https://dpa.gov.al/wp-content/uploads/2025/05/certis-cs-011.pdf
+DPA,CS 011 (22000),CERTIS sh.p.k,ISO 22003-1,ACTIVE,2025-11-27,2029-02-23,https://dpa.gov.al/wp-content/uploads/2025/05/certis-cs-011.pdf
+DPA,CS 011 (27006),CERTIS sh.p.k,ISO/IEC 27006,ACTIVE,2025-11-27,2029-02-23,https://dpa.gov.al/wp-content/uploads/2025/05/certis-cs-011.pdf
+DPA,CS 011 (37001),CERTIS sh.p.k,ISO/IEC 17021-9,ACTIVE,2025-11-27,2029-02-23,https://dpa.gov.al/wp-content/uploads/2025/05/certis-cs-011.pdf
+DPA,CS 011 (39001),CERTIS sh.p.k,ISO/IEC 17021-7,ACTIVE,2025-11-27,2029-02-23,https://dpa.gov.al/wp-content/uploads/2025/05/certis-cs-011.pdf
+DPA,CS 011 (50003),CERTIS sh.p.k,ISO 50003,ACTIVE,2025-11-27,2029-02-23,https://dpa.gov.al/wp-content/uploads/2025/05/certis-cs-011.pdf
+DPA,CS 014,e-Cert sh.p.k,ISO/IEC 17021-1,ACTIVE,2025-12-10,2027-11-08,https://dpa.gov.al/wp-content/uploads/2025/02/e-cert-shkurt-2025-CS-014.pdf
+DPA,CS 014 (22000),e-Cert sh.p.k,ISO 22003-1,ACTIVE,2025-12-10,2027-11-08,https://dpa.gov.al/wp-content/uploads/2025/02/e-cert-shkurt-2025-CS-014.pdf
+DPA,CS 014 (27006),e-Cert sh.p.k,ISO/IEC 27006,ACTIVE,2025-12-10,2027-11-08,https://dpa.gov.al/wp-content/uploads/2025/02/e-cert-shkurt-2025-CS-014.pdf
+DPA,CS 015,Risk Control Advisory – R.C.A sh.p.k,ISO/IEC 17021-1,ACTIVE,2025-11-27,2028-09-29,https://dpa.gov.al/wp-content/uploads/2025/01/RCA-komplet.pdf
+DPA,CS 015 (20000),Risk Control Advisory – R.C.A sh.p.k,ISO/IEC 20000-6,ACTIVE,2025-11-27,2028-09-29,https://dpa.gov.al/wp-content/uploads/2025/01/RCA-komplet.pdf
+DPA,CS 015 (22000),Risk Control Advisory – R.C.A sh.p.k,ISO 22003-1,ACTIVE,2025-11-27,2028-09-29,https://dpa.gov.al/wp-content/uploads/2025/01/RCA-komplet.pdf
+DPA,CS 015 (22301),Risk Control Advisory – R.C.A sh.p.k,ISO/IEC 17021-6,ACTIVE,2025-11-27,2028-09-29,https://dpa.gov.al/wp-content/uploads/2025/01/RCA-komplet.pdf
+DPA,CS 015 (27006),Risk Control Advisory – R.C.A sh.p.k,ISO/IEC 27006,ACTIVE,2025-11-27,2028-09-29,https://dpa.gov.al/wp-content/uploads/2025/01/RCA-komplet.pdf
+DPA,CS 015 (37001),Risk Control Advisory – R.C.A sh.p.k,ISO/IEC 17021-9,ACTIVE,2025-11-27,2028-09-29,https://dpa.gov.al/wp-content/uploads/2025/01/RCA-komplet.pdf
+DPA,CS 015 (39001),Risk Control Advisory – R.C.A sh.p.k,ISO/IEC 17021-7,ACTIVE,2025-11-27,2028-09-29,https://dpa.gov.al/wp-content/uploads/2025/01/RCA-komplet.pdf
+DPA,CS 015 (50003),Risk Control Advisory – R.C.A sh.p.k,ISO 50003,ACTIVE,2025-11-27,2028-09-29,https://dpa.gov.al/wp-content/uploads/2025/01/RCA-komplet.pdf
+DPA,CS 016,M.G BUGATTI CERTIFICATION sh.p.k,ISO/IEC 17021-1,ACTIVE,2025-11-27,2028-11-14,https://dpa.gov.al/wp-content/uploads/2024/12/bugati-dhjetor-2024.pdf
+DPA,CS 016 (27006),M.G BUGATTI CERTIFICATION sh.p.k,ISO/IEC 27006,ACTIVE,2025-11-27,2028-11-14,https://dpa.gov.al/wp-content/uploads/2024/12/bugati-dhjetor-2024.pdf
+DPA,CS 017,MSC CERTIFICATIONS sh.p.k,ISO/IEC 17021-1,ACTIVE,2025-11-27,2028-11-17,https://dpa.gov.al/wp-content/uploads/2024/12/msc-komplet.pdf
+DPA,CS 017 (22000),MSC CERTIFICATIONS sh.p.k,ISO 22003-1,ACTIVE,2025-11-27,2028-11-17,https://dpa.gov.al/wp-content/uploads/2024/12/msc-komplet.pdf
+DPA,CS 017 (27006),MSC CERTIFICATIONS sh.p.k,ISO/IEC 27006,ACTIVE,2025-11-27,2028-11-17,https://dpa.gov.al/wp-content/uploads/2024/12/msc-komplet.pdf
+DPA,CS 017 (50003),MSC CERTIFICATIONS sh.p.k,ISO 50003,ACTIVE,2025-11-27,2028-11-17,https://dpa.gov.al/wp-content/uploads/2024/12/msc-komplet.pdf
 DPA,CS 018,AUTENTICERT Albania sh.p.k,ISO/IEC 17021-1,ACTIVE,2026-01-20,2030-01-19,https://www.dpa.gov.al
 DPA,CS 018 (27006),AUTENTICERT Albania sh.p.k,ISO/IEC 27006,ACTIVE,2026-01-20,2030-01-19,https://www.dpa.gov.al
 DPA,CS 018 (39001),AUTENTICERT Albania sh.p.k,ISO/IEC 17021-7,ACTIVE,2026-01-20,2030-01-19,https://www.dpa.gov.al

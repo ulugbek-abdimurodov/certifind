@@ -1,6 +1,6 @@
 # CertiFind
 
-CertiFind helps Italian businesses find certification bodies with relevant accredited scopes. It runs on a seeded PostgreSQL database, a Spring Boot API and a Next.js frontend; it does not scrape accreditation directories and does not show estimated prices.
+CertiFind helps Italian businesses find certification bodies (CBs), in Italy and abroad, that hold an accredited scope for the ISO standard and EA sector they need. It runs on a PostgreSQL database, a Spring Boot API and a Next.js frontend. The database is loaded from CSV datasets built from the accreditation bodies' public registers. The app never scrapes at runtime and does not show estimated prices.
 
 ## Stack
 
@@ -104,13 +104,12 @@ Data lives in three places, each managed differently:
 
 | What | Where | How it changes |
 | --- | --- | --- |
-| Schema | `backend/src/main/resources/db/migration/V1__schema.sql` | New Flyway migration (`V3__...sql`); never edit an applied one |
-| Reference data (accreditation bodies, EA sectors, standards, scheme rules, sector keywords) | `V2__reference_data.sql` | New Flyway migration |
+| Schema | `backend/src/main/resources/db/migration/V1__schema.sql` | New Flyway migration; never edit an applied one |
+| Reference data (accreditation bodies, EA sectors, standards, scheme rules, sector keywords) | `V2__reference_data.sql` and one `V<n>__<ab>_reference_data.sql` per accreditation body (currently up to `V65`) | New Flyway migration. Find the next number with `ls \| sort -V`, because plain `ls` sorts `V9` after `V28` |
 | Certification bodies, accreditations, scopes | `data/<dataset>/*.csv` | Edit the CSVs, run the importer |
 
-Real datasets: `data/dpa-albania` (transcribed from DPA accreditation annexes) and
-`data/renar-romania` (extracted from RENAR certificates and annexes). Each folder's
-`SOURCES.md` records where the data came from and the transcription rules. Contact and accreditation details must be confirmed against current official records
+Each folder in `data/` is one accreditation body's dataset (see [Datasets](#datasets)). Its
+`SOURCES.md` records where the data came from, the conversion rules and any schemes left out. Contact and accreditation details must be confirmed against current official records
 before being represented as independently verified; `verified_at` records the last
 recorded check of the contact details. The interface shows available sources and
 the recorded date, but an accreditation label means that the right is present in
@@ -144,7 +143,7 @@ UTF-8 CSV files. They open in Excel; save them as "CSV UTF-8". Empty cells mean 
 | `accreditation_standard` | yes | `ISO/IEC 17021-1`, `ISO/IEC 27006`, `ISO 50003`, ... |
 | `status` | no | `ACTIVE` (default), `SUSPENDED`, `WITHDRAWN` |
 | `issue_date` / `expiry_date` | issue: yes | `YYYY-MM-DD` |
-| `proof_url` | no | Link to the certificate or the accreditation body's page for it |
+| `proof_url` | no | Link to the accreditation certificate or scope annex (preferably the PDF itself), else the body's register entry, else the register's home page. The detail drawer shows it as "Consulta la fonte dell'accreditamento". CertiFind only links to these documents; it never stores copies |
 
 `scopes.csv`, one row per certification standard under an accreditation:
 
@@ -186,8 +185,8 @@ How the importer behaves:
 - A new accreditation body, standard or scheme rule is reference data: add it with a
   Flyway migration first, then the importer accepts it.
 
-Accreditation bodies (real reference data): ACCREDIA (Italy), UKAS (United
-Kingdom), DAkkS (Germany), RENAR (Romania), PCA (Poland), DPA (Albania).
+Accreditation bodies: 69 are loaded (one per dataset, see [Datasets](#datasets)). Each one is
+added by its own `V<n>__<ab>_reference_data.sql` migration.
 
 Data model (`V1__schema.sql`):
 
@@ -195,8 +194,9 @@ Data model (`V1__schema.sql`):
   registration number and where the details come from).
 - `accreditations` – one accreditation certificate held by a body: which
   accreditation body granted it, against which accreditation standard
-  (ISO/IEC 17021-1, ISO/IEC 27006, ISO 50003), certificate number, status and
-  validity dates. A body can hold several, from different accreditation bodies.
+  (ISO/IEC 17021-1, or a sector-specific one such as ISO/IEC 27006, ISO 50003,
+  ISO 22003-1, ISO/IEC 20000-6, ISO/IEC 42006, ISO/IEC 17021-6/-7/-9 or AS 9104-1),
+  certificate number, status, validity dates and `proof_url`. A body can hold several, from different accreditation bodies.
 - `accredited_scopes` – one issuing right per row: certification standard
   (ISO 9001, ISO/IEC 27001, ...) x EA sector under one accreditation.
 - `accreditation_scheme_rules` – which certification standards each
@@ -213,11 +213,38 @@ EA n.
 
 ### Datasets
 
-All company data is real. `data/dpa-albania` contains the Albanian bodies accredited by
-DPA (Legal Cert, AXE Register, AQScert, Career Cert Institute, EQSC, CERTIS, e-Cert,
-R.C.A, M.G Bugatti Certification, MSC Certifications, Autenticert Albania, CERTI AL).
-`data/renar-romania` contains the 22 Romanian bodies holding a RENAR ISO/IEC 17021-1
-accreditation (SM certificates).
+All company data is real. `data/` holds 69 datasets, one per accreditation body, named
+`<ab-code>-<ab home country>` (for example `rva-netherlands`, `na-norway`, `uaf-united-states`).
+Together they hold about 1,975 certification bodies in 109 countries, with about 4,770
+active accreditations. A dataset belongs to its accreditation body, not to a country: each
+body's `country` comes from its own address, so `data/ukas-united-kingdom` also contains
+bodies based outside the UK.
+
+Datasets are not edited by hand. They are produced by scripts kept outside this repository,
+in `../database/<country>/`:
+
+- the scraper for the register, and its raw output;
+- `prepare_certifind.py`, which converts the scrape into the three CSVs and writes
+  `<ab>_review.md` with every judgement call and skipped scheme;
+- shared helpers in `../database/`: `prune_inactive.py` (drops expired rows and bodies
+  without an ISO/IEC 17021-1 accreditation) and the ESYD sector tables in
+  `../database/greece/prepare_certifind.py`.
+
+To refresh a dataset, re-run its scraper and `prepare_certifind.py`, then import (dry run
+first). `.claude/CLAUDE.md` and the `/add-country` skill document the full procedure and data
+rules for adding a new accreditation body: national schemes are skipped, sector-specific
+accreditation rows get suffixed certificate numbers, and phone numbers use international
+format.
+
+**Certificate links (`proof_url`).** Most datasets link each accreditation to its own
+certificate or register entry. Some AB sites only allow a link to the register's home or
+search page:
+
+| Dataset | Link |
+| --- | --- |
+| `snas-slovakia` | Annex PDF per certificate (`ais.snas.sk/api/web/download/<file id>`) |
+| `dpa-albania` | Certificate PDF per body, refreshed with `python ../database/albania/update_proof_urls.py data/dpa-albania/accreditations.csv`. CS 009, 018 and 019 have no usable link on the DPA page |
+| `ema-mexico`, `jasanz-australia`, `tisi-thailand`, `pnac-pakistan`, `haa-croatia`, `moldac-moldova`, `soac-cote-divoire` | Register home or search page only (the sites are built in JavaScript, or the PDFs can only be fetched with a POST request) |
 
 To rebuild the database from scratch (this deletes the volume's data; everything in
 it is reloaded from the repository):

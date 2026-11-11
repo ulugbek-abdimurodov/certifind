@@ -7,6 +7,7 @@ import {
   scopeLinesByStandard,
   shortStandard,
   standardLabel,
+  recognitionLabels,
 } from "../app/search-data";
 
 export function OrganizationDrawer({
@@ -105,7 +106,11 @@ export function OrganizationDrawer({
             </div>
             <h2 id="drawer-title">{body.name}</h2>
             <p>
-              {countryLabel(body.country)} <span>·</span>{" "}
+              {countryLabel(body.country)} <span className="recognition-labels">
+                            {recognitionLabels(body.accreditationBodyCode).map((l) => (
+                              <span key={l} className={`recognition-label ${l.toLowerCase()}`}>{l}</span>
+                            ))}
+                          </span> <span>·</span>{" "}
               {scopeSummary(`EA ${body.eaCode} ${body.eaDescription}`)}
             </p>
           </div>

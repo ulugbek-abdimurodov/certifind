@@ -1380,3 +1380,15 @@ footer {
 
 [data-theme="dark"] footer { color: #7d8d86; }
 [data-theme="dark"] .footer-brand { color: #dbe5e0; }
+.recognition-labels { display: inline-flex; gap: 3px; margin: 0; padding: 0; vertical-align: middle; }
+.recognition-labels .recognition-label {
+  padding: 2px 7px;
+  border-radius: 999px;
+  font-size: 8.5px;
+  font-weight: 600;
+  letter-spacing: .6px;
+  line-height: 1.3;
+  color: #2f6b52;
+  background: #e7f4eb;
+}
+[data-theme="dark"] .recognition-labels .recognition-label { color: #7fd1b0; background: #173a2e; }

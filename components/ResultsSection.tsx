@@ -8,6 +8,7 @@ import {
   matchesFilter,
   shortStandard,
   standardsLabel,
+  recognitionLabels,
 } from "../app/search-data";
 
 type ResultsSectionProps = {
@@ -144,6 +145,11 @@ export function ResultsSection({
                         </div>
                         <div className="result-meta">
                           <span>{countryLabel(body.country)}</span>
+                          <i /> <span className="recognition-labels">
+                            {recognitionLabels(body.accreditationBodyCode).map((l) => (
+                              <span key={l} className={`recognition-label ${l.toLowerCase()}`}>{l}</span>
+                            ))}
+                          </span>
                           <i /> <span>{body.accreditationBodyCode}</span>
                           <i />{" "}
                           <span>

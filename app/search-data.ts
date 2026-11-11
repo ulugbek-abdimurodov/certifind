@@ -212,3 +212,36 @@ export const demoPresets = [
     sector: "Studi di ingegneria",
   },
 ];
+
+/**
+ * Recognition labels by accreditation body (AB) code. The label follows the AB, not the
+ * body's address: a German body accredited by ANAB gets IAF only.
+ * - EA only: ABs in Croatia, Bosnia and Herzegovina, Kosovo, Montenegro, Estonia, Iceland.
+ * - EA + IAF: other European ABs, plus Algeria, Egypt, Türkiye, the Caucasus, Cyprus, UK.
+ * - IAF only: every other AB.
+ */
+export type RecognitionLabel = "EA" | "IAF";
+
+const EA_ONLY_ABS = new Set([
+  "HAA", // Croatia
+  "BATA", "IABIH", // Bosnia and Herzegovina
+  "DAK", // Kosovo
+  "ATCG", // Montenegro
+  "EAK", // Estonia
+  "ISAC", // Iceland
+]);
+
+const EA_AND_IAF_ABS = new Set([
+  "AA", "ACCREDIA", "ATS", "BAS", "BELAC", "CAI", "COFRAC", "DAkkS", "DANAK", "DPA",
+  "ENAC", "ESYD", "FINAS", "IARM", "INAB", "IPAC", "LASA", "LATAK", "MOLDAC", "NA",
+  "NAAU", "NAH", "OLAS", "PCA", "RENAR", "RvA", "SA", "SAS", "SNAS", "SWEDAC", "UKAS",
+  "NAB-MALTA",
+  "ALGERAC", // Algeria
+  "EGAC", // Egypt
+  "TURKAK", // Türkiye
+  "CYS-CYSAB", "CYSAB", // Cyprus
+  "AZAK", "ARMNAB", "GAC-GE", "GCA", // Azerbaijan, Armenia, Georgia
+]);
+
+export const recognitionLabels = (abCode: string): RecognitionLabel[] =>
+  EA_ONLY_ABS.has(abCode) ? ["EA"] : EA_AND_IAF_ABS.has(abCode) ? ["EA", "IAF"] : ["IAF"];

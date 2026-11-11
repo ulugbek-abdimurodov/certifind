@@ -1,12 +1,13 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import type { Body, ResultFilter, SearchResponse } from "../app/search-types";
 import {
   countryLabel,
   flagFor,
   formatDate,
   matchesFilter,
+  recognitionLabels,
   shortStandard,
   standardsLabel,
 } from "../app/search-data";
@@ -29,11 +30,20 @@ export function ResultsSection({
   onFilterChange,
   onSelect,
 }: ResultsSectionProps) {
+  // First layer: EA / IAF recognition. ABs recognised by both appear under either.
+  const [recognition, setRecognition] = useState<RecognitionFilter>("all");
+  const allResults = data?.results ?? [];
+  const matchesRecognition = (body: Body, value: RecognitionFilter = recognition) =>
+    value === "all" ||
+    (value === "IAF"
+      ? !recognitionLabels(body.accreditationBodyCode).includes("EA")
+      : recognitionLabels(body.accreditationBodyCode).includes(value));
+  const recognised = allResults.filter((body) => matchesRecognition(body));
   // One pill per (country, accreditation body): ESYD accredits Greek, Cypriot and Maltese bodies.
   const accreditorInfo = data
     ? Array.from(
         new Map(
-          data.results
+          recognised
             .filter((body) => body.accreditationBodyCode !== "ACCREDIA")
             .map((body) => [
               `${body.accreditationBodyCode}|${body.country}`,
@@ -52,7 +62,11 @@ export function ResultsSection({
       listRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }),
     );
   };
-  const results = data?.results ?? [];
+  const selectRecognition = (value: RecognitionFilter) => {
+    setRecognition(value);
+    onFilterChange("all");
+  };
+  const results = recognised;
   const filteredResults = results.filter((body) => matchesFilter(body, resultFilter));
   const countForFilter = (filter: ResultFilter) =>
     results.filter((body) => matchesFilter(body, filter)).length;
@@ -93,6 +107,22 @@ export function ResultsSection({
           {data.results.length ? (
             <>
               <div className="results-filters" aria-label="Filtra risultati">
+                <div
+                  className="filter-pills"
+                  role="group"
+                  aria-label="Riconoscimento"
+                >
+                  {(["all", "EA", "IAF"] as const).map((value) => (
+                    <FilterButton
+                      key={value}
+                      active={recognition === value}
+                      onClick={() => selectRecognition(value)}
+                    >
+                      {value === "all" ? "Tutti" : value === "IAF" ? "IAF (senza EA)" : value} (
+                      {allResults.filter((body) => matchesRecognition(body, value)).length})
+                    </FilterButton>
+                  ))}
+                </div>
                 <div
                   className="filter-pills"
                   role="group"
@@ -210,6 +240,8 @@ export function ResultsSection({
     </section>
   );
 }
+
+type RecognitionFilter = "all" | "EA" | "IAF";
 
 function expiryLabel(body: Body) {
   const expiry = formatDate(

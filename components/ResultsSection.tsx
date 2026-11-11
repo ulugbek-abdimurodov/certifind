@@ -1,5 +1,6 @@
 "use client";
 
+import { useRef } from "react";
 import type { Body, ResultFilter, SearchResponse } from "../app/search-types";
 import {
   countryLabel,
@@ -43,6 +44,14 @@ export function ResultsSection({
         (a, b) => countryLabel(a.country).localeCompare(countryLabel(b.country), "it") || a.code.localeCompare(b.code),
       )
     : [];
+  const listRef = useRef<HTMLDivElement>(null);
+  // Picking a filter jumps straight to the matching companies instead of leaving them below the pills.
+  const selectFilter = (filter: ResultFilter) => {
+    onFilterChange(filter);
+    requestAnimationFrame(() =>
+      listRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }),
+    );
+  };
   const filteredResults =
     data?.results.filter((body) => matchesFilter(body, resultFilter)) ?? [];
   const countForFilter = (filter: ResultFilter) =>
@@ -90,14 +99,14 @@ export function ResultsSection({
                 >
                   <FilterButton
                     active={resultFilter === "all"}
-                    onClick={() => onFilterChange("all")}
+                    onClick={() => selectFilter("all")}
                   >
                     Tutti ({countForFilter("all")})
                   </FilterButton>
                   {countForFilter("italy") > 0 && (
                     <FilterButton
                       active={resultFilter === "italy"}
-                      onClick={() => onFilterChange("italy")}
+                      onClick={() => selectFilter("italy")}
                     >
                       Italia • ACCREDIA ({countForFilter("italy")})
                     </FilterButton>
@@ -108,7 +117,7 @@ export function ResultsSection({
                       <FilterButton
                         key={filter}
                         active={resultFilter === filter}
-                        onClick={() => onFilterChange(filter)}
+                        onClick={() => selectFilter(filter)}
                       >
                         {countryLabel(country)} • {code} ({countForFilter(filter)})
                       </FilterButton>
@@ -116,6 +125,7 @@ export function ResultsSection({
                   })}
                 </div>
               </div>
+              <div ref={listRef} style={{ scrollMarginTop: "1rem" }} />
               {filteredResults.length ? (
                 <div className="results-list">
                   {filteredResults.map((body, index) => (

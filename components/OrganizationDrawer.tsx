@@ -65,6 +65,11 @@ export function OrganizationDrawer({
   if (!body) return null;
   const { scopes } = body;
   const scopeLines = scopeLinesByStandard(scopes);
+  // A standard picked for a previous body may not exist here: fall back to "Tutti".
+  const activeStandard =
+    selectedStandard !== null && scopeLines.some((l) => l.standard === selectedStandard)
+      ? selectedStandard
+      : null;
   /** Standards when scopes are available, otherwise the given single-EA label, otherwise "all". */
   const scopeSummary = (singleEaLabel: string) =>
     scopes.length
@@ -163,7 +168,7 @@ export function OrganizationDrawer({
             <div className="standard-filter">
               <button
                 onClick={() => setSelectedStandard(null)}
-                className={selectedStandard === null ? "active" : ""}
+                className={activeStandard === null ? "active" : ""}
               >
                 Tutti
               </button>
@@ -171,7 +176,7 @@ export function OrganizationDrawer({
                 <button
                   key={standard}
                   onClick={() => setSelectedStandard(standard)}
-                  className={selectedStandard === standard ? "active" : ""}
+                  className={activeStandard === standard ? "active" : ""}
                 >
                   {shortStandard(standard)}
                 </button>
@@ -180,9 +185,9 @@ export function OrganizationDrawer({
           )}
           <div className="scope-highlight">
             {scopes.length ? (
-              (selectedStandard === null
+              (activeStandard === null
                 ? scopeLines
-                : scopeLines.filter((line) => line.standard === selectedStandard)
+                : scopeLines.filter((line) => line.standard === activeStandard)
               ).map(({ standard, allSectors, sectors }) => (
                 <div key={standard}>
                   <strong>{standardLabel(standard)}</strong>

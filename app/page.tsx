@@ -36,6 +36,7 @@ export default function Home() {
   });
 
   useEffect(() => {
+    // Deferred so the first render matches the server render (no localStorage there).
     const timeoutId = window.setTimeout(() => {
       setRecentSearches(readRecentSearches());
     }, 0);
@@ -52,15 +53,11 @@ export default function Home() {
       .catch(() => setError("Impossibile caricare standard e settori dal database."));
   }, []);
 
+  // Lock page scroll while the drawer is open (the drawer itself handles Escape).
   useEffect(() => {
     if (!selected) return;
-    const closeOnEscape = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setSelected(null);
-    };
-    window.addEventListener("keydown", closeOnEscape);
     document.body.style.overflow = "hidden";
     return () => {
-      window.removeEventListener("keydown", closeOnEscape);
       document.body.style.overflow = "";
     };
   }, [selected]);

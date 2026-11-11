@@ -132,9 +132,8 @@ public class SearchService {
                 .stream()
                 .filter(cb -> scopesByBody.containsKey(cb.getId()))
                 .map(cb -> {
-                    List<AccreditationScopeDto> scopes = scopesByBody
-                            .getOrDefault(cb.getId(), List.of())
-                            .stream()
+                    List<AccreditedScope> bodyScopes = scopesByBody.get(cb.getId());
+                    List<AccreditationScopeDto> scopes = bodyScopes.stream()
                             .map(scope -> toScopeDto(scope, sectorNames))
                             .toList();
                     String scopeSection = scopes.stream()
@@ -151,7 +150,7 @@ public class SearchService {
                     // The card shows the accreditation behind the body's first valid right.
                     return toCard(
                             cb,
-                            scopesByBody.get(cb.getId()).get(0).getAccreditation(),
+                            bodyScopes.get(0).getAccreditation(),
                             firstScope.eaCode(),
                             firstScope.eaDescription(),
                             scopeSection,
@@ -217,23 +216,24 @@ public class SearchService {
             String eaDescription,
             String scopeSection,
             List<AccreditationScopeDto> scopes) {
-        AccreditationBody ab = accreditation != null ? accreditation.getAccreditationBody() : null;
+        AccreditationBody ab = accreditation.getAccreditationBody();
         return new CertificationBodyCardDto(
                 cb.getId(),
                 cb.getName(),
                 cb.getCountry(),
-                ab != null ? ab.getCode() : "N/A",
+                ab.getCode(),
+                ab.getWebsite(),
                 cb.getPhone(),
                 cb.getEmail(),
                 cb.getWebsite(),
                 cb.getAddress(),
                 cb.getSourceUrl(),
                 cb.getVerifiedAt(),
-                accreditation != null ? accreditation.getProofUrl() : null,
+                accreditation.getProofUrl(),
                 eaCode,
                 eaDescription,
                 scopeSection,
                 scopes,
-                accreditation != null ? accreditation.getExpiryDate() : null);
+                accreditation.getExpiryDate());
     }
 }

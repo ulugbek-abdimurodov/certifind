@@ -3,12 +3,14 @@
 import { useEffect, useRef, useState } from "react";
 import type { Body } from "../app/search-types";
 import {
-  countryLabel, flagFor,
+  countryLabel,
+  flagFor,
+  formatDate,
   scopeLinesByStandard,
   shortStandard,
   standardLabel,
-  recognitionLabels,
 } from "../app/search-data";
+import { RecognitionLabels } from "./RecognitionLabels";
 
 export function OrganizationDrawer({
   body,
@@ -111,11 +113,8 @@ export function OrganizationDrawer({
             </div>
             <h2 id="drawer-title">{body.name}</h2>
             <p>
-              {countryLabel(body.country)} <span className="recognition-labels">
-                            {recognitionLabels(body.accreditationBodyCode).map((l) => (
-                              <span key={l} className={`recognition-label ${l.toLowerCase()}`}>{l}</span>
-                            ))}
-                          </span> <span>·</span>{" "}
+              {countryLabel(body.country)}{" "}
+              <RecognitionLabels abCode={body.accreditationBodyCode} /> <span>·</span>{" "}
               {scopeSummary(`EA ${body.eaCode} ${body.eaDescription}`)}
             </p>
           </div>
@@ -153,7 +152,7 @@ export function OrganizationDrawer({
                     <small style={{ marginTop: "0.5rem", display: "block" }}>
                       Scadenza
                     </small>
-                    {new Date(body.expiryDate).toLocaleDateString("it-IT")}
+                    {formatDate(body.expiryDate)}
                   </>
                 )}
               </div>
@@ -233,20 +232,19 @@ export function OrganizationDrawer({
             Visualizza il certificato <span>↗</span>
           </a>
         )}
-        {body.sourceUrl && (
+        {(body.accreditationBodyWebsite || body.sourceUrl) && (
           <a
             className="source-link"
-            href={body.sourceUrl}
+            href={body.accreditationBodyWebsite || body.sourceUrl!}
             target="_blank"
             rel="noreferrer"
           >
-            Fonte dei dati di contatto <span>↗</span>
+            Fonte dei dati: ente di accreditamento {body.accreditationBodyCode} <span>↗</span>
           </a>
         )}
         {body.verifiedAt && (
           <p className="drawer-disclaimer">
-            Ultimo controllo registrato:{" "}
-            {new Date(body.verifiedAt).toLocaleDateString("it-IT")}.
+            Ultimo controllo registrato: {formatDate(body.verifiedAt)}.
           </p>
         )}
         <p className="drawer-disclaimer">

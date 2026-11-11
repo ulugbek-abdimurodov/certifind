@@ -127,10 +127,6 @@ export const standardOptionLabel = (code: string) => {
     : shortStandard(code);
 };
 
-/** Short label for a scope: "EA 37", or "ISO 17025 (non-EA)" when no EA sector applies. */
-export const scopeCode = (scope: AccreditationScope) =>
-  scope.eaCode == null ? `${scope.isoStandard} (non-EA)` : `EA ${scope.eaCode}`;
-
 const EA_SECTOR_COUNT = 39;
 
 const coversAllSectors = (scopes: AccreditationScope[]) =>
@@ -156,11 +152,11 @@ export const standardsLabel = (scopes: AccreditationScope[]) =>
     .sort(compareStandards)
     .join(", ");
 
-/** Certificate expiry as "31/12/2027"; null when unknown. */
-export const formatExpiry = (date: string | null) =>
+/** Italian date, "31/12/2027"; null when unknown. */
+export const formatDate = (date: string | null) =>
   date ? new Date(date).toLocaleDateString("it-IT") : null;
 
-const scopeDetail =(scope: AccreditationScope) =>
+const scopeDetail = (scope: AccreditationScope) =>
   scope.eaCode == null
     ? scope.scopeSection
     : `EA ${scope.eaCode} (${scope.eaDescription})`;
@@ -168,12 +164,11 @@ const scopeDetail =(scope: AccreditationScope) =>
 /** One entry per ISO standard; a standard covering all EA sectors lists no sectors. */
 export const scopeLinesByStandard = (scopes: AccreditationScope[]) => {
   const byStandard = new Map<string, AccreditationScope[]>();
-  scopes.forEach((scope) => {
-    byStandard.set(scope.isoStandard, [
-      ...(byStandard.get(scope.isoStandard) ?? []),
-      scope,
-    ]);
-  });
+  for (const scope of scopes) {
+    const group = byStandard.get(scope.isoStandard);
+    if (group) group.push(scope);
+    else byStandard.set(scope.isoStandard, [scope]);
+  }
   return [...byStandard].map(([standard, group]) => ({
     standard,
     allSectors: coversAllSectors(group),
@@ -182,10 +177,8 @@ export const scopeLinesByStandard = (scopes: AccreditationScope[]) => {
 };
 
 export function matchesFilter(body: Body, filter: ResultFilter) {
-  const isItalian = body.accreditationBodyCode === "ACCREDIA";
   if (filter === "all") return true;
-  if (filter === "italy") return isItalian;
-  if (filter === "foreign") return !isItalian;
+  if (filter === "italy") return body.accreditationBodyCode === "ACCREDIA";
   const [code, country] = filter.slice("accreditor:".length).split("|");
   return body.accreditationBodyCode === code && body.country === country;
 }
@@ -220,7 +213,7 @@ export const demoPresets = [
  * - EA + IAF: other European ABs, plus Algeria, Egypt, Türkiye, the Caucasus, Cyprus, UK.
  * - IAF only: every other AB.
  */
-export type RecognitionLabel = "EA" | "IAF";
+type RecognitionLabel = "EA" | "IAF";
 
 const EA_ONLY_ABS = new Set([
   "HAA", // Croatia

@@ -253,14 +253,6 @@ a {
   color: #34463f;
   margin: 12px 0 7px;
 }
-.optional {
-  float: right;
-  font:
-    700 8px Manrope,
-    sans-serif;
-  color: #9ba6a0;
-  letter-spacing: 0.8px;
-}
 .input-wrap {
   position: relative;
 }
@@ -295,10 +287,6 @@ a {
   z-index: 1;
   font-size: 16px;
   color: #729085;
-}
-.code-icon {
-  font-size: 13px;
-  top: 13px;
 }
 .select-chevron {
   position: absolute;
@@ -335,18 +323,6 @@ a {
 }
 .search-button span {
   font-size: 16px;
-}
-.privacy-note {
-  border-top: 1px solid #edf0ed;
-  margin-top: 17px;
-  padding-top: 14px;
-  text-align: center;
-  color: #99a39e;
-  font-size: 10px;
-}
-.privacy-note span {
-  color: #739282;
-  margin-right: 5px;
 }
 .workflow {
   max-width: 1120px;
@@ -1289,7 +1265,6 @@ footer {
 [data-theme="dark"] .card-kicker span { color: #6c7c75; }
 [data-theme="dark"] .card-subtitle { color: #93a39c; }
 [data-theme="dark"] .search-card label { color: #c4d1cb; }
-[data-theme="dark"] .optional { color: #6c7c75; }
 [data-theme="dark"] .input-wrap input,
 [data-theme="dark"] .input-wrap select { background: #0f1714; border-color: #2a3833; color: #e6eeea; }
 [data-theme="dark"] .input-wrap input::placeholder { color: #66766f; }
@@ -1298,8 +1273,6 @@ footer {
 [data-theme="dark"] .input-icon { color: #6fa48f; }
 [data-theme="dark"] .select-chevron { color: #8fa69c; }
 [data-theme="dark"] .search-button:hover { background: #17a07e; }
-[data-theme="dark"] .privacy-note { border-top-color: #24302c; color: #7d8d86; }
-[data-theme="dark"] .privacy-note span { color: #6fa48f; }
 [data-theme="dark"] .demo-presets-label { color: #8fa69c; }
 [data-theme="dark"] .demo-preset { background: #131c19; border-color: #2a3833; color: #b4c2bc; }
 [data-theme="dark"] .demo-preset:hover,

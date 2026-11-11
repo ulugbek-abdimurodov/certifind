@@ -134,7 +134,13 @@ export function SearchForm({
               onSectorChange(event.target.value);
               setActiveSuggestion(-1);
             }}
-            onFocus={() => setSectorFocused(true)}
+            onFocus={() => {
+              // Start each new sector entry from an empty field; the last search
+              // stays visible until the user clicks into it.
+              if (sector) onSectorChange("");
+              setActiveSuggestion(-1);
+              setSectorFocused(true);
+            }}
             onKeyDown={handleSectorKeyDown}
             onBlur={() => {
               window.setTimeout(() => setSectorFocused(false), 150);
@@ -194,9 +200,6 @@ export function SearchForm({
       >
         Vedi tutte le aziende <span>→</span>
       </button>
-      <div className="privacy-note">
-        <span>♢</span> Nessun dato aziendale viene salvato
-      </div>
     </div>
   );
 }

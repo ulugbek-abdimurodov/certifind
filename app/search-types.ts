@@ -15,6 +15,7 @@ export type Body = {
   name: string;
   country: string;
   accreditationBodyCode: string;
+  accreditationBodyWebsite: string | null;
   phone: string | null;
   email: string | null;
   website: string | null;
@@ -43,7 +44,7 @@ export type SearchOptions = {
 
 export type SectorOption = { code: number; name: string };
 
-export type ResultFilter = "all" | "italy" | "foreign" | `accreditor:${string}`;
+export type ResultFilter = "all" | "italy" |`accreditor:${string}`;
 
 export type SearchPreset = {
   label: string;

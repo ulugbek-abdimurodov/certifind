@@ -5,12 +5,12 @@ import type { Body, ResultFilter, SearchResponse } from "../app/search-types";
 import {
   countryLabel,
   flagFor,
-  formatExpiry,
+  formatDate,
   matchesFilter,
   shortStandard,
   standardsLabel,
-  recognitionLabels,
 } from "../app/search-data";
+import { RecognitionLabels } from "./RecognitionLabels";
 
 type ResultsSectionProps = {
   data: SearchResponse | null;
@@ -52,10 +52,11 @@ export function ResultsSection({
       listRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }),
     );
   };
-  const filteredResults =
-    data?.results.filter((body) => matchesFilter(body, resultFilter)) ?? [];
+  const results = data?.results ?? [];
+  const filteredResults = results.filter((body) => matchesFilter(body, resultFilter));
   const countForFilter = (filter: ResultFilter) =>
-    data?.results.filter((body) => matchesFilter(body, filter)).length ?? 0;
+    results.filter((body) => matchesFilter(body, filter)).length;
+  const italyCount = countForFilter("italy");
 
   return (
     <section className="results-section" id="results">
@@ -101,14 +102,14 @@ export function ResultsSection({
                     active={resultFilter === "all"}
                     onClick={() => selectFilter("all")}
                   >
-                    Tutti ({countForFilter("all")})
+                    Tutti ({results.length})
                   </FilterButton>
-                  {countForFilter("italy") > 0 && (
+                  {italyCount > 0 && (
                     <FilterButton
                       active={resultFilter === "italy"}
                       onClick={() => selectFilter("italy")}
                     >
-                      Italia • ACCREDIA ({countForFilter("italy")})
+                      Italia • ACCREDIA ({italyCount})
                     </FilterButton>
                   )}
                   {accreditorInfo.map(({ code, country }) => {
@@ -155,34 +156,17 @@ export function ResultsSection({
                         </div>
                         <div className="result-meta">
                           <span>{countryLabel(body.country)}</span>
-                          <i /> <span className="recognition-labels">
-                            {recognitionLabels(body.accreditationBodyCode).map((l) => (
-                              <span key={l} className={`recognition-label ${l.toLowerCase()}`}>{l}</span>
-                            ))}
-                          </span>
+                          <i /> <RecognitionLabels abCode={body.accreditationBodyCode} />
                           <i /> <span>{body.accreditationBodyCode}</span>
-                          <i />{" "}
-                          <span>
-                            {(() => {
-                              const expiry = formatExpiry(
-                                body.expiryDate ??
-                                  body.scopes.find((s) => s.expiryDate)?.expiryDate ??
-                                  null,
-                              );
-                              return expiry ? `Scadenza ${expiry}` : "Scadenza non disponibile";
-                            })()}
-                          </span>
+                          <i /> <span>{expiryLabel(body)}</span>
                         </div>
                         <div className="verified-label">
                           <span>ⓘ</span> Accreditamento dichiarato ·{" "}
                           {body.accreditationBodyCode}
                         </div>
-                        {(body.proofUrl || body.sourceUrl || body.verifiedAt) && (
+                        {body.verifiedAt && (
                           <div className="provenance-label">
-                            {body.proofUrl || body.sourceUrl ? "Fonte disponibile" : null}
-                            {body.verifiedAt
-                              ? ` · Ultimo controllo ${new Date(body.verifiedAt).toLocaleDateString("it-IT")}`
-                              : null}
+                            Ultimo controllo {formatDate(body.verifiedAt)}
                           </div>
                         )}
                       </div>
@@ -225,6 +209,13 @@ export function ResultsSection({
       )}
     </section>
   );
+}
+
+function expiryLabel(body: Body) {
+  const expiry = formatDate(
+    body.expiryDate ?? body.scopes.find((s) => s.expiryDate)?.expiryDate ?? null,
+  );
+  return expiry ? `Scadenza ${expiry}` : "Scadenza non disponibile";
 }
 
 function FilterButton({

@@ -8,6 +8,7 @@ public record CertificationBodyCardDto(
     String name,
     String country,
     String accreditationBodyCode,
+    String accreditationBodyWebsite,
     String phone,
     String email,
     String website,

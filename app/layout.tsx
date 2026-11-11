@@ -6,8 +6,9 @@ export const metadata: Metadata = {
   description: "Trova organismi di certificazione accreditati per il tuo settore.",
 };
 
-// Runs before first paint so the saved/system theme applies without a flash.
-const themeScript = `(function(){try{var t=localStorage.getItem("theme");if(t!=="light"&&t!=="dark")t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme="light"}})()`;
+// Runs before first paint so the theme applies without a flash. Live OS changes
+// are handled in ThemeToggle.
+const themeScript = `(function(){var d=document.documentElement;try{var t=localStorage.getItem("theme");if(t!=="light"&&t!=="dark")t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";d.dataset.theme=t}catch(e){d.dataset.theme="light"}})()`;
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (

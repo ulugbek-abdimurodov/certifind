@@ -3,8 +3,18 @@
 spring:
   main:
     web-application-type: none
+    banner-mode: off
+    log-startup-info: false
   jpa:
     show-sql: false
+
+# Only warnings/errors from frameworks; keep the importer's own summary.
+logging:
+  level:
+    root: WARN
+    com.certifind.importer: INFO
+  pattern:
+    console: "%msg%n"
 
 certifind:
   import:

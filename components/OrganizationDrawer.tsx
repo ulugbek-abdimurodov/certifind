@@ -230,7 +230,7 @@ export function OrganizationDrawer({
             target="_blank"
             rel="noreferrer"
           >
-            Consulta la fonte dell’accreditamento <span>↗</span>
+            Visualizza il certificato <span>↗</span>
           </a>
         )}
         {body.sourceUrl && (

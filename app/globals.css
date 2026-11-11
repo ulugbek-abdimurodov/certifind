@@ -1083,6 +1083,9 @@ footer {
   color: #283b32;
   font-size: 11px;
 }
+.scope-highlight > div + div {
+  margin-top: 8px;
+}
 .scope-highlight p {
   margin: 5px 0 0;
   color: #54685e;

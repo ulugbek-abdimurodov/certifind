@@ -215,10 +215,6 @@ export function ResultsSection({
                           ))}
                           <i /> <span>{expiryLabel(body)}</span>
                         </div>
-                        <div className="verified-label">
-                          <span>ⓘ</span> Accreditamento dichiarato ·{" "}
-                          {body.accreditationBodyCodes.join(", ")}
-                        </div>
                         {body.verifiedAt && (
                           <div className="provenance-label">
                             Ultimo controllo {formatDate(body.verifiedAt)}

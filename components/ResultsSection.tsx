@@ -1,16 +1,19 @@
 "use client";
 
 import { useRef, useState } from "react";
+
+/** Cards rendered per page; the rest appear on "Mostra altri". */
+const PAGE_SIZE = 50;
 import type { Body, ResultFilter, SearchResponse } from "../app/search-types";
 import {
   countryLabel,
-  flagFor,
   formatDate,
   matchesFilter,
   recognitionLabels,
   shortStandard,
   standardsLabel,
 } from "../app/search-data";
+import { CountryFlag } from "./CountryFlag";
 import { RecognitionLabels } from "./RecognitionLabels";
 
 type ResultsSectionProps = {
@@ -32,23 +35,30 @@ export function ResultsSection({
 }: ResultsSectionProps) {
   // First layer: EA / IAF recognition. ABs recognised by both appear under either.
   const [recognition, setRecognition] = useState<RecognitionFilter>("all");
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  // Back to the first page whenever the result set or a filter changes.
+  const [pageKey, setPageKey] = useState<unknown[]>([]);
+  const currentKey = [data, recognition, resultFilter];
+  if (currentKey.some((value, i) => value !== pageKey[i])) {
+    setPageKey(currentKey);
+    setVisibleCount(PAGE_SIZE);
+  }
   const allResults = data?.results ?? [];
   const matchesRecognition = (body: Body, value: RecognitionFilter = recognition) =>
     value === "all" ||
     (value === "IAF"
-      ? !recognitionLabels(body.accreditationBodyCode).includes("EA")
-      : recognitionLabels(body.accreditationBodyCode).includes(value));
+      ? body.accreditationBodyCodes.some((code) => !recognitionLabels(code).includes("EA"))
+      : body.accreditationBodyCodes.some((code) => recognitionLabels(code).includes(value)));
   const recognised = allResults.filter((body) => matchesRecognition(body));
   // One pill per (country, accreditation body): ESYD accredits Greek, Cypriot and Maltese bodies.
   const accreditorInfo = data
     ? Array.from(
         new Map(
-          recognised
-            .filter((body) => body.accreditationBodyCode !== "ACCREDIA")
-            .map((body) => [
-              `${body.accreditationBodyCode}|${body.country}`,
-              { code: body.accreditationBodyCode, country: body.country },
-            ]),
+          recognised.flatMap((body) =>
+            body.accreditationBodyCodes
+              .filter((code) => code !== "ACCREDIA")
+              .map((code) => [`${code}|${body.country}`, { code, country: body.country }] as const),
+          ),
         ).values(),
       ).sort(
         (a, b) => countryLabel(a.country).localeCompare(countryLabel(b.country), "it") || a.code.localeCompare(b.code),
@@ -142,24 +152,36 @@ export function ResultsSection({
                       Italia • ACCREDIA ({italyCount})
                     </FilterButton>
                   )}
-                  {accreditorInfo.map(({ code, country }) => {
-                    const filter = `accreditor:${code}|${country}` as const;
-                    return (
-                      <FilterButton
-                        key={filter}
-                        active={resultFilter === filter}
-                        onClick={() => selectFilter(filter)}
-                      >
-                        {countryLabel(country)} • {code} ({countForFilter(filter)})
-                      </FilterButton>
-                    );
-                  })}
+                  {/* One dropdown instead of a pill per (country, AB): ~160 pills pushed the
+                      first card three screens down on a phone. */}
+                  {accreditorInfo.length > 0 && (
+                    <select
+                      className={`filter-select ${resultFilter.startsWith("accreditor:") ? "filter-pill-active" : ""}`}
+                      aria-label="Paese ed ente di accreditamento"
+                      value={resultFilter.startsWith("accreditor:") ? resultFilter : ""}
+                      onChange={(event) =>
+                        selectFilter((event.target.value || "all") as ResultFilter)
+                      }
+                    >
+                      <option value="">
+                        Altri paesi ed enti ({accreditorInfo.length})
+                      </option>
+                      {accreditorInfo.map(({ code, country }) => {
+                        const filter = `accreditor:${code}|${country}` as const;
+                        return (
+                          <option key={filter} value={filter}>
+                            {countryLabel(country)} • {code} ({countForFilter(filter)})
+                          </option>
+                        );
+                      })}
+                    </select>
+                  )}
                 </div>
               </div>
               <div ref={listRef} style={{ scrollMarginTop: "1rem" }} />
               {filteredResults.length ? (
                 <div className="results-list">
-                  {filteredResults.map((body, index) => (
+                  {filteredResults.slice(0, visibleCount).map((body, index) => (
                     <button
                       className="result-card"
                       key={body.id}
@@ -170,7 +192,7 @@ export function ResultsSection({
                         {String(index + 1).padStart(2, "0")}
                       </div>
                       <div className="country-flag" aria-label={countryLabel(body.country)}>
-                        {flagFor(body.country)}
+                        <CountryFlag country={body.country} />
                       </div>
                       <div className="result-main">
                         <div className="name-line">
@@ -178,21 +200,24 @@ export function ResultsSection({
                         </div>
                         <div className="scope-subtitle">
                           Scopo accreditato:{" "}
-                          {body.scopes.length
-                            ? standardsLabel(body.scopes)
+                          {body.standards.length
+                            ? standardsLabel(body.standards)
                             : data.directory
                               ? body.scopeSection
                               : iso}
                         </div>
                         <div className="result-meta">
                           <span>{countryLabel(body.country)}</span>
-                          <i /> <RecognitionLabels abCode={body.accreditationBodyCode} />
-                          <i /> <span>{body.accreditationBodyCode}</span>
+                          {body.accreditationBodyCodes.map((code) => (
+                            <span key={code} style={{ display: "contents" }}>
+                              <i /> <RecognitionLabels abCode={code} /> <span>{code}</span>
+                            </span>
+                          ))}
                           <i /> <span>{expiryLabel(body)}</span>
                         </div>
                         <div className="verified-label">
                           <span>ⓘ</span> Accreditamento dichiarato ·{" "}
-                          {body.accreditationBodyCode}
+                          {body.accreditationBodyCodes.join(", ")}
                         </div>
                         {body.verifiedAt && (
                           <div className="provenance-label">
@@ -203,6 +228,15 @@ export function ResultsSection({
                       <span className="card-arrow">↗</span>
                     </button>
                   ))}
+                  {filteredResults.length > visibleCount && (
+                    <button
+                      className="filter-pill"
+                      type="button"
+                      onClick={() => setVisibleCount((count) => count + PAGE_SIZE)}
+                    >
+                      Mostra altri ({filteredResults.length - visibleCount} rimanenti)
+                    </button>
+                  )}
                 </div>
               ) : (
                 <EmptyState>
@@ -245,7 +279,7 @@ type RecognitionFilter = "all" | "EA" | "IAF";
 
 function expiryLabel(body: Body) {
   const expiry = formatDate(
-    body.expiryDate ?? body.scopes.find((s) => s.expiryDate)?.expiryDate ?? null,
+    body.expiryDate,
   );
   return expiry ? `Scadenza ${expiry}` : "Scadenza non disponibile";
 }

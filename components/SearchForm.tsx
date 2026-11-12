@@ -14,6 +14,8 @@ type SearchFormProps = {
   onSubmit: (event: FormEvent<HTMLFormElement>) => void;
   onShowAllCompanies: () => void;
   options: SearchOptions;
+  /** Shown above the fields while standards and sectors cannot be loaded. */
+  optionsError?: string;
 };
 
 export function SearchForm({
@@ -26,14 +28,19 @@ export function SearchForm({
   onSubmit,
   onShowAllCompanies,
   options,
+  optionsError,
 }: SearchFormProps) {
   const presets = recentSearches.length ? recentSearches : demoPresets;
   const [sectorFocused, setSectorFocused] = useState(false);
   const [activeSuggestion, setActiveSuggestion] = useState(-1);
+  // True from focus until the user types: the kept value ("EA 12 - …") would match no
+  // suggestion, so the whole list is offered instead of filtering by it.
+  const [browsingSectors, setBrowsingSectors] = useState(false);
   const suggestionListId = useId();
   const sectorQuery = sector.trim().toLocaleLowerCase();
   const sectorSuggestions = (options.sectorsByStandard?.[iso] ?? []).filter(
     (option) =>
+      browsingSectors ||
       sectorQuery.length === 0 ||
       `EA ${option.code} ${option.name}`.toLocaleLowerCase().includes(sectorQuery),
   );
@@ -99,6 +106,12 @@ export function SearchForm({
         </div>
       </div>
       <form onSubmit={onSubmit}>
+        {optionsError && (
+          <div className="notice error-notice form-notice" role="status">
+            <span>!</span>
+            <p>{optionsError}</p>
+          </div>
+        )}
         <label htmlFor="standard">Standard ISO</label>
         <div className="input-wrap">
           <span className="input-icon">◎</span>
@@ -132,12 +145,13 @@ export function SearchForm({
             value={sector}
             onChange={(event) => {
               onSectorChange(event.target.value);
+              setBrowsingSectors(false);
               setActiveSuggestion(-1);
             }}
-            onFocus={() => {
-              // Start each new sector entry from an empty field; the last search
-              // stays visible until the user clicks into it.
-              if (sector) onSectorChange("");
+            onFocus={(event) => {
+              // Keep the value (the form must stay submittable); select it so typing replaces it.
+              event.currentTarget.select();
+              setBrowsingSectors(true);
               setActiveSuggestion(-1);
               setSectorFocused(true);
             }}
@@ -145,7 +159,7 @@ export function SearchForm({
             onBlur={() => {
               window.setTimeout(() => setSectorFocused(false), 150);
             }}
-            placeholder="EA 12 - Prodotti chimici e fibre"
+            placeholder="Cerca un settore o un codice EA…"
             role="combobox"
             aria-autocomplete="list"
             aria-controls={suggestionListId}

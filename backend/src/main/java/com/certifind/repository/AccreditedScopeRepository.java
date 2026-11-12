@@ -52,4 +52,24 @@ public interface AccreditedScopeRepository extends JpaRepository<AccreditedScope
            "WHERE " + VALID_ACCREDITATION_CONDITION + " " +
            "ORDER BY cb.id ASC, s.certificationStandard ASC, s.eaCode ASC")
     List<AccreditedScope> findAllValidScopes();
+
+    /** Each row is {certificationBodyId, certificationStandard}: the standards each listed body can certify. */
+    @Query("SELECT DISTINCT a.certificationBody.id, s.certificationStandard FROM AccreditedScope s JOIN s.accreditation a " +
+           "WHERE " + VALID_ACCREDITATION_CONDITION)
+    List<Object[]> findValidBodyStandards();
+
+    /** Valid accreditations that carry at least one valid scope, with body and AB loaded. */
+    @Query("SELECT DISTINCT a FROM AccreditedScope s JOIN s.accreditation a " +
+           "JOIN FETCH a.certificationBody cb " +
+           "JOIN FETCH a.accreditationBody ab " +
+           "WHERE " + VALID_ACCREDITATION_CONDITION)
+    List<com.certifind.domain.Accreditation> findValidAccreditationsWithScopes();
+
+    @Query("SELECT s FROM AccreditedScope s " +
+           "JOIN FETCH s.accreditation a " +
+           "JOIN FETCH a.accreditationBody ab " +
+           "WHERE a.certificationBody.id = :bodyId " +
+           "AND " + VALID_ACCREDITATION_CONDITION + " " +
+           "ORDER BY s.certificationStandard ASC, s.eaCode ASC")
+    List<AccreditedScope> findValidScopesByBody(@Param("bodyId") Integer bodyId);
 }

@@ -304,8 +304,41 @@ Order matters on a new server: the backend refuses to start until the importer h
 created the tables (it keeps restarting until then).
 
 Do not open ports 5432 or 8080 in the server's firewall; both are bound to
-`127.0.0.1`. To serve the API publicly, put a reverse proxy with HTTPS (nginx,
-Caddy) in front of port 8080.
+`127.0.0.1`. The `proxy` service serves the API publicly on 443 (see below).
+
+### HTTPS and rate limits
+
+The `proxy` service (nginx) is the only public entry point. It terminates HTTPS
+with a Let's Encrypt certificate and forwards `/api/` to the backend. Its config is
+`deploy/nginx/templates/certifind.conf.template`.
+
+| Path | Limit per client IP |
+| --- | --- |
+| `POST /api/v1/search` | 2 requests/s, bursts of 10 |
+| `GET /api/v1/companies` (whole directory) | 12 requests/min, bursts of 3 |
+| other `/api/` | 10 requests/s, bursts of 40 |
+| any path | 20 open connections, request body up to 16 KB |
+
+Over a limit, the proxy answers `429` with the API's error format and `Retry-After`.
+
+First time, with `API_DOMAIN` and `LETSENCRYPT_EMAIL` set in `deploy/.env`, the
+domain's DNS pointing at the server, and ports 80 and 443 open in the firewall:
+
+```bash
+cd /opt/certifind/deploy && set -a && . ./.env && set +a
+C="docker compose -f docker-compose.prod.yml"
+
+# Get the first certificate (certbot answers the challenge itself on port 80).
+$C run --rm -p 80:80 --entrypoint certbot certbot certonly --standalone \
+  -d "$API_DOMAIN" --email "$LETSENCRYPT_EMAIL" --agree-tos --no-eff-email
+
+$C up -d proxy certbot
+curl https://$API_DOMAIN/api/v1/health
+```
+
+Afterwards `certbot` renews the certificate on its own (it checks twice a day) and
+`proxy` reloads every 6 hours to use it. After editing the config template, run
+`$C up -d --force-recreate proxy`.
 
 ### Production frontend hosting
 

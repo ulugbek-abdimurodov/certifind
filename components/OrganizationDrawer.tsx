@@ -1,15 +1,16 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import type { Body } from "../app/search-types";
+import type { AccreditationScope, Body } from "../app/search-types";
 import {
+  API_URL,
   countryLabel,
-  flagFor,
   formatDate,
   scopeLinesByStandard,
   shortStandard,
   standardLabel,
 } from "../app/search-data";
+import { CountryFlag } from "./CountryFlag";
 import { RecognitionLabels } from "./RecognitionLabels";
 
 export function OrganizationDrawer({
@@ -22,7 +23,24 @@ export function OrganizationDrawer({
   onClose: () => void;
 }) {
   const [selectedStandard, setSelectedStandard] = useState<string | null>(null);
+  // Scope rows are not part of the result list; fetch them for the open body. null = loading.
+  const [loaded, setLoaded] = useState<{ id: number; scopes: AccreditationScope[] } | null>(null);
   const returnFocusRef = useRef<HTMLElement | null>(null);
+  useEffect(() => {
+    if (!body) return;
+    const controller = new AbortController();
+    // A one-standard card (every search result) only needs that standard's rows.
+    const query = body.standards.length === 1
+      ? `?standard=${encodeURIComponent(body.standards[0])}`
+      : "";
+    fetch(`${API_URL}/api/v1/companies/${body.id}/scopes${query}`, { signal: controller.signal })
+      .then((response) => (response.ok ? response.json() : []))
+      .then((scopes: AccreditationScope[]) => setLoaded({ id: body.id, scopes }))
+      .catch(() => {
+        if (!controller.signal.aborted) setLoaded({ id: body.id, scopes: [] });
+      });
+    return () => controller.abort();
+  }, [body]);
   const onCloseRef = useRef(onClose);
   useEffect(() => {
     onCloseRef.current = onClose;
@@ -65,8 +83,8 @@ export function OrganizationDrawer({
   }, [body]);
 
   if (!body) return null;
-  const { scopes } = body;
-  const scopeLines = scopeLinesByStandard(scopes);
+  const scopes = loaded?.id === body.id ? loaded.scopes : null;
+  const scopeLines = scopeLinesByStandard(scopes ?? []);
   // A standard picked for a previous body may not exist here: fall back to "Tutti".
   const activeStandard =
     selectedStandard !== null && scopeLines.some((l) => l.standard === selectedStandard)
@@ -74,8 +92,8 @@ export function OrganizationDrawer({
       : null;
   /** Standards when scopes are available, otherwise the given single-EA label, otherwise "all". */
   const scopeSummary = (singleEaLabel: string) =>
-    scopes.length
-      ? scopeLines.map(({ standard }) => standard).join(", ")
+    body.standards.length
+      ? body.standards.join(", ")
       : body.eaCode > 0
         ? singleEaLabel
         : "Tutti gli standard e settori";
@@ -106,15 +124,16 @@ export function OrganizationDrawer({
           </button>
         </div>
         <div className="drawer-identity">
-          <div className="drawer-flag">{flagFor(body.country)}</div>
+          <div className="drawer-flag"><CountryFlag country={body.country} /></div>
           <div>
             <div className="verified-label">
-              <span>ⓘ</span> Accreditamento dichiarato · {body.accreditationBodyCode}
+              <span>ⓘ</span> Accreditamento dichiarato · {body.accreditationBodyCodes.join(", ")}
             </div>
             <h2 id="drawer-title">{body.name}</h2>
             <p>
               {countryLabel(body.country)}{" "}
-              <RecognitionLabels abCode={body.accreditationBodyCode} /> <span>·</span>{" "}
+              <RecognitionLabels abCodes={body.accreditationBodyCodes} />{" "}
+              <span>·</span>{" "}
               {scopeSummary(`EA ${body.eaCode} ${body.eaDescription}`)}
             </p>
           </div>
@@ -127,7 +146,7 @@ export function OrganizationDrawer({
             </ContactLink>
           )}
           {body.email && (
-            <ContactLink href={`mailto:${body.email}`} icon="✉" label="Email">
+            <ContactLink href={mailtoHref(body.email)} icon="✉" label="Email">
               {body.email}
             </ContactLink>
           )}
@@ -147,14 +166,16 @@ export function OrganizationDrawer({
               <div>
                 <small>Sede</small>
                 {body.address}
-                {body.expiryDate && (
-                  <>
-                    <small style={{ marginTop: "0.5rem", display: "block" }}>
-                      Scadenza
-                    </small>
-                    {formatDate(body.expiryDate)}
-                  </>
-                )}
+              </div>
+            </div>
+          )}
+          {/* Own row, so the expiry shows whether or not the body has an address. */}
+          {body.expiryDate && (
+            <div className="address-row">
+              <span>◷</span>
+              <div>
+                <small>Scadenza</small>
+                {formatDate(body.expiryDate)}
               </div>
             </div>
           )}
@@ -163,7 +184,7 @@ export function OrganizationDrawer({
           <div className="drawer-section-title">
             CAMPO DI APPLICAZIONE ACCREDITATO
           </div>
-          {scopes.length > 0 && (
+          {scopeLines.length > 0 && (
             <div className="standard-filter">
               <button
                 onClick={() => setSelectedStandard(null)}
@@ -183,7 +204,9 @@ export function OrganizationDrawer({
             </div>
           )}
           <div className="scope-highlight">
-            {scopes.length ? (
+            {scopes === null ? (
+              <p>Caricamento del campo di applicazione…</p>
+            ) : scopes.length ? (
               (activeStandard === null
                 ? scopeLines
                 : scopeLines.filter((line) => line.standard === activeStandard)
@@ -217,7 +240,7 @@ export function OrganizationDrawer({
           <div className="criteria-list">
             <Criterion
               label="Scope ISO pertinente"
-              ok={scopes.length > 0}
+              ok={body.standards.length > 0}
               detail={scopeSummary(`${iso} · EA ${body.eaCode}`)}
             />
           </div>
@@ -308,4 +331,13 @@ function Criterion({
       </span>
     </div>
   );
+}
+
+/**
+ * mailto: link for an address. Characters that mean something in a mailto URL
+ * ("&", "?", "#", "%") are percent-encoded, so "cb&IB@masci.or.th" stays one address
+ * instead of being cut at "&".
+ */
+function mailtoHref(email: string) {
+  return `mailto:${email.trim().replace(/[&?#%]/g, (c) => encodeURIComponent(c))}`;
 }

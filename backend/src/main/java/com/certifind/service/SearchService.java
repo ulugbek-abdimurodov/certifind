@@ -1,9 +1,11 @@
 package com.certifind.service;
 
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -35,6 +37,8 @@ public class SearchService {
             Pattern.compile("\\bEA\\s*(\\d{1,2})\\b", Pattern.CASE_INSENSITIVE);
     private static final String DEFAULT_ISO = "ISO 9001";
     private static final String ALL_SECTORS = "Tutti gli standard e settori";
+    static final int MIN_SECTOR_LENGTH = 3;
+    static final int MAX_INPUT_LENGTH = 200;
 
     private final SectorKeywordRepository sectorKeywordRepository;
     private final AccreditedScopeRepository accreditedScopeRepository;
@@ -73,6 +77,8 @@ public class SearchService {
         if (request == null) {
             throw new IllegalArgumentException("La richiesta di ricerca non può essere vuota.");
         }
+        validateInput(request.isoStandard(), 0);
+        validateInput(request.sectorActivity(), MIN_SECTOR_LENGTH);
 
         // An explicit "EA nn" code wins; otherwise the sector text is resolved through the keyword vocabulary.
         Integer eaCode = parseEaCode(request.sectorActivity());
@@ -97,14 +103,16 @@ public class SearchService {
                         .filter(scope -> Objects.equals(scope.getEaCode(), resolvedEaCode))
                         .findFirst()
                         .map(match -> {
-                            List<AccreditationScopeDto> eaScopes = bodyScopes.stream()
-                                    .map(scope -> toScopeDto(scope, sectorNames))
-                                    .toList();
+                            // Every AB whose valid right covers this standard and sector, not just the first.
+                            List<String> abCodes = abCodes(match.getAccreditation(), bodyScopes.stream()
+                                    .filter(scope -> Objects.equals(scope.getEaCode(), resolvedEaCode))
+                                    .map(AccreditedScope::getAccreditation)
+                                    .toList());
                             String scopeSection = match.getAccreditation().getAccreditationStandard()
                                     + " · " + match.getAccreditation().getCertificateNumber()
                                     + " · " + toScopeDto(match, sectorNames).scopeSection();
                             return toCard(match.getCertificationBody(), match.getAccreditation(),
-                                    resolvedEaCode, resolvedEaDesc, scopeSection, eaScopes);
+                                    resolvedEaCode, resolvedEaDesc, scopeSection, List.of(iso), abCodes);
                         })
                         .stream())
                 .toList();
@@ -112,53 +120,94 @@ public class SearchService {
         return new SearchResponse(resolvedEaCode, resolvedEaDesc, cards, false);
     }
 
+    /** EA code for free text; null when nothing matches. Text matching several sectors is rejected. */
     private Integer resolveKeyword(String sectorActivity) {
         if (!isPresent(sectorActivity)) {
             return null;
         }
-        return sectorKeywordRepository.findBestMatch(sectorActivity.trim())
-                .map(SectorKeyword::getEaCode)
-                .orElse(null);
+        SectorKeywordRepository.KeywordMatch match = sectorKeywordRepository.match(sectorActivity);
+        if (!match.ambiguousCodes().isEmpty()) {
+            Map<Integer, String> names = loadSectorNames();
+            String options = match.ambiguousCodes().stream()
+                    .map(code -> "EA " + code + " (" + sectorName(names, code) + ")")
+                    .collect(Collectors.joining(", "));
+            throw new IllegalArgumentException("Settore ambiguo: «" + sectorActivity.trim()
+                    + "» può indicare " + options + ". Scrivi un termine più preciso o scegli un codice EA.");
+        }
+        return match.eaCode();
     }
 
     @Transactional(readOnly = true)
     public SearchResponse findAllCompanies() {
-        Map<Integer, String> sectorNames = loadSectorNames();
-        Map<Integer, List<AccreditedScope>> scopesByBody =
-                groupByCertificationBody(accreditedScopeRepository.findAllValidScopes());
+        // Lightweight rows instead of every scope entity: the list only shows each body's standards.
+        Map<Integer, TreeSet<String>> standardsByBody = new HashMap<>();
+        for (Object[] row : accreditedScopeRepository.findValidBodyStandards()) {
+            standardsByBody.computeIfAbsent((Integer) row[0], id -> new TreeSet<>()).add((String) row[1]);
+        }
+        // The card shows the body's ISO/IEC 17021-1 accreditation when it has a valid scope, else its first one.
+        Map<Integer, Accreditation> cardAccreditation = new HashMap<>();
+        Map<Integer, List<Accreditation>> accreditationsByBody = new HashMap<>();
+        for (Accreditation a : accreditedScopeRepository.findValidAccreditationsWithScopes()) {
+            accreditationsByBody.computeIfAbsent(a.getCertificationBody().getId(), id -> new java.util.ArrayList<>()).add(a);
+            cardAccreditation.merge(a.getCertificationBody().getId(), a,
+                    (current, next) -> rank(next) < rank(current) ? next : current);
+        }
         // Only bodies that hold at least one valid issuing right are listed (the same rule as
         // search): withdrawn, suspended and expired bodies stay in the database but are hidden.
         List<CertificationBodyCardDto> cards = certificationBodyRepository.findAllByOrderByNameAsc()
                 .stream()
-                .filter(cb -> scopesByBody.containsKey(cb.getId()))
+                .filter(cb -> standardsByBody.containsKey(cb.getId()) && cardAccreditation.containsKey(cb.getId()))
                 .map(cb -> {
-                    List<AccreditedScope> bodyScopes = scopesByBody.get(cb.getId());
-                    List<AccreditationScopeDto> scopes = bodyScopes.stream()
-                            .map(scope -> toScopeDto(scope, sectorNames))
-                            .toList();
-                    String scopeSection = scopes.stream()
-                            .collect(Collectors.groupingBy(
-                                    AccreditationScopeDto::isoStandard,
-                                    LinkedHashMap::new,
-                                    Collectors.mapping(scope -> String.valueOf(scope.eaCode()),
-                                            Collectors.joining(", "))))
-                            .entrySet().stream()
-                            .map(entry -> entry.getKey() + ": EA " + entry.getValue())
-                            .collect(Collectors.joining(" / "));
-                    AccreditationScopeDto firstScope = scopes.get(0);
-
-                    // The card shows the accreditation behind the body's first valid right.
-                    return toCard(
-                            cb,
-                            bodyScopes.get(0).getAccreditation(),
-                            firstScope.eaCode(),
-                            firstScope.eaDescription(),
-                            scopeSection,
-                            scopes);
+                    List<String> standards = List.copyOf(standardsByBody.get(cb.getId()));
+                    Accreditation primary = cardAccreditation.get(cb.getId());
+                    return toCard(cb, primary, 0, ALL_SECTORS, String.join(", ", standards), standards,
+                            abCodes(primary, accreditationsByBody.get(cb.getId())));
                 })
                 .toList();
 
         return new SearchResponse(0, ALL_SECTORS, cards, true);
+    }
+
+    /** All valid scope rows of one body, optionally for a single certification standard. */
+    @Transactional(readOnly = true)
+    public List<AccreditationScopeDto> findScopes(Integer bodyId, String standard) {
+        Map<Integer, String> sectorNames = loadSectorNames();
+        return accreditedScopeRepository.findValidScopesByBody(bodyId).stream()
+                .filter(scope -> !isPresent(standard) || scope.getCertificationStandard().equals(standard.trim()))
+                .map(scope -> toScopeDto(scope, sectorNames))
+                .toList();
+    }
+
+    /** Distinct AB codes: the card's own AB first, the others alphabetically. */
+    private static List<String> abCodes(Accreditation primary, List<Accreditation> all) {
+        String first = primary.getAccreditationBody().getCode();
+        TreeSet<String> others = all.stream()
+                .map(a -> a.getAccreditationBody().getCode())
+                .filter(code -> !code.equals(first))
+                .collect(Collectors.toCollection(TreeSet::new));
+        List<String> codes = new java.util.ArrayList<>();
+        codes.add(first);
+        codes.addAll(others);
+        return codes;
+    }
+
+    private static int rank(Accreditation a) {
+        return ("ISO/IEC 17021-1".equals(a.getAccreditationStandard()) ? 0 : 1_000_000_000) + a.getId();
+    }
+
+    /** Rejects control characters and text outside [minLength, MAX_INPUT_LENGTH] once trimmed. */
+    static void validateInput(String value, int minLength) {
+        String trimmed = value == null ? "" : value.trim();
+        if (trimmed.length() < minLength) {
+            throw new IllegalArgumentException("Inserisci almeno " + minLength + " caratteri.");
+        }
+        if (trimmed.length() > MAX_INPUT_LENGTH) {
+            throw new IllegalArgumentException("Testo troppo lungo (massimo " + MAX_INPUT_LENGTH + " caratteri).");
+        }
+        // Any control character (C0, DEL, C1), tabs and newlines included.
+        if (value != null && value.chars().anyMatch(Character::isISOControl)) {
+            throw new IllegalArgumentException("Il testo contiene caratteri non validi.");
+        }
     }
 
     private static boolean isPresent(String value) {
@@ -215,7 +264,8 @@ public class SearchService {
             int eaCode,
             String eaDescription,
             String scopeSection,
-            List<AccreditationScopeDto> scopes) {
+            List<String> standards,
+            List<String> accreditationBodyCodes) {
         AccreditationBody ab = accreditation.getAccreditationBody();
         return new CertificationBodyCardDto(
                 cb.getId(),
@@ -223,6 +273,7 @@ public class SearchService {
                 cb.getCountry(),
                 ab.getCode(),
                 ab.getWebsite(),
+                accreditationBodyCodes,
                 cb.getPhone(),
                 cb.getEmail(),
                 cb.getWebsite(),
@@ -233,7 +284,7 @@ public class SearchService {
                 eaCode,
                 eaDescription,
                 scopeSection,
-                scopes,
+                standards,
                 accreditation.getExpiryDate());
     }
 }

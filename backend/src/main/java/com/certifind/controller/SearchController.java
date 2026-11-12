@@ -1,5 +1,6 @@
 package com.certifind.controller;
 
+import com.certifind.dto.AccreditationScopeDto;
 import com.certifind.dto.SearchRequest;
 import com.certifind.dto.SearchResponse;
 import com.certifind.dto.SearchOptionsResponse;
@@ -7,6 +8,7 @@ import com.certifind.service.SearchService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Map;
 
 @RestController
@@ -31,15 +33,20 @@ public class SearchController {
 
     @PostMapping("/search")
     public ResponseEntity<SearchResponse> search(@RequestBody SearchRequest request) {
-        try {
-            return ResponseEntity.ok(searchService.search(request));
-        } catch (IllegalArgumentException exception) {
-            return ResponseEntity.badRequest().build();
-        }
+        // Invalid input throws IllegalArgumentException; ApiExceptionHandler turns it into a 400 problem.
+        return ResponseEntity.ok(searchService.search(request));
     }
 
     @GetMapping("/companies")
     public ResponseEntity<SearchResponse> allCompanies() {
         return ResponseEntity.ok(searchService.findAllCompanies());
+    }
+
+    /** Scope rows for one body's detail drawer; {@code standard} limits them to one standard. */
+    @GetMapping("/companies/{id}/scopes")
+    public ResponseEntity<List<AccreditationScopeDto>> companyScopes(
+            @PathVariable Integer id,
+            @RequestParam(required = false) String standard) {
+        return ResponseEntity.ok(searchService.findScopes(id, standard));
     }
 }

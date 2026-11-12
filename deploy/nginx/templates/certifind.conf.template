@@ -1,0 +1,98 @@
+# CertiFind reverse proxy: HTTPS in front of the API, with per-IP limits.
+# nginx's image fills ${API_DOMAIN} from the environment when the container starts
+# (only variables set in the environment are replaced; nginx's own $vars are kept).
+
+# --- Limits ---------------------------------------------------------------------
+# Keyed by client IP. Rates are per IP; "burst" absorbs short spikes (a page load
+# fires /options and /search together), "nodelay" serves the burst at once.
+limit_req_zone  $binary_remote_addr zone=api:10m       rate=10r/s;
+limit_req_zone  $binary_remote_addr zone=search:10m    rate=2r/s;
+# /companies returns the whole directory (~250 KB gzipped): the most expensive call.
+limit_req_zone  $binary_remote_addr zone=directory:10m rate=12r/m;
+limit_conn_zone $binary_remote_addr zone=perip:10m;
+limit_req_status  429;
+limit_conn_status 429;
+
+# Hide the nginx version in headers and error pages.
+server_tokens off;
+
+upstream certifind_api {
+    server backend:8080;
+    keepalive 16;
+}
+
+# --- HTTP: Let's Encrypt challenges, everything else to HTTPS -------------------
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ${API_DOMAIN};
+
+    location /.well-known/acme-challenge/ {
+        root /var/www/certbot;
+    }
+    location / {
+        return 301 https://$host$request_uri;
+    }
+}
+
+# --- HTTPS: the API ---------------------------------------------------------------
+server {
+    listen 443 ssl;
+    listen [::]:443 ssl;
+    http2 on;
+    server_name ${API_DOMAIN};
+
+    ssl_certificate     /etc/letsencrypt/live/${API_DOMAIN}/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/${API_DOMAIN}/privkey.pem;
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_prefer_server_ciphers off;
+    ssl_session_cache shared:SSL:10m;
+    ssl_session_timeout 1d;
+    ssl_session_tickets off;
+
+    add_header Strict-Transport-Security "max-age=31536000" always;
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header Referrer-Policy "no-referrer" always;
+
+    # Search bodies are a few hundred bytes; reject anything large before it reaches Java.
+    client_max_body_size 16k;
+    client_body_timeout   10s;
+    client_header_timeout 10s;
+    send_timeout          30s;
+    limit_conn perip 20;
+
+    proxy_http_version 1.1;
+    proxy_set_header Connection "";
+    proxy_set_header Host              $host;
+    proxy_set_header X-Real-IP         $remote_addr;
+    proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Forwarded-Host  $host;
+    proxy_connect_timeout 5s;
+    proxy_read_timeout    30s;
+
+    location = /api/v1/search {
+        limit_req zone=search burst=10 nodelay;
+        proxy_pass http://certifind_api;
+    }
+    location = /api/v1/companies {
+        limit_req zone=directory burst=3 nodelay;
+        proxy_pass http://certifind_api;
+    }
+    location /api/ {
+        limit_req zone=api burst=40 nodelay;
+        proxy_pass http://certifind_api;
+    }
+    # Nothing else is served from this host.
+    location / {
+        return 404;
+    }
+
+    # Same error format as the API (RFC 7807), so the frontend can show "detail".
+    error_page 429 = @too_many_requests;
+    location @too_many_requests {
+        default_type application/problem+json;
+        add_header Retry-After 10 always;
+        return 429 '{"type":"about:blank","title":"Troppe richieste","status":429,"detail":"Troppe richieste in poco tempo. Riprova tra qualche secondo."}';
+    }
+}

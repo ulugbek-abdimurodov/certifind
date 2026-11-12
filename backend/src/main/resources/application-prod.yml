@@ -5,6 +5,12 @@
 #   SPRING_DATASOURCE_PASSWORD=...
 # certifind_app is read-only, so the API does not run migrations: Flyway runs
 # with the "import" profile as certifind_import (see README, "Deploying to a server").
+server:
+  # Behind the reverse proxy: take scheme, host and client IP from X-Forwarded-* headers.
+  # "native" uses Tomcat's RemoteIpValve, which only trusts these headers from private /
+  # loopback proxy addresses; set server.tomcat.remoteip.internal-proxies if the proxy is elsewhere.
+  forward-headers-strategy: native
+
 spring:
   datasource:
     url: ${SPRING_DATASOURCE_URL}
@@ -17,3 +23,10 @@ spring:
         format_sql: false
   flyway:
     enabled: false
+
+certifind:
+  cors:
+    # No default: empty means same-origin only. Each origin is checked at startup
+    # (HTTPS, exact host, no localhost or example.* placeholder); see WebConfig.
+    allowed-origins: ${CERTIFIND_CORS_ALLOWED_ORIGINS:}
+    require-public-https: true

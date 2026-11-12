@@ -54,12 +54,9 @@ export const countryLabel = (country: string) => {
   return italianOverrides[code] ?? italianRegionNames.of(code) ?? country;
 };
 
-export const flagFor = (country: string) => {
-  const code = countryCodes[country];
-  return code
-    ? String.fromCodePoint(...[...code].map((c) => 0x1f1e6 + c.charCodeAt(0) - 65))
-    : "🌐";
-};
+/** Lower-case ISO 3166-1 alpha-2 code for a stored country name; null when unknown. */
+export const countryCodeFor = (country: string) =>
+  countryCodes[country]?.toLowerCase() ?? null;
 
 /** Edition and Italian title per standard code, as in "ISO 9001:2015 Sistemi di gestione per la qualità – Requisiti". */
 const standardTitles: Record<string, string> = {
@@ -147,8 +144,8 @@ export const compareStandards = (a: string, b: string) => {
 };
 
 /** Distinct ISO standards of a body's scopes, by number: "ISO 9001, ISO 14001". */
-export const standardsLabel = (scopes: AccreditationScope[]) =>
-  [...new Set(scopes.map((scope) => shortStandard(scope.isoStandard)))]
+export const standardsLabel = (standards: string[]) =>
+  [...new Set(standards.map(shortStandard))]
     .sort(compareStandards)
     .join(", ");
 
@@ -178,9 +175,9 @@ export const scopeLinesByStandard = (scopes: AccreditationScope[]) => {
 
 export function matchesFilter(body: Body, filter: ResultFilter) {
   if (filter === "all") return true;
-  if (filter === "italy") return body.accreditationBodyCode === "ACCREDIA";
+  if (filter === "italy") return body.accreditationBodyCodes.includes("ACCREDIA");
   const [code, country] = filter.slice("accreditor:".length).split("|");
-  return body.accreditationBodyCode === code && body.country === country;
+  return body.accreditationBodyCodes.includes(code) && body.country === country;
 }
 
 export const demoPresets = [

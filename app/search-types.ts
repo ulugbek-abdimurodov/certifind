@@ -16,6 +16,8 @@ export type Body = {
   country: string;
   accreditationBodyCode: string;
   accreditationBodyWebsite: string | null;
+  /** Every accrediting AB; the card's own (accreditationBodyCode) comes first. */
+  accreditationBodyCodes: string[];
   phone: string | null;
   email: string | null;
   website: string | null;
@@ -26,7 +28,8 @@ export type Body = {
   eaCode: number;
   eaDescription: string;
   scopeSection: string;
-  scopes: AccreditationScope[];
+  /** Distinct certification standards; scope rows are loaded per body for the drawer. */
+  standards: string[];
   expiryDate: string | null;
 };
 

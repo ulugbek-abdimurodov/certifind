@@ -9,6 +9,8 @@ public record CertificationBodyCardDto(
     String country,
     String accreditationBodyCode,
     String accreditationBodyWebsite,
+    /** Every AB with a valid right behind this card; the card's own AB comes first. */
+    List<String> accreditationBodyCodes,
     String phone,
     String email,
     String website,
@@ -19,6 +21,7 @@ public record CertificationBodyCardDto(
     int eaCode,
     String eaDescription,
     String scopeSection,
-    List<AccreditationScopeDto> scopes,
+    /** Distinct certification standards; the scope rows come from /companies/{id}/scopes. */
+    List<String> standards,
     LocalDate expiryDate
 ) {}

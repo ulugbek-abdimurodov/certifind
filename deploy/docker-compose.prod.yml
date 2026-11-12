@@ -5,7 +5,8 @@
 #   docker compose -f docker-compose.prod.yml build backend
 #   docker compose -f docker-compose.prod.yml run --rm importer
 #   docker compose -f docker-compose.prod.yml up -d backend
-# (README, "Deploying to a server", explains the order and updates.)
+#   (first time) get a certificate, then: docker compose -f docker-compose.prod.yml up -d proxy certbot
+# (README, "Deploying to a server" and "HTTPS and rate limits", explain the order and updates.)
 #
 # Differences from the development docker-compose.yml:
 #   * passwords come from .env (never committed), no defaults
@@ -54,6 +55,39 @@ services:
     ports:
       - "127.0.0.1:${BACKEND_PORT:-8080}:8080"
 
+  # Public entry point: HTTPS (Let's Encrypt) and per-IP rate limits in front of the
+  # API; see nginx/templates/certifind.conf.template. Needs a certificate first
+  # (README, "HTTPS and rate limits"). Reloads every 6 h to pick up renewed certificates.
+  proxy:
+    image: nginx:1.27.3-alpine
+    container_name: certifind-proxy
+    restart: unless-stopped
+    depends_on:
+      - backend
+    environment:
+      API_DOMAIN: ${API_DOMAIN:?set API_DOMAIN in deploy/.env}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/templates:/etc/nginx/templates:ro
+      - letsencrypt:/etc/letsencrypt:ro
+      - certbot-webroot:/var/www/certbot:ro
+    command: >-
+      /bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done &
+      exec /docker-entrypoint.sh nginx -g "daemon off;"'
+
+  # Renews the certificate (checks twice a day; renews when under 30 days left).
+  certbot:
+    image: certbot/certbot:v3.0.1
+    restart: unless-stopped
+    volumes:
+      - letsencrypt:/etc/letsencrypt
+      - certbot-webroot:/var/www/certbot
+    entrypoint: >-
+      /bin/sh -c 'trap exit TERM; while :; do
+      certbot renew --webroot -w /var/www/certbot --quiet; sleep 12h & wait $${!}; done'
+
   # One-off: applies Flyway migrations and loads ../data, then exits. Not started by
   # "up"; run it with
   #   docker compose -f docker-compose.prod.yml run --rm importer --certifind.import.dry-run=true
@@ -76,3 +110,7 @@ services:
 volumes:
   pgdata:
     name: certifind_pgdata
+  letsencrypt:
+    name: certifind_letsencrypt
+  certbot-webroot:
+    name: certifind_certbot_webroot

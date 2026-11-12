@@ -205,7 +205,7 @@ export default function Home() {
         </div>
         <div className="topbar-actions">
           <ThemeToggle />
-          <a className="help-link" href="mailto:info@certifind.it">
+          <a className="help-link" href="mailto:ulugbekvbrgroup@gmail.com">
             Hai bisogno di aiuto? <span>↗</span>
           </a>
         </div>

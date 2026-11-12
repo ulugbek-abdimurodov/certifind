@@ -55,15 +55,30 @@ services:
     ports:
       - "127.0.0.1:${BACKEND_PORT:-8080}:8080"
 
+  # The Next.js frontend, served on / of API_DOMAIN with /api/ on the same origin
+  # (so no CORS is needed). Built with NEXT_PUBLIC_API_URL empty: the browser calls
+  # /api/... relatively. The 127.0.0.1 port is for a host nginx in front instead of
+  # the proxy service (install-host-nginx.sh); the proxy reaches it as frontend:3000.
+  frontend:
+    build:
+      context: ..
+      args:
+        NEXT_PUBLIC_API_URL: ""
+    image: certifind-frontend
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${FRONTEND_PORT:-3100}:3000"
+
   # Public entry point: HTTPS (Let's Encrypt) and per-IP rate limits in front of the
-  # API; see nginx/templates/certifind.conf.template. Needs a certificate first
-  # (README, "HTTPS and rate limits"). Reloads every 6 h to pick up renewed certificates.
+  # frontend and API; see nginx/templates/certifind.conf.template. Needs a certificate
+  # first (README, "HTTPS and rate limits"). Reloads every 6 h to pick up renewed certificates.
   proxy:
     image: nginx:1.27.3-alpine
     container_name: certifind-proxy
     restart: unless-stopped
     depends_on:
       - backend
+      - frontend
     environment:
       API_DOMAIN: ${API_DOMAIN:?set API_DOMAIN in deploy/.env}
     ports:

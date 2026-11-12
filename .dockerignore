@@ -1,0 +1,10 @@
+# Frontend image build context (root Dockerfile): only the Next.js sources are needed.
+.git
+node_modules
+.next
+backend
+data
+deploy
+*.md
+.env
+.env.*

@@ -1,4 +1,4 @@
-# CertiFind reverse proxy: HTTPS in front of the API, with per-IP limits.
+# CertiFind reverse proxy: HTTPS in front of the frontend (/) and API (/api/), with per-IP limits.
 # nginx's image fills ${API_DOMAIN} from the environment when the container starts
 # (only variables set in the environment are replaced; nginx's own $vars are kept).
 
@@ -7,6 +7,8 @@
 # fires /options and /search together), "nodelay" serves the burst at once.
 limit_req_zone  $binary_remote_addr zone=api:10m       rate=10r/s;
 limit_req_zone  $binary_remote_addr zone=search:10m    rate=2r/s;
+# Frontend pages and their JS/CSS chunks (a first page load fetches a few dozen files).
+limit_req_zone  $binary_remote_addr zone=web:10m       rate=20r/s;
 # /companies returns the whole directory (~250 KB gzipped): the most expensive call.
 limit_req_zone  $binary_remote_addr zone=directory:10m rate=12r/m;
 limit_conn_zone $binary_remote_addr zone=perip:10m;
@@ -18,6 +20,11 @@ server_tokens off;
 
 upstream certifind_api {
     server backend:8080;
+    keepalive 16;
+}
+
+upstream certifind_web {
+    server frontend:3000;
     keepalive 16;
 }
 
@@ -83,9 +90,10 @@ server {
         limit_req zone=api burst=40 nodelay;
         proxy_pass http://certifind_api;
     }
-    # Nothing else is served from this host.
+    # Everything else is the Next.js frontend (same origin as the API).
     location / {
-        return 404;
+        limit_req zone=web burst=80 nodelay;
+        proxy_pass http://certifind_web;
     }
 
     # Same error format as the API (RFC 7807), so the frontend can show "detail".

@@ -1,0 +1,63 @@
+-- EU directives and regulations for ISO/IEC 17065 datasets (first used by data/accredia-italy-17065).
+-- Added on request (2026-11-13): the product datasets now include notified-body / CE marking work, Construction
+-- Products Regulation AVCP, DOP/IGP/STG control, organic control and F-gas certification, so these were
+-- no longer left out. Italian national schemes in the same annexes are imported as text without a scheme.
+INSERT INTO schemes (code, owner, kind) VALUES
+    ('Construction Products Regulation (EU) 305/2011',          'European Union', 'EU_REGULATION'),
+    ('Machinery Regulation (EU) 2023/1230',                      'European Union', 'EU_REGULATION'),
+    ('Machinery Directive 2006/42/EC',                           'European Union', 'EU_REGULATION'),
+    ('Lifts Directive 2014/33/EU',                               'European Union', 'EU_REGULATION'),
+    ('Pressure Equipment Directive 2014/68/EU',                  'European Union', 'EU_REGULATION'),
+    ('Simple Pressure Vessels Directive 2014/29/EU',             'European Union', 'EU_REGULATION'),
+    ('ATEX Directive 2014/34/EU',                                'European Union', 'EU_REGULATION'),
+    ('EMC Directive 2014/30/EU',                                 'European Union', 'EU_REGULATION'),
+    ('Radio Equipment Directive 2014/53/EU',                     'European Union', 'EU_REGULATION'),
+    ('Measuring Instruments Directive 2014/32/EU',               'European Union', 'EU_REGULATION'),
+    ('Non-automatic Weighing Instruments Directive 2014/31/EU',  'European Union', 'EU_REGULATION'),
+    ('Toy Safety Directive 2009/48/EC',                          'European Union', 'EU_REGULATION'),
+    ('Outdoor Noise Directive 2000/14/EC',                       'European Union', 'EU_REGULATION'),
+    ('Hot-water Boilers Directive 92/42/EEC',                    'European Union', 'EU_REGULATION'),
+    ('PPE Regulation (EU) 2016/425',                             'European Union', 'EU_REGULATION'),
+    ('Gas Appliances Regulation (EU) 2016/426',                  'European Union', 'EU_REGULATION'),
+    ('Cableway Installations Regulation (EU) 2016/424',          'European Union', 'EU_REGULATION'),
+    ('Rail Interoperability Directive (EU) 2016/797',            'European Union', 'EU_REGULATION'),
+    ('ECM Regulation (EU) 2019/779',                             'European Union', 'EU_REGULATION'),
+    ('CSM Risk Assessment Regulation (EU) 402/2013',             'European Union', 'EU_REGULATION'),
+    ('EU Geographical Indications (DOP/IGP/STG)',                'European Union', 'EU_REGULATION'),
+    ('EU Organic Regulation (EU) 2018/848',                      'European Union', 'EU_REGULATION'),
+    ('EU F-gas Regulation',                                      'European Union', 'EU_REGULATION')
+ON CONFLICT (code) DO NOTHING;
+
+INSERT INTO scheme_industries (scheme_code, industry_code) VALUES
+    ('Construction Products Regulation (EU) 305/2011',         'construction'),
+    ('Machinery Regulation (EU) 2023/1230',                     'machinery'),
+    ('Machinery Directive 2006/42/EC',                          'machinery'),
+    ('Lifts Directive 2014/33/EU',                              'machinery'),
+    ('Lifts Directive 2014/33/EU',                              'construction'),
+    ('Pressure Equipment Directive 2014/68/EU',                 'machinery'),
+    ('Simple Pressure Vessels Directive 2014/29/EU',            'machinery'),
+    ('ATEX Directive 2014/34/EU',                               'machinery'),
+    ('ATEX Directive 2014/34/EU',                               'electrical'),
+    ('EMC Directive 2014/30/EU',                                'electrical'),
+    ('Radio Equipment Directive 2014/53/EU',                    'electrical'),
+    ('Radio Equipment Directive 2014/53/EU',                    'ict'),
+    ('Measuring Instruments Directive 2014/32/EU',              'machinery'),
+    ('Non-automatic Weighing Instruments Directive 2014/31/EU', 'machinery'),
+    ('Toy Safety Directive 2009/48/EC',                         'chemicals'),
+    ('Outdoor Noise Directive 2000/14/EC',                      'machinery'),
+    ('Hot-water Boilers Directive 92/42/EEC',                   'machinery'),
+    ('Hot-water Boilers Directive 92/42/EEC',                   'energy'),
+    ('PPE Regulation (EU) 2016/425',                            'textiles'),
+    ('Gas Appliances Regulation (EU) 2016/426',                 'machinery'),
+    ('Gas Appliances Regulation (EU) 2016/426',                 'energy'),
+    ('Cableway Installations Regulation (EU) 2016/424',         'transport'),
+    ('Rail Interoperability Directive (EU) 2016/797',           'transport'),
+    ('ECM Regulation (EU) 2019/779',                            'transport'),
+    ('CSM Risk Assessment Regulation (EU) 402/2013',            'transport'),
+    ('EU Geographical Indications (DOP/IGP/STG)',               'food'),
+    ('EU Geographical Indications (DOP/IGP/STG)',               'agriculture'),
+    ('EU Organic Regulation (EU) 2018/848',                     'agriculture'),
+    ('EU Organic Regulation (EU) 2018/848',                     'food'),
+    ('EU F-gas Regulation',                                     'machinery'),
+    ('EU F-gas Regulation',                                     'services')
+ON CONFLICT DO NOTHING;

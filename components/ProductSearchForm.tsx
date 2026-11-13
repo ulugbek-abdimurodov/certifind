@@ -15,8 +15,9 @@ type ProductSearchFormProps = {
 };
 
 /**
- * Product, process and service certification (ISO/IEC 17065): scheme or standard,
- * industry, and product. Any one of the three is enough to search.
+ * Product, process and service certification (ISO/IEC 17065): industry first, then
+ * scheme or standard (suggestions narrowed to the industry), then product. Any one
+ * of the three is enough to search.
  */
 export function ProductSearchForm({
   criteria,
@@ -33,6 +34,14 @@ export function ProductSearchForm({
     (scheme) =>
       !criteria.industry || scheme.industries.includes(criteria.industry),
   );
+  // A catalogue scheme picked for another industry is cleared; free text is kept.
+  const changeIndustry = (industry: string) => {
+    const picked = options.schemes.find(
+      (scheme) => scheme.code === criteria.scheme.trim(),
+    );
+    const keep = !picked || !industry || picked.industries.includes(industry);
+    onChange({ ...criteria, industry, scheme: keep ? criteria.scheme : "" });
+  };
   const empty =
     !criteria.scheme.trim() && !criteria.industry && !criteria.product.trim();
 
@@ -45,6 +54,22 @@ export function ProductSearchForm({
           <p>{optionsError}</p>
         </div>
       )}
+      <label htmlFor="product-industry">Settore</label>
+      <div className="input-wrap">
+        <select
+          id="product-industry"
+          value={criteria.industry}
+          onChange={(event) => changeIndustry(event.target.value)}
+        >
+          <option value="">Tutti i settori</option>
+          {options.industries.map((industry) => (
+            <option key={industry.code} value={industry.code}>
+              {industry.name}
+            </option>
+          ))}
+        </select>
+        <span className="select-chevron">⌄</span>
+      </div>
       <label htmlFor="product-scheme">Schema o norma</label>
       <div className="input-wrap">
         <span className="input-icon">◎</span>
@@ -55,7 +80,11 @@ export function ProductSearchForm({
             onChange({ ...criteria, scheme: event.target.value })
           }
           list={schemeListId}
-          placeholder="es. IFS Food, ISCC EU, EN 13432"
+          placeholder={
+            criteria.industry
+              ? `${suggestedSchemes.length} schemi in questo settore, o testo libero`
+              : "es. IFS Food, ISCC EU, EN 13432"
+          }
           maxLength={200}
           autoComplete="off"
         />
@@ -64,24 +93,6 @@ export function ProductSearchForm({
             <option key={scheme.code} value={scheme.code} />
           ))}
         </datalist>
-      </div>
-      <label htmlFor="product-industry">Settore</label>
-      <div className="input-wrap">
-        <select
-          id="product-industry"
-          value={criteria.industry}
-          onChange={(event) =>
-            onChange({ ...criteria, industry: event.target.value })
-          }
-        >
-          <option value="">Tutti i settori</option>
-          {options.industries.map((industry) => (
-            <option key={industry.code} value={industry.code}>
-              {industry.name}
-            </option>
-          ))}
-        </select>
-        <span className="select-chevron">⌄</span>
       </div>
       <label htmlFor="product-text">Prodotto o attività</label>
       <div className="input-wrap">

@@ -1,0 +1,242 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+ACCREDIA,00001 (17065),KIWA CERMET Italia S.p.A.,ISO/IEC 17065,ACTIVE,2003-03-18,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0014
+ACCREDIA,00003 (17065),IGQ - Istituto Italiano di Garanzia della Qualità,ISO/IEC 17065,ACTIVE,1998-12-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0036
+ACCREDIA,00005 (17065),RINA Services SPA,ISO/IEC 17065,ACTIVE,1991-11-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0051
+ACCREDIA,00007,A.N.C.I. Servizi S.r.l.,ISO/IEC 17065,ACTIVE,2013-07-25,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3087
+ACCREDIA,00009,CSI S.p.A.,ISO/IEC 17065,ACTIVE,1996-11-04,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0025
+ACCREDIA,00010 (17065),DNV Business Assurance Italy S.r.l.,ISO/IEC 17065,ACTIVE,2000-04-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0027
+ACCREDIA,00012 (17065),ICIM S.p.A.,ISO/IEC 17065,ACTIVE,1999-12-03,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0034
+ACCREDIA,00013 (17065),IMQ S.p.A.,ISO/IEC 17065,ACTIVE,1993-03-10,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0040
+ACCREDIA,00016 (17065),IIP S.r.l.,ISO/IEC 17065,ACTIVE,1991-11-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0037
+ACCREDIA,00019 (17065),Istituto Giordano S.p.A.,ISO/IEC 17065,ACTIVE,2006-04-12,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0619
+ACCREDIA,00024,CATAS S.p.A. Catas Quality Award,ISO/IEC 17065,ACTIVE,2014-07-08,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3417
+ACCREDIA,00026,CESI S.p.A. Centro Elettrotecnico Sperimentale Italiano Giacinto Motta S.p.A. - Area Tecnica Certificazione,ISO/IEC 17065,ACTIVE,1994-06-02,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0018
+ACCREDIA,00027 (17065),CERTIQUALITY S.r.l.,ISO/IEC 17065,ACTIVE,2002-03-21,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0016
+ACCREDIA,00029,CENTRO TESSILE COTONIERO E ABBIGLIAMENTO S.p.A. CENTROCOT,ISO/IEC 17065,ACTIVE,2013-05-24,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3013
+ACCREDIA,00031 (17065),Bureau Veritas Italia S.p.A.,ISO/IEC 17065,ACTIVE,1999-05-24,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0663
+ACCREDIA,00032,QUALITAL Istituto di Certificazione Industriale dell'Alluminio ed altri materiali,ISO/IEC 17065,ACTIVE,1993-03-10,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0048
+ACCREDIA,00036,NEMKO S.p.A. A SOCIO UNICO,ISO/IEC 17065,ACTIVE,2013-01-31,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3030
+ACCREDIA,00054 (17065),Eurofins Product Testing Italy S.r.l.,ISO/IEC 17065,ACTIVE,2012-06-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0862
+ACCREDIA,00055,SIDEIUS S.r.l.,ISO/IEC 17065,ACTIVE,2014-11-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0878
+ACCREDIA,00064 (17065),ICMQ S.p.A. Società Benefit,ISO/IEC 17065,ACTIVE,1997-07-09,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0035
+ACCREDIA,00070 (17065),CSQA Certificazioni S.r.l.,ISO/IEC 17065,ACTIVE,1998-03-31,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0010
+ACCREDIA,00077 (17065),TÜV Italia S.r.l.,ISO/IEC 17065,ACTIVE,2006-02-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0055
+ACCREDIA,00080 (17065),QUASER CERTIFICAZIONI S.r.l.,ISO/IEC 17065,ACTIVE,2004-05-04,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0049
+ACCREDIA,00081 (17065),IIS CERT S.r.l.,ISO/IEC 17065,ACTIVE,2001-11-30,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0038
+ACCREDIA,00086,LAPI LABORATORIO PREVENZIONE INCENDI S.p.A.,ISO/IEC 17065,ACTIVE,2015-06-26,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3469
+ACCREDIA,00088 (17065),ITALCERT S.r.l.,ISO/IEC 17065,ACTIVE,2012-07-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0042
+ACCREDIA,00092 (17065),CNIM S.r.l.,ISO/IEC 17065,ACTIVE,2013-10-18,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0022
+ACCREDIA,00106,Pa.L.Mer. Soc. Cons. A.R.L.,ISO/IEC 17065,ACTIVE,2015-07-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3406
+ACCREDIA,00107 (17065),UNITER S.r.l.,ISO/IEC 17065,ACTIVE,2015-07-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0058
+ACCREDIA,00109 (17065),ANCIS S.r.l.,ISO/IEC 17065,ACTIVE,2015-07-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0005
+ACCREDIA,00111,CEPAS S.r.l.,ISO/IEC 17065,ACTIVE,2013-04-09,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0013
+ACCREDIA,00122 (17065),I.CE.C. Istituto di Certificazione della Qualità per l'Industria Conciaria,ISO/IEC 17065,ACTIVE,1999-03-31,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0030
+ACCREDIA,00124 (17065),SIET S.p.A.,ISO/IEC 17065,ACTIVE,2011-05-30,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2887
+ACCREDIA,00133 (17065),ANCCP Certification Agency S.r.l.,ISO/IEC 17065,ACTIVE,2013-04-08,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0004
+ACCREDIA,00136,ICEA Consorzio Istituto per la Certificazione Etica ed Ambientale,ISO/IEC 17065,ACTIVE,1998-01-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0002
+ACCREDIA,00140,Politecnico di Milano,ISO/IEC 17065,ACTIVE,2022-12-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0325
+ACCREDIA,00149,CCPB S.r.l.,ISO/IEC 17065,ACTIVE,1998-06-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0011
+ACCREDIA,00151 (17065),INTERTEK ITALIA S.p.A.,ISO/IEC 17065,ACTIVE,2017-12-12,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0006
+ACCREDIA,00152 (17065),DEKRA Testing and Certification S.r.l.,ISO/IEC 17065,ACTIVE,2010-11-03,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0948
+ACCREDIA,00162 (17065),MTIC InterCert S.r.l.,ISO/IEC 17065,ACTIVE,2011-12-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0041
+ACCREDIA,00178,BIOAGRIcert S.r.l.,ISO/IEC 17065,ACTIVE,2000-01-25,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0581
+ACCREDIA,00189,Suolo e Salute S.r.l.,ISO/IEC 17065,ACTIVE,2000-06-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0520
+ACCREDIA,00190 (17065),DASA RÄGISTER S.p.A.,ISO/IEC 17065,ACTIVE,2015-07-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0540
+ACCREDIA,00193,3A - PARCO TECNOLOGICO AGROALIMENTARE DELL’UMBRIA s.c.a r.l. Area Certificazione,ISO/IEC 17065,ACTIVE,2000-09-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0547
+ACCREDIA,00194,BIOS S.r.l. Controllo e Certificazione Produzioni Biologiche,ISO/IEC 17065,ACTIVE,2000-12-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0008
+ACCREDIA,00198 (17065),RINA AGRIFOOD S.P.A,ISO/IEC 17065,ACTIVE,2004-10-26,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0612
+ACCREDIA,00215,COSMOB S.p.A.,ISO/IEC 17065,ACTIVE,2019-03-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4059
+ACCREDIA,00219,ITS CONTROLLI TECNICI S.p.A.,ISO/IEC 17065,ACTIVE,2014-02-04,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0723
+ACCREDIA,00234 (17065),ECO European Certifying Organization S.p.A.,ISO/IEC 17065,ACTIVE,2011-12-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0744
+ACCREDIA,00241 (17065),Progetto Costruzione Qualità - P.C.Q. S.r.l.,ISO/IEC 17065,ACTIVE,2026-01-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0753
+ACCREDIA,00247,CODEX S.r.l.,ISO/IEC 17065,ACTIVE,2002-10-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0745
+ACCREDIA,00260,ACAE,ISO/IEC 17065,ACTIVE,2003-05-21,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0797
+ACCREDIA,00269 (17065),SUSTAINY S.r.l. a Socio unico,ISO/IEC 17065,ACTIVE,2015-03-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0787
+ACCREDIA,00271,ISTITUTO ITALIANO SICUREZZA DEI GIOCATTOLI S.r.l.,ISO/IEC 17065,ACTIVE,2011-12-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2976
+ACCREDIA,00281 (17065),DI.QU. S.r.l.,ISO/IEC 17065,ACTIVE,2013-09-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0796
+ACCREDIA,00285,Consorzio per la Ricerca nel Settore della Filiera Lattiero Casearia e dell'Agroalimentare CORFILAC,ISO/IEC 17065,ACTIVE,2023-07-26,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4761
+ACCREDIA,00289 (17065),APAVE CERTIFICATION ITALIA S.r.l.,ISO/IEC 17065,ACTIVE,2007-10-18,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0895
+ACCREDIA,00291,VALORITALIA S.r.l.,ISO/IEC 17065,ACTIVE,2004-05-04,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0860
+ACCREDIA,00300,PROMECO AZIENDA SPECIALE DELLA CAMERA DI COMMERCIO DI ALESSANDRIA-ASTI,ISO/IEC 17065,ACTIVE,2015-11-12,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3414
+ACCREDIA,00303 (17065),E.L.T.I. S.r.l.,ISO/IEC 17065,ACTIVE,2013-05-24,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0842
+ACCREDIA,00309,ECEPA (Ente Certificazione Prodotti Agroalimentari),ISO/IEC 17065,ACTIVE,2004-10-26,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0784
+ACCREDIA,00321 (17065),TÜV Rheinland Italia S.r.l.,ISO/IEC 17065,ACTIVE,2015-07-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0864
+ACCREDIA,00325 (17065),TUV AUSTRIA ITALIA S.p.A.,ISO/IEC 17065,ACTIVE,2012-06-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2851
+ACCREDIA,00335,ECOGRUPPO Italia S.r.l.,ISO/IEC 17065,ACTIVE,2005-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0518
+ACCREDIA,00338,Istituto Regionale del Vino e dell'Olio IRVO,ISO/IEC 17065,ACTIVE,2021-09-30,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4578
+ACCREDIA,00344 (17065),Q GEST S.r.l.,ISO/IEC 17065,ACTIVE,2025-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0915
+ACCREDIA,00355 (17065),CERTY CEQ S.r.l.,ISO/IEC 17065,ACTIVE,2022-03-01,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0904
+ACCREDIA,00373,ASACERT ASSESSMENT AND CERTIFICATION S.P.A. SOCIETA' BENEFIT - ASACERT S.P.A. SOCIETA' BENEFIT,ISO/IEC 17065,ACTIVE,2025-01-29,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0897
+ACCREDIA,00375,CORFILCARNI G.C.C. Gruppo di Controllo e Certificazione del Consorzio di Ricerca Filiera Carni e Agroalimentare,ISO/IEC 17065,ACTIVE,2007-12-18,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0965
+ACCREDIA,00378,AISICO S.r.l.,ISO/IEC 17065,ACTIVE,2023-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4672
+ACCREDIA,00388,ENAMA SERVIZI S.r.l.,ISO/IEC 17065,ACTIVE,2008-03-04,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0872
+ACCREDIA,00395,CONTROLLO QUALITÀ ALTO ADIGE - SÜDTIROLER QUALITÄTSKONTROLLE,ISO/IEC 17065,ACTIVE,2008-05-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=1002
+ACCREDIA,00396 (17065),EZI INSPECTIONS S.r.l.,ISO/IEC 17065,ACTIVE,2015-02-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0967
+ACCREDIA,00399,ISTITUTO COLLAUDI E VERIFICHE S.p.A. in sigla ICOVER S.p.A.,ISO/IEC 17065,ACTIVE,2014-06-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=1015
+ACCREDIA,00407 (17065),ABICERT S.a.s. di Bianco Antonio & C.,ISO/IEC 17065,ACTIVE,2016-09-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=1087
+ACCREDIA,00413,SIDEL S.p.A.,ISO/IEC 17065,ACTIVE,2009-06-18,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0905
+ACCREDIA,00417,Q CERTIFICAZIONI S.r.l. a socio unico,ISO/IEC 17065,ACTIVE,2009-11-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=1104
+ACCREDIA,00420 (17065),QUALITY ITALIA S.r.l.,ISO/IEC 17065,ACTIVE,2017-02-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=1109
+ACCREDIA,00431,CEVIQ S.r.l. Certificazione Vini e Prodotti Italiani di Qualità,ISO/IEC 17065,ACTIVE,2010-04-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2476
+ACCREDIA,00434,Organismo Controllo Qualità Produzioni Regolamentate Soc. Coop.,ISO/IEC 17065,ACTIVE,2010-04-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2488
+ACCREDIA,00435,IFCQ Certificazioni S.r.l. a socio unico,ISO/IEC 17065,ACTIVE,2010-04-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=1123
+ACCREDIA,00436,ISTITUTO NORD OVEST QUALITA' - INOQ,ISO/IEC 17065,ACTIVE,2010-04-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2517
+ACCREDIA,00437,SIQURIA S.p.A. Società Italiana per la qualità e la rintracciabilità degli alimenti,ISO/IEC 17065,ACTIVE,2010-04-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2475
+ACCREDIA,00439,TOSCANA CERTIFICAZIONE AGROALIMENTARE S.r.l.,ISO/IEC 17065,ACTIVE,2010-04-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2508
+ACCREDIA,00440,CertiProDop S.r.l.,ISO/IEC 17065,ACTIVE,2010-04-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2545
+ACCREDIA,00443,OMNIA QUALITA’ S.r.l.,ISO/IEC 17065,ACTIVE,2010-04-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2500
+ACCREDIA,00446,DQA - DIPARTIMENTO QUALITA’ AGROALIMENTARE S.R.L.,ISO/IEC 17065,ACTIVE,2010-07-21,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2565
+ACCREDIA,00447,ITALCERTIFER S.p.A. Società per Azioni,ISO/IEC 17065,ACTIVE,2010-09-30,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2473
+ACCREDIA,00450 (17065),Q-AID ASSESSMENT & CERTIFICATION S.r.l.,ISO/IEC 17065,ACTIVE,2017-02-21,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2483
+ACCREDIA,00458,ISARail S.p.A.,ISO/IEC 17065,ACTIVE,2014-12-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2657
+ACCREDIA,00468 (17065),DIMITTO Italia S.r.l. Società Benefit,ISO/IEC 17065,ACTIVE,2015-07-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2722
+ACCREDIA,00480,CEC - CONSORZIO EUROPEO CERTIFICAZIONE S.c.ar.l.,ISO/IEC 17065,ACTIVE,2012-03-08,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2948
+ACCREDIA,00482,APAVE ITALIA CPM S.r.l.,ISO/IEC 17065,ACTIVE,2012-12-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2723
+ACCREDIA,00495,Agenzia delle Dogane e dei Monopoli - ADM Cert,ISO/IEC 17065,ACTIVE,2024-12-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5102
+ACCREDIA,00501,AUTOMATOS S.r.l.,ISO/IEC 17065,ACTIVE,2012-06-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2973
+ACCREDIA,00502,CERTAT S.r.l.,ISO/IEC 17065,ACTIVE,2012-06-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2970
+ACCREDIA,00504 (17065),C. & P. S.r.l.,ISO/IEC 17065,ACTIVE,2012-06-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2972
+ACCREDIA,00578,TEKNOCHIM S.r.l.,ISO/IEC 17065,ACTIVE,2024-07-24,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4215
+ACCREDIA,00719,CERTOTTICA S.c.r.l.,ISO/IEC 17065,ACTIVE,2013-03-04,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3166
+ACCREDIA,00763,RICOTEST S.r.l.,ISO/IEC 17065,ACTIVE,2015-03-02,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3020
+ACCREDIA,00814,TRIVENETO S.r.l.,ISO/IEC 17065,ACTIVE,2012-07-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2965
+ACCREDIA,00879,CERTIFER ITALIA S.r.l.,ISO/IEC 17065,ACTIVE,2017-11-06,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2992
+ACCREDIA,00888,Qualilab S.r.l.,ISO/IEC 17065,ACTIVE,2023-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4809
+ACCREDIA,00897,TECNO PIEMONTE S.p.A.,ISO/IEC 17065,ACTIVE,2025-06-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0818
+ACCREDIA,00931,E.C.S. S.r.l. EUROPE CERTIFICATION SERVICE,ISO/IEC 17065,ACTIVE,2012-10-25,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3050
+ACCREDIA,00939,OE.CIS. S.r.l. Organismo Europeo certificazione impianti sollevamento,ISO/IEC 17065,ACTIVE,2012-11-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3143
+ACCREDIA,00942,ISFCERT S.r.l.,ISO/IEC 17065,ACTIVE,2012-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3206
+ACCREDIA,00950,CELAB S.r.l.,ISO/IEC 17065,ACTIVE,2012-12-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0955
+ACCREDIA,00951,SEUCER S.r.l.,ISO/IEC 17065,ACTIVE,2012-12-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3015
+ACCREDIA,00952,CENPI S.C.R.L. CONSORZIO EUROPEO DI NORMALIZZAZIONE E PREVENZIONE INFORTUNI S.C.R.L.,ISO/IEC 17065,ACTIVE,2013-01-31,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3104
+ACCREDIA,00953,CST - CENTRO SERVIZI TECNOLOGICI S.r.l. CENTRO SERVIZI TECNOLOGICI S.R.L.,ISO/IEC 17065,ACTIVE,2013-01-31,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3024
+ACCREDIA,00954,O.C.E.- ORGANISMO DI CERTIFICAZIONE EUROPEA - S.r.l.,ISO/IEC 17065,ACTIVE,2013-01-31,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=1091
+ACCREDIA,00955,SICIT S.r.l.,ISO/IEC 17065,ACTIVE,2013-01-31,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3051
+ACCREDIA,00968,ELETTRA S.r.l.,ISO/IEC 17065,ACTIVE,2013-03-04,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3065
+ACCREDIA,00969,ETRURIA CERTIFICAZIONI S.r.l.,ISO/IEC 17065,ACTIVE,2013-03-04,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3163
+ACCREDIA,00970,ISTITUTO NAZIONALE DI CERTIFICAZIONE S.r.l.,ISO/IEC 17065,ACTIVE,2013-03-04,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3146
+ACCREDIA,00971,S.T.S. - Certificazioni S.r.l.,ISO/IEC 17065,ACTIVE,2013-11-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3200
+ACCREDIA,00976,A.I.S.A. - S.r.l.,ISO/IEC 17065,ACTIVE,2013-04-08,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3185
+ACCREDIA,00977,V.I.S. S.r.l.,ISO/IEC 17065,ACTIVE,2013-04-08,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3147
+ACCREDIA,00978,CERVINO S.r.l.,ISO/IEC 17065,ACTIVE,2013-04-08,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3186
+ACCREDIA,00979,TORAMO CERTIFICAZIONI S.r.l.,ISO/IEC 17065,ACTIVE,2013-04-08,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3155
+ACCREDIA,00981,ABCERT S.r.l.,ISO/IEC 17065,ACTIVE,2013-05-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3245
+ACCREDIA,00991,"INAIL - DIPARTIMENTO INNOVAZIONI TECNOLOGICHE E SICUREZZA DEGLI IMPIANTI, PRODOTTI ED INSEDIAMENTI ANTROPICI - Sezione Tecnico Scientifica Organismo Notificato per Direttive Europee",ISO/IEC 17065,ACTIVE,2015-04-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3039
+ACCREDIA,00992,S.I.C. S.r.l.,ISO/IEC 17065,ACTIVE,2013-05-24,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3221
+ACCREDIA,00993,INTERNATIONAL WELD S.R.L.,ISO/IEC 17065,ACTIVE,2013-05-24,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3198
+ACCREDIA,00994,O.M.N.I.A. S.r.l.,ISO/IEC 17065,ACTIVE,2013-05-24,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3067
+ACCREDIA,00995,PRO-CERT S.r.l.,ISO/IEC 17065,ACTIVE,2013-05-24,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3036
+ACCREDIA,00996,C.S.D.M. S.r.l.,ISO/IEC 17065,ACTIVE,2013-05-24,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3128
+ACCREDIA,00997,TECNO S.r.l.,ISO/IEC 17065,ACTIVE,2013-05-24,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3194
+ACCREDIA,00998 (17065),AJA Europe S.r.l.,ISO/IEC 17065,ACTIVE,2013-09-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4543
+ACCREDIA,00999,UL International Italia S.r.l.,ISO/IEC 17065,ACTIVE,2019-03-08,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4023
+ACCREDIA,01000,CERT2000 S.r.l.,ISO/IEC 17065,ACTIVE,2013-06-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3157
+ACCREDIA,01001,ENTE CERTIFICAZIONI S.p.A.,ISO/IEC 17065,ACTIVE,2013-06-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3233
+ACCREDIA,01002,I.N.C.S.A. ISTITUTO NAZIONALE CONTROLLO SICUREZZA ASCENSORI - S.r.l.,ISO/IEC 17065,ACTIVE,2013-06-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3210
+ACCREDIA,01003,PRO.VE.CO. ENGINEERING SERVICE S.r.l.,ISO/IEC 17065,ACTIVE,2013-06-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3234
+ACCREDIA,01004,EUCERT S.r.l. Organismo di Certificazione Europeo,ISO/IEC 17065,ACTIVE,2013-06-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3181
+ACCREDIA,01011,G. & R. Organismo di Certificazione S.r.l.,ISO/IEC 17065,ACTIVE,2013-07-25,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3029
+ACCREDIA,01025,AGENZIA EUROPEA PER LA SICUREZZA S.r.l. oppure A.E.S. S.r.l.,ISO/IEC 17065,ACTIVE,2013-10-18,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3019
+ACCREDIA,01027,E.M.Q. - DIN S.r.l.,ISO/IEC 17065,ACTIVE,2013-10-18,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3041
+ACCREDIA,01028,S.C.E.C. E S. S.r.l. Sistema Certificazione Europea Controllo e Sicurezza S.r.l.,ISO/IEC 17065,ACTIVE,2013-10-18,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3235
+ACCREDIA,01029,TECNICA S.r.l.,ISO/IEC 17065,ACTIVE,2013-10-18,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3033
+ACCREDIA,01030,INVEO S.r.l.,ISO/IEC 17065,ACTIVE,2013-11-05,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3309
+ACCREDIA,01034,CERT.IM. S.r.l.,ISO/IEC 17065,ACTIVE,2013-11-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3248
+ACCREDIA,01035,EUROCONTROLLI S.r.l.,ISO/IEC 17065,ACTIVE,2013-11-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3247
+ACCREDIA,01036,E.T.C. European Technological Certification S.r.l.,ISO/IEC 17065,ACTIVE,2013-11-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2898
+ACCREDIA,01038,TÜV AUSTRIA HELLAS Limited Company,ISO/IEC 17065,ACTIVE,2013-12-12,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3197
+ACCREDIA,01039 (17065),SQS Italia S.r.l.,ISO/IEC 17065,ACTIVE,2016-07-12,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5120
+ACCREDIA,01053,OCERT S.r.l.,ISO/IEC 17065,ACTIVE,2013-12-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3021
+ACCREDIA,01054,VENETA ENGINEERING S.r.l.,ISO/IEC 17065,ACTIVE,2013-12-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3285
+ACCREDIA,01055,E.S.C. ENGINEERING SAFETY CERTIFICATION S.r.l.,ISO/IEC 17065,ACTIVE,2014-02-04,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2993
+ACCREDIA,01056,SAFETY SYSTEMS S.r.l.,ISO/IEC 17065,ACTIVE,2014-02-04,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3306
+ACCREDIA,01057,"""C.E.V.I. S.r.l."" CENTRO ELETTROTECNICO VERIFICHE IMPIANTI",ISO/IEC 17065,ACTIVE,2014-02-04,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3305
+ACCREDIA,01058,SERBLOK S.r.l.,ISO/IEC 17065,ACTIVE,2014-02-04,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3035
+ACCREDIA,01070,TECNEA ITALIA S.r.l. a socio unico,ISO/IEC 17065,ACTIVE,2014-02-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3367
+ACCREDIA,01078,IE.DI.GE. ENGINEERING S.r.l.,ISO/IEC 17065,ACTIVE,2014-03-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3318
+ACCREDIA,01079,VERICERT S.r.l.,ISO/IEC 17065,ACTIVE,2014-03-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2971
+ACCREDIA,01080,CER S.r.l.,ISO/IEC 17065,ACTIVE,2014-03-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3346
+ACCREDIA,01093,R.A.F. VERIFICHE S.r.l.,ISO/IEC 17065,ACTIVE,2014-05-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3292
+ACCREDIA,01094,SICURCERT S.r.l. Organismo di Certificazione Europea,ISO/IEC 17065,ACTIVE,2014-05-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3296
+ACCREDIA,01099,Eurocert S.p.A.,ISO/IEC 17065,ACTIVE,2014-06-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=1031
+ACCREDIA,01109,ICERT S.r.l.,ISO/IEC 17065,ACTIVE,2014-07-30,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3342
+ACCREDIA,01110,Eco Tech Engineering e Servizi Ambientali S.r.l.,ISO/IEC 17065,ACTIVE,2014-07-30,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3303
+ACCREDIA,01111,NEW WEIGHING EXPERTS S.a.S. di Michael Francesco Sala,ISO/IEC 17065,ACTIVE,2014-07-30,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2978
+ACCREDIA,01121,I.A.C.E. S.r.l.,ISO/IEC 17065,ACTIVE,2014-10-06,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3400
+ACCREDIA,01132 (17065),TÜV NORD ITALIA S.r.l.,ISO/IEC 17065,ACTIVE,2014-11-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3362
+ACCREDIA,01135,IES INGEGNERIA E SICUREZZA DEGASPERI S.r.l.,ISO/IEC 17065,ACTIVE,2014-12-12,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2997
+ACCREDIA,01136,SVI CERTIFICAZIONI S.r.l.,ISO/IEC 17065,ACTIVE,2014-12-12,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3465
+ACCREDIA,01150,"The First Agricultural Co., for Registration, Inspection and Certification Limited Liability Company",ISO/IEC 17065,ACTIVE,2015-02-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3298
+ACCREDIA,01155,SIDELMED S.p.A.,ISO/IEC 17065,ACTIVE,2015-03-02,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2491
+ACCREDIA,01166,CERTIFOR S.r.l.,ISO/IEC 17065,ACTIVE,2015-04-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3503
+ACCREDIA,01169,TIFERNOGAS S.r.l.,ISO/IEC 17065,ACTIVE,2015-07-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3412
+ACCREDIA,01179,TiQuadro Cert S.r.l.,ISO/IEC 17065,ACTIVE,2015-06-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3394
+ACCREDIA,01180,I.G.M. CERTIFICAZIONI S.r.l.,ISO/IEC 17065,ACTIVE,2015-06-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3537
+ACCREDIA,01204,Certing S.r.l.,ISO/IEC 17065,ACTIVE,2015-10-30,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4693
+ACCREDIA,01209 (17065),ACM Cert S.r.l.,ISO/IEC 17065,ACTIVE,2026-05-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0973
+ACCREDIA,01220,CeRSAA Centro di Sperimentazione ed Assistenza Agricola Made in Quality,ISO/IEC 17065,ACTIVE,2016-02-15,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3568
+ACCREDIA,01242 (17065),IAS Register AG,ISO/IEC 17065,ACTIVE,2016-05-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0920
+ACCREDIA,01282 (17065),ITEC - Istituto Tecnologico Europeo di Certificazione S.r.l.,ISO/IEC 17065,ACTIVE,2017-07-25,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3667
+ACCREDIA,01285,Verigas S.r.l.,ISO/IEC 17065,ACTIVE,2016-12-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3680
+ACCREDIA,01320,TRIVENETA CERTIFICAZIONI S.r.l.,ISO/IEC 17065,ACTIVE,2017-07-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3723
+ACCREDIA,01326,QMSCERT Audits Inspections Certifications S.A.,ISO/IEC 17065,ACTIVE,2017-09-25,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3761
+ACCREDIA,01336,EUCER S.r.l.,ISO/IEC 17065,ACTIVE,2017-10-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3784
+ACCREDIA,01343,Cote d’Ivoire Normalisation,ISO/IEC 17065,ACTIVE,2017-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3794
+ACCREDIA,01353,XEFRACERT S.r.l.,ISO/IEC 17065,ACTIVE,2018-02-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3803
+ACCREDIA,01384,"Camera di Commercio, Industria, Artigianato, Turismo e Agricoltura di Trento",ISO/IEC 17065,ACTIVE,2018-04-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3795
+ACCREDIA,01425,MCJ S.r.l.,ISO/IEC 17065,ACTIVE,2018-10-08,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3956
+ACCREDIA,01439,CERTI.S S.R.L. S.B.,ISO/IEC 17065,ACTIVE,2026-07-21,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4078
+ACCREDIA,01440,QUINEL Limited,ISO/IEC 17065,ACTIVE,2021-10-05,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=2730
+ACCREDIA,01442 (17065),GCERTI ITALY ASSESSMENT & CERTIFICATION S.r.l. Società Benefit,ISO/IEC 17065,ACTIVE,2025-06-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3812
+ACCREDIA,01443,HQAI Humanitarian Quality Assurance Initiative,ISO/IEC 17065,ACTIVE,2018-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3821
+ACCREDIA,01492,VEC S.r.l.,ISO/IEC 17065,ACTIVE,2023-07-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3842
+ACCREDIA,01502 (17065),CERTIFICA S.r.l.,ISO/IEC 17065,ACTIVE,2025-10-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3836
+ACCREDIA,01536,Control S.r.l.,ISO/IEC 17065,ACTIVE,2019-07-25,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3091
+ACCREDIA,01560,ECOS ITALIA S.r.l.,ISO/IEC 17065,ACTIVE,2019-11-08,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4171
+ACCREDIA,01567,A.S.TER. - Ambiente Sostenibilità e Territorio S.r.l.,ISO/IEC 17065,ACTIVE,2019-11-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4331
+ACCREDIA,01571,ERGOCERT - Ente di Certificazione per l'Ergonomia s.r.l.,ISO/IEC 17065,ACTIVE,2019-12-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0884
+ACCREDIA,01625,DREAM&CHARME S.r.l.,ISO/IEC 17065,ACTIVE,2020-06-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4471
+ACCREDIA,01629,TECNOPROVE S.r.l.,ISO/IEC 17065,ACTIVE,2025-07-21,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0927
+ACCREDIA,01666,I.C.P. S.r.l.s. - Istituto di Certificazione per le Professioni S.r.l.s.,ISO/IEC 17065,ACTIVE,2020-09-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4520
+ACCREDIA,01668,L.S. Fire Testing institute S.r.l.,ISO/IEC 17065,ACTIVE,2022-04-01,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4688
+ACCREDIA,01719,"Camera di Commercio, Industria, Artigianato, Turismo e Agricoltura di Bolzano",ISO/IEC 17065,ACTIVE,2020-12-01,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4498
+ACCREDIA,01720,CONTROL UNION ITALIA S.r.l.,ISO/IEC 17065,ACTIVE,2020-12-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4480
+ACCREDIA,01795 (17065),SI CERT ITALY S.r.l.,ISO/IEC 17065,ACTIVE,2021-05-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4450
+ACCREDIA,01797,VERIFICATORI ASSOCIATI ITALIANI S.r.l. Società Benefit,ISO/IEC 17065,ACTIVE,2022-02-25,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=3978
+ACCREDIA,01817 (17065),CMCERT S.r.l.,ISO/IEC 17065,ACTIVE,2025-09-30,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4633
+ACCREDIA,01835,Qualitaly S.r.l.,ISO/IEC 17065,ACTIVE,2021-07-02,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4634
+ACCREDIA,01854,ITC-CNR,ISO/IEC 17065,ACTIVE,2022-03-01,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4631
+ACCREDIA,01879 (17065),BSI Group Italia S.r.l.,ISO/IEC 17065,ACTIVE,2026-01-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0945
+ACCREDIA,01886,Intertek Testing Services Ltd Shanghai,ISO/IEC 17065,ACTIVE,2021-12-14,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4715
+ACCREDIA,01947,AREAS Certificazioni S.r.l.,ISO/IEC 17065,ACTIVE,2022-03-25,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4723
+ACCREDIA,02033 (17065),CERTEED S.r.l.,ISO/IEC 17065,ACTIVE,2022-10-26,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4765
+ACCREDIA,02053,QONCERT S.r.l.,ISO/IEC 17065,ACTIVE,2022-12-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4806
+ACCREDIA,02061,CERTIFICA.SRL S.r.l.,ISO/IEC 17065,ACTIVE,2022-12-21,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4882
+ACCREDIA,02082,AFORCERT S.R.L.,ISO/IEC 17065,ACTIVE,2023-03-24,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4892
+ACCREDIA,02084,Korea Electrotechnology Research Institute,ISO/IEC 17065,ACTIVE,2003-12-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0809
+ACCREDIA,02122,AP ENGINEERING S.r.l.,ISO/IEC 17065,ACTIVE,2023-10-27,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4946
+ACCREDIA,02126 (17065),Autenticert S.r.l.,ISO/IEC 17065,ACTIVE,2026-09-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4927
+ACCREDIA,02138 (17065),Bureau Veritas Certification Holding SAS Italy Branch,ISO/IEC 17065,ACTIVE,1999-05-24,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5056
+ACCREDIA,02147,TRANS CERTIFICATION & INSPECTION SDN. BHD. Trans Cert,ISO/IEC 17065,ACTIVE,2024-01-26,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4891
+ACCREDIA,02187,Deutsche Cert Inspect S.r.l.,ISO/IEC 17065,ACTIVE,2024-06-11,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4930
+ACCREDIA,02195,Agribiomass S.r.l. - Organismo di Certificazione Agroambientale ed Energetica,ISO/IEC 17065,ACTIVE,2024-07-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5108
+ACCREDIA,02196,PT Qualitas Sertifikasi Indonesia,ISO/IEC 17065,ACTIVE,2024-07-23,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5007
+ACCREDIA,02200,CISMONDI S.r.l.,ISO/IEC 17065,ACTIVE,2024-07-25,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4941
+ACCREDIA,02222,e-CEPI S.r.l.,ISO/IEC 17065,ACTIVE,2024-10-18,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5188
+ACCREDIA,02228,Vireo S.r.l.,ISO/IEC 17065,ACTIVE,2024-11-05,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5086
+ACCREDIA,02233,TECNOCONTROLLI S.r.l.,ISO/IEC 17065,ACTIVE,2024-12-13,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4036
+ACCREDIA,02234,Vietnam Certification Centre - QUACERT,ISO/IEC 17065,ACTIVE,2024-12-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4944
+ACCREDIA,02236,CERTI AL sh.p.k,ISO/IEC 17065,ACTIVE,2024-12-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5128
+ACCREDIA,02242 (17065),SGS ICS ITALIA S.R.L.,ISO/IEC 17065,ACTIVE,2000-04-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=0053
+ACCREDIA,02254,ISALAB S.r.l.,ISO/IEC 17065,ACTIVE,2025-02-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4564
+ACCREDIA,02271,Q-Check Private Capital Company,ISO/IEC 17065,ACTIVE,2025-04-16,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4922
+ACCREDIA,02272,NOBEL CERTIFICATION ITALIA S.r.l.s. (ConformEx),ISO/IEC 17065,ACTIVE,2025-04-17,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4879
+ACCREDIA,02281,Istituto di Ricerca e Certificazione per le Costruzioni Sostenibili S.r.l. in forma abbreviata IRCCOS S.r.l.,ISO/IEC 17065,ACTIVE,2025-06-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=4932
+ACCREDIA,02293,Agenzia per la Cybersicurezza Nazionale (ACN) Organismo Certificazione Sicurezza Informatica (OCSI),ISO/IEC 17065,ACTIVE,2025-07-22,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5338
+ACCREDIA,02298,ENTE NAVALE EUROPEO S.R.L. E.NAV.E. S.R.L.,ISO/IEC 17065,ACTIVE,2025-09-09,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5285
+ACCREDIA,02324 (17065),Ente Certificazione Macchine S.r.l.,ISO/IEC 17065,ACTIVE,2012-06-20,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5428
+ACCREDIA,02325,AGRICERT MEXICO SA DE CV,ISO/IEC 17065,ACTIVE,2025-11-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5355
+ACCREDIA,02368,SG QUALITA' S.R.L.,ISO/IEC 17065,ACTIVE,2026-04-24,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5445
+ACCREDIA,02378,CENTRO CONSORZI,ISO/IEC 17065,ACTIVE,2026-06-04,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5469
+ACCREDIA,02407,IUSDACERT S.R.L.,ISO/IEC 17065,ACTIVE,2026-09-28,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5497
+ACCREDIA,02417,Ingenieria Tecnica Agricola Certificadora Agroalimentaria S.L. (ITACA),ISO/IEC 17065,ACTIVE,2026-10-19,,https://services.accredia.it/ppsearch/accredia_orgmask.jsp?ID_LINK=1733&area=310&PPSEARCH_ORG_SEARCH_MASK_ORG=5326

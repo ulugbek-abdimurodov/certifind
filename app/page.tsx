@@ -6,9 +6,14 @@ import { ResultsSection } from "../components/ResultsSection";
 import { SearchForm } from "../components/SearchForm";
 import { ThemeToggle } from "../components/ThemeToggle";
 import { Workflow } from "../components/Workflow";
-import { API_URL, stages } from "./search-data";
+import { ProductSearchForm } from "../components/ProductSearchForm";
+import { API_URL, productBody, stages } from "./search-data";
 import type {
+  Activity,
   Body,
+  ProductBodyCard,
+  ProductCriteria,
+  ProductOptions,
   ResultFilter,
   SearchPreset,
   SearchResponse,
@@ -43,6 +48,18 @@ export default function Home() {
   });
   const [optionsError, setOptionsError] = useState("");
   const optionsLoaded = useRef(false);
+  // Product certification (ISO/IEC 17065) has its own form, options and endpoint.
+  const [activity, setActivity] = useState<Activity>("management");
+  const [productCriteria, setProductCriteria] = useState<ProductCriteria>({
+    scheme: "",
+    industry: "",
+    product: "",
+  });
+  const [productOptions, setProductOptions] = useState<ProductOptions>({
+    industries: [],
+    schemes: [],
+  });
+  const [productOptionsError, setProductOptionsError] = useState("");
 
   useEffect(() => {
     // Deferred so the first render matches the server render (no localStorage there).
@@ -59,11 +76,25 @@ export default function Home() {
       const response = await fetchWithTimeout(`${API_URL}/api/v1/options`);
       if (!response.ok) throw new Error();
       setOptions((await response.json()) as SearchOptions);
-      optionsLoaded.current = true;
       setOptionsError("");
     } catch {
       setOptionsError(
         "Standard e settori non disponibili: il servizio non risponde. Nuovo tentativo in corso…",
+      );
+      return;
+    }
+    // Loaded separately, so a failure here leaves the management system form usable.
+    try {
+      const response = await fetchWithTimeout(
+        `${API_URL}/api/v1/product-options`,
+      );
+      if (!response.ok) throw new Error();
+      setProductOptions((await response.json()) as ProductOptions);
+      setProductOptionsError("");
+      optionsLoaded.current = true;
+    } catch {
+      setProductOptionsError(
+        "Schemi e settori non disponibili: il servizio non risponde. Nuovo tentativo in corso…",
       );
     }
   }
@@ -96,6 +127,9 @@ export default function Home() {
     request: (signal: AbortSignal) => Promise<Response>,
     errorFor: (status: number) => string,
     onSuccess?: () => void,
+    // Converts a response that is not already a SearchResponse (the product search).
+    toResults: (json: unknown) => SearchResponse = (json) =>
+      json as SearchResponse,
   ) {
     if (loading) return;
     void loadOptions(); // the API may be back: refill the form too
@@ -122,7 +156,7 @@ export default function Home() {
           throw new Error(problem?.detail || errorFor(response.status));
         }
         setStep(3);
-        return (await response.json()) as SearchResponse;
+        return toResults(await response.json());
       });
       setData(results);
       onSuccess?.();
@@ -166,6 +200,61 @@ export default function Home() {
         setResultIso(searchedIso);
         saveRecentSearch({ iso, sector });
       },
+    );
+  }
+
+  function showAllProductBodies() {
+    return runSearch(
+      (signal) => fetch(`${API_URL}/api/v1/product-companies`, { signal }),
+      () => "Impossibile caricare l'elenco degli organismi di prodotto.",
+      undefined,
+      (json) => ({
+        resolvedEaCode: 0,
+        resolvedEaDescription: "",
+        directory: true,
+        productSummary: "",
+        results: (json as { results: ProductBodyCard[] }).results.map(
+          productBody,
+        ),
+      }),
+    );
+  }
+
+  function searchProducts(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const criteria = productCriteria;
+    const industryName = productOptions.industries.find(
+      (industry) => industry.code === criteria.industry,
+    )?.name;
+    const productSummary = [
+      criteria.scheme.trim(),
+      industryName,
+      criteria.product.trim(),
+    ]
+      .filter(Boolean)
+      .join(" · ");
+    return runSearch(
+      (signal) =>
+        fetch(`${API_URL}/api/v1/product-search`, {
+          signal,
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(criteria),
+        }),
+      (status) =>
+        status === 400
+          ? "Criteri non validi. Controlla i campi e riprova."
+          : "Ricerca non riuscita. Riprova tra poco.",
+      undefined,
+      (json) => ({
+        resolvedEaCode: 0,
+        resolvedEaDescription: "",
+        directory: false,
+        productSummary,
+        results: (json as { results: ProductBodyCard[] }).results.map(
+          productBody,
+        ),
+      }),
     );
   }
 
@@ -244,7 +333,19 @@ export default function Home() {
           onShowAllCompanies={showAllCompanies}
           options={options}
           optionsError={optionsError}
-        />
+          activity={activity}
+          onActivityChange={setActivity}
+        >
+          <ProductSearchForm
+            criteria={productCriteria}
+            onChange={setProductCriteria}
+            options={productOptions}
+            optionsError={optionsError || productOptionsError}
+            loading={loading}
+            onSubmit={searchProducts}
+            onShowAll={showAllProductBodies}
+          />
+        </SearchForm>
       </section>
       <Workflow step={step} loading={loading} />
       <ResultsSection

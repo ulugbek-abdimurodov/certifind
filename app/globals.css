@@ -1113,37 +1113,6 @@ footer {
   background: var(--green);
   color: #fff;
 }
-/* Country / AB dropdown, styled as a pill next to "Tutti" and "Italia". */
-.filter-select {
-  appearance: none;
-  max-width: 100%;
-  border: 1px solid #dce8e0;
-  border-radius: 999px;
-  background: transparent
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%235a7066' stroke-width='1.5'/%3E%3C/svg%3E")
-    no-repeat right 12px center;
-  color: #5a7066;
-  padding: 8px 30px 8px 12px;
-  font: inherit;
-  font-size: 10px;
-  line-height: 1.2;
-  cursor: pointer;
-}
-.filter-select:hover,
-.filter-select:focus-visible {
-  border-color: #9bc5ae;
-  color: var(--deep);
-  outline: none;
-}
-.filter-select.filter-pill-active {
-  border-color: var(--green);
-  background-color: var(--green);
-  color: #fff;
-}
-.filter-select option {
-  color: var(--ink);
-  background: var(--paper, #fff);
-}
 @media (max-width: 720px) {
   .results-filters {
     align-items: stretch;
@@ -1152,11 +1121,6 @@ footer {
   .filter-pill {
     font-size: 9px;
     padding: 7px 10px;
-  }
-  .filter-select {
-    font-size: 9px;
-    padding: 7px 28px 7px 10px;
-    flex: 1 1 100%;
   }
 }
 .sector-autocomplete {
@@ -1413,11 +1377,6 @@ footer {
   background-size: cover;
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
-[data-theme="dark"] .filter-select { border-color: #2a3833; color: #b4c2bc; }
-[data-theme="dark"] .filter-select:hover,
-[data-theme="dark"] .filter-select:focus-visible { border-color: #3f9a7b; color: #e6eeea; }
-[data-theme="dark"] .filter-select.filter-pill-active { background-color: var(--green); border-color: var(--green); color: #fff; }
-[data-theme="dark"] .filter-select option { background: #131c19; color: #e6eeea; }
 /* Options notice inside the search form: compact, above the fields. */
 .notice.form-notice {
   margin: 0 0 14px;
@@ -1427,3 +1386,74 @@ footer {
 .notice.form-notice p {
   margin: 0;
 }
+/* Search card: switch between management systems and product certification. */
+.activity-tabs {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  margin: 0 0 12px;
+  background: #eef3ef;
+  border-radius: 6px;
+}
+.activity-tabs button {
+  flex: 1 1 0;
+  min-height: 36px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: #34463f;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    background 0.15s,
+    color 0.15s;
+}
+.activity-tabs button:hover,
+.activity-tabs button:focus-visible {
+  background: #dfeae3;
+  outline: none;
+}
+.activity-tabs button.active {
+  background: var(--deep);
+  color: #fff;
+}
+.form-hint {
+  margin: 12px 0 0;
+  color: #6d7c76;
+  font-size: 11px;
+  line-height: 1.5;
+}
+/* Product certification: the scope line that matched, under the scheme on a result card. */
+.product-line {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  margin-top: 4px;
+  color: #6d7c76;
+  font-size: 11px;
+  line-height: 1.45;
+}
+.product-more {
+  margin-top: 10px;
+}
+.product-also {
+  margin: 12px 0 0;
+  padding: 10px 12px;
+  border: 1px dashed #b9c9c0;
+  border-radius: 6px;
+  color: #54685e;
+  font-size: 11px;
+  line-height: 1.5;
+}
+[data-theme="dark"] .activity-tabs { background: #0f1714; }
+[data-theme="dark"] .activity-tabs button { color: #b4c2bc; }
+[data-theme="dark"] .activity-tabs button:hover,
+[data-theme="dark"] .activity-tabs button:focus-visible { background: #16312a; color: #e6eeea; }
+[data-theme="dark"] .activity-tabs button.active { background: var(--green); color: #fff; }
+[data-theme="dark"] .form-hint,
+[data-theme="dark"] .product-line { color: #93a39c; }
+[data-theme="dark"] .product-also { border-color: #2a3833; color: #b4c2bc; }

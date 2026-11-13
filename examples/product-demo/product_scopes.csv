@@ -1,0 +1,17 @@
+certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_text,normative_docs,standard_refs,status
+DEMO-PRD-001,1,IFS Food,,"Verarbeitung von Fleisch, Milchprodukten und Backwaren","Processing of meat, dairy products and bakery goods",IFS Food Version 8,,,ACTIVE
+DEMO-PRD-001,2,BRCGS Food Safety,,Lebensmittelherstellung,Food manufacturing,BRCGS Global Standard Food Safety Issue 9,,,ACTIVE
+DEMO-PRD-001,3,GLOBALG.A.P. IFA,,"Obst und Gemüse, Kartoffeln","Fruit and vegetables, potatoes",GLOBALG.A.P. Integrated Farm Assurance v6,,,ACTIVE
+DEMO-PRD-001,4,GMP+ FSA,,Futtermittelherstellung und Handel,Feed production and trade,GMP+ Feed Safety Assurance,,,ACTIVE
+DEMO-PRD-002,1,ISCC EU,,"Biocombustibles, biolíquidos y combustibles de biomasa","Biofuels, bioliquids and biomass fuels",ISCC EU 202,Directiva (UE) 2018/2001,,ACTIVE
+DEMO-PRD-002,2,ISCC PLUS,,Productos químicos y plásticos de base biológica y circular,Bio-based and circular chemicals and plastics,ISCC PLUS,,,ACTIVE
+DEMO-PRD-002,3,PEFC Chain of Custody,,"Madera, papel y embalajes de cartón","Wood, paper and cardboard packaging",PEFC ST 2002:2020,,,ACTIVE
+DEMO-PRD-002,4,,food,Aceite de oliva virgen extra,Extra virgin olive oil,,,,WITHDRAWN
+DEMO-PRD-003,1,,packaging,Composteerbare verpakkingen,Compostable packaging,,EN 13432:2000,EN 13432,ACTIVE
+DEMO-PRD-003,2,BRCGS Packaging Materials,,Verpakkingsmaterialen voor levensmiddelen,Packaging materials for food,BRCGS Packaging Materials Issue 7,,,ACTIVE
+DEMO-PRD-003,3,IFS PACsecure,,Primaire en secundaire verpakkingen,Primary and secondary packaging,IFS PACsecure Version 2,,,ACTIVE
+DEMO-PRD-003,4,IFS HPC,,"Cosmetica en huishoudproducten","Cosmetics and household products",IFS HPC Version 3,ISO 22716,ISO 22716,ACTIVE
+DEMO-PRD-004,1,,construction,Κατασκευή μεταλλικών φερόντων στοιχείων,Execution of steel structures,,EN 1090-1:2009+A1:2011,EN 1090-1,ACTIVE
+DEMO-PRD-004,2,eIDAS,,Πάροχοι υπηρεσιών εμπιστοσύνης,Trust service providers,Κανονισμός (ΕΕ) 910/2014,ETSI EN 319 401,ETSI EN 319 401,ACTIVE
+DEMO-PRD-004,3,Europrivacy,,Επεξεργασία δεδομένων προσωπικού χαρακτήρα,Personal data processing,Europrivacy,Κανονισμός (ΕΕ) 2016/679,,ACTIVE
+DEMO-PRD-004,4,IFS Food,,Ελαιόλαδο και επιτραπέζιες ελιές,Olive oil and table olives,IFS Food Version 8,,,ACTIVE

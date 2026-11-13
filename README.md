@@ -155,6 +155,28 @@ UTF-8 CSV files. They open in Excel; save them as "CSV UTF-8". Empty cells mean 
 | `status` | no | `ACTIVE` (default), `SUSPENDED`, `WITHDRAWN`; split a row to give one EA code a different status |
 | `scope_note` | no | Restrictions from the annex, e.g. "limited to paper products" |
 
+`product_scopes.csv` (optional), one row per line of an ISO/IEC 17065 scope annex. Only
+datasets with product, process or service certification have this file; `scopes.csv` must
+still exist and may hold just its header.
+
+| Column | Required | Notes |
+| --- | --- | --- |
+| `certificate_number` | yes | Must match an `ISO/IEC 17065` row in `accreditations.csv` |
+| `line_no` | yes | Position of the line in the annex (1, 2, ...). It identifies the line across imports, so keep it stable |
+| `scheme` | no | Canonical scheme from the `schemes` table (`IFS Food`, `ISCC EU`, ...). Empty when the line matches no catalogued scheme |
+| `industry` | no | Code from the `industries` table (`food`, `packaging`, ...). Only needed when `scheme` is empty; a scheme brings its own industries |
+| `product_text` | no | Product, process or service exactly as printed, in the original language |
+| `product_text_en` | no | English translation |
+| `scheme_text` | no | Scheme exactly as printed |
+| `normative_docs` | no | Standards and regulations exactly as printed |
+| `standard_refs` | no | Identifiers extracted from the line, e.g. `EN 13432;ISO 22716` |
+| `status` | no | `ACTIVE` (default), `SUSPENDED`, `WITHDRAWN` |
+
+At least one of `scheme`, `product_text`, `scheme_text` and `normative_docs` is required.
+`scheme` and `industry` are assigned by the dataset converter, so the mapping can be
+improved and re-imported without scraping again. New schemes and industries are added
+with a Flyway migration (see `V66__product_certification.sql`).
+
 Workflow for adding or changing data:
 
 1. Edit the CSVs, or create a new `data/<source>/` folder with all three files and a `SOURCES.md`.

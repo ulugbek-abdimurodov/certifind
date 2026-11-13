@@ -1,11 +1,16 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import type { AccreditationScope, Body } from "../app/search-types";
+import type {
+  AccreditationScope,
+  Body,
+  ProductScopeLine,
+} from "../app/search-types";
 import {
   API_URL,
   countryLabel,
   formatDate,
+  productLineText,
   scopeLinesByStandard,
   shortStandard,
   standardLabel,
@@ -25,7 +30,20 @@ export function OrganizationDrawer({
   const [selectedStandard, setSelectedStandard] = useState<string | null>(null);
   // Scope rows are not part of the result list; fetch them for the open body. null = loading.
   const [loaded, setLoaded] = useState<{ id: number; scopes: AccreditationScope[] } | null>(null);
+  // Product certification results also load the body's ISO/IEC 17065 scope lines.
+  const [loadedProduct, setLoadedProduct] = useState<{ id: number; lines: ProductScopeLine[] } | null>(null);
   const returnFocusRef = useRef<HTMLElement | null>(null);
+  useEffect(() => {
+    if (!body?.product) return;
+    const controller = new AbortController();
+    fetch(`${API_URL}/api/v1/companies/${body.id}/product-scopes`, { signal: controller.signal })
+      .then((response) => (response.ok ? response.json() : []))
+      .then((lines: ProductScopeLine[]) => setLoadedProduct({ id: body.id, lines }))
+      .catch(() => {
+        if (!controller.signal.aborted) setLoadedProduct({ id: body.id, lines: [] });
+      });
+    return () => controller.abort();
+  }, [body]);
   useEffect(() => {
     if (!body) return;
     const controller = new AbortController();
@@ -90,9 +108,12 @@ export function OrganizationDrawer({
     selectedStandard !== null && scopeLines.some((l) => l.standard === selectedStandard)
       ? selectedStandard
       : null;
+  const productLines = loadedProduct?.id === body.id ? loadedProduct.lines : null;
   /** Standards when scopes are available, otherwise the given single-EA label, otherwise "all". */
   const scopeSummary = (singleEaLabel: string) =>
-    body.standards.length
+    body.product
+      ? body.product.schemes.join(", ") || "Certificazione di prodotto"
+      : body.standards.length
       ? body.standards.join(", ")
       : body.eaCode > 0
         ? singleEaLabel
@@ -184,6 +205,15 @@ export function OrganizationDrawer({
           <div className="drawer-section-title">
             CAMPO DI APPLICAZIONE ACCREDITATO
           </div>
+          {body.product ? (
+            <ProductScope
+              key={body.id}
+              lines={productLines}
+              matched={body.product.lines}
+              managementStandards={scopeLines.map((line) => shortStandard(line.standard))}
+            />
+          ) : (
+          <>
           {scopeLines.length > 0 && (
             <div className="standard-filter">
               <button
@@ -229,6 +259,8 @@ export function OrganizationDrawer({
               </>
             )}
           </div>
+          </>
+          )}
         </section>
         <section className="drawer-section criteria-section">
           <div className="drawer-section-title">
@@ -239,8 +271,8 @@ export function OrganizationDrawer({
           </p>
           <div className="criteria-list">
             <Criterion
-              label="Scope ISO pertinente"
-              ok={body.standards.length > 0}
+              label={body.product ? "Scopo di prodotto pertinente" : "Scope ISO pertinente"}
+              ok={body.product ? body.product.matchCount > 0 : body.standards.length > 0}
               detail={scopeSummary(`${iso} · EA ${body.eaCode}`)}
             />
           </div>
@@ -340,4 +372,62 @@ function Criterion({
  */
 function mailtoHref(email: string) {
   return `mailto:${email.trim().replace(/[&?#%]/g, (c) => encodeURIComponent(c))}`;
+}
+
+/** Scope lines shown before "Mostra tutte": annexes can run to hundreds of lines. */
+const PRODUCT_LINES_SHOWN = 30;
+
+/**
+ * A body's ISO/IEC 17065 scope, grouped by scheme (or by the annex wording when the line
+ * matched no catalogued scheme). While the full scope loads, the lines that matched the
+ * search are shown.
+ */
+function ProductScope({
+  lines,
+  matched,
+  managementStandards,
+}: {
+  lines: ProductScopeLine[] | null;
+  matched: ProductScopeLine[];
+  managementStandards: string[];
+}) {
+  const [showAll, setShowAll] = useState(false);
+  const all = lines?.length ? lines : matched;
+  const shown = showAll ? all : all.slice(0, PRODUCT_LINES_SHOWN);
+  const groups = new Map<string, ReturnType<typeof productLineText>[]>();
+  for (const line of shown) {
+    const text = productLineText(line);
+    const group = groups.get(text.title);
+    if (group) group.push(text);
+    else groups.set(text.title, [text]);
+  }
+  return (
+    <>
+      <div className="scope-highlight">
+        {[...groups].map(([title, texts]) => (
+          <div key={title}>
+            <strong>{title}</strong>
+            {texts.map((text, index) => (
+              <p key={index}>
+                {[text.product, text.productEn, text.documents, text.schemeNote]
+                  .filter(Boolean)
+                  .join(" · ") || "Senza limitazioni indicate"}
+              </p>
+            ))}
+          </div>
+        ))}
+        {lines === null && <p>Caricamento del campo di applicazione…</p>}
+      </div>
+      {all.length > shown.length && (
+        <button className="filter-pill product-more" type="button" onClick={() => setShowAll(true)}>
+          Mostra tutte le {all.length} voci
+        </button>
+      )}
+      {managementStandards.length > 0 && (
+        <p className="product-also">
+          Accreditato anche per <strong>sistemi di gestione</strong>: {managementStandards.join(", ")}
+        </p>
+      )}
+    </>
+  );
 }

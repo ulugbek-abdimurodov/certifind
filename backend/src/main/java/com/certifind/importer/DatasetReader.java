@@ -25,7 +25,7 @@ import org.apache.commons.csv.CSVRecord;
 /**
  * Reads a dataset folder and checks everything that does not need the database:
  * headers, required fields, formats, dates, EA code lists, duplicates and references
- * between the three files. Problems are collected as "file:line: message" so one run
+ * between the files. product_scopes.csv is optional (ISO/IEC 17065 datasets only). Problems are collected as "file:line: message" so one run
  * reports every mistake instead of stopping at the first.
  */
 public final class DatasetReader {
@@ -38,6 +38,9 @@ public final class DatasetReader {
             "issue_date", "expiry_date", "proof_url");
     static final List<String> SCOPE_COLUMNS = List.of(
             "certificate_number", "certification_standard", "ea_codes", "status", "scope_note");
+    static final List<String> PRODUCT_SCOPE_COLUMNS = List.of(
+            "certificate_number", "line_no", "scheme", "industry", "product_text", "product_text_en",
+            "scheme_text", "normative_docs", "standard_refs", "status");
 
     private static final Set<String> STATUSES = Set.of("ACTIVE", "SUSPENDED", "WITHDRAWN");
     private static final Pattern PHONE = Pattern.compile("\\+[0-9][0-9 ()/-]{5,}");
@@ -103,7 +106,24 @@ public final class DatasetReader {
                 }
             }
         }
-        return new Dataset(name, bodies, linked, scopes);
+
+        // Product scopes (optional file): certificate must be in accreditations.csv,
+        // line numbers unique per certificate.
+        List<Dataset.ProductScope> productScopes = Files.isRegularFile(dir.resolve("product_scopes.csv"))
+                ? readFile(dir, "product_scopes.csv", PRODUCT_SCOPE_COLUMNS, this::productScope)
+                : List.of();
+        Set<String> productLines = new HashSet<>();
+        for (Dataset.ProductScope p : productScopes) {
+            if (p.certificateNumber() != null && !certificates.contains(p.certificateNumber())) {
+                error(dir, "product_scopes.csv", p.line(),
+                        "certificate_number '" + p.certificateNumber() + "' is not in accreditations.csv");
+            }
+            if (p.lineNo() > 0 && !productLines.add(p.certificateNumber() + "|" + p.lineNo())) {
+                error(dir, "product_scopes.csv", p.line(), "line_no " + p.lineNo() + " under "
+                        + p.certificateNumber() + " is listed more than once");
+            }
+        }
+        return new Dataset(name, bodies, linked, scopes, productScopes);
     }
 
     private interface RowParser<T> {
@@ -199,6 +219,27 @@ public final class DatasetReader {
         }
         return new Dataset.Scope(r.line, r.req("certificate_number"), r.req("certification_standard"),
                 eaCodes, r.status("status"), r.opt("scope_note"));
+    }
+
+    private Dataset.ProductScope productScope(Row r) {
+        int lineNo = 0;
+        String lineText = r.req("line_no");
+        if (lineText != null) {
+            try {
+                lineNo = Integer.parseInt(lineText);
+            } catch (NumberFormatException e) {
+                // reported below
+            }
+            if (lineNo <= 0) r.fail("line_no '" + lineText + "' is not a positive whole number");
+        }
+        Dataset.ProductScope scope = new Dataset.ProductScope(r.line, r.req("certificate_number"), lineNo,
+                r.opt("scheme"), r.opt("industry"), r.opt("product_text"), r.opt("product_text_en"),
+                r.opt("scheme_text"), r.opt("normative_docs"), r.opt("standard_refs"), r.status("status"));
+        if (scope.scheme() == null && scope.productText() == null && scope.schemeText() == null
+                && scope.normativeDocs() == null) {
+            r.fail("give at least one of scheme, product_text, scheme_text, normative_docs");
+        }
+        return scope;
     }
 
     /** Parses "ALL", "17" or "1-10;12;14-39" into EA codes 1-39. */

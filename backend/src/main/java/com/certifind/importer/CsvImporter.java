@@ -19,6 +19,7 @@ import org.springframework.stereotype.Component;
  *   <li>body: (country, registration_no) when given, otherwise (country, name)</li>
  *   <li>accreditation: (accreditation body, certificate_number)</li>
  *   <li>scope: (accreditation, certification standard, EA code)</li>
+ *   <li>product scope: (accreditation, line_no)</li>
  * </ul>
  * Nothing is deleted. An accreditation or scope that disappears from its dataset's CSVs
  * is set to WITHDRAWN, which already removes it from search (v_issuing_rights).
@@ -49,11 +50,18 @@ public class CsvImporter {
                 out.append(String.format("  %-15s %5d inserted, %5d updated, %5d withdrawn, %5d unchanged%n",
                         table, c[0], c[1], c[2], c[3]));
             }
+            // Only datasets with ISO/IEC 17065 lines print this row.
+            int[] p = counts.get("product_scopes");
+            if (p != null) {
+                out.append(String.format("  %-15s %5d inserted, %5d updated, %5d withdrawn, %5d unchanged%n",
+                        "product_scopes", p[0], p[1], p[2], p[3]));
+            }
             return out.toString();
         }
     }
 
     private static final int INSERTED = 0, UPDATED = 1, WITHDRAWN = 2, UNCHANGED = 3;
+    private static final String PRODUCT_STANDARD = "ISO/IEC 17065";
 
     /** Checks a dataset against reference data and rows owned by other datasets. */
     public List<String> validate(Dataset ds) {
@@ -96,6 +104,25 @@ public class CsvImporter {
                         + " (see accreditation_scheme_rules)");
             }
         }
+        if (!ds.productScopes().isEmpty()) {
+            Set<String> schemes = new HashSet<>(jdbc.queryForList("SELECT code FROM schemes", String.class));
+            Set<String> industries = new HashSet<>(jdbc.queryForList("SELECT code FROM industries", String.class));
+            for (Dataset.ProductScope p : ds.productScopes()) {
+                String where = ds.name() + "/product_scopes.csv:" + p.line() + ": ";
+                String accreditationStandard = standardByCertificate.get(p.certificateNumber());
+                if (accreditationStandard != null && !PRODUCT_STANDARD.equals(accreditationStandard)) {
+                    errors.add(where + "certificate " + p.certificateNumber() + " is an " + accreditationStandard
+                            + " accreditation; product scopes need " + PRODUCT_STANDARD);
+                }
+                if (p.scheme() != null && !schemes.contains(p.scheme())) {
+                    errors.add(where + "unknown scheme '" + p.scheme()
+                            + "' (leave it empty, or add the scheme with a Flyway migration)");
+                }
+                if (p.industry() != null && !industries.contains(p.industry())) {
+                    errors.add(where + "unknown industry '" + p.industry() + "' (known: " + industries + ")");
+                }
+            }
+        }
         return errors;
     }
 
@@ -113,6 +140,7 @@ public class CsvImporter {
         }
         withdrawMissingAccreditations(ds.name(), accreditationIds.values(), report);
         loadScopes(ds, accreditationIds, standards, report);
+        loadProductScopes(ds, accreditationIds, standards, report);
         return report;
     }
 
@@ -232,6 +260,48 @@ public class CsvImporter {
         jdbc.batchUpdate("INSERT INTO accredited_scopes (accreditation_id, accreditation_standard, "
                 + "certification_standard, ea_code, status, scope_note) VALUES (?, ?, ?, ?, ?, ?)", inserts);
         jdbc.batchUpdate("UPDATE accredited_scopes SET status = ?, scope_note = ? WHERE id = ?", updates);
+    }
+
+    /**
+     * Upserts the dataset's product scope lines by (accreditation, line_no) and withdraws
+     * the lines of its ISO/IEC 17065 accreditations that are no longer in the CSV.
+     */
+    private void loadProductScopes(Dataset ds, Map<String, Integer> accreditationIds, Map<String, String> standards,
+                                   Report report) {
+        Map<Integer, Set<Integer>> kept = new HashMap<>();
+        for (Dataset.ProductScope p : ds.productScopes()) {
+            int accreditationId = accreditationIds.get(p.certificateNumber());
+            kept.computeIfAbsent(accreditationId, id -> new HashSet<>()).add(p.lineNo());
+            // No row back = an identical row is already there; xmax = 0 = freshly inserted.
+            List<Boolean> inserted = jdbc.queryForList("INSERT INTO product_scopes AS ps (accreditation_id, line_no, "
+                    + "scheme_code, industry_code, product_text, product_text_en, scheme_text, normative_docs, "
+                    + "standard_refs, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) "
+                    + "ON CONFLICT (accreditation_id, line_no) DO UPDATE SET scheme_code = EXCLUDED.scheme_code, "
+                    + "industry_code = EXCLUDED.industry_code, product_text = EXCLUDED.product_text, "
+                    + "product_text_en = EXCLUDED.product_text_en, scheme_text = EXCLUDED.scheme_text, "
+                    + "normative_docs = EXCLUDED.normative_docs, standard_refs = EXCLUDED.standard_refs, "
+                    + "status = EXCLUDED.status "
+                    + "WHERE (ps.scheme_code, ps.industry_code, ps.product_text, ps.product_text_en, ps.scheme_text, "
+                    + "ps.normative_docs, ps.standard_refs, ps.status) IS DISTINCT FROM (EXCLUDED.scheme_code, "
+                    + "EXCLUDED.industry_code, EXCLUDED.product_text, EXCLUDED.product_text_en, EXCLUDED.scheme_text, "
+                    + "EXCLUDED.normative_docs, EXCLUDED.standard_refs, EXCLUDED.status) "
+                    + "RETURNING (xmax = 0)", Boolean.class,
+                    accreditationId, p.lineNo(), p.scheme(), p.industry(), p.productText(), p.productTextEn(),
+                    p.schemeText(), p.normativeDocs(), p.standardRefs(), p.status());
+            report.add("product_scopes", inserted.isEmpty() ? UNCHANGED : inserted.get(0) ? INSERTED : UPDATED);
+        }
+        for (Map.Entry<String, Integer> entry : accreditationIds.entrySet()) {
+            if (!PRODUCT_STANDARD.equals(standards.get(entry.getKey()))) continue;
+            Set<Integer> keep = kept.getOrDefault(entry.getValue(), Set.of());
+            for (int lineNo : jdbc.queryForList("SELECT line_no FROM product_scopes WHERE accreditation_id = ? "
+                    + "AND status <> 'WITHDRAWN'", Integer.class, entry.getValue())) {
+                if (!keep.contains(lineNo)) {
+                    jdbc.update("UPDATE product_scopes SET status = 'WITHDRAWN' WHERE accreditation_id = ? "
+                            + "AND line_no = ?", entry.getValue(), lineNo);
+                    report.add("product_scopes", WITHDRAWN);
+                }
+            }
+        }
     }
 
     /** Flattens SQL parameters; Object[] parts are spread in place. */

@@ -1,4 +1,10 @@
-import type { AccreditationScope, Body, ResultFilter } from "./search-types";
+import type {
+  AccreditationScope,
+  Body,
+  ProductBodyCard,
+  ProductScopeLine,
+  ResultFilter,
+} from "./search-types";
 
 export const API_URL =
   process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8080";
@@ -173,9 +179,44 @@ export const scopeLinesByStandard = (scopes: AccreditationScope[]) => {
   }));
 };
 
+/** Title and detail of a product scope line, for cards and the drawer. */
+export const productLineText = (line: ProductScopeLine) => {
+  const scheme = line.scheme ?? line.schemeText;
+  const documents =
+    line.normativeDocs ?? line.standardRefs?.replace(/;/g, ", ") ?? null;
+  return {
+    title: scheme ?? documents ?? "Certificazione di prodotto",
+    // The annex wording, when it says more than the catalogue name.
+    schemeNote:
+      line.scheme && line.schemeText && line.schemeText !== line.scheme
+        ? line.schemeText
+        : null,
+    documents: scheme ? documents : null,
+    product: line.productText,
+    productEn:
+      line.productTextEn && line.productTextEn !== line.productText
+        ? line.productTextEn
+        : null,
+  };
+};
+
+/** Turns a product search result into the Body shape shared with management system results. */
+export const productBody = ({
+  schemes,
+  lines,
+  matchCount,
+  ...card
+}: ProductBodyCard): Body => ({
+  ...card,
+  eaCode: 0,
+  eaDescription: "",
+  scopeSection: "",
+  standards: [],
+  product: { schemes, lines, matchCount },
+});
+
 export function matchesFilter(body: Body, filter: ResultFilter) {
   if (filter === "all") return true;
-  if (filter === "italy") return body.accreditationBodyCodes.includes("ACCREDIA");
   const [code, country] = filter.slice("accreditor:".length).split("|");
   return body.accreditationBodyCodes.includes(code) && body.country === country;
 }

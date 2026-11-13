@@ -9,6 +9,7 @@ import {
   countryLabel,
   formatDate,
   matchesFilter,
+  productLineText,
   recognitionLabels,
   shortStandard,
   standardsLabel,
@@ -44,24 +45,39 @@ export function ResultsSection({
     setVisibleCount(PAGE_SIZE);
   }
   const allResults = data?.results ?? [];
-  const matchesRecognition = (body: Body, value: RecognitionFilter = recognition) =>
+  const matchesRecognition = (
+    body: Body,
+    value: RecognitionFilter = recognition,
+  ) =>
     value === "all" ||
     (value === "IAF"
-      ? body.accreditationBodyCodes.some((code) => !recognitionLabels(code).includes("EA"))
-      : body.accreditationBodyCodes.some((code) => recognitionLabels(code).includes(value)));
+      ? body.accreditationBodyCodes.some(
+          (code) => !recognitionLabels(code).includes("EA"),
+        )
+      : body.accreditationBodyCodes.some((code) =>
+          recognitionLabels(code).includes(value),
+        ));
   const recognised = allResults.filter((body) => matchesRecognition(body));
   // One pill per (country, accreditation body): ESYD accredits Greek, Cypriot and Maltese bodies.
   const accreditorInfo = data
     ? Array.from(
         new Map(
           recognised.flatMap((body) =>
-            body.accreditationBodyCodes
-              .filter((code) => code !== "ACCREDIA")
-              .map((code) => [`${code}|${body.country}`, { code, country: body.country }] as const),
+            body.accreditationBodyCodes.map(
+              (code) =>
+                [
+                  `${code}|${body.country}`,
+                  { code, country: body.country },
+                ] as const,
+            ),
           ),
         ).values(),
       ).sort(
-        (a, b) => countryLabel(a.country).localeCompare(countryLabel(b.country), "it") || a.code.localeCompare(b.code),
+        (a, b) =>
+          countryLabel(a.country).localeCompare(
+            countryLabel(b.country),
+            "it",
+          ) || a.code.localeCompare(b.code),
       )
     : [];
   const listRef = useRef<HTMLDivElement>(null);
@@ -77,10 +93,11 @@ export function ResultsSection({
     onFilterChange("all");
   };
   const results = recognised;
-  const filteredResults = results.filter((body) => matchesFilter(body, resultFilter));
+  const filteredResults = results.filter((body) =>
+    matchesFilter(body, resultFilter),
+  );
   const countForFilter = (filter: ResultFilter) =>
     results.filter((body) => matchesFilter(body, filter)).length;
-  const italyCount = countForFilter("italy");
 
   return (
     <section className="results-section" id="results">
@@ -105,9 +122,13 @@ export function ResultsSection({
                 <em>{data.directory ? "nel database" : "trovati"}</em>
               </h2>
               <p>
-                {data.directory
-                  ? "Elenco completo delle aziende presenti nel database"
-                  : `Per ${shortStandard(iso)} · ${data.resolvedEaDescription} (EA ${data.resolvedEaCode})`}
+                {data.productSummary !== undefined
+                  ? data.directory
+                    ? "Certificazione di prodotto · elenco completo degli organismi"
+                    : `Certificazione di prodotto · ${data.productSummary}`
+                  : data.directory
+                    ? "Elenco completo delle aziende presenti nel database"
+                    : `Per ${shortStandard(iso)} · ${data.resolvedEaDescription} (EA ${data.resolvedEaCode})`}
               </p>
             </div>
             <div className="results-mark">
@@ -128,8 +149,18 @@ export function ResultsSection({
                       active={recognition === value}
                       onClick={() => selectRecognition(value)}
                     >
-                      {value === "all" ? "Tutti" : value === "IAF" ? "IAF (senza EA)" : value} (
-                      {allResults.filter((body) => matchesRecognition(body, value)).length})
+                      {value === "all"
+                        ? "Tutti"
+                        : value === "IAF"
+                          ? "IAF (senza EA)"
+                          : value}{" "}
+                      (
+                      {
+                        allResults.filter((body) =>
+                          matchesRecognition(body, value),
+                        ).length
+                      }
+                      )
                     </FilterButton>
                   ))}
                 </div>
@@ -144,38 +175,19 @@ export function ResultsSection({
                   >
                     Tutti ({results.length})
                   </FilterButton>
-                  {italyCount > 0 && (
-                    <FilterButton
-                      active={resultFilter === "italy"}
-                      onClick={() => selectFilter("italy")}
-                    >
-                      Italia • ACCREDIA ({italyCount})
-                    </FilterButton>
-                  )}
-                  {/* One dropdown instead of a pill per (country, AB): ~160 pills pushed the
-                      first card three screens down on a phone. */}
-                  {accreditorInfo.length > 0 && (
-                    <select
-                      className={`filter-select ${resultFilter.startsWith("accreditor:") ? "filter-pill-active" : ""}`}
-                      aria-label="Paese ed ente di accreditamento"
-                      value={resultFilter.startsWith("accreditor:") ? resultFilter : ""}
-                      onChange={(event) =>
-                        selectFilter((event.target.value || "all") as ResultFilter)
-                      }
-                    >
-                      <option value="">
-                        Altri paesi ed enti ({accreditorInfo.length})
-                      </option>
-                      {accreditorInfo.map(({ code, country }) => {
-                        const filter = `accreditor:${code}|${country}` as const;
-                        return (
-                          <option key={filter} value={filter}>
-                            {countryLabel(country)} • {code} ({countForFilter(filter)})
-                          </option>
-                        );
-                      })}
-                    </select>
-                  )}
+                  {accreditorInfo.map(({ code, country }) => {
+                    const filter = `accreditor:${code}|${country}` as const;
+                    return (
+                      <FilterButton
+                        key={filter}
+                        active={resultFilter === filter}
+                        onClick={() => selectFilter(filter)}
+                      >
+                        {countryLabel(country)} • {code} (
+                        {countForFilter(filter)})
+                      </FilterButton>
+                    );
+                  })}
                 </div>
               </div>
               <div ref={listRef} style={{ scrollMarginTop: "1rem" }} />
@@ -191,26 +203,37 @@ export function ResultsSection({
                       <div className="result-number">
                         {String(index + 1).padStart(2, "0")}
                       </div>
-                      <div className="country-flag" aria-label={countryLabel(body.country)}>
+                      <div
+                        className="country-flag"
+                        aria-label={countryLabel(body.country)}
+                      >
                         <CountryFlag country={body.country} />
                       </div>
                       <div className="result-main">
                         <div className="name-line">
                           <h3>{body.name}</h3>
                         </div>
-                        <div className="scope-subtitle">
-                          Scopo accreditato:{" "}
-                          {body.standards.length
-                            ? standardsLabel(body.standards)
-                            : data.directory
-                              ? body.scopeSection
-                              : iso}
-                        </div>
+                        {body.product ? (
+                          <ProductMatchSummary
+                            match={body.product}
+                            directory={data.directory}
+                          />
+                        ) : (
+                          <div className="scope-subtitle">
+                            Scopo accreditato:{" "}
+                            {body.standards.length
+                              ? standardsLabel(body.standards)
+                              : data.directory
+                                ? body.scopeSection
+                                : iso}
+                          </div>
+                        )}
                         <div className="result-meta">
                           <span>{countryLabel(body.country)}</span>
                           {body.accreditationBodyCodes.map((code) => (
                             <Fragment key={code}>
-                              <i /> <RecognitionLabels abCode={code} /> <span>{code}</span>
+                              <i /> <RecognitionLabels abCode={code} />{" "}
+                              <span>{code}</span>
                             </Fragment>
                           ))}
                           <i /> <span>{expiryLabel(body)}</span>
@@ -228,9 +251,12 @@ export function ResultsSection({
                     <button
                       className="filter-pill"
                       type="button"
-                      onClick={() => setVisibleCount((count) => count + PAGE_SIZE)}
+                      onClick={() =>
+                        setVisibleCount((count) => count + PAGE_SIZE)
+                      }
                     >
-                      Mostra altri ({filteredResults.length - visibleCount} rimanenti)
+                      Mostra altri ({filteredResults.length - visibleCount}{" "}
+                      rimanenti)
                     </button>
                   )}
                 </div>
@@ -246,10 +272,10 @@ export function ResultsSection({
             </EmptyState>
           )}
           <p className="data-note">
-            <span>ⓘ</span> Verifica sempre lo stato corrente
-            dell’accreditamento presso l’ente nazionale competente. I dati
-            provengono da fonti dichiarate, ma non costituiscono una verifica
-            indipendente dell’accreditamento corrente.
+            <span>ⓘ</span> Verifica sempre lo stato corrente dell’accreditamento
+            presso l’ente nazionale competente. I dati provengono da fonti
+            dichiarate, ma non costituiscono una verifica indipendente
+            dell’accreditamento corrente.
           </p>
         </>
       ) : (
@@ -273,10 +299,41 @@ export function ResultsSection({
 
 type RecognitionFilter = "all" | "EA" | "IAF";
 
-function expiryLabel(body: Body) {
-  const expiry = formatDate(
-    body.expiryDate,
+/** What matched on a product certification card: the schemes, then the first scope line. */
+function ProductMatchSummary({
+  match,
+  directory,
+}: {
+  match: NonNullable<Body["product"]>;
+  /** Full list: the lines are the whole scope, not search matches. */
+  directory: boolean;
+}) {
+  const first = match.lines[0] ? productLineText(match.lines[0]) : null;
+  const detail =
+    first && (first.product ?? first.documents ?? first.schemeNote);
+  return (
+    <>
+      <div className="scope-subtitle">
+        {match.schemes.length ? (
+          <>Schema: {match.schemes.join(", ")}</>
+        ) : (
+          <>Scopo accreditato: {first?.title}</>
+        )}
+      </div>
+      {detail && <div className="product-line">{detail}</div>}
+      {match.matchCount > 1 && (
+        <div className="provenance-label">
+          {directory
+            ? `${match.matchCount} voci nello scopo`
+            : `${match.matchCount} voci dello scopo corrispondono`}
+        </div>
+      )}
+    </>
   );
+}
+
+function expiryLabel(body: Body) {
+  const expiry = formatDate(body.expiryDate);
   return expiry ? `Scadenza ${expiry}` : "Scadenza non disponibile";
 }
 

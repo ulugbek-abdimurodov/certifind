@@ -1,8 +1,31 @@
 "use client";
 
-import { useId, useState, type FormEvent, type KeyboardEvent } from "react";
+import {
+  useId,
+  useState,
+  type FormEvent,
+  type KeyboardEvent,
+  type ReactNode,
+} from "react";
 import { compareStandards, demoPresets, standardOptionLabel } from "../app/search-data";
-import type { SearchOptions, SearchPreset } from "../app/search-types";
+import type {
+  Activity,
+  SearchOptions,
+  SearchPreset,
+} from "../app/search-types";
+
+const activities: { id: Activity; label: string; subtitle: string }[] = [
+  {
+    id: "management",
+    label: "Sistemi di gestione",
+    subtitle: "Inserisci lo standard e l’attività della tua azienda.",
+  },
+  {
+    id: "product",
+    label: "Prodotti e processi",
+    subtitle: "Cerca per schema o norma, per settore oppure per prodotto.",
+  },
+];
 
 type SearchFormProps = {
   iso: string;
@@ -16,6 +39,10 @@ type SearchFormProps = {
   options: SearchOptions;
   /** Shown above the fields while standards and sectors cannot be loaded. */
   optionsError?: string;
+  activity: Activity;
+  onActivityChange: (activity: Activity) => void;
+  /** The product certification form, shown instead of the fields below on its tab. */
+  children: ReactNode;
 };
 
 export function SearchForm({
@@ -29,6 +56,9 @@ export function SearchForm({
   onShowAllCompanies,
   options,
   optionsError,
+  activity,
+  onActivityChange,
+  children,
 }: SearchFormProps) {
   const presets = recentSearches.length ? recentSearches : demoPresets;
   const [sectorFocused, setSectorFocused] = useState(false);
@@ -82,9 +112,30 @@ export function SearchForm({
         INIZIA LA RICERCA <span>01 / 03</span>
       </div>
       <h2>Di cosa hai bisogno?</h2>
+      <div
+        className="activity-tabs"
+        role="group"
+        aria-label="Tipo di certificazione"
+      >
+        {activities.map(({ id, label }) => (
+          <button
+            key={id}
+            type="button"
+            className={activity === id ? "active" : ""}
+            aria-pressed={activity === id}
+            onClick={() => onActivityChange(id)}
+          >
+            {label}
+          </button>
+        ))}
+      </div>
       <p className="card-subtitle">
-        Inserisci lo standard e l’attività della tua azienda.
+        {activities.find(({ id }) => id === activity)?.subtitle}
       </p>
+      {activity === "product" ? (
+        children
+      ) : (
+      <>
       <div className="demo-presets">
         <div className="demo-presets-label">
           {recentSearches.length ? "RICERCHE RECENTI" : "SCENARIO DEMO RAPIDO"}
@@ -214,6 +265,8 @@ export function SearchForm({
       >
         Vedi tutte le aziende <span>→</span>
       </button>
+      </>
+      )}
     </div>
   );
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { Fragment, useRef, useState } from "react";
 
 /** Cards rendered per page; the rest appear on "Mostra altri". */
 const PAGE_SIZE = 50;
@@ -209,9 +209,9 @@ export function ResultsSection({
                         <div className="result-meta">
                           <span>{countryLabel(body.country)}</span>
                           {body.accreditationBodyCodes.map((code) => (
-                            <span key={code} style={{ display: "contents" }}>
+                            <Fragment key={code}>
                               <i /> <RecognitionLabels abCode={code} /> <span>{code}</span>
-                            </span>
+                            </Fragment>
                           ))}
                           <i /> <span>{expiryLabel(body)}</span>
                         </div>

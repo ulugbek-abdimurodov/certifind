@@ -1,7 +1,6 @@
 package com.certifind;
 
 import java.util.List;
-import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -12,7 +11,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.certifind.domain.SectorKeyword;
 import com.certifind.dto.CertificationBodyCardDto;
 import com.certifind.dto.SearchRequest;
 import com.certifind.dto.SearchResponse;

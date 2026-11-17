@@ -61,7 +61,7 @@ class ProductSearchTests {
     void findsByScheme() {
         // MIXED_BODY's IFS Food line is withdrawn.
         assertEquals(List.of(FOOD_BODY), names(new SearchRequest("ifs food", null, null)));
-        BodyCard card = productSearch.search(new SearchRequest("IFS", null, null)).results().get(0);
+        BodyCard card = ours(new SearchRequest("IFS", null, null)).get(0);
         assertEquals(List.of("IFS Food"), card.schemes());
         assertEquals(1, card.matchCount());
         assertEquals("DPA", card.accreditationBodyCode());
@@ -113,7 +113,7 @@ class ProductSearchTests {
     @Test
     @DisplayName("The drawer endpoint returns a body's active lines only")
     void listsBodyScopes() {
-        int bodyId = productSearch.search(new SearchRequest(null, null, "compostable")).results().get(0).id();
+        int bodyId = ours(new SearchRequest(null, null, "compostable")).get(0).id();
         assertEquals(List.of(1), productSearch.findScopes(bodyId).stream().map(l -> l.lineNo()).toList());
     }
 
@@ -136,7 +136,13 @@ class ProductSearchTests {
     }
 
     private List<String> names(SearchRequest request) {
-        return productSearch.search(request).results().stream().map(BodyCard::name).toList();
+        return ours(request).stream().map(BodyCard::name).toList();
+    }
+
+    /** Only the test bodies: the database may also hold real imported bodies that match. */
+    private List<BodyCard> ours(SearchRequest request) {
+        return productSearch.search(request).results().stream()
+                .filter(card -> COUNTRY.equals(card.country())).toList();
     }
 
     private static Dataset dataset(List<Dataset.ProductScope> lines) {

@@ -68,8 +68,11 @@ public class ProductSearchService {
                 "SELECT code, name_it FROM industries ORDER BY sort_order",
                 (rs, n) -> new IndustryOption(rs.getString(1), rs.getString(2)));
         Map<String, List<String>> bySchemes = new LinkedHashMap<>();
+        // Only schemes that at least one valid scope line names, so no option leads to zero results.
         jdbc.query("SELECT s.code, si.industry_code FROM schemes s "
                         + "LEFT JOIN scheme_industries si ON si.scheme_code = s.code "
+                        + "WHERE EXISTS (SELECT 1 FROM (" + LINE_COLUMNS + ") l WHERE l.scheme_code = s.code "
+                        + "OR concat_ws(' ', l.scheme_text, l.normative_docs, l.standard_refs) ILIKE '%' || s.code || '%') "
                         + "ORDER BY lower(s.code), si.industry_code",
                 rs -> {
                     List<String> codes = bySchemes.computeIfAbsent(rs.getString(1), code -> new ArrayList<>());

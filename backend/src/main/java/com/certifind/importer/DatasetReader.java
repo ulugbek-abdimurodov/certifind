@@ -291,7 +291,7 @@ public final class DatasetReader {
         CSVFormat format = CSVFormat.DEFAULT.builder().setHeader().setSkipHeaderRecord(true)
                 .setIgnoreEmptyLines(true).build();
         try (Reader reader = new StringReader(text); CSVParser parser = format.parse(reader)) {
-            List<String> header = parser.getHeaderNames().stream().map(String::strip).toList();
+            List<String> header = parser.getHeaderNames().stream().map(name -> name.strip()).toList();
             if (!header.equals(columns)) {
                 error(dir, file, 1, "header must be exactly: " + String.join(",", columns));
                 return rows;

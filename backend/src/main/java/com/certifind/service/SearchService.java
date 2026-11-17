@@ -18,7 +18,6 @@ import com.certifind.domain.AccreditationBody;
 import com.certifind.domain.AccreditedScope;
 import com.certifind.domain.CertificationBody;
 import com.certifind.domain.EaSector;
-import com.certifind.domain.SectorKeyword;
 import com.certifind.dto.AccreditationScopeDto;
 import com.certifind.dto.CertificationBodyCardDto;
 import com.certifind.dto.SearchOptionsResponse;

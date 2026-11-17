@@ -77,7 +77,7 @@ public interface SectorKeywordRepository extends JpaRepository<SectorKeyword, In
      */
     record KeywordMatch(Integer eaCode, Set<Integer> ambiguousCodes) {
         static KeywordMatch of(List<SectorKeyword> keywords) {
-            Set<Integer> codes = keywords.stream().map(SectorKeyword::getEaCode)
+            Set<Integer> codes = keywords.stream().map(keyword -> keyword.getEaCode())
                     .collect(Collectors.toCollection(TreeSet::new));
             if (codes.isEmpty()) return null;
             return codes.size() == 1 ? new KeywordMatch(codes.iterator().next(), Set.of())

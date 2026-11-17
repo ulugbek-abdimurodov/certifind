@@ -6,6 +6,7 @@ import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ProblemDetail;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.HttpMessageNotReadableException;
+import org.springframework.lang.NonNull;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -31,8 +32,8 @@ public class ApiExceptionHandler extends ResponseEntityExceptionHandler {
     /** Malformed or missing JSON body: same shape, with an Italian detail instead of Spring's English one. */
     @Override
     protected ResponseEntity<Object> handleHttpMessageNotReadable(
-            HttpMessageNotReadableException exception, HttpHeaders headers,
-            HttpStatusCode status, WebRequest request) {
+            @NonNull HttpMessageNotReadableException exception, @NonNull HttpHeaders headers,
+            @NonNull HttpStatusCode status, @NonNull WebRequest request) {
         ProblemDetail problem = ProblemDetail.forStatusAndDetail(HttpStatus.BAD_REQUEST,
                 "Il corpo della richiesta non è un JSON valido.");
         problem.setTitle("Richiesta non valida");

@@ -49,7 +49,7 @@ class ProductSearchTests {
                         "IFS Food Version 8", null, null, "ACTIVE"),
                 line("T-PRD-1", 2, "BRCGS Packaging Materials", null, null, null, "BRC Packaging", null, null,
                         "ACTIVE"),
-                line("T-PRD-2", 1, null, "packaging", "Kompostierbare Verpackungen", "Compostable packaging",
+                line("T-PRD-2", 1, null, "rubber_plastics", "Kompostierbare Verpackungen", "Compostable packaging",
                         null, "DIN EN 13432:2000-12", "EN 13432", "ACTIVE"),
                 line("T-PRD-2", 2, "IFS Food", null, null, null, "IFS Food", null, null, "WITHDRAWN")));
         assertTrue(importer.validate(dataset).isEmpty(), () -> importer.validate(dataset).toString());
@@ -78,9 +78,9 @@ class ProductSearchTests {
     @DisplayName("An industry matches a line's own industry and its scheme's industries")
     void findsByIndustry() {
         // FOOD_BODY through BRCGS Packaging Materials, MIXED_BODY through the line's own industry.
-        assertEquals(List.of(FOOD_BODY, MIXED_BODY), names(new SearchRequest(null, "packaging", null)));
+        assertEquals(List.of(FOOD_BODY, MIXED_BODY), names(new SearchRequest(null, "rubber_plastics", null)));
         assertEquals(List.of(FOOD_BODY), names(new SearchRequest(null, "food", null)));
-        assertEquals(List.of(), names(new SearchRequest("IFS Food", "packaging", null)));
+        assertEquals(List.of(), names(new SearchRequest("IFS Food", "rubber_plastics", null)));
     }
 
     @Test

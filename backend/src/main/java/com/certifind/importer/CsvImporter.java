@@ -241,7 +241,7 @@ public class CsvImporter {
                 if (current == null) {
                     String[] key = w.getKey().split("\\|");
                     inserts.add(new Object[] {accreditationId, standards.get(entry.getKey()), key[0],
-                            Integer.parseInt(key[1]), state.status(), state.note()});
+                            Integer.valueOf(key[1]), state.status(), state.note()});
                     report.add("scopes", INSERTED);
                 } else if (!state.status().equals(current[1]) || !Objects.equals(state.note(), current[2])) {
                     updates.add(new Object[] {state.status(), state.note(), current[0]});

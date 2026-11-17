@@ -1,0 +1,106 @@
+certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_text,normative_docs,standard_refs,status
+1 ОСП,1,,construction,Concrete,,,,,ACTIVE
+1 ОСП,2,,energy,"Mineral oils, heavy fuel oils, gas oil",,Petroleum products,,,ACTIVE
+1 ОСП,3,,rubber_plastics,Water supply,,Plastic piping systems for,,,ACTIVE
+1 ОСП,4,,rubber_plastics,Gas supply made of polyethylene PE,,Plastic piping systems for,,,ACTIVE
+1 ОСП,5,,rubber_plastics,Electrical installations,,Plastic piping systems for,,,ACTIVE
+1 ОСП,6,,rubber_plastics,Drainage and sewerage,,Plastic piping systems for,,,ACTIVE
+1 ОСП,7,,rubber_plastics,Elastomeric seals,,Plastic piping systems for,,,ACTIVE
+1 ОСП,8,,other_manufacturing,Waste and recycling materials mobile containers for container lifters with a neck and/or teeth,,Plastic piping systems for,,,ACTIVE
+2 ОСП,1,EU Organic Regulation (EU) 2018/848,,"Unprocessed plants and plant products, including seeds and other plant reproductive material",,Organic production and organic products according to Regulation (EU) No 2018/848,,,ACTIVE
+2 ОСП,2,EU Organic Regulation (EU) 2018/848,,Livestock and unprocessed livestock products*,,Organic production and organic products according to Regulation (EU) No 2018/848,,,ACTIVE
+2 ОСП,3,EU Organic Regulation (EU) 2018/848,,"Processed agricultural products, including aquaculture products, used for food",,Organic production and organic products according to Regulation (EU) No 2018/848,,,ACTIVE
+2 ОСП,4,EU Organic Regulation (EU) 2018/848,,Feed,,Organic production and organic products according to Regulation (EU) No 2018/848,,,ACTIVE
+2 ОСП,5,EU Organic Regulation (EU) 2018/848,,Wine,,Organic production and organic products according to Regulation (EU) No 2018/848,,,ACTIVE
+2 ОСП,6,EU Organic Regulation (EU) 2018/848,,Other products listed in annex I to Regulation 2018/848 or not covered by the above categories,,Organic production and organic products according to Regulation (EU) No 2018/848,,,ACTIVE
+3 ОСП,1,EU Organic Regulation (EU) 2018/848,,"Unprocessed plants and plant products, including seeds and other plant reproductive material",,Organic production and products in accordance with REGULATION (EU) 2018/848,,,ACTIVE
+3 ОСП,2,EU Organic Regulation (EU) 2018/848,,Livestock and unprocessed livestock products,,Organic production and products in accordance with REGULATION (EU) 2018/848,,,ACTIVE
+3 ОСП,3,EU Organic Regulation (EU) 2018/848,,"Processed agricultural products, including aquaculture products, for use as food",,Organic production and products in accordance with REGULATION (EU) 2018/848,,,ACTIVE
+3 ОСП,4,EU Organic Regulation (EU) 2018/848,,Feed,,Organic production and products in accordance with REGULATION (EU) 2018/848,,,ACTIVE
+3 ОСП,5,EU Organic Regulation (EU) 2018/848,,"Other products listed in Annex I of REGULATION (EU) 2018/848 or not covered by the categories specified above- Yeasts used as food or feed, sweetcorn, vine leaves, hop shoots, and other similar edible parts of plants and products produced therefrom, beeswax; essential oils; plant-based traditional herbal preparations",,Organic production and products in accordance with REGULATION (EU) 2018/848,,,ACTIVE
+4 ОСП,1,,,Safes,,,,,ACTIVE
+4 ОСП,2,,,Treasury premises,,,,,ACTIVE
+4 ОСП,3,,construction,Treasury doors,,,,,ACTIVE
+4 ОСП,4,,,Deposit systems,,,,,ACTIVE
+4 ОСП,5,,construction,"Doors, windows, shutters and grilles (blinds)",,,,,ACTIVE
+4 ОСП,6,,construction,Protective glasses,,,,,ACTIVE
+5 ОСП,1,EU Organic Regulation (EU) 2018/848,,"Council Regulation (EC) No 834/2007 of 28 June 2007 on organic production and labeling of organic products and amending Regulation (EEC) No 2092/91, Official Journal of the European Union, L 189, 20 July 2007",,Organic production and products according to,,,ACTIVE
+5 ОСП,2,EU Organic Regulation (EU) 2018/848,,"Comission Regulation (EC) No 889/2008 of 5 September 2008 laying down detailed rules for the implementation of Council Regulation (EC) No 834/2007 on organic production and labeling of organic products with regard to organic production, labeling and control, Official Journal of the European Union, L 250, 18 Sept, 2008",,Organic production and products according to,,,ACTIVE
+5 ОСП,3,EU Organic Regulation (EU) 2018/848,,Regulation (EU) 2018/848 of the European Parliament and of the Council of 30 May 2018 on organic production and labelling of organic products and repealing Council Regulation (EC) No 834/2007,,Organic production and products according to,,,ACTIVE
+7 ОСП,1,,rubber_plastics,"Plastic piping systems for water supply, drainage, and sewerage",,,,,ACTIVE
+7 ОСП,2,,,Vitrified clay piping systems,,,,,ACTIVE
+7 ОСП,3,,,Piping systems made of ductile iron,,,,,ACTIVE
+8 ОСП,1,,,"- products in the voluntary (unregulated) area, described in Order № A 407/17.12.2025, section A",,To carry out certification of,,,ACTIVE
+8 ОСП,2,Construction Products Regulation (EU) 305/2011,,"- construction products in the regulated area, for compliance with the requirements of Regulation (EU) 305/2011, described in Order No. A 407/17.12.2025, section B",,To carry out certification of,,,ACTIVE
+9 ОСП,1,,,"European rail system, ‘Infrastructure’ Subsystem",,,,,ACTIVE
+9 ОСП,2,,,"National rail system, ‘Infrastructure’ Subsystem",,,,,ACTIVE
+9 ОСП,3,,energy,"European rail system, ‘Energy’ Subsystem",,,,,ACTIVE
+9 ОСП,4,,energy,"National rail system, ‘Energy’ Subsystem",,,,,ACTIVE
+9 ОСП,5,,,"European rail system, ‘Control-Command and Signalling’ Subsystem",,,,,ACTIVE
+9 ОСП,6,,,"National rail system, ‘Control-Command and Signalling’ Subsystem",,,,,ACTIVE
+9 ОСП,7,,transport_equipment,Assessment of railway products for ‘Safety Integrity Level’ (SIL),,,,,ACTIVE
+10 ОСП,1,EU Organic Regulation (EU) 2018/848,,"Unprocessed plants and plant products, including seeds and other plant reproductive material",,"Organic production and products, according to the Regulation (EU) 2018/848",,,ACTIVE
+10 ОСП,2,EU Organic Regulation (EU) 2018/848,,Livestock and unprocessed livestock products,,"Organic production and products, according to the Regulation (EU) 2018/848",,,ACTIVE
+10 ОСП,3,EU Organic Regulation (EU) 2018/848,,"Processed agricultural products, including aquaculture products, for use as food",,"Organic production and products, according to the Regulation (EU) 2018/848",,,ACTIVE
+10 ОСП,4,EU Organic Regulation (EU) 2018/848,,Feed,,"Organic production and products, according to the Regulation (EU) 2018/848",,,ACTIVE
+10 ОСП,5,EU Organic Regulation (EU) 2018/848,,Wine,,"Organic production and products, according to the Regulation (EU) 2018/848",,,ACTIVE
+10 ОСП,6,EU Organic Regulation (EU) 2018/848,,"Other products listed in Annex I to the Regulation (EU) 2018/848 or not covered by the previous categories – essential oils, beeswax, plant-based traditional herbal preparations",,"Organic production and products, according to the Regulation (EU) 2018/848",,,ACTIVE
+11 ОСП,1,EU Organic Regulation (EU) 2018/848,,"Unprocessed plants and plant products, including seeds and other plant reproductive material",,Organic production and products according to Council Regulation (EU) 2018/848,,,ACTIVE
+11 ОСП,2,EU Organic Regulation (EU) 2018/848,,Livestock and unprocessed livestock products,,Organic production and products according to Council Regulation (EU) 2018/848,,,ACTIVE
+11 ОСП,3,EU Organic Regulation (EU) 2018/848,,"Processed agricultural products, including aquaculture products, for use as food",,Organic production and products according to Council Regulation (EU) 2018/848,,,ACTIVE
+11 ОСП,4,EU Organic Regulation (EU) 2018/848,,Feed,,Organic production and products according to Council Regulation (EU) 2018/848,,,ACTIVE
+11 ОСП,5,EU Organic Regulation (EU) 2018/848,,Wine,,Organic production and products according to Council Regulation (EU) 2018/848,,,ACTIVE
+11 ОСП,6,EU Organic Regulation (EU) 2018/848,,"Other products listed in Annex 1 to this Regulation or not covered by the previous categories - Yeasts used as food or feed, beeswax, essential oils, plant-based traditional",,Organic production and products according to Council Regulation (EU) 2018/848,,,ACTIVE
+11 ОСП,7,EU Organic Regulation (EU) 2018/848,,herbal preparations,,Organic production and products according to Council Regulation (EU) 2018/848,,,ACTIVE
+12 ОСП,1,Construction Products Regulation (EU) 305/2011,,"- construction products in the regulated area for compliance with the requirements of Regulation (EU) № 305/2011, described in Order № A 213/07.07.2026, section B",,,,,ACTIVE
+13 ОСП,1,EU Organic Regulation (EU) 2018/848,,"Council Regulation (EC) No 834/2007 of 28 June 2007 on organic production and labeling of organic products and amending Regulation (EEC) No 2092/91, Official Journal of the European Union, L 189, 20 July 2007",,Organic production and products according to,,,ACTIVE
+13 ОСП,2,EU Organic Regulation (EU) 2018/848,,"Comission Regulation (EC) No 889/2008 of 5 September 2008 laying down detailed rules for the implementation of Council Regulation (EC) No 834/2007 on organic production and labeling of organic products with regard to organic production, labeling and control, Official Journal of the European Union, L 250, 18 Sept, 2008",,Organic production and products according to,,,ACTIVE
+13 ОСП,3,EU Organic Regulation (EU) 2018/848,,Regulation (EU) 2018/848 of the European Parliament and of the Council of 30 May 2018 on organic production and labelling of organic products and repealing Council Regulation (EC) No 834/2007,,Organic production and products according to,,,ACTIVE
+13 ОСП,4,EU Organic Regulation (EU) 2018/848,,"Regulation (EC) No 1235/2008 of the Commission dated 8th of Dec., 2008 laying down detailed rules for implementation of Council Regulation (EC) No 834/2007 as regards the arrangements for imports of organic products from third countries",,Organic production and products according to,,,ACTIVE
+14 ОСП,1,,,Certification of products in compliance with,,,,,ACTIVE
+14 ОСП,2,EU Organic Regulation (EU) 2018/848,,"Unprocessed plants and plant products, including seeds and other plant reproductive material",,I. Biological production and products according to Regulation (EU) No 2018/848,,,ACTIVE
+14 ОСП,3,EU Organic Regulation (EU) 2018/848,,Domestic animals and unprocessed animal products,,I. Biological production and products according to Regulation (EU) No 2018/848,,,ACTIVE
+14 ОСП,4,EU Organic Regulation (EU) 2018/848,,"Processed agricultural products, including aquaculture products used for foodstuff",,I. Biological production and products according to Regulation (EU) No 2018/848,,,ACTIVE
+14 ОСП,5,EU Organic Regulation (EU) 2018/848,,Fodder,,I. Biological production and products according to Regulation (EU) No 2018/848,,,ACTIVE
+14 ОСП,6,EU Organic Regulation (EU) 2018/848,,Wine,,I. Biological production and products according to Regulation (EU) No 2018/848,,,ACTIVE
+14 ОСП,7,EU Organic Regulation (EU) 2018/848,,"Other- Yeasts, used for feed or fodder, mate, sweet corn, vine leaves, heart of palm tree, hop shoots and other similar parts of plants or products fit for consumption, bee’s wax, essential oils, traditional plant-based herbal products",,I. Biological production and products according to Regulation (EU) No 2018/848,,,ACTIVE
+14 ОСП,8,EU Geographical Indications (DOP/IGP/STG),,Group 1.1. Fresh meat (and inwards),,"II. Protected geographical indication (PGI), Protected designation of origin (PDO), Traditional speciality guaranteed (TSG) according Regulation (EC) No.1151/2012",,,ACTIVE
+14 ОСП,9,EU Geographical Indications (DOP/IGP/STG),,Group 1.2. Meat products,,"II. Protected geographical indication (PGI), Protected designation of origin (PDO), Traditional speciality guaranteed (TSG) according Regulation (EC) No.1151/2012",,,ACTIVE
+14 ОСП,10,EU Geographical Indications (DOP/IGP/STG),,Group 1.3. Cheese,,"II. Protected geographical indication (PGI), Protected designation of origin (PDO), Traditional speciality guaranteed (TSG) according Regulation (EC) No.1151/2012",,,ACTIVE
+14 ОСП,11,EU Geographical Indications (DOP/IGP/STG),,"Group 1.4. Other animal products (eggs, honey, different types of milk products except butter and others)",,"II. Protected geographical indication (PGI), Protected designation of origin (PDO), Traditional speciality guaranteed (TSG) according Regulation (EC) No.1151/2012",,,ACTIVE
+14 ОСП,12,EU Geographical Indications (DOP/IGP/STG),,Group 2.10. Essential oils,,"II. Protected geographical indication (PGI), Protected designation of origin (PDO), Traditional speciality guaranteed (TSG) according Regulation (EC) No.1151/2012",,,ACTIVE
+15 ОСП,1,EU Organic Regulation (EU) 2018/848,,"Unprocessed plants and plant products, including seeds and other plant reproductive material",,Biological production and products according to Regulation (EU) No 2018/848,,,ACTIVE
+15 ОСП,2,EU Organic Regulation (EU) 2018/848,,Livestock and unprocessed livestock products,,Biological production and products according to Regulation (EU) No 2018/848,,,ACTIVE
+15 ОСП,3,EU Organic Regulation (EU) 2018/848,,"Processed agricultural products, including aquaculture products, for use as food",,Biological production and products according to Regulation (EU) No 2018/848,,,ACTIVE
+15 ОСП,4,EU Organic Regulation (EU) 2018/848,,Feed,,Biological production and products according to Regulation (EU) No 2018/848,,,ACTIVE
+15 ОСП,5,EU Organic Regulation (EU) 2018/848,,Wine,,Biological production and products according to Regulation (EU) No 2018/848,,,ACTIVE
+15 ОСП,6,EU Organic Regulation (EU) 2018/848,,"Other products listed in Annex I to Regulation (EU) 2018/848 or not covered by previous categories: Yeasts used as food or fееd, beeswax, essential oils, plant-based traditional",,Biological production and products according to Regulation (EU) No 2018/848,,,ACTIVE
+15 ОСП,7,EU Organic Regulation (EU) 2018/848,,herbal preparations,,Biological production and products according to Regulation (EU) No 2018/848,,,ACTIVE
+16 ОСП,1,EU Organic Regulation (EU) 2018/848,,"Unprocessed plants and plant products, including seeds and other plant reproductive material",,I. Organic production and labelling of organic products according to Regulation (EU) 2018/848,,,ACTIVE
+16 ОСП,2,EU Organic Regulation (EU) 2018/848,,Domestic animals and unprocessed animal products,,I. Organic production and labelling of organic products according to Regulation (EU) 2018/848,,,ACTIVE
+16 ОСП,3,EU Organic Regulation (EU) 2018/848,,Processed agricultural products intended for food,,I. Organic production and labelling of organic products according to Regulation (EU) 2018/848,,,ACTIVE
+16 ОСП,4,EU Organic Regulation (EU) 2018/848,,Fodder,,I. Organic production and labelling of organic products according to Regulation (EU) 2018/848,,,ACTIVE
+16 ОСП,5,EU Organic Regulation (EU) 2018/848,,Wines,,I. Organic production and labelling of organic products according to Regulation (EU) 2018/848,,,ACTIVE
+16 ОСП,6,EU Organic Regulation (EU) 2018/848,,"Other products listed in Annex I to this regulation or not covered by the categories mentioned above - yeast used for food or feed, beeswax, essential oils",,I. Organic production and labelling of organic products according to Regulation (EU) 2018/848,,,ACTIVE
+16 ОСП,7,EU Organic Regulation (EU) 2018/848,,II. Protected Geographical Indications (PGIs); Protected Designations of Origin (PDO); Foods with a traditionally specific character (TSH) according to Regulation (EU) No. 1151/2012,,I. Organic production and labelling of organic products according to Regulation (EU) 2018/848,,,ACTIVE
+16 ОСП,8,EU Organic Regulation (EU) 2018/848,,Fresh meat (and offal),,I. Organic production and labelling of organic products according to Regulation (EU) 2018/848,,,ACTIVE
+16 ОСП,9,EU Organic Regulation (EU) 2018/848,,Meat products,,I. Organic production and labelling of organic products according to Regulation (EU) 2018/848,,,ACTIVE
+16 ОСП,10,EU Organic Regulation (EU) 2018/848,,Other products of animal origin (except butter),,I. Organic production and labelling of organic products according to Regulation (EU) 2018/848,,,ACTIVE
+16 ОСП,11,EU Organic Regulation (EU) 2018/848,,Cheese,,I. Organic production and labelling of organic products according to Regulation (EU) 2018/848,,,ACTIVE
+16 ОСП,12,EU Organic Regulation (EU) 2018/848,,Essential oils,,I. Organic production and labelling of organic products according to Regulation (EU) 2018/848,,,ACTIVE
+20 ОСП,1,,metals,Quality in welding by melting metal materials,,,,,ACTIVE
+21 ОСП,1,,metals,Quality in fusion welding of metallic materials,,,,,ACTIVE
+21 ОСП,2,,transport_equipment,Welding of railway vehicles and their parts,,,,,ACTIVE
+22 ОСП,1,,wood_paper,Горски и дървесни продукти,,,,,ACTIVE
+22 ОСП,2,PEFC Chain of Custody,,Продукт/материал: Горски и/или дървесни продукти/материали в обхвата на PEFC CoC (както е приложимо).Граници: Сертификация на верига за проследимост (проследимост/масов баланс/декларации) съгласно правилата на схемата,,,,,ACTIVE
+22 ОСП,3,,wood_paper,"Продукт/материал: Лигноцелулозна биомаса за енергийни цели – горска биомаса и земеделска/друга не-горска лигноцелулозна биомаса, включително фракции, остатъци, отпадъци и производни по веригата на доставка. Граници: Оценяване на съответствието на икономически оператори по веригата на доставка за устойчивост, проследимост, масов баланс и доказателства/декларации за устойчивост съгласно правилата на сертификационна схема MG RED III",,,,,ACTIVE
+23 ОСП,1,,metals,Quality in performance of fusion welding of metallic materials,,,,,ACTIVE
+23 ОСП,2,,metals,Welding procedures,,,,,ACTIVE
+25 ОСП,1,EU Organic Regulation (EU) 2018/848,,Regulation (EU) 2018/848 of the European Parliament and of the Council of 30 May 2018 on organic production and labelling of organic products and repealing council Regulation (EC) No. 834/2007,,,,,ACTIVE
+26 ОСП,1,EU Organic Regulation (EU) 2018/848,,"Непреработени растения и растителни продукти, включително семена и друг растителен",,"Биологично производство и продукти, съгласно Регламент (ЕС) 2018/848",,,ACTIVE
+26 ОСП,2,EU Organic Regulation (EU) 2018/848,,репродуктивен материал,,"Биологично производство и продукти, съгласно Регламент (ЕС) 2018/848",,,ACTIVE
+26 ОСП,3,EU Organic Regulation (EU) 2018/848,,Домашни животни и непреработени животновъдни продукти,,"Биологично производство и продукти, съгласно Регламент (ЕС) 2018/848",,,ACTIVE
+26 ОСП,4,EU Organic Regulation (EU) 2018/848,,"Преработени селскостопански продукти, включително аквакултурни продукти, предназначени за ядене",,"Биологично производство и продукти, съгласно Регламент (ЕС) 2018/848",,,ACTIVE
+26 ОСП,5,EU Organic Regulation (EU) 2018/848,,Фуражи,,"Биологично производство и продукти, съгласно Регламент (ЕС) 2018/848",,,ACTIVE
+26 ОСП,6,EU Organic Regulation (EU) 2018/848,,"-пчелен восък, етерични масла, традиционни билкови продукти на растителна основа",,"Други продукти, изброени в Приложение 1 на Регламент (ЕС) 2018/848",,,ACTIVE
+27 ОСП,1,,,Качество при заваряване чрез стопяване на метални материали,,,,,ACTIVE

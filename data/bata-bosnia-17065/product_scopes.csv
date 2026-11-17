@@ -1,0 +1,16 @@
+certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_text,normative_docs,standard_refs,status
+CP-04-02,1,,construction,Cement,,Product certification (construction products),,,ACTIVE
+CP-04-02,2,,construction,Fraction stone aggregate for concrete and asphalt,,Product certification (construction products),,,ACTIVE
+CP-135-01,1,,construction,Structural bearings,,Construction products,,,ACTIVE
+CP-135-01,2,,construction,Aggregate for concrete production,,Construction products,,,ACTIVE
+CP-135-01,3,,construction,Concrete,,Construction products,,,ACTIVE
+CP-135-01,4,,construction,Bituminous mixtures,,Construction products,,,ACTIVE
+CP-171-02,1,,construction,Concrete aggregate,,Product certification,,,ACTIVE
+CP-171-02,2,,construction,Fly ash for concrete,,Product certification,,,ACTIVE
+CP-171-02,3,,construction,Bituminous mixtures,,Product certification,,,ACTIVE
+CP-35-02,1,,construction,Self-supporting insulating sandwich panels,,Product certification,,,SUSPENDED
+CP-45-02,1,,agriculture,Planting materials,,Product certification,,,ACTIVE
+CP-45-02,2,,agriculture,Fruits,,Product certification,,,ACTIVE
+CP-45-02,3,,agriculture,Vegetables,,Product certification,,,ACTIVE
+CP-67-02,1,,agriculture,"Seeds (cereals, industrial plants - soy)",,Certification of products,,,ACTIVE
+CP-67-02,2,,agriculture,"Planting material (vegetables, ornamental plants)",,Certification of products,,,ACTIVE

@@ -111,7 +111,10 @@ export function ProductSearchForm({
         accreditamento e in inglese: per il prodotto prova anche il termine
         inglese.
       </p>
-      <button className="search-button" type="submit" disabled={loading || empty}>
+      <button className="search-button" type="submit" disabled={loading || empty}
+        aria-busy={loading}
+        title={empty && !loading ? "Compila almeno un campo per cercare" : undefined}
+      >
         {loading ? (
           "Ricerca in corso…"
         ) : (

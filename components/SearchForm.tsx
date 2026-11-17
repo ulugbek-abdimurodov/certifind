@@ -247,7 +247,7 @@ export function SearchForm({
             </div>
           )}
         </div>
-        <button className="search-button" type="submit" disabled={loading}>
+        <button className="search-button" type="submit" disabled={loading} aria-busy={loading}>
           {loading ? (
             "Ricerca in corso…"
           ) : (

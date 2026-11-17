@@ -318,6 +318,10 @@ a {
   transform: translateY(-1px);
 }
 .search-button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.search-button[aria-busy="true"] {
   opacity: 0.75;
   cursor: wait;
 }

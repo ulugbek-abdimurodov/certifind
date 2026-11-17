@@ -392,17 +392,44 @@ function ProductScope({
   managementStandards: string[];
 }) {
   const [showAll, setShowAll] = useState(false);
-  const all = lines?.length ? lines : matched;
-  const shown = showAll ? all : all.slice(0, PRODUCT_LINES_SHOWN);
+  const [selectedTitle, setSelectedTitle] = useState<string | null>(null);
+  const all = (lines?.length ? lines : matched).map(productLineText);
+  // One pill per scheme (or annex heading), in scope order.
+  const titles = [...new Set(all.map((text) => text.title))];
+  const activeTitle =
+    selectedTitle !== null && titles.includes(selectedTitle) ? selectedTitle : null;
+  const filtered =
+    activeTitle === null ? all : all.filter((text) => text.title === activeTitle);
+  const shown = showAll ? filtered : filtered.slice(0, PRODUCT_LINES_SHOWN);
   const groups = new Map<string, ReturnType<typeof productLineText>[]>();
-  for (const line of shown) {
-    const text = productLineText(line);
+  for (const text of shown) {
     const group = groups.get(text.title);
     if (group) group.push(text);
     else groups.set(text.title, [text]);
   }
   return (
     <>
+      {titles.length > 1 && (
+        <div className="standard-filter">
+          <button
+            type="button"
+            onClick={() => setSelectedTitle(null)}
+            className={activeTitle === null ? "active" : ""}
+          >
+            Tutti
+          </button>
+          {titles.map((title) => (
+            <button
+              key={title}
+              type="button"
+              onClick={() => setSelectedTitle(title)}
+              className={activeTitle === title ? "active" : ""}
+            >
+              {title}
+            </button>
+          ))}
+        </div>
+      )}
       <div className="scope-highlight">
         {[...groups].map(([title, texts]) => (
           <div key={title}>
@@ -418,9 +445,9 @@ function ProductScope({
         ))}
         {lines === null && <p>Caricamento del campo di applicazione…</p>}
       </div>
-      {all.length > shown.length && (
+      {filtered.length > shown.length && (
         <button className="filter-pill product-more" type="button" onClick={() => setShowAll(true)}>
-          Mostra tutte le {all.length} voci
+          Mostra tutte le {filtered.length} voci
         </button>
       )}
       {managementStandards.length > 0 && (

@@ -1,0 +1,24 @@
+certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_text,normative_docs,standard_refs,status
+GAC-PRC-0020,1,,food,"მინერალური, ნატურალური მინერალური და წყაროს წყლები","Waters: mineral, natural, spring",,,,ACTIVE
+GAC-PRC-0020,2,,food,სასმელი წყლები,Drinking water,,,,ACTIVE
+GAC-PRC-0020,3,,food,უალკოჰოლო სასმელები,Non-alcoholic beverages,,,,ACTIVE
+GAC-PRC-0019,1,,food,ალკოჰოლური და უალკოჰოლო სასმელები,Alcoholic and non-alcoholic beverages,,,,ACTIVE
+GAC-PRC-0019,2,,food,"ჩაი, თაფლი, დაფნა,აჯიკა","Tea, honey, Laurel, Adjika",,,,ACTIVE
+GAC-PRC-0019,3,,food,"ხილი, ბოსტნეული და მათი ნაწარმი","Fruits, vegetables and their products",,,,ACTIVE
+GAC-PRC-0021,1,,energy,Hydro-technical part of power plants – technical report on the technical condition of the means of production,,,,,ACTIVE
+GAC-PRC-0021,2,,energy,Thermal technical part of power plants – technical report on the technical condition of the means of production,,,,,ACTIVE
+GAC-PRC-0021,3,,energy,"Assessment of the technical condition of electricity generation, transmission, distribution and consumption equipment and facilities",,,,,ACTIVE
+GAC-PRC-0011,1,,construction,"non-mineral, paving and road materials: sand for construction works; Grit and gravel from dense mountain rocks for construction work",,,,,ACTIVE
+GAC-PRC-0011,2,,construction,Concrete products: stones concrete wall,,,,,ACTIVE
+GAC-PRC-0011,3,,construction,"Concrete, concrete heavy and fine-grained",,,,,ACTIVE
+GAC-PRC-0011,4,,construction,Asphalt concrete mix for roads and airfields and asphalt concrete,,,,,ACTIVE
+GAC-PRC-0011,5,,metals,"Joist from ferrous metal; Hot-rolled steel for reinforcement of reinforced concrete structures, thermally reinforced reinforcement for steel and reinforced concrete structures",,,,,ACTIVE
+GAC-PRC-0011,6,,construction,"Reinforced concrete structures and details, concrete and reinforced concrete products for construction work",,,,,ACTIVE
+GAC-PRC-0011,7,,construction,Cement; Portland Cement and Slab Portland Cement,,,,,ACTIVE
+GAC-PRC-0022,1,,food,Egg,,,,,ACTIVE
+GAC-PRC-0022,2,,food,Packed black and green tea,,,,,ACTIVE
+GAC-PRC-0022,3,,food,"Flour confectionery, cake",,,,,ACTIVE
+GAC-PRC-0022,4,,other_manufacturing,Tobacco and its products: cigarettes,,,,,ACTIVE
+GAC-PRC-0022,5,,food,Fruit and vegetable processing products and their preserves,,,,,ACTIVE
+GAC-PRC-0022,6,,food,Grain processing products (flour),,,,,ACTIVE
+GAC-PRC-0022,7,,food,"Low-alcoholic and non-alcoholic beverages: beer, bottled drinking water, natural - mineral, tap water",,,,,ACTIVE

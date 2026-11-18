@@ -219,13 +219,6 @@ AB-0106-YS,ISO 14001,3;9;12;14;17-19;29-35;37,ACTIVE,
 AB-0106-YS,ISO 9001,1;3-7;9;12;14;17-19;29-37,ACTIVE,
 AB-0106-YS (22000),FSSC 22000,1;3;7;12-15;17;29;31,ACTIVE,"ISO 22003-1 categories B, C, D, F, G, I, K (classified to EA by sector)"
 AB-0106-YS (22000),ISO 22000,1;3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, D, E, F, G, I, K (classified to EA by sector)"
-AB-0108-YS,ISO 14001,1;3-4;6;8-9;12;14-19;22-37;39,ACTIVE,
-AB-0108-YS,ISO 45001,3-4;6;12;14-15;18-19;22-37;39,ACTIVE,
-AB-0108-YS,ISO 9001,1;3-9;12;14-19;22-25;27-37;39,ACTIVE,
-AB-0108-YS (22000),ISO 22000,3;29-31,ACTIVE,"ISO 22003-1 categories C, D, E, F, G (classified to EA by sector)"
-AB-0108-YS (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
-AB-0108-YS (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
-AB-0108-YS (50003),ISO 50001,3-10;12-28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, H (classified to EA by sector)"
 AB-0110-YS,ISO 9001,14;17-19;23;28-29;31;33-34;37,ACTIVE,
 AB-0111-YS,ISO 14001,1;3-4;6-9;12;14-19;22-37;39,ACTIVE,
 AB-0111-YS,ISO 22301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors

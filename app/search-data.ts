@@ -19,30 +19,116 @@ export const stages = [
 
 /** ISO 3166-1 alpha-2 code for each English country name stored in the database. */
 const countryCodes: Record<string, string> = {
-  Albania: "AL", Algeria: "DZ", Australia: "AU", Austria: "AT", Azerbaijan: "AZ",
-  Bahrain: "BH", Belgium: "BE", Bhutan: "BT", Bolivia: "BO",
-  "Bosnia and Herzegovina": "BA", Botswana: "BW", Brazil: "BR", Bulgaria: "BG",
-  Canada: "CA", Chile: "CL", China: "CN", Colombia: "CO", "Costa Rica": "CR",
-  Croatia: "HR", Cyprus: "CY", Czechia: "CZ", "Côte d’Ivoire": "CI", Denmark: "DK",
-  "Dominican Republic": "DO", Ecuador: "EC", Egypt: "EG", "El Salvador": "SV",
-  Estonia: "EE", Eswatini: "SZ", Ethiopia: "ET", Finland: "FI", France: "FR",
-  Germany: "DE", Ghana: "GH", Greece: "GR", "Hong Kong": "HK", Hungary: "HU",
-  India: "IN", Iraq: "IQ", Ireland: "IE", Israel: "IL", Italy: "IT", Jamaica: "JM",
-  Japan: "JP", Jordan: "JO", Kazakhstan: "KZ", Kenya: "KE", Kyrgyzstan: "KG",
-  Latvia: "LV", Lebanon: "LB", Libya: "LY", Liechtenstein: "LI", Lithuania: "LT",
-  Luxembourg: "LU", Malawi: "MW", Malaysia: "MY", Malta: "MT", Mauritius: "MU",
-  Mexico: "MX", Moldova: "MD", Mongolia: "MN", Morocco: "MA", Namibia: "NA",
-  Nepal: "NP", Netherlands: "NL", "New Zealand": "NZ", Nigeria: "NG",
-  "North Macedonia": "MK", Norway: "NO", Oman: "OM", Pakistan: "PK", Peru: "PE",
-  Philippines: "PH", Poland: "PL", Portugal: "PT", Qatar: "QA", Romania: "RO",
-  Russia: "RU", Rwanda: "RW", "San Marino": "SM", "Saudi Arabia": "SA",
-  Serbia: "RS", Singapore: "SG", Slovakia: "SK", Slovenia: "SI",
-  "South Africa": "ZA", "South Korea": "KR", Spain: "ES", "Sri Lanka": "LK",
-  Sudan: "SD", Sweden: "SE", Switzerland: "CH", Taiwan: "TW", Tanzania: "TZ",
-  Thailand: "TH", Tunisia: "TN", Turkey: "TR", Turkmenistan: "TM", Uganda: "UG",
-  Ukraine: "UA", "United Arab Emirates": "AE", "United Kingdom": "GB",
-  "United States": "US", Uruguay: "UY", Uzbekistan: "UZ", Venezuela: "VE",
-  Vietnam: "VN", Zambia: "ZM", Zimbabwe: "ZW",
+  Albania: "AL",
+  Algeria: "DZ",
+  Australia: "AU",
+  Austria: "AT",
+  Azerbaijan: "AZ",
+  Bahrain: "BH",
+  Belgium: "BE",
+  Bhutan: "BT",
+  Bolivia: "BO",
+  "Bosnia and Herzegovina": "BA",
+  Botswana: "BW",
+  Brazil: "BR",
+  Bulgaria: "BG",
+  Canada: "CA",
+  Chile: "CL",
+  China: "CN",
+  Colombia: "CO",
+  "Costa Rica": "CR",
+  Croatia: "HR",
+  Cyprus: "CY",
+  Czechia: "CZ",
+  "Côte d’Ivoire": "CI",
+  Denmark: "DK",
+  "Dominican Republic": "DO",
+  Ecuador: "EC",
+  Egypt: "EG",
+  "El Salvador": "SV",
+  Estonia: "EE",
+  Eswatini: "SZ",
+  Ethiopia: "ET",
+  Finland: "FI",
+  France: "FR",
+  Georgia: "GE",
+  Germany: "DE",
+  Ghana: "GH",
+  Greece: "GR",
+  "Hong Kong": "HK",
+  Hungary: "HU",
+  India: "IN",
+  Iraq: "IQ",
+  Ireland: "IE",
+  Israel: "IL",
+  Italy: "IT",
+  Jamaica: "JM",
+  Japan: "JP",
+  Jordan: "JO",
+  Kazakhstan: "KZ",
+  Kenya: "KE",
+  Kyrgyzstan: "KG",
+  Latvia: "LV",
+  Lebanon: "LB",
+  Libya: "LY",
+  Liechtenstein: "LI",
+  Lithuania: "LT",
+  Luxembourg: "LU",
+  Malawi: "MW",
+  Malaysia: "MY",
+  Malta: "MT",
+  Mauritius: "MU",
+  Mexico: "MX",
+  Moldova: "MD",
+  Mongolia: "MN",
+  Morocco: "MA",
+  Namibia: "NA",
+  Nepal: "NP",
+  Netherlands: "NL",
+  "New Zealand": "NZ",
+  Nigeria: "NG",
+  "North Macedonia": "MK",
+  Norway: "NO",
+  Oman: "OM",
+  Pakistan: "PK",
+  Peru: "PE",
+  Philippines: "PH",
+  Poland: "PL",
+  Portugal: "PT",
+  Qatar: "QA",
+  Romania: "RO",
+  Russia: "RU",
+  Rwanda: "RW",
+  "San Marino": "SM",
+  "Saudi Arabia": "SA",
+  Serbia: "RS",
+  Singapore: "SG",
+  Slovakia: "SK",
+  Slovenia: "SI",
+  "South Africa": "ZA",
+  "South Korea": "KR",
+  Spain: "ES",
+  "Sri Lanka": "LK",
+  Sudan: "SD",
+  Sweden: "SE",
+  Switzerland: "CH",
+  Taiwan: "TW",
+  Tanzania: "TZ",
+  Thailand: "TH",
+  Tunisia: "TN",
+  Turkey: "TR",
+  Turkmenistan: "TM",
+  Uganda: "UG",
+  Ukraine: "UA",
+  "United Arab Emirates": "AE",
+  "United Kingdom": "GB",
+  "United States": "US",
+  Uruguay: "UY",
+  Uzbekistan: "UZ",
+  Venezuela: "VE",
+  Vietnam: "VN",
+  Zambia: "ZM",
+  Zimbabwe: "ZW",
 };
 
 const italianRegionNames = new Intl.DisplayNames(["it"], { type: "region" });
@@ -67,48 +153,90 @@ export const countryCodeFor = (country: string) =>
 /** Edition and Italian title per standard code, as in "ISO 9001:2015 Sistemi di gestione per la qualità – Requisiti". */
 const standardTitles: Record<string, string> = {
   "ISO 9001": "ISO 9001:2015 Sistemi di gestione per la qualità – Requisiti",
-  "ISO 14001": "ISO 14001:2015 Sistemi di gestione ambientale – Requisiti e guida per l’uso",
-  "ISO 45001": "ISO 45001:2018 Sistemi di gestione per la salute e sicurezza sul lavoro – Requisiti e guida per l’uso",
-  "AS 9100": "AS 9100:2016 Sistemi di gestione per la qualità – Requisiti per le organizzazioni dell’aeronautica, dello spazio e della difesa",
-  "ISO 22000": "ISO 22000:2018 Sistemi di gestione per la sicurezza alimentare – Requisiti per qualsiasi organizzazione nella filiera alimentare",
-  "FSSC 22000": "FSSC 22000 v6 Schema di certificazione per sistemi di sicurezza alimentare",
-  "ISO 50001": "ISO 50001:2018 Sistemi di gestione dell’energia – Requisiti e linee guida per l’uso",
-  "ISO 22301": "ISO 22301:2019 Sicurezza e resilienza – Sistemi di gestione per la continuità operativa – Requisiti",
-  "ISO 37001": "ISO 37001:2025 Sistemi di gestione per la prevenzione della corruzione – Requisiti con guida per l’utilizzo",
-  "ISO 37301": "ISO 37301:2021 Sistemi di gestione della compliance – Requisiti con guida per l’utilizzo",
-  "ISO 13485": "ISO 13485:2016 Dispositivi medici – Sistemi di gestione per la qualità – Requisiti per scopi regolamentari",
-  "ISO 39001": "ISO 39001:2012 Sistemi di gestione per la sicurezza del traffico stradale – Requisiti e guida per l’uso",
-  "ISO 41001": "ISO 41001:2018 Facility management – Sistemi di gestione – Requisiti con guida per l’utilizzo",
-  "ISO 21001": "ISO 21001:2018 Organizzazioni di istruzione e formazione – Sistemi di gestione – Requisiti con guida per l’utilizzo",
-  "ISO 29993": "ISO 29993:2017 Servizi di apprendimento al di fuori dell’istruzione formale – Requisiti del servizio",
-  "ISO 55001": "ISO 55001:2024 Asset management – Sistemi di gestione dell’asset – Requisiti",
-  "ISO 20121": "ISO 20121:2024 Sistemi di gestione sostenibile degli eventi – Requisiti con guida per l’utilizzo",
-  "ISO 28000": "ISO 28000:2022 Sicurezza e resilienza – Sistemi di gestione per la sicurezza – Requisiti",
-  "ISO 46001": "ISO 46001:2019 Sistemi di gestione dell’efficienza idrica – Requisiti con guida per l’utilizzo",
-  "ISO 18295": "ISO 18295-1:2017 Centri di contatto con la clientela – Requisiti per i centri di contatto",
-  "ISO 15378": "ISO 15378:2017 Materiali d’imballaggio primario per medicinali – Requisiti particolari per l’applicazione della ISO 9001",
-  "ISO 18788": "ISO 18788:2015 Sistema di gestione per le operazioni di sicurezza privata – Requisiti con guida per l’uso",
-  "ISO 19443": "ISO 19443:2018 Sistemi di gestione per la qualità – Requisiti specifici per l’applicazione della ISO 9001 da parte delle organizzazioni della catena di fornitura del settore nucleare",
-  "ISO 21401": "ISO 21401:2018 Turismo e servizi correlati – Sistema di gestione della sostenibilità per le strutture ricettive – Requisiti",
-  "ISO 22716": "ISO 22716:2007 Cosmetici – Pratiche di buona fabbricazione – Linee guida sulle pratiche di buona fabbricazione",
-  "ISO 28001": "ISO 28001:2007 Sistemi di gestione per la sicurezza della catena di approvvigionamento – Migliori pratiche per l’attuazione della sicurezza della catena di approvvigionamento, valutazioni e piani",
-  "ISO 29001": "ISO 29001:2020 Sistemi di gestione per la qualità – Requisiti specifici per le organizzazioni della catena di fornitura del petrolio, della petrolchimica e del gas naturale",
-  "ISO 29994": "ISO 29994:2021 Istruzione e formazione – Servizi di apprendimento al di fuori dell’istruzione formale – Requisiti per i servizi",
-  "ISO 44001": "ISO 44001:2017 Sistemi di gestione delle relazioni d’affari collaborative – Requisiti e quadro di riferimento",
-  "ISO 30301": "ISO 30301:2019 Informazione e documentazione – Sistemi di gestione dei documenti – Requisiti",
-  "ISO 30401": "ISO 30401:2018 Sistemi di gestione della conoscenza – Requisiti",
-  "ISO 37101": "ISO 37101:2016 Sviluppo sostenibile delle comunità – Sistema di gestione per lo sviluppo sostenibile – Requisiti con guida per l’uso",
-  "ISO 3834": "ISO 3834:2021 Requisiti di qualità per la saldatura per fusione dei materiali metallici",
-  "ISO 56001": "ISO 56001:2024 Gestione dell’innovazione – Sistema di gestione dell’innovazione – Requisiti",
-  "ISO 7101": "ISO 7101:2023 Organizzazioni sanitarie – Sistemi di gestione per la qualità – Requisiti",
-  "EN 15224": "EN 15224:2016 Sistemi di gestione per la qualità – EN ISO 9001:2015 per l’assistenza sanitaria",
-  "OHSAS 18001": "OHSAS 18001:2007 Sistemi di gestione della salute e sicurezza sul lavoro – Requisiti",
-  "ISO/IEC 27001": "ISO/IEC 27001:2022 Sicurezza delle informazioni, cybersecurity e protezione della privacy – Sistemi di gestione per la sicurezza delle informazioni – Requisiti",
-  "ISO/IEC 27701": "ISO/IEC 27701:2025 Sicurezza delle informazioni, cybersecurity e protezione della privacy – Sistemi di gestione delle informazioni privacy – Requisiti e linee guida",
-  "ISO/IEC 27017": "ISO/IEC 27017:2015 Tecniche di sicurezza – Codice di condotta per i controlli di sicurezza delle informazioni basati su ISO/IEC 27002 per i servizi cloud",
-  "ISO/IEC 27018": "ISO/IEC 27018:2019 Tecniche di sicurezza – Codice di condotta per la protezione dei dati personali (PII) nei cloud pubblici che agiscono come responsabili del trattamento",
-  "ISO/IEC 20000-1": "ISO/IEC 20000-1:2018 Tecnologie informatiche – Gestione dei servizi – Parte 1: Requisiti per un sistema di gestione dei servizi",
-  "ISO/IEC 42001": "ISO/IEC 42001:2023 Tecnologie informatiche – Intelligenza artificiale – Sistema di gestione",
+  "ISO 14001":
+    "ISO 14001:2015 Sistemi di gestione ambientale – Requisiti e guida per l’uso",
+  "ISO 45001":
+    "ISO 45001:2018 Sistemi di gestione per la salute e sicurezza sul lavoro – Requisiti e guida per l’uso",
+  "AS 9100":
+    "AS 9100:2016 Sistemi di gestione per la qualità – Requisiti per le organizzazioni dell’aeronautica, dello spazio e della difesa",
+  "ISO 22000":
+    "ISO 22000:2018 Sistemi di gestione per la sicurezza alimentare – Requisiti per qualsiasi organizzazione nella filiera alimentare",
+  "FSSC 22000":
+    "FSSC 22000 v6 Schema di certificazione per sistemi di sicurezza alimentare",
+  "ISO 50001":
+    "ISO 50001:2018 Sistemi di gestione dell’energia – Requisiti e linee guida per l’uso",
+  "ISO 22301":
+    "ISO 22301:2019 Sicurezza e resilienza – Sistemi di gestione per la continuità operativa – Requisiti",
+  "ISO 37001":
+    "ISO 37001:2025 Sistemi di gestione per la prevenzione della corruzione – Requisiti con guida per l’utilizzo",
+  "ISO 37301":
+    "ISO 37301:2021 Sistemi di gestione della compliance – Requisiti con guida per l’utilizzo",
+  "ISO 13485":
+    "ISO 13485:2016 Dispositivi medici – Sistemi di gestione per la qualità – Requisiti per scopi regolamentari",
+  "ISO 39001":
+    "ISO 39001:2012 Sistemi di gestione per la sicurezza del traffico stradale – Requisiti e guida per l’uso",
+  "ISO 41001":
+    "ISO 41001:2018 Facility management – Sistemi di gestione – Requisiti con guida per l’utilizzo",
+  "ISO 21001":
+    "ISO 21001:2018 Organizzazioni di istruzione e formazione – Sistemi di gestione – Requisiti con guida per l’utilizzo",
+  "ISO 29993":
+    "ISO 29993:2017 Servizi di apprendimento al di fuori dell’istruzione formale – Requisiti del servizio",
+  "ISO 55001":
+    "ISO 55001:2024 Asset management – Sistemi di gestione dell’asset – Requisiti",
+  "ISO 20121":
+    "ISO 20121:2024 Sistemi di gestione sostenibile degli eventi – Requisiti con guida per l’utilizzo",
+  "ISO 28000":
+    "ISO 28000:2022 Sicurezza e resilienza – Sistemi di gestione per la sicurezza – Requisiti",
+  "ISO 46001":
+    "ISO 46001:2019 Sistemi di gestione dell’efficienza idrica – Requisiti con guida per l’utilizzo",
+  "ISO 18295":
+    "ISO 18295-1:2017 Centri di contatto con la clientela – Requisiti per i centri di contatto",
+  "ISO 15378":
+    "ISO 15378:2017 Materiali d’imballaggio primario per medicinali – Requisiti particolari per l’applicazione della ISO 9001",
+  "ISO 18788":
+    "ISO 18788:2015 Sistema di gestione per le operazioni di sicurezza privata – Requisiti con guida per l’uso",
+  "ISO 19443":
+    "ISO 19443:2018 Sistemi di gestione per la qualità – Requisiti specifici per l’applicazione della ISO 9001 da parte delle organizzazioni della catena di fornitura del settore nucleare",
+  "ISO 21401":
+    "ISO 21401:2018 Turismo e servizi correlati – Sistema di gestione della sostenibilità per le strutture ricettive – Requisiti",
+  "ISO 22716":
+    "ISO 22716:2007 Cosmetici – Pratiche di buona fabbricazione – Linee guida sulle pratiche di buona fabbricazione",
+  "ISO 28001":
+    "ISO 28001:2007 Sistemi di gestione per la sicurezza della catena di approvvigionamento – Migliori pratiche per l’attuazione della sicurezza della catena di approvvigionamento, valutazioni e piani",
+  "ISO 29001":
+    "ISO 29001:2020 Sistemi di gestione per la qualità – Requisiti specifici per le organizzazioni della catena di fornitura del petrolio, della petrolchimica e del gas naturale",
+  "ISO 29994":
+    "ISO 29994:2021 Istruzione e formazione – Servizi di apprendimento al di fuori dell’istruzione formale – Requisiti per i servizi",
+  "ISO 44001":
+    "ISO 44001:2017 Sistemi di gestione delle relazioni d’affari collaborative – Requisiti e quadro di riferimento",
+  "ISO 30301":
+    "ISO 30301:2019 Informazione e documentazione – Sistemi di gestione dei documenti – Requisiti",
+  "ISO 30401":
+    "ISO 30401:2018 Sistemi di gestione della conoscenza – Requisiti",
+  "ISO 37101":
+    "ISO 37101:2016 Sviluppo sostenibile delle comunità – Sistema di gestione per lo sviluppo sostenibile – Requisiti con guida per l’uso",
+  "ISO 3834":
+    "ISO 3834:2021 Requisiti di qualità per la saldatura per fusione dei materiali metallici",
+  "ISO 56001":
+    "ISO 56001:2024 Gestione dell’innovazione – Sistema di gestione dell’innovazione – Requisiti",
+  "ISO 7101":
+    "ISO 7101:2023 Organizzazioni sanitarie – Sistemi di gestione per la qualità – Requisiti",
+  "EN 15224":
+    "EN 15224:2016 Sistemi di gestione per la qualità – EN ISO 9001:2015 per l’assistenza sanitaria",
+  "OHSAS 18001":
+    "OHSAS 18001:2007 Sistemi di gestione della salute e sicurezza sul lavoro – Requisiti",
+  "ISO/IEC 27001":
+    "ISO/IEC 27001:2022 Sicurezza delle informazioni, cybersecurity e protezione della privacy – Sistemi di gestione per la sicurezza delle informazioni – Requisiti",
+  "ISO/IEC 27701":
+    "ISO/IEC 27701:2025 Sicurezza delle informazioni, cybersecurity e protezione della privacy – Sistemi di gestione delle informazioni privacy – Requisiti e linee guida",
+  "ISO/IEC 27017":
+    "ISO/IEC 27017:2015 Tecniche di sicurezza – Codice di condotta per i controlli di sicurezza delle informazioni basati su ISO/IEC 27002 per i servizi cloud",
+  "ISO/IEC 27018":
+    "ISO/IEC 27018:2019 Tecniche di sicurezza – Codice di condotta per la protezione dei dati personali (PII) nei cloud pubblici che agiscono come responsabili del trattamento",
+  "ISO/IEC 20000-1":
+    "ISO/IEC 20000-1:2018 Tecnologie informatiche – Gestione dei servizi – Parte 1: Requisiti per un sistema di gestione dei servizi",
+  "ISO/IEC 42001":
+    "ISO/IEC 42001:2023 Tecnologie informatiche – Intelligenza artificiale – Sistema di gestione",
 };
 
 /** Full Italian label for a standard code; unknown codes are shown as-is. */
@@ -151,9 +279,7 @@ export const compareStandards = (a: string, b: string) => {
 
 /** Distinct ISO standards of a body's scopes, by number: "ISO 9001, ISO 14001". */
 export const standardsLabel = (standards: string[]) =>
-  [...new Set(standards.map(shortStandard))]
-    .sort(compareStandards)
-    .join(", ");
+  [...new Set(standards.map(shortStandard))].sort(compareStandards).join(", ");
 
 /** Italian date, "31/12/2027"; null when unknown. */
 export const formatDate = (date: string | null) =>
@@ -255,7 +381,8 @@ type RecognitionLabel = "EA" | "IAF";
 
 const EA_ONLY_ABS = new Set([
   "HAA", // Croatia
-  "BATA", "IABIH", // Bosnia and Herzegovina
+  "BATA",
+  "IABIH", // Bosnia and Herzegovina
   "DAK", // Kosovo
   "ATCG", // Montenegro
   "EAK", // Estonia
@@ -263,16 +390,52 @@ const EA_ONLY_ABS = new Set([
 ]);
 
 const EA_AND_IAF_ABS = new Set([
-  "AA", "ACCREDIA", "ATS", "BAS", "BELAC", "CAI", "COFRAC", "DAkkS", "DANAK", "DPA",
-  "ENAC", "ESYD", "FINAS", "IARM", "INAB", "IPAC", "LASA", "LATAK", "MOLDAC", "NA",
-  "NAAU", "NAH", "OLAS", "PCA", "RENAR", "RvA", "SA", "SAS", "SNAS", "SWEDAC", "UKAS",
+  "AA",
+  "ACCREDIA",
+  "ATS",
+  "BAS",
+  "BELAC",
+  "CAI",
+  "COFRAC",
+  "DAkkS",
+  "DANAK",
+  "DPA",
+  "ENAC",
+  "ESYD",
+  "FINAS",
+  "IARM",
+  "INAB",
+  "IPAC",
+  "LASA",
+  "LATAK",
+  "MOLDAC",
+  "NA",
+  "NAAU",
+  "NAH",
+  "OLAS",
+  "PCA",
+  "RENAR",
+  "RvA",
+  "SA",
+  "SAS",
+  "SNAS",
+  "SWEDAC",
+  "UKAS",
   "NAB-MALTA",
   "ALGERAC", // Algeria
   "EGAC", // Egypt
   "TURKAK", // Türkiye
-  "CYS-CYSAB", "CYSAB", // Cyprus
-  "AZAK", "ARMNAB", "GAC-GE", "GCA", // Azerbaijan, Armenia, Georgia
+  "CYS-CYSAB",
+  "CYSAB", // Cyprus
+  "AZAK",
+  "ARMNAB",
+  "GAC-GE",
+  "GCA", // Azerbaijan, Armenia, Georgia
 ]);
 
 export const recognitionLabels = (abCode: string): RecognitionLabel[] =>
-  EA_ONLY_ABS.has(abCode) ? ["EA"] : EA_AND_IAF_ABS.has(abCode) ? ["EA", "IAF"] : ["IAF"];
+  EA_ONLY_ABS.has(abCode)
+    ? ["EA"]
+    : EA_AND_IAF_ABS.has(abCode)
+      ? ["EA", "IAF"]
+      : ["IAF"];

@@ -1,0 +1,30 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+SAS,SCESp 0006,bio.inspecta AG,ISO/IEC 17065,ACTIVE,2024-10-25,2029-10-24,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0006-de.pdf
+SAS,SCESp 0086,BIO TEST AGRO AG,ISO/IEC 17065,ACTIVE,2023-09-04,2028-09-03,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0086-de.pdf
+SAS,SCESp 0129,CertX SA,ISO/IEC 17065,ACTIVE,2025-02-24,2030-02-23,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0129-de.pdf
+SAS,SCESp 0125,COSC Contrôle Officiel Suisse des Chronomètres,ISO/IEC 17065,ACTIVE,2026-07-01,2031-06-30,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0125-fr.pdf
+SAS,SCESp 0113,Dynamic Test Center AG,ISO/IEC 17065,ACTIVE,2023-07-16,2028-07-15,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0113-de.pdf
+SAS,SCESp 0004,Ecocert Swiss AG,ISO/IEC 17065,ACTIVE,2022-12-22,2027-12-21,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0004-de.pdf
+SAS,SCESp 0121,Eidgenössisches Institut für Metrologie METAS,ISO/IEC 17065,ACTIVE,2025-07-08,2030-07-07,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0121-de.pdf
+SAS,SCESp 0033,Eidgenössisches Starkstrominspektorat ESTI,ISO/IEC 17065,ACTIVE,2026-08-22,2031-08-21,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0033-de.pdf
+SAS,SCESp 0022,Empa,ISO/IEC 17065,ACTIVE,2025-09-02,2030-09-01,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0022-de.pdf
+SAS,SCESp 0035,Eurofins Electric & Electronic Product Testing AG,ISO/IEC 17065,ACTIVE,2026-09-24,2031-09-23,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0035-de.pdf
+SAS,SCESp 0120,International Certification Bio Suisse AG,ISO/IEC 17065,ACTIVE,2025-05-22,2030-05-21,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0120-de.pdf
+SAS,SCESp 0127,KPMG AG,ISO/IEC 17065,ACTIVE,2022-01-22,2027-01-21,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0127-de.pdf
+SAS,SCESp 0054,OIC - Organisme Intercantonal de Certification Sàrl,ISO/IEC 17065,ACTIVE,2024-11-15,2029-11-14,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0054-fr.pdf
+SAS,SCESp 0038,ProCert AG,ISO/IEC 17065,ACTIVE,2022-05-03,2027-05-02,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0038-de.pdf
+SAS,SCESp 0104,Pronovo AG,ISO/IEC 17065,ACTIVE,2022-11-27,2027-11-26,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0104-de.pdf
+SAS,SCESp 0107,q.inspecta GmbH,ISO/IEC 17065,ACTIVE,2023-06-13,2028-06-12,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0107-de.pdf
+SAS,SCESp 0094,S-Cert AG,ISO/IEC 17065,ACTIVE,2025-09-08,2030-09-07,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0094-de.pdf
+SAS,SCESp 0093,Schweizerischer Überwachungsverband für Gesteinsbaustoffe (SÜGB),ISO/IEC 17065,ACTIVE,2025-02-11,2030-02-10,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0093-de.pdf
+SAS,SCESp 0123,Schweizerischer Verein für Schweisstechnik SVS,ISO/IEC 17065,ACTIVE,2025-08-20,2030-08-19,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0123-de.pdf
+SAS,SCESp 0049,Schweizerische Vereinigung für Qualitäts- und Managementsysteme (SQS),ISO/IEC 17065,ACTIVE,2023-07-07,2028-07-06,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0049-de.pdf
+SAS,SCESp 0101,SCONRAIL AG,ISO/IEC 17065,ACTIVE,2022-08-27,2027-08-26,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0101-de.pdf
+SAS,SCESp 0092,SGS Société Générale de Surveillance SA,ISO/IEC 17065,ACTIVE,2024-12-02,2029-12-01,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0092-de.pdf
+SAS,SCESp 0124,SIPIZ AG,ISO/IEC 17065,ACTIVE,2025-09-12,2030-09-11,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0124-de.pdf
+SAS,SCESp 0008,Suva,ISO/IEC 17065,ACTIVE,2023-06-02,2028-06-01,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0008-de.pdf
+SAS,SCESp 0028,"SVGW Fachverband für Wasser, Gas und Wärme",ISO/IEC 17065,ACTIVE,2026-05-03,2031-05-02,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0028-de.pdf
+SAS,SCESp 0063,Swiss Safety Center AG,ISO/IEC 17065,ACTIVE,2026-03-12,2031-03-11,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0063-de.pdf
+SAS,SCESp 0119,TIMELAB Fondation du laboratoire d'horlogerie et de microtechnique de Genève,ISO/IEC 17065,ACTIVE,2025-01-23,2030-01-22,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0119-fr.pdf
+SAS,SCESp 0132,tytec AG,ISO/IEC 17065,ACTIVE,2023-05-18,2028-05-17,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0132-de.pdf
+SAS,SCESp 0046,Zertifizierungsstelle SIBE Schweiz,ISO/IEC 17065,ACTIVE,2023-01-16,2028-01-15,https://sas.seco.amboss.liip.cloud/media/pdf/SCESp-0046-de.pdf

@@ -1,0 +1,735 @@
+certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_text,normative_docs,standard_refs,status
+OCP LATU,1,,other_manufacturing,"Seguridad, Juguetes",,,,,ACTIVE
+OCP LATU,2,,other_manufacturing,"Normas de la serie o familia NM300:2002,",,,,,ACTIVE
+OCP LATU,3,,other_manufacturing,Partes 1 a 6,,,,,ACTIVE
+OCP LATU,4,,professional,Se exceptúa del alcance de la acreditación la Sistema 4 basado en la Resolución GMC,,,,,ACTIVE
+OCP LATU,5,,other_manufacturing,certificación de los siguientes juguetes: N°19/92 Decreto 388/2005 del 7/10/2005 y,,,,,ACTIVE
+OCP LATU,6,,other_manufacturing,Seguridad de Juguetes,,,,,ACTIVE
+OCP LATU,7,,other_manufacturing,aquellos productos no considerados juguetes modificativos.,,,,,ACTIVE
+OCP LATU,8,,other_manufacturing,en el Anexo II del Decreto N°388/2005 del Resolución MIEM S/n de fecha 31/10/2017.,,,,,ACTIVE
+OCP LATU,9,,other_manufacturing,7/1/2005 y cofres de juguetes y juguetes,,,,,ACTIVE
+OCP LATU,10,,other_manufacturing,con fulminantes.,,,,,ACTIVE
+OCP LATU,11,,other_manufacturing,Seguridad vial,,,,,ACTIVE
+OCP LATU,12,,transport_equipment,Cascos protectores para,,,,,ACTIVE
+OCP LATU,13,,transport_equipment,"usuarios de vehículos Decreto 81/014 – Anexos I, X, XI y",,,,,ACTIVE
+OCP LATU,14,,other_manufacturing,Decreto 265/009 modificado por Decreto 81/014,,,,,ACTIVE
+OCP LATU,15,,other_manufacturing,"ciclomotores, motos, motonetas XII",,,,,ACTIVE
+OCP LATU,16,,transport_equipment,o similares y bicicletas.,,,,,ACTIVE
+OCP LATU,17,,energy,Etiquetado de Eficiencia Energética,,,,,ACTIVE
+OCP LATU,18,,energy,Calentadores eléctricos de,,,,,ACTIVE
+OCP LATU,19,,other_manufacturing,UNIT 1157:2011 Decreto 429/009 y Decreto 430/009,,,,,ACTIVE
+OCP LATU,20,,other_manufacturing,agua de acumulación,,,,,ACTIVE
+OCP LATU,21,,transport_equipment,Vehículos automotores Decreto 429/009 Resolución MIEM S/N de,,,,,ACTIVE
+OCP LATU,22,,other_manufacturing,UNIT 1130:2020,,,,,ACTIVE
+OCP LATU,23,,other_manufacturing,categorías M1 y N1 fecha 17/03/2023,,,,,ACTIVE
+OCP LATU,24,,electrical,"Seguridad, Equipamiento Eléctrico de Baja Tensión",,,,,ACTIVE
+OCP LATU,25,,other_manufacturing,Reglamento de Seguridad de Productos,,,,,ACTIVE
+OCP LATU,26,,electrical,UNIT-NM 60335-1:2010 Eléctricos de Baja Tensión aprobado por la,,,,,ACTIVE
+OCP LATU,27,,energy,Calentadores de agua de,,,,,ACTIVE
+OCP LATU,28,,other_manufacturing,Resolución de la URSEA Nº 078/024 Título,,,,,ACTIVE
+OCP LATU,29,,other_manufacturing,acumulación,,,,,ACTIVE
+OCP LATU,30,,electrical,"UNIT-IEC 60335-2-21:2012 III. Artículo 14 ítems a), b) y c) de fecha",,,,IEC 60335-2-21,ACTIVE
+OCP LATU,31,,other_manufacturing,06/02/24.,,,,,ACTIVE
+OCP LATU,32,,other_manufacturing,Bolsas plásticas,,,,,ACTIVE
+OCP LATU,33,,other_manufacturing,Normas establecidas en,,,,,ACTIVE
+OCP LATU,34,,other_manufacturing,“Procedimiento para solicitar la,,,,,ACTIVE
+OCP LATU,35,,other_manufacturing,Bolsas Plásticas evaluación de bolsas plásticas Decreto 3/019 y 109/021.,,,,,ACTIVE
+OCP LATU,36,,other_manufacturing,según decreto 03/019 de LATU.”,,,,,ACTIVE
+OCP LATU,37,,other_manufacturing,10/08/2020,,,,,ACTIVE
+OCP LSQA,1,,wood_paper,Document: Certification Scheme / Standard / CPCC (v5); Principles and,,,,,ACTIVE
+OCP LSQA,2,,other_manufacturing,General Regulations Criteria (v6),,,,,ACTIVE
+OCP LSQA,3,GLOBALG.A.P. IFA,,GLOBALG.A.P. Integrated Farm,,,,,ACTIVE
+OCP LSQA,4,GLOBALG.A.P. IFA,,GLOBALG.A.P. General Regulations IFA GFS Principles and Criteria Fruit and,,,,,ACTIVE
+OCP LSQA,5,,wood_paper,Assurance (IFA) v6,,,,,ACTIVE
+OCP LSQA,6,,wood_paper,Version 6 Vegetables,,,,,ACTIVE
+OCP LSQA,7,,agriculture,GFS Standard Scope: Plants,,,,,ACTIVE
+OCP LSQA,8,,food,IFA Smart Principles and Criteria Fruit and,,,,,ACTIVE
+OCP LSQA,9,GLOBALG.A.P. IFA,,"GLOBALG.A.P. General Regulations Vegetables,",,,,,ACTIVE
+OCP LSQA,10,,wood_paper,Assurance (IFA) v6 Smart Standard,,,,,ACTIVE
+OCP LSQA,11,,wood_paper,Version 6 IFA Smart Principles and Criteria Flowers,,,,,ACTIVE
+OCP LSQA,12,,agriculture,Scope: Plants,,,,,ACTIVE
+OCP LSQA,13,,other_manufacturing,"and Ornamentals,",,,,,ACTIVE
+OCP LSQA,14,GLOBALG.A.P. IFA,,GLOBALG.A.P. Integrated Farm GLOBALG.A.P. General Regulations,,,,,ACTIVE
+OCP LSQA,15,,wood_paper,"IFA Smart Principles and Criteria – Finfish,",,,,,ACTIVE
+OCP LSQA,16,,wood_paper,Assurance (IFA) v6 Smart Standard Version 6 (Includes Smart and GFS,,,,,ACTIVE
+OCP LSQA,17,,other_manufacturing,"Crustaceans, Molluscs, Seaweed.",,,,,ACTIVE
+OCP LSQA,18,,agriculture,Scope: Aquaculture edition),,,,,ACTIVE
+OCP LSQA,19,,wood_paper,"IFA GFS Principles and Criteria – Finfish,",,,,,ACTIVE
+OCP LSQA,20,,wood_paper,Assurance (IFA) v6 Version 6 (Includes Smart and GFS,,,,,ACTIVE
+OCP LSQA,21,,agriculture,GFS Standard Scope: Aquaculture edition),,,,,ACTIVE
+OCP LSQA,22,GLOBALG.A.P. Chain of Custody,,GLOBALG.A.P. Chain of Custody GLOBALG.A.P. Chain of Custody,,,,,ACTIVE
+OCP LSQA,23,GLOBALG.A.P. Chain of Custody,,GLOBALG.A.P. CoC Principles and,,,,,ACTIVE
+OCP LSQA,24,,other_manufacturing,(CoC) v6.1 Standard General Regulations CoC,,,,,ACTIVE
+OCP LSQA,25,,other_manufacturing,Criteria Version 6.1,,,,,ACTIVE
+OCP LSQA,26,,other_manufacturing,(Only Option 1) Version 6.1,,,,,ACTIVE
+OCP LSQA,27,GLOBALG.A.P. IFA,,GLOBALG.A.P. Compound Feed,,,,,ACTIVE
+OCP LSQA,28,GLOBALG.A.P. IFA,,Compound Feed Manufacturing GLOBALG.A.P. CFM Principles and,,,,,ACTIVE
+OCP LSQA,29,,other_manufacturing,Manufacturing (CFM) Standard v3.1,,,,,ACTIVE
+OCP LSQA,30,,wood_paper,General Rules Version 3.1 Criteria Version 3.1,,,,,ACTIVE
+OCP LSQA,31,,other_manufacturing,(Only Option 1),,,,,ACTIVE
+OCP LSQA,32,,food,PRODUCCIÓN PRIMARIA Y ALIMENTOS,,,,,ACTIVE
+OCP LSQA,33,,other_manufacturing,Norma de Esquema / Sistema,,,,,ACTIVE
+OCP LSQA,34,,other_manufacturing,Certificación de Certificación,,,,,ACTIVE
+OCP LSQA,35,,food,Categoría 1: Carne roja cruda,,,,,ACTIVE
+OCP LSQA,36,,food,Categoría 2: Carne de ave cruda,,,,,ACTIVE
+OCP LSQA,37,,food,"Categoría 3: Productos crudos preparados (a base de carne, pescados y",,,,,ACTIVE
+OCP LSQA,38,,other_manufacturing,verduras),,,,,ACTIVE
+OCP LSQA,39,,food,Categoría 4: Productos de pescado crudo,,,,,ACTIVE
+OCP LSQA,40,,food,"Categoría 5: Frutas, verduras y frutos secos",,,,,ACTIVE
+OCP LSQA,41,,food,"Categoría 6: Frutas, verduras y frutos secos preparados",,,,,ACTIVE
+OCP LSQA,42,,other_manufacturing,"Categoría 7: Productos lácteos, huevo líquido",,,,,ACTIVE
+OCP LSQA,43,,food,Categoría 8: Productos de carne/pescado cocidos.,,,,,ACTIVE
+OCP LSQA,44,,food,Categoría 9: Carne y pescado crudos curados o fermentados,,,,,ACTIVE
+OCP LSQA,45,BRCGS Food Safety,,"BRCGS Food Safety, BRCGS Food Safety,",,,,,ACTIVE
+OCP LSQA,46,,other_manufacturing,"Categoría 10: Platos y bocadillos listos para consumir, postres listos para",,,,,ACTIVE
+OCP LSQA,47,,other_manufacturing,"Issue 9, August 2022 Issue 9, August 2022",,,,,ACTIVE
+OCP LSQA,48,,other_manufacturing,consumir.,,,,,ACTIVE
+OCP LSQA,49,,food,Categoría 11: Alimentos de alta/baja acidez en latas o recipientes de vidrio o,,,,,ACTIVE
+OCP LSQA,50,,other_manufacturing,plásticos.,,,,,ACTIVE
+OCP LSQA,51,,food,Categoría 12: Refrescos / Bebidas,,,,,ACTIVE
+OCP LSQA,52,,food,Categoría 13: Bebidas alcohólicas y productos fermentados y elaborados.,,,,,ACTIVE
+OCP LSQA,53,,other_manufacturing,Categoría 14: Panadería,,,,,ACTIVE
+OCP LSQA,54,,food,Categoría 15: Alimentos e ingredientes secos.,,,,,ACTIVE
+OCP LSQA,55,,other_manufacturing,Categoría 16: Confitería,,,,,ACTIVE
+OCP LSQA,56,,wood_paper,Categoría 17: Cereales y Snacks,,,,,ACTIVE
+OCP LSQA,57,,other_manufacturing,Categoría 18: Aceites y grasas,,,,,ACTIVE
+OCP LSQA,58,,energy,ETIQUETADO EFICIENCIA ENERGETICA,,,,,ACTIVE
+OCP LSQA,59,,energy,Calentadores eléctricos de agua de,,,,,ACTIVE
+OCP LSQA,60,,other_manufacturing,UNIT 1157:2011 Decreto 429/009 y Decreto 430/009,,,,,ACTIVE
+OCP LSQA,61,,other_manufacturing,acumulación,,,,,ACTIVE
+OCP LSQA,62,,other_manufacturing,"Aparatos de refrigeración de uso Decreto 429/009, Decreto 329/010 y Resoluciones",,,,,ACTIVE
+OCP LSQA,63,,other_manufacturing,UNIT 1138:2011,,,,,ACTIVE
+OCP LSQA,64,,other_manufacturing,doméstico MIEM 956/011 y 69/012.,,,,,ACTIVE
+OCP LSQA,65,,energy,Etiquetado de eficiencia energética,,,,,ACTIVE
+OCP LSQA,66,,other_manufacturing,equipos acondicionadores de aire y,,,,,ACTIVE
+OCP LSQA,67,,other_manufacturing,Decretos 429/009 y la Ordenanza 262/014 de,,,,,ACTIVE
+OCP LSQA,68,,machinery,Bombas de Calor de uso doméstico o UNIT 1170:2009,,,,,ACTIVE
+OCP LSQA,69,,other_manufacturing,MIEM de 28/11/2014,,,,,ACTIVE
+OCP LSQA,70,,other_manufacturing,"similar, con capacidad de refrigeración de",,,,,ACTIVE
+OCP LSQA,71,,other_manufacturing,hasta 6 kW (20473 BTU),,,,,ACTIVE
+OCP LSQA,72,,other_manufacturing,Decreto 429/009 Resolución MIEM S/N de fecha,,,,,ACTIVE
+OCP LSQA,73,,transport_equipment,Vehículos automotores categorías M1 y N1 UNIT 1130:2020,,,,,ACTIVE
+OCP LSQA,74,,other_manufacturing,17/03/2023,,,,,ACTIVE
+OCP LSQA,75,,other_manufacturing,"Decreto 429/009 Resolución S/N del MIEM, del 21",,,,,ACTIVE
+OCP LSQA,76,,electrical,Lámparas LED UNIT 1218:2020,,,,,ACTIVE
+OCP LSQA,77,,other_manufacturing,de enero de 2025,,,,,ACTIVE
+OCP LSQA,78,,electrical,Lámparas Incandescentes UNIT 1159:2024,,,,,ACTIVE
+OCP LSQA,79,,other_manufacturing,SEGURIDAD VIAL,,,,,ACTIVE
+OCP LSQA,80,,other_manufacturing,Anexos II y III del Decreto,,,,,ACTIVE
+OCP LSQA,81,,other_manufacturing,Decreto 81/014 y su modificación Decreto,,,,,ACTIVE
+OCP LSQA,82,,other_manufacturing,Sistemas de retención infantil 81/014,,,,,ACTIVE
+OCP LSQA,83,,other_manufacturing,Artículo 1 Decreto 8/024,,,,,ACTIVE
+OCP LSQA,84,,other_manufacturing,NEUMATICOS,,,,,ACTIVE
+OCP LSQA,85,,transport_equipment,"Neumáticos para automóviles, camionetas Esquema tipo 5 basado en la Norma ISO/IEC",,,,,ACTIVE
+OCP LSQA,86,,other_manufacturing,Decreto 349/998,,,,,ACTIVE
+OCP LSQA,87,,transport_equipment,Neumáticos para motocicletas y Esquema tipo 5 basado en la Norma ISO/IEC,,,,,ACTIVE
+OCP LSQA,88,,other_manufacturing,Decreto 213/017,,,,,ACTIVE
+OCP LSQA,89,,electrical,"SEGURIDAD, EQUIPAMIENTO ELÉCTRICO DE BAJA TENSIÓN",,,,,ACTIVE
+OCP LSQA,90,,energy,Calentadores de agua de acumulación UNIT-IEC 60335-2-21:2012,,,,IEC 60335-2-21,ACTIVE
+OCP LSQA,91,,energy,Calentadores de agua instantáneos UNIT-IEC 60335-2-35:2012,,,,IEC 60335-2-35,ACTIVE
+OCP LSQA,92,,electrical,Interruptores automáticos para instalaciones,,,,,ACTIVE
+OCP LSQA,93,,other_manufacturing,domésticas y análogas para la protección UNIT-NM 60898:2004,,,,,ACTIVE
+OCP LSQA,94,,other_manufacturing,contra sobrecorrientes Reglamento de Seguridad de,,,,,ACTIVE
+OCP LSQA,95,,electrical,Productos Eléctricos de Baja Tensión,,,,,ACTIVE
+OCP LSQA,96,,electrical,Interruptores automáticos de corriente UNIT-NM 61008-2-1:2005,,,,,ACTIVE
+OCP LSQA,97,,other_manufacturing,aprobado por la Resolución de la,,,,,ACTIVE
+OCP LSQA,98,,other_manufacturing,diferencial para instalaciones domésticas y,,,,,ACTIVE
+OCP LSQA,99,,electrical,IEC 61009-1:2006 URSEA Nº 078/024 Título III. Artículo,,,,IEC 61009-1,ACTIVE
+OCP LSQA,100,,other_manufacturing,análogas,,,,,ACTIVE
+OCP LSQA,101,,other_manufacturing,"14 ítems a), b) y c) de fecha 06/02/24",,,,,ACTIVE
+OCP LSQA,102,,electrical,Interruptores NM 60669-1:2004,,,,,ACTIVE
+OCP LSQA,103,,electrical,Fichas y tomacorrientes para usos,,,,,ACTIVE
+OCP LSQA,104,,other_manufacturing,UNIT-NM 60884-1:2009,,,,,ACTIVE
+OCP LSQA,105,,other_manufacturing,domésticos y análogos,,,,,ACTIVE
+OCP LSQA,106,,electrical,Prolongadores de enrollar UNIT-IEC 61242:1995,,,,IEC 61242,ACTIVE
+OCP LSQA,107,,electrical,Prolongadores UNIT-IEC 60884-2-7:2011,,,,IEC 60884-2-7,ACTIVE
+OCP LSQA,108,,electrical,Adaptadores UNIT-IEC 60884-2-5:2004,,,,IEC 60884-2-5,ACTIVE
+OCP LSQA,109,,electrical,Portalámparas con rosca Edison UNIT-IEC 60238:2004,,,,IEC 60238,ACTIVE
+OCP LSQA,110,,electrical,Cajas y envolventes de dispositivos para,,,,,ACTIVE
+OCP LSQA,111,,electrical,UNIT-IEC 60670-1:2002 + Amd,,,,IEC 60670-1,ACTIVE
+OCP LSQA,112,,electrical,instalaciones eléctricas fijas y análogas.,,,,,ACTIVE
+OCP LSQA,113,,wood_paper,Parte 1: Requisitos generales,,,,,ACTIVE
+OCP LSQA,114,,electrical,Parte 21: Requisitos particulares para cajas UNIT-IEC 60670-21:2004,,,,IEC 60670-21,ACTIVE
+OCP LSQA,115,,electrical,y envolventes previstas para medios de,,,,,ACTIVE
+OCP LSQA,116,,other_manufacturing,suspensión.,,,,,ACTIVE
+OCP LSQA,117,,electrical,UNIT-IEC 60670-22:2003,,,,IEC 60670-22,ACTIVE
+OCP LSQA,118,,other_manufacturing,Parte 22: Requisitos particulares para cajas,,,,,ACTIVE
+OCP LSQA,119,,electrical,y envolventes de conexión.,,,,,ACTIVE
+OCP LSQA,120,,electrical,UNIT-IEC 60670-23:2006,,,,IEC 60670-23,ACTIVE
+OCP LSQA,121,,other_manufacturing,Parte 23: Requisitos particulares para cajas,,,,,ACTIVE
+OCP LSQA,122,,electrical,y envolventes de piso.,,,,,ACTIVE
+OCP LSQA,123,,electrical,Parte 24: Requisitos particulares para UNIT-IEC 60670-24:2011,,,,IEC 60670-24,ACTIVE
+OCP LSQA,124,,electrical,envolventes de dispositivos de protección y,,,,,ACTIVE
+OCP LSQA,125,,other_manufacturing,dispositivos similares que disipan potencia.,,,,,ACTIVE
+OCP LSQA,126,,electrical,Cables flexibles aislados con caucho de,,,,,ACTIVE
+OCP LSQA,127,,other_manufacturing,siliconas unipolares sin envoltura y,,,,,ACTIVE
+OCP LSQA,128,,other_manufacturing,"multipolares con envoltura, resistentes al NM 274:2002",,,,,ACTIVE
+OCP LSQA,129,,wood_paper,"calor, para tensiones nominales hasta",,,,,ACTIVE
+OCP LSQA,130,,other_manufacturing,"450/750 V, inclusive",,,,,ACTIVE
+OCP LSQA,131,,electrical,Cables aislados con policloruro de vinilo,,,,,ACTIVE
+OCP LSQA,132,,wood_paper,(PVC) para tensiones nominales hasta,,,,,ACTIVE
+OCP LSQA,133,,other_manufacturing,NM 247-2:2000,,,,,ACTIVE
+OCP LSQA,134,,other_manufacturing,"450/750 V, inclusive – Parte 1 – Requisitos",,,,,ACTIVE
+OCP LSQA,135,,electrical,"generales (IEC 60227-1, MOD).",,,,IEC 60227-1,ACTIVE
+OCP LSQA,136,,electrical,"450/750 V, inclusive – Parte 3 – Cables NM 247-3:2002",,,,,ACTIVE
+OCP LSQA,137,,other_manufacturing,unipolares (sin envoltura) para instalaciones – Reglamento de Seguridad de,,,,,ACTIVE
+OCP LSQA,138,,electrical,"fijas (IEC 60227-3, MOD). Productos Eléctricos de Baja Tensión",,,,IEC 60227-3,ACTIVE
+OCP LSQA,139,,electrical,Cables aislados con policloruro de vinilo URSEA Nº 078/024 Anexo V de fecha,,,,,ACTIVE
+OCP LSQA,140,,wood_paper,(PVC) para tensiones nominales hasta 06/02/24,,,,,ACTIVE
+OCP LSQA,141,,other_manufacturing,NM 247-5:2002,,,,,ACTIVE
+OCP LSQA,142,,electrical,"450/750 V, inclusive – Parte 5 – Cables",,,,,ACTIVE
+OCP LSQA,143,,electrical,"flexibles (cordones) (IEC 60227- , MOD).",,,,IEC 60227,ACTIVE
+OCP LSQA,144,,electrical,Cables aislados con compuestos,,,,,ACTIVE
+OCP LSQA,145,,other_manufacturing,elastómericos termofijos para tensiones,,,,,ACTIVE
+OCP LSQA,146,,wood_paper,"nominales hasta 450/750 V, inclusive – Parte NM 287-1:2006",,,,,ACTIVE
+OCP LSQA,147,,electrical,"1 – Requisitos generales (IEC 60245-1:2003,",,,,IEC 60245-1,ACTIVE
+OCP LSQA,148,,other_manufacturing,MOD),,,,,ACTIVE
+OCP LSQA,149,,wood_paper,"nominales hasta 450/750 V, inclusive – Parte NM 287-2:2003",,,,,ACTIVE
+OCP LSQA,150,,electrical,"2 – Métodos de ensayos (IEC 60245-2,",,,,IEC 60245-2,ACTIVE
+OCP LSQA,151,,wood_paper,"nominales hasta 450/750 V, inclusive – Parte",,,,,ACTIVE
+OCP LSQA,152,,other_manufacturing,NM 287-3:2003,,,,,ACTIVE
+OCP LSQA,153,,electrical,3 – Cables aislados con caucho de siliconas,,,,,ACTIVE
+OCP LSQA,154,,other_manufacturing,– Reglamento de Seguridad de,,,,,ACTIVE
+OCP LSQA,155,,electrical,"con trenza, resistentes al calor (IEC 60245-3,",,,,IEC 60245-3,ACTIVE
+OCP LSQA,156,,other_manufacturing,URSEA Nº 078/024 Anexo V de fecha,,,,,ACTIVE
+OCP LSQA,157,,other_manufacturing,06/02/24,,,,,ACTIVE
+OCP LSQA,158,,wood_paper,"nominales hasta 450/750 V, inclusive – Parte NM 287-4:2006",,,,,ACTIVE
+OCP LSQA,159,,electrical,4 – Cordones y cables flexibles (IEC 60245-,,,,IEC 60245,ACTIVE
+OCP LSQA,160,,other_manufacturing,"4, MOD)",,,,,ACTIVE
+OCP LSQA,161,,electrical,Cables con aislación de PVC para tensión,,,,,ACTIVE
+OCP LSQA,162,,electrical,nominal 300/500V. Cables con envoltura UNIT 2474:2011 Reglamento de Seguridad de,,,,,ACTIVE
+OCP LSQA,163,,electrical,para instalaciones fijas. Productos Eléctricos de Baja Tensión,,,,,ACTIVE
+OCP LSQA,164,,electrical,"Aparatos de refrigeración, eléctricos de uso UNIT-NM 60335-1:2010",,,,,ACTIVE
+OCP LSQA,165,,other_manufacturing,URSEA Nº 078/024 Título III de fecha,,,,,ACTIVE
+OCP LSQA,166,,electrical,"doméstico y similar. UNIT-IEC 60335-2-24:2010 06/02/24 Artículo 14 ítems a), b) y c)",,,,IEC 60335-2-24,ACTIVE
+OCP LSQA,167,,transport_equipment,Sistema conductivo de carga para vehículos Resolución 368/023 (para SAVE),,,,,ACTIVE
+OCP LSQA,168,,electrical,UNIT-IEC 61851-1:2017,,,,IEC 61851-1,ACTIVE
+OCP LSQA,169,,electrical,eléctricos – SAVE,,,,,ACTIVE
+OCP LSQA,170,,other_manufacturing,SEGURIDAD: GASODOMÉSTICOS,,,,,ACTIVE
+OCP LSQA,171,,energy,Calentadores de agua instantáneos a gas Mercosur/GMC/Res. Nº06/18,,,,,ACTIVE
+OCP LSQA,172,,machinery,Válvulas de cierre destinadas a recipientes,,,,,ACTIVE
+OCP LSQA,173,,other_manufacturing,UNIT 319:2018,,,,,ACTIVE
+OCP LSQA,174,,other_manufacturing,(13kg,,,,,ACTIVE
+OCP LSQA,175,,machinery,Válvulas para microgarrafas y garrafas UNIT 1008:2002,,,,,ACTIVE
+OCP LSQA,176,,machinery,Válvulas de accionamiento manual,,,,,ACTIVE
+OCP LSQA,177,,other_manufacturing,UNIT 1036:1999,,,,,ACTIVE
+OCP LSQA,178,,energy,destinadas a cilindros,,,,,ACTIVE
+OCP LSQA,179,,other_manufacturing,Reguladores de reglaje fijo UNIT 1072:2016,,,,,ACTIVE
+OCP LSQA,180,,other_manufacturing,"Reguladores de presión, inversores",,,,,ACTIVE
+OCP LSQA,181,,other_manufacturing,UNIT 1225:2015,,,,,ACTIVE
+OCP LSQA,182,,other_manufacturing,automáticos,,,,,ACTIVE
+OCP LSQA,183,,wood_paper,Tubos flexibles de PVC UNIT 952:2017 Reglamento de Seguridad de,,,,,ACTIVE
+OCP LSQA,184,,other_manufacturing,"Gasodomésticos, Recipientes",,,,,ACTIVE
+OCP LSQA,185,,construction,Tubos flexibles de elastómeros UNIT 1209:2013 Portátiles y sus Accesorios para GLP,,,,,ACTIVE
+OCP LSQA,186,,other_manufacturing,y Gas Natural y sus Anexos según,,,,,ACTIVE
+OCP LSQA,187,,construction,"Recipientes portátiles: microgarrafas,",,,,,ACTIVE
+OCP LSQA,188,,other_manufacturing,UNIT 1094:2022 Resolución 151/021 y,,,,,ACTIVE
+OCP LSQA,189,,energy,garrafas y cilindros,,,,,ACTIVE
+OCP LSQA,190,,other_manufacturing,complementarias de la Unidad,,,,,ACTIVE
+OCP LSQA,191,,energy,Cilindros y tubos de gas compuestos UNIT-ISO 11119- 3:2020 + Reguladora de Servicios de Energía y,,,,ISO 11119,ACTIVE
+OCP LSQA,192,,wood_paper,rellenables Amd1:2023 Agua (URSEA),,,,,ACTIVE
+OCP LSQA,193,,other_manufacturing,"Título III, artículo 15 ítem a), b) y c)",,,,,ACTIVE
+OCP LSQA,194,,other_manufacturing,"Aparatos de calefacción independientes, de",,,,,ACTIVE
+OCP LSQA,195,,other_manufacturing,"combustión por llama, que utilizan gases",,,,,ACTIVE
+OCP LSQA,196,,other_manufacturing,UNIT 953:2023,,,,,ACTIVE
+OCP LSQA,197,,energy,"licuados de petróleo, no conectados a un",,,,,ACTIVE
+OCP LSQA,198,,other_manufacturing,conducto de evacuación,,,,,ACTIVE
+OCP LSQA,199,,energy,Calentadores de agua por acumulación de,,,,,ACTIVE
+OCP LSQA,200,,other_manufacturing,funcionamiento a gas. Parte 1: Desempeño y UNIT 1126-1 :2008,,,,,ACTIVE
+OCP LSQA,201,,other_manufacturing,seguridad,,,,,ACTIVE
+OCP LSQA,202,,other_manufacturing,Artefactos domésticos de cocción a gas.,,,,,ACTIVE
+OCP LSQA,203,,other_manufacturing,UNIT 1161-1:2007,,,,,ACTIVE
+OCP LSQA,204,,other_manufacturing,Parte 1: Desempeño y seguridad,,,,,ACTIVE
+OCP LSQA,205,,construction,Recipientes portátiles rellenables de acero,,,,,ACTIVE
+OCP LSQA,206,,energy,soldados para gas licuado de petróleo UNIT 1194:2011,,,,,ACTIVE
+OCP LSQA,207,,other_manufacturing,(GLP). Diseño y construcción alternativos,,,,,ACTIVE
+OCP LSQA,208,,other_manufacturing,Dispositivos sensores de la salida de los,,,,,ACTIVE
+OCP LSQA,209,,other_manufacturing,productos de la combustión instalados en MERCOSUR/GMC/ RES. Nº 04/18,,,,,ACTIVE
+OCP LSQA,210,,other_manufacturing,artefactos para uso doméstico,,,,,ACTIVE
+OCP LSQA,211,,other_manufacturing,Dispositivos sensores de atmósfera MERCOSUR/ GMC/ RES. Nº 05/18,,,,,ACTIVE
+OCP LSQA,212,,other_manufacturing,instalados en artefactos para uso doméstico ii,,,,,ACTIVE
+OCP LSQA,213,,other_manufacturing,SEGURIDAD JUGUETES,,,,,ACTIVE
+OCP LSQA,214,,other_manufacturing,NM 300-1:2002,,,,,ACTIVE
+OCP LSQA,215,,other_manufacturing,Sistemas 4 y 7 Basados en la resolución No.,,,,,ACTIVE
+OCP LSQA,216,,other_manufacturing,NM 300-2:2002,,,,,ACTIVE
+OCP LSQA,217,,other_manufacturing,19/92 del Grupo de Mercado Común del,,,,,ACTIVE
+OCP LSQA,218,,other_manufacturing,NM 300-3:2002,,,,,ACTIVE
+OCP LSQA,219,,other_manufacturing,Juguetes Mercosur Decreto 388/005 del 7 de octubre,,,,,ACTIVE
+OCP LSQA,220,,other_manufacturing,NM 300-4:2002,,,,,ACTIVE
+OCP LSQA,221,,other_manufacturing,de 2005 y modificativos. Resolución MIEM,,,,,ACTIVE
+OCP LSQA,222,,other_manufacturing,NM 300-5:2002,,,,,ACTIVE
+OCP LSQA,223,,other_manufacturing,s/n de fecha 31/10/2017.,,,,,ACTIVE
+OCP LSQA,224,,other_manufacturing,NM 300-6:2002,,,,,ACTIVE
+OCP Qualis Fidelis,1,,electrical,"Seguridad, equipamiento eléctrico de baja tensión",,,,,ACTIVE
+OCP Qualis Fidelis,2,,electrical,Fichas y tomacorrientes para usos domésticos,,,,,ACTIVE
+OCP Qualis Fidelis,3,,other_manufacturing,UNIT-NM 60884-1:2009,,,,,ACTIVE
+OCP Qualis Fidelis,4,,other_manufacturing,y análogos,,,,,ACTIVE
+OCP Qualis Fidelis,5,,electrical,Prolongadores eléctricos UNIT-IEC 60884-2-7:2011,,,,IEC 60884-2-7,ACTIVE
+OCP Qualis Fidelis,6,,electrical,Adaptadores UNIT-IEC 60884-2-5:2004,,,,IEC 60884-2-5,ACTIVE
+OCP Qualis Fidelis,7,,electrical,Interruptores automáticos para instalaciones,,,,,ACTIVE
+OCP Qualis Fidelis,8,,other_manufacturing,domésticas y análogas para la protección UNIT-NM 60898:2004,,,,,ACTIVE
+OCP Qualis Fidelis,9,,other_manufacturing,contra sobrecorrientes,,,,,ACTIVE
+OCP Qualis Fidelis,10,,electrical,Interruptores automáticos de corriente,,,,,ACTIVE
+OCP Qualis Fidelis,11,,other_manufacturing,diferencial para instalaciones domésticas y UNIT-NM 61008-2-1:2005,,,,,ACTIVE
+OCP Qualis Fidelis,12,,electrical,análogas- sin protección contra IEC 61009-1:2006,,,,IEC 61009-1,ACTIVE
+OCP Qualis Fidelis,13,,other_manufacturing,sobrecorrientes,,,,,ACTIVE
+OCP Qualis Fidelis,14,,electrical,Portalámparas con rosca Edison UNIT-IEC 60238 :2004,,,,IEC 60238,ACTIVE
+OCP Qualis Fidelis,15,,electrical,Portalámparas para lámparas fluorescentes,,,,,ACTIVE
+OCP Qualis Fidelis,16,,electrical,UNIT-IEC 60400:1999,,,,IEC 60400,ACTIVE
+OCP Qualis Fidelis,17,,other_manufacturing,tubulares y portacebadores,,,,,ACTIVE
+OCP Qualis Fidelis,18,,electrical,UNIT-IEC 60335-2-,,,,IEC 60335-2,ACTIVE
+OCP Qualis Fidelis,19,,energy,Calentadores de Agua Instantáneos,,,,,ACTIVE
+OCP Qualis Fidelis,20,,other_manufacturing,35:2012 Reglamento de Seguridad de Productos,,,,,ACTIVE
+OCP Qualis Fidelis,21,,electrical,Eléctricos de Baja Tensión aprobado por la,,,,,ACTIVE
+OCP Qualis Fidelis,22,,energy,Calentadores de Agua de Acumulación Resolución de la URSEA Nº 078/024 Título,,,,,ACTIVE
+OCP Qualis Fidelis,23,,other_manufacturing,21:2012,,,,,ACTIVE
+OCP Qualis Fidelis,24,,other_manufacturing,"III. Artículo 14 ítems a), b) y c) de fecha",,,,,ACTIVE
+OCP Qualis Fidelis,25,,electrical,"UNIT-IEC 61386-1:2008, 06/02/24",,,,IEC 61386-1,ACTIVE
+OCP Qualis Fidelis,26,,electrical,UNIT-IEC 60423:2007 y,,,,IEC 60423,ACTIVE
+OCP Qualis Fidelis,27,,electrical,"(UNIT-IEC 61386-21:2002, Resolución 368/023 (para SAVE)",,,,IEC 61386-21,ACTIVE
+OCP Qualis Fidelis,28,,electrical,o UNIT- IEC 61386-,,,,IEC 61386,ACTIVE
+OCP Qualis Fidelis,29,,other_manufacturing,"Conductos para instalaciones 22:2002, o",,,,,ACTIVE
+OCP Qualis Fidelis,30,,electrical,"UNIT- IEC 61386-23:2002,",,,,IEC 61386-23,ACTIVE
+OCP Qualis Fidelis,31,,other_manufacturing,"24:2004, o",,,,,ACTIVE
+OCP Qualis Fidelis,32,,electrical,UNIT- IEC 61386-25:2011),,,,IEC 61386-25,ACTIVE
+OCP Qualis Fidelis,33,,electrical,Cajas y envolventes de dispositivos para,,,,,ACTIVE
+OCP Qualis Fidelis,34,,electrical,UNIT-IEC 60670-1:2002 +,,,,IEC 60670-1,ACTIVE
+OCP Qualis Fidelis,35,,electrical,instalaciones eléctricas fijas y análogas.,,,,,ACTIVE
+OCP Qualis Fidelis,36,,other_manufacturing,Amd1 2011,,,,,ACTIVE
+OCP Qualis Fidelis,37,,wood_paper,Parte 1: Requisitos generales,,,,,ACTIVE
+OCP Qualis Fidelis,38,,electrical,Parte 21: Requisitos particulares para cajas y UNIT-IEC 60670-21:2004,,,,IEC 60670-21,ACTIVE
+OCP Qualis Fidelis,39,,electrical,envolventes previstas para medios de,,,,,ACTIVE
+OCP Qualis Fidelis,40,,other_manufacturing,suspensión.,,,,,ACTIVE
+OCP Qualis Fidelis,41,,electrical,UNIT- IEC 60670-22:2003,,,,IEC 60670-22,ACTIVE
+OCP Qualis Fidelis,42,,other_manufacturing,Parte 22: Requisitos particulares para cajas y,,,,,ACTIVE
+OCP Qualis Fidelis,43,,electrical,envolventes de conexión.,,,,,ACTIVE
+OCP Qualis Fidelis,44,,electrical,UNIT- IEC 60670-23:2006,,,,IEC 60670-23,ACTIVE
+OCP Qualis Fidelis,45,,other_manufacturing,Parte 23: Requisitos particulares para cajas y,,,,,ACTIVE
+OCP Qualis Fidelis,46,,electrical,envolventes de piso.,,,,,ACTIVE
+OCP Qualis Fidelis,47,,electrical,Parte 24: Requisitos particulares para UNIT- IEC 60670-24:2011,,,,IEC 60670-24,ACTIVE
+OCP Qualis Fidelis,48,,electrical,envolventes de dispositivos de protección y,,,,,ACTIVE
+OCP Qualis Fidelis,49,,other_manufacturing,dispositivos similares que disipan potencia.,,,,,ACTIVE
+OCP Qualis Fidelis,50,,electrical,Interruptores UNIT-NM 60669-1:2004,,,,,ACTIVE
+OCP Qualis Fidelis,51,,other_manufacturing,Refrigeradores,,,,,ACTIVE
+OCP Qualis Fidelis,52,,other_manufacturing,24:2010,,,,,ACTIVE
+OCP Qualis Fidelis,53,,electrical,Prolongadores eléctricos para usos,,,,,ACTIVE
+OCP Qualis Fidelis,54,,electrical,UNIT-IEC 61242:1995,,,,IEC 61242,ACTIVE
+OCP Qualis Fidelis,55,,other_manufacturing,domésticos y análogos de enrollar,,,,,ACTIVE
+OCP Qualis Fidelis,56,,transport_equipment,Sistema conductivo de carga para vehículos,,,,,ACTIVE
+OCP Qualis Fidelis,57,,electrical,UNIT-IEC 61851-1:2017,,,,IEC 61851-1,ACTIVE
+OCP Qualis Fidelis,58,,electrical,eléctricos - SAVE,,,,,ACTIVE
+OCP Qualis Fidelis,59,,electrical,Cables aislados con policloruro de vinilo (PVC),,,,,ACTIVE
+OCP Qualis Fidelis,60,,wood_paper,"para tensiones nominales hasta 450/750 V,",,,,,ACTIVE
+OCP Qualis Fidelis,61,,other_manufacturing,NM 247-1:2000,,,,,ACTIVE
+OCP Qualis Fidelis,62,,wood_paper,inclusive – Parte 1 – Requisitos generales,,,,,ACTIVE
+OCP Qualis Fidelis,63,,electrical,"(IEC 60227-1, MOD).",,,,IEC 60227-1,ACTIVE
+OCP Qualis Fidelis,64,,other_manufacturing,NM 247-2:2000,,,,,ACTIVE
+OCP Qualis Fidelis,65,,other_manufacturing,inclusive – Parte 2 – Métodos de ensayos (IEC,,,,,ACTIVE
+OCP Qualis Fidelis,66,,other_manufacturing,"60227-2, MOD).",,,,,ACTIVE
+OCP Qualis Fidelis,67,,other_manufacturing,NM 247-3:2002,,,,,ACTIVE
+OCP Qualis Fidelis,68,,electrical,inclusive – Parte 3 – Cables unipolares (sin,,,,,ACTIVE
+OCP Qualis Fidelis,69,,other_manufacturing,envoltura) para instalaciones fijas,,,,,ACTIVE
+OCP Qualis Fidelis,70,,other_manufacturing,NM 247-5:2002,,,,,ACTIVE
+OCP Qualis Fidelis,71,,electrical,inclusive – Parte 5 – Cables flexibles,,,,,ACTIVE
+OCP Qualis Fidelis,72,,electrical,"(cordones) (IEC 60227-5, MOD).",,,,IEC 60227-5,ACTIVE
+OCP Qualis Fidelis,73,,electrical,Cables aislados con compuestos,,,,,ACTIVE
+OCP Qualis Fidelis,74,,other_manufacturing,elastómericos termofijos para tensiones,,,,,ACTIVE
+OCP Qualis Fidelis,75,,wood_paper,"nominales hasta 450/750 V, inclusive – Parte 1 NM 287-1:2006",,,,,ACTIVE
+OCP Qualis Fidelis,76,,electrical,"– Requisitos generales (IEC 60245-1:2003,",,,,IEC 60245-1,ACTIVE
+OCP Qualis Fidelis,77,,other_manufacturing,Reglamento de Seguridad de Productos,,,,,ACTIVE
+OCP Qualis Fidelis,78,,other_manufacturing,MOD),,,,,ACTIVE
+OCP Qualis Fidelis,79,,other_manufacturing,Resolución de la URSEA Nº 078/024 Anexo,,,,,ACTIVE
+OCP Qualis Fidelis,80,,other_manufacturing,V de fecha 06/02/24,,,,,ACTIVE
+OCP Qualis Fidelis,81,,wood_paper,"nominales hasta 450/750 V, inclusive – Parte 3",,,,,ACTIVE
+OCP Qualis Fidelis,82,,other_manufacturing,NM 287-3:2003,,,,,ACTIVE
+OCP Qualis Fidelis,83,,electrical,– Cables aislados con caucho de siliconas con,,,,,ACTIVE
+OCP Qualis Fidelis,84,,electrical,"trenza, resistentes al calor (IEC 60245-3,",,,,IEC 60245-3,ACTIVE
+OCP Qualis Fidelis,85,,wood_paper,"nominales hasta 450/750 V, inclusive – Parte 4 NM 287-4:2006",,,,,ACTIVE
+OCP Qualis Fidelis,86,,electrical,"– Cordones y cables flexibles (IEC 60245-4,",,,,IEC 60245-4,ACTIVE
+OCP Qualis Fidelis,87,,electrical,Cables flexibles aislados con caucho de,,,,,ACTIVE
+OCP Qualis Fidelis,88,,other_manufacturing,siliconas unipolares sin envoltura y,,,,,ACTIVE
+OCP Qualis Fidelis,89,,other_manufacturing,"multipolares con envoltura, resistentes al calor, NM 274:2002",,,,,ACTIVE
+OCP Qualis Fidelis,90,,other_manufacturing,inclusive,,,,,ACTIVE
+OCP Qualis Fidelis,91,,electrical,"Conductores de cables aislados (IEC 60228,",,,,IEC 60228,ACTIVE
+OCP Qualis Fidelis,92,,other_manufacturing,NM 280:2002,,,,,ACTIVE
+OCP Qualis Fidelis,93,,electrical,Cables con aislación de PVC para tensión,,,,,ACTIVE
+OCP Qualis Fidelis,94,,electrical,nominal 300/500 V. Cables con envoltura para UNIT 2474:2011,,,,,ACTIVE
+OCP Qualis Fidelis,95,,other_manufacturing,instalaciones fijas,,,,,ACTIVE
+OCP Qualis Fidelis,96,,energy,Etiquetado de eficiencia energética,,,,,ACTIVE
+OCP Qualis Fidelis,97,,energy,Etiquetado de Eficiencia energética de,,,,,ACTIVE
+OCP Qualis Fidelis,98,,other_manufacturing,UNIT 1170:2009 Decreto 429/009 y Ordenanza 262/014 del MIEM.,,,,,ACTIVE
+OCP Qualis Fidelis,99,,other_manufacturing,acondicionadores de aire,,,,,ACTIVE
+OCP Qualis Fidelis,100,,energy,"Etiquetado de Eficiencia energética de Decreto 429/009, Decreto 329/010 y Resoluciones",,,,,ACTIVE
+OCP Qualis Fidelis,101,,other_manufacturing,UNIT 1138:2011,,,,,ACTIVE
+OCP Qualis Fidelis,102,,other_manufacturing,refrigeradores de uso doméstico MIEM 956/011 y 69/012.,,,,,ACTIVE
+OCP Qualis Fidelis,103,,other_manufacturing,UNIT 1157:2011 Decreto 429/009 y Decreto 430/009,,,,,ACTIVE
+OCP Qualis Fidelis,104,,energy,calentadores de agua de acumulación,,,,,ACTIVE
+OCP Qualis Fidelis,105,,transport_equipment,Vehículos automotores categorías M1 Decreto 429/009 y Resolución MIEM S/N – de fecha,,,,,ACTIVE
+OCP Qualis Fidelis,106,,other_manufacturing,UNIT 1130:2020,,,,,ACTIVE
+OCP Qualis Fidelis,107,,other_manufacturing,y N1 17/03/2023,,,,,ACTIVE
+OCP Qualis Fidelis,108,,other_manufacturing,Decreto 429/009,,,,,ACTIVE
+OCP Qualis Fidelis,109,,electrical,Lámparas LED UNIT 1218:2020,,,,,ACTIVE
+OCP Qualis Fidelis,110,,other_manufacturing,"Resolución S/N del MIEM, del 21 de enero de 2025",,,,,ACTIVE
+OCP Qualis Fidelis,111,,electrical,Lámparas Incandescentes UNIT 1159:2024,,,,,ACTIVE
+OCP Qualis Fidelis,112,,other_manufacturing,Seguridad vial,,,,,ACTIVE
+OCP Qualis Fidelis,113,,other_manufacturing,"Anexos II, III, IV y V del",,,,,ACTIVE
+OCP Qualis Fidelis,114,,other_manufacturing,Decreto 081/014,,,,,ACTIVE
+OCP Qualis Fidelis,115,,other_manufacturing,Sistemas de retención infantil Decreto 81/014,,,,,ACTIVE
+OCP Qualis Fidelis,116,,other_manufacturing,y su modificación Decreto 8/024.,,,,,ACTIVE
+OCP Qualis Fidelis,117,,other_manufacturing,Artículo 1 Decreto 8/024,,,,,ACTIVE
+OCP Qualis Fidelis,118,,other_manufacturing,"Seguridad, Juguetes",,,,,ACTIVE
+OCP Qualis Fidelis,119,,other_manufacturing,NM 300-1:2002,,,,,ACTIVE
+OCP Qualis Fidelis,120,,other_manufacturing,NM 300-2:2002 Sistemas 4 Basado en la resolución No. 19/92 del,,,,,ACTIVE
+OCP Qualis Fidelis,121,,other_manufacturing,NM 300-3:2002 Grupo de Mercado Común del Mercosur Decreto,,,,,ACTIVE
+OCP Qualis Fidelis,122,,other_manufacturing,Seguridad de juguetes,,,,,ACTIVE
+OCP Qualis Fidelis,123,,other_manufacturing,NM 300-4:2002 388/005 del 7 de octubre de 2005 y modificativos.,,,,,ACTIVE
+OCP Qualis Fidelis,124,,other_manufacturing,NM 300-5:2002 Resolución MIEM s/n de fecha 31/10/2017.,,,,,ACTIVE
+OCP Qualis Fidelis,125,,other_manufacturing,NM 300-6:2002,,,,,ACTIVE
+OCP Qualis Fidelis,126,,transport_equipment,"Seguridad, Bicicletas",,,,,ACTIVE
+OCP Qualis Fidelis,127,,other_manufacturing,"Sistemas 4, 5 y 7 Basados en la resolución No.",,,,,ACTIVE
+OCP Qualis Fidelis,128,,other_manufacturing,19/92 del Grupo de Mercado Común del Mercosur.,,,,,ACTIVE
+OCP Qualis Fidelis,129,,transport_equipment,Bicicletas de uso infantil NM 301:2002,,,,,ACTIVE
+OCP Qualis Fidelis,130,,other_manufacturing,Decreto 377/2004 del 21 de octubre 2004,,,,,ACTIVE
+OCP Qualis Fidelis,131,,transport_equipment,Neumáticos,,,,,ACTIVE
+OCP Qualis Fidelis,132,,transport_equipment,"Neumáticos para automóviles, camionetas y",,,,,ACTIVE
+OCP Qualis Fidelis,133,,other_manufacturing,Decreto 349/998 Decreto 349/998,,,,,ACTIVE
+OCP Qualis Fidelis,134,,other_manufacturing,camiones,,,,,ACTIVE
+OCP Qualis Fidelis,135,,transport_equipment,Neumáticos para motocicletas y ciclomotores Decreto 213/017 Decreto 213/017,,,,,ACTIVE
+OCP Qualis Fidelis,136,,other_manufacturing,Seguridad Gasodomésticos,,,,,ACTIVE
+OCP Qualis Fidelis,137,,construction,Recipientes portátiles rellenables de acero,,,,,ACTIVE
+OCP Qualis Fidelis,138,,energy,soldados para Gas Licuado de petróleo (GLP)-,,,,,ACTIVE
+OCP Qualis Fidelis,139,,other_manufacturing,UNIT 1094:2022,,,,,ACTIVE
+OCP Qualis Fidelis,140,,energy,"Microgarrafas, garrafas y cilindros - Diseño y",,,,,ACTIVE
+OCP Qualis Fidelis,141,,other_manufacturing,construcción,,,,,ACTIVE
+OCP Qualis Fidelis,142,,energy,Cilindros de gas. Cilindros y tubos de gas,,,,,ACTIVE
+OCP Qualis Fidelis,143,,energy,compuestos rellenables. Parte 3: Cilindros y,,,,,ACTIVE
+OCP Qualis Fidelis,144,,other_manufacturing,tubos compuestos hasta 450lm totalmente UNIT-ISO 11119-3:2020 +,,,,ISO 11119-3,ACTIVE
+OCP Qualis Fidelis,145,,other_manufacturing,"envueltos y reforzados con fibra, con camisa Amd1:2023",,,,,ACTIVE
+OCP Qualis Fidelis,146,,other_manufacturing,metálicas o no metálicas que no comparte la,,,,,ACTIVE
+OCP Qualis Fidelis,147,,other_manufacturing,carga,,,,,ACTIVE
+OCP Qualis Fidelis,148,,construction,Tubos flexibles de policloruro de vinilo (PVC),,,,,ACTIVE
+OCP Qualis Fidelis,149,,other_manufacturing,para uso en conexiones para gases licuados de UNIT 952:2017,,,,,ACTIVE
+OCP Qualis Fidelis,150,,energy,"petróleo, a baja presión",,,,,ACTIVE
+OCP Qualis Fidelis,151,,wood_paper,Tubos flexibles de elastómeros para uso en,,,,,ACTIVE
+OCP Qualis Fidelis,152,,other_manufacturing,conexiones para gas Características y métodos UNIT 1209:2013,,,,,ACTIVE
+OCP Qualis Fidelis,153,,other_manufacturing,de ensayo,,,,,ACTIVE
+OCP Qualis Fidelis,154,,machinery,Válvulas de cierre destinadas a recipientes de,,,,,ACTIVE
+OCP Qualis Fidelis,155,,energy,"GLP, propano comercial, butano comercial o",,,,,ACTIVE
+OCP Qualis Fidelis,156,,other_manufacturing,UNIT 319:2018,,,,,ACTIVE
+OCP Qualis Fidelis,157,,wood_paper,sus mezclas- Requisitos y métodos de ensayo,,,,,ACTIVE
+OCP Qualis Fidelis,158,,other_manufacturing,(Para 13 kg),,,,,ACTIVE
+OCP Qualis Fidelis,159,,machinery,Válvulas para microgarrafas y garrafas para,,,,,ACTIVE
+OCP Qualis Fidelis,160,,energy,"GLP (supergás), propano comercial y /o butano UNIT 1008:2002",,,,,ACTIVE
+OCP Qualis Fidelis,161,,other_manufacturing,comercial,,,,,ACTIVE
+OCP Qualis Fidelis,162,,machinery,Válvulas de accionamiento manual destinadas,,,,,ACTIVE
+OCP Qualis Fidelis,163,,energy,"a cilindros de acero para GLP (supergas),",,,,,ACTIVE
+OCP Qualis Fidelis,164,,energy,"propano comercial, butano comercial, o sus UNIT 1036:1999",,,,,ACTIVE
+OCP Qualis Fidelis,165,,wood_paper,mezclas. Requisitos generales de fabricación y Reglamento de Seguridad de,,,,,ACTIVE
+OCP Qualis Fidelis,166,,other_manufacturing,"métodos de ensayo Gasodomésticos, Recipientes",,,,,ACTIVE
+OCP Qualis Fidelis,167,,construction,Reguladores de reglaje fijo para presiones de Portátiles y sus Accesorios para GLP y,,,,,ACTIVE
+OCP Qualis Fidelis,168,,wood_paper,"salida inferiores o iguales a 200 mbar, de Gas Natural y sus Anexos según",,,,,ACTIVE
+OCP Qualis Fidelis,169,,other_manufacturing,"caudal inferior o igual a 4kg/h, incluidos los Resolución 151/021 y",,,,,ACTIVE
+OCP Qualis Fidelis,170,,other_manufacturing,dispositivos de seguridad incorporados en ellos UNIT 1072:2016 complementarias de la Unidad,,,,,ACTIVE
+OCP Qualis Fidelis,171,,energy,"destinados a utilizar Butano comercial, Propano Reguladora de Servicios de Energía y",,,,,ACTIVE
+OCP Qualis Fidelis,172,,wood_paper,"comercial, o sus mezclas (para garrafas de 13 Agua (URSEA) Título III, artículo 15",,,,,ACTIVE
+OCP Qualis Fidelis,173,,other_manufacturing,"kg) ítem a), b) y c)",,,,,ACTIVE
+OCP Qualis Fidelis,174,,other_manufacturing,Reguladores de presión inversores,,,,,ACTIVE
+OCP Qualis Fidelis,175,,other_manufacturing,"automáticos, con una presión máxima de salida",,,,,ACTIVE
+OCP Qualis Fidelis,176,,other_manufacturing,"de 4 bar, con un flujo máximo de 150 kg/h,",,,,,ACTIVE
+OCP Qualis Fidelis,177,,other_manufacturing,UNIT 1225:2015,,,,,ACTIVE
+OCP Qualis Fidelis,178,,other_manufacturing,dispositivos de seguridad asociados y,,,,,ACTIVE
+OCP Qualis Fidelis,179,,energy,"adaptadores para butano, propano y sus",,,,,ACTIVE
+OCP Qualis Fidelis,180,,wood_paper,mezclas.,,,,,ACTIVE
+OCP Qualis Fidelis,181,,energy,Calentadores de agua instantáneos de uso Regulamento,,,,,ACTIVE
+OCP Qualis Fidelis,182,,energy,domésticos que usan gas como combustible. MERCOSUR/GMC/RES. Nº 06/18,,,,,ACTIVE
+OCP Qualis Fidelis,183,,other_manufacturing,"Aparatos de calefacción independientes, de",,,,,ACTIVE
+OCP Qualis Fidelis,184,,other_manufacturing,"combustión por llama, que utilizan gases",,,,,ACTIVE
+OCP Qualis Fidelis,185,,other_manufacturing,UNIT 953:2023,,,,,ACTIVE
+OCP Qualis Fidelis,186,,energy,"licuados de petróleo, no conectados a un",,,,,ACTIVE
+OCP Qualis Fidelis,187,,other_manufacturing,conducto de evacuación.,,,,,ACTIVE
+OCP Qualis Fidelis,188,,energy,Calentadores de agua por acumulación de,,,,,ACTIVE
+OCP Qualis Fidelis,189,,other_manufacturing,funcionamiento a gas. Parte 1: Desempeño y UNIT 1126-1:2008,,,,,ACTIVE
+OCP Qualis Fidelis,190,,other_manufacturing,seguridad.,,,,,ACTIVE
+OCP Qualis Fidelis,191,,other_manufacturing,Artefactos domésticos de cocción a gas.,,,,,ACTIVE
+OCP Qualis Fidelis,192,,other_manufacturing,UNIT 1161-1:2007,,,,,ACTIVE
+OCP Qualis Fidelis,193,,other_manufacturing,Parte1: Desempeño y seguridad.,,,,,ACTIVE
+OCP Qualis Fidelis,194,,other_manufacturing,Dispositivos sensores de la salida de los,,,,,ACTIVE
+OCP Qualis Fidelis,195,,other_manufacturing,productos de la combustión instalados en MERCOSUR/GMC/RES. Nº 04/18,,,,,ACTIVE
+OCP Qualis Fidelis,196,,other_manufacturing,artefactos para uso doméstico.,,,,,ACTIVE
+OCP Qualis Fidelis,197,,other_manufacturing,Dispositivos sensores de atmosferas instalados,,,,,ACTIVE
+OCP Qualis Fidelis,198,,other_manufacturing,MERCOSUR/GMC/RES. Nº 05/18,,,,,ACTIVE
+OCP Qualis Fidelis,199,,other_manufacturing,en artefactos para uso doméstico.,,,,,ACTIVE
+OCP Qualis Fidelis,200,,wood_paper,Tubos flexibles,,,,,ACTIVE
+OCP Qualis Fidelis,201,,other_manufacturing,Mangueras y tubos de elastómeros y plástico,,,,,ACTIVE
+OCP Qualis Fidelis,202,,other_manufacturing,UNE-EN 16436-1:2014 + A3:2021,,,,EN 16436-1,ACTIVE
+OCP Qualis Fidelis,203,,energy,"usados para propano, butano y sus mezclas en",,,,,ACTIVE
+OCP Qualis Fidelis,204,,other_manufacturing,fase vapor.,,,,,ACTIVE
+OCP UNIT,1,,other_manufacturing,SEGURIDAD - BICICLETAS Y JUGUETES,,,,,ACTIVE
+OCP UNIT,2,,other_manufacturing,NM 300-1:2002,,,,,ACTIVE
+OCP UNIT,3,,other_manufacturing,NM 300-2:2002 Sistemas 4 y 7 Basados en la resolución No. 19/92 del Grupo,,,,,ACTIVE
+OCP UNIT,4,,other_manufacturing,NM 300-3:2002 de Mercado Común del Mercosur,,,,,ACTIVE
+OCP UNIT,5,,other_manufacturing,Juguetes,,,,,ACTIVE
+OCP UNIT,6,,other_manufacturing,NM 300-4:2002 Decreto 388/005 del 7 de octubre de 2005 y modificativos.,,,,,ACTIVE
+OCP UNIT,7,,other_manufacturing,NM 300-5:2002 Resolución MIEM s/n de fecha 31/10/2017.,,,,,ACTIVE
+OCP UNIT,8,,other_manufacturing,NM 300-6:2002,,,,,ACTIVE
+OCP UNIT,9,,other_manufacturing,"Sistemas 4, 5 y 7 Basados en la resolución No. 19/92 del Grupo",,,,,ACTIVE
+OCP UNIT,10,,transport_equipment,Bicicletas de uso infantil. NM 301:2002 de Mercado Común del Mercosur.,,,,,ACTIVE
+OCP UNIT,11,,other_manufacturing,Decreto 377/2004 del 21 de octubre 2004,,,,,ACTIVE
+OCP UNIT,12,,other_manufacturing,SEGURIDAD VIAL,,,,,ACTIVE
+OCP UNIT,13,,other_manufacturing,"Anexos II, III, IV y V del Decreto 81/014 Decreto 081/014",,,,,ACTIVE
+OCP UNIT,14,,other_manufacturing,Sistemas de retención infantil,,,,,ACTIVE
+OCP UNIT,15,,other_manufacturing,Artículo 1 Decreto 8/024 y su modificación Decreto 8/024.,,,,,ACTIVE
+OCP UNIT,16,,wood_paper,MATERIALES PARA LA CONSTRUCCIÓN,,,,,ACTIVE
+OCP UNIT,17,,other_manufacturing,Esquema tipo 5 Basado en la Norma,,,,,ACTIVE
+OCP UNIT,18,,construction,Cemento de albañilería UNIT 984:2009,,,,,ACTIVE
+OCP UNIT,19,,construction,Cemento Portland para uso general UNIT 20:2017,,,,,ACTIVE
+OCP UNIT,20,,construction,Cemento Pórtland normal Decreto 097/019,,,,,ACTIVE
+OCP UNIT,21,,other_manufacturing,Decreto 277/019,,,,,ACTIVE
+OCP UNIT,22,,other_manufacturing,Decreto 29/021,,,,,ACTIVE
+OCP UNIT,23,,construction,Cemento Pórtland con filler calcáreo,,,,,ACTIVE
+OCP UNIT,24,,other_manufacturing,UNIT 1064:2000,,,,,ACTIVE
+OCP UNIT,25,,other_manufacturing,UNIT-NM 76:1998,,,,,ACTIVE
+OCP UNIT,26,,construction,Cemento Pórtland puzolánico UNIT 514:2009 Decreto 097/019,,,,,ACTIVE
+OCP UNIT,27,,other_manufacturing,UNIT-NM 65:2004 Decreto 277/019,,,,,ACTIVE
+OCP UNIT,28,,other_manufacturing,UNIT-ISO 679:2009 Decreto 29/021,,,,ISO 679,ACTIVE
+OCP UNIT,29,,construction,Cemento Pórtland con escoria UNIT-NM 18:2012,,,,,ACTIVE
+OCP UNIT,30,,other_manufacturing,UNIT-NM 15:2012,,,,,ACTIVE
+OCP UNIT,31,,other_manufacturing,UNIT-NM 16:2012,,,,,ACTIVE
+OCP UNIT,32,,construction,Cemento Pórtland compuesto UNIT-NM 14:2012,,,,,ACTIVE
+OCP UNIT,33,,other_manufacturing,UNIT 1013:2015,,,,,ACTIVE
+OCP UNIT,34,,other_manufacturing,UNIT-NM 19:2012,,,,,ACTIVE
+OCP UNIT,35,,construction,Cemento Pórtland de alta resistencia inicial,,,,,ACTIVE
+OCP UNIT,36,,other_manufacturing,UNIT-NM 201:2004,,,,,ACTIVE
+OCP UNIT,37,,other_manufacturing,(ARI),,,,,ACTIVE
+OCP UNIT,38,,other_manufacturing,Decreto 097/019,,,,,ACTIVE
+OCP UNIT,39,,construction,Cemento Pórtland altamente resistente a,,,,,ACTIVE
+OCP UNIT,40,,other_manufacturing,los sulfatos (ARS),,,,,ACTIVE
+OCP UNIT,41,,construction,Cemento Pórtland moderadamente UNIT-NM 76:1998,,,,,ACTIVE
+OCP UNIT,42,,other_manufacturing,resistente a los sulfatos (MRS) UNIT 514:2009,,,,,ACTIVE
+OCP UNIT,43,,other_manufacturing,UNIT-NM 65:2004,,,,,ACTIVE
+OCP UNIT,44,,other_manufacturing,UNIT-ISO 679:2009,,,,ISO 679,ACTIVE
+OCP UNIT,45,,other_manufacturing,UNIT-NM 18:2012,,,,,ACTIVE
+OCP UNIT,46,,other_manufacturing,UNIT-NM 14:2012,,,,,ACTIVE
+OCP UNIT,47,,other_manufacturing,UNIT 1083:2003,,,,,ACTIVE
+OCP UNIT,48,,other_manufacturing,UNIT 514:2009,,,,,ACTIVE
+OCP UNIT,49,,other_manufacturing,UNIT-NM 65:2004 Decreto 097/019,,,,,ACTIVE
+OCP UNIT,50,,construction,Cemento Pórtland de bajo calor de,,,,,ACTIVE
+OCP UNIT,51,,other_manufacturing,UNIT-ISO 679:2009 Decreto 277/019,,,,ISO 679,ACTIVE
+OCP UNIT,52,,other_manufacturing,hidratación (BCH),,,,,ACTIVE
+OCP UNIT,53,,other_manufacturing,UNIT-NM 18:2012 Decreto 29/021,,,,,ACTIVE
+OCP UNIT,54,,other_manufacturing,UNIT 326:1998,,,,,ACTIVE
+OCP UNIT,55,,construction,Cemento Pórtland resistente a la reacción,,,,,ACTIVE
+OCP UNIT,56,,construction,álcali-agregado (RRAA),,,,,ACTIVE
+OCP UNIT,57,,other_manufacturing,UNIT 1086:2003,,,,,ACTIVE
+OCP UNIT,58,,construction,Cemento Pórtland blanco (B) UNIT-ISO 679:2009 Decreto 277/019,,,,ISO 679,ACTIVE
+OCP UNIT,59,,other_manufacturing,UNIT-NM 3:2000,,,,,ACTIVE
+OCP UNIT,60,,other_manufacturing,CHATARRA,,,,,ACTIVE
+OCP UNIT,61,,other_manufacturing,Decreto 136/013 (Publicado D.O.,,,,,ACTIVE
+OCP UNIT,62,,other_manufacturing,9/5/2013). Erratas (23/5/2013).,,,,,ACTIVE
+OCP UNIT,63,,other_manufacturing,Chatarra de acero inoxidable magnética y no,,,,,ACTIVE
+OCP UNIT,64,,other_manufacturing,O/D No. 34/2013 de la Dirección CP/CH 001 Rev. 4,,,,,ACTIVE
+OCP UNIT,65,,other_manufacturing,magnética.,,,,,ACTIVE
+OCP UNIT,66,,other_manufacturing,"Nacional de Aduanas, sobre",,,,,ACTIVE
+OCP UNIT,67,,other_manufacturing,procedimiento de exportación de,,,,,ACTIVE
+OCP UNIT,68,,other_manufacturing,chatarra de acero inoxidable magnética,,,,,ACTIVE
+OCP UNIT,69,,other_manufacturing,y no magnética. (10/6/2013).,,,,,ACTIVE
+OCP UNIT,70,,electrical,SEGURIDAD – EQUIPAMIENTO ELÉCTRICO DE BAJA TENSIÓN,,,,,ACTIVE
+OCP UNIT,71,,energy,Calentadores de agua de acumulación UNIT-IEC 60335-2-21:2012,,,,IEC 60335-2-21,ACTIVE
+OCP UNIT,72,,other_manufacturing,Reglamento de Seguridad de Productos,,,,,ACTIVE
+OCP UNIT,73,,electrical,Eléctricos de Baja Tensión aprobado por,,,,,ACTIVE
+OCP UNIT,74,,energy,"Calentadores de agua instantáneos UNIT-IEC 60335-2-35:2012 la Resolución de la URSEA Nº 131/009,",,,,IEC 60335-2-35,ACTIVE
+OCP UNIT,75,,other_manufacturing,"con posteriores modificaciones, recogido",,,,,ACTIVE
+OCP UNIT,76,,electrical,en “ENERGÍA ELÉCTRICA – Texto,,,,,ACTIVE
+OCP UNIT,77,,electrical,Interruptores automáticos para instalaciones Ordenado de Resoluciones de URSEA.,,,,,ACTIVE
+OCP UNIT,78,,other_manufacturing,domésticas y análogas para la protección UNIT-NM 60898:2004 Versión Julio 2022 – Libro IV” Título III,,,,,ACTIVE
+OCP UNIT,79,,other_manufacturing,contra sobrecorrientes Artículo 14. Vigente hasta 06/02/25,,,,,ACTIVE
+OCP UNIT,80,,electrical,Interruptores automáticos de corriente,,,,,ACTIVE
+OCP UNIT,81,,other_manufacturing,UNIT-NM 61008-2-1:2005,,,,,ACTIVE
+OCP UNIT,82,,other_manufacturing,diferencial para instalaciones domésticas y – Reglamento de Seguridad de Productos,,,,,ACTIVE
+OCP UNIT,83,,electrical,IEC 61009-1:2006,,,,IEC 61009-1,ACTIVE
+OCP UNIT,84,,electrical,análogas Eléctricos de Baja Tensión aprobado por,,,,,ACTIVE
+OCP UNIT,85,,other_manufacturing,la Resolución de la URSEA Nº 078/024,,,,,ACTIVE
+OCP UNIT,86,,other_manufacturing,"Título III. Artículo 14 ítems a), b) y c) de",,,,,ACTIVE
+OCP UNIT,87,,other_manufacturing,fecha 06/02/24 vigente a partir del,,,,,ACTIVE
+OCP UNIT,88,,electrical,Interruptores NM 60669-1:2004,,,,,ACTIVE
+OCP UNIT,89,,other_manufacturing,07/02/25.,,,,,ACTIVE
+OCP UNIT,90,,electrical,Fichas y Tomacorrientes para usos domésticos,,,,,ACTIVE
+OCP UNIT,91,,other_manufacturing,UNIT-NM 60884-1:2009,,,,,ACTIVE
+OCP UNIT,92,,other_manufacturing,y análogos,,,,,ACTIVE
+OCP UNIT,93,,other_manufacturing,Sistemas de conductos para la conducción de,,,,,ACTIVE
+OCP UNIT,94,,electrical,cables. Diámetros exteriores de los conductos,,,,,ACTIVE
+OCP UNIT,95,,electrical,UNIT-IEC 60423:2007,,,,IEC 60423,ACTIVE
+OCP UNIT,96,,electrical,para instalaciones eléctricas y roscas para,,,,,ACTIVE
+OCP UNIT,97,,other_manufacturing,conductos y accesorios.,,,,,ACTIVE
+OCP UNIT,98,,electrical,Cables aislados con policloruro de vinilo (PVC),,,,,ACTIVE
+OCP UNIT,99,,wood_paper,"para tensiones nominales hasta 450/750 V,",,,,,ACTIVE
+OCP UNIT,100,,other_manufacturing,NM 247-1:2000,,,,,ACTIVE
+OCP UNIT,101,,wood_paper,inclusive – Parte 1 – Requisitos generales (IEC,,,,,ACTIVE
+OCP UNIT,102,,other_manufacturing,"60227-1, MOD).",,,,,ACTIVE
+OCP UNIT,103,,other_manufacturing,"la Resolución de la URSEA Nº 131/009,",,,,,ACTIVE
+OCP UNIT,104,,electrical,NM 247-2:2000 en “ENERGÍA ELÉCTRICA – Texto,,,,,ACTIVE
+OCP UNIT,105,,other_manufacturing,inclusive – Parte 2 – Métodos de ensayos (IEC,,,,,ACTIVE
+OCP UNIT,106,,other_manufacturing,Ordenado de Resoluciones de URSEA.,,,,,ACTIVE
+OCP UNIT,107,,other_manufacturing,"60227-2, MOD).",,,,,ACTIVE
+OCP UNIT,108,,other_manufacturing,Versión Julio 2022 – Libro IV” Anexo V.,,,,,ACTIVE
+OCP UNIT,109,,other_manufacturing,Vigente hasta 06/02/25,,,,,ACTIVE
+OCP UNIT,110,,other_manufacturing,– Reglamento de Seguridad de Productos,,,,,ACTIVE
+OCP UNIT,111,,electrical,inclusive – Parte 3 – Cables unipolares (sin NM 247-3:2002,,,,,ACTIVE
+OCP UNIT,112,,electrical,envoltura) para instalaciones fijas (IEC 60227-,,,,IEC 60227,ACTIVE
+OCP UNIT,113,,other_manufacturing,Anexo V de fecha 06/02/24 vigente a partir,,,,,ACTIVE
+OCP UNIT,114,,other_manufacturing,"3, MOD).",,,,,ACTIVE
+OCP UNIT,115,,other_manufacturing,del 07/02/25.,,,,,ACTIVE
+OCP UNIT,116,,other_manufacturing,NM 247-5:2002,,,,,ACTIVE
+OCP UNIT,117,,electrical,inclusive – Parte 5 – Cables flexibles,,,,,ACTIVE
+OCP UNIT,118,,electrical,"(cordones) (IEC 60227-5, MOD).",,,,IEC 60227-5,ACTIVE
+OCP UNIT,119,,electrical,Cables aislados con compuestos,,,,,ACTIVE
+OCP UNIT,120,,other_manufacturing,elastómericos termofijos para tensiones,,,,,ACTIVE
+OCP UNIT,121,,wood_paper,"nominales hasta 450/750 V, inclusive – Parte 1 NM 287-1:2006",,,,,ACTIVE
+OCP UNIT,122,,electrical,"– Requisitos generales (IEC 60245-1:2003,",,,,IEC 60245-1,ACTIVE
+OCP UNIT,123,,other_manufacturing,MOD),,,,,ACTIVE
+OCP UNIT,124,,wood_paper,"nominales hasta 450/750 V, inclusive – Parte 3",,,,,ACTIVE
+OCP UNIT,125,,other_manufacturing,NM 287-3:2003,,,,,ACTIVE
+OCP UNIT,126,,electrical,– Cables aislados con caucho de siliconas con,,,,,ACTIVE
+OCP UNIT,127,,electrical,"trenza, resistentes al calor (IEC 60245-3,",,,,IEC 60245-3,ACTIVE
+OCP UNIT,128,,wood_paper,"nominales hasta 450/750 V, inclusive – Parte 4 NM 287-4:2006",,,,,ACTIVE
+OCP UNIT,129,,electrical,"– Cordones y cables flexibles (IEC 60245-4,",,,,IEC 60245-4,ACTIVE
+OCP UNIT,130,,electrical,Cables flexibles aislados con caucho de,,,,,ACTIVE
+OCP UNIT,131,,other_manufacturing,siliconas unipolares sin envoltura y,,,,,ACTIVE
+OCP UNIT,132,,other_manufacturing,"multipolares con envoltura, resistentes al calor, NM 274:2002",,,,,ACTIVE
+OCP UNIT,133,,other_manufacturing,inclusive,,,,,ACTIVE
+OCP UNIT,134,,electrical,"Conductores de cables aislados (IEC 60228,",,,,IEC 60228,ACTIVE
+OCP UNIT,135,,other_manufacturing,NM 280:2002,,,,,ACTIVE
+OCP UNIT,136,,electrical,Cables con aislación de PVC para tensión,,,,,ACTIVE
+OCP UNIT,137,,electrical,nominal 300/500 V. Cables con envoltura para UNIT 2474:2011,,,,,ACTIVE
+OCP UNIT,138,,other_manufacturing,instalaciones fijas,,,,,ACTIVE
+OCP UNIT,139,,electrical,Portalámparas con rosca Edison UNIT-IEC 60238:2004 Reglamento de Seguridad de Productos,,,,IEC 60238,ACTIVE
+OCP UNIT,140,,electrical,"Portalámparas para lámparas fluorescentes la Resolución de la URSEA Nº 131/009,",,,,,ACTIVE
+OCP UNIT,141,,electrical,"tubulares y portacebadores UNIT-IEC 60400:1999 con posteriores modificaciones, recogido",,,,IEC 60400,ACTIVE
+OCP UNIT,142,,electrical,Prolongadores de enrollar UNIT-IEC 61242:1995,,,,IEC 61242,ACTIVE
+OCP UNIT,143,,other_manufacturing,Versión Julio 2022 – Libro IV” Título III.,,,,,ACTIVE
+OCP UNIT,144,,other_manufacturing,Articulo 14,,,,,ACTIVE
+OCP UNIT,145,,electrical,Prolongadores UNIT-IEC 60884-2-7:2011,,,,IEC 60884-2-7,ACTIVE
+OCP UNIT,146,,electrical,Adaptadores UNIT-IEC 60884-2-5:2004 la Resolución de la URSEA Nº 078/024,,,,IEC 60884-2-5,ACTIVE
+OCP UNIT,147,,other_manufacturing,Título III de fecha 06/02/24 Artículo 14,,,,,ACTIVE
+OCP UNIT,148,,electrical,"Cajas y envolventes de dispositivos para ítems a), b) y c) vigente a partir del",,,,,ACTIVE
+OCP UNIT,149,,electrical,instalaciones eléctricas fijas y análogas. Parte UNIT-IEC 60670-1:2002+Amd 1:2011 07/02/25,,,,IEC 60670-1,ACTIVE
+OCP UNIT,150,,wood_paper,1: Requisitos Generales,,,,,ACTIVE
+OCP UNIT,151,,electrical,Cajas y envolventes de dispositivos para,,,,,ACTIVE
+OCP UNIT,152,,electrical,instalaciones eléctricas fijas y análogas. Parte,,,,,ACTIVE
+OCP UNIT,153,,other_manufacturing,Resolución 368/023 (para SAVE),,,,,ACTIVE
+OCP UNIT,154,,electrical,21: Requisitos particulares para cajas y UNIT-IEC 60670-21:2004,,,,IEC 60670-21,ACTIVE
+OCP UNIT,155,,electrical,envolventes previstas para medios de,,,,,ACTIVE
+OCP UNIT,156,,other_manufacturing,suspensión.,,,,,ACTIVE
+OCP UNIT,157,,electrical,UNIT-IEC 60670-22:2003,,,,IEC 60670-22,ACTIVE
+OCP UNIT,158,,other_manufacturing,22: Requisitos particulares para cajas y,,,,,ACTIVE
+OCP UNIT,159,,electrical,envolventes de conexión.,,,,,ACTIVE
+OCP UNIT,160,,electrical,UNIT-IEC 60670-23:2006,,,,IEC 60670-23,ACTIVE
+OCP UNIT,161,,other_manufacturing,23: Requisitos particulares para cajas y,,,,,ACTIVE
+OCP UNIT,162,,electrical,envolventes de piso.,,,,,ACTIVE
+OCP UNIT,163,,electrical,instalaciones eléctricas fijas domésticas y,,,,,ACTIVE
+OCP UNIT,164,,electrical,análogas. Parte 24: Requisitos particulares UNIT-IEC 60670-24:2011,,,,IEC 60670-24,ACTIVE
+OCP UNIT,165,,electrical,para envolventes de dispositivos de protección,,,,,ACTIVE
+OCP UNIT,166,,other_manufacturing,y dispositivos similares que disipan potencia.,,,,,ACTIVE
+OCP UNIT,167,,electrical,cables. Parte 1: Requisitos generales. UNIT-IEC 61386-1:2008,,,,IEC 61386-1,ACTIVE
+OCP UNIT,168,,electrical,cables. Parte 21: Requisitos particulares. UNIT-IEC 61386-21:2002,,,,IEC 61386-21,ACTIVE
+OCP UNIT,169,,other_manufacturing,Sistemas de conductos rígidos.,,,,,ACTIVE
+OCP UNIT,170,,electrical,cables. Parte 22: Requisitos particulares. UNIT-IEC 61386-22:2002,,,,IEC 61386-22,ACTIVE
+OCP UNIT,171,,wood_paper,Sistemas de conductos plegables.,,,,,ACTIVE
+OCP UNIT,172,,electrical,cables. Parte 23: Requisitos particulares. UNIT-IEC 61386-23:2002,,,,IEC 61386-23,ACTIVE
+OCP UNIT,173,,wood_paper,Sistemas de conductos flexibles.,,,,,ACTIVE
+OCP UNIT,174,,electrical,cables. Parte 24: Requisitos particulares. UNIT-IEC 61386-24:2004,,,,IEC 61386-24,ACTIVE
+OCP UNIT,175,,other_manufacturing,Sistemas de conductos enterrados.,,,,,ACTIVE
+OCP UNIT,176,,electrical,cables. Parte 25: Requisitos particulares. UNIT-IEC 61386-25:2011,,,,IEC 61386-25,ACTIVE
+OCP UNIT,177,,other_manufacturing,Dispositivos de fijación de conductos.,,,,,ACTIVE
+OCP UNIT,178,,electrical,"Aparatos de refrigeración, eléctricos de uso",,,,,ACTIVE
+OCP UNIT,179,,electrical,UNIT-IEC 60335-2-24:2010,,,,IEC 60335-2-24,ACTIVE
+OCP UNIT,180,,other_manufacturing,doméstico y similar.,,,,,ACTIVE
+OCP UNIT,181,,other_manufacturing,Sistema conductivo de carga para,,,,,ACTIVE
+OCP UNIT,182,,electrical,UNIT-IEC 61851-1:2017,,,,IEC 61851-1,ACTIVE
+OCP UNIT,183,,electrical,vehículos eléctricos – SAVE,,,,,ACTIVE
+OCP UNIT,184,,energy,ETIQUETADO DE EFICIENCIA ENERGÉTICA,,,,,ACTIVE
+OCP UNIT,185,,energy,Calentadores eléctricos de agua de,,,,,ACTIVE
+OCP UNIT,186,,other_manufacturing,UNIT 1157:2011 Decreto 429/009 y Decreto 430/009,,,,,ACTIVE
+OCP UNIT,187,,other_manufacturing,acumulación,,,,,ACTIVE
+OCP UNIT,188,,other_manufacturing,"Decreto 429/009, Decreto 329/010 y",,,,,ACTIVE
+OCP UNIT,189,,other_manufacturing,Aparatos de refrigeración de uso doméstico UNIT 1138:2011,,,,,ACTIVE
+OCP UNIT,190,,other_manufacturing,Resoluciones MIEM 956/011 y 69/012.,,,,,ACTIVE
+OCP UNIT,191,,machinery,Acondicionadores de aire y Bombas de Calor Decretos 429/009 y la Ordenanza 262/014,,,,,ACTIVE
+OCP UNIT,192,,other_manufacturing,UNIT 1170:2009,,,,,ACTIVE
+OCP UNIT,193,,other_manufacturing,de uso doméstico o similar. de MIEM de 28/11/2014.,,,,,ACTIVE
+OCP UNIT,194,,other_manufacturing,Decreto 429/009,,,,,ACTIVE
+OCP UNIT,195,,electrical,"Lámparas LED UNIT 1218:2020 Resolución S/N del MIEM, del 21 de enero",,,,,ACTIVE
+OCP UNIT,196,,other_manufacturing,de 2025,,,,,ACTIVE
+OCP UNIT,197,,energy,GAS LICUADO DE PETROLEO,,,,,ACTIVE
+OCP UNIT,198,,construction,Recipientes portátiles rellenables de acero,,,,,ACTIVE
+OCP UNIT,199,,other_manufacturing,UNIT 1096: 2022,,,,,ACTIVE
+OCP UNIT,200,,energy,soldados para gas licuado de petróleo (GLP). Esquema tipo 5 Basado en la Norma,,,,,ACTIVE
+OCP UNIT,201,,other_manufacturing,Resolución URSEA,,,,,ACTIVE
+OCP UNIT,202,,other_manufacturing,Nº 338/024,,,,,ACTIVE
+OCP UNIT,203,,other_manufacturing,reacondicionamiento y recalificación.,,,,,ACTIVE
+OCP UNIT,204,,other_manufacturing,UNIT-ISO 11623:2015,,,,ISO 11623,ACTIVE
+OCP UNIT,205,,energy,Cilindros de gas-Construcción compuesta- Esquema tipo 5 Basado en la Norma,,,,,ACTIVE
+OCP UNIT,206,,other_manufacturing,SEGURIDAD – GASODOMESTICOS,,,,,ACTIVE
+OCP UNIT,207,,construction,Recipientes portátiles rellenables de acero soldados,,,,,ACTIVE
+OCP UNIT,208,,energy,"para Gas Licuado de petróleo (GLP)- Microgarrafas, UNIT 1094:2017",,,,,ACTIVE
+OCP UNIT,209,,energy,garrafas y cilindros - Diseño y construcción,,,,,ACTIVE
+OCP UNIT,210,,energy,Cilindros de gas. Cilindros y tubos de gas compuestos,,,,,ACTIVE
+OCP UNIT,211,,energy,rellenables. Parte 3: Cilindros y tubos compuestos hasta,,,,,ACTIVE
+OCP UNIT,212,,other_manufacturing,"450lm totalmente envueltos y reforzados con fibra, con UNIT-ISO 11119-3:2013",,,,ISO 11119-3,ACTIVE
+OCP UNIT,213,,other_manufacturing,camisa metálicas o no metálicas que no comparte la,,,,,ACTIVE
+OCP UNIT,214,,other_manufacturing,carga,,,,,ACTIVE
+OCP UNIT,215,,construction,Recipientes portátiles rellenables de acero soldado para,,,,,ACTIVE
+OCP UNIT,216,,energy,gas licuado de petróleo (GLP). Diseño y construcción UNIT 1194:2011,,,,,ACTIVE
+OCP UNIT,217,,other_manufacturing,alternativo.,,,,,ACTIVE
+OCP UNIT,218,,construction,Tubos flexibles de policloruro de vinilo (PVC) para uso,,,,,ACTIVE
+OCP UNIT,219,,energy,"en conexiones para gases licuados de petróleo, a baja UNIT 952:2017",,,,,ACTIVE
+OCP UNIT,220,,other_manufacturing,presión,,,,,ACTIVE
+OCP UNIT,221,,wood_paper,Tubos flexibles de elastómeros para uso en conexiones,,,,,ACTIVE
+OCP UNIT,222,,other_manufacturing,UNIT 1209:2013,,,,,ACTIVE
+OCP UNIT,223,,other_manufacturing,para gas Características y métodos de ensayo,,,,,ACTIVE
+OCP UNIT,224,,machinery,"Válvulas de cierre destinadas a recipientes de GLP,",,,,,ACTIVE
+OCP UNIT,225,,energy,"propano comercial, butano comercial o sus mezclas- UNIT 319:2018",,,,,ACTIVE
+OCP UNIT,226,,other_manufacturing,Requisitos y métodos de ensayo (Para 13 kg),,,,,ACTIVE
+OCP UNIT,227,,machinery,Válvulas para microgarrafas y garrafas para GLP,,,,,ACTIVE
+OCP UNIT,228,,other_manufacturing,UNIT 1008:2002,,,,,ACTIVE
+OCP UNIT,229,,energy,"(supergás), propano comercial y /o butano comercial",,,,,ACTIVE
+OCP UNIT,230,,machinery,Válvulas de accionamiento manual destinadas a,,,,,ACTIVE
+OCP UNIT,231,,energy,"cilindros de acero para GLP (supergas), propano Reglamento de Seguridad de Gasodomésticos,",,,,,ACTIVE
+OCP UNIT,232,,energy,"comercial, butano comercial, o sus mezclas. Requisitos UNIT 1036:1999 Recipientes Portátiles y sus Accesorios para",,,,,ACTIVE
+OCP UNIT,233,,wood_paper,generales de fabricación y métodos de ensayo GLP y Gas Natural y sus Anexos según,,,,,ACTIVE
+OCP UNIT,234,,other_manufacturing,Resolución 151/021 y complementarias de la,,,,,ACTIVE
+OCP UNIT,235,,other_manufacturing,Reguladores de reglaje fijo para presiones de salida,,,,,ACTIVE
+OCP UNIT,236,,other_manufacturing,Unidad Reguladora de Servicios de Energía y,,,,,ACTIVE
+OCP UNIT,237,,wood_paper,"inferiores o iguales a 200 mbar, de caudal inferior o",,,,,ACTIVE
+OCP UNIT,238,,other_manufacturing,Agua (URSEA),,,,,ACTIVE
+OCP UNIT,239,,other_manufacturing,"igual a 4kg/h, incluidos los dispositivos de seguridad",,,,,ACTIVE
+OCP UNIT,240,,other_manufacturing,"UNIT 1072:2016 Título III, artículo 15 ítem a), b) y c)",,,,,ACTIVE
+OCP UNIT,241,,energy,incorporados en ellos destinados a utilizar Butano,,,,,ACTIVE
+OCP UNIT,242,,energy,"comercial, Propano comercial, o sus mezclas (para",,,,,ACTIVE
+OCP UNIT,243,,other_manufacturing,garrafas de 13 kg),,,,,ACTIVE
+OCP UNIT,244,,other_manufacturing,"Reguladores de presión inversores automáticos, con",,,,,ACTIVE
+OCP UNIT,245,,other_manufacturing,"una presión máxima de salida de 4 bar, con un flujo",,,,,ACTIVE
+OCP UNIT,246,,other_manufacturing,"máximo de 150 kg/h, dispositivos de seguridad UNIT 1225:2015",,,,,ACTIVE
+OCP UNIT,247,,energy,"asociados y adaptadores para butano, propano y sus",,,,,ACTIVE
+OCP UNIT,248,,wood_paper,mezclas.,,,,,ACTIVE
+OCP UNIT,249,,other_manufacturing,Regulamento,,,,,ACTIVE
+OCP UNIT,250,,energy,Calentadores de agua instantáneos de uso domésticos,,,,,ACTIVE
+OCP UNIT,251,,other_manufacturing,MERCOSUR/GMC/RES.,,,,,ACTIVE
+OCP UNIT,252,,energy,que usan gas como combustible.,,,,,ACTIVE
+OCP UNIT,253,,other_manufacturing,Nº 06/18,,,,,ACTIVE
+OCP UNIT,254,,other_manufacturing,"Aparatos de calefacción independientes, de combustión",,,,,ACTIVE
+OCP UNIT,255,,energy,"por llama, que utilizan gases licuados de petróleo, no UNIT 953:1994",,,,,ACTIVE
+OCP UNIT,256,,other_manufacturing,conectados a un conducto de evacuación.,,,,,ACTIVE
+OCP UNIT,257,,energy,Calentadores de agua por acumulación de,,,,,ACTIVE
+OCP UNIT,258,,other_manufacturing,UNIT 1126-1:2008,,,,,ACTIVE
+OCP UNIT,259,,other_manufacturing,funcionamiento a gas. Parte 1: Desempeño y seguridad.,,,,,ACTIVE
+OCP UNIT,260,,other_manufacturing,Artefactos domésticos de cocción a gas. Parte1:,,,,,ACTIVE
+OCP UNIT,261,,other_manufacturing,UNIT 1161-1:2007,,,,,ACTIVE
+OCP UNIT,262,,other_manufacturing,Desempeño y seguridad.,,,,,ACTIVE
+OCP UNIT,263,,other_manufacturing,Dispositivos sensores de la salida de los productos de,,,,,ACTIVE
+OCP UNIT,264,,other_manufacturing,la combustión instalados en artefactos para uso,,,,,ACTIVE
+OCP UNIT,265,,other_manufacturing,Nº 04/18,,,,,ACTIVE
+OCP UNIT,266,,other_manufacturing,doméstico.,,,,,ACTIVE
+OCP UNIT,267,,other_manufacturing,Dispositivos sensores de atmosferas instalados en MERCOSUR/GMC/RES.,,,,,ACTIVE
+OCP UNIT,268,,other_manufacturing,artefactos para uso doméstico. Nº 05/18,,,,,ACTIVE
+OCP UNIT,269,,energy,"por llama, que utilizan gases licuados de petróleo, no UNIT 953:2023",,,,,ACTIVE

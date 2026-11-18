@@ -1,0 +1,236 @@
+certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_text,normative_docs,standard_refs,status
+NAH-6-0005/2024/K,1,,metals,1. ipari berendezések és hegesztéstechnológia,,,,,ACTIVE
+NAH-6-0005/2024/K,2,,other_manufacturing,2. építési termékek,,,,,ACTIVE
+NAH-6-0005/2024/K,3,,other_manufacturing,3. bútorok,,,,,ACTIVE
+NAH-6-0005/2024/K,4,,machinery,4. gépek,,,,,ACTIVE
+NAH-6-0005/2024/K,5,,other_manufacturing,5. felvonók,,,,,ACTIVE
+NAH-6-0005/2024/K,6,,machinery,6. nyomástartó berendezések és rendszerek,,,,,ACTIVE
+NAH-6-0005/2024/K,7,,other_manufacturing,7. mutatványos és szórakoztató berendezések,,,,,ACTIVE
+NAH-6-0005/2024/K,8,,other_manufacturing,"8. I. veszélyességi osztályú, sportcélú szórakoztató berendezések/létesítmények",,,,,ACTIVE
+NAH-6-0005/2024/K,9,,other_manufacturing,9. játszótéri eszközök,,,,,ACTIVE
+NAH-6-0005/2024/K,10,,machinery,"10. építő-, emelő-, anyagmozgatógépek tanúsítása rugalmas területre.",,,,,ACTIVE
+NAH-6-0012/2024,1,EU Organic Regulation (EU) 2018/848,,"• feldolgozatlan növények és növényi termékek, beleértve a vetőmagokat és egyéb növényi szaporítóanyagokat is,",,Az ökológiai termelésről és az ökológiai termékek jelöléséről szóló (EU) 2018/848 rendelet szerinti,,,ACTIVE
+NAH-6-0012/2024,2,EU Organic Regulation (EU) 2018/848,,"• állatok és feldolgozatlan állati termékek,",,Az ökológiai termelésről és az ökológiai termékek jelöléséről szóló (EU) 2018/848 rendelet szerinti,,,ACTIVE
+NAH-6-0012/2024,3,EU Organic Regulation (EU) 2018/848,,"• algák és feldolgozatlan akvakultúra-termékek,",,Az ökológiai termelésről és az ökológiai termékek jelöléséről szóló (EU) 2018/848 rendelet szerinti,,,ACTIVE
+NAH-6-0012/2024,4,EU Organic Regulation (EU) 2018/848,,"• feldolgozott, élelmiszernek szánt mezőgazdasági termékek, az akvakultúra-termékeket is beleértve,",,Az ökológiai termelésről és az ökológiai termékek jelöléséről szóló (EU) 2018/848 rendelet szerinti,,,ACTIVE
+NAH-6-0012/2024,5,EU Organic Regulation (EU) 2018/848,,"• takarmány,",,Az ökológiai termelésről és az ökológiai termékek jelöléséről szóló (EU) 2018/848 rendelet szerinti,,,ACTIVE
+NAH-6-0012/2024,6,EU Organic Regulation (EU) 2018/848,,"• bor,",,Az ökológiai termelésről és az ökológiai termékek jelöléséről szóló (EU) 2018/848 rendelet szerinti,,,ACTIVE
+NAH-6-0012/2024,7,EU Organic Regulation (EU) 2018/848,,"• az e rendelet I. mellékletében felsorolt, illetve az előbbi kategóriákba nem tartozó egyéb termékek, valamint a",,Az ökológiai termelésről és az ökológiai termékek jelöléséről szóló (EU) 2018/848 rendelet szerinti,,,ACTIVE
+NAH-6-0012/2024,8,EU Organic Regulation (EU) 2018/848,,"• vendéglátó, illetve közétkeztetési tevékenységekből származó termékek,",,Az ökológiai termelésről és az ökológiai termékek jelöléséről szóló (EU) 2018/848 rendelet szerinti,,,ACTIVE
+NAH-6-0012/2024,9,EU Organic Regulation (EU) 2018/848,,• kozmetikai termékek tanúsítása területre.,,Az ökológiai termelésről és az ökológiai termékek jelöléséről szóló (EU) 2018/848 rendelet szerinti,,,ACTIVE
+NAH-6-0020/2026,1,EU Organic Regulation (EU) 2018/848,,"a) feldolgozatlan növények és növényi termékek, beleértve a vetőmagokat és egyéb növényi szaporítóanyagokat is;",,Az ökológiai termelésről és az ökológiai termékek jelöléséről szóló (EU) 2018/848 rendelet szerinti,,,ACTIVE
+NAH-6-0020/2026,2,EU Organic Regulation (EU) 2018/848,,b) állatok és feldolgozatlan állati termékek;,,Az ökológiai termelésről és az ökológiai termékek jelöléséről szóló (EU) 2018/848 rendelet szerinti,,,ACTIVE
+NAH-6-0020/2026,3,EU Organic Regulation (EU) 2018/848,,c) algák és feldolgozatlan akvakultúra-termékek;,,Az ökológiai termelésről és az ökológiai termékek jelöléséről szóló (EU) 2018/848 rendelet szerinti,,,ACTIVE
+NAH-6-0020/2026,4,EU Organic Regulation (EU) 2018/848,,"d) feldolgozott, élelmiszernek szánt mezőgazdasági termékek, az akvakultúra-termékeket is bele- értve;",,Az ökológiai termelésről és az ökológiai termékek jelöléséről szóló (EU) 2018/848 rendelet szerinti,,,ACTIVE
+NAH-6-0020/2026,5,EU Organic Regulation (EU) 2018/848,,e) takarmány;,,Az ökológiai termelésről és az ökológiai termékek jelöléséről szóló (EU) 2018/848 rendelet szerinti,,,ACTIVE
+NAH-6-0020/2026,6,EU Organic Regulation (EU) 2018/848,,f) bor;,,Az ökológiai termelésről és az ökológiai termékek jelöléséről szóló (EU) 2018/848 rendelet szerinti,,,ACTIVE
+NAH-6-0020/2026,7,EU Organic Regulation (EU) 2018/848,,"g) az (EU) 2018/848 rendelet I. mellékletében felsorolt, illetve az előbbi kategóriákba nem tartozó egyéb terméke területekre.",,Az ökológiai termelésről és az ökológiai termékek jelöléséről szóló (EU) 2018/848 rendelet szerinti,,,ACTIVE
+NAH-6-0024/2024/K,1,,energy,"• cseppfolyósított szénhidrogéngázok (propángáz, butángáz, energetikai célú pébégáz),",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 18/2018. (IX. 20.) ITM rendelet 2. §--nak való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0024/2024/K,2,,construction,"• cseppfolyósított szénhidrogéngázok (pébégáz, motorhajtóanyag),",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 18/2018. (IX. 20.) ITM rendelet 2. §--nak való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0024/2024/K,3,,other_manufacturing,"• repülőbenzinek (RB 80, RB 100, RB 100LL),",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 18/2018. (IX. 20.) ITM rendelet 2. §--nak való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0024/2024/K,4,,other_manufacturing,"• speciális benzinek (60/95, 80/110),",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 18/2018. (IX. 20.) ITM rendelet 2. §--nak való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0024/2024/K,5,,chemicals,"• lakkbenzin (150/200, 180/220),",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 18/2018. (IX. 20.) ITM rendelet 2. §--nak való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0024/2024/K,6,,chemicals,"• aromásanyag-mentesített lakkbenzin (AM 150/200, AM 180/220),",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 18/2018. (IX. 20.) ITM rendelet 2. §--nak való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0024/2024/K,7,,other_manufacturing,"• benzol, ipari",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 18/2018. (IX. 20.) ITM rendelet 2. §--nak való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0024/2024/K,8,,other_manufacturing,"• toluol, ipari",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 18/2018. (IX. 20.) ITM rendelet 2. §--nak való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0024/2024/K,9,,other_manufacturing,"• xilolelegy, ipari",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 18/2018. (IX. 20.) ITM rendelet 2. §--nak való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0024/2024/K,10,,other_manufacturing,"• orto-xilol, petrolkémiai",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 18/2018. (IX. 20.) ITM rendelet 2. §--nak való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0024/2024/K,11,,other_manufacturing,"• petróleum,",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 18/2018. (IX. 20.) ITM rendelet 2. §--nak való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0024/2024/K,12,,transport_equipment,"• gázturbinás légi járművek hajtóanyaga (JET-A1),",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 18/2018. (IX. 20.) ITM rendelet 2. §--nak való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0024/2024/K,13,,other_manufacturing,"• ólmozatlan motorbenzin,",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 18/2018. (IX. 20.) ITM rendelet 2. §--nak való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0024/2024/K,14,,other_manufacturing,"• dízelgázolaj,",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 18/2018. (IX. 20.) ITM rendelet 2. §--nak való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0024/2024/K,15,,other_manufacturing,"• tüzelőolaj (Tü 5/20),",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 18/2018. (IX. 20.) ITM rendelet 2. §--nak való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0024/2024/K,16,,wood_paper,"• fűtőolaj (FA-60/80, FA-60/120, FA-60/130, FA-90/160, FA-100/200) tanúsítása rugalmas területre.",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 18/2018. (IX. 20.) ITM rendelet 2. §--nak való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0027/2022/K,1,ATEX Directive 2014/34/EU,,1. a 35/2016 (IX.27.) NGM rendelet (2014/34/EU irányelv) szerinti potenciálisan robbanásveszélyes környezetben történő alkalmazásra szánt berendezések és védelmi rendszerek tanúsítása területre.,,,,,ACTIVE
+NAH-6-0032/2023,1,,other_manufacturing,1. erősáramú transzformátorok,,,,,ACTIVE
+NAH-6-0032/2023,2,,other_manufacturing,"2. kábelek, kábelrendszerek, tokozott sínek tűzállósági tulajdonságai",,,,,ACTIVE
+NAH-6-0032/2023,3,,other_manufacturing,3. feszültség alatti tűzoltás eszközei,,,,,ACTIVE
+NAH-6-0032/2023,4,,wood_paper,4. atomerőművi környezetállósági tulajdonságok rugalmas területre.,,,,,ACTIVE
+NAH-6-0032/2023,5,,other_manufacturing,1. A Tanúsítási séma megnevezése: DEKRA-TIC-1A (2024.08.26.) 2,,Megjegyzések,,,ACTIVE
+NAH-6-0034/2026/K,1,,ict,"1. informatikai biztonsági funkciókat megvalósító szoftvertermékek és -rendszerek,",,,,,ACTIVE
+NAH-6-0034/2026/K,2,,ict,2. informatikai biztonsági funkciókat megvalósító elektronikus információs rendszerek,,,,,ACTIVE
+NAH-6-0034/2026/K,3,,electrical,"3. zárt elektronikus információs rendszer,",,,,,ACTIVE
+NAH-6-0034/2026/K,4,eIDAS,,"4. eIDAS (910/2014/EU) rendelet szerinti bizalmi szolgáltatások,",,,,,ACTIVE
+NAH-6-0034/2026/K,5,,electrical,"5. elektronikus aláírási termékek,",,,,,ACTIVE
+NAH-6-0034/2026/K,6,,electrical,"6. elektronikus aláírási rendszerek,",,,,,ACTIVE
+NAH-6-0034/2026/K,7,,electrical,"7. papíralapú dokumentumról elektronikus úton történő másolatot készítő rendszerek,",,,,,ACTIVE
+NAH-6-0034/2026/K,8,,other_manufacturing,8. közfeladatot ellátó szerveknél alkalmazható iratkezelési szoftverek,,,,,ACTIVE
+NAH-6-0034/2026/K,9,,other_manufacturing,9. szerencsejáték szervezéséről szóló 1991. évi XXXIV. törvény hatálya alá tartozó rendszerek területre.,,,,,ACTIVE
+NAH-6-0034/2026/K,10,,other_manufacturing,9. ipari rendszerek biztonsága,,,,,ACTIVE
+NAH-6-0034/2026/K,11,,wood_paper,10. digitális archiválást végző szoftverek és alkalmazások területre.,,,,,ACTIVE
+NAH-6-0035/2024/K,1,,construction,"1. vezetékek, kábelek, szigetelőanyagok tanúsítása,",,,,,ACTIVE
+NAH-6-0035/2024/K,2,,machinery,"2. szerelési anyagok, csatlakozók tanúsítása,",,,,,ACTIVE
+NAH-6-0035/2024/K,3,,other_manufacturing,"3. kapcsolók, vezérlők, szabályzók tanúsítása,",,,,,ACTIVE
+NAH-6-0035/2024/K,4,,other_manufacturing,"4. villamos veszélyek elleni védőeszközök tanúsítása,",,,,,ACTIVE
+NAH-6-0035/2024/K,5,,other_manufacturing,"5. háztartási és hasonló jellegű villamos készülékek tanúsítása,",,,,,ACTIVE
+NAH-6-0035/2024/K,6,,other_manufacturing,"6. transzformátorok tanúsítása,",,,,,ACTIVE
+NAH-6-0035/2024/K,7,,transport_equipment,"7. járművek tanúsítása,",,,,,ACTIVE
+NAH-6-0035/2024/K,8,,other_manufacturing,"8. kéziszerszámok tanúsítása,",,,,,ACTIVE
+NAH-6-0035/2024/K,9,,machinery,"9. gépek tanúsítása,",,,,,ACTIVE
+NAH-6-0035/2024/K,10,,other_manufacturing,"10. játszótéri eszközök és játékok tanúsítása,",,,,,ACTIVE
+NAH-6-0035/2024/K,11,,other_manufacturing,"11. mechanikus eszközök tanúsítása,",,,,,ACTIVE
+NAH-6-0035/2024/K,12,,other_manufacturing,"12. világítási eszközök tanúsítása,",,,,,ACTIVE
+NAH-6-0035/2024/K,13,,other_manufacturing,"13. kondenzátorok tanúsítása,",,,,,ACTIVE
+NAH-6-0035/2024/K,14,,electrical,"14. akkumulátorok, elemek tanúsítása,",,,,,ACTIVE
+NAH-6-0035/2024/K,15,,electrical,"15. elektromágneses összeférhetőség (EMC) tanúsítása,",,,,,ACTIVE
+NAH-6-0035/2024/K,16,,electrical,"16. elektromágneses tér (EMF) tanúsítása,",,,,,ACTIVE
+NAH-6-0035/2024/K,17,,other_manufacturing,"17. orvosi készülékek tanúsítása,",,,,,ACTIVE
+NAH-6-0035/2024/K,18,,electrical,18. elektronikai készülékek tanúsítása,,,,,ACTIVE
+NAH-6-0035/2024/K,19,,wood_paper,19. rádióberendezések B modul szerinti tanúsítása rugalmas területre.,,,,,ACTIVE
+NAH-6-0048/2023,1,,ict,"1. informatikai biztonsági funkciókat megvalósító szoftver termékek,",,,,,ACTIVE
+NAH-6-0048/2023,2,,ict,"2. informatikai biztonsági funkciókat megvalósító elektronikus információs rendszerek,",,,,,ACTIVE
+NAH-6-0048/2023,3,,electrical,"3. zárt elektronikus információs rendszerek,",,,,,ACTIVE
+NAH-6-0048/2023,4,,other_manufacturing,"4. digitális archiválást végző alkalmazások,",,,,,ACTIVE
+NAH-6-0048/2023,5,,electrical,"5. papíralapú dokumentumról elektronikus úton történő másolatot készítő rendszerek,",,,,,ACTIVE
+NAH-6-0048/2023,6,,electrical,"6. elektronikus aláírási termékek,",,,,,ACTIVE
+NAH-6-0048/2023,7,,electrical,7. elektronikus aláírási rendszerek,,,,,ACTIVE
+NAH-6-0048/2023,8,eIDAS,,"8. 910/2014/EU rendelet szerinti bizalmi szolgáltatást lehetővé tevő rendszerek, elektronikus aláírások és infrastruktúrák",,,,,ACTIVE
+NAH-6-0048/2023,9,,ict,9. V2X PKI szolgáltatást megvalósító rendszerek,,,,,ACTIVE
+NAH-6-0048/2023,10,,other_manufacturing,10. a szerencsejáték szervezéséről szóló 1991. évi XXXIV. törvény hatálya alá tartozó rendszerek területre.,,,,,ACTIVE
+NAH-6-0048/2023,11,eIDAS,,1. A 910/2014/EU (eIDAS) rendelet szerinti tanúsítás esetén.,,Megjegyzések,,,ACTIVE
+NAH-6-0048/2023,12,,other_manufacturing,2. Tanúsítási séma megnevezése: HUNG_TMK-2-termek_20230109,,Megjegyzések,,,ACTIVE
+NAH-6-0048/2023,13,,other_manufacturing,"3. Tanúsítási séma megnevezése: HUNG_TMK-2-rendszer_20251110 5,8",,Megjegyzések,,,ACTIVE
+NAH-6-0048/2023,14,eIDAS,,4. Tanúsítási séma megnevezése: HUNG_TMK-2-eIDAS_20240802,,Megjegyzések,,,ACTIVE
+NAH-6-0052/2023/K,1,,ict,1. informatikai biztonsági funkciókat megvalósító szoftvertermékek,,Az MSZ EN ISO/IEC 17065:2013 szabványnak való megfelelőséget igazoló nem kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0052/2023/K,2,,ict,2. informatikai biztonsági funkciókat megvalósító elektronikus információs rendszerek,,Az MSZ EN ISO/IEC 17065:2013 szabványnak való megfelelőséget igazoló nem kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0052/2023/K,3,,electrical,3. zárt elektronikus információs rendszer,,Az MSZ EN ISO/IEC 17065:2013 szabványnak való megfelelőséget igazoló nem kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0052/2023/K,4,,other_manufacturing,4. digitális archiválást végző szoftverek és alkalmazások,,Az MSZ EN ISO/IEC 17065:2013 szabványnak való megfelelőséget igazoló nem kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0052/2023/K,5,,electrical,5. papíralapú dokumentumról elektronikus úton történő másolatot készítő rendszerek,,Az MSZ EN ISO/IEC 17065:2013 szabványnak való megfelelőséget igazoló nem kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0052/2023/K,6,eIDAS,,8. közfeladatot ellátó szerveknél alkalmazható iratkezelési szoftverek területre.,,"7. 910/2014/EU rendelet szerinti bizalmi szolgáltatást lehetővé tevő rendszerek, elektronikusaláírások és infrastruktúrák területre, továbbá az MSZ EN ISO/IEC 17065:2013 szabványnak és a 43/2013. (II. 19.) Korm. rendelet 7. és 8. §-ának való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva",,EN ISO/IEC 17065,ACTIVE
+NAH-6-0052/2023/K,7,eIDAS,,1. A 910/2014/EU (eIDAS) rendelet szerinti tanúsítás esetén.,,Megjegyzések,,,ACTIVE
+NAH-6-0052/2023/K,8,,other_manufacturing,2. Tanúsítási program/séma megnevezése: FL-03,,Megjegyzések,,,ACTIVE
+NAH-6-0052/2023/K,9,,other_manufacturing,3. Tanúsítási program/séma megnevezése: FL-04,,Megjegyzések,,,ACTIVE
+NAH-6-0052/2023/K,10,,other_manufacturing,4. Tanúsítási program/séma megnevezése: FL-05,,Megjegyzések,,,ACTIVE
+NAH-6-0052/2023/K,11,,other_manufacturing,5. Tanúsítási program/séma megnevezése: FL-06,,Megjegyzések,,,ACTIVE
+NAH-6-0052/2023/K,12,,other_manufacturing,6. Tanúsítási program/séma megnevezése: FL-07,,Megjegyzések,,,ACTIVE
+NAH-6-0052/2023/K,13,,other_manufacturing,7. Tanúsítási program/séma megnevezése: FL-08,,Megjegyzések,,,ACTIVE
+NAH-6-0053/2023/K,1,Construction Products Regulation (EU) 305/2011,,"Az MSZ EN ISO/IEC 17065:2013 szabvány szerint akkreditálva kijelölési céllal a 305/2011/EU rendelet szerinti tűzriasztó, - észlelő, rögzített tűzoltó, tűz- és robbanáselfojtó termékek forgalmi kellékek függönyfalazat fémből készült szerkezeti anyagok és segédanyagok ajtók, ablakok, ablaktáblák, zsaluziák, kapuk és hozzájuk tartozó vasalatok előre gyártott normál/könnyűsúlyú/autoklávozott pórusbeton termékek erőátviteli kábelek, vezérlőkábelek és távközlési kábelek területre.",,,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0054/2024/K,1,,construction,"1. közfeladatot ellátó szervezeteknél alkalmazható iratkezelési szoftverek területre valamint, az MSZ EN ISO/IEC 17065:2013 és az MSZ EN 319 403-1:2020 szabványoknak való megfelelőséget igazoló nem kijelölési célú",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 43/2013. (II. 19.) Korm. rendelet 7. és 8. §-ának való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065;EN 319,ACTIVE
+NAH-6-0054/2024/K,2,eIDAS,,"2. AZ EURÓPAI PARLAMENT ÉS A TANÁCS 910/2014/EU RENDELETE (2014. július 23.) szerinti bizalmi szolgáltatások területre, valamint az MSZ EN ISO/IEC 17065:2013 szabványnak való megfelelőséget igazoló nem kijelölési célú",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 43/2013. (II. 19.) Korm. rendelet 7. és 8. §-ának való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0054/2024/K,3,,ict,3. informatikai biztonsági funkciókat megvalósító szoftver termékek,,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 43/2013. (II. 19.) Korm. rendelet 7. és 8. §-ának való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0054/2024/K,4,,electrical,"4. elektronikus aláírási termékek,",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 43/2013. (II. 19.) Korm. rendelet 7. és 8. §-ának való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0054/2024/K,5,,electrical,"5. elektronikus aláírási rendszerek,",,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 43/2013. (II. 19.) Korm. rendelet 7. és 8. §-ának való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0054/2024/K,6,,ict,6. informatikai biztonsági funkciókat megvalósító elektronikus információs rendszerek,,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 43/2013. (II. 19.) Korm. rendelet 7. és 8. §-ának való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0054/2024/K,7,,electrical,7. zárt elektronikus információs rendszerek,,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 43/2013. (II. 19.) Korm. rendelet 7. és 8. §-ának való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0054/2024/K,8,,other_manufacturing,8. digitális archiválást végző szoftverek és alkalmazások,,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 43/2013. (II. 19.) Korm. rendelet 7. és 8. §-ának való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0054/2024/K,9,,electrical,9. papíralapú dokumentumról elektronikus úton történő másolatot készítő rendszerek,,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 43/2013. (II. 19.) Korm. rendelet 7. és 8. §-ának való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0054/2024/K,10,,other_manufacturing,10. Szerencsejáték szervezéséről szóló 1991. évi XXXIV. törvény hatálya alá tartozó rendszerek területre.,,Az MSZ EN ISO/IEC 17065:2013 szabványnak és a 43/2013. (II. 19.) Korm. rendelet 7. és 8. §-ának való megfelelőséget igazoló kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0054/2024/K,11,,other_manufacturing,1. Tanúsítási séma megnevezése: MATRIX_TS-1 (2024.02.20.),,Megjegyzések,,,ACTIVE
+NAH-6-0054/2024/K,12,,other_manufacturing,2. Tanúsítási séma megnevezése: MATRIX_TS-2 (2024.02.20.),,Megjegyzések,,,ACTIVE
+NAH-6-0054/2024/K,13,,other_manufacturing,3. Tanúsítási séma megnevezése: MATRIX_TS-3 (2024.02.20.),,Megjegyzések,,,ACTIVE
+NAH-6-0054/2024/K,14,,other_manufacturing,4. Tanúsítási séma megnevezése: MATRIX_TS-8 (2024.02.20.),,Megjegyzések,,,ACTIVE
+NAH-6-0057/2024/K,1,Construction Products Regulation (EU) 305/2011,,"• kémények, füstgáz-vezetékek és kapcsolódó termékek,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,2,Construction Products Regulation (EU) 305/2011,,"• tűzriasztó/észlelő, rögzített tűzoltó, tűz és füstérzékelő és robbanáselfojtó termékek,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,3,Construction Products Regulation (EU) 305/2011,,"• forgalmi kellékek,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,4,Construction Products Regulation (EU) 305/2011,,"• geotextíliák,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,5,Construction Products Regulation (EU) 305/2011,,"• szerkezeti fatermékek,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,6,Construction Products Regulation (EU) 305/2011,,"• betonban és falazatban használatos műanyag horgonyok,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,7,Construction Products Regulation (EU) 305/2011,,"• cementek, építőipari mész és más hidraulikus kötőanyagok,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,8,Construction Products Regulation (EU) 305/2011,,"• vakolatos összetett külső hőszigetelő rendszerek / készletek,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,9,Construction Products Regulation (EU) 305/2011,,"• szerkezeti épületfa rögzítőelemek,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,10,Construction Products Regulation (EU) 305/2011,,"• falazat és ezzel kapcsolatos termékek,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,11,Construction Products Regulation (EU) 305/2011,,"• padlóburkolatok,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,12,Construction Products Regulation (EU) 305/2011,,• fémből készült szerkezeti anyagok és segédanyagok,,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,13,Construction Products Regulation (EU) 305/2011,,"• szigetelőanyagokból és néha betonból álló, üreges blokkokból vagy panelekből készült, nem teherhordó bennmaradó zsaluzati készletek / rendszerek,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,14,Construction Products Regulation (EU) 305/2011,,"• tetőfedések, felülvilágítók, tetőtéri ablakok és kiegészítő termékek,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,15,Construction Products Regulation (EU) 305/2011,,"• magas biztonsági követelményű felhasználásokra alkalmazott adalékanyagok,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,16,Construction Products Regulation (EU) 305/2011,,"• előre gyártott lépcsőkészletek,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,17,Construction Products Regulation (EU) 305/2011,,"• vízszigetelő lemezek,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,18,Construction Products Regulation (EU) 305/2011,,"• hőszigetelő anyagok,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,19,Construction Products Regulation (EU) 305/2011,,"• ajtók, ablakok, ablaktáblák, zsaluziák, kapuk és a hozzájuk tartozó vasalatok,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,20,Construction Products Regulation (EU) 305/2011,,"• előre gyártott normál/ könnyűsúlyú/ autoklávozott pórusbeton termékek,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,21,Construction Products Regulation (EU) 305/2011,,"• favázak és gerendák előregyártott épületszerelvényei,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,22,Construction Products Regulation (EU) 305/2011,,"• betonnal, vakoló és falazó habarccsal kapcsolatos termékek,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,23,Construction Products Regulation (EU) 305/2011,,"• síküveg-, profilüveg- és üvegtégla-termékek,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,24,Construction Products Regulation (EU) 305/2011,,"• előregyártott fa alapú teherhordó héjazatú panelek és önhordó kompozit könnyűszerkezetes panelek,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,25,Construction Products Regulation (EU) 305/2011,,"• külső falak burkolati készletei,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,26,Construction Products Regulation (EU) 305/2011,,"• fémvázas épületszerkezeti rendszerek,",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,27,Construction Products Regulation (EU) 305/2011,,"• erőátviteli, vezérlő és távközlési kábelek",,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint a 305/2011/EU rendelethez tartozó alábbi építési termékekre kijelölési célú követelményeknek megfelelően akkreditálva,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0057/2024/K,28,,other_manufacturing,"• szennyvízelvezetési termékek,",,,,,ACTIVE
+NAH-6-0057/2024/K,29,,construction,"• cementek, építőipari mész és más hidraulikus kötőanyagok,",,,,,ACTIVE
+NAH-6-0057/2024/K,30,,construction,"• ajtók, ablakok, ablaktáblák, zsaluziák, kapuk és a hozzájuk tartozó vasalatok,",,,,,ACTIVE
+NAH-6-0057/2024/K,31,,construction,• transzportbeton rugalmas területre.,,,,,ACTIVE
+NAH-6-0060/2024,1,,metals,1. hegesztőüzemi alkalmasság területre.,,,,,ACTIVE
+NAH-6-0061/2026/K,1,,metals,Forgalmi kellékek Közúti berendezések,,,,,ACTIVE
+NAH-6-0061/2026/K,2,,rubber_plastics,"Geotextíliák (1/2) —Geoműanyagok (fóliák és textíliák), geotextíliák, geokompozitok, georácsok, geofóliák és geohálók, a következő célokra alkalmazva: -folyadék vagy gáz visszatartására, -védőrétegként, -vízelvezetésre és/vagy szűrésre, -megerősítésre (Utakban, vasútnál, alapozásban és fal­szerkezetekben, vízelvezető rendszerek­ben, eróziógátló alkalmazásokban, víz­tározókban és gátakban, csatornákban, alagutakban és földalatti szerkezetekben, folyékony hulladék elhelyezésére vagy tárolására, szilárd hulladék tárolására vagy hulladék elhe­lyezésére használnak)",,,,,ACTIVE
+NAH-6-0061/2026/K,3,,construction,"Cementek, építőipari mész és más hid­raulikus kötőanyagok Építőipari mész, beleértve: —Kalcium-meszek —Dolomitos meszek —Hidraulikus meszek (Beton, vakolat, habarcs és más építési keverék készítéséhez és építési termé­kek gyártására)",,,,,ACTIVE
+NAH-6-0061/2026/K,4,,other_manufacturing,"Falazat és ezzel kapcsolatos termékek (1/3): -I. kategóriájú falazategységek (Falakban, oszlopokban és válaszfalakban)",,,,,ACTIVE
+NAH-6-0061/2026/K,5,,other_manufacturing,"Falazat és ezzel kapcsolatos termékek (1/3): Gyárban gyártott, tervezett építészeti habarcsok (Falakban, oszlopokban és válaszfalakban)",,,,,ACTIVE
+NAH-6-0061/2026/K,6,,transport_equipment,"Magas biztonsági követelményű felhasználásokra alkalmazott adalékanyagok (2/2): - Burkoló kövek (Hidraulikus szerkezetekhez és más építőmérnöki munkákhoz való felhasználásra), - Vasúti kavicságyazat (Vasútépítési célokra)",,,,,ACTIVE
+NAH-6-0061/2026/K,7,,construction,Útépítési termékek (1/2) - Bitumenes keverékek (Útépítéshez és utak felületképzéséhez),,,,,ACTIVE
+NAH-6-0061/2026/K,8,,construction,Útépítési termékek (1/2): - Bitumen (Útépítéshez és utak felületképzéséhez),,,,,ACTIVE
+NAH-6-0061/2026/K,9,,construction,Útépítési termékek (1/2): - Felületképzések (Utak felületképzéséhez),,,,,ACTIVE
+NAH-6-0061/2026/K,10,,construction,Útépítési termékek (1/2): - Hídpálya vízszigetelő termékek (Hídpályákhoz történő felhasználásra),,,,,ACTIVE
+NAH-6-0061/2026/K,11,,construction,Vízszigetelő lemezek (1/3): - Talajnedvesség elleni szigetelő lemezek (Épületekben),,,,,ACTIVE
+NAH-6-0061/2026/K,12,,construction,Vízszigetelő lemezek (1/3): - Tetőszigetelő lemezek,,,,,ACTIVE
+NAH-6-0061/2026/K,13,,construction,Előre gyártott normál / könnyűsúlyú / autoklávozott pórusbeton termékek (1/1): - Előre gyártott normál / könnyűsúlyú / autoklávozott pórusbeton termékek (Szerkezeti felhasználásra),,,,,ACTIVE
+NAH-6-0061/2026/K,14,,construction,"Betonnal, vakoló és falazó habarccsal kapcsolatos termékek (1/2): -Szálak (Betonban, habarcsban és cementhabarcsban történő szerkezeti felhasználásra)",,,,,ACTIVE
+NAH-6-0061/2026/K,15,,construction,"Betonnal, vakoló és falazó habarccsal kapcsolatos termékek (1/2): -Betonvédő és javító termékek (Épületekben és építményekben egyéb felhasználásra)",,,,,ACTIVE
+NAH-6-0061/2026/K,16,,construction,Beton,,,,,ACTIVE
+NAH-6-0061/2026/K,17,,other_manufacturing,Útépítési kőanyaghalmazok,,,,,ACTIVE
+NAH-6-0061/2026/K,18,,other_manufacturing,Útpályaszerkezeti aszfaltburkolatok követelményei,,,,,ACTIVE
+NAH-6-0061/2026/K,19,,other_manufacturing,Bitumenes kötőanyagok az útpályaszerkezetek aszfaltburkolati keverékeinek gyártásához,,,,,ACTIVE
+NAH-6-0061/2026/K,20,,other_manufacturing,Kationaktív bitumenemulziók,,,,,ACTIVE
+NAH-6-0061/2026/K,21,,construction,Beton és kompozitburkolatok tervezése és építése,,,,,ACTIVE
+NAH-6-0061/2026/K,22,,other_manufacturing,Kötőanyag nélküli és hidraulikus kötőanyagú burkolatalapok,,,,,ACTIVE
+NAH-6-0061/2026/K,23,,construction,Útépítési termékek - Bitumenes keverékek (Útépítéshez és utak felületképzéséhez),,,,,ACTIVE
+NAH-6-0061/2026/K,24,,construction,Geoszintetikus gátak,,,,,ACTIVE
+NAH-6-0061/2026/K,25,,rubber_plastics,Útépítési termékek (1/2): -Speciális útépítési bitumen -Gumibitumen (Útépítéshez és utak felületképzéséhez),,,,,ACTIVE
+NAH-6-0061/2026/K,26,,construction,"Cementek, építőipari mész és más hidraulikus kötőanyagok Építőipari mész, beleértve: -kalcium-meszek -dolomitos meszek -hidraulikus meszek (Beton, vakolat, habarcs és más építési keverék készítéséhez és építési termékek gyártására)",,,,,ACTIVE
+NAH-6-0061/2026/K,27,,construction,"Betonnal, vakoló és falazó habarcscsal kapcsolatos termékek (1/2): -Betonvédő és javító termékek (Épületekben és építményekben egyéb felhasználásra)",,,,,ACTIVE
+NAH-6-0061/2026/K,28,,transport_equipment,Magas biztonsági követelményű fel-használásokra alkalmazott adalékanyagok (2/2): Vasúti kavicságyazat (12),,,,,ACTIVE
+NAH-6-0062/2023/K,1,,other_manufacturing,"1. a potenciálisan robbanásveszélyes környezetben történő alkalmazásra szánt berendezések és védelmi rendszerek,",,,,,ACTIVE
+NAH-6-0062/2023/K,2,,construction,"2. biztonsági, vezérlő- és szabályozóeszközök, amelyeket nem robbanásveszélyes légkörben való használatra szántak, de amelyek a robbanási kockázatra tekintettel szükségesek a potenciálisan robbanásveszélyes környezetben történő alkalmazásra szánt berendezések és védelmi rendszerek biztonságos működéséhez,",,,,,ACTIVE
+NAH-6-0062/2023/K,3,,wood_paper,3. a potenciálisan robbanásveszélyes környezetben történő alkalmazásra szánt berendezések-be és védelmi rendszerekbe beszerelésre szánt alkatrészek rugalmas területre.,,,,,ACTIVE
+NAH-6-0066/2021/K,1,,other_manufacturing,Az MSZ EN ISO/IEC 17065:2013 szabvány szerint akkreditálva a 2013/29/EU rendelet szerinti kijelölési célú követelményeknek megfelelően,,,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0066/2021/K,2,,other_manufacturing,1. tűzijátékok;,,,,,ACTIVE
+NAH-6-0066/2021/K,3,,other_manufacturing,2. színpadi pirotechnikai termékek;,,,,,ACTIVE
+NAH-6-0066/2021/K,4,,other_manufacturing,3. egyéb pirotechnikai termékek;,,,,,ACTIVE
+NAH-6-0066/2021/K,5,,other_manufacturing,"4. autóipari pirotechnikai termékek, a 2019/945/EU rendelet szerinti kijelölési célú követelményeknek megfelelően",,,,,ACTIVE
+NAH-6-0066/2021/K,6,,transport_equipment,"5. pilóta nélküli légijármű-rendszerek, és a 2019/1009/EU rendelet szerinti kijelölési célú követelményeknek megfelelően",,,,,ACTIVE
+NAH-6-0066/2021/K,7,,wood_paper,6. rendelet szerinti termelésnövelő anyagok területre.,,,,,ACTIVE
+NAH-6-0067/2026,1,,metals,• hegesztő üzem alkalmasság;,,,,,ACTIVE
+NAH-6-0067/2026,2,,transport_equipment,• hegesztő üzem alkalmasság (vasúti járművek és részegységeik) rugalmas területre.,,,,,ACTIVE
+NAH-6-0070/2023,1,,transport_equipment,1. közúti járművek – kiberbiztonsági tervezésének tanúsítás;,,,,,ACTIVE
+NAH-6-0070/2023,2,,other_manufacturing,2. biztonságos IACS termékfejlesztési életciklus megfelelősége tanúsítása,,,,,ACTIVE
+NAH-6-0070/2023,3,,professional,"3. a KTH-E02/F03 tanúsítási alrendszer szerinti Általános adatvédelmi rendelet – Products, Processes & Services (PPS) tanúsítás",,,,,ACTIVE
+NAH-6-0070/2023,4,,ict,4. KTH-E02/F04 tanúsítási alrendszer szerinti Általános adatvédelmi rendelet – Data Protection Management Systems (DPMS) tanúsítás területre.,,,,,ACTIVE
+NAH-6-0071/2023/K,1,,machinery,44/2016. (XI.28.) NGM rendelet szerinti kijelölési célú tevékenység nyomástartó berendezések;,,,,,ACTIVE
+NAH-6-0071/2023/K,2,,machinery,egyszerű nyomástartó edények területre.,,,,,ACTIVE
+NAH-6-0072/2023/K,1,,other_manufacturing,1. 2019/1009/EU rendelet EU – típusvizsgálat (B modul) szerinti termésnövelő anyagok rugalmas terület tanúsítására.,,,,,ACTIVE
+NAH-6-0073/2024/K,1,,metals,1. fémek ömlesztőhegesztésének minőségirányítási követelményei,,,,,ACTIVE
+NAH-6-0073/2024/K,2,Construction Products Regulation (EU) 305/2011,,2. 305/2011/EU (CPR) rendelet – fémből készült szerkezeti anyagok és segédanyagok (2/4) rugalmas terület tanúsítására.,,,,,ACTIVE
+NAH-6-0074/2024,1,,professional,1. MS-0050295 Product Certification Process for QatarEnergy Projects;,,Accredited in compliance with EN ISO/IEC 17065:2012 for,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0074/2024,2,,professional,2. MS-0050296 General Certification Process (Products) schemes.,,Accredited in compliance with EN ISO/IEC 17065:2012 for,,EN ISO/IEC 17065,ACTIVE
+NAH-6-0075/2025,1,,professional,RecyClass Recycling Process Audit Scheme 1.1,,,,,ACTIVE
+NAH-6-0075/2025,2,,professional,RecyClass Recycled Plastic Material Audit Scheme 2.2 területre.,,,,,ACTIVE
+NAH-6-0076/2026/K,1,,other_manufacturing,a 275/2013. (VII. 16.) Korm. rendelet szerint,,,,,ACTIVE
+NAH-6-0076/2026/K,2,Construction Products Regulation (EU) 305/2011,,• Transzportbeton a 305/2011/EU rendelet szerint,,,,,ACTIVE
+NAH-6-0076/2026/K,3,,rubber_plastics,"• Kémények, füstgáz-vezetékek és kapcsolódó termékek: Előregyártott kémények (1/1) (Kémények) • Geotextíliák (1/2) Geoműanyagok (fóliák és textíliák), geotextíliák, geokompozitok, georácsok, geofóliák és geohálók, a következő célokra alkalmazva: - folyadék vagy gáz visszatartására, - védőrétegként, - vízelvezetésre és/vagy szűrésre, - megerősítésre (Utakban, vasútnál, alapozásban és falszerkezetekben, vízelvezető rendszerekben, eróziógátló alkalmazásokban, víztározókban és gátakban, csatornákban, alagutakban és föld alatti szerkezetekben, folyékony hulladékelhelyezésére vagy tározására, szilárd hulladék tározására vagy hulladék elhelyezésére használnak)",,,,,ACTIVE
+NAH-6-0076/2026/K,4,,transport_equipment,"• Szerkezeti fatermékek (1/3) Tömörfa szerkezeti fatermékek: Elemek: Áthidalók, merevítők, párnafák, padlóelemek, falszerkezeti elemek, fedélelemek, úgymint pl. gerendák, ívtartók, boltozatok, kötőgerendák, szarufák, oszlopok. Készletek: Rácsos tartók, födémek, falak, tetők, vázak (Hidak, vasúti pályák és épületek)",,,,,ACTIVE
+NAH-6-0076/2026/K,5,,other_manufacturing,• Szerkezetragasztók (1/2) (Épületekben és más építményekben szerkezeti felhasználásra),,,,,ACTIVE
+NAH-6-0076/2026/K,6,,rubber_plastics,"• Betonban és falazatban használatos műanyag horgonyok (1/1) (Rendszerek – például homlokzatrendszerek – olyan elemeinek rögzítésére és megtámasztására, amelyek hozzájárulnak a rendszerek állékonyságához)",,,,,ACTIVE
+NAH-6-0076/2026/K,7,,construction,• Vakolatos összetett külső hőszigetelő rendszerek / készletek (1/1),,,,,ACTIVE
+NAH-6-0076/2026/K,8,,construction,"• Vakolatos összetett külső hőszigetelő rendszerek/készletek (ETICS) (Olyan külső falakon, amelyekre nézve tűzvédelmi követelmények vannak, illetve olyan külső falakon, amelyekre nézve nincsenek tűzvédelmi követelmények)",,,,,ACTIVE
+NAH-6-0076/2026/K,9,,other_manufacturing,"• Falazat és ezzel kapcsolatos termékek (1/3) Gyárban gyártott, tervezett építészeti habarcsok (Falakban, oszlopokban és válaszfalakban)",,,,,ACTIVE
+NAH-6-0076/2026/K,10,,other_manufacturing,"• Falazat és ezzel kapcsolatos termékek (1/3) I. kategóriájú falazategységek (Falakban, oszlopokban és válaszfalakban)",,,,,ACTIVE
+NAH-6-0076/2026/K,11,,metals,"• Fémből készült szerkezeti anyagok és segédanyagok (1/4) Fémből készült szelvények/profilok: Melegen hengerelt, hidegen hajlított vagy más módon gyártott, különböző alakú szelvények/profilok (T, L, H, U, Z, I, szelvények, szögacél, zártszelvény, csövek), sík lemeztermékek (vastag lemez, vékony lemez, szalag), acélbetétek, öntöttvasak, kovácsoltvasak különböző fémekből készítve, védelem nélkül vagy korrózió elleni bevonattal védetten. (Fémszerkezetekben vagy vasbeton szerkezetekben történő felhasználásra)",,,,,ACTIVE
+NAH-6-0076/2026/K,12,,other_manufacturing,• Fémből készült szerkezeti anyagok és segédanyagok (2/4) Fémből készült rúdszerkezetek,,,,,ACTIVE
+NAH-6-0076/2026/K,13,,construction,"• Szigetelőanyagokból és néha betonból álló, üreges blokkokból vagy panelekből készült, nem teherhordó bennmaradó zsaluzati készletek / rendszerek (1/1) -Nem teherhordó bennmaradó zsaluzati készletek/rendszerek, normál beton, vagy adott esetben vasbeton kiöntéssel, vagy szigetelőanyagból (vagy szigetelőanyag és egyéb anyag kombinációjából) álló üreges blokkokból. (Épületekben külső és belső falszerkezetként történő felhasználásra, amely tűzzel szembeni viselkedésre vonatkozó szabályozás tárgyát képezi)",,,,,ACTIVE
+NAH-6-0076/2026/K,14,,construction,"• Szigetelőanyagokból és néha betonból álló, üreges blokkokból vagy panelekből készült, nem teherhordó bennmaradó zsaluzati készletek / rendszerek (1/1) -Nem teherhordó bennmaradó zsaluzati készletek/rendszerek, normál beton, vagy adott esetben vasbeton kiöntéssel, vagy szigetelőanyagból (vagy szigetelőanyag és egyéb anyag kombinációjából) álló panelokból készítve, távolságtartókkal összekapcsolt zsaluhéjakból összeállítva. (Épületekben külső és belső falszerkezetként történő felhasználásra, mely nem képezi tűzzel szembeni viselkedésre vonatkozó szabályozás tárgyát)",,,,,ACTIVE
+NAH-6-0076/2026/K,15,,transport_equipment,"• Magas biztonsági követelményű felhasználásokra alkalmazott adalékanyagok (2/2) Adalékanyagok: betonhoz, habarcshoz és híghabarcshoz, bitumenes keverékekhez és felületképzésekhez, kötetlen és hidraulikusan kötött keverékekhez (Utakhoz és más építőmérnöki munkákhoz), Burkoló kövek (Hidraulikus szerkezetekhez és más építőmérnöki munkákhoz való felhasználásra), Vasúti kavicságyazat (Vasútépítési célokra), Kitöltő anyagok: betonhoz, habarcshoz és híghabarcshoz, bitumenes keverékekhez és felületképzésekhez (Utakhoz és más építőmérnöki munkákhoz)",,,,,ACTIVE
+NAH-6-0076/2026/K,16,,construction,• Útépítési termékek (1/2) Bitumenes keverékek (Útépítéshez és utak felületképzéséhez),,,,,ACTIVE
+NAH-6-0076/2026/K,17,,construction,• Útépítési termékek (1/2) Hídpálya vízszigetelő termékek (Hídpályákhoz történő felhasználásra),,,,,ACTIVE
+NAH-6-0076/2026/K,18,,construction,• Vízszigetelő lemezek (1/3) Talajnedvesség elleni szigetelő lemezek (Épületekben),,,,,ACTIVE
+NAH-6-0076/2026/K,19,,construction,• Vízszigetelő lemezek (1/3) Tetőszigetelő lemezek (Épületekben),,,,,ACTIVE
+NAH-6-0076/2026/K,20,,construction,• Előre gyártott normál / könnyűsúlyú / autoklávozott pórusbeton termékek (1/1),,,,,ACTIVE
+NAH-6-0076/2026/K,21,,construction,• Előre gyártott normál / könnyűsúlyú / autoklávozott pórusbeton termékek (Szerkezeti felhasználásra),,,,,ACTIVE
+NAH-6-0076/2026/K,22,,construction,"• Betonnal, vakoló és falazó habarccsal kapcsolatos termékek (1/2) -Adalékkeverékek (Betonhoz, habarcshoz és cementhabarcshoz)",,,,,ACTIVE
+NAH-6-0076/2026/K,23,,construction,"• Betonnal, vakoló és falazó habarccsal kapcsolatos termékek (1/2) -Betonvédő és javító termékek (Épületekben és építményekben egyéb felhasználásra)",,,,,ACTIVE
+NAH-6-0076/2026/K,24,,other_manufacturing,• Külső falak burkolati készletei (1/2): -Külső falak burkolására szolgáló termékegyüttes (Külső falaknál vagy falak külső burkolásánál való felhasználásra),,,,,ACTIVE
+NAH-6-0076/2026/K,25,,construction,"• Betonbekötő vasak (1/1) Mechanikai rögzítők: Betonban használt bekötő vasak (nagy igénybevételre méretezett típus) (Beton szerkezeti elemek vagy nehéz elemek, mint pl. fedés és felfüggesztett mennyezet rögzítésére és/vagy hordozására)",,,,,ACTIVE
+NAH-6-0076/2026/K,26,,other_manufacturing,"• Belső válaszfal-rendszerek (1/5) —Belső válaszfal-rendszerek (Olyan felhasználások esetén, amelyek során tűzzel szembeni viselkedésre vonatkozó követelményeknek kell megfelelni)",,,,,ACTIVE
+NAH-6-0076/2026/K,27,,construction,"• Szigetelőanyagokból és néha betonból álló, üreges blokkokból vagy panelekből készült, nem teherhordó bennmaradó zsaluzati készletek / rendszerek (1/1) -Nem teherhordó bennmaradó zsaluzati készletek/rendszerek, normál beton, vagy adott esetben vasbeton kiöntéssel, vagy szigetelőanyagból (vagy szigetelőanyag és egyéb anyag kombinációjából) álló üreges blokkokból (Épületekben külső és belső falszerkezetként történő felhasználásra, amely tűzzel szembeni viselkedésre vonatkozó szabályozás tárgyát képezi)",,,,,ACTIVE
+NAH-6-0076/2026/K,28,,construction,"• Hőszigetelő anyagok (2/2) Hőszigetelő anyagok (gyári termékek és helyszínen előállított termékek) (Olyan felhasználások, amelyeket tűzzel szembeni viselkedésre vonatkozó jogszabályok szabályoznak)",,,,,ACTIVE
+NAH-6-0076/2026/K,29,,other_manufacturing,• Favázak és gerendák előregyártott épületszerelvényei: Épületfaváz és házgyári gerenda épületszerelvények (Építési munkák),,,,,ACTIVE
+NAH-6-0076/2026/K,30,,wood_paper,• Közúti hidak pályadilatációja (közúti hidak esetén) területre.,,,,,ACTIVE

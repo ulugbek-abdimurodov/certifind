@@ -1,0 +1,40 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+SNAS,P-001,"Výskumný ústav dopravný, a.s.",ISO/IEC 17065,ACTIVE,2025-06-13,2030-06-13,https://ais.snas.sk/web-report
+SNAS,P-002,VUTCH s.r.o.,ISO/IEC 17065,ACTIVE,2026-11-16,2028-02-08,https://ais.snas.sk/web-report
+SNAS,P-006,"Výskumný ústav chemických vlákien, a.s.",ISO/IEC 17065,ACTIVE,2026-04-08,2029-03-04,https://ais.snas.sk/web-report
+SNAS,P-007,"FIRES, s.r.o.",ISO/IEC 17065,ACTIVE,2026-07-05,2031-07-05,https://ais.snas.sk/web-report
+SNAS,P-009,Výskumný ústav zváračský,ISO/IEC 17065,ACTIVE,2026-10-02,2029-03-06,https://ais.snas.sk/web-report
+SNAS,P-011,"VÚSAPL, a.s.",ISO/IEC 17065,ACTIVE,2025-08-11,2030-08-11,https://ais.snas.sk/web-report
+SNAS,P-012,EVPÚ a.s.,ISO/IEC 17065,ACTIVE,2026-05-29,2030-09-09,https://ais.snas.sk/web-report
+SNAS,P-016,"Technický a skúšobný ústav stavebný, n.o.",ISO/IEC 17065,ACTIVE,2025-03-07,2030-03-07,https://ais.snas.sk/web-report
+SNAS,P-017,"Slovenská legálna metrológia, n.o.",ISO/IEC 17065,ACTIVE,2025-05-24,2030-05-24,https://ais.snas.sk/web-report
+SNAS,P-018,"Technický skúšobný ústav Piešťany, a. s.",ISO/IEC 17065,ACTIVE,2026-03-14,2030-12-20,https://ais.snas.sk/web-report
+SNAS,P-019,"Technická inšpekcia, a.s.",ISO/IEC 17065,ACTIVE,2025-07-26,2030-07-26,https://ais.snas.sk/web-report
+SNAS,P-020,TÜV SÜD Slovakia s.r.o.,ISO/IEC 17065,ACTIVE,2025-10-13,2030-10-13,https://ais.snas.sk/web-report
+SNAS,P-021,"KONŠTRUKTA - Defence, a.s.",ISO/IEC 17065,ACTIVE,2025-07-16,2030-07-16,https://ais.snas.sk/web-report
+SNAS,P-022,"Naturalis SK, s.r.o.",ISO/IEC 17065,ACTIVE,2025-07-08,2030-07-08,https://ais.snas.sk/web-report
+SNAS,P-025,Štátna veterinárna a potravinová správa Slovenskej republiky,ISO/IEC 17065,ACTIVE,2026-11-01,2031-11-01,https://ais.snas.sk/web-report
+SNAS,P-028,"VUJE, a.s.",ISO/IEC 17065,ACTIVE,2025-09-04,2028-12-20,https://ais.snas.sk/web-report
+SNAS,P-032,E.I.C.Engineering inspection company s.r.o.,ISO/IEC 17065,ACTIVE,2024-09-12,2029-09-12,https://ais.snas.sk/web-report
+SNAS,P-035,Slovenský metrologický ústav,ISO/IEC 17065,ACTIVE,2026-06-25,2031-06-25,https://ais.snas.sk/web-report
+SNAS,P-041,"PRVÁ ZVÁRAČSKÁ, a.s.",ISO/IEC 17065,ACTIVE,2023-08-22,2028-08-22,https://ais.snas.sk/web-report
+SNAS,P-046,VIPO a.s.,ISO/IEC 17065,ACTIVE,2025-05-14,2030-05-14,https://ais.snas.sk/web-report
+SNAS,P-048,"LIGNOTESTING, a.s.",ISO/IEC 17065,ACTIVE,2026-04-27,2031-04-27,https://ais.snas.sk/web-report
+SNAS,P-049,"QSCert, spol. s r.o.",ISO/IEC 17065,ACTIVE,2026-10-16,2027-06-01,https://ais.snas.sk/web-report
+SNAS,P-052,"VIACARE, s.r.o.",ISO/IEC 17065,ACTIVE,2025-11-24,2030-08-12,https://ais.snas.sk/web-report
+SNAS,P-053,QUALIFORM SLOVAKIA s.r.o.,ISO/IEC 17065,ACTIVE,2025-10-13,2030-10-13,https://ais.snas.sk/web-report
+SNAS,P-054,Bundesamt für Eich- und Vermessungswesen,ISO/IEC 17065,ACTIVE,2025-11-10,2030-11-10,https://ais.snas.sk/web-report
+SNAS,P-055,"CertiWise, s. r. o.",ISO/IEC 17065,ACTIVE,2026-01-28,2031-01-28,https://ais.snas.sk/web-report
+SNAS,P-056,PRVÁ CERTIFIKAČNÁ s.r.o.,ISO/IEC 17065,ACTIVE,2026-03-03,2031-03-03,https://ais.snas.sk/web-report
+SNAS,P-057,TÜV Thüringen Slovakia s.r.o.,ISO/IEC 17065,ACTIVE,2026-11-16,2031-11-16,https://ais.snas.sk/web-report
+SNAS,P-058,"VUZ Slovakia, s.r.o.",ISO/IEC 17065,ACTIVE,2025-06-01,2027-08-09,https://ais.snas.sk/web-report
+SNAS,P-059,Cech zváračských odborníkov,ISO/IEC 17065,ACTIVE,2024-11-05,2027-11-04,https://ais.snas.sk/web-report
+SNAS,P-060,Vojenský technický a skúšobný ústav Záhorie,ISO/IEC 17065,ACTIVE,2025-06-26,2027-12-08,https://ais.snas.sk/web-report
+SNAS,P-061,"VUIS – CESTY, spol. s r. o.",ISO/IEC 17065,ACTIVE,2023-08-14,2028-08-14,https://ais.snas.sk/web-report
+SNAS,P-062,SK PRODUKT CERT s.r.o.,ISO/IEC 17065,ACTIVE,2025-12-16,2028-10-11,https://ais.snas.sk/web-report
+SNAS,P-063,"Certifikačný a inšpekčný orgán SR, s. r. o.",ISO/IEC 17065,ACTIVE,2025-09-04,2029-07-06,https://ais.snas.sk/web-report
+SNAS,P-064,"CERTEX, a.s.",ISO/IEC 17065,ACTIVE,2025-04-14,2030-04-14,https://ais.snas.sk/web-report
+SNAS,P-065,ENVIROTREE s. r. o.,ISO/IEC 17065,ACTIVE,2025-05-13,2030-05-13,https://ais.snas.sk/web-report
+SNAS,P-066,Národný bezpečnostný úrad,ISO/IEC 17065,ACTIVE,2026-10-19,2030-09-10,https://ais.snas.sk/web-report
+SNAS,P-067,OETI Slovakia s.r.o.,ISO/IEC 17065,ACTIVE,2025-09-17,2030-09-17,https://ais.snas.sk/web-report
+SNAS,P-068,SMC Slovensko a. s.,ISO/IEC 17065,ACTIVE,2025-12-01,2030-12-01,https://ais.snas.sk/web-report

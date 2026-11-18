@@ -1,0 +1,167 @@
+certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_text,normative_docs,standard_refs,status
+PR 008,1,,metals,"23 Alte produse din minerale nemetalice 2352 Var şi ipsos 2352.10 Var nestins, var stins şi var hidraulic | Var industrial",,,SR 254:1998,,ACTIVE
+PR 008,2,,construction,Var măcinat pentru beton celular autoclavizat,,,SR 9310:2000,,ACTIVE
+PR 008,3,,metals,23 Alte produse din minerale nemetalice 2363 Beton 2363.10 Beton | Beton,,,SR EN 206-1:2026 SR EN 206-2:2026 NE 012/1:2022,EN 206-1;EN 206-2,ACTIVE
+PR 008,4,,construction,Beton rutier,,,NE 014:2002,,ACTIVE
+PR 008,5,,rubber_plastics,22 Produse din cauciuc și mase plastice 2223 Articole din material plastic pentru construcții 2223.20 Construcții prefabricate din material plastic | Produse termoizolante pentru clădiri. Sisteme compozite de izolare termică la exterior (ETICS) pe bază de polistiren expandat.,,,SR EN 13499:2004,EN 13499,ACTIVE
+PR 008,6,,construction,Produse termoizolante pentru clădiri. Sisteme compozite de izolare termică la exterior (ETICS) pe bază de vată minerală,,,SR EN 13500:2004,EN 13500,ACTIVE
+PR 008,7,,metals,"25 Produse ale industriei construcţiilor metalice şi produselor din metal (excluzând maşini, utilaje şi echipamente) 2593 Articole din fire metalice; lanţuri şi arcuri 2593.13 Pânze, grilaje, plase şi garduri din fier, oţel sau sârmă de cupru; benzi extrudate din fier, oţel sau cupru. | Plase sudate pentru armarea betonului",,,SR 438-3:2012,,ACTIVE
+PR 008,8,,other_manufacturing,Elementele schemei de certificare,,,,,ACTIVE
+PR 015,1,,metals,"23.Alte produse din minerale nemetalice 236. Articole din beton, ciment și ipsos 2363.Beton | -Beton cu propietăți sau compoziție specifică: greu, ușor sau cu densitate normală, pentru structuri turnate in situ, structuri prefabricate și elemente de structură prefabricate pentru clădiri și structuri de geniu civil -Beton rutier",,,SR EN 206-1:2026 SR EN 206-2:2026 NE 012/1:2022 NE 014-2002,EN 206-1;EN 206-2,ACTIVE
+PR 015,2,,metals,"24.Produse ale industriei metalurgice 2410.Metale feroase sub forme primare și feroaliaje 2410.6.Bare, fire și tije laminate la cald din oțel 2410.61.Fire și tije laminate la cald din oțel nealiat | -Produse din oțel pentru armarea betonului.Oțel -beton laminat la cald",,,SR 438-1:2012 ST 009-11 (OMTCT nr. 683/2012) SR EN 10080:2005,EN 10080,ACTIVE
+PR 015,3,,metals,"24.Produse ale industriei metalurgice 2410.Metale feroase sub forme primare și feroaliaje 2410.6.Bare, fire și tije laminate la cald din oțel 2410.62.Alte bare și tije laminate din oțel, extrudate, forjate, laminate sau trase la cald, incluzând și cele care au suferit deformări după laminare | -Produse din oțel utilizate ca armături -Sârma de oțel și produse de sârmă pentru beton precomprimat",,,SR 438-2:2012 SR 438-3:2012 SR 438-4:2012 ST 009-11 (OMTCT nr. 683/2012) SR EN 10080:2005 STAS 6482/2:1980 STAS 6482/3:1980 STAS 6482/4:1980 ST 009-11(OMTCT nr. 683/2012),EN 10080,ACTIVE
+PR 015,4,,other_manufacturing,Elementele schemei de certificare,,,,,ACTIVE
+PR 017,1,,electrical,"26 Calculatoare, produse electronice şi optice",,,* Nota 1 Standardul aplicabil poate fi utilizat şi împreună cu standardele: SR EN IEC 61000-3-2:2019+A1:2021 +A2:2024 SR EN 61000-3-3:2014+A1:2019+A2:2021+ +A2:2021/AC:2022 SR EN 55032:2015+AC:2016+A11:2020+A1:2021 SR EN 55035:2017+A11:2020,EN IEC 61000-3-2;EN 61000-3-3;EN 55032;EN 55035,ACTIVE
+PR 017,2,,electrical,Echipamente pentru tehnologia informaţiei,,,SR EN IEC 62368-1:2020+A11:2020+AC:2020 SR EN IEC 62368-1:2024+A11:2024,EN IEC 62368-1,ACTIVE
+PR 017,3,,other_manufacturing,,,,* a se vedea nota 1,,ACTIVE
+PR 017,4,,electrical,"27 Echipament electric 271 Motoare electrice, generatoare, transformatoare, aparate de distribuţie şi control a electricităţii 2711 Motoare, generatoare şi transformatoare electrice | Transformatoare, blocuri de alimentare, bobine de reactanţă şi produse similare",,,SR EN IEC 61558-1:2019,EN IEC 61558-1,ACTIVE
+PR 017,5,,electrical,Transformatoare cu înfăşurări separate şi blocuri de alimentare care încorporează transformatoare cu înfăşurări separate pentru aplicaţii generale,,,SR EN IEC 61558-1:2019 SR EN 61558-2-1:2007 SR EN IEC 61558-2-1:2025,EN IEC 61558-1;EN 61558-2-1;EN IEC 61558-2-1,ACTIVE
+PR 017,6,,electrical,Transformatoare de comandă şi blocuri de alimentare care încorporează transformatoare de comandă,,,SR EN IEC 61558-1:2019 SR EN 61558-2-2:2007,EN IEC 61558-1;EN 61558-2-2,ACTIVE
+PR 017,7,,electrical,Transformatoare de separare a circuitelor şi blocuri de alimentare care încorporează transformatoare de separare a circuitelor,,,SR EN IEC 61558-1:2019 SR EN 61558-2-4:2009 SR EN IEC 61558-2-4:2025,EN IEC 61558-1;EN 61558-2-4;EN IEC 61558-2-4,ACTIVE
+PR 017,8,,electrical,Transformatoare de securitate şi blocuri de alimentare care încorporează transformatoare de securitate,,,SR EN IEC 61558-1:2019 SR EN 61558-2-6:2010,EN IEC 61558-1;EN 61558-2-6,ACTIVE
+PR 017,9,,electrical,Transformatoare şi alimentatoare pentru jucării,,,SR EN IEC 61558-1:2019 SR EN 61558-2-7:2008,EN IEC 61558-1;EN 61558-2-7,ACTIVE
+PR 017,10,,electrical,Transformatoare cu tensiune constantă şi blocuri de alimentare pentru tensiune constantă,,,SR EN IEC 61558-1:2019 SR EN 61558-2-12:2011,EN IEC 61558-1;EN 61558-2-12,ACTIVE
+PR 017,11,,electrical,Autotransformatoare şi blocuri de alimentare care încorporează autotransformatoare,,,SR EN IEC 61558-1:2019 SR EN 61558-2-13:2009,EN IEC 61558-1;EN 61558-2-13,ACTIVE
+PR 017,12,,electrical,Blocuri de alimentare în regim de comutaţie şi transformatoare pentru blocuri de alimentare în regim de comutaţie,,,SR EN IEC 61558-1:2019 SR EN 61558-2-16:2010,EN IEC 61558-1;EN 61558-2-16,ACTIVE
+PR 017,13,,electrical,Sistem de încărcare conductivă pentru vehicule electrice cu alimentare în curent alternativ sau continuu,,,SR EN IEC 61851-1:2019+AC:2024 SR EN 61851-23:2014 SR EN 61851-24:2014 SR EN IEC 61851-24:2025 SR EN IEC 61851-21-2:2021,EN IEC 61851-1;EN 61851-23;EN 61851-24;EN IEC 61851-24;EN IEC 61851-21-2,ACTIVE
+PR 017,14,,electrical,"27 Echipament electric 271 Motoare electrice, generatoare, transformatoare, aparate de distribuţie şi control a electricităţii 2712 Aparate de distribuţie şi control a electricităţii | Aparate electrice mici.Întreruptoare automate pentru protecție la supracurenți pentru instalații casnice și similare.Partea 1: Întreruptoare automate pentru funcționare în curent alternativ",,,SR EN 60898-1:2019+A1:2024+A11:2024,EN 60898-1,ACTIVE
+PR 017,15,,electrical,Aparate electrice mici.Întreruptoare automate pentru protecție la supracurenți pentru instalații casnice și similare.Partea 2: Întreruptoare automate pentru funcționare în curent alternativ și curent continuu,,,SR EN 60898-1:2019+A1:2024+A11:2024 SR EN 60898-2:2021,EN 60898-1;EN 60898-2,ACTIVE
+PR 017,16,,electrical,Întreruptoare pentru instalaţii electrice fixe pentru uz casnic şi scopuri similare. Întreruptoare cu comandă electromagnetică de la distanţă (teleruptoare),,,SR EN 60669-1:2018+AC:2018+AC:2020 SR EN 60669-2-2:2025,EN 60669-1;EN 60669-2-2,ACTIVE
+PR 017,17,,electrical,Întreruptoare pentru instalaţii electrice fixe pentru uz casnic şi scopuri similare. Întreruptoare cu temporizare,,,SR EN 60669-1:2018+AC:2018+AC:2020 SR EN 60669-2-3:2025,EN 60669-1;EN 60669-2-3,ACTIVE
+PR 017,18,,electrical,Întreruptoare pentru instalaţii electrice fixe pentru uz casnic şi scopuri similare. Întreruptoare separatoare,,,SR EN 60669-1:2018+AC:2018+AC:2020 SR EN 60669-2-4:2025,EN 60669-1;EN 60669-2-4,ACTIVE
+PR 017,19,,electrical,Ansambluri de aparataj de joasă tensiune. Panouri/ dulapuri de comandă electrică,,,SR EN IEC 61439-1:2021+AC:2022+AC:2023 SR EN IEC 61439-1:2021+AC:2022 + AC:2023 Anexa J,EN IEC 61439-1,ACTIVE
+PR 017,20,,electrical,Ansambluri de aparataj de joasă tensiune. Ansamblu de putere,,,SR EN IEC 61439-1:2021+AC:2022+AC:2023 SR EN IEC 61439-1:2021+AC:2022 +AC:2023 Anexa J SR EN IEC 61439-2:2021,EN IEC 61439-1;EN IEC 61439-2,ACTIVE
+PR 017,21,,electrical,Ansambluri de aparataj de joasă tensiune. Tablouri de distribuţie destinate pentru a fi utilizate de persoane obişnuite,,,SR EN IEC 61439-1:2021+AC:2022+AC:2023 SR EN IEC 61439-1:2021+AC:2022+AC:2023 Anexa J SR EN 61439-3:2012+AC:2019 SR EN IEC 61439-3:2024,EN IEC 61439-1;EN 61439-3;EN IEC 61439-3,ACTIVE
+PR 017,22,,electrical,Ansambluri de aparataj de joasă tensiune. Ansambluri utilizate pe şantiere (AUS),,,SR EN IEC 61439-1:2021+AC:2022+AC:2023 SR EN IEC 61439-1:2021+AC:2022+AC:2023 Anexa J SR EN 61439-4:2013,EN IEC 61439-1;EN 61439-4,ACTIVE
+PR 017,23,,electrical,Ansambluri de aparataj de joasă tensiune. Ansambluri de aparataj pentru reţele de distribuţie,,,"SR EN IEC 61439-1:2021+AC:2022+AC:2023 SR EN IEC 61439-1:2021+AC:2022+AC:2023, Anexa J SR EN IEC 61439-5:2023+ AC:2025",EN IEC 61439-1;EN IEC 61439-5,ACTIVE
+PR 017,24,,electrical,Securitatea maşinilor. Echipamentul electric al maşinilor.,,,SR EN 60204-1:2019+A1:2025 SR EN 60204-32:2009 SR EN IEC 60204-32:2025,EN 60204-1;EN 60204-32;EN IEC 60204-32,ACTIVE
+PR 017,25,,electrical,"27 Echipament electric 273 Fire şi cabluri 2732 Alte fire şi cabluri electronice şi electrice | Conductoare şi cabluri izolate cu policlorură de vinil cu tensiune nominală până la 450/750V inclusiv. Cabluri pentru aplicații generale. Cabluri cu un singur conductor fără manta, cu izolație termoplastică de PVC",,,SR EN 50525-1:2011+A1:2023 SR EN 50525-2-31:2011,EN 50525-1;EN 50525-2-31,ACTIVE
+PR 017,26,,rubber_plastics,Conductoare şi cabluri izolate cu policlorură de vinil cu tensiune nominală până la 450/750V inclusiv. Cabluri pentru aplicații generale. Cabluri flexibile cu izolație termoplastică de PVC,,,SR EN 50525-1:2011+A1:2023 SR EN 50525-2-11:2011,EN 50525-1;EN 50525-2-11,ACTIVE
+PR 017,27,,other_manufacturing,"Cabluri de distribuţie de tensiune nominală de 0,6/1 kV",,,SR HD 603 S1:2001+A1:2002+A2:2004+ +A3:2007,,ACTIVE
+PR 017,28,,energy,"Cabluri de energie 0,6/1 kV cu comportare particulară la foc",,,SR HD 604 S1:2001+A1:2002+A2:2003+ +A3:2006,,ACTIVE
+PR 017,29,,electrical,Cabluri de energie cu izolaţie extrudată şi accesoriile lor (Unom: 1-3 kV),,,SR IEC 60502-1:2021,IEC 60502-1,ACTIVE
+PR 017,30,,electrical,Cabluri de energie cu izolaţie extrudată şi accesoriile lor (Unom: 6-30 kV),,,IEC 60502-2:2014+A1:2024,IEC 60502-2,ACTIVE
+PR 017,31,,construction,"Cabluri de distribuţie cu izolaţie extrudată de tensiune nominală de la 3,6/6 (7,2) kV până la 20,8/36 (42) kV",,,SR HD 620 S3:2023,,ACTIVE
+PR 017,32,,electrical,27 Echipament electric 273 Fire şi cabluri 2733 Dispozitive de conexiune pentru fire şi cabluri electronice şi electrice | Prize şi fişe de uz casnic. Adaptoare,,,IEC 60884-1:2022,IEC 60884-1,ACTIVE
+PR 017,33,,electrical,Prize şi fişe de uz casnic. Prelungitoare.,,,IEC 60884-1:2022 IEC 60884-2-7:2025,IEC 60884-1;IEC 60884-2-7,ACTIVE
+PR 017,34,,electrical,Sisteme de tuburi de protecţie pentru direcţionarea cablajului,,,SR EN 61386-1:2009+A1:2019,EN 61386-1,ACTIVE
+PR 017,35,,electrical,Sisteme de tuburi de protecţie rigide,,,SR EN 61386-1:2009+A1:2019 SR EN IEC 61386-21:2021+A11:2021,EN 61386-1;EN IEC 61386-21,ACTIVE
+PR 017,36,,electrical,Sisteme de tuburi de protecţie pliabile,,,SR EN 61386-1:2009+A1:2019 SR EN IEC 61386- 22:2021+A11:2021+AC:2025,EN 61386-1;EN IEC 61386,ACTIVE
+PR 017,37,,electrical,Sisteme de tuburi de protecţie flexibile,,,SR EN 61386-1:2009+A1:2019 SR EN IEC 61386-23:2021+A11:2021,EN 61386-1;EN IEC 61386-23,ACTIVE
+PR 017,38,,electrical,Sisteme de tuburi de protecţie îngropate în pământ,,,SR EN 61386-1:2009+A1:2019 SR EN 50626-1:2023,EN 61386-1;EN 50626-1,ACTIVE
+PR 017,39,,electrical,Dispozitive de fixare a tuburilor de protecţie,,,SR EN 61386-1:2009+A1:2019 SR EN 61386-25:2012,EN 61386-1;EN 61386-25,ACTIVE
+PR 017,40,,electrical,Sisteme traseu de cabluri şi sisteme scară de cabluri,,,SR EN 61537:2007,EN 61537,ACTIVE
+PR 017,41,,electrical,Sisteme de jgheaburi şi de tuburi profilate pentru instalaţii electrice,,,SR EN 50085-1:2006+A1:2014 SR EN 61084-1:2024,EN 50085-1;EN 61084-1,ACTIVE
+PR 017,42,,electrical,Sisteme de jgheaburi şi de tuburi profilate prevăzute a fi montate pe pereţi şi pe tavane,,,SR EN 50085-1:2006+A1:2014 SR EN 50085-2-1:2007+A1:2012 SR EN IEC 61084-2-1:2024 SR EN IEC 61084-2-1:2024+A11:2024,EN 50085-1;EN 50085-2-1;EN IEC 61084-2-1,ACTIVE
+PR 017,43,,other_manufacturing,"Sisteme de jgheaburi şi de tuburi profilate prevăzute pentru a fi montate sub podea, încastrate în podea sau pe podea",,,SR EN 50085-1:2006+A1:2014 SR EN 50085-2-2:2009,EN 50085-1;EN 50085-2-2,ACTIVE
+PR 017,44,,other_manufacturing,Sisteme de jgheaburi cu fante destinate instalaţiilor din dulapuri,,,SR EN 50085-1:2006+A1:2014 SR EN 50085-2-3:2011,EN 50085-1;EN 50085-2-3,ACTIVE
+PR 017,45,,other_manufacturing,Coloane şi minicoloane,,,SR EN 50085-1:2006+A1:2014 SR EN 50085-2-4:2010,EN 50085-1;EN 50085-2-4,ACTIVE
+PR 017,46,,other_manufacturing,Accesorii pentru cabluri aeriene torsadate de joasă tensiune,,,SR EN 50483-1:2009 SR EN 50483-1:2026 SR EN 50483-5:2009 SR EN 50483-5:2026 SR EN 50483-6:2009 SR EN 50483-6:2026,EN 50483-1;EN 50483-5;EN 50483-6,ACTIVE
+PR 017,47,,construction,Cleme de ancorare şi de suspensie pentru reţele aeriane cu conductoare izolate torsadate autoportante,,,SR EN 50483-1:2009 SR EN 50483-1:2026 SR EN 50483-2:2009 SR EN 50483-2:2026,EN 50483-1;EN 50483-2,ACTIVE
+PR 017,48,,construction,Cleme de ancorare şi de suspensie pentru reţele aeriene cu conductoare izolate torsadate având neutru purtător,,,SR EN 50483-1:2009 SR EN 50483-1:2026 SR EN 50483-3:2009 SR EN 50483-3:2026,EN 50483-1;EN 50483-3,ACTIVE
+PR 017,49,,other_manufacturing,Mufe (conectoare),,,SR EN 50483-1:2009 SR EN 50483-1:2026 SR EN 50483-4:2009 SR EN 50483-4:2026,EN 50483-1;EN 50483-4,ACTIVE
+PR 017,50,,electrical,Detectoare de tensiune. Detectoare de tip capacitiv,,,SR EN IEC 61243-1:2021,EN IEC 61243-1,ACTIVE
+PR 017,51,,electrical,Dispozitive portabile de legare la pământ sau de legare la pământ şi în scurtcircuit,,,SR EN 61230:2009,EN 61230,ACTIVE
+PR 017,52,,electrical,Carcase destinate ansamblurilor de aparataj de joasă tensiune,,,SR EN IEC 62208:2023,EN IEC 62208,ACTIVE
+PR 017,53,,electrical,Cutii şi carcase pentru aparate electrice pentru instalaţii electrice de uz casnic şi similar,,,SR EN IEC 60670-1:2021+A11:2021,EN IEC 60670-1,ACTIVE
+PR 017,54,,electrical,Cutii şi carcase cu dispozitive de agăţare,,,SR EN IEC 60670-1:2021+A11:2021 SR EN 60670-21:2008+A1:2023+A11:2023,EN IEC 60670-1;EN 60670-21,ACTIVE
+PR 017,55,,electrical,Cutii şi carc+ase de conexiune,,,SR EN IEC 60670-1:2021+A11:2021 SR EN 60670-22:2007+A1:2024+A11:2024,EN IEC 60670-1;EN 60670-22,ACTIVE
+PR 017,56,,electrical,Cutii şi carcase instalate în podea,,,SR EN IEC 60670-1:2021+A11:2021 SR EN 60670-23:2009+A1:2023+A11:2023,EN IEC 60670-1;EN 60670-23,ACTIVE
+PR 017,57,,electrical,27 Echipament electric 274 Echipamente electrice de iluminat 2740 Echipamente electrice de iluminat,,,*Nota 2 Standardele aplicabile fiecărui produs pot fi utilizate şi împreună cu standardele: SR EN IEC 61000-3-2:2019+A1:2021 +A2:2024 SR EN 61000-3-3:2014+A1:2019+A2:2021+ +A2:2021/AC:2022 SR EN IEC 61000-3-11:2020 SR EN IEC 55015:2019+A11:2020 SR EN IEC 61547:2023,EN IEC 61000-3-2;EN 61000-3-3;EN IEC 61000-3-11;EN IEC 55015;EN IEC 61547,ACTIVE
+PR 017,58,,electrical,Corpuri de iluminat.Partea 1: Cerințe generale şi încercări,,,*Nota 3 Standardul aplicabil fiecărui produs trebuie utilizat împreună cu standardele: SR EN IEC 60598-1:2021+A11:2022 SR EN IEC 60598-1:2025+A11:2025,EN IEC 60598-1,ACTIVE
+PR 017,59,,electrical,Corpuri de iluminat fixe de uz general,,,SR EN IEC 60598-2-1:2021,EN IEC 60598-2-1,ACTIVE
+PR 017,60,,other_manufacturing,,,,* a se vedea notele 2 și 3,,ACTIVE
+PR 017,61,,electrical,Corpuri de iluminat încastrate,,,SR EN 60598-2-2:2012 SR EN IEC 60598-2-2:2024,EN 60598-2-2;EN IEC 60598-2-2,ACTIVE
+PR 017,62,,electrical,Corpuri de iluminat pentru iluminatul public,,,SR EN 60598-2-3:2004+A1:2012+AC:2015,EN 60598-2-3,ACTIVE
+PR 017,63,,electrical,Corpuri de iluminat portabile de uz general,,,SR EN 60598-2-4:2018,EN 60598-2-4,ACTIVE
+PR 017,64,,electrical,Corpuri de iluminat. Proiectoare,,,SR EN 60598-2-5:2016,EN 60598-2-5,ACTIVE
+PR 017,65,,electrical,Corpuri de iluminat Lămpi de mână,,,SR EN 60598-2-8:2014,EN 60598-2-8,ACTIVE
+PR 017,66,,electrical,Corpuri de iluminat încastrate în sol,,,SR EN 60598-2-13:2007+A1:2012+AC:2015+ +A2:2017+A11:2021,EN 60598-2-13,ACTIVE
+PR 017,67,,electrical,Corpuri de iluminat pentru piscine şi utilizări similare,,,SR EN IEC 60598-2-18:2022,EN IEC 60598-2-18,ACTIVE
+PR 017,68,,electrical,Corpuri de iluminat. Ghirlande luminoase,,,SR EN 60598-2-20:2015+AC:2017 SR EN IEC 60598-2-20:2024+A11:2024,EN 60598-2-20;EN IEC 60598-2-20,ACTIVE
+PR 017,69,,electrical,Corpuri de iluminat. Tuburi luminoase,,,SR EN 60598-2-21:2015+AC:2017,EN 60598-2-21,ACTIVE
+PR 017,70,,other_manufacturing,,,,* a se vedea nota 2,,ACTIVE
+PR 017,71,,electrical,Corpuri de iluminat pentru iluminatul de siguranţă,,,SR EN IEC 60598-2-22:2022,EN IEC 60598-2-22,ACTIVE
+PR 017,72,,electrical,Aparataj de comandă pentru surse de lumină electrice. Circuite electronice diverse utilizate cu corpurile de iluminat.,,,SR EN IEC 61347-1:2025 SR EN IEC 61347-2-11:2025,EN IEC 61347-1;EN IEC 61347-2-11,ACTIVE
+PR 017,73,,electrical,Aparataj de comandă pentru surse de lumină electrice. Balasturi electronice pentru surse de lumină cu LED.,,,SR EN IEC 61347-1:2025 SR EN IEC 61347-2-13:2025,EN IEC 61347-1;EN IEC 61347-2-13,ACTIVE
+PR 017,74,,electrical,Module LED pentru iluminat general,,,SR EN IEC 62031:2020+A11:2021,EN IEC 62031,ACTIVE
+PR 017,75,,electrical,Aparataj electronic alimentat în curent continuu sau în curent alternativ pentru module LED,,,SR EN IEC 62384:2020,EN IEC 62384,ACTIVE
+PR 017,76,,electrical,27 Echipament electric 275 Aparate de uz casnic 2751 Aparate electrice de uz casnic,,,* Nota 4 Standardele aplicabil fiecărui produs pot fi utilizate și împreună cu standardele: SR EN IEC 61000-3-2:2019+A1:2021 +A2:2024 SR EN 61000-3-3:2014+A1:2019+A2:2021+ +A2:2021/AC:2022 SR EN IEC 61000-3-11:2020 SR EN IEC 55014-1:2021 SR EN IEC 55014-2:2021,EN IEC 61000-3-2;EN 61000-3-3;EN IEC 61000-3-11;EN IEC 55014-1;EN IEC 55014-2,ACTIVE
+PR 017,77,,electrical,Aparate electrice pentru utilizare casnică şi scopuri similare. Securitate. Partea 1: Prescripţii generale,,,*Nota 5 Standardul aplicabil fiecărui produs trebuie utilizat împreună cu standardele: SR EN 60335-1:2012+AC:2014+A11:2015+ +A13:2018+A1:2019+A2:2019+A14:2020+ +A15:2021+A16:2023 SR EN IEC 60335-1:2024+A11:2024,EN 60335-1;EN IEC 60335-1,ACTIVE
+PR 017,78,,electrical,Storcătoare centrifugale,,,SR EN 60335-2-4:2010+A1:2015+ +A11:2019+A2:2020 SR EN IEC 60335-2-4:2024+A11:2024 SR EN IEC 60335-2-4:2025+A11:2025,EN 60335-2-4;EN IEC 60335-2-4,ACTIVE
+PR 017,79,,other_manufacturing,,,,* a se vedea notele 4 și 5,,ACTIVE
+PR 017,80,,electrical,Maşini de spălat rufe,,,SR EN IEC 60335-2-7:2023+A11:2023,EN IEC 60335-2-7,ACTIVE
+PR 017,81,,electrical,"Aparate de răcit, aparate de preparat îngheţată şi aparate de fabricat gheaţă",,,SR EN IEC 60335-2-24:2023+A11:2023,EN IEC 60335-2-24,ACTIVE
+PR 017,82,,electrical,Hote de bucătărie,,,SR EN 60335-2-31:2015+A1:2023+ +A2:2023+A11:2023,EN 60335-2-31,ACTIVE
+PR 017,83,,electrical,Aparate de uscat rufe şi uscătoare de prosoape,,,SR EN IEC 60335-2-43:2020+A11:2020,EN IEC 60335-2-43,ACTIVE
+PR 017,84,,electrical,Ventilatoare,,,SR EN 60335-2-80:2004+A1:2004+A2:2009 SR EN IEC 60335-2-80:2024+A11:2024,EN 60335-2-80;EN IEC 60335-2-80,ACTIVE
+PR 017,85,,electrical,Fiare de călcat,,,SR EN 60335-2-3:2016+A1:2020,EN 60335-2-3,ACTIVE
+PR 017,86,,electrical,Aspiratoare şi aspiratoare de curăţat cu aspirare de apă,,,SR EN 60335-2-2:2010+A1:2013+A11:2013 SR EN IEC 60335-2-2:2023+A11:2023,EN 60335-2-2;EN IEC 60335-2-2,ACTIVE
+PR 017,87,,electrical,"Maşini electrice de ras, maşini de tuns şi aparate similare",,,SR EN 60335-2-8:2016+A1:2016 + +A11:2023+A2:2023+A12:2023,EN 60335-2-8,ACTIVE
+PR 017,88,,electrical,Plite electrice de încălzit şi aparate similare,,,SR EN 60335-2-12:2004+A1:2008+A11:2019+ +A2:2019,EN 60335-2-12,ACTIVE
+PR 017,89,,electrical,Aparate de bucătărie,,,SR EN 60335-2-14:2007+A1:2009+A11:2012+ + A12:2017 SR EN IEC 60335-2-14:2023+A1:2024+A11:2024,EN 60335-2-14;EN IEC 60335-2-14,ACTIVE
+PR 017,90,,electrical,Aparate de încălzit lichide,,,SR EN 60335-2-15:2016+A11:2019+ + A1:2021+A2:2021+A12:2021,EN 60335-2-15,ACTIVE
+PR 017,91,,electrical,Aparate de încălzit apă cu acumulare,,,SR EN 60335-1:2012+AC:2014+A11:2015+ +A13:2018+A1:2019+A2:2019+A14:2020+ +A15:2021+A16:2023 SR EN 60335-2-21:2021+A1:2021,EN 60335-1;EN 60335-2-21,ACTIVE
+PR 017,92,,electrical,Aparate de îngrijit pielea sau părul,,,SR EN 60335-2-23:2004+A1:2008+A11:2011+ + A11:2011/AC:2012+A2:2015 SR EN IEC 60335-2-23:2023+A1:2023 + +A11:2023,EN 60335-2-23;EN IEC 60335-2-23,ACTIVE
+PR 017,93,,electrical,Încărcătoare de baterie,,,SR EN 60335-2-29:2022+A1:2022+A11:2024,EN 60335-2-29,ACTIVE
+PR 017,94,,electrical,Aparate de încălzit încăperi,,,SR EN 60335-2-30:2010+A11:2013+AC:2015 + +A1:2020+A12:2020+A2:2022+A13:2022,EN 60335-2-30,ACTIVE
+PR 017,95,,electrical,Aparate de masaj,,,SR EN IEC 60335-2-32:2021,EN IEC 60335-2-32,ACTIVE
+PR 017,96,,electrical,Pompe,,,SR EN IEC 60335-2-41:2022+A11:2022,EN IEC 60335-2-41,ACTIVE
+PR 017,97,,electrical,Aparate electrice de încălzit destinate reproducerii şi creşterii animalelor,,,SR EN IEC 60335-2-71:2020,EN IEC 60335-2-71,ACTIVE
+PR 017,98,,electrical,Termoplonjoare mobile,,,SR EN 60335-2-74:2004+A1:2007+A2:2010+ +A11:2019,EN 60335-2-74,ACTIVE
+PR 017,99,,electrical,"Aparate cu combustie de gaz, petrol şi combustibil solid care au conexiuni electrice",,,SR EN 60335-2-102:2016 SR EN IEC 60335-2-102:2024+A11:2024,EN 60335-2-102;EN IEC 60335-2-102,ACTIVE
+PR 017,100,,other_manufacturing,Elementele schemei de certificare,,,,,ACTIVE
+PR 027,1,,other_manufacturing,"16 Lemn şi produse din lemn şi plută, cu excepţia mobilei; articole din paie şi materiale împletite 1623 Alte elemente de dulgherie şi tâmplărie, pentru construcţii 1623.20 Construcţii diverse prefabricate din materiale lemnoase | Scări prefabricate",,,SR EN 15644: 2009,EN 15644,ACTIVE
+PR 027,2,,metals,23 Alte produse din minerale nemetalice 2363 Beton 2363.10 Beton | Beton Beton rutier,,,SR EN 206-1:2026 SR EN 206-2:2026 NE 012/1:2022 NE 014:2002,EN 206-1;EN 206-2,ACTIVE
+PR 027,3,,other_manufacturing,31 Mobilier 310 Mobilier | Mobilier,,,SR 770:2020,,ACTIVE
+PR 027,4,,metals,"25 Produse ale industriei construcţiilor metalice şi produselor din metal (excluzând maşini, utilaje şi echipamente) 2593 Articole din fire metalice; lanţuri şi arcuri 2593.13 Pânze, grilaje, plase şi garduri din fier, oţel sau sârmă de cupru; benzi extrudate din fier, oţel sau cupru | Plase sudate pentru armarea betonului",,,SR 438-3:2012,,ACTIVE
+PR 027,5,,other_manufacturing,Elementele schemei de certificare,,,,,ACTIVE
+PR 049,1,,construction,"236 Articole din beton, ciment și ipsos | Beton",,,NE 012/1-2022 SR EN 206+A2:2021,EN 206,ACTIVE
+PR 049,2,,construction,Beton rutier,,,NE 014: 2002,,ACTIVE
+PR 049,3,,metals,"24.Produse ale industriei metalurgice 2410.Metale feroase sub forme primare și feroaliaje 2410.6.Bare, fire și tije laminate la cald din oțel 2410.61.Fire și tije laminate la cald din oțel nealiat | Produse din oțel pentru armarea betonului. Oțel beton laminat la cald",,,SR 438-1: 2012 ST 009-11 (OMTCT nr. 683/2012) SR EN 10080:2005,EN 10080,ACTIVE
+PR 049,4,,metals,243 Alte produse metalurgice obţinute prin prelucrarea primară a oţelului | Plase sudate,,,SR 438-3: 2012,,ACTIVE
+PR 049,5,,rubber_plastics,Sârmă de oţel cu profil periodic obţinută prin deformare plastică la rece,,,SR 438-4: 2012,,ACTIVE
+PR 049,6,,other_manufacturing,Sârmă rotundă trefilată,,,SR 438-2: 2012,,ACTIVE
+PR 049,7,,metals,2511 Construcţii metalice şi părţi ale structurilor metalice | Eşafodaje pentru faţade executate din elemente prefabricate,,,SR EN 12810-1: 2004 SR EN 12811-1: 2004,EN 12810-1;EN 12811-1,ACTIVE
+PR 049,8,,other_manufacturing,Turnuri mobile pentru acces şi lucru din elemente prefabricate,,,SR EN 1004-1:2021,EN 1004-1,ACTIVE
+PR 049,9,,metals,"2599.21 Case de bani, uşi blindate, compartimente pentru camere blindate şi articole similare, din metale comune | Caroserii pentru autoutilitare de transport valori",,,SR EN 1522:2004,EN 1522,ACTIVE
+PR 049,10,,other_manufacturing,"Seifuri, uși de tezaur, camere de tezaur",,,SR EN 1143-1:2019 SR EN 1143-2:2024,EN 1143-1;EN 1143-2,ACTIVE
+PR 049,11,,other_manufacturing,Dulapuri de securitate,,,SR EN 14450+A1:2023,EN 14450,ACTIVE
+PR 049,12,,rubber_plastics,2223 Articole din material plastic pentru construcții 2223.20 Construcții prefabricate din material plastic | Produse termoizolante pentru clădiri. Sisteme compozite de izolare termică de exterior (ETICS) pe bază de polistiren expandat.,,,SR EN 13499:2004,EN 13499,ACTIVE
+PR 049,13,,construction,Produse termoizolante pentru clădiri. Sisteme compozite de izolare termică de exterior (ETICS) pe bază de vată minerală,,,SR EN 13500:2004,EN 13500,ACTIVE
+PR 085,1,,metals,23 Alte produse din minerale nemetalice 2363 Beton 2363.10 Beton | Beton,,,SR EN 206-1:2026 SR EN 206-2:2026 NE 012/1: 2022,EN 206-1;EN 206-2,ACTIVE
+PR 085,2,,construction,Beton rutier,,,NE 014:2002,,ACTIVE
+PR 085,3,,other_manufacturing,Elementele schemei de certificare,,,,,ACTIVE
+PR 087,1,,metals,23. Alte produse din minerale nemetalice 2363.Beton | Beton,,,SR EN 206-1:2026 SR EN 206-2:2026 NE 012/1:2022,EN 206-1;EN 206-2,ACTIVE
+PR 087,2,,construction,Beton rutier,,,NE 014:2002,,ACTIVE
+PR 087,3,,other_manufacturing,Elementele schemei de certificare,,,,,ACTIVE
+PR 089,1,,metals,"23.Alte produse din minerale nemetalice 236.Articole din beton, ciment și ipsos 2363.BETON | BETON",,,SR EN 206+A2:2021 NE 012/1:2022,EN 206,ACTIVE
+PR 089,2,,construction,BETON RUTIER,,,NE 014:2002,,ACTIVE
+PR 095,1,,metals,23 Alte produse din minerale nemetalice 2363 Beton 2363.10 Beton | Beton,,,SR EN 206-1:2026 SR EN 206-2:2026 NE 012/1-2022,EN 206-1;EN 206-2,ACTIVE
+PR 095,2,,construction,Beton rutier,,,NE 014: 2002,,ACTIVE
+PR 095,3,,other_manufacturing,Elementele schemei de certificare,,,,,ACTIVE
+PR 096,1,,metals,23. Alte produse din minerale nemetalice 2363 Beton | Beton,,,SR EN 206-1:2026 SR EN 206-2:2026 NE 012/1-2022,EN 206-1;EN 206-2,ACTIVE
+PR 096,2,,construction,Beton rutier,,,NE 014:2002,,ACTIVE
+PR 096,3,,other_manufacturing,Elementele schemei de certificare,,,,,ACTIVE
+PR 097,1,,metals,23. Alte produse din minerale nemetalice 2363 Beton | Beton Beton rutier,,,NE 012/1-2022 SR EN 206-1:2026 SR EN 206-2:2026 NE 014:2002,EN 206-1;EN 206-2,ACTIVE
+PR 097,2,,metals,23. Alte produse din minerale nemetalice 2399. Alte produse din minerale nemetalice n.c.a 2399.13 Amestecuri bituminoase pe bază de bitum și de piatră naturală sau artificială | Mixtură asfaltică stocabilă,,,NE 025:2003,,ACTIVE
+PR 097,3,,other_manufacturing,Elementele scheme de certificare,,,,,ACTIVE
+PR 098,1,,metals,23 Alte produse din minerale nemetalice 2363 Beton | Beton,,,SR EN 206-1:2026 SR EN 206-2:2026 NE 012/1: 2022,EN 206-1;EN 206-2,ACTIVE
+PR 098,2,,construction,Beton rutier,,,NE 014:2002,,ACTIVE
+PR 098,3,,other_manufacturing,Elementele schemei de certificare,,,,,ACTIVE
+PR 099,1,,construction,"DB Produse ale industriei textile 17 Produse ale industriei textile | 174 Articole confecționate din textile (cu excepția îmbrăcămintei și lenjeriei de corp) 1740 Articole confecționate din textile (cu excepția îmbrăcămintei și lenjeriei de corp) 1740.1 Lenjerie pentru casă 1740.11 Cuverturi, paturi și pleduri 1740.12 Lenjerie de pat 1740.2 Articole tehnice confecționate din textile 1740.24 Saci de dormit și alte articole similare pentru dormit",,,PST-14 SR EN 14:1996 SR EN ISO 23537-1:2022 SR EN ISO 23537-2:2023,EN ISO 23537-1;EN ISO 23537-2,ACTIVE
+PR 099,2,,other_manufacturing,"177 Articole tricotate și croșetate 1771 Ciorapi, șosete, ciorapi pantalon 1771.1 Ciorapi, șosete, ciorapi pantalon 1771.10 Ciorapi, șosete, ciorapi pantalon",,,PST-14 STAS 7135:1990 STAT 5498:1987 STAS 1085:1989 STAS 710:1984 STAS 7531:1985 SR 1086:2012,,ACTIVE
+PR 099,3,,construction,DB Produse ale industriei textile 18 Articole de îmbrăcăminte | 182 Articole de îmbrăcăminte și lenjerie 1821 Articole de îmbrăcăminte pentru lucru,,,PST-14 SR 4736:2012 SR 13188:2012 SR EN ISO 3758:2024 SR EN ISO 15487:2019 STAS 4615-88 SR 5726:2012 SR 6626:1995 SR 5665:2008,EN ISO 3758;EN ISO 15487,ACTIVE
+PR 099,4,,other_manufacturing,Elementele schemei de certificare,,,,,ACTIVE
+PR 100,1,,metals,23 Alte produse din minerale nemetalice 2363 Beton 2363.10 Beton | Beton,,,SR EN 206-1:2026 SR EN 206-2:2026 NE 012/1-2022,EN 206-1;EN 206-2,ACTIVE
+PR 100,2,,construction,Beton rutier,,,NE 014: 2002,,ACTIVE
+PR 100,3,,other_manufacturing,Elementele schemei de certificare,,,,,ACTIVE
+PR 101,1,,construction,DB Produse ale industriei textile 17 Produse ale industriei textile | 171 Fibre și fire textile,,,SR EN ISO 6938:2015 SR EN ISO 2076:2022 STAS 7360-91 STAS 12520-87 SR EN 12590:2003 STAS 5397-89 STAS 5397-89/A91:2008 STAS 287-80,EN ISO 6938;EN ISO 2076;EN 12590,ACTIVE
+PR 101,2,,other_manufacturing,172 Tesaturi,,,SR EN ISO 6938:2015 SR EN ISO 2076:2022 STAS 7360-91 STAS 12520-87 STAS 5397-89 STAS 5397-89/A91:2008 STAS 287-80 STAS 4736:1993 SR 4644:1993 SR 780:2008 SR EN 14465:2004,EN ISO 6938;EN ISO 2076;EN 14465,ACTIVE
+PR 101,3,,construction,174 Articole confecționate din textile (cu excepția îmbrăcămintei și lenjeriei de corp),,,SR EN ISO 23537-1:2022 SR EN ISO 23537-2:2023 SR EN 14:1996 STAS 8829-71 SR EN 14465:2004 SR EN 14465:2004/A1:2006,EN ISO 23537-1;EN ISO 23537-2;EN 14465,ACTIVE
+PR 101,4,,construction,175 Alte articole textile,,,STAS 8750/7-87,,ACTIVE
+PR 101,5,,other_manufacturing,176 Metraje obtinute prin tricotare sau crosetare,,,STAS 8829-71,,ACTIVE
+PR 101,6,,other_manufacturing,177 Articole tricotate și croșetate,,,STAS 1086:2012 STAS 7135-90 STAS 5498-87 STAS 710-84 STAS 7531-85 STAS 4615-88,,ACTIVE
+PR 101,7,,construction,DB Produse ale industriei textile 18 Articole de îmbrăcăminte | 182 Articole de îmbrăcăminte și lenjerie,,,STAS 4615-88 SR 1086:2012 STAS 4216-89 STAS 7135-90 STAS 5498-87 STAS 1085-89 STAS 710-84 STAS 7531-85 SR 13188:2012 STAS 1855-86 STAS 3131-86,,ACTIVE
+PR 101,8,,other_manufacturing,,,,STAS 3132-91 SR 4736:2012 STAS 10708-89 SR EN 16732:2025,EN 16732,ACTIVE
+PR 101,9,,other_manufacturing,Elementele schemei de certificare,,,,,ACTIVE

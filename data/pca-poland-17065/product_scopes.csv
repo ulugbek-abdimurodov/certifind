@@ -1,0 +1,330 @@
+certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_text,normative_docs,standard_refs,status
+AC 001,1,,transport_equipment,"certyfikacja zgodności wyrobów kod ICS: 43.160, 43.180,",,,,,ACTIVE
+AC 001,2,,transport_equipment,"certyfikacja na znaki zgodności kod ICS: 43.040.50, 43.040.70, 43.040.99, 43.080, 55.180",,,,,ACTIVE
+AC 001,3,,other_manufacturing,certyfikacja jakości biokomponentów,,,,,ACTIVE
+AC 002,1,,transport_equipment,certyfikacja zgodności wyrobów kod ICS: 13.340.99; 47.020.50; 53.100; 91.100.60; 91.220,,,,,ACTIVE
+AC 002,2,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 002,3,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 95/467/WE; 96/581/WE; 97/556/WE; 97/740/WE; 98/598/WE; 98/601/WE; 99/90/WE; 99/91/WE; 99/94/WE,,,,,ACTIVE
+AC 002,4,,construction,certyfikacja stałości właściwości użytkowych wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 002,5,,construction,"certyfikacja zgodności wyrobów kod ICS: 13.220.40, 13.310, 91.060, 91.190",,,,,ACTIVE
+AC 002,6,,construction,certyfikacja stałości właściwości użytkowych wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 004,1,,construction,certyfikacja stałości właściwości użytkowych wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 004,2,,machinery,certyfikacja zgodności wyrobów kod ICS: 23.040; 55.020; 87.020; 87.040; 93.030,,,,,ACTIVE
+AC 004,3,,chemicals,certyfikacja na znaki zgodności kod ICS: 87.040,,,,,ACTIVE
+AC 005,1,Construction Products Regulation (EU) 305/2011,,"ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 96/579/WE, 98/214/WE, 99/93/WE, 99/472/WE",,,,,ACTIVE
+AC 005,2,EMC Directive 2014/30/EU,,ocena zgodności w obszarze dyrektywy: 2014/30/UE,,,,,ACTIVE
+AC 005,3,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 005,4,,machinery,"certyfikacja zgodności wyrobów kod ICS: 13.220.40, 23.040.10, 23.040.70, 25.120.10, 25.140.20, 25.160.30, 29.020, 29.140, 29.180, 33.100, 53.040.20, 75.200, 77.140, 77.150, 79.060.20, 83.140, 83.200, 91.060.50, 91.140.10, 97.040.50, 97.100.10, 97.200.99",,,,,ACTIVE
+AC 005,5,,construction,certyfikacja stałości właściwości użytkowych wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 008,1,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 008,2,,construction,certyfikacja zgodności wyrobów kod ICS: 81.040.20; 91.100.10; 91.100.23; 91.140.70,,,,,ACTIVE
+AC 008,3,,other_manufacturing,certyfikacja zgodności procesów kod PKD: 23.12.Z; 23.19.Z; 23.31.Z; 23.61.Z; 23.63.Z,,,,,ACTIVE
+AC 008,4,,construction,certyfikacja stałości właściwości użytkowych wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 008,5,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 95/467/WE; 96/579/WE; 97/555/WE; 97/556/WE; 97/740/WE; 98/436/WE; 98/437/WE; 98/598/WE; 99/91/WE; 99/93/WE; 99/94/WE; 99/469/WE; 2000/245/WE; 2003/655/WE 98/598/WE; 99/91/WE 99/94/WE; 99/469/WE; 2000/245/WE; 2003/655/WE,,,,,ACTIVE
+AC 009,1,Construction Products Regulation (EU) 305/2011,,"ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 96/579/WE, 98/214/WE, 99/94/WE",,,,,ACTIVE
+AC 009,2,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 009,3,,construction,certyfikacja stałości właściwości użytkowych wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 010,1,Gas Appliances Regulation (EU) 2016/426,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/426,,,,,ACTIVE
+AC 010,2,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 95/467/WE; 99/472/WE,,,,,ACTIVE
+AC 010,3,Hot-water Boilers Directive 92/42/EEC,,ocena zgodności w obszarze dyrektywy: 92/42/EWG,,,,,ACTIVE
+AC 010,4,Pressure Equipment Directive 2014/68/EU,,ocena zgodności w obszarze dyrektywy: 2014/68/UE,,,,,ACTIVE
+AC 010,5,Measuring Instruments Directive 2014/32/EU,,ocena zgodności w obszarze dyrektywy: 2014/32/UE,,,,,ACTIVE
+AC 010,6,,machinery,certyfikacja zgodności wyrobów kod ICS: 23.040; 23.060; 75.200; 91.140,,,,,ACTIVE
+AC 010,7,,construction,certyfikacja stałości właściwości użytkowych wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 010,8,,other_manufacturing,certyfikacja jakości biokomponentów,,,,,ACTIVE
+AC 012,1,,other_manufacturing,"certyfikacja zgodności wyrobów kod ICS: 13.260; 17.220; 19.080; 25.040; 29.020; 29.060; 29.120; 29.130; 29.140; 29.180; 29.200; 29.240;33.120; 33.160; 35.020; 35.260; 91.060; 91.120, 97.030; 97.100,10; 97.120; 97.170; 97.200",,,,,ACTIVE
+AC 012,2,,other_manufacturing,"certyfikacja na znaki zgodności kod ICS: 13.260, 17.220; 19.080; 25.040; 29.020; 29.060; 29.120; 29.130; 29.140; 29.180; 29.200; 29.240;33.120; 33.160; 35.020; 35.260; 91.060; 91.120; 97.030; 97.100.10; 97.120; 97.170; 97.200.",,,,,ACTIVE
+AC 013,1,,chemicals,"ocena zgodności w obszarze rozp. PE i Rady(UE) 2019/1009 z dnia 5.06.19r. ustanawiające przepisy dotyczące udostępniania na rynku produktów nawozowych UE, zmieniające rozp.(WE) nr 1069/2009 i (WE) nr 1107/2009 oraz uchylające rozp.(WE) nr 2003/2003",,,,,ACTIVE
+AC 013,2,Construction Products Regulation (EU) 305/2011,,"ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 96/581/WE, 97/555/WE, 97/556/WE, 97/740/WE, 98/598/WE, 98/601/WE, 99/90/WE, 99/91/WE, 99/94/WE, 99/469/WE",,,,,ACTIVE
+AC 013,3,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 013,4,,construction,certyfikacja stałości właściwości użytkowych wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 013,5,,agriculture,certyfikacja produkcji ekologicznej i znakowania produktów ekologicznych,,,,,ACTIVE
+AC 013,6,,agriculture,certyfikacja integrowanej produkcji roślin,,,,,ACTIVE
+AC 015,1,,transport_equipment,"certyfikacja zgodności wyrobów kod ICS: 43.040, 43.060, 43.180, 71.100, 83.140",,,,,ACTIVE
+AC 016,1,,rubber_plastics,"certyfikacja na znaki zgodności kod ICS: 13.030, 55.040, 55.080, 55.100, 55.120, 55.140, 55.160, 55.180",,,,,ACTIVE
+AC 016,2,,rubber_plastics,"certyfikacja zgodności wyrobów kod ICS: 55.020, 55.040, 55.080, 55.160, 85.060, 85.080",,,,,ACTIVE
+AC 016,3,PPE Regulation (EU) 2016/425,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/425,,,,,ACTIVE
+AC 016,4,,health,"certyfikacja zgodności wyrobów kod ICS: 11.140, 13.220.50, 13.340.10, 13.340.40, 13.340.50, 59.080.20, 59.080.30, 59.080.40, 59.080.60, 59.080.99, 59.140.30, 61.020, 61.060, 83.080.20, 83.140, 97.140, 97.160, 97.190, 97.200.50",,,,,ACTIVE
+AC 018,1,PPE Regulation (EU) 2016/425,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/425,,,,,ACTIVE
+AC 018,2,,health,certyfikacja zgodności wyrobów kod ICS: 11.040.70; 11.140; 13.340.10; 13.340.40; 13.340.50; 13.340.60,,,,,ACTIVE
+AC 020,1,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 020,2,,construction,certyfikacja stałości właściwości użytkowych wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 020,3,Construction Products Regulation (EU) 305/2011,,"ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 95/467/WE; 96/577/WE; 96/579/WE; 96/580/WE; 96/581/WE; 96/582/WE; 97/161/WE; 97/176/WE; 97/177/WE; 97/462/WE; 97/463/WE; 97/555/WE; 97/556/WE; 97/597/WE, 97/638/WE; 97/740/WE; 97/808/WE; 98/143/WE; 98/213/WE; 98/214/WE; 98/279/WE; 98/436/WE; 98/437/WE; 98/456/WE; 98/598/WE; 98/599/WE; 98/600/WE; 98/601/WE; 99/89/WE; 99/90/WE; 99/91/WE; 99/92/WE; 99/93/WE; 99/94/WE; 99/454/WE; 99/455/WE; 99/469/WE; 99/470/WE; 99/472/WE; 2000/273/WE; 2000/606/WE; 2001/308/WE; 2003/639/WE; 2003/640/WE; 2003/655/WE; 2003/722/WE; 2003/728/WE; 2011/19/UE; 2011/284/UE; 2015/1958/UE; 97/176/WE; 97/177/WE; 97/462/WE; 97/463/WE; 97/555/WE; 97/556/WE; 97/597/WE, 97/638/WE; 97/740/WE; 97/808/WE; 98/143/WE; 98/213/WE; 98/214/WE; 98/279/WE; 98/436/WE; 98/437/WE; 98/456/WE; 98/598/WE; 98/599/WE; 98/600/WE; 98/601/WE; 99/89/WE; 99/90/WE; 99/91/WE; 99/92/WE; 99/93/WE; 99/94/WE; 99/454/WE; 99/455/WE; 99/469/WE; 99/470/WE; 2000/273/WE; 2000/606/WE; 2001/308/WE; 2003/639/WE; 2003/640/WE; 2003/655/WE; 2003/722/WE; 2003/728/WE; 2011/19/UE; 2011/284/UE; 2015/1958/UE",,,,,ACTIVE
+AC 021,1,,energy,certyfikacja zgodności wyrobów kod ICS: 75.160,,,,,ACTIVE
+AC 021,2,,other_manufacturing,certyfikacja jakości biokomponentów,,,,,ACTIVE
+AC 023,1,ATEX Directive 2014/34/EU,,ocena zgodności w obszarze dyrektywy: 2014/34/UE,,,,,ACTIVE
+AC 023,2,,construction,wydawanie opinii w sprawie dopuszczania wyrobu do stosowania w zakładach górniczych,,,,,ACTIVE
+AC 023,3,Toy Safety Directive 2009/48/EC,,ocena zgodności w obszarze dyrektywy: 2009/48/WE,,,,,ACTIVE
+AC 023,4,Machinery Regulation (EU) 2023/1230,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) 2023/1230 z dn. 14 czerwca 2023 r. w sprawie maszyn oraz w sprawie uchylenia dyrektywy 2006/42/WE Parlamentu Europejskiego i Rady i dyrektywy Rady 73/361/EWG,,,,,ACTIVE
+AC 023,5,Machinery Directive 2006/42/EC,,ocena zgodności w obszarze dyrektywy: 2006/42/WE,,,,,ACTIVE
+AC 023,6,,electrical,certyfikacja zgodności wyrobów kod ICS: 13.110; 13.260; 29.020; 29.130.10; 29.130.20; 29.160.20; 29.220; 29.260.20; 43.120; 73.100.10; 73.100.20; 73.100.30; 73.100.40; 97.200.50,,,,,ACTIVE
+AC 027,1,,other_manufacturing,ocena zgodności w obszarze dyrektywy: 2013/29/UE,,,,,ACTIVE
+AC 027,2,,transport_equipment,"certyfikacja zgodności wyrobów kod ICS: 13.310; 13.340, 49.100; 71.100; 81.040; 91.060; 95.020",,,,,ACTIVE
+AC 027,3,PPE Regulation (EU) 2016/425,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/425,,,,,ACTIVE
+AC 029,1,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 98/214/WE,,,,,ACTIVE
+AC 029,2,,metals,certyfikacja zgodności procesów kod PKD: Spawalniczych,,,,,ACTIVE
+AC 030,1,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 030,2,,machinery,certyfikacja zgodności wyrobów kod ICS: 23.040.03; 23.040; 23.040.40; 23.060; 25.040; 25.080.10; 25.080.20; 25.080.40; 25.080.60; 25.120.10; 25.120.30; 25.140.10; 29.160; 29.160.40; 79.120; 91.140.60; 91.220; 93.080; 93.080.10; 93.080.30; 23.040.40; 23.060; 25.040; 25.080.10; 25.080.20; 25.080.40; 25.080.60; 25.120.10; 25.120.30; 25.140.10; 29.160; 29.160.40; 31.260; 33.100; 79.120; 83.200; 91.140.60; 91.140.80; 91.220; 93.080; 93.080.10; 93.080.30; 97.1453.040.10; 23.040.40; 23.040.60; 23.060; 25.040; 25.080.10; 25.080.20; 25.080.40; 25.080.60; 25.120.10; 25.120.30; 25.140.10; 25.140.20; 29.020; 29.160; 29.160.40; 31.260; 33.100; 37.100; 61.080; 65.060.50; 65.060.70; 67.260; 77.150; 77.180; 79.120; 83.200; 85.100; 91.140.60; 91.140.80; 91.220; 93.080; 93.080.10; 93.080.30; 97.145,,,,,ACTIVE
+AC 030,3,,construction,certyfikacja stałości właściwości użytkowych wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 030,4,Outdoor Noise Directive 2000/14/EC,,ocena zgodności w obszarze dyrektywy: 2000/14/WE,,,,,ACTIVE
+AC 030,5,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 98/214/WE,,,,,ACTIVE
+AC 030,6,Machinery Regulation (EU) 2023/1230,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) 2023/1230 z dn. 14 czerwca 2023 r. w sprawie maszyn oraz w sprawie uchylenia dyrektywy 2006/42/WE Parlamentu Europejskiego i Rady i dyrektywy Rady 73/361/EWG,,,,,ACTIVE
+AC 036,1,Outdoor Noise Directive 2000/14/EC,,ocena zgodności w obszarze dyrektywy: 2000/14/WE,,,,,ACTIVE
+AC 036,2,,machinery,"certyfikacja zgodności wyrobów kod ICS: 23.120, 27.060, 27.080, 27.200, 33.100, 43.040.60, 55.040, 55.180, 55.180.10, 55.180.30, 91.140.10, 91.140.30, 97.030, 97.040.30, 97.130.20",,,,,ACTIVE
+AC 036,3,Simple Pressure Vessels Directive 2014/29/EU,,ocena zgodności w obszarze dyrektywy: 2014/29/UE,,,,,ACTIVE
+AC 036,4,Pressure Equipment Directive 2014/68/EU,,ocena zgodności w obszarze dyrektywy: 2014/68/UE,,,,,ACTIVE
+AC 036,5,,other_manufacturing,opiniowanie danych do świadectw pochodzenia z kogeneracji,,,,,ACTIVE
+AC 038,1,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 038,2,Machinery Directive 2006/42/EC,,ocena zgodności w obszarze dyrektywy: 2006/42/WE,,,,,ACTIVE
+AC 038,3,,other_manufacturing,ocena zgodności w obszarze dyrektywy: 2014/28/UE,,,,,ACTIVE
+AC 038,4,ATEX Directive 2014/34/EU,,ocena zgodności w obszarze dyrektywy: 2014/34/UE,,,,,ACTIVE
+AC 038,5,Construction Products Regulation (EU) 305/2011,,"ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 98/214/WE, 98/598/WE, 98/601/WE, 99/469/WE",,,,,ACTIVE
+AC 038,6,,machinery,"certyfikacja zgodności wyrobów kod ICS: 13.110, 21.060, 21.220, 23.040, 23.040.10, 23.040.20, 23.040.70, 23.080, 23.100, 23.100.20, 23.100.40, 23.120, 23.140, 29.160, 53.020.30, 53.040.99, 53.100, 71.100, 71.100.99, 73.020, 73.100, 75.120, 77.140.50, 77.140.60, 77.140.65, 77.140.70, 83.140, 91.100.30, 93.030",,,,,ACTIVE
+AC 038,7,,construction,wydawanie opinii w sprawie dopuszczania wyrobu do stosowania w zakładach górniczych,,,,,ACTIVE
+AC 044,1,Gas Appliances Regulation (EU) 2016/426,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/426,,,,,ACTIVE
+AC 044,2,EMC Directive 2014/30/EU,,ocena zgodności w obszarze dyrektywy: 2014/30/UE,,,,,ACTIVE
+AC 052,1,Construction Products Regulation (EU) 305/2011,,"ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 96/579/WE, 98/601/WE",,,,,ACTIVE
+AC 052,2,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 052,3,,construction,certyfikacja stałości właściwości użytkowych wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 053,1,,electrical,certyfikacja zgodności wyrobów kod ICS: 29.060.20; 29.060; 29.120; 29.130; 29.140.40; 29.160; 29.180; 29.260; 33.100; 35.020; 73.100,,,,,ACTIVE
+AC 053,2,,construction,wydawanie opinii w sprawie dopuszczania wyrobu do stosowania w zakładach górniczych,,,,,ACTIVE
+AC 063,1,Construction Products Regulation (EU) 305/2011,,"ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 96/577/WE, 2011/284/UE",,,,,ACTIVE
+AC 063,2,,construction,certyfikacja stałości właściwości użytkowych wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 063,3,,other_manufacturing,dopuszczanie wyrobów do użytkowania,,,,,ACTIVE
+AC 063,4,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 063,5,,other_manufacturing,"certyfikacja zgodności wyrobów kod ICS: 13.220.10, 13.220.20, 13.340.10",,,,,ACTIVE
+AC 074,1,,other_manufacturing,"certyfikacja zgodności wyrobów kod ICS: 97.200.40; 97.220.30, 97.220.40",,,,,ACTIVE
+AC 080,1,,food,certyfikacja wg standardu QMP,,,,,ACTIVE
+AC 080,2,,food,certyfikacja wg standardu QAFP,,,,,ACTIVE
+AC 080,3,,agriculture,certyfikacja produkcji ekologicznej i znakowania produktów ekologicznych,,,,,ACTIVE
+AC 080,4,,food,certyfikacja produktów regionalnych i tradycyjnych,,,,,ACTIVE
+AC 080,5,,agriculture,certyfikacja integrowanej produkcji roślin,,,,,ACTIVE
+AC 093,1,,food,certyfikacja wg standardu QMP,,,,,ACTIVE
+AC 093,2,GLOBALG.A.P. IFA,,certyfikacja wg standardu GLOBALG.A.P,,,,,ACTIVE
+AC 093,3,,agriculture,certyfikacja produkcji ekologicznej i znakowania produktów ekologicznych,,,,,ACTIVE
+AC 093,4,,food,certyfikacja produktów regionalnych i tradycyjnych,,,,,ACTIVE
+AC 093,5,,agriculture,certyfikacja integrowanej produkcji roślin,,,,,ACTIVE
+AC 095,1,,agriculture,certyfikacja produkcji ekologicznej i znakowania produktów ekologicznych,,,,,ACTIVE
+AC 096,1,,agriculture,certyfikacja produkcji ekologicznej i znakowania produktów ekologicznych,,,,,ACTIVE
+AC 096,2,,agriculture,certyfikacja integrowanej produkcji roślin,,,,,ACTIVE
+AC 097,1,PPE Regulation (EU) 2016/425,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/425,,,,,ACTIVE
+AC 097,2,,health,"certyfikacja zgodności wyrobów kod ICS: 11.140, 13.340, 59.080",,,,,ACTIVE
+AC 098,1,Construction Products Regulation (EU) 305/2011,,"ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 97/176/WE, 97/462/WE; 97/808/WE; 98/437/WE",,,,,ACTIVE
+AC 098,2,,chemicals,certyfikacja zgodności wyrobów kod ICS: 71.040.10; 75.160.40; 79.040; 79.060; 79.060.20; 79.060.99; 79.080; 91.190; 91.220; 97.140; 97.190; 97.200.30,,,,,ACTIVE
+AC 098,3,,electrical,"certyfikacja zgodności wyrobów kod ICS: 29.280, 35.240, 45.020, 45.040, 45.060.10, 45.060.20, 45.080, 93.100",,,,,ACTIVE
+AC 098,4,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności w obszarze dyrektywy: 2016/797,,,,,ACTIVE
+AC 098,5,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności przez Jednostkę Wyznaczoną w obszarze dyrektywy UE 2016/797,,,,,ACTIVE
+AC 098,6,,other_manufacturing,certyfikacja zgodności w obszarze kolei,,,,,ACTIVE
+AC 099,1,,ict,ocena zgodności w obszarze rozp. Komisji(UE) 2024/482 z dnia 31.01.2024 r. ustanawiające zasady stosowania rozp. PE i Rady(UE) 2019/881 w odniesieniu do przyjęcia europejskiego programu cert. cyberbezpieczeństwa opartego na wspólnych kryteriach EUCC,,,,,ACTIVE
+AC 099,2,ATEX Directive 2014/34/EU,,ocena zgodności w obszarze dyrektywy: 2014/34/UE,,,,,ACTIVE
+AC 099,3,EMC Directive 2014/30/EU,,ocena zgodności w obszarze dyrektywy: 2014/30/UE,,,,,ACTIVE
+AC 099,4,,construction,wydawanie opinii w sprawie dopuszczania wyrobu do stosowania w zakładach górniczych,,,,,ACTIVE
+AC 099,5,,health,"certyfikacja zgodności wyrobów kod ICS: 11.040, 11.040.10, 11.040.50, 11.040.55, 11.040.60, 13.110, 13.230, 13.260, 19.080, 23.040, 23.080, 23.100, 23.120, 23.140, 25.040.40, 27.080, 29.020, 29.130, 29.140, 29.160.30, 29.160, 29.180, 29.220, 29.220.30, 29.260.20, 33.100, 35.260, 39.040, 53.040, 53.100, 55.230, 65.040.10, 71.100, 73.020, 73.100, 73.100.10, 73.100.20, 73.100.30, 73.100.40, 73.100.99, 73.120, 83.080, 83.140, 83.180, 91.100, 91.140.10, 91.140.65, 93.020, 97.030, 97.040, 97.100, 97.100.20, 97.130.20, 97.140, 97.200.40, 97.200.50, 97.200.99, 97.220.30",,,,,ACTIVE
+AC 099,6,,professional,certyfikacja zgodności usług kod PKD:,,,,,ACTIVE
+AC 100,1,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 98/214/WE,,,,,ACTIVE
+AC 100,2,Pressure Equipment Directive 2014/68/EU,,ocena zgodności w obszarze dyrektywy: 2014/68/UE,,,,,ACTIVE
+AC 100,3,ATEX Directive 2014/34/EU,,ocena zgodności w obszarze dyrektywy: 2014/34/UE,,,,,ACTIVE
+AC 100,4,Machinery Directive 2006/42/EC,,ocena zgodności w obszarze dyrektywy: 2006/42/WE,,,,,ACTIVE
+AC 100,5,Simple Pressure Vessels Directive 2014/29/EU,,ocena zgodności w obszarze dyrektywy: 2014/29/UE,,,,,ACTIVE
+AC 100,6,Lifts Directive 2014/33/EU,,ocena zgodności w obszarze dyrektywy: 2014/33/UE,,,,,ACTIVE
+AC 100,7,,health,"certyfikacja zgodności wyrobów kod ICS: 11.180, 13.030.40, 13.110, 13.230, 23, 23.020, 23.060, 25.160, 27, 27.060, 33.100, 53.020, 91.080, 91.140, 97.030, 97.100, 97.200, 97.220",,,,,ACTIVE
+AC 100,8,,other_manufacturing,opiniowanie danych do świadectw pochodzenia z kogeneracji,,,,,ACTIVE
+AC 100,9,Machinery Regulation (EU) 2023/1230,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) 2023/1230 z dn. 14 czerwca 2023 r. w sprawie maszyn oraz w sprawie uchylenia dyrektywy 2006/42/WE Parlamentu Europejskiego i Rady i dyrektywy Rady 73/361/EWG,,,,,ACTIVE
+AC 100,10,Gas Appliances Regulation (EU) 2016/426,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/426,,,,,ACTIVE
+AC 100,11,,health,"certyfikacja na znaki zgodności kod ICS: 11.180, 13.030.40, 13.110, 13.220, 13.230, 23, 23.020, 23.060, 25.160, 27, 27.060, 33.100, 53.020, 91.080, 91.140, 97.030, 97.100, 97.200, 97.220",,,,,ACTIVE
+AC 101,1,,machinery,certyfikacja zgodności wyrobów kod ICS: 13.110; 13.230; 13.260; 23.100.10; 23.140; 27.020; 29.160.40; 53.020.99; 53.100; 73.020; 73.100; 73.100.10; 73.100.40; 73.100.99; 93.020,,,,,ACTIVE
+AC 102,1,,agriculture,certyfikacja produkcji ekologicznej i znakowania produktów ekologicznych,,,,,ACTIVE
+AC 102,2,,agriculture,certyfikacja integrowanej produkcji roślin,,,,,ACTIVE
+AC 103,1,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 98/214/WE,,,,,ACTIVE
+AC 103,2,Pressure Equipment Directive 2014/68/EU,,ocena zgodności w obszarze dyrektywy: 2014/68/UE,,,,,ACTIVE
+AC 103,3,Simple Pressure Vessels Directive 2014/29/EU,,ocena zgodności w obszarze dyrektywy: 2014/29/UE,,,,,ACTIVE
+AC 103,4,,other_manufacturing,certyfikacja zgodności procesów kod PKD:,,,,,ACTIVE
+AC 103,5,,other_manufacturing,certyfikacja wg standardu IFS,,,,,ACTIVE
+AC 103,6,,other_manufacturing,certyfikacja wg standardu BRC,,,,,ACTIVE
+AC 114,1,PPE Regulation (EU) 2016/425,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/425,,,,,ACTIVE
+AC 114,2,Construction Products Regulation (EU) 305/2011,,"ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 98/214/WE, 98/598/WE",,,,,ACTIVE
+AC 114,3,Marine Equipment Directive 2014/90/EU,,ocena zgodności w obszarze dyrektywy: 2014/90/UE,,,,,ACTIVE
+AC 114,4,Pressure Equipment Directive 2014/68/EU,,ocena zgodności w obszarze dyrektywy: 2014/68/UE,,,,,ACTIVE
+AC 114,5,Simple Pressure Vessels Directive 2014/29/EU,,ocena zgodności w obszarze dyrektywy: 2014/29/UE,,,,,ACTIVE
+AC 114,6,Recreational Craft Directive 2013/53/EU,,ocena zgodności w obszarze dyrektywy: 2013/53/UE,,,,,ACTIVE
+AC 114,7,,energy,certyfikacja zgodności wyrobów kod ICS: 27.180,,,,,ACTIVE
+AC 114,8,,other_manufacturing,certyfikacja zgodności procesów kod PKD:,,,,,ACTIVE
+AC 117,1,,other_manufacturing,"certyfikacja zgodności wyrobów kod ICS: 17.220.20, 29.060.10, 29.060.20, 29.080, 29.120.20, 29.120.30, 29.120.50, 29.130.10, 29.130.20, 29.160.20, 29.180, 29.240.10, 29.240.20",,,,,ACTIVE
+AC 119,1,,food,certyfikacja wg standardu QMP,,,,,ACTIVE
+AC 119,2,,food,certyfikacja wg standardu QAFP,,,,,ACTIVE
+AC 119,3,GLOBALG.A.P. IFA,,certyfikacja wg standardu GLOBALG.A.P,,,,,ACTIVE
+AC 119,4,,agriculture,certyfikacja produkcji ekologicznej i znakowania produktów ekologicznych,,,,,ACTIVE
+AC 119,5,,food,certyfikacja produktów regionalnych i tradycyjnych,,,,,ACTIVE
+AC 119,6,,agriculture,certyfikacja integrowanej produkcji roślin,,,,,ACTIVE
+AC 124,1,,professional,certyfikacja zgodności usług kod PKD: p.poż.,,,,,ACTIVE
+AC 124,2,,construction,certyfikacja zgodności wyrobów kod ICS: 13.220.40; 13.310; 91.060; 91.190,,,,,ACTIVE
+AC 124,3,,construction,certyfikacja stałości właściwości użytkowych wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 124,4,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 96/577/WE; 99/93/WE,,,,,ACTIVE
+AC 126,1,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności w obszarze dyrektywy: 2016/797,,,,,ACTIVE
+AC 126,2,Cableway Installations Regulation (EU) 2016/424,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/424,,,,,ACTIVE
+AC 126,3,Construction Products Regulation (EU) 305/2011,,"ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 97/176/WE, 98/214/WE",,,,,ACTIVE
+AC 126,4,,machinery,"certyfikacja zgodności wyrobów kod ICS: 23.020.20, 23.020.30, 23.020.35, 23.020.40, 23.020.99, 23.040.01, 23.040.40, 23.040.60, 23.040.99, 25.160.20, 23.060.20, 23.060.40, 29.280, 43.180, 45.040, 45.060, 45.060.20, 45.080, 45.100, 45.120, 53.020.20, 53.020.30, 53.020.99, 53.100, 93.100;",,,,,ACTIVE
+AC 126,5,Pressure Equipment Directive 2014/68/EU,,ocena zgodności w obszarze dyrektywy: 2014/68/UE,,,,,ACTIVE
+AC 126,6,Lifts Directive 2014/33/EU,,ocena zgodności w obszarze dyrektywy: 2014/33/UE,,,,,ACTIVE
+AC 126,7,Simple Pressure Vessels Directive 2014/29/EU,,ocena zgodności w obszarze dyrektywy: 2014/29/UE,,,,,ACTIVE
+AC 126,8,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności przez Jednostkę Wyznaczoną w obszarze dyrektywy UE 2016/797,,,,,ACTIVE
+AC 126,9,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 126,10,,other_manufacturing,certyfikacja zgodności w obszarze kolei,,,,,ACTIVE
+AC 126,11,,metals,certyfikacja zgodności procesów kod PKD: spawalniczych,,,,,ACTIVE
+AC 126,12,,other_manufacturing,certyfikacja na znaki zgodności kod ICS:,,,,,ACTIVE
+AC 128,1,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności przez Jednostkę Wyznaczoną w obszarze dyrektywy UE 2016/797,,,,,ACTIVE
+AC 128,2,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności w obszarze dyrektywy: 2016/797,,,,,ACTIVE
+AC 128,3,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 128,4,,electrical,"certyfikacja zgodności wyrobów kod ICS: 29.060, 29.080, 29.240, 45.040, 45.060, 45.080, 45.140, 71.100, 79.040, 91.100, 93.100",,,,,ACTIVE
+AC 128,5,,other_manufacturing,certyfikacja zgodności w obszarze kolei,,,,,ACTIVE
+AC 141,1,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 98/214/WE,,,,,ACTIVE
+AC 141,2,Pressure Equipment Directive 2014/68/EU,,ocena zgodności w obszarze dyrektywy: 2014/68/UE,,,,,ACTIVE
+AC 141,3,,other_manufacturing,certyfikacja zgodności procesów kod PKD:,,,,,ACTIVE
+AC 141,4,,machinery,"certyfikacja zgodności wyrobów kod ICS: 25.040.99, 45.040, 45.060.10, 45.060.20, 45.080, 45.140",,,,,ACTIVE
+AC 141,5,,food,certyfikacja wg standardu QMP,,,,,ACTIVE
+AC 141,6,GLOBALG.A.P. IFA,,certyfikacja wg standardu GLOBALG.A.P,,,,,ACTIVE
+AC 141,7,,agriculture,certyfikacja produkcji ekologicznej i znakowania produktów ekologicznych,,,,,ACTIVE
+AC 141,8,,electrical,"certyfikacja na znaki zgodności kod ICS: 13.110, 29.020, 29.140, 29.220, 35.260, 39.040.01, 43.100, 67.260, 91.140.30, 97.130.30, 97.140; 97.145, 97.190; 97.200.40, 97.200.50, 97.220.10, 97.220.30",,,,,ACTIVE
+AC 141,9,,agriculture,certyfikacja integrowanej produkcji roślin,,,,,ACTIVE
+AC 141,10,,other_manufacturing,opiniowanie danych do świadectw pochodzenia z kogeneracji,,,,,ACTIVE
+AC 141,11,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności w obszarze dyrektywy: 2016/797,,,,,ACTIVE
+AC 141,12,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności przez Jednostkę Wyznaczoną w obszarze dyrektywy UE 2016/797,,,,,ACTIVE
+AC 141,13,,other_manufacturing,certyfikacja wg programu FEMB Level,,,,,ACTIVE
+AC 147,1,,other_manufacturing,opiniowanie danych do świadectw pochodzenia z kogeneracji,,,,,ACTIVE
+AC 148,1,,food,certyfikacja wg standardu QMP,,,,,ACTIVE
+AC 148,2,,food,certyfikacja wg standardu QAFP,,,,,ACTIVE
+AC 148,3,,agriculture,certyfikacja produkcji ekologicznej i znakowania produktów ekologicznych,,,,,ACTIVE
+AC 148,4,,agriculture,certyfikacja integrowanej produkcji roślin,,,,,ACTIVE
+AC 149,1,,other_manufacturing,"certyfikacja zgodności wyrobów kod ICS: 13.110, 13.230, 13.320, 17.220.20, 23.040, 23.040.10, 23.040.20, 23.040.45, 23.040.60, 23.040.70, 23.060, 23.080, 23.100, 23.140, 27.080, 29.020, 29.120.50, 29.130, 29.140.40, 29.160, 29.180, 29.260.20, 33.100, 43.120, 43.180, 53.020.99, 53.040, 53.040.10, 53.040.20, 73.020, 73.100.10, 73.100.20, 73.100.30, 73.100.40, 73.100.99, 73.120, 79.120.10, 91.220, 97.030, 97.040.50, 97.100.10, 97.130.20, 97.145",,,,,ACTIVE
+AC 149,2,Machinery Directive 2006/42/EC,,ocena zgodności w obszarze dyrektywy: 2006/42/WE,,,,,ACTIVE
+AC 149,3,EMC Directive 2014/30/EU,,ocena zgodności w obszarze dyrektywy: 2014/30/UE,,,,,ACTIVE
+AC 149,4,ATEX Directive 2014/34/EU,,ocena zgodności w obszarze dyrektywy: 2014/34/UE,,,,,ACTIVE
+AC 149,5,,construction,wydawanie opinii w sprawie dopuszczania wyrobu do stosowania w zakładach górniczych,,,,,ACTIVE
+AC 152,1,,food,certyfikacja KZR INiG,,,,,ACTIVE
+AC 152,2,Construction Products Regulation (EU) 305/2011,,"ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 97/176/WE;98/214/WE; 98/601/WE, 98/598/WE, 99/94/WE, 97/740/WE",,,,,ACTIVE
+AC 152,3,GLOBALG.A.P. IFA,,certyfikacja wg standardu GLOBALG.A.P,,,,,ACTIVE
+AC 152,4,,construction,certyfikacja stałości właściwości użytkowych wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 156,1,,wood_paper,certyfikacja zgodności wyrobów kod ICS: 79.060,,,,,ACTIVE
+AC 157,1,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 157,2,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 95/467/WE; 97/555/WE; 97/740/WE; 98/598/WE; 98/601/WE; 99/94/WE; 99/469/WE,,,,,ACTIVE
+AC 158,1,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 158,2,Construction Products Regulation (EU) 305/2011,,"ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 95/467/WE; 96/577/WE; 96/582/WE; 97/161/WE, 97/176/WE; 97/177/WE; 97/463/WE; 97/556/WE; 97/740/WE; 98/213/WE; 98/214/WE; 98/436/WE, 98/437/WE, 98/598/WE; 98/599/WE; 98/600/WE; 98/601/WE; 99/89/WE; 99/92/WE; 99/93/WE; 99/94/WE; 99/454/WE; 2000/245/WE; 2003/655/WE",,,,,ACTIVE
+AC 158,3,,construction,certyfikacja stałości właściwości użytkowych wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 158,4,,construction,certyfikacja zgodności wyrobów kod ICS: 91.060,,,,,ACTIVE
+AC 159,1,,food,certyfikacja KZR INiG,,,,,ACTIVE
+AC 159,2,,other_manufacturing,certyfikacja wg standardu IFS,,,,,ACTIVE
+AC 161,1,,food,certyfikacja KZR INiG,,,,,ACTIVE
+AC 161,2,,other_manufacturing,opiniowanie danych do świadectw pochodzenia z kogeneracji,,,,,ACTIVE
+AC 161,3,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności w obszarze dyrektywy: 2016/797,,,,,ACTIVE
+AC 161,4,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności przez Jednostkę Wyznaczoną w obszarze dyrektywy UE 2016/797,,,,,ACTIVE
+AC 161,5,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 98/214/WE,,,,,ACTIVE
+AC 161,6,,chemicals,"certyfikacja zgodności procesów kod PKD: spawalniczych, spawania pojazdów szynowych i ich części składowych, produkcji produktów kosmetycznych",,,,,ACTIVE
+AC 161,7,,food,certyfikacja wg standardu QMP,,,,,ACTIVE
+AC 164,1,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności przez Jednostkę Wyznaczoną w obszarze dyrektywy UE 2016/797,,,,,ACTIVE
+AC 164,2,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności w obszarze dyrektywy: 2016/797,,,,,ACTIVE
+AC 168,1,,other_manufacturing,"certyfikacja zgodności wyrobów kod ICS: 13.260, 17.220.20, 29.020, 29.120.20, 29.120.30, 29.120.40, 29.120.50, 29.120.99, 29.130.10, 29.130.20, 29.140.20, 29.140.30, 29.140.40, 29.140.99, 29.180, 29.200, 29.240.10, 29.240.20, 29.280, 31.060, 33.100",,,,,ACTIVE
+AC 169,1,,other_manufacturing,certyfikacja wg standardu IFS,,,,,ACTIVE
+AC 169,2,GLOBALG.A.P. IFA,,certyfikacja wg standardu GLOBALG.A.P,,,,,ACTIVE
+AC 169,3,,other_manufacturing,certyfikacja wg standardu BRC,,,,,ACTIVE
+AC 170,1,Marine Equipment Directive 2014/90/EU,,ocena zgodności w obszarze dyrektywy: 2014/90/UE,,,,,ACTIVE
+AC 170,2,,construction,certyfikacja stałości właściwości użytkowych wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 170,3,Construction Products Regulation (EU) 305/2011,,"ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 96/577/WE,99/93/WE",,,,,ACTIVE
+AC 171,1,,other_manufacturing,certyfikacja zgodności wyrobów kod ICS: 97.140; 97.190; 97.200.40; 97.220.10; 97.220.30; 97.220.40,,,,,ACTIVE
+AC 174,1,,construction,wydawanie opinii w sprawie dopuszczania wyrobu do stosowania w zakładach górniczych,,,,,ACTIVE
+AC 175,1,,textiles,"certyfikacja na znaki zgodności kod ICS: 59.080, 61.020, 97.160",,,,,ACTIVE
+AC 175,2,,health,"certyfikacja zgodności wyrobów kod ICS: 11.140, 13.340.10, 13.340.30, 13.340.40, 13.340.50, 59.080, 59.080.30, 59.080.40, 59.140.30, 61.020, 97.160",,,,,ACTIVE
+AC 175,3,PPE Regulation (EU) 2016/425,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/425,,,,,ACTIVE
+AC 176,1,,food,certyfikacja produktów regionalnych i tradycyjnych,,,,,ACTIVE
+AC 176,2,,agriculture,certyfikacja integrowanej produkcji roślin,,,,,ACTIVE
+AC 182,1,,food,certyfikacja KZR INiG,,,,,ACTIVE
+AC 182,2,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 98/214/WE,,,,,ACTIVE
+AC 182,3,,other_manufacturing,certyfikacja zgodności procesów kod PKD:,,,,,ACTIVE
+AC 182,4,,other_manufacturing,certyfikacja wg standardu IFS,,,,,ACTIVE
+AC 182,5,GLOBALG.A.P. IFA,,certyfikacja wg standardu GLOBALG.A.P,,,,,ACTIVE
+AC 182,6,,other_manufacturing,certyfikacja wg standardu BRC,,,,,ACTIVE
+AC 182,7,,agriculture,certyfikacja produkcji ekologicznej i znakowania produktów ekologicznych,,,,,ACTIVE
+AC 182,8,PEFC Chain of Custody,,certyfikacja łańcucha dostaw w systemie PEFC,,,,,ACTIVE
+AC 184,1,,other_manufacturing,"certyfikacja zgodności wyrobów kod ICS: 97.140, 97.200.40, 97.220.10, 97.220.30, 97.220.40",,,,,ACTIVE
+AC 186,1,Radio Equipment Directive 2014/53/EU,,ocena zgodności w obszarze dyrektywy: 2014/53/UE,,,,,ACTIVE
+AC 188,1,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 98/214/WE,,,,,ACTIVE
+AC 192,1,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności przez Jednostkę Wyznaczoną w obszarze dyrektywy UE 2016/797,,,,,ACTIVE
+AC 192,2,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności w obszarze dyrektywy: 2016/797,,,,,ACTIVE
+AC 193,1,,other_manufacturing,certyfikacja wg standardu IFS,,,,,ACTIVE
+AC 193,2,GLOBALG.A.P. IFA,,certyfikacja wg standardu GLOBALG.A.P,,,,,ACTIVE
+AC 193,3,,agriculture,certyfikacja produkcji ekologicznej i znakowania produktów ekologicznych,,,,,ACTIVE
+AC 194,1,,transport_equipment,certyfikacja zgodności wyrobów kod ICS: 45.040,,,,,ACTIVE
+AC 194,2,,other_manufacturing,certyfikacja zgodności w obszarze kolei,,,,,ACTIVE
+AC 196,1,Measuring Instruments Directive 2014/32/EU,,ocena zgodności w obszarze dyrektywy: 2014/32/UE,,,,,ACTIVE
+AC 197,1,Machinery Regulation (EU) 2023/1230,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) 2023/1230 z dn. 14 czerwca 2023 r. w sprawie maszyn oraz w sprawie uchylenia dyrektywy 2006/42/WE Parlamentu Europejskiego i Rady i dyrektywy Rady 73/361/EWG,,,,,ACTIVE
+AC 197,2,Radio Equipment Directive 2014/53/EU,,ocena zgodności w obszarze dyrektywy: 2014/53/UE,,,,,ACTIVE
+AC 197,3,Construction Products Regulation (EU) 305/2011,,"ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 96/581/WE, 98/214/WE, 98/598/WE",,,,,ACTIVE
+AC 197,4,ATEX Directive 2014/34/EU,,ocena zgodności w obszarze dyrektywy: 2014/34/UE,,,,,ACTIVE
+AC 197,5,EMC Directive 2014/30/EU,,ocena zgodności w obszarze dyrektywy: 2014/30/UE,,,,,ACTIVE
+AC 197,6,,machinery,certyfikacja zgodności wyrobów kod ICS: 23.100; 25.040; 29.160; 29.160.10; 29.160.20; 29.160.30; 29.160.40; 29.180; 29.200; 29.260.20; 29.220; 33.050; 33.060.20; 33.100; 33.160,,,,,ACTIVE
+AC 197,7,Machinery Directive 2006/42/EC,,ocena zgodności w obszarze dyrektywy: 2006/42/WE,,,,,ACTIVE
+AC 198,1,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności przez Jednostkę Wyznaczoną w obszarze dyrektywy UE 2016/797,,,,,ACTIVE
+AC 198,2,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności w obszarze dyrektywy: 2016/797,,,,,ACTIVE
+AC 198,3,,other_manufacturing,certyfikacja zgodności w obszarze kolei,,,,,ACTIVE
+AC 201,1,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności przez Jednostkę Wyznaczoną w obszarze dyrektywy UE 2016/797,,,,,ACTIVE
+AC 201,2,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności w obszarze dyrektywy: 2016/797,,,,,ACTIVE
+AC 202,1,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 95/467/WE; 97/176/WE; 97/555/WE; 97/638/WE; 97/740/WE; 98/214/WE; 98/598/WE; 98/601/WE; 99/93/WE; 99/94/WE,,,,,ACTIVE
+AC 202,2,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 202,3,,construction,certyfikacja stałości właściwości użytkowych wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 203,1,,other_manufacturing,ocena zgodności w obszarze dyrektywy: 2013/29/UE,,,,,ACTIVE
+AC 204,1,,other_manufacturing,certyfikacja wg standardu IFS,,,,,ACTIVE
+AC 205,1,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 97/176/WE; 97/740/WE ; 98/598/WE; 98/601/WE; 99/94/WE,,,,,ACTIVE
+AC 205,2,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 205,3,,construction,certyfikacja zgodności wyrobów kod ICS: 91.100,,,,,ACTIVE
+AC 207,1,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 210,1,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 211,1,,food,certyfikacja wg standardu QMP,,,,,ACTIVE
+AC 211,2,,food,certyfikacja wg standardu QAFP,,,,,ACTIVE
+AC 211,3,,agriculture,certyfikacja produkcji ekologicznej i znakowania produktów ekologicznych,,,,,ACTIVE
+AC 211,4,,agriculture,certyfikacja integrowanej produkcji roślin,,,,,ACTIVE
+AC 214,1,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 98/214/WE,,,,,ACTIVE
+AC 214,2,,other_manufacturing,certyfikacja zgodności procesów kod PKD:,,,,,ACTIVE
+AC 216,1,ATEX Directive 2014/34/EU,,ocena zgodności w obszarze dyrektywy: 2014/34/UE,,,,,ACTIVE
+AC 217,1,Rail Interoperability Directive (EU) 2016/797,,ocena zgodności w obszarze dyrektywy: 2016/797,,,,,ACTIVE
+AC 223,1,,ict,ocena zgodności w obszarze rozp. Komisji(UE) 2024/482 z dnia 31.01.2024 r. ustanawiające zasady stosowania rozp. PE i Rady(UE) 2019/881 w odniesieniu do przyjęcia europejskiego programu cert. cyberbezpieczeństwa opartego na wspólnych kryteriach EUCC,,,,,ACTIVE
+AC 223,2,,ict,certyfikacja zgodności wyrobów kod ICS: 35.030,,,,,ACTIVE
+AC 226,1,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 96/581/WE; 97/740/WE; 98/214/WE; 98/598/WE,,,,,ACTIVE
+AC 226,2,PPE Regulation (EU) 2016/425,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/425,,,,,ACTIVE
+AC 226,3,Machinery Regulation (EU) 2023/1230,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) 2023/1230 z dn. 14 czerwca 2023 r. w sprawie maszyn oraz w sprawie uchylenia dyrektywy 2006/42/WE Parlamentu Europejskiego i Rady i dyrektywy Rady 73/361/EWG,,,,,ACTIVE
+AC 226,4,Pressure Equipment Directive 2014/68/EU,,ocena zgodności w obszarze dyrektywy: 2014/68/UE,,,,,ACTIVE
+AC 226,5,Radio Equipment Directive 2014/53/EU,,ocena zgodności w obszarze dyrektywy: 2014/53/UE,,,,,ACTIVE
+AC 226,6,EMC Directive 2014/30/EU,,ocena zgodności w obszarze dyrektywy: 2014/30/UE,,,,,ACTIVE
+AC 226,7,Recreational Craft Directive 2013/53/EU,,ocena zgodności w obszarze dyrektywy: 2013/53/UE,,,,,ACTIVE
+AC 226,8,Machinery Directive 2006/42/EC,,ocena zgodności w obszarze dyrektywy: 2006/42/WE,,,,,ACTIVE
+AC 226,9,Outdoor Noise Directive 2000/14/EC,,ocena zgodności w obszarze dyrektywy: 2000/14/WE,,,,,ACTIVE
+AC 229,1,,other_manufacturing,certyfikacja wg standardu IFS,,,,,ACTIVE
+AC 233,1,Construction Products Regulation (EU) 305/2011,,"ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 95/467/WE, 97/176/WE, 97/740/WE, 98/598/WE, 99/94/WE",,,,,ACTIVE
+AC 233,2,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 238,1,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 97/740/WE; 98/598/WE; 98/601/WE; 99/94/WE,,,,,ACTIVE
+AC 238,2,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 239,1,,other_manufacturing,ocena zgodności w obszarze rozporządzenia delegowanego Komisji (UE) 2019/945 z dnia 12 marca 2019 r. w sprawie systemów bezzałogowych statków powietrznych oraz operatorów systemów bezzałogowych statków powietrznych z państw trzecich,,,,,ACTIVE
+AC 240,1,,food,certyfikacja wg standardu QMP,,,,,ACTIVE
+AC 240,2,,food,certyfikacja wg standardu QAFP,,,,,ACTIVE
+AC 240,3,,agriculture,certyfikacja produkcji ekologicznej i znakowania produktów ekologicznych,,,,,ACTIVE
+AC 240,4,,agriculture,certyfikacja integrowanej produkcji roślin,,,,,ACTIVE
+AC 242,1,GLOBALG.A.P. IFA,,certyfikacja wg standardu GLOBALG.A.P,,,,,ACTIVE
+AC 243,1,,food,certyfikacja KZR INiG,,,,,ACTIVE
+AC 244,1,,food,certyfikacja KZR INiG,,,,,ACTIVE
+AC 246,1,,other_manufacturing,certyfikacja wg programu RECYCLASS,,,,,ACTIVE
+AC 248,1,,agriculture,certyfikacja integrowanej produkcji roślin,,,,,ACTIVE
+AC 249,1,,rubber_plastics,certyfikacja zgodności wyrobów kod ICS: 83.140,,,,,ACTIVE
+AC 249,2,,other_manufacturing,certyfikacja wg programu RECYCLASS,,,,,ACTIVE
+AC 250,1,,other_manufacturing,certyfikacja zgodności wyrobów kod ICS: 97.140,,,,,ACTIVE
+AC 251,1,Lifts Directive 2014/33/EU,,ocena zgodności w obszarze dyrektywy: 2014/33/UE,,,,,ACTIVE
+AC 253,1,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 96/581/WE,,,,,ACTIVE
+AC 254,1,,other_manufacturing,certyfikacja wg standardu BRC,,,,,ACTIVE
+AC 254,2,,agriculture,certyfikacja produkcji ekologicznej i znakowania produktów ekologicznych,,,,,ACTIVE
+AC 254,3,,agriculture,certyfikacja integrowanej produkcji roślin,,,,,ACTIVE
+AC 254,4,,other_manufacturing,certyfikacja wg standardu IFS,,,,,ACTIVE
+AC 255,1,Machinery Directive 2006/42/EC,,ocena zgodności w obszarze dyrektywy: 2006/42/WE,,,,,ACTIVE
+AC 260,1,,construction,certyfikacja zgodności zakładowej kontroli produkcji wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 260,2,,construction,certyfikacja stałości właściwości użytkowych wyrobów budowlanych (system krajowy),,,,,ACTIVE
+AC 260,3,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 98/214/WE,,,,,ACTIVE
+AC 263,1,,electrical,certyfikacja zgodności wyrobów kod ICS: ICS 29.160.20,,,,,ACTIVE
+AC 264,1,PPE Regulation (EU) 2016/425,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/425,,,,,ACTIVE
+AC 265,1,EMC Directive 2014/30/EU,,ocena zgodności w obszarze dyrektywy: 2014/30/UE,,,,,ACTIVE
+AC 265,2,Construction Products Regulation (EU) 305/2011,,ocena zgodności w obszarze rozporządzenia Parlamentu Europejskiego i Rady (UE) Nr 305/2011 (CPR) decyzja KE: 98/598/WE,,,,,ACTIVE

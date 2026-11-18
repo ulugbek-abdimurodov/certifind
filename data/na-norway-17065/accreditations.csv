@@ -1,0 +1,21 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+NA,PROD 001,Nemko Group AS,ISO/IEC 17065,ACTIVE,1994-09-19,2029-08-23,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=115
+NA,PROD 005,DEBIO,ISO/IEC 17065,ACTIVE,1998-10-09,2027-10-31,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=299
+NA,PROD 006,Stiftelsen Kontrollrådet,ISO/IEC 17065,ACTIVE,1999-06-24,2028-05-31,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=259
+NA,PROD 007,SINTEF AS,ISO/IEC 17065,ACTIVE,2001-11-07,2030-09-03,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=356
+NA,PROD 010,Aquastructures AS,ISO/IEC 17065,ACTIVE,2008-12-10,2028-09-29,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=501
+NA,PROD 013,DNV Business Assurance Norway AS,ISO/IEC 17065,ACTIVE,2004-04-01,2029-01-24,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=509
+NA,PROD 016,SINTEF Energi AS,ISO/IEC 17065,ACTIVE,2004-11-05,2029-06-28,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=512
+NA,PROD 019,DNV AS,ISO/IEC 17065,ACTIVE,2010-06-25,2030-03-25,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=746
+NA,PROD 020,Rambøll Norge AS,ISO/IEC 17065,ACTIVE,2010-07-02,2027-12-06,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=743
+NA,PROD 021,DNV Product Assurance AS,ISO/IEC 17065,ACTIVE,2013-04-12,2028-03-17,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=816
+NA,PROD 022,Applica Test & Certification AS,ISO/IEC 17065,ACTIVE,2014-06-06,2029-05-31,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=905
+NA,PROD 023,Norsk Treteknisk Institutt,ISO/IEC 17065,ACTIVE,2015-03-27,2029-11-18,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=883
+NA,PROD 024,Kiwa AS,ISO/IEC 17065,ACTIVE,2015-09-01,2030-04-28,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=908
+NA,PROD 025,Dovre Sertifisering AS,ISO/IEC 17065,ACTIVE,2016-03-01,2031-02-19,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=950
+NA,PROD 026,Akvasafe AS,ISO/IEC 17065,ACTIVE,2016-12-21,2031-11-19,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=937
+NA,PROD 027,Justervesenet,ISO/IEC 17065,ACTIVE,2017-05-24,2027-04-29,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=958
+NA,PROD 032,Certifer Nordics AS,ISO/IEC 17065,ACTIVE,2020-06-05,2030-05-06,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=1033
+NA,PROD 035,Synfaring AS,ISO/IEC 17065,ACTIVE,2022-02-04,2027-02-04,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=1052
+NA,PROD 036,Heiskontrollen AS,ISO/IEC 17065,ACTIVE,2023-03-31,2028-03-31,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=1067
+NA,PROD 038,Exert Certification AS,ISO/IEC 17065,ACTIVE,2024-07-10,2029-07-10,https://www.akkreditert.no/en/akkrediterte-organisasjoner/produkt/?AkkId=1114

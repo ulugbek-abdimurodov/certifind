@@ -1,0 +1,12 @@
+certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_text,normative_docs,standard_refs,status
+CB-003,1,,agriculture,"Certification of processes of production of organic agricultural products in accordance with the Law on Organic Agricultural Production (Official Gazette No.146/2009) and Law amending the Law on Organic Agricultural Production (Official Gazette No. 53/2011, 149/2015, 39/2016 and 132/2016)",,,,,ACTIVE
+CB-010,1,,professional,"Certification of products: Determination of the product type (an assessment of performance), initial inspection of the manufacturing plant and of factory production control, continuing surveillance, assessment and evaluation of factory production control, audit-testing of samples taken at the manufacturing plant or at the manufacturing storage facilities system (1+): Cement, Steel.",,,,,ACTIVE
+CB-010,2,,machinery,"Certification of process: Initial inspection of factory production control (FPC) system, countinious surveillance, assessment and evaluation of factory production control (FPC) system (2+): Concrete, Masonry mortar, Products and systems for the protection and repair of concrete structures, Bituminous mixtures, Aggregates, Admixtures for concrete, hydraulic road binders",,,,,ACTIVE
+CB-012,1,,construction,"Certification of processes: Concrete, Bituminous",,,,,ACTIVE
+CB-012,2,,construction,mixtures аnd Aggregates.,,,,,ACTIVE
+CB-014,1,,construction,"Certification of process: Concrete,",,,,,ACTIVE
+CB-014,2,,construction,"Bituminous mixtures, Aggregates",,,,,ACTIVE
+CB-015,1,,professional,Certification of processes:,,,,,ACTIVE
+CB-015,2,,construction,Concrete and Aggregates,,,,,ACTIVE
+CB-017,1,,agriculture,"Certification of processes of production of organic agricultural products in accordance with the Law on Organic Agricultural Production (Official Gazette No.146/2009) and Law amending the Law on Organic Agricultural Production (Official Gazette No. 53/2011, 149/2015, 39/2016 and 132/2016).",,,,,ACTIVE
+CB-018,1,,agriculture,"Certification of processes of production of organic agricultural products in accordance with the Law on Organic Agricultural Production (Official Gazette No.146/2009) and Law amending the Law on Organic Agricultural Production (Official Gazette No. 53/2011, 149/2015, 39/2016 and 132/2016).",,,,,ACTIVE

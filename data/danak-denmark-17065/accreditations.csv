@@ -1,0 +1,20 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+DANAK,01-7001,Dancert A/S,ISO/IEC 17065,ACTIVE,1993-06-25,2029-12-01,https://registry.danak.dk/registry/7001
+DANAK,01-7009,Bureau Veritas Denmark A/S,ISO/IEC 17065,ACTIVE,1998-12-01,2029-12-01,https://registry.danak.dk/registry/7009
+DANAK,01-7010,DNV Business Assurance Denmark A/S,ISO/IEC 17065,ACTIVE,2000-04-12,2030-03-31,https://registry.danak.dk/registry/7010
+DANAK,01-7011,UL International Demko A/S,ISO/IEC 17065,ACTIVE,2000-12-01,2030-12-01,https://registry.danak.dk/registry/7011
+DANAK,01-7020,FORCE Certification A/S,ISO/IEC 17065,ACTIVE,2005-02-10,2030-02-01,https://registry.danak.dk/registry/7020
+DANAK,01-7023,DBI Certification A/S,ISO/IEC 17065,ACTIVE,2006-07-06,2027-06-30,https://registry.danak.dk/registry/7023
+DANAK,01-7035,TÜV SÜD Danmark ApS,ISO/IEC 17065,ACTIVE,2013-03-11,2029-03-01,https://registry.danak.dk/registry/7035
+DANAK,01-7038,Intertek DIC A/S,ISO/IEC 17065,ACTIVE,2018-10-24,2030-10-24,https://registry.danak.dk/registry/7038
+DANAK,01-7042,Byggeriets Kvalitetskontrol A/S,ISO/IEC 17065,ACTIVE,2018-08-14,2030-03-29,https://registry.danak.dk/registry/7042
+DANAK,01-7044,ExVeritas ApS,ISO/IEC 17065,ACTIVE,2019-01-08,2027-01-08,https://registry.danak.dk/registry/7044
+DANAK,01-7045,Ricardo Certification Denmark ApS,ISO/IEC 17065,ACTIVE,2019-02-28,2027-02-28,https://registry.danak.dk/registry/7045
+DANAK,01-7046,Scandinavia Rail & Verification ApS,ISO/IEC 17065,ACTIVE,2019-10-18,2027-11-01,https://registry.danak.dk/registry/7046
+DANAK,01-7047,Bruun Inspektion A/S,ISO/IEC 17065,ACTIVE,2022-08-29,2030-09-24,https://registry.danak.dk/registry/7047
+DANAK,01-7049,Dansk Trykinspektion ApS,ISO/IEC 17065,ACTIVE,2023-04-14,2030-06-23,https://registry.danak.dk/registry/7049
+DANAK,01-7051,DNV Denmark A/S,ISO/IEC 17065,ACTIVE,2023-03-28,2027-04-19,https://registry.danak.dk/registry/7051
+DANAK,01-7052,Calidan ApS,ISO/IEC 17065,ACTIVE,2022-10-10,2027-01-23,https://registry.danak.dk/registry/7052
+DANAK,01-7054,Eurofins Product Testing Denmark A/S,ISO/IEC 17065,ACTIVE,2023-12-20,2027-10-13,https://registry.danak.dk/registry/7054
+DANAK,01-7056,emt-inspektion ApS,ISO/IEC 17065,ACTIVE,2023-04-14,2027-06-21,https://registry.danak.dk/registry/7056
+DANAK,01-7057,Baltic Control Certification A/S,ISO/IEC 17065,ACTIVE,2025-12-16,2030-04-09,https://registry.danak.dk/registry/7057

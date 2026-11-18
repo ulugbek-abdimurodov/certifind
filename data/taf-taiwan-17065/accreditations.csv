@@ -1,0 +1,71 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+TAF,PC001,"Bureau of Standards, Metrology & Inspection, M.O.E.A., R.O.C.",ISO/IEC 17065,ACTIVE,2004-11-11,2028-11-10,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC001&language=EN
+TAF,PC002,Taiwan Testing and Certification Center,ISO/IEC 17065,ACTIVE,2001-10-30,2029-04-20,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC002&language=EN
+TAF,PC003,Taiwan Textile Research Institute,ISO/IEC 17065,ACTIVE,2004-07-20,2028-07-19,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC003&language=EN
+TAF,PC005,Taiwan Electric Research & Testing Center,ISO/IEC 17065,ACTIVE,2005-11-23,2029-11-22,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC005&language=EN
+TAF,PC006,Sporton International INC.,ISO/IEC 17065,ACTIVE,2006-01-09,2027-01-08,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC006&language=EN
+TAF,PC007,Intertek Testing Services Taiwan Ltd.,ISO/IEC 17065,ACTIVE,2006-02-13,2027-02-12,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC007&language=EN
+TAF,PC008,Taiwan Construction Research Institute,ISO/IEC 17065,ACTIVE,2006-06-26,2027-06-25,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC008&language=EN
+TAF,PC011,Metal Industries Research & Development Centre,ISO/IEC 17065,ACTIVE,2007-02-07,2028-02-06,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC011&language=EN
+TAF,PC012,FSI Taiwan-Asia Pacific Office,ISO/IEC 17065,ACTIVE,2007-05-02,2028-05-01,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC012&language=EN
+TAF,PC013,National Taiwan Ocean University,ISO/IEC 17065,ACTIVE,2007-07-02,2028-07-01,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC013&language=EN
+TAF,PC014,"Universal Certification Service Co., LTD.",ISO/IEC 17065,ACTIVE,2007-07-02,2028-07-01,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC014&language=EN
+TAF,PC015,Agricultural Technology Research Institute,ISO/IEC 17065,ACTIVE,2007-08-08,2028-08-07,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC015&language=EN
+TAF,PC016,National Pingtung University of Science and Technology(CAAPIC),ISO/IEC 17065,ACTIVE,2007-09-05,2028-09-04,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC016&language=EN
+TAF,PC017,National Animal Industry Foundation,ISO/IEC 17065,ACTIVE,2007-09-05,2028-09-04,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC017&language=EN
+TAF,PC018,"ZhongHua Certification Co., Ltd.",ISO/IEC 17065,ACTIVE,2007-11-08,2028-11-07,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC018&language=EN
+TAF,PC019,Precision Machinery Research & Development Center,ISO/IEC 17065,ACTIVE,2008-04-09,2029-04-08,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC019&language=EN
+TAF,PC021,TÜV Rheinland Taiwan Ltd.,ISO/IEC 17065,ACTIVE,2008-08-11,2029-09-08,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC021&language=EN
+TAF,PC023,National Chung Hsing University,ISO/IEC 17065,ACTIVE,2008-12-16,2026-12-15,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC023&language=EN
+TAF,PC024,"Bureau Veritas Consumer Products Services, (H.K.) Ltd., Taoyuan Branch",ISO/IEC 17065,ACTIVE,2008-12-26,2029-12-25,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC024&language=EN
+TAF,PC025,Telecom Technology Center,ISO/IEC 17065,ACTIVE,2008-12-29,2029-12-28,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC025&language=EN
+TAF,PC028,Industrial Technology Research Institute,ISO/IEC 17065,ACTIVE,2009-07-16,2027-07-15,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC028&language=EN
+TAF,PC030,Tse-Xin Organic Certification Corporation,ISO/IEC 17065,ACTIVE,2011-12-27,2026-12-26,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC030&language=EN
+TAF,PC031,"Eco-Garden Certification Co., Ltd.",ISO/IEC 17065,ACTIVE,2011-12-27,2026-12-26,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC031&language=EN
+TAF,PC033,"Eurofins E&E Wireless Taiwan Co., Ltd.",ISO/IEC 17065,ACTIVE,2012-07-02,2027-07-01,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC033&language=EN
+TAF,PC034,Environment and Development Foundation,ISO/IEC 17065,ACTIVE,2012-09-06,2027-09-05,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC034&language=EN
+TAF,PC036,ISL International Standards Laboratory,ISO/IEC 17065,ACTIVE,2014-01-03,2029-01-02,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC036&language=EN
+TAF,PC037,SGS Taiwan Limited,ISO/IEC 17065,ACTIVE,2014-03-31,2029-03-30,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC037&language=EN
+TAF,PC038,Japan Quality Assurance Organization,ISO/IEC 17065,ACTIVE,2014-04-16,2029-08-15,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC038&language=EN
+TAF,PC040,"DEKRA TESTING AND CERTIFICATION CO., LTD.",ISO/IEC 17065,ACTIVE,2014-11-21,2027-10-03,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC040&language=EN
+TAF,PC041,National Chiayi University,ISO/IEC 17065,ACTIVE,2015-04-07,2027-04-06,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC041&language=EN
+TAF,PC042,Food Industry Research and Development Institute,ISO/IEC 17065,ACTIVE,2015-08-27,2027-08-26,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC042&language=EN
+TAF,PC043,CHINA GRAIN PRODUCTS RESEARCH & DEVELOPMENT INSTITUTE,ISO/IEC 17065,ACTIVE,2015-08-27,2027-08-26,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC043&language=EN
+TAF,PC044,TAIWAN ARCHITECTURE & BUILDING CENTER,ISO/IEC 17065,ACTIVE,2015-10-01,2027-09-30,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC044&language=EN
+TAF,PC047,Audix Technology Corporation,ISO/IEC 17065,ACTIVE,2016-03-18,2028-03-17,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC047&language=EN
+TAF,PC048,"Taiwan Agriculture and Food Health Testing Co., Ltd.",ISO/IEC 17065,ACTIVE,2016-12-05,2028-12-04,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC048&language=EN
+TAF,PC051,Chengda Agama International Certification Corporation,ISO/IEC 17065,ACTIVE,2017-04-17,2029-04-16,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC051&language=EN
+TAF,PC052,Bay Area Compliance Laboratories Corp.,ISO/IEC 17065,ACTIVE,2017-11-30,2029-11-29,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC052&language=EN
+TAF,PC053,"Hyper Quantum Technologies, Ltd. Quality Ecosystems of Traceability Center",ISO/IEC 17065,ACTIVE,2018-10-08,2027-10-07,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC053&language=EN
+TAF,PC057,"Underwriters Laboratories Taiwan Co., Ltd.",ISO/IEC 17065,ACTIVE,2019-09-09,2028-09-08,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC057&language=EN
+TAF,PC058,Vehicle Safety Certification Center,ISO/IEC 17065,ACTIVE,2019-12-19,2028-12-18,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC058&language=EN
+TAF,PC060,CR Classification Society,ISO/IEC 17065,ACTIVE,2020-07-10,2029-07-09,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC060&language=EN
+TAF,PC061,Taiwan Textile Federation,ISO/IEC 17065,ACTIVE,2020-07-10,2029-07-09,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC061&language=EN
+TAF,PC062,AnHsin international certification corporation,ISO/IEC 17065,ACTIVE,2020-03-04,2029-03-03,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC062&language=EN
+TAF,PC064,Taiwan Formosa Organic Association,ISO/IEC 17065,ACTIVE,2019-10-07,2028-10-06,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC064&language=EN
+TAF,PC066,"Eco-Garden Certification Co.,Ltd.",ISO/IEC 17065,ACTIVE,2019-10-07,2028-10-06,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC066&language=EN
+TAF,PC067,BTL Inc.,ISO/IEC 17065,ACTIVE,2020-07-01,2029-06-30,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC067&language=EN
+TAF,PC073,Harmony Organic Agriculture Foundation,ISO/IEC 17065,ACTIVE,2019-12-16,2028-12-15,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC073&language=EN
+TAF,PC074,Taiwan Organic Production Association,ISO/IEC 17065,ACTIVE,2019-12-16,2028-12-15,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC074&language=EN
+TAF,PC075,Chaoyang University of Technology,ISO/IEC 17065,ACTIVE,2020-01-13,2029-01-12,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC075&language=EN
+TAF,PC077,MOA International Foundation of Natural Ecology,ISO/IEC 17065,ACTIVE,2020-01-13,2029-01-12,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC077&language=EN
+TAF,PC078,Ship and Ocean Industries R&D Center,ISO/IEC 17065,ACTIVE,2022-03-03,2028-03-02,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC078&language=EN
+TAF,PC080,National Kaohsiung University of Science and Technology,ISO/IEC 17065,ACTIVE,2022-11-24,2028-11-23,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC080&language=EN
+TAF,PC082,"Blue Magpie Certification Services, Inc.",ISO/IEC 17065,ACTIVE,2021-03-22,2027-03-21,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC082&language=EN
+TAF,PC083,"Blue Magpie Certifications, Inc.",ISO/IEC 17065,ACTIVE,2021-10-04,2027-10-03,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC083&language=EN
+TAF,PC084,Industrial Safety Technology Institute,ISO/IEC 17065,ACTIVE,2021-10-07,2027-10-06,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC084&language=EN
+TAF,PC089,Chanyang University of Technology,ISO/IEC 17065,ACTIVE,2022-07-21,2028-07-20,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC089&language=EN
+TAF,PC090,Taiwan Premium Agricultural Products Development Institute,ISO/IEC 17065,ACTIVE,2022-03-29,2028-03-28,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC090&language=EN
+TAF,PC091,"Rainbow Design Print Co., Ltd",ISO/IEC 17065,ACTIVE,2022-07-21,2028-07-20,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC091&language=EN
+TAF,PC092,Taiwan Association Information and Communication Standards,ISO/IEC 17065,ACTIVE,2023-06-19,2029-06-18,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC092&language=EN
+TAF,PC093,YunJia Global Certification Ltd.,ISO/IEC 17065,ACTIVE,2022-08-22,2028-08-21,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC093&language=EN
+TAF,PC094,"TUV NORD Taiwan Co., Ltd.",ISO/IEC 17065,ACTIVE,2022-07-29,2028-07-28,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC094&language=EN
+TAF,PC095,Industrial Technology Research Institute (Center for Measurement Standards),ISO/IEC 17065,ACTIVE,2022-09-29,2028-09-28,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC095&language=EN
+TAF,PC098,National Dong Hwa University,ISO/IEC 17065,ACTIVE,2024-06-04,2027-06-03,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC098&language=EN
+TAF,PC099,"Natural Carbon Storage Co., Ltd.",ISO/IEC 17065,ACTIVE,2023-11-20,2029-11-19,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC099&language=EN
+TAF,PC102,Oryzaaroma Certification Ltd.,ISO/IEC 17065,ACTIVE,2024-03-21,2027-03-20,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC102&language=EN
+TAF,PC103,"Yigia International Co., Ltd",ISO/IEC 17065,ACTIVE,2024-03-21,2027-03-20,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC103&language=EN
+TAF,PC106,"Aurora Certification Services Co., Ltd",ISO/IEC 17065,ACTIVE,2025-02-26,2028-02-25,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC106&language=EN
+TAF,PC107,"Deng Feng International Enterprise Co., Ltd.",ISO/IEC 17065,ACTIVE,2025-06-27,2028-06-26,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC107&language=EN
+TAF,PC110,"Isoria Certification Co., Ltd.",ISO/IEC 17065,ACTIVE,2026-03-18,2029-03-17,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC110&language=EN
+TAF,PC112,Institute for Information Industry,ISO/IEC 17065,ACTIVE,2026-09-17,2029-09-16,https://accreditation.taftw.org.tw/taf/public/basic/viewApplyItems.action?unitNo=PC112&language=EN

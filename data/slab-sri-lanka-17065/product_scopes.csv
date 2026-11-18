@@ -1,0 +1,52 @@
+certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_text,normative_docs,standard_refs,status
+CP 004-01,1,,professional,,,,"Textile Exchange Standard, USA (Accreditation and Certification Procedures for Textile Exchange Standards 2.1, ASR-101- V2.1-2020) Head Office Control Union Certifications B.V. Sationsplein 13, 8011 CW Zwolle The Netherlands",,ACTIVE
+CP 004-01,2,,other_manufacturing,,,,Critical Locations,,ACTIVE
+CP 004-01,3,,other_manufacturing,,,,"(1)Control Union Inspections Pvt. Ltd. 2nd Floor, BAM Musee Tower 52 Sir Marcus Fernando Mawatha Colombo 00700 Sri Lanka (2)Control Union Korea Co.Ltd. Suite 910, Dream tower 66 Seongsui-ro,Seongdong Gu 04784 Seoul South Korea",,ACTIVE
+CP 004-01,4,,chemicals,"Certification of non-food fiber/ raw material to finished products including Textile, Leather, Polymer products, paper, metal, glass, chemicals, foam, rubber and Cosmetics with trading.",,,* CCS Version 3.1 (2022),,ACTIVE
+CP 004-01,5,,chemicals,"Certification of non-food fiber/ raw material to finished products including Textile, Leather, paper, foam, rubber and Cosmetics with trading.",,,*OCS Version 3.0 (2020),,ACTIVE
+CP 004-01,6,,rubber_plastics,"Certification of non-food fiber/ raw material to finished products including Textile, Leather, Polymer products, paper, metal, glass, rubber with trading.",,,* RCS version 2.0 (2017),,ACTIVE
+CP 004-01,7,,rubber_plastics,"Certification of non-food fiber/ raw material to finished products including Textile, Leather, Polymer products, paper, metal, glass, rubber with trading.",,,* GRS Version 4.0 (2017),,ACTIVE
+CP 004-01,8,,construction,"Certification of fiber to finished products including Textile, Leather with trading.",,,* RDS Version 3.0 (2019),,ACTIVE
+CP 004-01,9,,construction,"Certification of fiber to finished products including Textile, Leather with trading.",,,"*RAF -CCS Version 3.1 (2022), Farm: RWS Version 2.2 (2021), RAS Version 1.0 (2021), RMS Version 1.2 (2021).",,ACTIVE
+CP 004-01,10,,rubber_plastics,,,,* OCS - Organic Content Standard * CCS - Content Claim Standard * RCS - Recycle Claim Standard * RDS - Responsible Down Standard * RAF - Responsible Alpaca Standard * GRS - Global Recycled Standard * RWS - Responsible Wool Standard * RAS - Responsible Alpaca Standard * RMS - Responsible Mohair Standard,,ACTIVE
+CP 008-01,1,,agriculture,"a) Unprocessed agricultural crop, livestock, aquacultur and apiculture products, excluding tobacco and any other material restricted by government laws. b) Processed agricultural crop, livestock, aquaculture and apiculture products intended for human consumption containing one or more ingredient(s) derived from (a) above.",,,SLS 1324: 2018,,ACTIVE
+CP 008-01,2,,other_manufacturing,Scheme Requirements for Good Manufacturing Practices (CU Manual and ISO22716 Manual) as per;,,,,ISO 22716,ACTIVE
+CP 008-01,3,,chemicals,"All processes pertaining to production, control, packing, storage and shipment of cosmetic products",,,ISO 22716:2007,ISO 22716,ACTIVE
+CP 009-01,1,,rubber_plastics,Single use containers made of polymetric materials for packaging of drinking water.,,,SLS 1336:2017,,ACTIVE
+CP 009-01,2,,other_manufacturing,Black tea & Sri Lanka Tea Board Standards/Directives for Tea,,,SLS 135:2009 (AL/MQS-02/2021),,ACTIVE
+CP 009-01,3,,other_manufacturing,,,,SLSI Management System Manual-Issue 28,,ACTIVE
+CP 009-01,4,,food,All processes pertaining to food manufacturing and related activities,,,SLS 143:2022,,ACTIVE
+CP 009-01,5,,tourism,All processes pertaining to catering services and related activities,,,SLS 956:2016,,ACTIVE
+CP 009-01,6,,chemicals,"All processes pertaining to production, control, storage and shipment of cosmetic products.",,,ISO 22716:2007 (SLS/ ISO 22716:2017),ISO 22716,ACTIVE
+CP 009-01,7,,professional,All processes pertaining to cleansing material,,,SLS 1348:2008,,ACTIVE
+CP 009-01,8,,professional,All processes pertaining to coir fibre pith substrate,,,SLS 1487:2014,,ACTIVE
+CP 009-02,1,,agriculture,Organic Product Certification,,,SLS 1324:2025,,ACTIVE
+CP 010-02,1,,rubber_plastics,Certification of mechanical textile processing and manufacturing operations and their products (Scope 1),,,Global Organic Textile Standard Version 7.0,,ACTIVE
+CP 010-02,2,,professional,Certification of wet processing and finishing operations and their products (Scope 2),,,,,ACTIVE
+CP 010-02,3,,other_manufacturing,Certification of trading operations and related products (Scope 3),,,,,ACTIVE
+CP 011-01,1,,agriculture,"1. Unprocessed agricultural crop-livestock, aquaculture and apiculture products, excluding tobacco and any other material restricted by government laws",,,SLS 1324: 2018,,ACTIVE
+CP 011-01,2,,agriculture,"2. Processed agricultural crop-livestock, aquaculture and apiculture products intended for human consumption containing one or more ingredient(s) derived from 1 above",,,,,ACTIVE
+CP 011-01,3,,other_manufacturing,Scheme Requirements for Good Manufacturing Practices (PCS-M-003 Issue 01) as per;,,,,,ACTIVE
+CP 011-01,4,,food,All processes pertaining to food manufacturing and related activities,,,SLS 143: 2022,,ACTIVE
+CP 011-01,5,,tourism,All processes pertaining to catering services and related activities,,,SLS 956: 2016,,ACTIVE
+CP 012-01,1,,food,Wild catch fisheries,,,FOS – Wild Sustainable fishing requirements - Rev. 4,,ACTIVE
+CP 012-01,2,Friend of the Sea,,"Chain of custody, Fish meal, Fish oil, Fish Feed, Omega 3",,,"FOS – CoC Criteria and Indicators for the Certification of the Traceability of Friend of the Sea products FOS-FF, FM, FO and O3 Criteria and Indicators for the Certification of sustainable fish feed, fishmeal, fish oil and Omega 3 - Rev. 5",,ACTIVE
+CP 014-01,1,,food,Eco Labelling of Dairy Products,,,ISO 14024: 2018,ISO 14024,ACTIVE
+CP 014-01,2,,other_manufacturing,Eco Labelling of Tea Products,,,,,ACTIVE
+CP 014-01,3,,chemicals,Eco Labelling of Construction chemicals,,,,,ACTIVE
+CP 016-01,1,,agriculture,"a) Unprocessed agricultural crop, livestock, aquaculture and apiculture products, excluding tobacco and any other material restricted by government laws. b) Processed agricultural crop, livestock, aquaculture and apiculture products intended for human consumption containing one or more ingredient(s) derived from (a) above.",,,SLS 1324 :2018,,ACTIVE
+CP 016-01,2,,other_manufacturing,Scheme Requirements for Good Manufacturing Practices (CC-CP-QM-01 Version 1.1) as per;,,,,,ACTIVE
+CP 016-01,3,,chemicals,"Production, control, packing, storage and shipment of cosmetic products",,,ISO 22716:2007,ISO 22716,ACTIVE
+CP 017-01,1,,metals,,,,Welding Products Scheme,,ACTIVE
+CP 017-01,2,ISO 3834,,Fusion welding of metallic materials,,,EN ISO 3834-2:2021,EN ISO 3834-2,ACTIVE
+CP 017-01,3,ISO 3834,,,,,EN ISO 3834-3:2021,EN ISO 3834-3,ACTIVE
+CP 017-01,4,ISO 3834,,,,,EN ISO 3834-4:2021,EN ISO 3834-4,ACTIVE
+CP 017-01,5,EN 15085-2,,Railway applications - Welding of railway vehicles and components,,,EN 15085-2:2020+ A1:2023,EN 15085-2,ACTIVE
+CP 017-01,6,,metals,,,,Metal Product Scheme,,ACTIVE
+CP 017-01,7,,metals,Steel for the reinforcement of concrete - Weldable reinforcing steel,,,EN 10080:2005,EN 10080,ACTIVE
+CP 017-01,8,,metals,"Steel for the reinforcement of concrete - Weldable reinforcing steel, bar, coil and de-coiled product",,,BS 4449:2005+A3:2016,,ACTIVE
+CP 018-01,1,,food,Wild catch fisheries,,,FOS – Wild Sustainable fishing requirements - Rev. 4,,ACTIVE
+CP 018-01,2,,transport_equipment,FOS Aqua Marine FOS Aqua Inland FOS Aqua Shellfish,,,FOS-Aqua Marine Standard Rev.2 FOS-Aqua Inland Standard Rev.3 FOS- Aqua Shellfish Standard Rev.3,,ACTIVE
+CP 018-01,3,Friend of the Sea,,"Chain of custody, Fish meal, Fish oil, Fish Feed, Omega 3",,,"FOS – CoC Criteria and Indicators for the Certification of the Traceability of Friend of the Sea products FOS-FF, FM, FO and O3 Criteria and Indicators for the Certification of sustainable fish feed, fishmeal, fish oil and Omega 3 - Rev. 5",,ACTIVE
+CP 020-01,1,,other_manufacturing,Scheme Requirements for Good Manufacturing Practices (GPP.131 Issue No 4) as per;,,,,,ACTIVE
+CP 020-01,2,,chemicals,"Production, control, packing, storage and shipment of cosmetic products",,,ISO 22716:2007,ISO 22716,ACTIVE

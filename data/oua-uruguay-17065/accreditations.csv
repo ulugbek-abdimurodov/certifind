@@ -1,0 +1,5 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+OUA,OCP LATU,Laboratorio Tecnológico Del Uruguay,ISO/IEC 17065,ACTIVE,2023-09-07,2027-09-07,https://www.organismouruguayodeacreditacion.org/wp-content/uploads/2025/10/OUAIMP034-LATU-OCP-Alcance-V-3.pdf
+OUA,OCP LSQA,Lsqa S.A. Bic,ISO/IEC 17065,ACTIVE,2023-11-24,2027-11-24,https://www.organismouruguayodeacreditacion.org/wp-content/uploads/2026/07/OUAIMP034-LSQA-OCP-alcance-V9.pdf
+OUA,OCP Qualis Fidelis,Qualis Fidelis S.A.S,ISO/IEC 17065,ACTIVE,2023-10-02,2027-10-02,https://www.organismouruguayodeacreditacion.org/wp-content/uploads/2026/09/OUAIMP034-Qualis-Fidelis-Alcance-V-9.pdf
+OUA,OCP UNIT,Instituto Uruguayo de Normas Técnicas (UNIT),ISO/IEC 17065,ACTIVE,2023-10-04,2027-10-04,https://www.organismouruguayodeacreditacion.org/wp-content/uploads/2025/10/OUAIMP034-UNIT-OCP-Alcance-V-7.pdf

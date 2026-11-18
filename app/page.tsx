@@ -31,13 +31,14 @@ const TIMED_OUT = "Il servizio non ha risposto in tempo. Riprova tra poco.";
 const OPTIONS_RETRY_MS = 5_000;
 
 export default function Home() {
-  const [iso, setIso] = useState("ISO 9001");
-  const [sector, setSector] = useState("EA 12 - Prodotti chimici e fibre");
+  const [iso, setIso] = useState("");
+  const [sector, setSector] = useState("");
+  const [keyword, setKeyword] = useState("");
   const [step, setStep] = useState(-1);
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState<SearchResponse | null>(null);
   // The standard the shown results were searched for: the dropdown may change afterwards.
-  const [resultIso, setResultIso] = useState("ISO 9001");
+  const [resultIso, setResultIso] = useState("");
   const [error, setError] = useState("");
   const [selected, setSelected] = useState<Body | null>(null);
   const [resultFilter, setResultFilter] = useState<ResultFilter>("all");
@@ -181,6 +182,18 @@ export default function Home() {
   function search(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const searchedIso = iso;
+    const searchedKeyword = keyword.trim();
+    // A keyword, or "Tutti gli standard", runs the free-text search: summarise what was asked.
+    const keywordSummary =
+      searchedKeyword || !iso
+        ? [
+            iso || "Tutti gli standard",
+            sector.trim(),
+            searchedKeyword && `«${searchedKeyword}»`,
+          ]
+            .filter(Boolean)
+            .join(" · ")
+        : undefined;
     return runSearch(
       (signal) =>
         fetch(`${API_URL}/api/v1/search`, {
@@ -190,16 +203,18 @@ export default function Home() {
           body: JSON.stringify({
             isoStandard: iso,
             sectorActivity: sector,
+            keyword: searchedKeyword,
           }),
         }),
       (status) =>
         status === 400
-          ? "Settore non riconosciuto. Controlla la descrizione del settore."
+          ? "Criteri non validi. Controlla settore e parola chiave."
           : "Ricerca non riuscita. Riprova tra poco.",
       () => {
         setResultIso(searchedIso);
-        saveRecentSearch({ iso, sector });
+        saveRecentSearch({ iso, sector, keyword: searchedKeyword });
       },
+      (json) => ({ ...(json as SearchResponse), keywordSummary }),
     );
   }
 
@@ -268,13 +283,20 @@ export default function Home() {
   function saveRecentSearch(searchPreset: Omit<SearchPreset, "label">) {
     const nextSearch: SearchPreset = {
       ...searchPreset,
-      label: `${searchPreset.sector} (${searchPreset.iso})`,
+      label: [
+        searchPreset.keyword && `«${searchPreset.keyword}»`,
+        searchPreset.sector,
+      ]
+        .filter(Boolean)
+        .join(" · ") + ` (${searchPreset.iso || "Tutti gli standard"})`,
     };
     const nextSearches = [
       nextSearch,
       ...recentSearches.filter(
         (recent) =>
-          recent.iso !== nextSearch.iso || recent.sector !== nextSearch.sector,
+          recent.iso !== nextSearch.iso ||
+          recent.sector !== nextSearch.sector ||
+          (recent.keyword ?? "") !== (nextSearch.keyword ?? ""),
       ),
     ].slice(0, MAX_RECENT_SEARCHES);
 
@@ -328,6 +350,8 @@ export default function Home() {
           loading={loading}
           onIsoChange={setIso}
           onSectorChange={setSector}
+          keyword={keyword}
+          onKeywordChange={setKeyword}
           recentSearches={recentSearches}
           onSubmit={search}
           onShowAllCompanies={showAllCompanies}

@@ -1,0 +1,187 @@
+certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_text,normative_docs,standard_refs,status
+S018,1,PEFC Chain of Custody,,Certification of chain of custody of forest based products according to PEFC ST 2003:2020,,,,,ACTIVE
+S018,2,PEFC Chain of Custody,,"PEFC ST 2002:2020, Chain of Custody of Forest and Tree Based",,,,,ACTIVE
+S018,3,,other_manufacturing,Products – Requirements,,,,,ACTIVE
+S018,4,PEFC Chain of Custody,,"PEFC ST 2001:2020, PEFC Trademarks Rules – Requirements",,,,,ACTIVE
+S048,1,,metals,Hitsausprosessin sertifiointi,,,,,ACTIVE
+S048,2,,metals,Certification of welding process of metallic materials,,,,,ACTIVE
+S048,3,,metals,Certification of welding process,,,,,ACTIVE
+S048,4,ISO 3834,,EN ISO 3834-2:2021,,,,EN ISO 3834-2,ACTIVE
+S048,5,,metals,Hitsauksen laatuvaatimukset. Metallisten materiaalien sulahitsaus. Osa 2: Kattavat laatuvaatimukset.,,,,,ACTIVE
+S048,6,,metals,Quality requirements for welding. Fusion welding of metallic materials. Part 2: Comprehensive quality requirements.,,,,,ACTIVE
+S048,7,EN 15085-2,,EN 15085-2:2020 + A2:2025,,,,EN 15085-2,ACTIVE
+S048,8,,metals,"Kiskoliikenne. Kiskoajoneuvojen ja niiden komponenttien hitsaus, Osa 2: Valmistajaa koskevat vaatimukset.",,,,,ACTIVE
+S048,9,,transport_equipment,Railway applications. Welding of railway vehicles and components. Part 2: Requirements for welding manufacturer.,,,,,ACTIVE
+S048,10,,agriculture,"Päätös Tuoteperhe, tuoteryhmä/tuote, aiottu käyttökohde",,,,,ACTIVE
+S048,11,,other_manufacturing,"Decision Product family, product category/product, intended use",,,,,ACTIVE
+S048,12,,other_manufacturing,AVCP system Technical specification,,,,,ACTIVE
+S048,13,Construction Products Regulation (EU) 305/2011,,"Ilmoitettu laitos, Rakennustuotteet, 305/2011/EU",,,,,ACTIVE
+S048,14,Construction Products Regulation (EU) 305/2011,,"Notified Body, Construction products, 305/2011/EC",,,,,ACTIVE
+S048,15,,metals,Execution of steel structures and aluminium structures. Part 1:,,,,,ACTIVE
+S048,16,,other_manufacturing,Requirements for conformity assessment of structural components,,,,,ACTIVE
+S048,17,,other_manufacturing,System 2+,,,,,ACTIVE
+S048,18,,other_manufacturing,FPC Certification,,,,,ACTIVE
+S048,19,,other_manufacturing,Body,,,,,ACTIVE
+S048,20,,other_manufacturing,EN 1090-1:2009 +,,,,EN 1090-1,ACTIVE
+S048,21,,other_manufacturing,A1:2011,,,,,ACTIVE
+S048,22,,other_manufacturing,95/467/EC Vapaasti seisovat savupiiput. Osa 7:,,,,,ACTIVE
+S048,23,,construction,Free-standing chimneys.,,,,,ACTIVE
+S048,24,,construction,Part 7: Product specifications of cylindrical steel fabrications for use in single wall steel chimneys and steel liners,,,,,ACTIVE
+S048,25,,other_manufacturing,EN 13084-7:2012,,,,EN 13084-7,ACTIVE
+S048,26,,wood_paper,Product/product range Procedure/modul Articles/annexes of the directive,,,,,ACTIVE
+S048,27,Pressure Equipment Directive 2014/68/EU,,"Ilmoitettu laitos, Painelaitteet, 2014/68/EU",,,,,ACTIVE
+S048,28,Pressure Equipment Directive 2014/68/EU,,"Notified Body, Pressure Equipment, 2014/68/EU",,,,,ACTIVE
+S048,29,,other_manufacturing,"National legislation, law 1144/2016 and decree 1548/2016, law 278/2016",,,,,ACTIVE
+S048,30,,food,Painelaitteet,,,,,ACTIVE
+S048,31,,machinery,Pressure equipment,,,,,ACTIVE
+S048,32,,other_manufacturing,Vaatimustenmukaisuuden arviointi,,,,,ACTIVE
+S048,33,,other_manufacturing,Conformity assessment,,,,,ACTIVE
+S048,34,,other_manufacturing,Article 20 and Annexes I and III,,,,,ACTIVE
+S048,35,,other_manufacturing,Module B: EU-tyyppitarkastus – tuotantotyyppi,,,,,ACTIVE
+S048,36,,other_manufacturing,Module B: EU Type examination – production type,,,,,ACTIVE
+S048,37,,other_manufacturing,Module B: EU-tyyppitarkastus – suunnittelutyyppi,,,,,ACTIVE
+S048,38,,other_manufacturing,Module B: EU Type examination – design type,,,,,ACTIVE
+S048,39,,machinery,Module C2:Conformity to type based on internal production control plus supervised pressure equipment checks at random intervals,,,,,ACTIVE
+S048,40,,construction,Moduuli D: Tuotantoprosessin laadunvarmistukseen perustuva tyypinmukaisuus,,,,,ACTIVE
+S048,41,,professional,Module D: Conformity to type based on quality assurance of the production process,,,,,ACTIVE
+S048,42,,other_manufacturing,Moduuli D1: Tuotantoprosessin laadunvarmistus,,,,,ACTIVE
+S048,43,,professional,Module D1: Quality assurance of the production process,,,,,ACTIVE
+S048,44,,food,Moduuli E: Painelaitteen laadunvarmistukseen perustuva tyypinmukaisuus,,,,,ACTIVE
+S048,45,,machinery,Module E: Conformity to type based on pressure equipment quality assurance,,,,,ACTIVE
+S048,46,,food,Moduuli E1: Painelaitteen lopputarkastuksen ja testauksen laadunvarmistus,,,,,ACTIVE
+S048,47,,machinery,Module E1: Quality assurance of final pressure equipment inspection and testing,,,,,ACTIVE
+S048,48,,food,Moduuli F: Painelaitteen tarkastukseen perustuva tyypinmukaisuus,,,,,ACTIVE
+S048,49,,machinery,Module F: Conformity to type based on pressure equipment verification,,,,,ACTIVE
+S048,50,,other_manufacturing,Module G: Conformity based on unit verification,,,,,ACTIVE
+S048,51,,other_manufacturing,Module H1: Conformity based on full quality assurance plus design examination,,,,,ACTIVE
+S048,52,,professional,CAB has accredited activity under this directive or regulation also in other scopes of accreditation. Scopes are published on the FINAS website.,,,,,ACTIVE
+S057,1,,wood_paper,Product/product range Procedure/modul Articles/annexes of the directive,,,,,ACTIVE
+S057,2,Non-automatic Weighing Instruments Directive 2014/31/EU,,"Ilmoitettu laitos, Ei-automaattiset vaa'at, 2014/31/EU",,,,,ACTIVE
+S057,3,Non-automatic Weighing Instruments Directive 2014/31/EU,,"Notified body, Non-automatic weighing instruments, 2014/31/EU",,,,,ACTIVE
+S057,4,,other_manufacturing,The Act on Notified Bodies Concerning Certain Product Groups 278/2016 (only in Finnish),,,,,ACTIVE
+S057,5,,food,Mittauslaitelaki 707/2011 ja sen nojalla annetut asetukset 1432/2016,,,,,ACTIVE
+S057,6,,other_manufacturing,Act on the measuring instruments 707/2011 and Government decree on the measuring instruments,,,,,ACTIVE
+S057,7,,other_manufacturing,1432/2016 (only in Finnish),,,,,ACTIVE
+S057,8,,other_manufacturing,Ei-automaattiset vaa'at,,,,,ACTIVE
+S057,9,,other_manufacturing,Non-automatic weighing instruments,,,,,ACTIVE
+S057,10,,construction,Moduuli F: Tuotekohtaiseen tarkastukseen perustuva tyypinmukaisuus,,,,,ACTIVE
+S057,11,,other_manufacturing,Module F: Conformity to type based on product verification,,,,,ACTIVE
+S058,1,,other_manufacturing,Produktgrupp/produkt System och procedur Kravspecifikation,,,,,ACTIVE
+S058,2,,other_manufacturing,Product category/product System and procedure Assessment requirement,,,,,ACTIVE
+S058,3,,construction,Certifiering av byggprodukter enligt lagen 954/2012,,,,,ACTIVE
+S058,4,,construction,Certification of construction products according to national act 954/2012,,,,,ACTIVE
+S058,5,,construction,Ympäristöministeriön asetus 555/2013 eräiden rakennustuotteiden tuotehyväksynnästä,,,,,ACTIVE
+S058,6,,construction,Ministry of the Environment’s Decree 555/2013 on type approval of certain construction products,,,,,ACTIVE
+S058,7,,metals,Hitsattavat betoniteräkset ja betoniteräsverkot,,,,,ACTIVE
+S058,8,,metals,Weldable reinforcing steel and mesh,,,,,ACTIVE
+S058,9,,food,"Järjestelmä 1+ tyyppihyväksyntälaitos, laadunvalvonnan varmentaja",,,,,ACTIVE
+S058,10,,other_manufacturing,"System 1+ type approval, certifying body for quality control",,,,,ACTIVE
+S058,11,,metals,"Ympäristöministeriön asetus hitsattavien betoniterästen ja betoniteräsverkkojen tyyppihyväksynnästä, 126/2016",,,,,ACTIVE
+S058,12,,other_manufacturing,1300:2020,,,,,ACTIVE
+S058,13,,other_manufacturing,SFS 1300:2020,,,,,ACTIVE
+S058,14,,metals,"Ministry of the Environment Decree on type approval of weldable reinforcing steel and mesh reinforcements, 126/2016",,,,,ACTIVE
+S058,15,,metals,Ministry of the Environment Decree on essential technical requirements of weldable reinforcing steel and mesh reinforcements 125/2016,,,,,ACTIVE
+S058,16,,professional,"Minimum requirements for weldable reinforcing steel and welded fabric, SFS 1300:2020 of expiry accreditation",,,,,ACTIVE
+S058,17,,other_manufacturing,ACKREDITERINGSOMRÅDEN,,,,,ACTIVE
+S058,18,,metals,Betoniraudoitteet ja teräsbetonirakenteissa käytettävät raudoitteet,,,,,ACTIVE
+S058,19,,construction,Units for concrete reinforcement and units used in reinforced concrete structures,,,,,ACTIVE
+S058,20,,other_manufacturing,"Järjestelmä 2+ hyväksytty toimielin, laadunvalvonnan varmentaja",,,,,ACTIVE
+S058,21,,other_manufacturing,"System 2+ approved body, certifying body for quality control",,,,,ACTIVE
+S058,22,,other_manufacturing,SFS 1267:2013,,,,,ACTIVE
+S059,1,,other_manufacturing,Product/product range,,,,,ACTIVE
+S059,2,,other_manufacturing,Menettely/moduuli,,,,,ACTIVE
+S059,3,,other_manufacturing,Procedure/Module,,,,,ACTIVE
+S059,4,,food,Direktiivin artiklat/liitteet,,,,,ACTIVE
+S059,5,,wood_paper,Articles/annexes of the directive,,,,,ACTIVE
+S059,6,Machinery Directive 2006/42/EC,,"Notified Bodies, Machinery, 2006/42/EC, National legislation decree 400/2008",,,,,ACTIVE
+S059,7,,machinery,Liitteen IV tarkoittama koneluokka:,,,,,ACTIVE
+S059,8,,machinery,17. Devices for the lifting of persons or of persons and goods involving a hazard of falling from a vertical height of more than three metres,,,,,ACTIVE
+S059,9,,other_manufacturing,EY-tyyppitarkastus,,,,,ACTIVE
+S059,10,,other_manufacturing,EC type examination,,,,,ACTIVE
+S059,11,,other_manufacturing,Artiklan 12 kohdat 3 (b) ja 4,,,,,ACTIVE
+S059,12,,other_manufacturing,(a) - Liite IX,,,,,ACTIVE
+S059,13,,other_manufacturing,4 (a),,,,,ACTIVE
+S059,14,Machinery Regulation (EU) 2023/1230,,"Ilmoitetut laitokset, Koneet, (EU) 2023/1230 Liitteet VII ja X",,,,,ACTIVE
+S059,15,Machinery Regulation (EU) 2023/1230,,"Notified Bodies, Machinery, (EU) 2023/1230 Annexes VII and X huoltonostimet servicing lifts",,,,,ACTIVE
+S059,16,,other_manufacturing,Moduuli G,,,,,ACTIVE
+S059,17,,other_manufacturing,Module G,,,,,ACTIVE
+S059,18,,food,"Module G mekaaniset voimansiirtolaitteet, mukaan lukien niiden suojukset",,,,,ACTIVE
+S059,19,,professional,Removable mechanical transmission devices including their guards,,,,,ACTIVE
+S059,20,,other_manufacturing,Moduuli B,,,,,ACTIVE
+S059,21,,food,Module B mekaanisten voimansiirtolaitteiden suojukset for removable mechanical transmission devices,,,,,ACTIVE
+S059,22,,machinery,Module B huoltonostimet servicing lifts,,,,,ACTIVE
+S059,23,,other_manufacturing,Module B,,,,,ACTIVE
+S060,1,,metals,Hitsausprosessin sertifiointi,,,,,ACTIVE
+S060,2,,metals,Certification of welding process of metallic materials,,,,,ACTIVE
+S060,3,,metals,Certification of welding process,,,,,ACTIVE
+S060,4,ISO 3834,,EN ISO 3834-2:2021,,,,EN ISO 3834-2,ACTIVE
+S060,5,,metals,Hitsauksen laatuvaatimukset. Metallisten materiaalien sulahitsaus. Osa 2: Kattavat laatuvaatimukset.,,,,,ACTIVE
+S060,6,,metals,Quality requirements for welding. Fusion welding of metallic materials. Part 2: Comprehensive quality requirements.,,,,,ACTIVE
+S060,7,ISO 3834,,EN ISO 3834-3:2021,,,,EN ISO 3834-3,ACTIVE
+S060,8,,metals,Hitsauksen laatuvaatimukset. Metallisten materiaalien sulahitsaus. Osa 3: Vakiolaatuvaatimukset.,,,,,ACTIVE
+S060,9,,metals,Quality requirements for welding. Fusion welding of metallic materials. Part 3: Standard quality requirements.,,,,,ACTIVE
+S060,10,ISO 3834,,EN ISO 3834-4:2021,,,,EN ISO 3834-4,ACTIVE
+S060,11,,metals,Hitsauksen laatuvaatimukset. Metallisten materiaalien sulahitsaus. Osa 4: Peruslaatuvaatimukset.,,,,,ACTIVE
+S060,12,,metals,Quality requirements for welding. Fusion welding of metallic materials. Part 4: Elementary quality requirements.,,,,,ACTIVE
+S060,13,,agriculture,"Päätös Tuoteperhe, tuoteryhmä/tuote, aiottu käyttökohde",,,,,ACTIVE
+S060,14,,other_manufacturing,"Decision Product family, product category/product, intended use",,,,,ACTIVE
+S060,15,,other_manufacturing,AVCP system Technical specification,,,,,ACTIVE
+S060,16,Construction Products Regulation (EU) 305/2011,,"Ilmoitetut laitokset, rakennustuotteet, 305/2011/EU",,,,,ACTIVE
+S060,17,Construction Products Regulation (EU) 305/2011,,"Notified bodies, Construction products, 305/2011/EC",,,,,ACTIVE
+S060,18,,metals,Execution of steel structures and aluminium structures. Part,,,,,ACTIVE
+S060,19,,other_manufacturing,1: Requirements for conformity assessment of structural components,,,,,ACTIVE
+S060,20,,metals,Structural metallic products and ancillaries (2/4): •,,,,,ACTIVE
+S060,21,,transport_equipment,"Structural metallic construction members: finished metallic products such as trusses, girders, columns, stairs, ground piles, bearing piles and sheet piling, cut to size sections designed for certain applications, and rails and sleepers. They can be unprotected or protected against corrosion by coating, welded or not (for uses in work's frames and foundations).",,,,,ACTIVE
+S060,22,,other_manufacturing,System 2+,,,,,ACTIVE
+S060,23,,other_manufacturing,FPC Certification,,,,,ACTIVE
+S060,24,,other_manufacturing,Body,,,,,ACTIVE
+S060,25,,other_manufacturing,EN 1090-1:2009 + A1:2011,,,,EN 1090-1,ACTIVE
+S062,1,,wood_paper,Product/product range Procedure/modul Articles/annexes of the directive,,,,,ACTIVE
+S062,2,Pressure Equipment Directive 2014/68/EU,,"Ilmoitettu laitos, Painelaitteet, 2014/68/EU",,,,,ACTIVE
+S062,3,Pressure Equipment Directive 2014/68/EU,,"Notified Body, Pressure equipment, 2014/68/EU",,,,,ACTIVE
+S062,4,,other_manufacturing,The Act on Notified Bodies Concerning Certain Product Groups 278/2016 (only in Finnish),,,,,ACTIVE
+S062,5,,food,Painelaitelaki 1144/2016 ja painelaiteasetus 1548/2016 tarkoitetun arviointilaitoksen (ilmoitetun laitoksen) toiminta,,,,,ACTIVE
+S062,6,,machinery,The operation of the Notified body: pressure equipment law 1144/2016 and pressure equipment decree 1548/2016 (only in Finnish),,,,,ACTIVE
+S062,7,,food,Painelaitteet,,,,,ACTIVE
+S062,8,,transport_equipment,Pressure vessels,,,,,ACTIVE
+S062,9,,other_manufacturing,Moduuli G:,,,,,ACTIVE
+S062,10,,other_manufacturing,Module G: Conformity based on unit verification,,,,,ACTIVE
+S062,11,,other_manufacturing,"Artikla 20, liitteet I ja III",,,,,ACTIVE
+S062,12,,other_manufacturing,"Article 20, annexes I and III",,,,,ACTIVE
+S067,1,,other_manufacturing,artiklat/liitteet,,,,,ACTIVE
+S067,2,,wood_paper,Product/product range Procedure/modul Articles/annexes of the directive/regulation,,,,,ACTIVE
+S067,3,Pressure Equipment Directive 2014/68/EU,,"Ilmoitettu laitos, Painelaitteet, 2014/68/EU",,,,,ACTIVE
+S067,4,Pressure Equipment Directive 2014/68/EU,,"Notified Body, Pressure equipment, 2014/68/EU",,,,,ACTIVE
+S067,5,,other_manufacturing,"National legislation, law 278/2016, law 1144/2016 and decree 1548/2016",,,,,ACTIVE
+S067,6,,food,Painelaitteet,,,,,ACTIVE
+S067,7,,transport_equipment,Pressure vessels,,,,,ACTIVE
+S067,8,,construction,Vaatimuksenmukaisuuden arviointimenettely,,,,,ACTIVE
+S067,9,,other_manufacturing,Conformity assessment procedure,,,,,ACTIVE
+S067,10,,other_manufacturing,"Artikla 20, liitteet I ja III",,,,,ACTIVE
+S067,11,,other_manufacturing,"Article 20, annexes I and III",,,,,ACTIVE
+S067,12,,other_manufacturing,Moduuli B: EU-tyyppitarkastus – tuotantotyyppi,,,,,ACTIVE
+S067,13,,other_manufacturing,Module B: EU-type examination – production type,,,,,ACTIVE
+S067,14,,other_manufacturing,Moduuli B: EU-tyyppitarkastus – suunnittelutyyppi,,,,,ACTIVE
+S067,15,,other_manufacturing,Module B: EU-type examination – design type,,,,,ACTIVE
+S067,16,,other_manufacturing,Module G: Conformity based on unit verification,,,,,ACTIVE
+S067,17,,food,Moduuli F: Painelaitteen tarkastukseen perustuva tyypinmukaisuus,,,,,ACTIVE
+S067,18,,machinery,Module F: Conformity to type based on pressure equipment verification,,,,,ACTIVE
+S067,19,,professional,CAB has accredited activity under this directive or regulation also in other scopes of accreditation.,,,,,ACTIVE
+S067,20,,other_manufacturing,Scopes are published on the FINAS website.,,,,,ACTIVE
+S071,1,,metals,Hitsausprosessin sertifiointi,,,,,ACTIVE
+S071,2,,metals,Certification of welding process of metallic materials,,,,,ACTIVE
+S071,3,,metals,Certification of welding process,,,,,ACTIVE
+S071,4,,other_manufacturing,ISO/IEC 3834 -2:2021,,,,ISO/IEC 3834,ACTIVE
+S071,5,,metals,Hitsauksen laatuvaatimukset. Metallisten materiaalien sulahitsaus. Osa 2: Kattavat laatuvaatimukset.,,,,,ACTIVE
+S071,6,,metals,Quality requirements for welding. Fusion welding of metallic materials. Part 2: Comprehensive quality requirements.,,,,,ACTIVE
+S071,7,,agriculture,"Päätös Tuoteperhe, käyttökohde",,,,,ACTIVE
+S071,8,,other_manufacturing,"Decision Product family, product category/product, intended use",,,,,ACTIVE
+S071,9,,other_manufacturing,AVCP system Technical specification,,,,,ACTIVE
+S071,10,Construction Products Regulation (EU) 305/2011,,"Ilmoitettu laitos, Rakennustuotteet, 305/2011",,,,,ACTIVE
+S071,11,Construction Products Regulation (EU) 305/2011,,"Notified Body, Construction products, 305/2011",,,,,ACTIVE
+S071,12,,metals,Execution of steel structures and aluminium structures.,,,,,ACTIVE
+S071,13,,other_manufacturing,Part 1: Requirements for conformity assessment of structural components,,,,,ACTIVE
+S071,14,,other_manufacturing,System 2+,,,,,ACTIVE
+S071,15,,other_manufacturing,FPC Certification Body,,,,,ACTIVE
+S071,16,,other_manufacturing,EN 1090-1:2009 +,,,,EN 1090-1,ACTIVE
+S071,17,,other_manufacturing,A1:2011,,,,,ACTIVE

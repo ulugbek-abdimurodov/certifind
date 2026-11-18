@@ -128,7 +128,9 @@ export function ResultsSection({
                     : `Certificazione di prodotto · ${data.productSummary}`
                   : data.directory
                     ? "Elenco completo delle aziende presenti nel database"
-                    : `Per ${shortStandard(iso)} · ${data.resolvedEaDescription} (EA ${data.resolvedEaCode})`}
+                    : data.keywordSummary !== undefined
+                      ? `Sistemi di gestione · ${data.keywordSummary}`
+                      : `Per ${shortStandard(iso)} · ${data.resolvedEaDescription} (EA ${data.resolvedEaCode})`}
               </p>
             </div>
             <div className="results-mark">

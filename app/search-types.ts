@@ -42,6 +42,8 @@ export type SearchResponse = {
   directory: boolean;
   /** Set on product certification results: the criteria searched, e.g. "IFS Food · Alimenti e mangimi". */
   productSummary?: string;
+  /** Set on management system searches with a keyword or no standard, e.g. "ISO 9001 · «bureau»". */
+  keywordSummary?: string;
 };
 
 /** Which search the form is on. */
@@ -104,4 +106,5 @@ export type SearchPreset = {
   label: string;
   iso: string;
   sector: string;
+  keyword?: string;
 };

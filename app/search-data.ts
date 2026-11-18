@@ -62,6 +62,7 @@ const countryCodes: Record<string, string> = {
   Ireland: "IE",
   Israel: "IL",
   Italy: "IT",
+  Iran: "IR",
   Jamaica: "JM",
   Japan: "JP",
   Jordan: "JO",

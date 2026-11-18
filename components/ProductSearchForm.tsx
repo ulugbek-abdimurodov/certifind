@@ -102,14 +102,15 @@ export function ProductSearchForm({
           onChange={(event) =>
             onChange({ ...criteria, product: event.target.value })
           }
-          placeholder="es. packaging, olive oil"
+          placeholder="es. packaging, olive oil, EN 10138"
           maxLength={200}
         />
       </div>
       <p className="form-hint">
         Basta compilare un campo. Gli scopi sono nella lingua dell’ente di
         accreditamento e in inglese: per il prodotto prova anche il termine
-        inglese.
+        inglese. Qui puoi cercare anche il numero di una norma (es. 10138):
+        trova ogni scopo che la cita, sotto qualsiasi schema o regolamento.
       </p>
       <button className="search-button" type="submit" disabled={loading || empty}
         aria-busy={loading}

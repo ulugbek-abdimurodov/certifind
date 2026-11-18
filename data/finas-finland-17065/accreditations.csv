@@ -1,0 +1,10 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+FINAS,S018,DNV Business Assurance Finland Oy Ab,ISO/IEC 17065,ACTIVE,2024-08-28,2028-08-31,https://www.finas.fi/Scopes/S018%20A28%202024.pdf
+FINAS,S048,DEKRA Industrial Oy,ISO/IEC 17065,ACTIVE,2026-04-16,2028-06-06,https://www.finas.fi/Scopes/S048_M07_2026.pdf
+FINAS,S057,PME-Control Oy,ISO/IEC 17065,ACTIVE,2025-03-27,2028-01-28,https://www.finas.fi/Scopes/S057%20M03%202025.pdf
+FINAS,S058,GlobeCert AB,ISO/IEC 17065,ACTIVE,2025-01-16,2029-02-11,https://www.finas.fi/Scopes/S058%20A03%202025.pdf
+FINAS,S059,FINN-Tarkastus Oy,ISO/IEC 17065,ACTIVE,2025-12-04,2029-03-11,https://www.finas.fi/Scopes/S059%20M03%202025.pdf
+FINAS,S060,Bureau Veritas Certification Finland,ISO/IEC 17065,ACTIVE,2025-06-05,2027-02-18,https://www.finas.fi/Scopes/S060%20A02%202025.pdf
+FINAS,S062,Tarkes Inspection Oy,ISO/IEC 17065,ACTIVE,2025-06-30,2029-09-20,https://www.finas.fi/Scopes/S062%20A05%202025.pdf
+FINAS,S067,Finspection Oy,ISO/IEC 17065,ACTIVE,2024-02-07,2027-04-14,https://www.finas.fi/Scopes/S067_M02_2024.pdf
+FINAS,S071,Enemi Oy,ISO/IEC 17065,ACTIVE,2025-12-04,2029-12-04,https://www.finas.fi/Scopes/S071%20A01%202025.pdf

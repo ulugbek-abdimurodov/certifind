@@ -1,32 +1,32 @@
 ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
 HAA,3055,"Institut IGH d.d., IGH Cert",ISO/IEC 17065,ACTIVE,2004-10-01,2030-02-03,https://akreditacija.gov.hr/frontend/registar-akreditacija
 HAA,3097,BIOINSPEKT d.o.o.,ISO/IEC 17065,ACTIVE,2006-11-21,2026-12-13,https://akreditacija.gov.hr/frontend/registar-akreditacija
-HAA,3123,"CSS d.o.o., Odjel za certifikaciju",ISO/IEC 17065,ACTIVE,,2028-01-10,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,3123,"CSS d.o.o., Odjel za certifikaciju",ISO/IEC 17065,ACTIVE,2007-09-25,2028-01-10,https://akreditacija.gov.hr/frontend/registar-akreditacija
 HAA,3143,"TPK - ZAVOD ZA ENERGETSKU I PROCESNU OPREMU d.o.o., Certifikacijski odjel",ISO/IEC 17065,ACTIVE,2008-03-17,2028-06-05,https://akreditacija.gov.hr/frontend/registar-akreditacija
 HAA,3169,"KONČAR - INSTITUT ZA ELEKTROTEHNIKU d.o.o., Služba za certifikaciju i inspekciju - SCERT",ISO/IEC 17065,ACTIVE,2008-12-08,2029-04-28,https://akreditacija.gov.hr/frontend/registar-akreditacija
-HAA,3209,"VIK-HR d.o.o., VIK Cert, Odjel C1-Certifikacija proizvoda",ISO/IEC 17065,ACTIVE,,2030-05-06,https://akreditacija.gov.hr/frontend/registar-akreditacija
-HAA,3235,"TÜV NORD Adriatic d.o.o., TÜV NORD Adriatic Certifikacijsko tijelo",ISO/IEC 17065,ACTIVE,,2030-07-28,https://akreditacija.gov.hr/frontend/registar-akreditacija
-HAA,3244,"EUROINSPEKT EUROTEXTIL d.o.o., Odjel za certifikaciju",ISO/IEC 17065,ACTIVE,,2030-07-23,https://akreditacija.gov.hr/frontend/registar-akreditacija
-HAA,3247,"MIRTA-KONTROL d.o.o., Poslovna jedinica certifikacija proizvoda",ISO/IEC 17065,ACTIVE,,2030-08-11,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,3209,"VIK-HR d.o.o., VIK Cert, Odjel C1-Certifikacija proizvoda",ISO/IEC 17065,ACTIVE,2009-10-13,2030-05-06,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,3235,"TÜV NORD Adriatic d.o.o., TÜV NORD Adriatic Certifikacijsko tijelo",ISO/IEC 17065,ACTIVE,2010-04-07,2030-07-28,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,3244,"EUROINSPEKT EUROTEXTIL d.o.o., Odjel za certifikaciju",ISO/IEC 17065,ACTIVE,2020-07-24,2030-07-23,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,3247,"MIRTA-KONTROL d.o.o., Poslovna jedinica certifikacija proizvoda",ISO/IEC 17065,ACTIVE,2010-05-03,2030-08-11,https://akreditacija.gov.hr/frontend/registar-akreditacija
 HAA,3337,"ASCON INSTITUT d.o.o., ASCONCert",ISO/IEC 17065,ACTIVE,2011-09-30,2026-12-22,https://akreditacija.gov.hr/frontend/registar-akreditacija
-HAA,3350,"ZIK d.o.o., Zavod za ispitivanje kvalitete - Certifikacijsko tijelo",ISO/IEC 17065,ACTIVE,,2031-09-17,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,3350,"ZIK d.o.o., Zavod za ispitivanje kvalitete - Certifikacijsko tijelo",ISO/IEC 17065,ACTIVE,2011-12-29,2031-09-17,https://akreditacija.gov.hr/frontend/registar-akreditacija
 HAA,3367,"Biotechnicon poduzetnički centar d.o.o., Odjel za certifikaciju proizvoda",ISO/IEC 17065,ACTIVE,2012-03-19,2027-03-14,https://akreditacija.gov.hr/frontend/registar-akreditacija
 HAA,3405,AgriBioCert Zadruga za obavljanje stručnog nadzora i ugovornu kontrolu robe,ISO/IEC 17065,ACTIVE,2012-11-30,2027-12-14,https://akreditacija.gov.hr/frontend/registar-akreditacija
 HAA,3413,"HRVATSKE ŠUME d.o.o., Sektor za šumarstvo Služba za certifikaciju proizvoda",ISO/IEC 17065,ACTIVE,2013-01-10,2028-03-01,https://akreditacija.gov.hr/frontend/registar-akreditacija
-HAA,3429,"Bureau Veritas Croatia d.o.o., Ustanova za potvrđivanje proizvoda",ISO/IEC 17065,ACTIVE,2013-09-09,2028-09-03,https://akreditacija.gov.hr/frontend/registar-akreditacija
-HAA,3469,"SVEUČILIŠTE U ZAGREBU, FAKULTET STROJARSTVA I BRODOGRADNJE, Zavod za zavarene konstrukcije, Katedra za zavarene konstrukcije",ISO/IEC 17065,ACTIVE,,2029-11-13,https://akreditacija.gov.hr/frontend/registar-akreditacija
-HAA,3487,"EUROTALUS d.o.o., Odjel za certificiranje",ISO/IEC 17065,ACTIVE,,2030-02-19,https://akreditacija.gov.hr/frontend/registar-akreditacija
-HAA,3521,"Eko Razvoj d.o.o., Eko Razvoj d.o.o.",ISO/IEC 17065,ACTIVE,,2031-02-09,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,3429,Bureau Veritas Croatia d.o.o. – Sektor certifikacije sustava,ISO/IEC 17065,ACTIVE,2013-09-09,2028-09-03,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,3469,"SVEUČILIŠTE U ZAGREBU, FAKULTET STROJARSTVA I BRODOGRADNJE, Zavod za zavarene konstrukcije, Katedra za zavarene konstrukcije",ISO/IEC 17065,ACTIVE,2014-11-14,2029-11-13,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,3487,"EUROTALUS d.o.o., Odjel za certificiranje",ISO/IEC 17065,ACTIVE,2015-03-17,2030-02-19,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,3521,"Eko Razvoj d.o.o., Eko Razvoj d.o.o.",ISO/IEC 17065,ACTIVE,2016-02-10,2031-02-09,https://akreditacija.gov.hr/frontend/registar-akreditacija
 HAA,3542,"LTM d.o.o., LTMCert",ISO/IEC 17065,ACTIVE,2016-12-12,2026-12-16,https://akreditacija.gov.hr/frontend/registar-akreditacija
-HAA,3548,"Hrvatski registar brodova, Sektor konstrukcije",ISO/IEC 17065,ACTIVE,2017-01-09,2027-01-08,https://akreditacija.gov.hr/frontend/registar-akreditacija
-HAA,3586,"TRGO-INVEST d. o. o., TRGO-INVEST d.o.o.",ISO/IEC 17065,ACTIVE,,2028-02-13,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,3548,"Croatian Register of Shipping (Hrvatski registar brodova, HRB) – Sektor certifikacije sustava upravljanja",ISO/IEC 17065,ACTIVE,2017-01-09,2027-01-08,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,3586,"TRGO-INVEST d. o. o., TRGO-INVEST d.o.o.",ISO/IEC 17065,ACTIVE,2012-12-20,2028-02-13,https://akreditacija.gov.hr/frontend/registar-akreditacija
 HAA,3588,HCR-CTRO d.o.o.,ISO/IEC 17065,ACTIVE,2007-04-04,2028-02-29,https://akreditacija.gov.hr/frontend/registar-akreditacija
-HAA,3596,"HAPIH, Centar za vinogradarstvo, vinarstvo i uljarstvo",ISO/IEC 17065,ACTIVE,,2029-02-19,https://akreditacija.gov.hr/frontend/registar-akreditacija
-HAA,3620,"BIOTER d.o.o., BIOTER KONTROLA",ISO/IEC 17065,ACTIVE,,2029-02-19,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,3596,"HAPIH, Centar za vinogradarstvo, vinarstvo i uljarstvo",ISO/IEC 17065,ACTIVE,2018-06-18,2029-02-19,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,3620,"BIOTER d.o.o., BIOTER KONTROLA",ISO/IEC 17065,ACTIVE,2019-02-20,2029-02-19,https://akreditacija.gov.hr/frontend/registar-akreditacija
 HAA,3635,"FIDITAS d.o.o., Odjel certifikacije",ISO/IEC 17065,ACTIVE,2019-07-23,2029-06-12,https://akreditacija.gov.hr/frontend/registar-akreditacija
 HAA,3637,CAC CONFORMITY ASSESSMENT CENTER D.O.O.,ISO/IEC 17065,ACTIVE,2019-08-02,2029-09-30,https://akreditacija.gov.hr/frontend/registar-akreditacija
 HAA,3640,Mareko d.o.o.,ISO/IEC 17065,ACTIVE,2019-09-09,2029-09-08,https://akreditacija.gov.hr/frontend/registar-akreditacija
-HAA,3662,"BIO GARANTIE d.o.o., BIO GARANTIE d.o.o.",ISO/IEC 17065,ACTIVE,,2031-03-23,https://akreditacija.gov.hr/frontend/registar-akreditacija
+HAA,3662,"BIO GARANTIE d.o.o., BIO GARANTIE d.o.o.",ISO/IEC 17065,ACTIVE,2021-03-24,2031-03-23,https://akreditacija.gov.hr/frontend/registar-akreditacija
 HAA,3675,Plantadis d.o.o.,ISO/IEC 17065,ACTIVE,2021-11-22,2026-11-21,https://akreditacija.gov.hr/frontend/registar-akreditacija
 HAA,3676,"PROMO EKO d.o.o.,Odjel za certifikaciju ekoloških proizvoda (OCEKOPRO)",ISO/IEC 17065,ACTIVE,2021-11-19,2026-11-18,https://akreditacija.gov.hr/frontend/registar-akreditacija
 HAA,3677,EKOPLANT j.d.o.o.,ISO/IEC 17065,ACTIVE,2021-12-29,2026-12-28,https://akreditacija.gov.hr/frontend/registar-akreditacija

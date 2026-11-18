@@ -76,4 +76,29 @@ class CertifindApplicationTests {
         assertSearchResults("ISO/IEC 27001", "EA 17", 17);
         assertSearchResults("ISO/IEC 27001", "EA 39", 39);
     }
+
+    private java.util.Set<Integer> ids(String iso, String sector, String keyword) {
+        return searchService.search(new SearchRequest(iso, sector, keyword)).results().stream()
+                .map(CertificationBodyCardDto::id).collect(java.util.stream.Collectors.toSet());
+    }
+
+    @Test
+    @DisplayName("Keyword search finds every body the standard + sector search finds")
+    void keywordCoversStandardSearch() {
+        java.util.Set<Integer> standard = ids("ISO 9001", "EA 12", null);
+        assertTrue(!standard.isEmpty());
+        assertTrue(ids("", "EA 12", "9001").containsAll(standard));
+        assertTrue(ids("ISO 9001", "EA 12", "ISO 9001").containsAll(standard));
+        // A keyword only narrows: with standard and sector chosen, it never adds bodies.
+        assertTrue(standard.containsAll(ids("ISO 9001", "EA 12", "Italy")));
+    }
+
+    @Test
+    @DisplayName("Keyword search needs a keyword or a sector")
+    void keywordSearchNeedsCriteria() {
+        org.junit.jupiter.api.Assertions.assertThrows(IllegalArgumentException.class,
+                () -> searchService.search(new SearchRequest("", "", "")));
+        org.junit.jupiter.api.Assertions.assertThrows(IllegalArgumentException.class,
+                () -> searchService.search(new SearchRequest("", "", "x")));
+    }
 }

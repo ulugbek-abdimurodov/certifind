@@ -32,7 +32,6 @@ import com.certifind.dto.ProductDtos.SearchResponse;
 public class ProductSearchService {
 
     static final int MIN_TEXT_LENGTH = 2;
-    static final int MAX_TOKENS = 6;
     static final int MAX_CARD_LINES = 3;
 
     private static final String LINE_COLUMNS = """
@@ -50,10 +49,16 @@ public class ProductSearchService {
             WHERE ps.status = 'ACTIVE' AND a.status = 'ACTIVE'
               AND (a.expiry_date IS NULL OR a.expiry_date >= CURRENT_DATE)
             """;
-    /** Where a scheme or standard is looked for, and where a product or activity is. */
-    private static final String REFERENCE_TEXT =
-            "concat_ws(' ', ps.scheme_code, ps.scheme_text, ps.normative_docs, ps.standard_refs)";
-    private static final String PRODUCT_TEXT = "concat_ws(' ', ps.product_text, ps.product_text_en)";
+    /**
+     * Everything a line says, searched by both the scheme/standard field and the product field:
+     * annexes put standards (e.g. "EN 10138") in the product text, under a regulation line, or in
+     * a column of their own, so a keyword must find them wherever they were printed.
+     */
+    private static final String LINE_TEXT =
+            "concat_ws(' ', ps.product_text, ps.product_text_en, ps.scheme_code, ps.scheme_text, "
+            + "ps.normative_docs, ps.standard_refs, i.name_it, cb.name, a.certificate_number)";
+    private static final String REFERENCE_TEXT = LINE_TEXT;
+    private static final String PRODUCT_TEXT = LINE_TEXT;
 
     private final NamedParameterJdbcTemplate jdbc;
 
@@ -112,8 +117,8 @@ public class ProductSearchService {
                     """);
             params.addValue("industry", industry);
         }
-        appendTokens(sql, params, REFERENCE_TEXT, "r", scheme);
-        appendTokens(sql, params, PRODUCT_TEXT, "p", product);
+        KeywordPattern.appendTokens(sql, params, REFERENCE_TEXT, "r", scheme);
+        KeywordPattern.appendTokens(sql, params, PRODUCT_TEXT, "p", product);
         return collect(sql.toString(), params);
     }
 
@@ -137,28 +142,6 @@ public class ProductSearchService {
     public List<ScopeLine> findScopes(Integer bodyId) {
         return jdbc.query(LINE_COLUMNS + " AND cb.id = :bodyId ORDER BY a.id, ps.line_no",
                 Map.of("bodyId", bodyId), (rs, n) -> line(rs));
-    }
-
-    /**
-     * Adds one condition per word: every word must appear in {@code haystack}. Each word is
-     * also tried against the text without spaces, so "EN1090" finds "EN 1090".
-     */
-    private static void appendTokens(StringBuilder sql, MapSqlParameterSource params, String haystack,
-                                     String prefix, String text) {
-        if (text == null) return;
-        String[] tokens = text.split("\\s+");
-        for (int i = 0; i < Math.min(tokens.length, MAX_TOKENS); i++) {
-            String name = prefix + i;
-            sql.append(" AND (").append(haystack).append(" ILIKE :").append(name)
-                    .append(" ESCAPE '\\' OR replace(").append(haystack).append(", ' ', '') ILIKE :")
-                    .append(name).append(" ESCAPE '\\')");
-            params.addValue(name, "%" + escapeLike(tokens[i]) + "%");
-        }
-    }
-
-    /** LIKE wildcards typed by the user are matched literally. */
-    private static String escapeLike(String value) {
-        return value.replace("\\", "\\\\").replace("%", "\\%").replace("_", "\\_");
     }
 
     /** Trimmed text, or null when blank; rejects control characters and out-of-range lengths. */

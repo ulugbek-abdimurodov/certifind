@@ -1,5 +1,9 @@
 package com.certifind.service;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -10,6 +14,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
+import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -43,16 +49,139 @@ public class SearchService {
     private final AccreditedScopeRepository accreditedScopeRepository;
     private final CertificationBodyRepository certificationBodyRepository;
     private final EaSectorRepository eaSectorRepository;
+    private final NamedParameterJdbcTemplate jdbc;
 
     public SearchService(
             SectorKeywordRepository sectorKeywordRepository,
             AccreditedScopeRepository accreditedScopeRepository,
             CertificationBodyRepository certificationBodyRepository,
-            EaSectorRepository eaSectorRepository) {
+            EaSectorRepository eaSectorRepository,
+            NamedParameterJdbcTemplate jdbc) {
         this.sectorKeywordRepository = sectorKeywordRepository;
         this.accreditedScopeRepository = accreditedScopeRepository;
         this.certificationBodyRepository = certificationBodyRepository;
         this.eaSectorRepository = eaSectorRepository;
+        this.jdbc = jdbc;
+    }
+
+    /**
+     * Valid issuing rights (same rule as {@link AccreditedScopeRepository}) with everything the
+     * keyword is matched against: the body, its accreditation and AB, the standard and its title,
+     * the EA sector (code, Italian and English names, and its search vocabulary) and the scope note.
+     */
+    private static final String KEYWORD_ROWS = """
+            WITH kw AS (SELECT ea_code, string_agg(keyword, ' ') AS words FROM sector_keywords GROUP BY ea_code)
+            SELECT cb.id AS body_id, cb.name, cb.country, cb.phone, cb.email, cb.website, cb.address,
+                   cb.source_url, cb.verified_at,
+                   ab.code AS ab_code, ab.website AS ab_website,
+                   a.accreditation_standard, a.certificate_number, a.proof_url, a.expiry_date,
+                   s.certification_standard, s.ea_code, s.scope_note, e.name_it AS ea_name
+            FROM accredited_scopes s
+            JOIN accreditations a        ON a.id = s.accreditation_id
+            JOIN certification_bodies cb ON cb.id = a.certification_body_id
+            JOIN accreditation_bodies ab ON ab.id = a.accreditation_body_id
+            LEFT JOIN ea_sectors e       ON e.code = s.ea_code
+            LEFT JOIN standards st       ON st.code = s.certification_standard
+            LEFT JOIN kw                 ON kw.ea_code = s.ea_code
+            WHERE s.status = 'ACTIVE' AND a.status = 'ACTIVE'
+              AND (a.expiry_date IS NULL OR a.expiry_date >= CURRENT_DATE)
+              AND (a.accreditation_standard = 'ISO/IEC 17021-1'
+                   OR EXISTS (SELECT 1 FROM accreditations base
+                              WHERE base.certification_body_id = a.certification_body_id
+                                AND base.accreditation_standard = 'ISO/IEC 17021-1'
+                                AND base.status = 'ACTIVE'
+                                AND (base.expiry_date IS NULL OR base.expiry_date >= CURRENT_DATE)))
+            """;
+    private static final String KEYWORD_TEXT = """
+            concat_ws(' ', cb.name, cb.country, cb.address, cb.website, cb.email, cb.phone, cb.registration_no,
+                      ab.code, ab.name, ab.country, a.accreditation_standard, a.certificate_number,
+                      s.certification_standard, st.title, 'EA ' || s.ea_code, e.name_it, e.name_en,
+                      kw.words, s.scope_note)""";
+
+    /**
+     * Free-text search: every word of the keyword must appear somewhere in a valid scope row
+     * (see {@link KeywordPattern}); a chosen standard and sector narrow the rows further.
+     * One card per body, built from its first matching row (ISO/IEC 17021-1 rows first).
+     */
+    private SearchResponse keywordSearch(SearchRequest request) {
+        String keyword = isPresent(request.keyword()) ? request.keyword().trim() : null;
+        if (keyword != null) validateInput(keyword, ProductSearchService.MIN_TEXT_LENGTH);
+        String iso = isPresent(request.isoStandard()) ? request.isoStandard().trim() : null;
+        Integer eaCode = null;
+        if (isPresent(request.sectorActivity())) {
+            validateInput(request.sectorActivity(), MIN_SECTOR_LENGTH);
+            eaCode = parseEaCode(request.sectorActivity());
+            if (eaCode == null) eaCode = resolveKeyword(request.sectorActivity());
+            if (eaCode == null) {
+                throw new IllegalArgumentException("Settore di attività non riconosciuto. Inserisci un settore valido o un codice EA supportato.");
+            }
+        }
+        if (keyword == null && eaCode == null) {
+            throw new IllegalArgumentException("Indica una parola chiave oppure un settore di attività.");
+        }
+
+        MapSqlParameterSource params = new MapSqlParameterSource();
+        StringBuilder sql = new StringBuilder(KEYWORD_ROWS);
+        if (iso != null) {
+            sql.append(" AND s.certification_standard = :iso");
+            params.addValue("iso", iso);
+        }
+        if (eaCode != null) {
+            sql.append(" AND s.ea_code = :ea");
+            params.addValue("ea", eaCode);
+        }
+        KeywordPattern.appendTokens(sql, params, KEYWORD_TEXT, "k", keyword);
+        sql.append(" ORDER BY cb.name, cb.id, (a.accreditation_standard <> 'ISO/IEC 17021-1'), a.id, ")
+                .append("s.certification_standard, s.ea_code");
+
+        Map<Integer, KeywordCard> cards = new LinkedHashMap<>();
+        jdbc.query(sql.toString(), params, rs -> {
+            cards.computeIfAbsent(rs.getInt("body_id"), id -> new KeywordCard()).add(rs);
+        });
+        String sectorName = eaCode == null ? "" : sectorName(loadSectorNames(), eaCode);
+        return new SearchResponse(eaCode == null ? 0 : eaCode, sectorName,
+                cards.values().stream().map(KeywordCard::build).toList(), false);
+    }
+
+    /** Collects one body's matching rows for a keyword search card. */
+    private static final class KeywordCard {
+        private CertificationBodyCardDto first;
+        private final TreeSet<String> otherAbs = new TreeSet<>();
+        private final TreeSet<String> standards = new TreeSet<>();
+
+        void add(ResultSet rs) throws SQLException {
+            String ab = rs.getString("ab_code");
+            standards.add(rs.getString("certification_standard"));
+            if (first != null) {
+                if (!ab.equals(first.accreditationBodyCode())) otherAbs.add(ab);
+                return;
+            }
+            Integer ea = (Integer) rs.getObject("ea_code");
+            String eaName = rs.getString("ea_name");
+            String note = rs.getString("scope_note");
+            String scope = isPresent(note) ? note
+                    : (eaName != null ? eaName : "EA " + ea) + " (" + rs.getString("certification_standard") + ")";
+            first = new CertificationBodyCardDto(
+                    rs.getInt("body_id"), rs.getString("name"), rs.getString("country"),
+                    ab, rs.getString("ab_website"), List.of(),
+                    rs.getString("phone"), rs.getString("email"), rs.getString("website"),
+                    rs.getString("address"), rs.getString("source_url"),
+                    rs.getObject("verified_at", LocalDate.class), rs.getString("proof_url"),
+                    ea == null ? 0 : ea, eaName == null ? "" : eaName,
+                    rs.getString("accreditation_standard") + " · " + rs.getString("certificate_number") + " · " + scope,
+                    List.of(), rs.getObject("expiry_date", LocalDate.class));
+        }
+
+        CertificationBodyCardDto build() {
+            List<String> abs = new ArrayList<>();
+            abs.add(first.accreditationBodyCode());
+            abs.addAll(otherAbs);
+            return new CertificationBodyCardDto(first.id(), first.name(), first.country(),
+                    first.accreditationBodyCode(), first.accreditationBodyWebsite(), List.copyOf(abs),
+                    first.phone(), first.email(), first.website(), first.address(), first.sourceUrl(),
+                    first.verifiedAt(), first.proofUrl(), first.eaCode(), first.eaDescription(),
+                    first.scopeSection(), List.copyOf(standards), first.expiryDate());
+        }
     }
 
     @Transactional(readOnly = true)
@@ -77,6 +206,11 @@ public class SearchService {
             throw new IllegalArgumentException("La richiesta di ricerca non può essere vuota.");
         }
         validateInput(request.isoStandard(), 0);
+        // A keyword, or no standard ("Tutti gli standard"), goes through the free-text search,
+        // where standard and sector are optional filters.
+        if (isPresent(request.keyword()) || !isPresent(request.isoStandard())) {
+            return keywordSearch(request);
+        }
         validateInput(request.sectorActivity(), MIN_SECTOR_LENGTH);
 
         // An explicit "EA nn" code wins; otherwise the sector text is resolved through the keyword vocabulary.

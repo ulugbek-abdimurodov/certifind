@@ -33,6 +33,9 @@ type SearchFormProps = {
   loading: boolean;
   onIsoChange: (value: string) => void;
   onSectorChange: (value: string) => void;
+  /** Free text matched against everything stored: body, standard, sector, accreditation... */
+  keyword: string;
+  onKeywordChange: (value: string) => void;
   recentSearches: SearchPreset[];
   onSubmit: (event: FormEvent<HTMLFormElement>) => void;
   onShowAllCompanies: () => void;
@@ -51,6 +54,8 @@ export function SearchForm({
   loading,
   onIsoChange,
   onSectorChange,
+  keyword,
+  onKeywordChange,
   recentSearches,
   onSubmit,
   onShowAllCompanies,
@@ -68,7 +73,17 @@ export function SearchForm({
   const [browsingSectors, setBrowsingSectors] = useState(false);
   const suggestionListId = useId();
   const sectorQuery = sector.trim().toLocaleLowerCase();
-  const sectorSuggestions = (options.sectorsByStandard?.[iso] ?? []).filter(
+  // "Tutti gli standard" (iso "") offers every sector any standard has.
+  const availableSectors = iso
+    ? options.sectorsByStandard?.[iso] ?? []
+    : [
+        ...new Map(
+          Object.values(options.sectorsByStandard ?? {})
+            .flat()
+            .map((option) => [option.code, option]),
+        ).values(),
+      ].sort((a, b) => a.code - b.code);
+  const sectorSuggestions = availableSectors.filter(
     (option) =>
       browsingSectors ||
       sectorQuery.length === 0 ||
@@ -149,6 +164,7 @@ export function SearchForm({
               onClick={() => {
                 onIsoChange(preset.iso);
                 onSectorChange(preset.sector);
+                onKeywordChange((preset as SearchPreset).keyword ?? "");
               }}
             >
               {preset.label}
@@ -175,11 +191,12 @@ export function SearchForm({
               // Drop a chosen "EA nn" sector the new standard does not offer.
               const chosenCode = sector.match(/\bEA\s*(\d{1,2})\b/i)?.[1];
               const available = options.sectorsByStandard?.[nextIso] ?? [];
-              if (chosenCode && !available.some((option) => option.code === Number(chosenCode))) {
+              if (nextIso && chosenCode && !available.some((option) => option.code === Number(chosenCode))) {
                 onSectorChange("");
               }
             }}
           >
+            <option value="">Tutti gli standard</option>
             {[...options.standards].sort(compareStandards).map((standard) => (
               <option key={standard} value={standard}>
                 {standardOptionLabel(standard)}
@@ -220,7 +237,7 @@ export function SearchForm({
                 ? `${suggestionListId}-option-${sectorSuggestions[activeSuggestion]?.code}`
                 : undefined
             }
-            required
+            required={!keyword.trim()}
           />
           </div>
           {sectorFocused && sectorSuggestions.length > 0 && (
@@ -247,6 +264,21 @@ export function SearchForm({
             </div>
           )}
         </div>
+        <label htmlFor="ms-keyword">Parola chiave</label>
+        <div className="input-wrap">
+          <input
+            id="ms-keyword"
+            value={keyword}
+            onChange={(event) => onKeywordChange(event.target.value)}
+            placeholder="es. nome dell’ente, 27001, software, ACCREDIA"
+            maxLength={200}
+          />
+        </div>
+        <p className="form-hint">
+          Facoltativa. Cerca in tutti i dati: nome e contatti dell’ente, standard,
+          settore EA, ente e numero di accreditamento. Con una parola chiave il
+          settore non è obbligatorio.
+        </p>
         <button className="search-button" type="submit" disabled={loading} aria-busy={loading}>
           {loading ? (
             "Ricerca in corso…"

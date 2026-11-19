@@ -1,0 +1,67 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+RvA,C001,DEKRA Certification B.V.,ISO/IEC 17065,ACTIVE,2026-09-11,2030-05-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C001-scn.pdf
+RvA,C002,Kiwa Nederland B.V.,ISO/IEC 17065,ACTIVE,2026-11-09,2030-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C002-scn.pdf
+RvA,C003,SKG-IKOB Certificatie B.V.,ISO/IEC 17065,ACTIVE,2026-05-22,2029-12-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C003-scn.pdf
+RvA,C015,SGS INTRON Certificatie B.V.,ISO/IEC 17065,ACTIVE,2026-08-20,2031-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C015-scn.pdf
+RvA,C019,SKH B.V.,ISO/IEC 17065,ACTIVE,2025-06-19,2029-07-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C019-scn.pdf
+RvA,C042,Keurmerkinstituut B.V.,ISO/IEC 17065,ACTIVE,2026-07-08,2029-06-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C042-scn.pdf
+RvA,C067,Liftinstituut b.v.,ISO/IEC 17065,ACTIVE,2026-10-07,2030-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C067-scn.pdf
+RvA,C078,TÜV Rheinland Nederland B.V.,ISO/IEC 17065,ACTIVE,2026-04-08,2029-05-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C078-scn.pdf
+RvA,C130,CBF,ISO/IEC 17065,ACTIVE,2026-07-08,2030-05-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C130-scn.pdf
+RvA,C163,Stichting Centraal Bureau Drogisterij en Parfumeriebedrijven,ISO/IEC 17065,ACTIVE,2025-09-25,2029-10-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C163-scn.pdf
+RvA,C165,Bureau Veritas Inspection and Certification The Netherlands,ISO/IEC 17065,ACTIVE,2026-08-12,2030-04-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C165-scn.pdf
+RvA,C179,Stichting Skal,ISO/IEC 17065,ACTIVE,2026-06-24,2028-10-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C179-scn.pdf
+RvA,C195,Qlip B.V.,ISO/IEC 17065,ACTIVE,2026-01-21,2029-10-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C195-scn.pdf
+RvA,C234,Normec Certification B.V.,ISO/IEC 17065,ACTIVE,2026-01-07,2029-10-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C234-scn.pdf
+RvA,C253,TÜV NORD Nederland B.V.,ISO/IEC 17065,ACTIVE,2026-10-14,2028-11-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C253-scn.pdf
+RvA,C262,ECAS B.V.,ISO/IEC 17065,ACTIVE,2026-09-02,2028-03-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C262-scn.pdf
+RvA,C278,LRQA Nederland B.V.,ISO/IEC 17065,ACTIVE,2026-02-19,2030-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C278-scn.pdf
+RvA,C312,DNV Business Assurance B.V,ISO/IEC 17065,ACTIVE,2026-10-22,2030-09-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C312-scn.pdf
+RvA,C318,SKV Stichting Kwaliteitsgarantie,ISO/IEC 17065,ACTIVE,2025-11-20,2030-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C318-scn.pdf
+RvA,C320,SGS Nederland B.V.,ISO/IEC 17065,ACTIVE,2026-07-22,2030-05-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C320-scn.pdf
+RvA,C412,Control Union Certifications B.V.,ISO/IEC 17065,ACTIVE,2026-10-22,2030-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C412-sce.pdf
+RvA,C446,Kiwa VERIN B.V.,ISO/IEC 17065,ACTIVE,2026-02-25,2029-09-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C446-scn.pdf
+RvA,C480,"GLI Gaming Laboratory, Ltd.",ISO/IEC 17065,ACTIVE,2026-10-12,2028-10-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C480-sce.pdf
+RvA,C498,Producert B.V.,ISO/IEC 17065,ACTIVE,2024-10-23,2027-09-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C498-scn.pdf
+RvA,C574,Institute of Quality & Control Ltd.(IQC),ISO/IEC 17065,ACTIVE,2026-06-10,2028-06-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C574-sce.pdf
+RvA,C577,GLI Europe B.V.,ISO/IEC 17065,ACTIVE,2026-05-29,2027-10-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C577-sce.pdf
+RvA,C595,Certificatie Instelling voor Beveiliging en Veiligheid B.V.,ISO/IEC 17065,ACTIVE,2026-08-12,2027-11-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C595-scn.pdf
+RvA,C601,Aboma Certification B.V.,ISO/IEC 17065,ACTIVE,2026-08-12,2029-07-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C601-scn.pdf
+RvA,C602,NORMEC QS B.V.,ISO/IEC 17065,ACTIVE,2026-01-01,2030-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C602-scn.pdf
+RvA,C607,EPG-Certificering B.V.,ISO/IEC 17065,ACTIVE,2025-12-17,2029-05-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C607-scn.pdf
+RvA,C615,CNEX-Global B.V.,ISO/IEC 17065,ACTIVE,2023-05-23,2027-07-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C615-scn.pdf
+RvA,C626,Normec NCK B.V.,ISO/IEC 17065,ACTIVE,2025-12-23,2029-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C626-scn.pdf
+RvA,C627,Insula Certificatie,ISO/IEC 17065,ACTIVE,2024-12-01,2028-12-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C627-scn.pdf
+RvA,C629,TÜV Rheinland Rail Certification B.V.,ISO/IEC 17065,ACTIVE,2026-11-04,2029-02-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C629-scn.pdf
+RvA,C635,TÜV SÜD Nederland B.V.,ISO/IEC 17065,ACTIVE,2026-09-16,2030-06-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C635-sce.pdf
+RvA,C640,Eurofins CML B.V.,ISO/IEC 17065,ACTIVE,2026-03-19,2030-04-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C640-sce.pdf
+RvA,C646,BSI Group The Netherlands B.V.,ISO/IEC 17065,ACTIVE,2026-10-29,2031-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C646-sce.pdf
+RvA,C648,UL International (Netherlands) B.V.,ISO/IEC 17065,ACTIVE,2026-11-11,2027-03-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C648-sce.pdf
+RvA,C650,Certima B.V.,ISO/IEC 17065,ACTIVE,2024-07-31,2027-02-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C650-scn.pdf
+RvA,C651,TrustCB B.V.,ISO/IEC 17065,ACTIVE,2026-08-26,2027-08-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C651-sce.pdf
+RvA,C652,CSA Group Netherlands B.V.,ISO/IEC 17065,ACTIVE,2025-01-22,2027-02-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C652-sce.pdf
+RvA,C653,WSP Assurance B.V.,ISO/IEC 17065,ACTIVE,2026-10-01,2028-03-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C653-scn.pdf
+RvA,C654,Element Materials Technology Rotterdam B.V.,ISO/IEC 17065,ACTIVE,2026-03-11,2027-02-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C654-sce.pdf
+RvA,C657,INSPEC International BV,ISO/IEC 17065,ACTIVE,2024-09-19,2028-12-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C657-sce.pdf
+RvA,C660,Stichting Global Network Group TIC,ISO/IEC 17065,ACTIVE,2026-10-09,2028-02-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C660-scn.pdf
+RvA,C665,de Nederlandse Asbest Autoriteit B.V.,ISO/IEC 17065,ACTIVE,2026-09-16,2028-02-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C665-scn.pdf
+RvA,C666,CERTIFER Netherlands B.V.,ISO/IEC 17065,ACTIVE,2026-06-17,2027-11-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C666-sce.pdf
+RvA,C667,Kuiper Certificering B.V.,ISO/IEC 17065,ACTIVE,2026-05-22,2027-11-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C667-sce.pdf
+RvA,C671,CERTIFER HHC/DRS B.V.,ISO/IEC 17065,ACTIVE,2026-10-14,2030-08-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C671-scn.pdf
+RvA,C672,QPS Europe BV,ISO/IEC 17065,ACTIVE,2024-09-19,2028-09-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C672-sce.pdf
+RvA,C674,EBN Certification B.V.,ISO/IEC 17065,ACTIVE,2026-05-20,2029-04-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C674-scn.pdf
+RvA,C675,Energie Consult Holland B.V.,ISO/IEC 17065,ACTIVE,2026-08-12,2028-11-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C675-scn.pdf
+RvA,C681,NMi Certin B.V.,ISO/IEC 17065,ACTIVE,2026-01-09,2027-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C681-sce.pdf
+RvA,C685,KEMA B.V.,ISO/IEC 17065,ACTIVE,2026-03-25,2030-10-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C685-sce.pdf
+RvA,C689,Kalibra International B.V.,ISO/IEC 17065,ACTIVE,2025-10-29,2027-03-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C689-scn.pdf
+RvA,C691,Aboma Inspections B.V.,ISO/IEC 17065,ACTIVE,2026-10-07,2029-07-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C691-scn.pdf
+RvA,C698,Trans Certification & Inspection Sdn. Bhd.,ISO/IEC 17065,ACTIVE,2026-06-24,2028-11-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C698-sce.pdf
+RvA,C699,ICI4YOU B.V.,ISO/IEC 17065,ACTIVE,2025-10-07,2029-11-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C699-scn.pdf
+RvA,C701,Kiwa Assurance B.V.,ISO/IEC 17065,ACTIVE,2026-10-22,2031-04-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C701-scn.pdf
+RvA,C702,SGS Brightsight B.V.,ISO/IEC 17065,ACTIVE,2026-08-26,2026-12-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C702-sce.pdf
+RvA,C704,Stichting RUUV,ISO/IEC 17065,ACTIVE,2026-05-22,2027-06-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C704-sce.pdf
+RvA,C706,VINK Certificering B.V.,ISO/IEC 17065,ACTIVE,2026-02-19,2029-06-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C706-scn.pdf
+RvA,C710,Attestic B.V.,ISO/IEC 17065,ACTIVE,2026-10-30,2029-09-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C710-sce.pdf
+RvA,C711,WMDA,ISO/IEC 17065,ACTIVE,2026-04-23,2030-05-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C711-sce.pdf
+RvA,C712,EP accreditatie B.V.,ISO/IEC 17065,ACTIVE,2025-12-18,2030-01-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C712-scn.pdf
+RvA,C713,"BMM Testlabs Slov, Gaming Testlab, d.o.o.",ISO/IEC 17065,ACTIVE,2026-03-19,2030-04-01,https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C713-sce.pdf

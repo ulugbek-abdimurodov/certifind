@@ -1,0 +1,10 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+NINAS,MSC0001,Systems Certifications Limited,ISO/IEC 17021-1,active,2024-10-21,2026-10-20,https://ninas.ng/wp-content/uploads/2024/10/Systems-Certifications-Accreditation-Certificate.pdf
+NINAS,MSC0002,Interconformity Assessment & Certification Limited,ISO/IEC 17021-1,active,2025-04-30,2027-04-29,https://ninas.ng/wp-content/uploads/2025/05/Interconformity-Accreditation-Certificate.pdf
+NINAS,MSC0002 (27006),Interconformity Assessment & Certification Limited,ISO/IEC 27006,active,2025-04-30,2027-04-29,https://ninas.ng/wp-content/uploads/2025/05/Interconformity-Accreditation-Certificate.pdf
+NINAS,MSC0002 (22000),Interconformity Assessment & Certification Limited,ISO 22003-1,active,2025-04-30,2027-04-29,https://ninas.ng/wp-content/uploads/2025/05/Interconformity-Accreditation-Certificate.pdf
+NINAS,MSC0004,Corequality CB Limited,ISO/IEC 17021-1,active,2026-03-03,2030-03-02,https://ninas.ng/wp-content/uploads/2026/02/CORE_QUALITY_Accreditation_Cert.pdf
+NINAS,MSC0004 (27006),Corequality CB Limited,ISO/IEC 27006,active,2026-03-03,2030-03-02,https://ninas.ng/wp-content/uploads/2026/02/CORE_QUALITY_Accreditation_Cert.pdf
+NINAS,MSC0004 (22000),Corequality CB Limited,ISO 22003-1,active,2026-03-03,2030-03-02,https://ninas.ng/wp-content/uploads/2026/02/CORE_QUALITY_Accreditation_Cert.pdf
+NINAS,MSC0005 (22000),Nicert Limited,ISO 22003-1,active,2025-03-10,2027-03-09,https://ninas.ng/wp-content/uploads/2025/03/Nicert-limited-Accreditation-Certificate.pdf
+NINAS,MSC0006,WSR Certification Private Limited,ISO/IEC 17021-1,active,2026-10-21,2030-10-20,https://ninas.ng/wp-content/uploads/2026/11/WSR_Accreditation_Certificate.pdf

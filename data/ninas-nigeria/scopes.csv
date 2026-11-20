@@ -1,0 +1,18 @@
+certificate_number,certification_standard,ea_codes,status,scope_note
+MSC0001,ISO 9001,34,active,IAF codes as listed on the schedule
+MSC0001,ISO 14001,34,active,IAF codes as listed on the schedule
+MSC0001,ISO 45001,34,active,IAF codes as listed on the schedule
+MSC0002,ISO 9001,3;5;9-10;13;15;18;30-31;33-35,active,IAF codes as listed on the schedule
+MSC0002,ISO 14001,3;5;9-10;13;15;18;30-31;33-35,active,IAF codes as listed on the schedule
+MSC0002,ISO 45001,3;5;9-10;13;15;18;30-31;33-35,active,IAF codes as listed on the schedule
+MSC0002 (27006),ISO/IEC 27001,3;5;9-10;13;15;18;30-31;33-35,active,IAF codes as listed on the schedule
+MSC0002 (22000),ISO 22000,7;14,active,ISO 22003-1 category I (production of packaging material)
+MSC0004,ISO 9001,29-30;32-37,active,IAF codes as listed on the schedule
+MSC0004,ISO 14001,34,active,IAF codes as listed on the schedule
+MSC0004,ISO 45001,34,active,IAF codes as listed on the schedule
+MSC0004 (27006),ISO/IEC 27001,33,active,IAF codes as listed on the schedule
+MSC0004 (22000),ISO 22000,30,active,"ISO 22003-1 category E (catering services), full category"
+MSC0005 (22000),ISO 22000,3,active,ISO 22003-1 categories C and D (food and feed processing; subcategories CI-CIV)
+MSC0006,ISO 9001,1;3-9;14;23-24;28-39,active,IAF codes as listed on the schedule
+MSC0006,ISO 14001,4-9;23;28-29;34-36,active,IAF codes as listed on the schedule
+MSC0006,ISO 45001,4-9;23;28-29;32;34-36,active,IAF codes as listed on the schedule

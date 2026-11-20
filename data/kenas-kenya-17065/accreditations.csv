@@ -1,0 +1,9 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+KENAS,KENAS/CB/020,Bureau Veritas Certification Kenya Limited,ISO/IEC 17065,ACTIVE,2026-08-12,2030-06-29,https://kenas.s3.amazonaws.com/cabs/all_cabs/9433-f5c0bf80-72e8-453d-8c71-19e3c728c0e4.pdf
+KENAS,KENAS/CB/026,Achelab Laboratory Services Limited,ISO/IEC 17065,ACTIVE,2023-11-30,2027-11-29,https://kenas.s3.amazonaws.com/cabs/all_cabs/14175-3c6570fc-69bc-4494-bf36-704d0254d424.pdf
+KENAS,KENAS/CB/029,Bureau Burundais De Normalisation Et Controle De La Qualite (BBN),ISO/IEC 17065,ACTIVE,2024-02-15,2028-02-14,https://media.kenas.go.ke/cabs/all_cabs/6358-Bureau-Burundais-De-Normalisation-Et-Controle-De-La-Qualite-(BBN)Februaryschedule.pdfOctobercertificate.pdf
+KENAS,KENAS/CB/032,Zambia Bureau of Standards (ZABS),ISO/IEC 17065,ACTIVE,2024-10-24,2028-10-23,https://kenas.s3.amazonaws.com/cabs/all_cabs/12073-448ef263-c65a-4d27-bdc4-47a831542298.pdf
+KENAS,KENAS/CB/023,Kenya Bureau of Standards (KEBS) Product Certification Body,ISO/IEC 17065,ACTIVE,2025-06-27,2029-06-26,https://kenas.s3.amazonaws.com/cabs/all_cabs/7986-63d66e96-925f-4a91-9fd4-7f8844f4b68c.pdf
+KENAS,KENAS/CB/036,Standards and Quality Agency (ANOR) Product Certification Body,ISO/IEC 17065,ACTIVE,2025-07-25,2029-07-24,https://media.kenas.go.ke/cabs/all_cabs/14575-STANDARDS-AND-QUALITY-AGENCY(ANOR)-PRODUCT-CERTIFICATION-BODY(ACAP)Augustcertificate.pdf
+KENAS,KENAS/CB/035,Inspectorate (East Africa) Limited Process Certification Body,ISO/IEC 17065,ACTIVE,2025-09-05,2029-09-04,https://media.kenas.go.ke/cabs/all_cabs/14933-INSPECTORATE-(EAST-AFRICA)-LIMITED-PROCESS-CERTIFICATION-BODYSeptembercertificate.pdf
+KENAS,KENAS/CB/040,Key-Cert Services Limited (Product Certification Body),ISO/IEC 17065,ACTIVE,2026-07-14,2030-07-13,https://kenas.s3.amazonaws.com/cabs/all_cabs/12209-2fcc099a-8561-4438-9d7e-720bd864bccd.pdf

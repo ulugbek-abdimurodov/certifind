@@ -1,0 +1,18 @@
+certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_text,normative_docs,standard_refs,status
+CPr0001,1,,food,Packaged drinking water; Packaged natural Mineral water,,Scheme for bottled drinking water,CES 99:2021; CES 151:2021,CES 99:2021;CES 151:2021,ACTIVE
+CPr0001,2,,food,Fortified Wheat flour,,Scheme for wheat flour,CES 309:2024,CES 309:2024,ACTIVE
+CPr0001,3,,food,Fortified Edible oil: Niger seed edible oil; Sunflower edible oil; Rape seed edible oil; Peanut edible oil; Sesame seed edible oil; Blended edible oil; Soya bean seed edible oil; Palm olein edible oil; Super palm olein edible oil,,Scheme for edible oil product,CES 310:2024; CES 20:2014; CES 17:2022; CES 13:2013; CES 16:2014; CES 15:2013; ES 8611:2021; CES 244:2019; CES 245:2019; CES 253:2021,CES 310:2024;CES 20:2014;CES 17:2022;CES 13:2013;CES 16:2014;CES 15:2013;ES 8611:2021;CES 244:2019;CES 245:2019;CES 253:2021,ACTIVE
+CPr0001,4,,construction,Cement,,Scheme for cement,CES 28:2021,CES 28:2021,ACTIVE
+CPr0001,5,,electrical,Cable and wire,,Scheme for cable &wire,"ES IEC 60227-1 to 6, CES 111, 112, 113:2013 & CES 345:2022",ES IEC 60227;CES 111;CES 112;CES 113:2013;CES 345:2022,ACTIVE
+CPr0001,6,,food,Beer,,Scheme for beer,CES 52:2022,CES 52:2022,ACTIVE
+CPr0001,7,,metals,Reinforcement bar,,Scheme for rebar & wire,CES 101-2:2021,CES 101-2:2021,ACTIVE
+CPr0001,8,,metals,Galvanized Corrugated Steel sheet,,Scheme for Galvanized Corrugated Steel,CES 40:2024,CES 40:2024,ACTIVE
+CPr0001,9,,chemicals,Laundry soap; Toilet soap; Bathing bar,,Scheme for Bar soap,CES 42:2024; CES 44:2018; CES 123:2024,CES 42:2024;CES 44:2018;CES 123:2024,ACTIVE
+CPr0001,10,,metals,Nail-Steel Wire,,Scheme for Nail steel wire,CES 33:2024,CES 33:2024,ACTIVE
+CPr0001,11,,metals,Wrought Aluminium & Aluminium Alloy,,Scheme for Wrought Aluminium,CES 389:2024 and CES 390:2024,CES 389:2024;CES 390:2024,ACTIVE
+CPr0001,12,,construction,Ceramics,,Scheme for Ceramics,ES ISO 13006:2019,ES ISO 13006:2019,ACTIVE
+CPr0002,1,,food,Packaged drinking water,,Product Scheme for bottled drinking water,CES 99:2021,CES 99:2021,ACTIVE
+CPr0002,2,,food,Iodized Edible Salt,,Product Scheme for Iodized Edible Salt,CES 70:2017,CES 70:2017,ACTIVE
+CPr0002,3,,food,Pre-packaged and Prepared Foods-Super Cereal Corn Soya Blend Plus,,Product Scheme for CSB,CES139:2015,CES 139:2015,ACTIVE
+CPr0002,4,,food,Fortified Wheat Flour,,Scheme for wheat Flour,CES309:2024,CES 309:2024,ACTIVE
+CPr0002,5,,food,"Fortified Edible Oil: Sunflower Oil, Soybean Oil, Niger Seed Oil, Palm Oil, Rape Seed Oil & Blended Oil",,Scheme for Edible oil product,"CES 17:2022, CES 244:2019, CES 20:2014, CES 138:2022, CES 245:2022, CES 13:2014 & ES 6811:2021",CES 17:2022;CES 244:2019;CES 20:2014;CES 138:2022;CES 245:2022;CES 13:2014;ES 6811:2021,ACTIVE

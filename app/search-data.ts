@@ -19,6 +19,21 @@ export const stages = [
 
 /** ISO 3166-1 alpha-2 code for each English country name stored in the database. */
 const countryCodes: Record<string, string> = {
+  Argentina: "AR",
+  Armenia: "AM",
+  Bangladesh: "BD",
+  Belarus: "BY",
+  "Burkina Faso": "BF",
+  Burundi: "BI",
+  Cameroon: "CM",
+  Guatemala: "GT",
+  Honduras: "HN",
+  Iceland: "IS",
+  Indonesia: "ID",
+  Palestine: "PS",
+  Somalia: "SO",
+  "The Gambia": "GM",
+  "Thailand (ไทย)": "TH",
   Albania: "AL",
   Algeria: "DZ",
   Australia: "AU",

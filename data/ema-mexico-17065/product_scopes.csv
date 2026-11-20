@@ -1,0 +1,129 @@
+certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_text,normative_docs,standard_refs,status
+01/10,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+02/10,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+02/10,2,,ict,PROTECCIÓN DE DATOS PERSONALES EN POSESIÓN DE LOS PARTICULARES,,EMA scope PDPPP,,,ACTIVE
+04/11,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+05/10,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+06/10 (17065),1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+06/10 (17065),2,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+08/18,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+09/10 (17065),1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+107/16,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+115/16,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+126/17,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+130/17,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+134/18,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+136/18,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,ISO/IEC TS 17021-3:2013 / NMX-EC-17021-3-IMNC-2015,,ACTIVE
+139/18,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+139/18,2,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+144/18,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+146/19,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+148/18,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+149/19,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+149/19,2,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+150/19,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+151/19,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+153/19,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+153/19,2,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+155/19,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+157/19,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+159/19,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+16/10,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+16/10,2,SQF,,CÓDIGO SQF,,EMA scope CódigoSQF,,,ACTIVE
+167/20,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+167/20,2,,agriculture,PRODUCTO,,EMA scope PROD (Buenas Prácticas Agrícolas),,,ACTIVE
+167/20,3,,agriculture,PRODUCTO,,EMA scope PROD (Ley de Productos Orgánicos),,,ACTIVE
+170/20,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+172/20,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+176/20,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+179/20,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+18/10 (17065),1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+183/21,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+186/21/,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+186/21/,2,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+186/21/,3,,agriculture,PRODUCTO,,EMA scope PROD (Plaguicidas),,,ACTIVE
+187/21,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+188/21,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+190/21,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+192/21,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+194/21,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+195/21,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+195/21,2,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+20/12,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+200/22,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+201/22,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+202/22,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+203/22,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+203/22,2,,agriculture,PRODUCTO,,EMA scope PROD (Buenas Prácticas Agrícolas),,,ACTIVE
+205/22,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+207/22,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+207/22,2,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+207/22,3,,agriculture,PRODUCTO,,EMA scope PROD (Símbolo de Pequeños Productores),,,ACTIVE
+208/22,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+208/22,2,,agriculture,PRODUCTO,,EMA scope PROD (Ley de Productos Orgánicos),,,ACTIVE
+210/22,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+211/22,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+212/25,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+214/22,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+216/23,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+218/23,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+22/12,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+220/23,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+221/23,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+222/24,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+223/23,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+224/23,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+225/23,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+227/23,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+229/23,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+234/24,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+237/24,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+244/24,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+246/24,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+247/24,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+249/25,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+25/09 (17065),1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+250/25,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+251/25,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+253/25,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+254/25,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+255/25,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+257/25,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+33/11,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+47/19,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+49/21,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+56/11,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+56/11,2,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+57/11,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+59/11,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+61/12,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+63/12,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+66/09,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+67/09,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+67/09,2,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+70/10,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+73/10,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+77/10,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+81/ 23,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+84/12,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+86/12,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+87/12,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+94/13,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+94/13,2,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+95/13,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+97/13,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+GAP-243/24,1,,agriculture,PRODUCTO,,EMA scope PROD (Buenas Prácticas Agrícolas),,,ACTIVE
+GAP-243/24,2,PrimusGFS,,PRODUCTO,,EMA scope PROD (PrimusGFS),,,ACTIVE
+IFT-241/24,1,,ict,PRODUCTO,,EMA scope PROD (Instituto Federal de Telecomunicaciones),,,ACTIVE
+IFT-241/24,2,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+IFT-261/26,1,,ict,PRODUCTO,,EMA scope PROD (Instituto Federal de Telecomunicaciones),,,ACTIVE
+IFT-261/26,2,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+LPO-140/18,1,,agriculture,PRODUCTO,,EMA scope PROD (Ley de Productos Orgánicos),,,ACTIVE
+LPO-164/20,1,,agriculture,PRODUCTO,,EMA scope PROD (Ley de Productos Orgánicos),,,ACTIVE
+LPO-164/20,2,PrimusGFS,,PRODUCTO,,EMA scope PROD (PrimusGFS),,,ACTIVE
+PROD-163/26,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+PROD-174/26,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+PROD-262/26,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+PROD-90/26,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+PROD259-25,1,,other_manufacturing,PRODUCTO,,EMA scope PROD,,,ACTIVE
+REA.EA.01.2015.-02/19,1,,ict,PROTECCIÓN DE DATOS PERSONALES EN POSESIÓN DE LOS PARTICULARES,,EMA scope PDPPP,,,ACTIVE

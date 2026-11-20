@@ -1,0 +1,81 @@
+certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_text,normative_docs,standard_refs,status
+CP 004,1,,construction,Materiales de construcción,,,,,ACTIVE
+CP 004,2,,construction,Materiales para obras e instalaciones sanitarias,,,,,ACTIVE
+CP 006,1,,energy,Productos para combustibles,,,,,ACTIVE
+CP 006,2,,other_manufacturing,Elementos de protección personal,,,,,ACTIVE
+CP 006,3,,construction,Materiales para obras e instalaciones sanitarias,,,,,ACTIVE
+CP 006,4,,construction,Materiales de construcción,,,,,ACTIVE
+CP 006,5,,energy,Productos para combustibles,,,,,ACTIVE
+CP 006,6,,electrical,Productos eléctricos,,,,,ACTIVE
+CP 006,7,,health,Insumos médicos,,,,,ACTIVE
+CP 006,8,,machinery,Extintores,,,,,ACTIVE
+CP 006,9,,machinery,Servicios técnico de extintores,,,,,ACTIVE
+CP 008,1,,energy,Productos para combustibles,,,,,ACTIVE
+CP 008,2,,machinery,Estanques para sustancias peligrosas,,,,,ACTIVE
+CP 012,1,,energy,Productos para combustibles,,,,,ACTIVE
+CP 013,1,,energy,Productos para combustibles,,,,,ACTIVE
+CP 013,2,,electrical,Productos eléctricos,,,,,ACTIVE
+CP 014,1,,energy,Productos para combustibles,,,,,ACTIVE
+CP 014,2,,construction,Materiales de construcción,,,,,ACTIVE
+CP 016,1,,energy,Productos para combustibles,,,,,ACTIVE
+CP 016,2,,machinery,Estanques para sustancias peligrosas,,,,,ACTIVE
+CP 017,1,,energy,Productos para combustibles,,,,,ACTIVE
+CP 017,2,,electrical,Productos eléctricos,,,,,ACTIVE
+CP 020,1,,energy,Productos para combustibles,,,,,ACTIVE
+CP 020,2,,machinery,Estanques para sustancias peligrosas,,,,,ACTIVE
+CP 023,1,,energy,Productos para combustibles,,,,,ACTIVE
+CP 023,2,,machinery,Recipientes e instalaciones industriales,,,,,ACTIVE
+CP 023,3,,machinery,Estanques para sustancias peligrosas,,,,,ACTIVE
+CP 025,1,,energy,Productos para combustibles,,,,,ACTIVE
+CP 025,2,,machinery,Estanques para sustancias peligrosas,,,,,ACTIVE
+CP 028,1,,agriculture,Pecuaria,,,,,ACTIVE
+CP 035,1,,agriculture,Pecuaria,,,,,ACTIVE
+CP 036,1,,agriculture,Pecuaria,,,,,ACTIVE
+CP 040,1,,energy,Productos para combustibles,,,,,ACTIVE
+CP 040,2,,machinery,Recipientes e instalaciones industriales,,,,,ACTIVE
+CP 040,3,,machinery,Estanques para sustancias peligrosas,,,,,ACTIVE
+CP 048,1,,agriculture,Agricultura orgánica,,,,,ACTIVE
+CP 051,1,,energy,Productos para combustibles,,,,,ACTIVE
+CP 051,2,,machinery,Recipientes e instalaciones industriales,,,,,ACTIVE
+CP 051,3,,machinery,Estanques para sustancias peligrosas,,,,,ACTIVE
+CP 058,1,,agriculture,Pecuaria,,,,,ACTIVE
+CP 061,1,,electrical,Productos eléctricos,,,,,ACTIVE
+CP 061,2,,energy,Productos para combustibles,,,,,ACTIVE
+CP 070,1,,electrical,Productos eléctricos,,,,,ACTIVE
+CP 071,1,,energy,Productos para combustibles,,,,,ACTIVE
+CP 080,1,,electrical,Productos eléctricos,,,,,ACTIVE
+CP 083,1,,electrical,Productos eléctricos,,,,,ACTIVE
+CP 083,2,,energy,Productos para combustibles,,,,,ACTIVE
+CP 083,3,,machinery,Servicios técnico de extintores,,,,,ACTIVE
+CP 092,1,,wood_paper,Forestal,,,,,ACTIVE
+CP 093,1,,wood_paper,Forestal,,,,,ACTIVE
+CP 094,1,,agriculture,Pecuaria,,,,,ACTIVE
+CP 095,1,,agriculture,Agricultura orgánica,,,,,ACTIVE
+CP 097,1,,transport_equipment,Artículos para Seguridad de Vehículos de Carretera,,,,,ACTIVE
+CP 097,2,,machinery,Dispositivos de protección contra incendio,,,,,ACTIVE
+CP 099,1,,machinery,Extintores,,,,,ACTIVE
+CP 099,2,,machinery,Dispositivos de protección contra incendio,,,,,ACTIVE
+CP 099,3,,machinery,Servicios técnico de extintores,,,,,ACTIVE
+CP 100,1,,electrical,Productos eléctricos,,,,,ACTIVE
+CP 100,2,,energy,Productos para combustibles,,,,,ACTIVE
+CP 106,1,,electrical,Productos eléctricos,,,,,ACTIVE
+CP 108,1,,energy,Productos para combustibles,,,,,ACTIVE
+CP 108,2,,construction,Materiales para obras e instalaciones sanitarias,,,,,ACTIVE
+CP 108,3,,construction,Materiales de construcción,,,,,ACTIVE
+CP 111,1,,electrical,Productos eléctricos,,,,,ACTIVE
+CP 115,1,,agriculture,Agricultura orgánica,,,,,ACTIVE
+CP 116,1,,construction,Materiales de construcción,,,,,ACTIVE
+CP 118,1,,construction,Materiales de construcción,,,,,ACTIVE
+CP 120,1,,machinery,Estanques para sustancias peligrosas,,,,,ACTIVE
+CP 120,2,,energy,Productos para combustibles,,,,,ACTIVE
+CP 122,1,,agriculture,Agricultura orgánica,,,,,ACTIVE
+CP 123,1,,agriculture,Agricultura orgánica,,,,,ACTIVE
+CP 124,1,,agriculture,Pecuaria,,,,,ACTIVE
+CP 126,1,,agriculture,Pecuaria,,,,,ACTIVE
+CP 127,1,,electrical,Productos eléctricos,,,,,ACTIVE
+CP 128,1,,electrical,Productos eléctricos,,,,,ACTIVE
+CP 131,1,,construction,Materiales de construcción,,,,,ACTIVE
+CP 134,1,,electrical,Productos eléctricos,,,,,ACTIVE
+CP 141,1,,agriculture,Agricultura orgánica,,,,,ACTIVE
+ST 002,1,,tourism,Servicios Turísticos,,,,,ACTIVE
+ST 012,1,,tourism,Servicios Turísticos,,,,,ACTIVE

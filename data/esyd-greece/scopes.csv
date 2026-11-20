@@ -110,7 +110,7 @@ certificate_number,certification_standard,ea_codes,status,scope_note
 1268 (50003),ISO 50001,30;32;36-39,ACTIVE,"ISO 50003 technical areas C, D (classified to EA by sector)"
 1364,ISO 9001,3;30,ACTIVE,Limited scope (part of the sector) for EA 3
 1364 (22000),ISO 22000,3;30,ACTIVE,"ISO 22003-1 categories C, E (classified to EA by sector)"
-1367,EN 15224,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+1367,EN 15224,38,ACTIVE,Health care (EA 38)
 1367,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Non-active medical devices; In vitro diagnostic medical devices; Parts or services (classified to EA by sector)
 1367,ISO 9001,4;7;12;23;29;31;34;37-38,ACTIVE,"Limited scope (part of the sector) for EA 12, 29, 31, 34"
 1367 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
@@ -159,7 +159,7 @@ certificate_number,certification_standard,ea_codes,status,scope_note
 1498,ISO 45001,3;7;9;28-29;32-35;37-38,ACTIVE,
 1498,ISO 9001,7;9;28-29;32-35;37-38,ACTIVE,Limited scope (part of the sector) for EA 38
 1498 (27006),ISO/IEC 27001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
-185,EN 15224,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+185,EN 15224,38,ACTIVE,Health care (EA 38)
 185,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Non-active medical devices; In vitro diagnostic medical devices; Parts or services; Active (non-implantable) medical devices; Sterilization methods (classified to EA by sector)
 185,ISO 14001,2-4;6;8-9;12-19;23-25;27-39,ACTIVE,"Limited scope (part of the sector) for EA 2, 4, 8-9, 18-19, 23, 27, 31-32, 34-36, 38-39"
 185,ISO 18295,25-27;29;31-33;35,ACTIVE,
@@ -180,7 +180,7 @@ certificate_number,certification_standard,ea_codes,status,scope_note
 185 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
 185 (42001),ISO/IEC 42001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
 185 (50003),ISO 50001,3-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, H (classified to EA by sector)"
-193,EN 15224,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+193,EN 15224,38,ACTIVE,Health care (EA 38)
 193,ISO 13485,18;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Parts or services (classified to EA by sector)
 193,ISO 14001,8-9;12;14;18-19;28-35;39,ACTIVE,"Annex lists NACE codes; classified to EA with the IAF ID 1 table; Limited scope (part of the sector) for EA 8-9, 12, 18-19, 31, 33, 39"
 193,ISO 22301,28-31;33-35;39,ACTIVE,
@@ -193,13 +193,13 @@ certificate_number,certification_standard,ea_codes,status,scope_note
 193 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
 193 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
 193 (50003),ISO 50001,3-9;12-14;18-19;22-24;30-32;36-39,ACTIVE,"ISO 50003 technical areas A, C, D, E (classified to EA by sector)"
-204,EN 15224,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+204,EN 15224,38,ACTIVE,Health care (EA 38)
 204,ISO 22301,29;31;33-35,ACTIVE,
 204,ISO 37301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
 204 (22000),ISO 22000,1;3;7;12-15;17;29-31,ACTIVE,"ISO 22003-1 categories B, C, D, E, F, G, I, K (classified to EA by sector)"
 204 (39001),ISO 39001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
 204 (50003),ISO 50001,2-10;12-24;28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F (classified to EA by sector)"
-236,EN 15224,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+236,EN 15224,38,ACTIVE,Health care (EA 38)
 236,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services (classified to EA by sector)
 236,ISO 14001,1-3;6-10;12-19;22-26;28-39,ACTIVE,"Limited scope (part of the sector) for EA 1, 3, 8-9, 12, 15, 18-19, 23, 29, 31-32, 34-35, 38-39"
 236,ISO 21001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
@@ -229,7 +229,7 @@ certificate_number,certification_standard,ea_codes,status,scope_note
 282 (27006),ISO/IEC 27701,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors; Listed in the ISO/IEC 27001 annex (1.184310_en.doc)
 282 (37001),ISO 37001,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
 282 (50003),ISO 50001,10;15-17;20-21;25-28;30;32;34;36-39,ACTIVE,"ISO 50003 technical areas B, C, D, H (classified to EA by sector)"
-3,EN 15224,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors
+3,EN 15224,38,ACTIVE,Health care (EA 38)
 3,ISO 14001,1;3-4;6-10;12;14-15;17-39,ACTIVE,"Annex lists NACE codes; classified to EA with the IAF ID 1 table; Limited scope (part of the sector) for EA 1, 8, 10, 12, 17-27, 29, 33, 39"
 3,ISO 22301,2;9;13;18-19;24-25;27-36;38-39,ACTIVE,
 3,ISO 37301,ALL,ACTIVE,No sector list in annex; recorded for all EA sectors

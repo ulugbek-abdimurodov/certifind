@@ -48,7 +48,7 @@ certificate_number,certification_standard,ea_codes,status,scope_note
 8O048,ISO 14001,12;18,ACTIVE,
 8O048 (22000),ISO 22000,3;29-30,ACTIVE,"ISO 22003-1 categories C, E, F (classified to EA by sector)"
 8O050,ISO 9001,3;12-13;16-19;28-29;34;37-38,ACTIVE,
-8O050,EN 15224,3;12-13;16-19;28-29;34;37-38,ACTIVE,
+8O050,EN 15224,38,ACTIVE,Health care (EA 38)
 8O050 (22000),ISO 22000,3;31,ACTIVE,"ISO 22003-1 categories C, D, G (classified to EA by sector)"
 8O059,ISO 9001,19;28-29;34,ACTIVE,
 8O064 (22000),ISO 22000,1;3;29-31,ACTIVE,"ISO 22003-1 categories A, B, C, E, F, G (classified to EA by sector)"

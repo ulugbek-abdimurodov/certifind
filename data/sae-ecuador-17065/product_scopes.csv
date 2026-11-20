@@ -1,0 +1,249 @@
+certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_text,normative_docs,standard_refs,status
+SAE CP 07-001,1,Florverde Sustainable Flowers,,Florverde Sustainable Flowers,,,,,ACTIVE
+SAE CP 07-001,2,GLOBALG.A.P. IFA,,GLOBALG.A.P.,,,,,ACTIVE
+SAE CP 07-001,3,,agriculture,Producción Orgánica,,,,,ACTIVE
+SAE CP 07-001,4,Best Aquaculture Practices,,Best Aquaculture Practices Límite Territorial: Mundial,,,,,ACTIVE
+SAE CP 07-002,1,,agriculture,Producción Orgánica,,,,,ACTIVE
+SAE CP 07-003,1,,professional,Producción más Limpia,,,,,ACTIVE
+SAE CP 07-003,2,,agriculture,Producción Orgánica,,,,,ACTIVE
+SAE CP 07-003,3,,professional,Certificación Ecuatoriana Ambiental Punto Verde,,,,,ACTIVE
+SAE CP 10-001,1,,agriculture,Producción Orgánica,,,,,ACTIVE
+SAE CP 11-002,1,,professional,Producción más Limpia,,,,,ACTIVE
+SAE CP 11-002,2,,professional,Certificación Ecuatoriana Ambiental Punto Verde,,,,,ACTIVE
+SAE CP 14-001,1,,other_manufacturing,Seguridad de los Juguetes,,,,,ACTIVE
+SAE CP 14-001,2,,electrical,Herramientas eléctricas manuales y semifijas accionadas por motor eléctrico,,,,,ACTIVE
+SAE CP 14-001,3,,energy,"Artefactos de uso doméstico para cocinar, que utilizan combustible gaseosos",,,,,ACTIVE
+SAE CP 14-001,4,,electrical,Aparatos de uso doméstico para producción de frío,,,,,ACTIVE
+SAE CP 14-001,5,,electrical,Eficiencia energética en aparatos de refrigeración de uso doméstico,,,,,ACTIVE
+SAE CP 14-001,6,,electrical,Eficiencia energética para hornos microondas,,,,,ACTIVE
+SAE CP 14-001,7,,electrical,Máquinas con motor para uso en la cocina,,,,,ACTIVE
+SAE CP 14-001,8,,food,Materiales y artículos plásticos destinados a estar en contacto con los alimentos,,,,,ACTIVE
+SAE CP 14-001,9,,electrical,Eficiencia energética para ventiladores con motor eléctrico incorporado de potencia inferior o igual a 125 W,,,,,ACTIVE
+SAE CP 14-001,10,,electrical,Aparatos para cuidado de la piel o del Cabello,,,,,ACTIVE
+SAE CP 14-001,11,,electrical,Cortadoras de pelo y aparatos similares,,,,,ACTIVE
+SAE CP 14-001,12,,electrical,Aspiradoras,,,,,ACTIVE
+SAE CP 14-001,13,,food,"Aparatos eléctricos para calentar líquidos, para cocción de alimentos y similares",,,,,ACTIVE
+SAE CP 14-001,14,,electrical,Planchas Eléctricas,,,,,ACTIVE
+SAE CP 14-001,15,,electrical,Guirnaldas luminosas,,,,,ACTIVE
+SAE CP 14-001,16,,energy,Seguridad y eficiencia térmica de calentadores de agua a gas,,,,,ACTIVE
+SAE CP 14-001,17,,agriculture,FlorEcuador,,,,,ACTIVE
+SAE CP 14-001,18,Florverde Sustainable Flowers,,Florverde Sustainable Flowers,,,,,ACTIVE
+SAE CP 14-001,19,GLOBALG.A.P. IFA,,GLOBALG.A.P.,,,,,ACTIVE
+SAE CP 14-001,20,,food,"Vajillas en vidrio y en vitrocerámica, recipientes de vidrio en contacto con alimentos",,,,,ACTIVE
+SAE CP 14-003,1,,electrical,Eficiencia energética en televisiones,,,,,ACTIVE
+SAE CP 14-003,2,,energy,Aceites lubricantes,,,,,ACTIVE
+SAE CP 14-003,3,,construction,Baldosas cerámicas,,,,,ACTIVE
+SAE CP 14-003,4,,transport_equipment,Material de fricción para el sistema de frenos de automotores,,,,,ACTIVE
+SAE CP 14-003,5,,electrical,Aparatos de uso doméstico para producción de frío,,,,,ACTIVE
+SAE CP 14-003,6,,electrical,Eficiencia energética en aparatos de refrigeración de uso doméstico,,,,,ACTIVE
+SAE CP 14-003,7,,transport_equipment,Neumáticos,,,,,ACTIVE
+SAE CP 14-003,8,,food,"Aparatos eléctricos para calentar líquidos, para cocción de alimentos y similares",,,,,ACTIVE
+SAE CP 14-003,9,,transport_equipment,Proceso de reencauche de neumáticos,,,,,ACTIVE
+SAE CP 14-003,10,,transport_equipment,Baterías de plomo ácido para vehículos automotores,,,,,ACTIVE
+SAE CP 14-004,1,,other_manufacturing,Equipo de protección individual,,,,,ACTIVE
+SAE CP 14-004,2,,other_manufacturing,Calzado de protección y calzado de seguridad,,,,,ACTIVE
+SAE CP 14-004,3,,food,Agua para consumo humano,,,,,ACTIVE
+SAE CP 14-004,4,,metals,Grifería. Llaves,,,,,ACTIVE
+SAE CP 14-004,5,,construction,Cemento para mampostería,,,,,ACTIVE
+SAE CP 14-004,6,,metals,Llaves o válvulas de uso domiciliario,,,,,ACTIVE
+SAE CP 14-004,7,,construction,Baldosas cerámicas,,,,,ACTIVE
+SAE CP 14-004,8,,construction,Etiquetado de baldosas cerámicas,,,,,ACTIVE
+SAE CP 14-004,9,,metals,Perfiles abiertos de acero conformados en frío y perfiles de acero laminados en caliente,,,,,ACTIVE
+SAE CP 14-004,10,,metals,Perfiles abiertos de acero conformados en frío negros o galvanizados para uso estructural,,,,,ACTIVE
+SAE CP 14-004,11,,metals,Perfiles de acero laminados en caliente,,,,,ACTIVE
+SAE CP 14-004,12,,metals,Perfiles angulares estructurales de acero al carbono laminados en caliente,,,,,ACTIVE
+SAE CP 14-004,13,,metals,Perfiles estructurales T de acero laminados en caliente,,,,,ACTIVE
+SAE CP 14-004,14,,metals,Paneles de acero,,,,,ACTIVE
+SAE CP 14-004,15,,metals,Placa colaborante de acero,,,,,ACTIVE
+SAE CP 14-004,16,,construction,"Cementos, cal y yeso para la construcción",,,,,ACTIVE
+SAE CP 14-004,17,,construction,Cemento hidráulico,,,,,ACTIVE
+SAE CP 14-004,18,,construction,Cementos hidráulicos compuestos,,,,,ACTIVE
+SAE CP 14-004,19,,energy,Aceites lubricantes,,,,,ACTIVE
+SAE CP 14-004,20,,energy,Productos derivados del petróleo,,,,,ACTIVE
+SAE CP 14-004,21,,food,Leche y productos lácteos,,,,,ACTIVE
+SAE CP 14-004,22,,food,Leche larga vida,,,,,ACTIVE
+SAE CP 14-004,23,,food,Leche fluida con ingredientes,,,,,ACTIVE
+SAE CP 14-004,24,,transport_equipment,Vidrios de seguridad para automotores,,,,,ACTIVE
+SAE CP 14-004,25,,construction,Vidrios de seguridad para edificaciones,,,,,ACTIVE
+SAE CP 14-004,26,,construction,Paneles de vidrio templado de seguridad para uso en artefactos domésticos,,,,,ACTIVE
+SAE CP 14-004,27,,construction,"Acristalamientos de seguridad, excepto los acristalamientos resistentes a las balas",,,,,ACTIVE
+SAE CP 14-004,28,,metals,Productos de fundiciones de hierro gris y nodular,,,,,ACTIVE
+SAE CP 14-004,29,,metals,Fundición nodular (Hierro dúctil),,,,,ACTIVE
+SAE CP 14-004,30,,transport_equipment,Dispositivos de cubrimiento y de cierre para zonas de circulación utilizadas por peatones y vehículos,,,,,ACTIVE
+SAE CP 14-004,31,,metals,Fundiciones de hierro gris,,,,,ACTIVE
+SAE CP 14-004,32,,metals,Alambre de acero galvanizado,,,,,ACTIVE
+SAE CP 14-004,33,,metals,Productos de alambre,,,,,ACTIVE
+SAE CP 14-004,34,,metals,Alambrón de acero al carbono para trefilar o laminar en frío,,,,,ACTIVE
+SAE CP 14-004,35,,construction,Varillas de acero corrugadas y lisas de baja aleación para refuerzo de hormigón,,,,,ACTIVE
+SAE CP 14-004,36,,construction,Productos de acero para refuerzo de hormigón armado,,,,,ACTIVE
+SAE CP 14-004,37,,construction,Barras corrugadas de baja aleación para refuerzo de concreto en construcciones Sismo Resistentes,,,,,ACTIVE
+SAE CP 14-004,38,,metals,Tubos de acero al carbono soldados,,,,,ACTIVE
+SAE CP 14-004,39,,food,Azúcar blanco,,,,,ACTIVE
+SAE CP 14-004,40,,food,Sal para consumo humano,,,,,ACTIVE
+SAE CP 14-004,41,,food,Harina de trigo,,,,,ACTIVE
+SAE CP 14-004,42,,food,Helados,,,,,ACTIVE
+SAE CP 14-004,43,,food,Mezcla en polvo para preparar postre de gelatina,,,,,ACTIVE
+SAE CP 14-004,44,,food,Mezclas de aceites vegetales comestibles,,,,,ACTIVE
+SAE CP 14-004,45,,food,Margarina de mesa,,,,,ACTIVE
+SAE CP 14-004,46,,food,Salsa de tomate,,,,,ACTIVE
+SAE CP 14-004,47,,chemicals,Productos cosméticos,,,,,ACTIVE
+SAE CP 14-004,48,,construction,Aparatos sanitarios,,,,,ACTIVE
+SAE CP 14-004,49,,transport_equipment,Material de fricción para el sistema de frenos de automotores,,,,,ACTIVE
+SAE CP 14-004,50,,transport_equipment,Sistemas de frenos o sus componentes para uso en vehículos automotores o en sus remolques,,,,,ACTIVE
+SAE CP 14-004,51,,chemicals,Pinturas,,,,,ACTIVE
+SAE CP 14-004,52,,metals,Tableros de madera contrachapada,,,,,ACTIVE
+SAE CP 14-004,53,,chemicals,Agentes de tensión superficial,,,,,ACTIVE
+SAE CP 14-004,54,,chemicals,Agentes tensoactivos,,,,,ACTIVE
+SAE CP 14-004,55,,other_manufacturing,Seguridad de los Juguetes,,,,,ACTIVE
+SAE CP 14-004,56,,other_manufacturing,"Requisitos sanitarios de los juguetes, sus componentes y accesorios",,,,,ACTIVE
+SAE CP 14-004,57,,metals,Ollas a presión para uso doméstico,,,,,ACTIVE
+SAE CP 14-004,58,,metals,Ollas de presión,,,,,ACTIVE
+SAE CP 14-004,59,,food,Materiales y artículos plásticos destinados a estar en contacto con los alimentos,,,,,ACTIVE
+SAE CP 14-004,60,,rubber_plastics,Postes de plástico reforzados con fibra de vidrio,,,,,ACTIVE
+SAE CP 14-004,61,,electrical,Postes de iluminación de material compuesto reforzado con fibra (FRC) para equipos de iluminación vial y de áreas,,,,,ACTIVE
+SAE CP 14-004,62,,rubber_plastics,"Sistemas de canalización en materiales plásticos para el suministro de agua, evacuación y saneamiento con y sin presión. Sistemas en materiales plásticos termoestables reforzados con fibra de vidrio (PRFV) a base de resina de poliéster insaturado (UP)",,,,,ACTIVE
+SAE CP 14-004,63,,construction,Tubería de presión de fibra de vidrio,,,,,ACTIVE
+SAE CP 14-004,64,,energy,"Artefactos de uso doméstico para cocinar, que utilizan combustible gaseoso",,,,,ACTIVE
+SAE CP 14-004,65,,energy,"Artefactos de uso doméstico para cocinar, que utilizan combustible gaseosos",,,,,ACTIVE
+SAE CP 14-004,66,,energy,"Gasodomésticos, que se fabriquen nacionalmente o importen, para ser comercializados en Colombia",,,,,ACTIVE
+SAE CP 14-004,67,,electrical,Reglamento técnico de etiquetado (RETIQ) y adiciones al anexo general,,,,,ACTIVE
+SAE CP 14-004,68,,electrical,Aparatos de uso doméstico para producción de frío,,,,,ACTIVE
+SAE CP 14-004,69,,electrical,Aparatos de refrigeración domésticos,,,,,ACTIVE
+SAE CP 14-004,70,,electrical,Aparatos domésticos de refrigeración,,,,,ACTIVE
+SAE CP 14-004,71,,electrical,Eficiencia energética en aparatos de refrigeración de uso doméstico,,,,,ACTIVE
+SAE CP 14-004,72,,electrical,Etiquetado de eficiencia energética para equipos energéticos,,,,,ACTIVE
+SAE CP 14-004,73,,transport_equipment,Neumáticos,,,,,ACTIVE
+SAE CP 14-004,74,,transport_equipment,Automotriz,,,,,ACTIVE
+SAE CP 14-004,75,,transport_equipment,"Llantas neumáticas que se fabriquen, importen o se reencauchen y se comercialicen para uso en vehículos automotores y sus remolques",,,,,ACTIVE
+SAE CP 14-004,76,,rubber_plastics,Tubos y accesorios plásticos,,,,,ACTIVE
+SAE CP 14-004,77,,rubber_plastics,Tubería plástica,,,,,ACTIVE
+SAE CP 14-004,78,,rubber_plastics,Tubos perfilados de PVC rígido de pared estructurada e interior lisa y accesorios para alcantarillado,,,,,ACTIVE
+SAE CP 14-004,79,,construction,Tubos de polietileno para conducción de agua a presión,,,,,ACTIVE
+SAE CP 14-004,80,,electrical,Conductores de aluminio 1350 cableado concéntrico para uso eléctrico,,,,,ACTIVE
+SAE CP 14-004,81,,electrical,Requisitos de seguridad y eficiencia energética para transformadores de distribución,,,,,ACTIVE
+SAE CP 14-004,82,,electrical,Transformadores,,,,,ACTIVE
+SAE CP 14-004,83,,electrical,Reglamento Técnico de Instalaciones Eléctricas (RETIE),,,,,ACTIVE
+SAE CP 14-004,84,,rubber_plastics,Tubos y accesorios de poli (cloruro de vinilo) no plastificado (PVC-U) para canalizaciones eléctricas y de comunicaciones,,,,,ACTIVE
+SAE CP 14-004,85,,other_manufacturing,Calzado de protección,,,,,ACTIVE
+SAE CP 14-004,86,,other_manufacturing,Calzado de seguridad,,,,,ACTIVE
+SAE CP 14-004,87,,other_manufacturing,Calzado de trabajo,,,,,ACTIVE
+SAE CP 15-001,1,,construction,"Productos cerámicos vitrificados. Vajilla y demás artículos de uso doméstico, higiene o tocador",,,,,ACTIVE
+SAE CP 15-001,2,,electrical,Artículos de uso doméstico,,,,,ACTIVE
+SAE CP 15-001,3,,other_manufacturing,Seguridad de los Juguetes,,,,,ACTIVE
+SAE CP 15-001,4,,food,"Vajilla de cerámica, vitrocerámica y vidrio en contacto con alimentos",,,,,ACTIVE
+SAE CP 15-001,5,,electrical,"Eficiencia energética en acondicionadores de aire tipo dividido (Inverter) con flujo de refrigerante variable, descarga libre y sin ductos de aire",,,,,ACTIVE
+SAE CP 15-001,6,,electrical,"Productos eléctricos. acondicionadores de aire tipo dividido inverter, con flujo de refrigerante variable descarga libre y sin ductos de aire",,,,,ACTIVE
+SAE CP 15-001,7,,energy,Eficiencia energética,,,,,ACTIVE
+SAE CP 15-001,8,,construction,Paneles de vidrio templado de seguridad para uso en artefactos domésticos,,,,,ACTIVE
+SAE CP 15-001,9,,construction,Baldosas cerámicas,,,,,ACTIVE
+SAE CP 15-001,10,,electrical,Luminarias,,,,,ACTIVE
+SAE CP 15-001,11,,metals,"Recipientes de uso doméstico para cocción fabricados en aluminio, hierro y acero",,,,,ACTIVE
+SAE CP 15-001,12,,electrical,Planchas eléctricas,,,,,ACTIVE
+SAE CP 15-001,13,,construction,Productos cerámicos,,,,,ACTIVE
+SAE CP 15-001,14,,energy,Encendedores,,,,,ACTIVE
+SAE CP 15-001,15,,metals,Ollas a presión para uso doméstico,,,,,ACTIVE
+SAE CP 15-001,16,,electrical,Televisores con sintonizador del estándar de televisión digital ISDBT Internacional,,,,,ACTIVE
+SAE CP 15-001,17,,electrical,Eficiencia energética en televisiones,,,,,ACTIVE
+SAE CP 15-001,18,,electrical,Decodificadores para el estándar de televisión digital terrestre ISDB-T internacional,,,,,ACTIVE
+SAE CP 15-001,19,,food,"Vajillas en vidrio y en vitrocerámica, recipientes de vidrio en contacto con alimentos",,,,,ACTIVE
+SAE CP 15-001,20,,electrical,"Acondicionadores de aire tipo central, paquete o dividido",,,,,ACTIVE
+SAE CP 15-001,21,,electrical,Acondicionadores de aire tipo cuarto,,,,,ACTIVE
+SAE CP 15-001,22,,electrical,Eficiencia energética para acondicionadores de aire sin ductos,,,,,ACTIVE
+SAE CP 15-001,23,,metals,Llaves o válvulas de uso domiciliario,,,,,ACTIVE
+SAE CP 15-001,24,,metals,Grifería. Llaves,,,,,ACTIVE
+SAE CP 15-001,25,,electrical,Herramientas eléctricas manuales y semifijas accionadas por motor eléctrico,,,,,ACTIVE
+SAE CP 15-001,26,,energy,"Artefactos de uso doméstico para cocinar, que utilizan combustible gaseosos",,,,,ACTIVE
+SAE CP 15-001,27,,electrical,Aparatos de uso doméstico para producción de frío,,,,,ACTIVE
+SAE CP 15-001,28,,electrical,Alumbrado público,,,,,ACTIVE
+SAE CP 15-001,29,,electrical,Artefactos electrodomésticos para cocción por inducción,,,,,ACTIVE
+SAE CP 15-001,30,,energy,Seguridad y eficiencia térmica de calentadores de agua a gas,,,,,ACTIVE
+SAE CP 15-001,31,,energy,Calentadores de agua a gas de paso tipo instantáneo para uso doméstico,,,,,ACTIVE
+SAE CP 15-001,32,,electrical,Eficiencia energética para ventiladores con motor eléctrico incorporado de potencia inferior o igual a 125 W,,,,,ACTIVE
+SAE CP 15-001,33,,electrical,Eficiencia energética en hornos eléctricos,,,,,ACTIVE
+SAE CP 15-001,34,,electrical,Eficiencia energética para hornos microondas,,,,,ACTIVE
+SAE CP 15-001,35,,metals,"Lámparas de vapor de mercurio, sodio y de halogenuro metálico",,,,,ACTIVE
+SAE CP 15-001,36,,electrical,Lámparas de descarga (excluyendo lámparas fluorescentes),,,,,ACTIVE
+SAE CP 15-001,37,,electrical,Aparatos para cuidado de la piel o del Cabello,,,,,ACTIVE
+SAE CP 15-001,38,,electrical,Cortadoras de pelo y aparatos similares,,,,,ACTIVE
+SAE CP 15-001,39,,electrical,Guirnaldas luminosas,,,,,ACTIVE
+SAE CP 15-001,40,,food,"Aparatos eléctricos para calentar líquidos, para cocción de alimentos y similares",,,,,ACTIVE
+SAE CP 15-001,41,,electrical,Aparatos electrodomésticos y análogos,,,,,ACTIVE
+SAE CP 15-001,42,,electrical,Lavavajillas,,,,,ACTIVE
+SAE CP 15-001,43,,electrical,Aspiradoras,,,,,ACTIVE
+SAE CP 15-001,44,,electrical,Máquinas con motor para uso en la cocina,,,,,ACTIVE
+SAE CP 15-001,45,,electrical,Productos eléctricos,,,,,ACTIVE
+SAE CP 15-001,46,,food,Materiales y artículos plásticos destinados a estar en contacto con los alimentos,,,,,ACTIVE
+SAE CP 15-001,47,,electrical,Eficiencia energética de lavadoras electrodomésticas de ropa,,,,,ACTIVE
+SAE CP 15-001,48,,electrical,Eficiencia energética en aparatos de refrigeración de uso doméstico,,,,,ACTIVE
+SAE CP 15-001,49,,transport_equipment,Requisitos de seguridad para bicicletas,,,,,ACTIVE
+SAE CP 19-001,1,,electrical,Televisores con sintonizador del estándar de televisión digital ISDBT Internacional,,,,,ACTIVE
+SAE CP 19-001,2,,electrical,Eficiencia energética para acondicionadores de aire sin ductos,,,,,ACTIVE
+SAE CP 19-001,3,,energy,Seguridad y eficiencia térmica de calentadores de agua a gas,,,,,ACTIVE
+SAE CP 19-001,4,,electrical,Eficiencia energética de lavadoras electrodomésticas de ropa,,,,,ACTIVE
+SAE CP 19-001,5,,electrical,Aparatos electrodomésticos y similares,,,,,ACTIVE
+SAE CP 19-001,6,,electrical,Eficiencia energética en hornos eléctricos,,,,,ACTIVE
+SAE CP 19-001,7,,electrical,Eficiencia energética en aparatos de refrigeración de uso doméstico,,,,,ACTIVE
+SAE CP 19-001,8,,energy,"Artefactos de uso doméstico para cocinar, que utilizan combustible gaseosos",,,,,ACTIVE
+SAE CP 19-001,9,,electrical,Planchas eléctricas,,,,,ACTIVE
+SAE CP 19-001,10,,electrical,Máquinas con motor para uso en la cocina,,,,,ACTIVE
+SAE CP 19-001,11,,food,"Aparatos eléctricos para calentar líquidos, para cocción de alimentos y similares",,,,,ACTIVE
+SAE CP 19-001,12,,electrical,Eficiencia energética y etiquetado de máquinas lavadoras-Secadoras de ropa,,,,,ACTIVE
+SAE CP 19-001,13,,electrical,Eficiencia energética para hornos microondas,,,,,ACTIVE
+SAE CP 19-001,14,,electrical,Aspiradoras,,,,,ACTIVE
+SAE CP 19-001,15,,electrical,Aparatos de uso doméstico para producción de frío,,,,,ACTIVE
+SAE CP 19-001,16,,electrical,Eficiencia energética en televisiones,,,,,ACTIVE
+SAE CP 21-001,1,,metals,Ollas a presión para uso doméstico,,,,,ACTIVE
+SAE CP 21-001,2,,textiles,"Alfombras y demás revestimientos para el suelo, de material textil",,,,,ACTIVE
+SAE CP 21-001,3,,food,"Artículos de vidrio, cerámica y vitrocerámica, las vajillas de vidrio, cerámica y vitrocerámica en contacto con alimentos, y los de cerámica empleados en la cocción de los alimentos",,,,,ACTIVE
+SAE CP 21-001,4,,other_manufacturing,Seguridad de los Juguetes,,,,,ACTIVE
+SAE CP 21-001,5,,electrical,Cortadoras de pelo y aparatos similares,,,,,ACTIVE
+SAE CP 21-001,6,,electrical,Aspiradoras,,,,,ACTIVE
+SAE CP 21-001,7,,electrical,Aparatos para cuidado de la piel o del Cabello,,,,,ACTIVE
+SAE CP 21-001,8,,electrical,Seguridad de aparatos eléctricos para cocción,,,,,ACTIVE
+SAE CP 21-001,9,,food,"Aparatos eléctricos para calentar líquidos, para cocción de alimentos y similares",,,,,ACTIVE
+SAE CP 21-001,10,,metals,"Recipientes de uso doméstico para cocción fabricados en aluminio, hierro y acero",,,,,ACTIVE
+SAE CP 21-001,11,,electrical,Eficiencia energética para ventiladores con motor eléctrico incorporado de potencia inferior o igual a 125 W,,,,,ACTIVE
+SAE CP 21-001,12,,electrical,Máquinas con motor para uso en la cocina,,,,,ACTIVE
+SAE CP 21-001,13,,electrical,Planchas Eléctricas,,,,,ACTIVE
+SAE CP 21-001,14,,metals,Llaves o válvulas de uso domiciliario,,,,,ACTIVE
+SAE CP 21-001,15,,food,"Vajillas en vidrio y en vitrocerámica, recipientes de vidrio en contacto con alimentos",,,,,ACTIVE
+SAE CP 21-001,16,,transport_equipment,Cascos de seguridad y protección,,,,,ACTIVE
+SAE CP 21-001,17,,construction,Extintores portátiles y agentes de extinción de fuego,,,,,ACTIVE
+SAE CP 21-001,18,,electrical,Máquinas de afeitar,,,,,ACTIVE
+SAE CP 21-001,19,,construction,Productos cerámicos,,,,,ACTIVE
+SAE CP 22-001,1,,electrical,Artefactos de uso doméstico para producción de frío,,,,,ACTIVE
+SAE CP 22-001,2,,electrical,Eficiencia energética en aparatos de refrigeración de uso doméstico,,,,,ACTIVE
+SAE CP 22-001,3,,food,"Aparatos eléctricos para calentar líquidos, para cocción de alimentos y similares",,,,,ACTIVE
+SAE CP 22-001,4,,electrical,Aparatos de refrigeración de uso doméstico,,,,,ACTIVE
+SAE CP 22-001,5,,electrical,Aparatos electrodomésticos y análogos,,,,,ACTIVE
+SAE CP 22-001,6,,electrical,Lámparas Fluorescentes compactas,,,,,ACTIVE
+SAE CP 22-001,7,,electrical,Alumbrado Público,,,,,ACTIVE
+SAE CP 22-001,8,,electrical,Televisores con sintonizador del estándar de televisión digital ISDBT Internacional,,,,,ACTIVE
+SAE CP 22-001,9,,electrical,Eficiencia energética para ventiladores con motor eléctrico incorporado de potencia inferior o igual a 125 W,,,,,ACTIVE
+SAE CP 22-001,10,,electrical,Eficiencia energética en televisiones,,,,,ACTIVE
+SAE CP 22-001,11,,electrical,Eficiencia energética para hornos microondas,,,,,ACTIVE
+SAE CP 22-001,12,,electrical,Decodificadores para el estándar de televisión digital terrestre ISDB-T internacional,,,,,ACTIVE
+SAE CP 22-001,13,,electrical,Cortadoras de pelo y aparatos similares,,,,,ACTIVE
+SAE CP 22-001,14,,electrical,Máquinas con motor para uso en la cocina,,,,,ACTIVE
+SAE CP 22-001,15,,electrical,Seguridad de aparatos eléctricos para cocción,,,,,ACTIVE
+SAE CP 22-001,16,,electrical,Aspiradoras,,,,,ACTIVE
+SAE CP 22-001,17,,electrical,Eficiencia energética para acondicionadores de aire sin ductos,,,,,ACTIVE
+SAE CP 22-002,1,,agriculture,FlorEcuador,,,,,ACTIVE
+SAE CP 22-002,2,Florverde Sustainable Flowers,,Florverde Sustainable Flowers,,,,,ACTIVE
+SAE CP 22-002,3,,agriculture,Producción Orgánica,,,,,ACTIVE
+SAE CP 25-001,1,GLOBALG.A.P. IFA,,GLOBALG.A.P.,,,,,ACTIVE
+SAE CP 25-001,2,,agriculture,Producción Orgánica,,,,,ACTIVE
+SAE CP 25-002,1,,agriculture,FlorEcuador,,,,,ACTIVE
+SAE CP 25-003,1,GLOBALG.A.P. IFA,,GLOBALG.A.P.,,,,,ACTIVE
+SAE CP 25-003,2,,agriculture,Flor Ecuador Certified,,,,,ACTIVE
+SAE CP 25-003,3,Florverde Sustainable Flowers,,Florverde Sustainable Flowers,,,,,ACTIVE
+SAE CP 26-001,1,,chemicals,Pinturas,,,,,ACTIVE
+SAE CP 26-001,2,,electrical,Televisores con sintonizador del estándar de televisión digital ISDBT Internacional,,,,,ACTIVE
+SAE CP 26-001,3,,electrical,Televisiones,,,,,ACTIVE
+SAE CP 26-001,4,,electrical,Ventiladores con motor incorporado de potencia inferior o igual a 125W,,,,,ACTIVE
+SAE CP 26-001,5,,electrical,Máquinas con motor para uso en la cocina,,,,,ACTIVE
+SAE CP 26-001,6,,food,"Aparatos eléctricos para calentar líquidos, para cocción de alimentos y similares",,,,,ACTIVE
+SAE CP 26-001,7,,electrical,Herramientas eléctricas manuales y semifijas accionadas por motor eléctrico,,,,,ACTIVE
+SAE CP 26-001,8,,electrical,Eficiencia energética para acondicionadores de aire sin ductos externos,,,,,ACTIVE
+SAE CP 26-002,1,,agriculture,Producción Orgánica,,,,,ACTIVE
+SAE CP 26-003,1,,food,Harina,,,,,ACTIVE

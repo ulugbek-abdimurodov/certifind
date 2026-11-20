@@ -34,6 +34,7 @@ Reused body rows:
 - PC013 Cotecna Inspection India Pvt. Ltd.: reused (same country and name)
 - PC016 TUV SUD South Asia Pvt. Ltd.: reused (same country and name)
 - PC030 Equalitas SystemCert Pvt. Ltd.: reused (same country and name)
+- PC039 Baltic Testing India Pvt. Ltd.: reused (same country and name)
 - PC040 Trace Assure Global Certifications Pvt. Ltd.: reused (same country and name)
 - PC042 DNV Business Assurance India Pvt. Ltd.: reused (same country and name)
 - PC049 TRANS CERTIFICATION & INSPECTION SDN. BHD.: reused (same country and name)
@@ -41,4 +42,4 @@ Reused body rows:
 
 | Retrieved | Bodies | Accreditations | Product lines | with scheme | without scheme |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-18 | 44 | 44 | 1368 | 30 | 1338 |
+| 2026-11-18 | 44 | 44 | 1368 | 32 | 1336 |

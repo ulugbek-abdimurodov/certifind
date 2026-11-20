@@ -9,13 +9,13 @@ certificate_number,certification_standard,ea_codes,status,scope_note
 006/M-012 (22301),ISO 22301,1-2;8;30-33;39,ACTIVE,"Register lists NACE A, B, I, J, K; classified to EA with the IAF ID 1 table; Scope reduced by ARMNAB: NACE sections C, D, E, F, G, H, L, M, N, O, P, Q, R, S, T, U removed"
 004/M-011,ISO 9001,1-10;12-19;22-39,ACTIVE,
 004/M-011,ISO 14001,1-10;12-19;22-39,ACTIVE,"Part of the sector (ARMNAB sub-sectors): EA 38 (38/1, 38/2); Scope reduced by ARMNAB: 20, 21 removed"
+004/M-011,ISO 28000,ALL,ACTIVE,All NACE sections listed on the register; recorded for all EA sectors
 004/M-011,ISO 45001,ALL,ACTIVE,All NACE sections listed on the register; recorded for all EA sectors
 004/M-011,ISO 13485,12-14;17-19;29;31;34-35,ACTIVE,ISO 13485 main technical areas: Non-active medical devices; Active (non-implantable) medical devices; Active implantable medical devices; In vitro diagnostic medical devices; Sterilization methods; Devices incorporating specific substances / technologies; Parts or services (classified to EA by sector)
 004/M-011,ISO 7101,ALL,ACTIVE,No sector list on the register; recorded for all EA sectors
 004/M-011,ISO 37301,ALL,ACTIVE,No sector list on the register; recorded for all EA sectors
 004/M-011,ISO 56001,ALL,ACTIVE,No sector list on the register; recorded for all EA sectors
 004/M-011,ISO 55001,ALL,ACTIVE,No sector list on the register; recorded for all EA sectors
-004/M-011,ISO 30301,ALL,ACTIVE,No sector list on the register; recorded for all EA sectors
 004/M-011,ISO 37101,ALL,ACTIVE,No sector list on the register; recorded for all EA sectors
 004/M-011,ISO 21001,ALL,ACTIVE,No sector list on the register; recorded for all EA sectors
 004/M-011,ISO 30401,ALL,ACTIVE,No sector list on the register; recorded for all EA sectors
@@ -24,7 +24,6 @@ certificate_number,certification_standard,ea_codes,status,scope_note
 004/M-011 (27006),ISO/IEC 27001,2-10;12-15;17-23;25-27;29-39,ACTIVE,"Register lists NACE B, C, D, E, G, H, I, J, K, L, M, N, O, P, Q, R, S; classified to EA with the IAF ID 1 table"
 004/M-011 (50003),ISO 50001,1-10;12-28;30-32;34;36-39,ACTIVE,"ISO 50003 technical areas A, B, C, D, E, F, G, H (classified to EA by sector)"
 004/M-011 (22301),ISO 22301,ALL,ACTIVE,All NACE sections listed on the register; recorded for all EA sectors
-004/M-011 (28000),ISO 28000,ALL,ACTIVE,All NACE sections listed on the register; recorded for all EA sectors
 004/M-011 (20000),ISO/IEC 20000-1,ALL,ACTIVE,No sector list on the register; recorded for all EA sectors
 004/M-011 (20121),ISO 20121,ALL,ACTIVE,No sector list on the register; recorded for all EA sectors
 004/M-011 (37001),ISO 37001,ALL,ACTIVE,No sector list on the register; recorded for all EA sectors

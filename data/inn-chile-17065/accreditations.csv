@@ -1,0 +1,49 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+INN,CP 004,UNIVERSIDAD DE CHILE - IDIEM,ISO/IEC 17065,ACTIVE,2022-10-05,2027-10-05,https://directorio.inn.cl/
+INN,CP 006,"Centro de Estudios, Medición y Certificación de Calidad (CESMEC)",ISO/IEC 17065,ACTIVE,2025-04-21,2030-04-21,https://directorio.inn.cl/
+INN,CP 008,SITEC LTDA,ISO/IEC 17065,ACTIVE,2022-10-28,2027-10-28,https://directorio.inn.cl/
+INN,CP 012,JORGE ISAIAS RUIZ Y CIA LTDA,ISO/IEC 17065,ACTIVE,2025-01-07,2030-01-07,https://directorio.inn.cl/
+INN,CP 013,Servicios de Ingeniería de Calidad S.A.,ISO/IEC 17065,ACTIVE,2022-10-28,2027-10-28,https://directorio.inn.cl/
+INN,CP 014,Dictuc S.A.,ISO/IEC 17065,ACTIVE,2022-01-18,2027-01-18,https://directorio.inn.cl/
+INN,CP 016,INSPECCIÓN TÉCNICA INDUSTRIAL SpA,ISO/IEC 17065,ACTIVE,2022-10-27,2027-10-27,https://directorio.inn.cl/
+INN,CP 017,Laboratorio Certigas-Certelec Ltda.,ISO/IEC 17065,ACTIVE,2024-07-03,2029-07-03,https://directorio.inn.cl/
+INN,CP 020,STI S.A.,ISO/IEC 17065,ACTIVE,2024-07-25,2029-07-25,https://directorio.inn.cl/
+INN,CP 023,5M SpA,ISO/IEC 17065,ACTIVE,2024-03-18,2029-03-18,https://directorio.inn.cl/
+INN,CP 025,EMPRESA DE INSPECCIONES TECNICAS Y CONTROL DE CALIDAD SPA,ISO/IEC 17065,ACTIVE,2025-07-01,2030-07-01,https://directorio.inn.cl/
+INN,CP 028,Soc. Certificadora del Maule Ltda.,ISO/IEC 17065,ACTIVE,2024-09-30,2029-09-30,https://directorio.inn.cl/
+INN,CP 035,Sociedad profesional CERTVET LIMITADA,ISO/IEC 17065,ACTIVE,2024-07-24,2029-07-24,https://directorio.inn.cl/
+INN,CP 036,QIMA WQS,ISO/IEC 17065,ACTIVE,2024-12-16,2029-12-16,https://directorio.inn.cl/
+INN,CP 040,CERTIFICACIÓN INDUSTRIAL CERTANK LTDA,ISO/IEC 17065,ACTIVE,2025-11-19,2030-11-19,https://directorio.inn.cl/
+INN,CP 048,Ecocert Chile S.A.,ISO/IEC 17065,ACTIVE,2026-01-04,2031-01-04,https://directorio.inn.cl/
+INN,CP 051,Servicios de Ingeniería Sinco Ltda.,ISO/IEC 17065,ACTIVE,2025-01-13,2030-01-13,https://directorio.inn.cl/
+INN,CP 058,CERTILAB CHILE LTDA,ISO/IEC 17065,ACTIVE,2023-06-16,2028-06-16,https://directorio.inn.cl/
+INN,CP 061,Sociedad de Ingeniería y Certificación de Calidad S.A.,ISO/IEC 17065,ACTIVE,2024-07-22,2029-07-22,https://directorio.inn.cl/
+INN,CP 070,UNDERFIRE S.A.,ISO/IEC 17065,ACTIVE,2024-12-19,2029-12-19,https://directorio.inn.cl/
+INN,CP 071,ICOMCER SpA,ISO/IEC 17065,ACTIVE,2025-12-05,2030-12-05,https://directorio.inn.cl/
+INN,CP 080,TÜV Rheinland Chile S.A.,ISO/IEC 17065,ACTIVE,2020-01-13,2030-01-13,https://directorio.inn.cl/
+INN,CP 083,LENOR CHILE SPA,ISO/IEC 17065,ACTIVE,2022-04-01,2027-04-01,https://directorio.inn.cl/
+INN,CP 092,Bureau Veritas Certification Chile S.A.,ISO/IEC 17065,ACTIVE,2025-02-19,2030-02-19,https://directorio.inn.cl/
+INN,CP 093,SGS Chile Ltda.,ISO/IEC 17065,ACTIVE,2025-02-28,2030-02-28,https://directorio.inn.cl/
+INN,CP 094,AGROINNOVA LIMITADA,ISO/IEC 17065,ACTIVE,2023-08-30,2028-08-30,https://directorio.inn.cl/
+INN,CP 095,Bio Certificadora Servicio Limitada,ISO/IEC 17065,ACTIVE,2024-05-08,2029-05-08,https://directorio.inn.cl/
+INN,CP 097,WORLD SURVEY SERVICES S.A,ISO/IEC 17065,ACTIVE,2026-05-15,2031-05-15,https://directorio.inn.cl/
+INN,CP 099,Ingeniería y Certificación Nacional Limitada,ISO/IEC 17065,ACTIVE,2025-10-23,2030-10-23,https://directorio.inn.cl/
+INN,CP 100,Certificacion Profesional CERTPRO SpA,ISO/IEC 17065,ACTIVE,2022-04-22,2027-04-22,https://directorio.inn.cl/
+INN,CP 106,LABORATORIO CERTIFICACION Y ENSAYE DE MATERIALES LIMITADA,ISO/IEC 17065,ACTIVE,2023-06-21,2028-06-21,https://directorio.inn.cl/
+INN,CP 108,LABOCERT SPA,ISO/IEC 17065,ACTIVE,2024-11-19,2028-11-19,https://directorio.inn.cl/
+INN,CP 111,Intertek Caleb Brett Chile S.A.,ISO/IEC 17065,ACTIVE,2025-02-24,2030-02-24,https://directorio.inn.cl/
+INN,CP 115,CONTROL UNION SERVICES S.A.C.,ISO/IEC 17065,ACTIVE,2026-05-11,2031-05-11,https://directorio.inn.cl/
+INN,CP 116,Eddytronic Organismo de Inspección y Certificación Industrial Limitada,ISO/IEC 17065,ACTIVE,2025-10-13,2030-10-13,https://directorio.inn.cl/
+INN,CP 118,Universidad de Santiago de Chile,ISO/IEC 17065,ACTIVE,2026-02-04,2031-02-04,https://directorio.inn.cl/
+INN,CP 120,CERTIFICACIONES E INSPECCIONES TANK CONTROL SPA,ISO/IEC 17065,ACTIVE,2026-07-29,2031-07-29,https://directorio.inn.cl/
+INN,CP 122,PATAGONIA CERT CHILE SPA,ISO/IEC 17065,ACTIVE,2026-10-13,2031-10-13,https://directorio.inn.cl/
+INN,CP 123,MAYACERT SPA,ISO/IEC 17065,ACTIVE,2026-10-14,2031-10-14,https://directorio.inn.cl/
+INN,CP 124,PANTANAL,ISO/IEC 17065,ACTIVE,2026-09-17,2031-09-17,https://directorio.inn.cl/
+INN,CP 126,SBC - Servico Brasileiro de Certificacoes,ISO/IEC 17065,ACTIVE,2026-11-08,2031-11-08,https://directorio.inn.cl/
+INN,CP 127,Tecnored S.A.,ISO/IEC 17065,ACTIVE,2022-04-03,2027-04-03,https://directorio.inn.cl/
+INN,CP 128,DEKRA TESTING AND CERTIFICATION LIMITADA,ISO/IEC 17065,ACTIVE,2022-04-14,2027-04-14,https://directorio.inn.cl/
+INN,CP 131,Laboratorio TPS SPA,ISO/IEC 17065,ACTIVE,2023-07-12,2028-07-12,https://directorio.inn.cl/
+INN,CP 134,Pontificia Universidad Católica de Valparaíso,ISO/IEC 17065,ACTIVE,2025-01-21,2030-01-21,https://directorio.inn.cl/
+INN,CP 141,Sociedad certificadora orgánica VilcúnCarel Chile Ltda.,ISO/IEC 17065,ACTIVE,2026-07-27,2031-07-27,https://directorio.inn.cl/
+INN,ST 002,ICONTEC,ISO/IEC 17065,ACTIVE,2023-04-03,2028-04-03,https://directorio.inn.cl/
+INN,ST 012,Certhia Ltda.,ISO/IEC 17065,ACTIVE,2024-03-22,2029-03-22,https://directorio.inn.cl/

@@ -1,0 +1,78 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+OZAK,O'ZAK.MS.0002,Mega Test Group LLC,ISO/IEC 17065,ACTIVE,2019-06-17,2029-08-18,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0002-Certificate.pdf
+OZAK,O'ZAK.MS.0003,Sifat-Center LLC,ISO/IEC 17065,ACTIVE,2019-06-19,2029-06-02,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0003-Certificate.pdf
+OZAK,O'ZAK.MS.0004,Kiberxavfsizlik markazi (state institution),ISO/IEC 17065,ACTIVE,2019-07-15,2029-07-11,https://api-e.akkred.uz/media/file/pdf/2026-04/OZAK.MS.0004-new_name.pdf
+OZAK,O'ZAK.MS.0005,Ikar Metan Servis LLC,ISO/IEC 17065,ACTIVE,2019-08-05,2029-09-11,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0005-Certificate.pdf
+OZAK,O'ZAK.MS.0006,Texnik sinovlar LLC,ISO/IEC 17065,ACTIVE,2024-09-16,2029-09-15,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0006-Certificate.pdf
+OZAK,O'ZAK.MS.0007,Asia Alliance Standart LLC,ISO/IEC 17065,ACTIVE,2019-09-30,2029-09-25,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0007-Certificate.pdf
+OZAK,O'ZAK.MS.0010,Buxoro maxsus sinov qurilish laboratoriya LLC,ISO/IEC 17065,ACTIVE,2019-11-25,2029-12-09,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0010-Certificate.pdf
+OZAK,O'ZAK.MS.0012,O'zbekiston Respublikasi fanlar akademiyasi polimerlar kimyosi va fizikasi instituti,ISO/IEC 17065,ACTIVE,2019-12-16,2030-01-29,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0012-Certificate.pdf
+OZAK,O'ZAK.MS.0013,Global Investment Systems LLC,ISO/IEC 17065,ACTIVE,2019-12-16,2029-12-15,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0013-Certificate.pdf
+OZAK,O'ZAK.MS.0014,Center for Safety of Pharmaceutical Products (state institution),ISO/IEC 17065,ACTIVE,2019-12-30,2030-02-05,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0014-Certificate.pdf
+OZAK,O'ZAK.MS.0016,Autosert LLC,ISO/IEC 17065,ACTIVE,2020-02-17,2030-04-20,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0016-Certificate.pdf
+OZAK,O'ZAK.MS.0018,Standart Service Forever LLC,ISO/IEC 17065,ACTIVE,2020-03-09,2030-05-14,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0018-Certificate.pdf
+OZAK,O'ZAK.MS.0020,Veterinariya dori vositalari ozuqabop qo'shimchalar sifati va muomalasi nazorati bo'yicha davlat ilmiy markazi,ISO/IEC 17065,ACTIVE,2025-05-22,2030-05-21,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0020-Certificate.pdf
+OZAK,O'ZAK.MS.0021,Tib-Standart Servis LLC,ISO/IEC 17065,ACTIVE,2020-05-05,2030-04-23,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0021-Certificate.pdf
+OZAK,O'ZAK.MS.0023,Correct Results Group LLC,ISO/IEC 17065,ACTIVE,2020-07-02,2030-07-20,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0023-Certificate.pdf
+OZAK,O'ZAK.MS.0029,Sinov Sertifiqat Servis LLC,ISO/IEC 17065,ACTIVE,2020-08-03,2030-08-20,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0029-Certificate.pdf
+OZAK,O'ZAK.MS.0030,Alliance Standard Group LLC,ISO/IEC 17065,ACTIVE,2020-08-14,2030-09-24,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0030-Certificate.pdf
+OZAK,O'ZAK.MS.0031,Jur’at Hamroh Invest LLC,ISO/IEC 17065,ACTIVE,2020-08-17,2030-08-10,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0031-Certificate.pdf
+OZAK,O'ZAK.MS.0033,Texnostandart-Neo LLC,ISO/IEC 17065,ACTIVE,2020-10-19,2030-10-29,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0033-Certificate.pdf
+OZAK,O'ZAK.MS.0038,Belcor LLC,ISO/IEC 17065,ACTIVE,2025-12-25,2030-12-24,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0038-Certificate.pdf
+OZAK,O'ZAK.MS.0040,Mintaqa Sinov Markazi LLC,ISO/IEC 17065,ACTIVE,2026-01-22,2031-01-21,https://api-e.akkred.uz/media/file/pdf/2026-04/ms0040-Certificate.pdf
+OZAK,O'ZAK.MS.0041,Qishloq xo‘jaligi mahsulotlari sifatini baholash markazi (state institution),ISO/IEC 17065,ACTIVE,2026-03-05,2031-03-04,https://api-e.akkred.uz/media/file/pdf/2026-04/OZAK.MS.0041-reaccreditation.pdf
+OZAK,O'ZAK.MS.0046,Gaz Analitik Servis LLC,ISO/IEC 17065,ACTIVE,2026-09-24,2031-09-23,https://api-e.akkred.uz/media/file/pdf/2026-10/OZAK.MS.0046-reaccreditation.pdf
+OZAK,O'ZAK.MS.0050,Nipo Standart LLC,ISO/IEC 17065,ACTIVE,2021-12-01,2026-11-30,https://api-e.akkred.uz/media/file/pdf/2026-04/OZAK.MS.0050-new_address.pdf
+OZAK,O'ZAK.MS.0052,Standart And Quality Assessment Group LLC,ISO/IEC 17065,ACTIVE,2022-01-12,2027-01-11,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0052-Certificate.pdf
+OZAK,O'ZAK.MS.0053,Veltron Certification LLC,ISO/IEC 17065,ACTIVE,2022-01-12,2027-01-11,https://api-e.akkred.uz/media/file/pdf/2026-09/OZAK.MS.0053-new_name.pdf
+OZAK,O'ZAK.MS.0054,Yangi Texnologiyalar LLC,ISO/IEC 17065,ACTIVE,2022-02-01,2027-01-31,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0054-Certificate.pdf
+OZAK,O'ZAK.MS.0057,Advanced Testing Laboratory LLC,ISO/IEC 17065,ACTIVE,2022-03-11,2027-03-10,https://api-e.akkred.uz/media/file/pdf/2026-04/ms0057-Certificate.pdf
+OZAK,O'ZAK.MS.0058,International Expert Certification Group LLC,ISO/IEC 17065,ACTIVE,2022-03-25,2027-03-24,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0058-Certificate.pdf
+OZAK,O'ZAK.MS.0059,Unicon.uz-fan-texnika va marketing tadqiqotlari markazi LLC,ISO/IEC 17065,ACTIVE,2022-03-28,2027-03-27,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0059-Certificate.pdf
+OZAK,O'ZAK.MS.0061,Uzelektromash LLC,ISO/IEC 17065,ACTIVE,2022-04-22,2027-04-21,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0061-Certificate.pdf
+OZAK,O'ZAK.MS.0063,Farmatsiya-Innovatsiya Markazi LLC,ISO/IEC 17065,ACTIVE,2022-05-06,2027-05-05,https://api-e.akkred.uz/media/file/pdf/2026-05/OZAK.MS.0063-new_address.pdf
+OZAK,O'ZAK.MS.0065,O'zbekiston Respublikasi Qishloq xo'jaligi vazirligi huzuridagi Qishloq xo'jaligi texnikasi va texnologiyalarini sertifikatlash va sinash Markazi,ISO/IEC 17065,ACTIVE,2022-05-19,2027-05-18,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0065-Certificate.pdf
+OZAK,O'ZAK.MS.0067,Laboratoriya Energosberegayushix Texnologiy LLC,ISO/IEC 17065,ACTIVE,2022-06-10,2027-06-09,https://api-e.akkred.uz/media/file/pdf/2026-07/OZAK.MS.0067.pdf
+OZAK,O'ZAK.MS.0068,Sanoat Xavfsizligi (state institution),ISO/IEC 17065,ACTIVE,2022-06-13,2027-06-12,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0068-Certificate.pdf
+OZAK,O'ZAK.MS.0070,Toshkent Test Va Sertifikatlashtirish LLC,ISO/IEC 17065,ACTIVE,2022-06-24,2027-06-23,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0070-Certificate.pdf
+OZAK,O'ZAK.MS.0075,Test Sertification Enterprice LLC,ISO/IEC 17065,ACTIVE,2022-11-01,2027-10-31,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0075-Certificate.pdf
+OZAK,O'ZAK.MS.0077,Asviz LLC,ISO/IEC 17065,ACTIVE,2022-11-09,2027-11-08,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0077-Certificate.pdf
+OZAK,O'ZAK.MS.0078,Test Mebel LLC,ISO/IEC 17065,ACTIVE,2022-11-11,2027-11-10,https://api-e.akkred.uz/media/file/pdf/2026-06/OZAK.MS.0078.pdf
+OZAK,O'ZAK.MS.0080,Kataliz Service Quality LLC,ISO/IEC 17065,ACTIVE,2022-12-05,2027-12-04,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0080-Certificate.pdf
+OZAK,O'ZAK.MS.0082,Davlat ekologik sertifikatlashtirish va standartlashtirish markazi LLC,ISO/IEC 17065,ACTIVE,2022-12-23,2027-12-22,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0082-Certificate.pdf
+OZAK,O'ZAK.MS.0083,Uchqo‘rg‘on Mega Standart LLC,ISO/IEC 17065,ACTIVE,2022-12-26,2027-12-25,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0083-Certificate.pdf
+OZAK,O'ZAK.MS.0084,Sifat Nazorati LLC,ISO/IEC 17065,ACTIVE,2022-12-29,2027-12-28,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0084-Certificate.pdf
+OZAK,O'ZAK.MS.0085,O'zbek-Turk Test Markazi LLC,ISO/IEC 17065,ACTIVE,2023-01-06,2028-01-05,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0085-Certificate.pdf
+OZAK,O'ZAK.MS.0086,Test Inspection LLC,ISO/IEC 17065,ACTIVE,2025-10-23,2030-10-22,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0086-Certificate.pdf
+OZAK,O'ZAK.MS.0087,Attest LLC,ISO/IEC 17065,ACTIVE,2023-02-01,2028-01-31,https://api-e.akkred.uz/media/file/pdf/2026-04/ms0087-Certificate.pdf
+OZAK,O'ZAK.MS.0088,G-Test LLC,ISO/IEC 17065,ACTIVE,2023-03-09,2028-03-08,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0088-Certificate.pdf
+OZAK,O'ZAK.MS.0089,Unitest LLC,ISO/IEC 17065,ACTIVE,2023-03-09,2028-03-08,https://api-e.akkred.uz/media/file/pdf/2026-04/ms0089-Certificate.pdf
+OZAK,O'ZAK.MS.0090,Navoiy Qurilish Sinov LLC,ISO/IEC 17065,ACTIVE,2023-03-27,2028-03-26,https://api-e.akkred.uz/media/file/pdf/2026-10/OZAK.MS.0090-new_address.pdf
+OZAK,O'ZAK.MS.0091,Muxannad Sinov Servis LLC,ISO/IEC 17065,ACTIVE,2023-04-06,2028-04-05,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0091-Certificate.pdf
+OZAK,O'ZAK.MS.0093,Texno Standart Test LLC,ISO/IEC 17065,ACTIVE,2023-05-23,2028-05-22,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0093-Certificate.pdf
+OZAK,O'ZAK.MS.0095,Euro Prof Test LLC,ISO/IEC 17065,ACTIVE,2023-06-12,2028-06-11,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0095-Certificate.pdf
+OZAK,O'ZAK.MS.0096,Avto Standart Etalon LLC,ISO/IEC 17065,ACTIVE,2023-08-11,2028-08-10,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0096-Certificate.pdf
+OZAK,O'ZAK.MS.0097,Norma Test LLC,ISO/IEC 17065,ACTIVE,2023-09-25,2028-09-24,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0097-Certificate.pdf
+OZAK,O'ZAK.MS.0099,Certification Control LLC,ISO/IEC 17065,ACTIVE,2024-01-15,2029-01-14,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0099-Certificate.pdf
+OZAK,O'ZAK.MS.0102,All Best Control LLC,ISO/IEC 17065,ACTIVE,2024-04-22,2029-04-21,https://api-e.akkred.uz/media/file/pdf/2026-06/OZAK.MS.0102-2.pdf
+OZAK,O'ZAK.MS.0104,The Great Golden Laboratory MD LLC,ISO/IEC 17065,ACTIVE,2024-07-29,2029-07-28,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0104-Certificate.pdf
+OZAK,O'ZAK.MS.0105,Dori vositalarini standartlash ilmiy markazi (state institution),ISO/IEC 17065,ACTIVE,2024-08-12,2029-08-11,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0105-Certificate.pdf
+OZAK,O'ZAK.MS.0106,Tash-Lab Agency LLC,ISO/IEC 17065,ACTIVE,2024-08-29,2029-08-28,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0106-Certificate.pdf
+OZAK,O'ZAK.MS.0108,Premier Certification Center LLC,ISO/IEC 17065,ACTIVE,2024-09-19,2029-09-18,https://api-e.akkred.uz/media/file/pdf/2026-08/OZAK.MS.0108-new_address_2.pdf
+OZAK,O'ZAK.MS.0109,Ekles Sertificate LLC,ISO/IEC 17065,ACTIVE,2024-09-19,2029-09-18,https://api-e.akkred.uz/media/file/pdf/2026-07/OZAK.MS.0109.pdf
+OZAK,O'ZAK.MS.0110,Texnik me’yorlash va standartlashtirish ilmiy-tadqiqot instituti (state institution),ISO/IEC 17065,ACTIVE,2024-11-07,2029-11-06,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0110-Certificate.pdf
+OZAK,O'ZAK.MS.0111,Toshkent-Sinov Xizmati LLC,ISO/IEC 17065,ACTIVE,2024-11-07,2029-11-06,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0111-Certificate.pdf
+OZAK,O'ZAK.MS.0112,Nanogen Lab LLC,ISO/IEC 17065,ACTIVE,2025-01-13,2030-01-12,https://api-e.akkred.uz/media/file/pdf/2026-04/ms0112-Certificate.pdf
+OZAK,O'ZAK.MS.0116,Sam MBI Ekspertiza LLC,ISO/IEC 17065,ACTIVE,2025-05-01,2030-04-30,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0116-Certificate.pdf
+OZAK,O'ZAK.MS.0118,Ansor Safety LLC,ISO/IEC 17065,ACTIVE,2025-06-30,2030-06-29,https://api-e.akkred.uz/media/file/pdf/2026-10/OZAK.MS.0118.pdf
+OZAK,O'ZAK.MS.0119,Agro-Kimyo Standart LLC,ISO/IEC 17065,ACTIVE,2025-08-25,2030-08-24,https://api-e.akkred.uz/media/file/pdf/2026-08/OZAK.MS.0119-new_address.pdf
+OZAK,O'ZAK.MS.0120,Chemical Expertise Center LLC,ISO/IEC 17065,ACTIVE,2025-09-04,2030-09-03,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0120-Certificate.pdf
+OZAK,O'ZAK.MS.0124,Infinity Test LLC,ISO/IEC 17065,ACTIVE,2026-01-26,2031-01-25,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0124-Certificate.pdf
+OZAK,O'ZAK.MS.0125,Electrotest Standart LLC,ISO/IEC 17065,ACTIVE,2026-02-16,2031-02-15,https://api-e.akkred.uz/media/file/pdf/2026-03/ms0125-Certificate.pdf
+OZAK,O'ZAK.MS.0126,Ideal Testing LLC,ISO/IEC 17065,ACTIVE,2026-04-16,2031-04-15,https://api-e.akkred.uz/media/file/pdf/2026-10/OZAK.MS.0126-new_address.pdf
+OZAK,O'ZAK.MS.0127,O‘zyo‘lko‘prik Klasterining Sinov Laboratoriyasi Filiali (state institution),ISO/IEC 17065,ACTIVE,2026-05-18,2031-05-17,https://api-e.akkred.uz/media/file/pdf/2026-06/OZAK.MS.0127.pdf
+OZAK,O'ZAK.MS.0128,MSS Lab LLC,ISO/IEC 17065,ACTIVE,2026-06-01,2031-05-31,https://api-e.akkred.uz/media/file/pdf/2026-10/OZAK.MS.0128.pdf
+OZAK,O'ZAK.MS.0129,Special Certificate LLC,ISO/IEC 17065,ACTIVE,2026-06-01,2031-05-31,https://api-e.akkred.uz/media/file/pdf/2026-06/OZAK.MS.0129.pdf
+OZAK,O'ZAK.MS.0130,Alphatest LLC,ISO/IEC 17065,ACTIVE,2026-06-29,2031-06-28,https://api-e.akkred.uz/media/file/pdf/2026-09/OZAK.MS.0130-new_address.pdf
+OZAK,O'ZAK.MS.0131,Regional Certification Experts LLC,ISO/IEC 17065,ACTIVE,2026-07-02,2031-07-01,https://api-e.akkred.uz/media/file/pdf/2026-07/OZAK.MS.0131.pdf
+OZAK,O'ZAK.MS.0132,Innovation Testing,ISO/IEC 17065,ACTIVE,2026-10-12,2031-10-11,https://api-e.akkred.uz/media/file/pdf/2026-10/Guvohnoma_-_certificate_OZAK.MS.0132_qxrb90n.pdf

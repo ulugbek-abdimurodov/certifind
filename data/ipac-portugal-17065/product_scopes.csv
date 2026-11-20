@@ -379,9 +379,9 @@ C0009,1,PEFC Chain of Custody,,Cadeia de responsabilidade de produtos de base fl
 C0009,2,,food,Leite de pastagem dos Açores,,,APCER 5011/3 APCER 5012/5 | APCER 5011/3 APCER 5012/6 REG002AX/5 EC096/6,,ACTIVE
 C0009,3,,metals,Natas de pastagem dos Açores,,,APCER 5011/3 APCER 5012/5 | APCER 5011/3 APCER 5012/6 REG002AX/5 EC096/6,,ACTIVE
 C0009,4,,food,Queijo de pastagem dos Açores,,,APCER 5011/3 APCER 5012/5 | APCER 5011/3 APCER 5012/6 REG002AX/5 EC096/6,,ACTIVE
-C0009,5,,textiles,Âmbito 1 - Operações de processamento e fabricação mecânica de têxteis e respetivos produtos,,,GOTS v7.0 | EC104-EN/8 REG002BB-EN/06,,ACTIVE
-C0009,6,,professional,Âmbito 2 - Operações de processamento e acabamento húmido e respetivos produtos,,,GOTS v7.0 | EC104-EN/8 REG002BB-EN/06,,ACTIVE
-C0009,7,,other_manufacturing,Âmbito 3 - Operações comerciais e produtos relacionados,,,GOTS v7.0 | EC104-EN/8 REG002BB-EN/06,,ACTIVE
+C0009,5,GOTS,,Âmbito 1 - Operações de processamento e fabricação mecânica de têxteis e respetivos produtos,,,GOTS v7.0 | EC104-EN/8 REG002BB-EN/06,,ACTIVE
+C0009,6,GOTS,,Âmbito 2 - Operações de processamento e acabamento húmido e respetivos produtos,,,GOTS v7.0 | EC104-EN/8 REG002BB-EN/06,,ACTIVE
+C0009,7,GOTS,,Âmbito 3 - Operações comerciais e produtos relacionados,,,GOTS v7.0 | EC104-EN/8 REG002BB-EN/06,,ACTIVE
 C0009,8,,textiles,Máscaras para uso social,,,DNP TS 4575:2020 DNP CWA 17553:2020 | DNP TS 4575:2020,,ACTIVE
 C0009,9,,other_manufacturing,Mangueiras de incêndio - mangueiras semirrígidas para sistemas fixos,,,EN 694:2014 | REG002T/5 EC043/4,EN 694,ACTIVE
 C0009,10,,other_manufacturing,Tubos flexíveis de borracha e plástico para utilização com gás combustível,,,EN 16436-1:2014 | REG002U/12 EC044/8,EN 16436-1,ACTIVE
@@ -601,7 +601,7 @@ C0022,31,EU Geographical Indications (DOP/IGP/STG),,Queijo Mestiço de Tolosa - 
 C0022,32,EU Geographical Indications (DOP/IGP/STG),,Arroz de Sarrabulho à Moda de Ponte de Lima ETG,,,Regulamento (UE) n.º 1151/2012 Regulamento Delegado (UE) n.º 664/2014 Regulamento de Execução (UE) n.º 668/2014 e alterações subsequentes Regulamento de Execução (UE) 2025/98 da Comissão de 14.01.2025 Caderno de especificações do produto (sem data) | Procedimentos de certificação: PO.13 (09/2020) PO.14 (12/2021) PO.15 (05/2020) PO.16 (09/2020) PO.18 (09/2020) Plano de controlo: Arroz de Sarrabulho à Moda de Ponte de Lima ETG (10/2024),,ACTIVE
 C0022,33,IFS Food,,5. Fruta e legumes,,,IFS Food Standard (versão 8) | IFS Food Standard (versão 8),,ACTIVE
 C0022,34,IFS Food,,9. Óleos e gorduras,,,IFS Food Standard (versão 8) | IFS Food Standard (versão 8) Procedimentos de certificação: PO.14 (12/2021) PO.15 (05/2020) PO.16 (09/2020) PO.18 (09/2020),,ACTIVE
-C0022,35,,textiles,Âmbito 1 - Certificação de operações de processamento e fabricação mecânica de têxteis e respetivos produtos Âmbito 2 - Certificação de operações de processamento e acabamento húmido e respetivos produtos Âmbito 3 - Certificação de operações comerciais e produtos relacionados,,,GOTS Version 7.0 | PO.13 (09/2020) PO.14 (12/2021) PO.15 (05/2020) PO.16 (09/2020) PO.18 (09/2020),,ACTIVE
+C0022,35,GOTS,,Âmbito 1 - Certificação de operações de processamento e fabricação mecânica de têxteis e respetivos produtos Âmbito 2 - Certificação de operações de processamento e acabamento húmido e respetivos produtos Âmbito 3 - Certificação de operações comerciais e produtos relacionados,,,GOTS Version 7.0 | PO.13 (09/2020) PO.14 (12/2021) PO.15 (05/2020) PO.16 (09/2020) PO.18 (09/2020),,ACTIVE
 C0023,1,,other_manufacturing,Certificação da Prática Equivalente - Cobertura do solo,,,Despacho Normativo 1-C/2016 e legislação conexa | Plano de controlo: PCC-GRE-002 (07/12/2017) Procedimento de certificação: PCC-GRE-001 (07/12/2017),,ACTIVE
 C0023,2,,other_manufacturing,"Bem-estar animal e uso racional de antimicrobianos, na componente de bem-estar animal",,,"Portaria nº 54-E/2023 Portaria n.º 63-A/2023 OTE 05/2023 e legislação conexa | Plano de controlo: PLC-BEA-001, Edição 00 de 05/05/2023 Procedimento de certificação: PRQ-QLD-006",,ACTIVE
 C0023,3,,food,"Melhoria da eficiência alimentar animal para redução das emissões de gases com efeitos de estufa, na componente de bovinos de carne",,,"Portaria nº 54-E/2023 Portaria n.º 63-A/2023 OTE 07/2023 e legislação conexa | Plano de controlo: PLC-EAB-001, Edição 01 de 30/08/2023 Procedimento de certificação: PRQ-QLD-006",,ACTIVE
@@ -734,9 +734,9 @@ C0040,6,,textiles,"Equipamento de proteção contra o calor , [Calor <100 °C], 
 C0040,7,,textiles,"Equipamento de proteção contra o frio, [Frio> -50 °C] (Calçado)",,,Normas harmonizadas e/ou outras especificações técnicas para comprovação da conformidade do equipamento | Módulo B - Exame UE de tipo PGOC03,,ACTIVE
 C0040,8,,textiles,Equipamento de proteção contra riscos mecânicos (Calçado),,,Normas harmonizadas e/ou outras especificações técnicas para comprovação da conformidade do equipamento | Módulo B - Exame UE de tipo PGOC03,,ACTIVE
 C0040,9,,textiles,Fatos para bombeiros (Calçado),,,Normas harmonizadas e/ou outras especificações técnicas para comprovação da conformidade do equipamento | Módulo B - Exame UE de tipo Módulo C2 - Conformidade com o tipo baseada no controlo interno da produção e em controlos supervisionados do produto a intervalos aleatórios PGOC03,,ACTIVE
-C0041,1,,textiles,Âmbito 1 - Operações de processamento e fabricação mecânica de têxteis e respetivos produtos,,,GOTS v7.0 | IT 06,,ACTIVE
-C0041,2,,ict,Âmbito 2 - Operações de processamento e acabamento húmido e respetivos produtos,,,GOTS v7.0 | IT 06,,ACTIVE
-C0041,3,,ict,Âmbito 3 - Operações comerciais e produtos relacionados,,,GOTS v7.0 | IT 06,,ACTIVE
+C0041,1,GOTS,,Âmbito 1 - Operações de processamento e fabricação mecânica de têxteis e respetivos produtos,,,GOTS v7.0 | IT 06,,ACTIVE
+C0041,2,GOTS,,Âmbito 2 - Operações de processamento e acabamento húmido e respetivos produtos,,,GOTS v7.0 | IT 06,,ACTIVE
+C0041,3,GOTS,,Âmbito 3 - Operações comerciais e produtos relacionados,,,GOTS v7.0 | IT 06,,ACTIVE
 C0041,4,,textiles,Máscaras de uso clínico Suspensão desde 2026-02-27,,,EN 14683 | IT 01,EN 14683,ACTIVE
 C0041,5,,textiles,Máscaras para uso social Suspensão desde 2026-02-27,,,DNP TS 4575 DNP CWA 17553 | DNP TS 4575,,ACTIVE
 C0041,6,,textiles,Materiais e acessórios para vestuário de proteção contra químicos,,,EN 13034 EN 14605 EN ISO 27065 EN ISO 13982-1 | IT 01,EN 13034;EN 14605;EN ISO 27065;EN ISO 13982-1,ACTIVE

@@ -80,12 +80,12 @@ SCESp 0004,4,,food,die biologische Landwirtschaft und und Lebensmittel (Bio-Vero
 SCESp 0004,5,,agriculture,WBF über die biologische Landwirtschaft (vom 22. September 1997),,,Verordnung des (SR 910.181),,ACTIVE
 SCESp 0004,6,,other_manufacturing,des Bundesrechts,,,SR Systematische Sammlung,,ACTIVE
 SCESp 0004,7,,professional,"Departement für Wirtschaft, Bildung (und Forschung WBF)",,,WBF Eidgenössisches,,ACTIVE
-SCESp 0121,1,,other_manufacturing,Technische Bereiche:,,,OIML-CS,,ACTIVE
-SCESp 0121,2,,other_manufacturing,"Load cells (R60:2000, R60:2017)",,,OIML-CS,,ACTIVE
-SCESp 0121,3,,other_manufacturing,Non-automatic Weighing Instruments (R76:2006),,,OIML-CS,,ACTIVE
-SCESp 0121,4,,transport_equipment,Automatic Rail-weighbridges (R106:2011),,,OIML-CS,,ACTIVE
-SCESp 0121,5,,transport_equipment,Weighing road vehicles in motion (R134:2006),,,OIML-CS,,ACTIVE
-SCESp 0121,6,,other_manufacturing,Technische Bereiche:,,,OIML-CS,,ACTIVE
+SCESp 0121,1,OIML-CS,,Technische Bereiche:,,,OIML-CS,,ACTIVE
+SCESp 0121,2,OIML-CS,,"Load cells (R60:2000, R60:2017)",,,OIML-CS,,ACTIVE
+SCESp 0121,3,OIML-CS,,Non-automatic Weighing Instruments (R76:2006),,,OIML-CS,,ACTIVE
+SCESp 0121,4,OIML-CS,,Automatic Rail-weighbridges (R106:2011),,,OIML-CS,,ACTIVE
+SCESp 0121,5,OIML-CS,,Weighing road vehicles in motion (R134:2006),,,OIML-CS,,ACTIVE
+SCESp 0121,6,OIML-CS,,Technische Bereiche:,,,OIML-CS,,ACTIVE
 SCESp 0121,7,,construction,"Wasserzähler (MI-001) (Modul B* Module D, H1* Modul F*)",,,OIML R49,,ACTIVE
 SCESp 0121,8,,other_manufacturing,"Gaszähler und Mengenumwerter (MI-002) (Modul B* Module D, H1* Modul F*)",,,"OIML R137, SR 941.241",,ACTIVE
 SCESp 0121,9,,electrical,"Elektrizitätszähler für Wirkungsverbrauch (MI-003) (Modul B* Module D, H1* Modul F*)",,,"OIML R46, EMmV",,ACTIVE
@@ -132,9 +132,9 @@ SCESp 0022,9,,other_manufacturing,AVCP system Technical cation (specifi- Body fu
 SCESp 0022,10,,other_manufacturing,System 1+ EAD 0301,,,98/456/EC Post-tensioning kits for the prestressing of structures (1/1): • Post-tensioning systems for prestressing of structures (for the prestressing of structures),,ACTIVE
 SCESp 0035,1,,metals,"Elektrotechnische Erzeugnisse (Typenprüfung Sicherheit und optional, falls anwendbar EMV. Verfahren mit Fertigungsüberwachung nach CIG 021-024. Bestätigung der Konformität mit den Sicherheitsund optional EMV-Normen; Bestätigung der NRLund optional EMV-Richtlinie und den entsprechenden schweizerischen Verordnungen NEV und optional VEMV.)",,,"CERTIFEL CoC SEV, 13.04.2021; Nationales Zertifizierungsverfahren mit SEV-Konformitätszeichen",,ACTIVE
 SCESp 0035,2,,electrical,Elektrotechnische Erzeugnisse (Bestätigung der Konformität mit den Normen und den gesetzlichen Bestimmungen.),,,"CERTIFEL CoC, 13.04.2021; Nationales Zertifizierungsverfahren (nur Typenprüfung, ohne Fertigungsüberwachung)",,ACTIVE
-SCESp 0035,3,,ict,"Serviceorganisationen, die Erzeugnisse reparieren, welche in explosiver Atmosphäre eingesetzt werden (Normenkonformität mit der IEC/EN 60079-19 und IECEx OD 313-5, OD 314-5, OD 315-5 und OD 316- 5)",,,"IECEx 03-5 Part 5, (Ed 1.3), Oct. 2019; Service Facility Scheme",,ACTIVE
+SCESp 0035,3,IECEx Certified Equipment Scheme,,"Serviceorganisationen, die Erzeugnisse reparieren, welche in explosiver Atmosphäre eingesetzt werden (Normenkonformität mit der IEC/EN 60079-19 und IECEx OD 313-5, OD 314-5, OD 315-5 und OD 316- 5)",,,"IECEx 03-5 Part 5, (Ed 1.3), Oct. 2019; Service Facility Scheme",,ACTIVE
 SCESp 0035,4,,electrical,"Elektrotechnische Erzeugnisse gemäss Dokument ENEC 301, Annex B (Verfahren mit Konformitätssicherung nach CIG 021-024)",,,"ETICS, ENEC, 10.04.2019; Verfahren der europäischen Zertifizierungsorganisation mit Konformitätszeichen",,ACTIVE
-SCESp 0035,5,,ict,"Geräte, Baugruppen und Komponenten zur Verwendung in explosionsgefährdeten Bereichen (Typenprüfung Sicherheit und Konformitätssicherung nach IECEx- Verfahrensdokumenten)",,,"IECEx 03-0, (Ed.1.0), Dec.2017; Equipment Scheme Internationales Verfahren mit Konformitätssicherung",,ACTIVE
+SCESp 0035,5,IECEx Certified Equipment Scheme,,"Geräte, Baugruppen und Komponenten zur Verwendung in explosionsgefährdeten Bereichen (Typenprüfung Sicherheit und Konformitätssicherung nach IECEx- Verfahrensdokumenten)",,,"IECEx 03-0, (Ed.1.0), Dec.2017; Equipment Scheme Internationales Verfahren mit Konformitätssicherung",,ACTIVE
 SCESp 0035,6,ATEX Directive 2014/34/EU,,Geräte und Schutzsysteme zur Verwendung in explosionsgefährdeten Bereichen (Gerätegruppe I und II) (Verfahren nach ATEX-Richtlinie 2014/34/EU - Notified Body (NB 1258)),,,"ATEX-Richtlinie (EU), 2014/34/EU Annex III / IV / V / VI / VII / VIII / IX; VGSEB, SR 734.6",,ACTIVE
 SCESp 0035,7,,other_manufacturing,EU-Richtlinie für Geräte die (in explosiver Atmosphäre betrieben),,,"ATEX Atmosphère Explosive, werden",,ACTIVE
 SCESp 0035,8,,other_manufacturing,Agreement,,,CCA Cenelec Certification,,ACTIVE
@@ -145,7 +145,7 @@ SCESp 0035,12,,electrical,Compatibility,,,EMC Electro Magnetic,,ACTIVE
 SCESp 0035,13,,electrical,Verträglichkeit,,,EMV Elektromagnetische,,ACTIVE
 SCESp 0035,14,,electrical,Electrical Certification,,,ENEC European Norms,,ACTIVE
 SCESp 0035,15,,electrical,Commission system for (conformity testing),,,IECEE International Electrotechnical,,ACTIVE
-SCESp 0035,16,,electrical,Commission system for in explosive Atmosphere (certification to standards for),,,IECEx International Electrotechnical equipment used,,ACTIVE
+SCESp 0035,16,IECEx Certified Equipment Scheme,,Commission system for in explosive Atmosphere (certification to standards for),,,IECEx International Electrotechnical equipment used,,ACTIVE
 SCESp 0035,17,,other_manufacturing,Directive,,,LVD EU Low Voltage,,ACTIVE
 SCESp 0035,18,,other_manufacturing,kompetente Stelle,,,"NB EU Notified Body,",,ACTIVE
 SCESp 0035,19,,other_manufacturing,für Geräte die an einem gewissen (Spannungsbereich betrie-),,,NRL Niederspannungsrichtlinie ben werden,,ACTIVE

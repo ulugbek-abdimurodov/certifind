@@ -1,0 +1,8 @@
+ab_code,certificate_number,body_name,accreditation_standard,status,issue_date,expiry_date,proof_url
+IAJapan,ASNITE 0001,"National Metrology Institute of Japan (NMIJ), National Institute of Advanced Industrial Science and Technology (AIST)",ISO/IEC 17065,ACTIVE,2023-04-03,2027-04-02,https://www.nite.go.jp/data/000107498.pdf
+IAJapan,ASNITE 0011,"Inspection Center, Japan L.P. Gas Instrument Inspection Association",ISO/IEC 17065,ACTIVE,2025-01-23,2028-01-22,https://www.nite.go.jp/data/000000678.pdf
+IAJapan,ASNITE 0045,"Certification Division, KE’KEN Textile Testing & Certification Center",ISO/IEC 17065,ACTIVE,2025-03-19,2029-03-18,https://www.nite.go.jp/data/000000712.pdf
+IAJapan,ASNITE 0064,"Railway Certification Center, National Traffic Safety and Environment Laboratory,National Agency for Automobile and Land Transport Technology",ISO/IEC 17065,ACTIVE,2024-10-27,2028-10-26,https://www.nite.go.jp/data/000000731.pdf
+IAJapan,ASNITE 0131,Technology Institution of Industrial Safety,ISO/IEC 17065,ACTIVE,2025-09-19,2029-09-18,https://www.nite.go.jp/data/000141280.pdf
+IAJapan,ASNITE 0135,Japan Environment Association,ISO/IEC 17065,ACTIVE,2023-03-03,2027-03-02,https://www.nite.go.jp/data/000143524.pdf
+IAJapan,ASNITE 0142,Japan Gas Appliances Inspection Association,ISO/IEC 17065,ACTIVE,2024-08-21,2028-08-20,https://www.nite.go.jp/data/000155193.pdf

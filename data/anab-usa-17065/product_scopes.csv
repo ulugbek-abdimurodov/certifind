@@ -475,9 +475,9 @@ certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_t
 0204,165,Best Aquaculture Practices,,Category 5: Mollusk Farms,,"Global Aquaculture Alliance, Best Aquaculture Practices Standards",,,ACTIVE
 0204,166,Best Aquaculture Practices,,Category 6: Feed Mills,,"Global Aquaculture Alliance, Best Aquaculture Practices Standards",,,ACTIVE
 0204,167,Best Aquaculture Practices,,Category 7: Group Farms and Hatcheries,,"Global Aquaculture Alliance, Best Aquaculture Practices Standards",,,ACTIVE
-0204,168,,rubber_plastics,Scope 1 - Certification of mechanical textile processing and manufacturing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-0204,169,,rubber_plastics,Scope 2 - Certification of wet processing and finishing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-0204,170,,rubber_plastics,Scope 3 - Certification of trading operations and related products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+0204,168,GOTS,,Scope 1 - Certification of mechanical textile processing and manufacturing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+0204,169,GOTS,,Scope 2 - Certification of wet processing and finishing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+0204,170,GOTS,,Scope 3 - Certification of trading operations and related products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
 0204,171,,chemicals,Cosmetics/Personal Care Products,,Global Retailer and Manufacturer Alliance (GRMA) Master Certification Program Document,,,ACTIVE
 0204,172,,rubber_plastics,Dietary Supplements,,Global Retailer and Manufacturer Alliance (GRMA) Master Certification Program Document,,,ACTIVE
 0204,173,,rubber_plastics,Over-the-Counter Drugs,,Global Retailer and Manufacturer Alliance (GRMA) Master Certification Program Document,,,ACTIVE
@@ -528,10 +528,10 @@ certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_t
 0204,218,SQF,,SQF Food Safety Code: Pet Food Manufacturing Edition 9.0,,SQF Code Edition 9.0 October 2020,,,ACTIVE
 0204,219,SQF,,SQF Food Safety Code: Storage and Distribution Edition 9.0,,SQF Code Edition 9.0 October 2020,,,ACTIVE
 0204,220,SQF,,SQF Quality Code Edition 9.0,,SQF Code Edition 9.0 October 2020,,,ACTIVE
-0204,221,,construction,Content Claim Standard (CCS),,Textile Exchange Certification Scheme,,,ACTIVE
-0204,222,,rubber_plastics,Global Recycled Standard (GRS),,Textile Exchange Certification Scheme,,,ACTIVE
-0204,223,,construction,Organic Content Standard (OCS),,Textile Exchange Certification Scheme,,,ACTIVE
-0204,224,,construction,Recycled Claim Standard (RCS),,Textile Exchange Certification Scheme,,,ACTIVE
+0204,221,Content Claim Standard,,Content Claim Standard (CCS),,Textile Exchange Certification Scheme,,,ACTIVE
+0204,222,Global Recycled Standard,,Global Recycled Standard (GRS),,Textile Exchange Certification Scheme,,,ACTIVE
+0204,223,Organic Content Standard,,Organic Content Standard (OCS),,Textile Exchange Certification Scheme,,,ACTIVE
+0204,224,Recycled Claim Standard,,Recycled Claim Standard (RCS),,Textile Exchange Certification Scheme,,,ACTIVE
 0216,1,,agriculture,07.100 Microbiology,,07 MATHEMATICS. NATURAL SCIENCES,,,ACTIVE
 0216,2,,health,11.040 Medical equipment,,11 HEALTH CARE TECHNOLOGY,,,ACTIVE
 0216,3,,health,11.060 Dentistry,,11 HEALTH CARE TECHNOLOGY,,,ACTIVE
@@ -906,8 +906,8 @@ certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_t
 0821,71,,energy,SBP Standard 3: Certification Systems. Requirements for Certification Bodies - 26 March 2015,,Sustainable Biomass Program (SBP),,,ACTIVE
 0821,72,,energy,SBP Standard 4: Chain of Custody - 26 March 2015,,Sustainable Biomass Program (SBP),,,ACTIVE
 0821,73,,energy,SBP Standard 5: Collection and Communication of Data - 26 March 2015,,Sustainable Biomass Program (SBP),,,ACTIVE
-0821,74,,rubber_plastics,Global Recycled Standard (GRS),,Textile Exchange Certification Scheme,,,ACTIVE
-0821,75,,construction,Recycled Claim Standard (RCS),,Textile Exchange Certification Scheme,,,ACTIVE
+0821,74,Global Recycled Standard,,Global Recycled Standard (GRS),,Textile Exchange Certification Scheme,,,ACTIVE
+0821,75,Recycled Claim Standard,,Recycled Claim Standard (RCS),,Textile Exchange Certification Scheme,,,ACTIVE
 0821,76,,construction,Responsible Wool Standard,,Textile Exchange Certification Scheme,,,ACTIVE
 0828,1,,professional,112: Produce Safety Rule,,"(FDA FSMA SubPart M) SGS North America Inc. - Voluntary Qualified Importer Program (VQIP) using:(FDA FSMA SubPart M) Title 21 CFR Parts 1, 11, and 16 - Accreditation of Third-Party Certification Bodies to Conduct Food Safety Audits and to Issue Certifications; Subpart M - Final Rule FDA Voluntary Qualified Importer Program Guidance for Industry (FDA Rules), November 2016 (21 CFR Subpart M) Third-Party Certification Body Accreditation for Food Safety Audits: Model Accreditation Standards: Guidance for Industry and FDA Staff, December 2016",,,ACTIVE
 0828,2,,professional,113: Low Acid Canned Food,,"(FDA FSMA SubPart M) SGS North America Inc. - Voluntary Qualified Importer Program (VQIP) using:(FDA FSMA SubPart M) Title 21 CFR Parts 1, 11, and 16 - Accreditation of Third-Party Certification Bodies to Conduct Food Safety Audits and to Issue Certifications; Subpart M - Final Rule FDA Voluntary Qualified Importer Program Guidance for Industry (FDA Rules), November 2016 (21 CFR Subpart M) Third-Party Certification Body Accreditation for Food Safety Audits: Model Accreditation Standards: Guidance for Industry and FDA Staff, December 2016",,,ACTIVE
@@ -1096,10 +1096,10 @@ certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_t
 0894,39,SQF,,SQF Food Safety Code: Primary Plant Production Edition 9.0,,SQF Code Edition 9.0 October 2020,,,ACTIVE
 0894,40,SQF,,SQF Food Safety Code: Storage and Distribution Edition 9.0,,SQF Code Edition 9.0 October 2020,,,ACTIVE
 0894,41,SQF,,SQF Quality Code Edition 9.0,,SQF Code Edition 9.0 October 2020,,,ACTIVE
-0956,1,,professional,"Content Claim Standard (CCS) 3.1, CCS-101-V3.1-2022.06.09",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
-0956,2,,professional,Global Recycled Standard (GRS) 4.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
-0956,3,,professional,"Organic Content Standard (OCS) 3.0, OCS-101-V3.0-2020.03.01",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
-0956,4,,professional,Recycled Claim Standard (RCS) 2.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+0956,1,Content Claim Standard,,"Content Claim Standard (CCS) 3.1, CCS-101-V3.1-2022.06.09",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+0956,2,Global Recycled Standard,,Global Recycled Standard (GRS) 4.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+0956,3,Organic Content Standard,,"Organic Content Standard (OCS) 3.0, OCS-101-V3.0-2020.03.01",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+0956,4,Recycled Claim Standard,,Recycled Claim Standard (RCS) 2.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
 0956,5,,energy,Appliances,,EPA ENERGY STAR®,,,ACTIVE
 0956,6,,energy,Commercial Food Service Equipment,,EPA ENERGY STAR®,,,ACTIVE
 0956,7,,electrical,Electronics,,EPA ENERGY STAR®,,,ACTIVE
@@ -1107,10 +1107,10 @@ certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_t
 0956,9,,energy,Lighting,,EPA ENERGY STAR®,,,ACTIVE
 0956,10,,energy,Office Equipment,,EPA ENERGY STAR®,,,ACTIVE
 0956,11,,energy,Other,,EPA ENERGY STAR®,,,ACTIVE
-0956,12,,rubber_plastics,Scope 1 - Certification of mechanical textile processing and manufacturing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-0956,13,,rubber_plastics,Scope 2 - Certification of wet processing and finishing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-0956,14,,rubber_plastics,Scope 3 - Certification of trading operations and related products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-0956,15,,chemicals,Scope 4 - Approval of textile auxiliary agents (chemical inputs) for use in the processing of GOTS Goods,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+0956,12,GOTS,,Scope 1 - Certification of mechanical textile processing and manufacturing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+0956,13,GOTS,,Scope 2 - Certification of wet processing and finishing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+0956,14,GOTS,,Scope 3 - Certification of trading operations and related products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+0956,15,GOTS,,Scope 4 - Approval of textile auxiliary agents (chemical inputs) for use in the processing of GOTS Goods,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
 0956,16,ISCC EU,,Biomass and Biomass based products,,ISCC EU: International Sustainability and Carbon Certification Scheme,,,ACTIVE
 0956,17,ISCC PLUS,,"Food, Feed, Bio-based products, Energy, Biofuels",,ISCC PLUS - International Sustainability & Carbon Certification:,,,ACTIVE
 0961,1,,construction,81.040 Glass,,81 GLASS AND CERAMICS INDUSTRIES,,,ACTIVE
@@ -1353,9 +1353,9 @@ certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_t
 1054,53,Radio Equipment Directive 2014/53/EU,,Radio equipment (excluding equipment as stipulated in Article 1.2 and Article 1.3 of the EU Radio Equipment Directive 2014/53/EU,,"Radio Equipment Directive (RED) For the EU EU Radio Equipment Directive 2014/53/EU - Annex III (Module B: EU Type Examination) only, taking into account EA-2/17 M:2020",,,ACTIVE
 1054,54,Radio Equipment Directive 2014/53/EU,,RED Article 3.3g (Access to emergency services),,"Radio Equipment Directive (RED) For the EU EU Radio Equipment Directive 2014/53/EU - Annex III (Module B: EU Type Examination) only, taking into account EA-2/17 M:2020",,,ACTIVE
 1054,55,Radio Equipment Directive 2014/53/EU,,RED Article 3.4 (Common charger),,"Radio Equipment Directive (RED) For the EU EU Radio Equipment Directive 2014/53/EU - Annex III (Module B: EU Type Examination) only, taking into account EA-2/17 M:2020",,,ACTIVE
-1054,56,,construction,Content Claim Standard (CCS),,Textile Exchange Certification Scheme,,,ACTIVE
-1054,57,,rubber_plastics,Global Recycled Standard (GRS),,Textile Exchange Certification Scheme,,,ACTIVE
-1054,58,,construction,Recycled Claim Standard (RCS),,Textile Exchange Certification Scheme,,,ACTIVE
+1054,56,Content Claim Standard,,Content Claim Standard (CCS),,Textile Exchange Certification Scheme,,,ACTIVE
+1054,57,Global Recycled Standard,,Global Recycled Standard (GRS),,Textile Exchange Certification Scheme,,,ACTIVE
+1054,58,Recycled Claim Standard,,Recycled Claim Standard (RCS),,Textile Exchange Certification Scheme,,,ACTIVE
 1056,1,,metals,"25.160 Welding, brazing and soldering",,25 MANUFACTURING ENGINEERING,,,ACTIVE
 1056,2,,other_manufacturing,25.220 Surface treatment and coating,,25 MANUFACTURING ENGINEERING,,,ACTIVE
 1056,3,,metals,"AWS Welding Code Certification Program - DOTQS QP-003(13 Oct 2014) - AWS D1.1:2010 Structural Welding Code -- Steel, and AASHTO/AWS D.1.5:2010 Bridge Welding Code",,,,,ACTIVE
@@ -1911,12 +1911,12 @@ certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_t
 1277,1,,construction,91.060 Elements of buildings,,91 CONSTRUCTION MATERIALS AND BUILDING,,,ACTIVE
 8889,1,,textiles,Clothing and related products,,,,,ACTIVE
 8889,2,,chemicals,Cosmetics,,,,,ACTIVE
-8889,3,,food,Halal Beverage,,,,,ACTIVE
-8889,4,,chemicals,Halal Chemical and Biochemical manufacturing,,,,,ACTIVE
-8889,5,,food,Halal Food,,,,,ACTIVE
-8889,6,,food,Halal Nutraceuticals,,,,,ACTIVE
-8889,7,,food,Halal Personal Care products,,,,,ACTIVE
-8889,8,,health,Halal Pharmaceutical,,,,,ACTIVE
+8889,3,Halal,,Halal Beverage,,,,,ACTIVE
+8889,4,Halal,,Halal Chemical and Biochemical manufacturing,,,,,ACTIVE
+8889,5,Halal,,Halal Food,,,,,ACTIVE
+8889,6,Halal,,Halal Nutraceuticals,,,,,ACTIVE
+8889,7,Halal,,Halal Personal Care products,,,,,ACTIVE
+8889,8,Halal,,Halal Pharmaceutical,,,,,ACTIVE
 8889,9,,professional,Processing 1 (Perishable animal products),,,,,ACTIVE
 8889,10,,professional,Processing 2 (Perishable vegetable products),,,,,ACTIVE
 8889,11,,professional,Processing 3 (Products with long shelf life at room temperature),,,,,ACTIVE
@@ -2001,16 +2001,16 @@ certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_t
 9003,23,,food,Product Category 09: Oils and fats,,"International Featured Standards (IFS) Food, Version 7 October 2020",,,ACTIVE
 9003,24,,food,"Product Category 10: Dry goods, other ingredients and supplements",,"International Featured Standards (IFS) Food, Version 7 October 2020",,,ACTIVE
 9003,25,,food,Product Category 11: Pet food,,"International Featured Standards (IFS) Food, Version 7 October 2020",,,ACTIVE
-9075,1,,professional,"Content Claim Standard (CCS) 3.1, CCS-101-V3.1-2022.06.09",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
-9075,2,,professional,Global Recycled Standard (GRS) 4.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
-9075,3,,professional,"Organic Content Standard (OCS) 3.0, OCS-101-V3.0-2020.03.01",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
-9075,4,,professional,Recycled Claim Standard (RCS) 2.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+9075,1,Content Claim Standard,,"Content Claim Standard (CCS) 3.1, CCS-101-V3.1-2022.06.09",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+9075,2,Global Recycled Standard,,Global Recycled Standard (GRS) 4.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+9075,3,Organic Content Standard,,"Organic Content Standard (OCS) 3.0, OCS-101-V3.0-2020.03.01",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+9075,4,Recycled Claim Standard,,Recycled Claim Standard (RCS) 2.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
 9075,5,,professional,Responsible Animal Fiber (RAF),,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
 9075,6,,professional,"Responsible Down Standard (RDS) 3.0, RDS-101-V3.0-2019.07.01",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
-9075,7,,rubber_plastics,Scope 1 - Certification of mechanical textile processing and manufacturing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9075,8,,rubber_plastics,Scope 2 - Certification of wet processing and finishing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9075,9,,rubber_plastics,Scope 3 - Certification of trading operations and related products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9075,10,,chemicals,Scope 4 - Approval of textile auxiliary agents (chemical inputs) for use in the processing of GOTS Goods,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9075,7,GOTS,,Scope 1 - Certification of mechanical textile processing and manufacturing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9075,8,GOTS,,Scope 2 - Certification of wet processing and finishing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9075,9,GOTS,,Scope 3 - Certification of trading operations and related products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9075,10,GOTS,,Scope 4 - Approval of textile auxiliary agents (chemical inputs) for use in the processing of GOTS Goods,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
 9077,1,,agriculture,SENASA Organic Products Program,,Programa de Produccion Organica de SENASA - Argentina,,,ACTIVE
 9095,1,,food,Seafood,,"Alaska Responsible Fisheries Management (RFM) Chain-of-Custody, Version 2.4, November 2015",,,ACTIVE
 9108,1,,wood_paper,67.250 Materials and articles in contact with foodstuffs,,67 FOOD TECHNOLOGY,,,ACTIVE
@@ -2084,12 +2084,12 @@ certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_t
 9113,66,,other_manufacturing,QIMA Product Certification Scheme,,,,,ACTIVE
 9120,1,,food,"Production, Packing, and Storage",,CanadaGAP Program Management Manual Version 11.0 - April 2026CanadaGAP Food Safety Manuals Version 11.0 - April 2026,,,ACTIVE
 9120,2,,food,"Repacking, Wholesaling and Brokerage",,CanadaGAP Program Management Manual Version 11.0 - April 2026CanadaGAP Food Safety Manuals Version 11.0 - April 2026,,,ACTIVE
-9120,3,,professional,"Content Claim Standard (CCS) 3.1, CCS-101-V3.1-2022.06.09",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
-9120,4,,professional,Global Recycled Standard (GRS) 4.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
-9120,5,,professional,Recycled Claim Standard (RCS) 2.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
-9120,6,,rubber_plastics,Scope 1 - Certification of mechanical textile processing and manufacturing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9120,7,,rubber_plastics,Scope 2 - Certification of wet processing and finishing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9120,8,,rubber_plastics,Scope 3 - Certification of trading operations and related products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9120,3,Content Claim Standard,,"Content Claim Standard (CCS) 3.1, CCS-101-V3.1-2022.06.09",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+9120,4,Global Recycled Standard,,Global Recycled Standard (GRS) 4.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+9120,5,Recycled Claim Standard,,Recycled Claim Standard (RCS) 2.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+9120,6,GOTS,,Scope 1 - Certification of mechanical textile processing and manufacturing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9120,7,GOTS,,Scope 2 - Certification of wet processing and finishing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9120,8,GOTS,,Scope 3 - Certification of trading operations and related products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
 9120,9,IFS PACsecure,,IFS PACsecure,,,,,ACTIVE
 9120,10,,food,"Product Category 01: Red and white meat, poultry and meat products",,"International Featured Standard (IFS) Food Version 8, April 2023",,,ACTIVE
 9120,11,,food,Product Category 02: Fish and fish products,,"International Featured Standard (IFS) Food Version 8, April 2023",,,ACTIVE
@@ -2118,12 +2118,12 @@ certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_t
 9125,12,,energy,SBP Standard 4: Chain of Custody - 26 March 2015,,Sustainable Biomass Program (SBP),,,ACTIVE
 9125,13,,energy,SBP Standard 5: Collection and Communication of Data - 26 March 2015,,Sustainable Biomass Program (SBP),,,ACTIVE
 9125,14,,energy,SBP Standard 6: Energy and Carbon Balance Calculation - 26 March 2015,,Sustainable Biomass Program (SBP),,,ACTIVE
-9126,1,,rubber_plastics,Scope 1 - Certification of mechanical textile processing and manufacturing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9126,2,,rubber_plastics,Scope 2 - Certification of wet processing and finishing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9126,3,,rubber_plastics,Scope 3 - Certification of trading operations and related products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9126,4,,construction,Content Claim Standard (CCS),,Textile Exchange Certification Scheme,,,ACTIVE
-9126,5,,rubber_plastics,Global Recycled Standard (GRS),,Textile Exchange Certification Scheme,,,ACTIVE
-9126,6,,construction,Organic Content Standard (OCS),,Textile Exchange Certification Scheme,,,ACTIVE
+9126,1,GOTS,,Scope 1 - Certification of mechanical textile processing and manufacturing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9126,2,GOTS,,Scope 2 - Certification of wet processing and finishing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9126,3,GOTS,,Scope 3 - Certification of trading operations and related products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9126,4,Content Claim Standard,,Content Claim Standard (CCS),,Textile Exchange Certification Scheme,,,ACTIVE
+9126,5,Global Recycled Standard,,Global Recycled Standard (GRS),,Textile Exchange Certification Scheme,,,ACTIVE
+9126,6,Organic Content Standard,,Organic Content Standard (OCS),,Textile Exchange Certification Scheme,,,ACTIVE
 9126,7,,construction,Responsible Down Standard,,Textile Exchange Certification Scheme,,,ACTIVE
 9138,1,,energy,SBP Standard 1: Feedstock Compliance Standard - 26 March 2015,,Sustainable Biomass Program (SBP),,,ACTIVE
 9138,2,,energy,SBP Standard 2: Verification of SBP-compliant Feedstock - 26 March 2015,,Sustainable Biomass Program (SBP),,,ACTIVE
@@ -2158,13 +2158,13 @@ certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_t
 9145,4,,energy,SBP Standard 4: Chain of Custody - 26 March 2015,,Sustainable Biomass Program (SBP),,,ACTIVE
 9145,5,,energy,SBP Standard 5: Collection and Communication of Data - 26 March 2015,,Sustainable Biomass Program (SBP),,,ACTIVE
 9145,6,,energy,SBP Standard 6: Energy and Carbon Balance Calculation - 26 March 2015,,Sustainable Biomass Program (SBP),,,ACTIVE
-9148,1,,rubber_plastics,Scope 1 - Certification of mechanical textile processing and manufacturing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9148,2,,rubber_plastics,Scope 2 - Certification of wet processing and finishing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9148,3,,rubber_plastics,Scope 3 - Certification of trading operations and related products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9148,4,,construction,Content Claim Standard (CCS),,Textile Exchange Certification Scheme,,,ACTIVE
-9148,5,,rubber_plastics,Global Recycled Standard (GRS),,Textile Exchange Certification Scheme,,,ACTIVE
-9148,6,,construction,Organic Content Standard (OCS),,Textile Exchange Certification Scheme,,,ACTIVE
-9148,7,,construction,Recycled Claim Standard (RCS),,Textile Exchange Certification Scheme,,,ACTIVE
+9148,1,GOTS,,Scope 1 - Certification of mechanical textile processing and manufacturing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9148,2,GOTS,,Scope 2 - Certification of wet processing and finishing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9148,3,GOTS,,Scope 3 - Certification of trading operations and related products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9148,4,Content Claim Standard,,Content Claim Standard (CCS),,Textile Exchange Certification Scheme,,,ACTIVE
+9148,5,Global Recycled Standard,,Global Recycled Standard (GRS),,Textile Exchange Certification Scheme,,,ACTIVE
+9148,6,Organic Content Standard,,Organic Content Standard (OCS),,Textile Exchange Certification Scheme,,,ACTIVE
+9148,7,Recycled Claim Standard,,Recycled Claim Standard (RCS),,Textile Exchange Certification Scheme,,,ACTIVE
 9150,1,EMC Directive 2014/30/EU,,Electrical and electronic equipment (excluding equipment as stipulated in Article 2.2 of the EU EMC Directive 2014/30/EU,,"Electromagnetic Compatibility (EMC) Directive For the EU EU EMC Directive 2014/30/EU - Annex III - Part A (Module B: EU Type Examination) only, taking into account EA-2/17 M:2020",,,ACTIVE
 9150,2,Radio Equipment Directive 2014/53/EU,,Radio equipment (excluding equipment as stipulated in Article 1.2 and Article 1.3 of the EU Radio Equipment Directive 2014/53/EU,,"Radio Equipment Directive (RED) For the EU EU Radio Equipment Directive 2014/53/EU - Annex III (Module B: EU Type Examination) only, taking into account EA-2/17 M:2020",,,ACTIVE
 9156,1,EMC Directive 2014/30/EU,,Electrical and electronic equipment (excluding equipment as stipulated in Article 2.2 of the EU EMC Directive 2014/30/EU,,"Electromagnetic Compatibility (EMC) Directive For the EU EU EMC Directive 2014/30/EU - Annex III - Part A (Module B: EU Type Examination) only, taking into account EA-2/17 M:2020",,,ACTIVE
@@ -2200,10 +2200,10 @@ certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_t
 9166,16,SQF,,SQF Food Safety Code: Primary Plant Production Edition 9.0,,SQF Code Edition 9.0 October 2020,,,ACTIVE
 9166,17,SQF,,SQF Food Safety Code: Storage and Distribution Edition 9.0,,SQF Code Edition 9.0 October 2020,,,ACTIVE
 9166,18,SQF,,SQF Quality Code Edition 9.0,,SQF Code Edition 9.0 October 2020,,,ACTIVE
-9178,1,,professional,"Content Claim Standard (CCS) 3.1, CCS-101-V3.1-2022.06.09",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
-9178,2,,professional,Global Recycled Standard (GRS) 4.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
-9178,3,,professional,"Organic Content Standard (OCS) 3.0, OCS-101-V3.0-2020.03.01",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
-9178,4,,professional,Recycled Claim Standard (RCS) 2.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+9178,1,Content Claim Standard,,"Content Claim Standard (CCS) 3.1, CCS-101-V3.1-2022.06.09",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+9178,2,Global Recycled Standard,,Global Recycled Standard (GRS) 4.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+9178,3,Organic Content Standard,,"Organic Content Standard (OCS) 3.0, OCS-101-V3.0-2020.03.01",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+9178,4,Recycled Claim Standard,,Recycled Claim Standard (RCS) 2.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
 9190,1,,other_manufacturing,BIFMA level TM Certification Program for ANSI/BIFMA e3-2019 Furniture Sustainability Standard,,,,,ACTIVE
 9194,1,,other_manufacturing,SENASICA LPO,,,,,ACTIVE
 9196,1,PrimusGFS,,"BI - Farm, Indoor Agriculture, Harvest Crew",,"PrimusGFS General Regulations v3.2 January 24, 2022",,,ACTIVE
@@ -2283,19 +2283,19 @@ certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_t
 9223,1,,construction,91.020 Physical planning. Town planning,,91 CONSTRUCTION MATERIALS AND BUILDING,,,ACTIVE
 9223,2,,construction,91.200 Construction technology,,91 CONSTRUCTION MATERIALS AND BUILDING,,,ACTIVE
 9223,3,,other_manufacturing,Real Estate Trust Certificate,,,,,ACTIVE
-9224,1,,professional,"Content Claim Standard (CCS) 3.1, CCS-101-V3.1-2022.06.09",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
-9224,2,,professional,Global Recycled Standard (GRS) 4.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
-9224,3,,rubber_plastics,Scope 1 - Certification of mechanical textile processing and manufacturing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9224,4,,rubber_plastics,Scope 2 - Certification of wet processing and finishing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9224,5,,rubber_plastics,Scope 3 - Certification of trading operations and related products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9228,1,,rubber_plastics,Scope 1 - Certification of mechanical textile processing and manufacturing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9228,2,,rubber_plastics,Scope 2 - Certification of wet processing and finishing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9228,3,,rubber_plastics,Scope 3 - Certification of trading operations and related products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9228,4,,chemicals,Scope 4 - Approval of textile auxiliary agents (chemical inputs) for use in the processing of GOTS Goods,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9228,5,,construction,Content Claim Standard (CCS),,Textile Exchange Certification Scheme,,,ACTIVE
-9228,6,,rubber_plastics,Global Recycled Standard (GRS),,Textile Exchange Certification Scheme,,,ACTIVE
-9228,7,,construction,Organic Content Standard (OCS),,Textile Exchange Certification Scheme,,,ACTIVE
-9228,8,,construction,Recycled Claim Standard (RCS),,Textile Exchange Certification Scheme,,,ACTIVE
+9224,1,Content Claim Standard,,"Content Claim Standard (CCS) 3.1, CCS-101-V3.1-2022.06.09",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+9224,2,Global Recycled Standard,,Global Recycled Standard (GRS) 4.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+9224,3,GOTS,,Scope 1 - Certification of mechanical textile processing and manufacturing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9224,4,GOTS,,Scope 2 - Certification of wet processing and finishing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9224,5,GOTS,,Scope 3 - Certification of trading operations and related products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9228,1,GOTS,,Scope 1 - Certification of mechanical textile processing and manufacturing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9228,2,GOTS,,Scope 2 - Certification of wet processing and finishing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9228,3,GOTS,,Scope 3 - Certification of trading operations and related products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9228,4,GOTS,,Scope 4 - Approval of textile auxiliary agents (chemical inputs) for use in the processing of GOTS Goods,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9228,5,Content Claim Standard,,Content Claim Standard (CCS),,Textile Exchange Certification Scheme,,,ACTIVE
+9228,6,Global Recycled Standard,,Global Recycled Standard (GRS),,Textile Exchange Certification Scheme,,,ACTIVE
+9228,7,Organic Content Standard,,Organic Content Standard (OCS),,Textile Exchange Certification Scheme,,,ACTIVE
+9228,8,Recycled Claim Standard,,Recycled Claim Standard (RCS),,Textile Exchange Certification Scheme,,,ACTIVE
 9230,1,GLOBALG.A.P. IFA,,Crops Base: Combinable Crops,,GlobalG.A.P. General Regulations Integrated Farm Assurance: Option 1 - Individual Producer Certification,,,ACTIVE
 9230,2,GLOBALG.A.P. IFA,,Crops Base: Flowers & Ornamentals,,GlobalG.A.P. General Regulations Integrated Farm Assurance: Option 1 - Individual Producer Certification,,,ACTIVE
 9230,3,GLOBALG.A.P. IFA,,Crops Base: Fruit & Vegetables,,GlobalG.A.P. General Regulations Integrated Farm Assurance: Option 1 - Individual Producer Certification,,,ACTIVE
@@ -2337,17 +2337,17 @@ certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_t
 9235,1,,transport_equipment,43.040 Road vehicle systems,,43 ROAD VEHICLES ENGINEERING,,,ACTIVE
 9241,1,,wood_paper,Composite Wood Products EPA TSCA Title VI Third-Party Certification Program - Formaldehyde Standards for Composite Wood Products,,40 CFR Part 770 - Formaldehyde Standards for Composite Wood Products,,,ACTIVE
 9242,1,,public_education,35.240 Applications of information technology,,35 INFORMATION TECHNOLOGY. OFFICE MACHINES,,,ACTIVE
-9257,1,,construction,Content Claim Standard (CCS),,Textile Exchange Certification Scheme,,,ACTIVE
-9257,2,,rubber_plastics,Global Recycled Standard (GRS),,Textile Exchange Certification Scheme,,,ACTIVE
-9257,3,,construction,Organic Content Standard (OCS),,Textile Exchange Certification Scheme,,,ACTIVE
-9257,4,,construction,Recycled Claim Standard (RCS),,Textile Exchange Certification Scheme,,,ACTIVE
-9269,1,,professional,"Content Claim Standard (CCS) 3.1, CCS-101-V3.1-2022.06.09",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
-9269,2,,professional,Global Recycled Standard (GRS) 4.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
-9269,3,,professional,Recycled Claim Standard (RCS) 2.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
-9269,4,,rubber_plastics,Scope 1 - Certification of mechanical textile processing and manufacturing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9269,5,,rubber_plastics,Scope 2 - Certification of wet processing and finishing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9269,6,,rubber_plastics,Scope 3 - Certification of trading operations and related products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
-9269,7,,chemicals,Scope 4 - Approval of textile auxiliary agents (chemical inputs) for use in the processing of GOTS Goods,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9257,1,Content Claim Standard,,Content Claim Standard (CCS),,Textile Exchange Certification Scheme,,,ACTIVE
+9257,2,Global Recycled Standard,,Global Recycled Standard (GRS),,Textile Exchange Certification Scheme,,,ACTIVE
+9257,3,Organic Content Standard,,Organic Content Standard (OCS),,Textile Exchange Certification Scheme,,,ACTIVE
+9257,4,Recycled Claim Standard,,Recycled Claim Standard (RCS),,Textile Exchange Certification Scheme,,,ACTIVE
+9269,1,Content Claim Standard,,"Content Claim Standard (CCS) 3.1, CCS-101-V3.1-2022.06.09",,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+9269,2,Global Recycled Standard,,Global Recycled Standard (GRS) 4.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+9269,3,Recycled Claim Standard,,Recycled Claim Standard (RCS) 2.0,,Accreditation and Certification Procedures for Textile Exchange Standards 2.1 ASR-101-V2.1-2020.07.01,,,ACTIVE
+9269,4,GOTS,,Scope 1 - Certification of mechanical textile processing and manufacturing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9269,5,GOTS,,Scope 2 - Certification of wet processing and finishing operations and their products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9269,6,GOTS,,Scope 3 - Certification of trading operations and related products,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
+9269,7,GOTS,,Scope 4 - Approval of textile auxiliary agents (chemical inputs) for use in the processing of GOTS Goods,,"Global Organic Textile Standard, Approval Procedure and Requirements for Certification Bodies, Version 3.0, Issue of July 15, 2022",,,ACTIVE
 9271,1,PEFC Chain of Custody,,PEFC ST 2001:2020 PEFC Trademarks Rules - Requirements,,PEFC - Programme for the Endorsement of Forest Certification,,,ACTIVE
 9271,2,PEFC Chain of Custody,,PEFC ST 2002-1:2024 - Requirements for the Implementation of PEFC EUDR Due Diligence System,,PEFC - Programme for the Endorsement of Forest Certification,,,ACTIVE
 9271,3,PEFC Chain of Custody,,PEFC ST 2002:2020 Chain of Custody of Forest and Tree Based Products - Requirements,,PEFC - Programme for the Endorsement of Forest Certification,,,ACTIVE

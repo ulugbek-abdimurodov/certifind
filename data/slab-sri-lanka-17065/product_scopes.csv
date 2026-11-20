@@ -8,7 +8,7 @@ CP 004-01,6,,rubber_plastics,"Certification of non-food fiber/ raw material to f
 CP 004-01,7,,rubber_plastics,"Certification of non-food fiber/ raw material to finished products including Textile, Leather, Polymer products, paper, metal, glass, rubber with trading.",,,* GRS Version 4.0 (2017),,ACTIVE
 CP 004-01,8,,construction,"Certification of fiber to finished products including Textile, Leather with trading.",,,* RDS Version 3.0 (2019),,ACTIVE
 CP 004-01,9,,construction,"Certification of fiber to finished products including Textile, Leather with trading.",,,"*RAF -CCS Version 3.1 (2022), Farm: RWS Version 2.2 (2021), RAS Version 1.0 (2021), RMS Version 1.2 (2021).",,ACTIVE
-CP 004-01,10,,rubber_plastics,,,,* OCS - Organic Content Standard * CCS - Content Claim Standard * RCS - Recycle Claim Standard * RDS - Responsible Down Standard * RAF - Responsible Alpaca Standard * GRS - Global Recycled Standard * RWS - Responsible Wool Standard * RAS - Responsible Alpaca Standard * RMS - Responsible Mohair Standard,,ACTIVE
+CP 004-01,10,Global Recycled Standard,,,,,* OCS - Organic Content Standard * CCS - Content Claim Standard * RCS - Recycle Claim Standard * RDS - Responsible Down Standard * RAF - Responsible Alpaca Standard * GRS - Global Recycled Standard * RWS - Responsible Wool Standard * RAS - Responsible Alpaca Standard * RMS - Responsible Mohair Standard,,ACTIVE
 CP 008-01,1,,agriculture,"a) Unprocessed agricultural crop, livestock, aquacultur and apiculture products, excluding tobacco and any other material restricted by government laws. b) Processed agricultural crop, livestock, aquaculture and apiculture products intended for human consumption containing one or more ingredient(s) derived from (a) above.",,,SLS 1324: 2018,,ACTIVE
 CP 008-01,2,,other_manufacturing,Scheme Requirements for Good Manufacturing Practices (CU Manual and ISO22716 Manual) as per;,,,,ISO 22716,ACTIVE
 CP 008-01,3,,chemicals,"All processes pertaining to production, control, packing, storage and shipment of cosmetic products",,,ISO 22716:2007,ISO 22716,ACTIVE
@@ -21,7 +21,7 @@ CP 009-01,6,,chemicals,"All processes pertaining to production, control, storage
 CP 009-01,7,,professional,All processes pertaining to cleansing material,,,SLS 1348:2008,,ACTIVE
 CP 009-01,8,,professional,All processes pertaining to coir fibre pith substrate,,,SLS 1487:2014,,ACTIVE
 CP 009-02,1,,agriculture,Organic Product Certification,,,SLS 1324:2025,,ACTIVE
-CP 010-02,1,,rubber_plastics,Certification of mechanical textile processing and manufacturing operations and their products (Scope 1),,,Global Organic Textile Standard Version 7.0,,ACTIVE
+CP 010-02,1,GOTS,,Certification of mechanical textile processing and manufacturing operations and their products (Scope 1),,,Global Organic Textile Standard Version 7.0,,ACTIVE
 CP 010-02,2,,professional,Certification of wet processing and finishing operations and their products (Scope 2),,,,,ACTIVE
 CP 010-02,3,,other_manufacturing,Certification of trading operations and related products (Scope 3),,,,,ACTIVE
 CP 011-01,1,,agriculture,"1. Unprocessed agricultural crop-livestock, aquaculture and apiculture products, excluding tobacco and any other material restricted by government laws",,,SLS 1324: 2018,,ACTIVE

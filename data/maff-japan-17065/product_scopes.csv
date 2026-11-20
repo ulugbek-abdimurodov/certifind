@@ -1,0 +1,171 @@
+certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_text,normative_docs,standard_refs,status
+JAS-1,1,,food,Instant noodles,,JAS (excluding organic),,,ACTIVE
+JAS-10,1,,agriculture,Aquaculture products by artificial seedling production techniques,,JAS (excluding organic),,,ACTIVE
+JAS-10,2,,agriculture,Foods and ornamental plants produced with the participation of persons with disabilities,,JAS (excluding organic),,,ACTIVE
+JAS-10,3,,food,Miso,,JAS (excluding organic),,,ACTIVE
+JAS-10,4,,agriculture,Beef with production details,,JAS (excluding organic),,,ACTIVE
+JAS-10,5,,agriculture,Pork with production details,,JAS (excluding organic),,,ACTIVE
+JAS-10,6,,agriculture,Agricultural products with production details,,JAS (excluding organic),,,ACTIVE
+JAS-10,7,,agriculture,Cultivated fish with production details,,JAS (excluding organic),,,ACTIVE
+JAS-10,8,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds, organic livestock products and organic algae",,Organic JAS (domestic CB),,,ACTIVE
+JAS-11,1,,agriculture,Chicken eggs and meat by sustainable system,,JAS (excluding organic),,,ACTIVE
+JAS-11,2,,agriculture,Naturally grown chicken,,JAS (excluding organic),,,ACTIVE
+JAS-11,3,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds and organic livestock products",,Organic JAS (domestic CB),,,ACTIVE
+JAS-12,1,,agriculture,Aquaculture products by artificial seedling production techniques,,JAS (excluding organic),,,ACTIVE
+JAS-12,2,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds and organic livestock products",,Organic JAS (domestic CB),,,ACTIVE
+JAS-13,1,,food,Processed foods suitable for vegetarians or vegans,,JAS (excluding organic),,,ACTIVE
+JAS-13,2,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds, organic livestock products and organic algae",,Organic JAS (overseas CB),,,ACTIVE
+JAS-14,1,,food,Miso,,JAS (excluding organic),,,ACTIVE
+JAS-14,2,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages) and organic feeds",,Organic JAS (domestic CB),,,ACTIVE
+JAS-15,1,,food,Processed foods suitable for vegetarians or vegans,,JAS (excluding organic),,,ACTIVE
+JAS-16,1,,food,Processed foods suitable for vegetarians or vegans,,JAS (excluding organic),,,ACTIVE
+JAS-16,2,,agriculture,Foods and ornamental plants produced with the participation of persons with disabilities,,JAS (excluding organic),,,ACTIVE
+JAS-16,3,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds, organic livestock products and organic algae",,Organic JAS (domestic CB),,,ACTIVE
+JAS-17,1,,wood_paper,Plywood,,JAS (excluding organic),,,ACTIVE
+JAS-17,2,,wood_paper,Flooring,,JAS (excluding organic),,,ACTIVE
+JAS-17,3,,wood_paper,Glued Laminated Timber,,JAS (excluding organic),,,ACTIVE
+JAS-17,4,,wood_paper,Laminated Veneer Lumber,,JAS (excluding organic),,,ACTIVE
+JAS-17,5,,wood_paper,Structural Panel,,JAS (excluding organic),,,ACTIVE
+JAS-17,6,,wood_paper,Structural Lumber and FingerJointed Structural Lumber for Wood Frame Construction,,JAS (excluding organic),,,ACTIVE
+JAS-17,7,,wood_paper,Cross Laminated Timber,,JAS (excluding organic),,,ACTIVE
+JAS-17,8,,wood_paper,Finger Jointed Lumber,,JAS (excluding organic),,,ACTIVE
+JAS-18,1,,wood_paper,Sawn Lumber,,JAS (excluding organic),,,ACTIVE
+JAS-18,2,,wood_paper,Structural Lumber and FingerJointed Structural Lumber for Wood Frame Construction,,JAS (excluding organic),,,ACTIVE
+JAS-19,1,,wood_paper,Plywood,,JAS (excluding organic),,,ACTIVE
+JAS-19,2,,wood_paper,Flooring,,JAS (excluding organic),,,ACTIVE
+JAS-19,3,,wood_paper,Glued Laminated Timber,,JAS (excluding organic),,,ACTIVE
+JAS-19,4,,wood_paper,Laminated Veneer Lumber,,JAS (excluding organic),,,ACTIVE
+JAS-19,5,,wood_paper,Structural Lumber and FingerJointed Structural Lumber for Wood Frame Construction,,JAS (excluding organic),,,ACTIVE
+JAS-2,1,,food,Glucose,,JAS (excluding organic),,,ACTIVE
+JAS-2,2,,food,High fructose syrup and sugar added high fructose syrup,,JAS (excluding organic),,,ACTIVE
+JAS-2,3,,food,Macaroni products,,JAS (excluding organic),,,ACTIVE
+JAS-2,4,,food,Vegetable protein,,JAS (excluding organic),,,ACTIVE
+JAS-2,5,,agriculture,Organic products of plant origin and organic processed foods,,Organic JAS (domestic CB),,,ACTIVE
+JAS-20,1,,wood_paper,Structural Lumber and FingerJointed Structural Lumber for Wood Frame Construction,,JAS (excluding organic),,,ACTIVE
+JAS-20,2,,wood_paper,Glued Laminated Timber,,JAS (excluding organic),,,ACTIVE
+JAS-20,3,,wood_paper,Cross Laminated Timber,,JAS (excluding organic),,,ACTIVE
+JAS-21,1,,wood_paper,Glued Laminated Timber,,JAS (excluding organic),,,ACTIVE
+JAS-21,2,,wood_paper,Plywood,,JAS (excluding organic),,,ACTIVE
+JAS-21,3,,wood_paper,Laminated Veneer Lumber,,JAS (excluding organic),,,ACTIVE
+JAS-21,4,,wood_paper,Structural Panel,,JAS (excluding organic),,,ACTIVE
+JAS-22,1,,wood_paper,Plywood,,JAS (excluding organic),,,ACTIVE
+JAS-22,2,,wood_paper,Glued Laminated Timber,,JAS (excluding organic),,,ACTIVE
+JAS-22,3,,wood_paper,Structural Panel,,JAS (excluding organic),,,ACTIVE
+JAS-22,4,,wood_paper,Laminated Veneer Lumber,,JAS (excluding organic),,,ACTIVE
+JAS-22,5,,wood_paper,Cross Laminated Timber,,JAS (excluding organic),,,ACTIVE
+JAS-23,1,,wood_paper,Plywood,,JAS (excluding organic),,,ACTIVE
+JAS-23,2,,wood_paper,Laminated Veneer Lumber,,JAS (excluding organic),,,ACTIVE
+JAS-25,1,,wood_paper,Glued Laminated Timber,,JAS (excluding organic),,,ACTIVE
+JAS-25,2,,wood_paper,Structural Lumber and FingerJointed Structural Lumber for Wood Frame Construction,,JAS (excluding organic),,,ACTIVE
+JAS-25,3,,wood_paper,Laminated Veneer Lumber,,JAS (excluding organic),,,ACTIVE
+JAS-25,4,,wood_paper,Structural Panel,,JAS (excluding organic),,,ACTIVE
+JAS-25,5,,wood_paper,Plywood,,JAS (excluding organic),,,ACTIVE
+JAS-25,6,,wood_paper,Flooring,,JAS (excluding organic),,,ACTIVE
+JAS-26,1,,wood_paper,Structural Lumber and FingerJointed Structural Lumber for Wood Frame Construction,,JAS (excluding organic),,,ACTIVE
+JAS-26,2,,wood_paper,Structural Panel,,JAS (excluding organic),,,ACTIVE
+JAS-26,3,,wood_paper,Plywood,,JAS (excluding organic),,,ACTIVE
+JAS-27,1,,wood_paper,Plywood,,JAS (excluding organic),,,ACTIVE
+JAS-27,2,,wood_paper,Laminated Veneer Lumber,,JAS (excluding organic),,,ACTIVE
+JAS-27,3,,wood_paper,Flooring,,JAS (excluding organic),,,ACTIVE
+JAS-27,4,,wood_paper,Glued Laminated Timber,,JAS (excluding organic),,,ACTIVE
+JAS-27,5,,wood_paper,Structural Panel,,JAS (excluding organic),,,ACTIVE
+JAS-28,1,,energy,Wood pellet fuel,,JAS (excluding organic),,,ACTIVE
+JAS-29,1,,agriculture,Beef with production details,,JAS (excluding organic),,,ACTIVE
+JAS-29,2,,agriculture,Pork with production details,,JAS (excluding organic),,,ACTIVE
+JAS-29,3,,agriculture,Agricultural products with production details,,JAS (excluding organic),,,ACTIVE
+JAS-29,4,,agriculture,Cultivated fish with production details,,JAS (excluding organic),,,ACTIVE
+JAS-29,5,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds and organic livestock products",,Organic JAS (domestic CB),,,ACTIVE
+JAS-3,1,,food,Fruit juice and fruit beverage,,JAS (excluding organic),,,ACTIVE
+JAS-3,2,,food,Pure apple juice not from concentrate,,JAS (excluding organic),,,ACTIVE
+JAS-3,3,,agriculture,Organic processed foods,,Organic JAS (domestic CB),,,ACTIVE
+JAS-30,1,,agriculture,Beef with production details,,JAS (excluding organic),,,ACTIVE
+JAS-30,2,,agriculture,Pork with production details,,JAS (excluding organic),,,ACTIVE
+JAS-30,3,,agriculture,Agricultural products with production details,,JAS (excluding organic),,,ACTIVE
+JAS-30,4,,agriculture,Cultivated fish with production details,,JAS (excluding organic),,,ACTIVE
+JAS-4,1,,food,Bacons,,JAS (excluding organic),,,ACTIVE
+JAS-4,2,,food,Hams,,JAS (excluding organic),,,ACTIVE
+JAS-4,3,,food,Pressed ham,,JAS (excluding organic),,,ACTIVE
+JAS-4,4,,food,Sausages,,JAS (excluding organic),,,ACTIVE
+JAS-4,5,,food,Aged hams,,JAS (excluding organic),,,ACTIVE
+JAS-4,6,,food,Aged sausages,,JAS (excluding organic),,,ACTIVE
+JAS-4,7,,food,Aged bacons,,JAS (excluding organic),,,ACTIVE
+JAS-4,8,,food,Chilled hamburger steak,,JAS (excluding organic),,,ACTIVE
+JAS-4,9,,food,Chilled meat ball,,JAS (excluding organic),,,ACTIVE
+JAS-4,10,,food,Textured soy protein products,,JAS (excluding organic),,,ACTIVE
+JAS-5,1,,food,Edible vegetable oils and fats,,JAS (excluding organic),,,ACTIVE
+JAS-6,1,,agriculture,Pickled agricultural products,,JAS (excluding organic),,,ACTIVE
+JAS-7,1,,food,Processed tomato products,,JAS (excluding organic),,,ACTIVE
+JAS-7,2,,food,Worcester sauces,,JAS (excluding organic),,,ACTIVE
+JAS-7,3,,food,Vinegar,,JAS (excluding organic),,,ACTIVE
+JAS-7,4,,food,Carrot juice and carrot mixed juice,,JAS (excluding organic),,,ACTIVE
+JAS-8,1,,food,Soy sauce,,JAS (excluding organic),,,ACTIVE
+JAS-9,1,,agriculture,Foods and ornamental plants produced with the participation of persons with disabilities,,JAS (excluding organic),,,ACTIVE
+JAS-9,2,,agriculture,Naturally grown chicken,,JAS (excluding organic),,,ACTIVE
+JAS-9,3,,agriculture,Beef with production details,,JAS (excluding organic),,,ACTIVE
+JAS-9,4,,agriculture,Pork with production details,,JAS (excluding organic),,,ACTIVE
+JAS-9,5,,agriculture,Agricultural products with production details,,JAS (excluding organic),,,ACTIVE
+JAS-9,6,,agriculture,Cultivated fish with production details,,JAS (excluding organic),,,ACTIVE
+JAS-9,7,,agriculture,Agricultural products with food chain information,,JAS (excluding organic),,,ACTIVE
+JAS-9,8,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds, organic livestock products and organic algae",,Organic JAS (domestic CB),,,ACTIVE
+ORG-10,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds and organic livestock products",,Organic JAS (domestic CB),,,ACTIVE
+ORG-11,1,,agriculture,Organic products of plant origin and organic processed foods (including organic alcohol beverages),,Organic JAS (domestic CB),,,ACTIVE
+ORG-12,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds, organic livestock products and organic algae",,Organic JAS (domestic CB),,,ACTIVE
+ORG-14,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds and organic livestock products",,Organic JAS (domestic CB),,,ACTIVE
+ORG-17,1,,agriculture,Organic processed foods (including organic alcohol beverages) and organic feeds,,Organic JAS (domestic CB),,,ACTIVE
+ORG-18,1,,agriculture,Organic products of plant origin and organic processed foods,,Organic JAS (domestic CB),,,ACTIVE
+ORG-19,1,,agriculture,Organic products of plant origin and organic processed foods (including organic alcohol beverages),,Organic JAS (domestic CB),,,ACTIVE
+ORG-2,1,,agriculture,Organic products of plant origin and organic processed foods (including organic alcohol beverages),,Organic JAS (domestic CB),,,ACTIVE
+ORG-21,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds, organic algae and Foods and ornamental plants produced with the participation of persons with disabilities",,Organic JAS (domestic CB),,,ACTIVE
+ORG-22,1,,agriculture,Organic products of plant origin and organic processed foods (including organic alcohol beverages),,Organic JAS (domestic CB),,,ACTIVE
+ORG-23,1,,agriculture,Organic products of plant origin,,Organic JAS (domestic CB),,,ACTIVE
+ORG-25,1,,agriculture,Organic products of plant origin and organic processed foods (including organic alcohol beverages),,Organic JAS (domestic CB),,,ACTIVE
+ORG-26,1,,agriculture,Organic products of plant origin,,Organic JAS (domestic CB),,,ACTIVE
+ORG-27,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds and organic livestock products",,Organic JAS (domestic CB),,,ACTIVE
+ORG-28,1,,agriculture,Organic products of plant origin and organic processed foods,,Organic JAS (domestic CB),,,ACTIVE
+ORG-29,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds and organic livestock products",,Organic JAS (domestic CB),,,ACTIVE
+ORG-3,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds and organic livestock products",,Organic JAS (domestic CB),,,ACTIVE
+ORG-30,1,,agriculture,Organic products of plant origin and organic processed foods (including organic alcohol beverages),,Organic JAS (domestic CB),,,ACTIVE
+ORG-32,1,,agriculture,Organic products of plant origin and organic processed foods (including organic alcohol beverages),,Organic JAS (domestic CB),,,ACTIVE
+ORG-33,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages) and organic algae, organic feeds Foods and ornamental plants produced with the participation of persons with disabilities",,Organic JAS (domestic CB),,,ACTIVE
+ORG-34,1,,agriculture,Organic products of plant origin and organic processed foods,,Organic JAS (domestic CB),,,ACTIVE
+ORG-35,1,,agriculture,Organic products of plant origin and organic processed foods (including organic alcohol beverages),,Organic JAS (domestic CB),,,ACTIVE
+ORG-36,1,,agriculture,Organic products of plant origin and organic processed foods,,Organic JAS (domestic CB),,,ACTIVE
+ORG-37,1,,agriculture,Organic products of plant origin and organic processed foods (including organic alcohol beverages),,Organic JAS (domestic CB),,,ACTIVE
+ORG-38,1,,agriculture,"Organic products of plant origin, organic processed foods, organic feeds",,Organic JAS (domestic CB),,,ACTIVE
+ORG-39,1,,agriculture,Organic products of plant origin,,Organic JAS (domestic CB),,,ACTIVE
+ORG-4,1,,agriculture,Organic products of plant origin and organic processed foods (including organic alcohol beverages),,Organic JAS (domestic CB),,,ACTIVE
+ORG-40,1,,agriculture,"Organic products of plant origin, organic processed foods and organic feeds",,Organic JAS (domestic CB),,,ACTIVE
+ORG-41,1,,agriculture,Organic processed foods (including organic alcohol beverages),,Organic JAS (domestic CB),,,ACTIVE
+ORG-42,1,,agriculture,Organic products of plant origin,,Organic JAS (domestic CB),,,ACTIVE
+ORG-43,1,,agriculture,"Organic products of plant origin, organic processed foods, organic feeds and organic livestock products",,Organic JAS (domestic CB),,,ACTIVE
+ORG-44,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds, organic livestock products and organic algae Foods and ornamental plants produced with the participation of persons with disabilities",,Organic JAS (domestic CB),,,ACTIVE
+ORG-45,1,,agriculture,Organic products of plant origin and organic processed foods,,Organic JAS (domestic CB),,,ACTIVE
+ORG-46,1,,agriculture,Organic products of plant origin and organic processed foods,,Organic JAS (domestic CB),,,ACTIVE
+ORG-47,1,,agriculture,"Organic products of plant origin, organic processed foods and organic feeds",,Organic JAS (domestic CB),,,ACTIVE
+ORG-48,1,,agriculture,Organic products of plant origin and organic processed foods (including organic alcohol beverages) Foods and ornamental plants produced with the participation of persons with disabilities,,Organic JAS (domestic CB),,,ACTIVE
+ORG-5,1,,agriculture,"Organic products of plant origin, organic processed foods, organic feeds and organic livestock products",,Organic JAS (domestic CB),,,ACTIVE
+ORG-50,1,,agriculture,Organic products of plant origin and organic processed foods,,Organic JAS (domestic CB),,,ACTIVE
+ORG-6,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds and organic livestock products",,Organic JAS (domestic CB),,,ACTIVE
+ORG-8,1,,agriculture,Organic products of plant origin and organic processed foods,,Organic JAS (domestic CB),,,ACTIVE
+ORG-9,1,,agriculture,Organic products of plant origin and organic processed foods,,Organic JAS (domestic CB),,,ACTIVE
+ORGOV-1,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds and organic livestock products",,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-10,1,,agriculture,"Organic products of plant origin, organic processed foods and organic feeds",,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-11,1,,agriculture,Organic products of plant origin and organic processed foods (including organic alcohol beverages),,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-12,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds and organic livestock products",,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-13,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds and organic livestock products",,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-14,1,,agriculture,Organic products of plant origin and organic processed foods (including organic alcohol beverages),,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-15,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages) , organic feeds, organic algae and organic livestock products",,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-16,1,,agriculture,"Organic products of plant origin, organic processed foods, organic feeds, organic livestock products and organic algae",,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-17,1,,agriculture,"Organic products of plant origin, organic processed foods, organic feeds and organic algae",,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-18,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages)",,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-19,1,,agriculture,"Organic products of plant origin, organic processed foods, organic feeds and organic livestock products",,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-2,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds and organic livestock products",,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-21,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds and organic livestock products",,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-22,1,,agriculture,"Organic products of plant origin, organic processed foods and organic feeds",,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-3,1,,agriculture,Organic products of plant origin and organic processed foods (including organic alcohol beverages),,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-4,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages) and organic feeds",,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-5,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds and organic livestock products",,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-6,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds and organic livestock products",,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-7,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds and organic livestock products",,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-8,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds , organic livestock products and organic algae",,Organic JAS (overseas CB),,,ACTIVE
+ORGOV-9,1,,agriculture,"Organic products of plant origin, organic processed foods (including organic alcohol beverages), organic feeds and organic livestock products",,Organic JAS (overseas CB),,,ACTIVE

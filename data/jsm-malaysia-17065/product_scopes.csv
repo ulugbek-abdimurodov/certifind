@@ -428,7 +428,7 @@ ACB001 (17065),426,,other_manufacturing,"SIRIM QAS INTERNATIONAL SDN. BHD. 1, PE
 ACB001 (17065),427,,professional,CERTIFIED SERVICE FACILITIES,,,SUB-PROGRAMME:,,ACTIVE
 ACB001 (17065),428,,professional,18 JULY 2023,,,DATE OF INITIAL ACCREDITATION:,,ACTIVE
 ACB001 (17065),429,,professional,ISO/IEC 17065:2012,,,ACCREDITATION CRITERIA:,ISO/IEC 17065,ACTIVE
-ACB001 (17065),430,,wood_paper,"SCHEME RULES OF PROCEDURE, IECEx 03",,,CERTIFICATION STANDARDS:,,ACTIVE
+ACB001 (17065),430,IECEx Certified Equipment Scheme,,"SCHEME RULES OF PROCEDURE, IECEx 03",,,CERTIFICATION STANDARDS:,,ACTIVE
 ACB001 (17065),431,,electrical,Electrical installations inspection and maintenance,,,IEC 60079-17 : 2013,IEC 60079-17,ACTIVE
 ACB001 (17065),432,,electrical,"Equipment repair, overhaul and reclamation",,,IEC 60079-19 : 2015,IEC 60079-19,ACTIVE
 ACB001 (17065),433,,electrical,"Equipment repair, overhaul and reclamation",,,IEC 60079-19 : 2019,IEC 60079-19,ACTIVE
@@ -1197,11 +1197,11 @@ ACB050,106,,metals,Steel fabric for the reinforcement of concrete - Specificatio
 ACB050,107,,metals,Specification for pressed steel sectional rectangular tanks,,,BS 1564: 1975,,ACTIVE
 ACB050,108,,construction,Vitreous and porcelain enamels - Design of bolted steel tanks for the storage or treatment of water or municipal or industrial effluents and sludges,,,ISO 28765: 2022,ISO 28765,ACTIVE
 ACB050,109,,construction,"Concrete - Specification, Performance, Production and Conformity (Third Revision)",,,"CIS 21: 2018, MS EN 206: 2016",EN 206,ACTIVE
-ACB052,1,,other_manufacturing,Halal food - General requirements (Third revision) Manual Prosedur Pensijilan Halal Malaysia (Domestik) 2020,,,i) MS 1500:2019 ii) MPPHM 2020,,ACTIVE
-ACB052,2,,other_manufacturing,"Halal Food - Production, Preparation, Handling and Storage - General Guidelines (Second Revision) Halal food - General requirements (Third revision) Manual Prosedur Pensijilan Halal Malaysia (Domestik) 2020",,,i) MS 1500:2009 ii) MS 1500:2019 iii) MPPHM 2020,,ACTIVE
-ACB052,3,,health,Halal pharmaceuticals – General requirements (First revision) Manual Prosedur Pensijilan Halal Malaysia (Domestik) 2020,,,i) MS 2424:2019 ii) MPPHM 2020,,ACTIVE
-ACB052,4,,chemicals,Halal cosmetics - General requirements (First revision) Manual Prosedur Pensijilan Halal Malaysia (Domestik) 2020,,,i) MS 2634:2019 ii) MPPHM 2020,,ACTIVE
-ACB052,5,,other_manufacturing,Halal supply chain management system - Part 1: Transportation - General requirements (First revision) Halal supply chain management system - Part 2: Warehousing - General requirements (First revision) Manual Prosedur Pensijilan Halal Malaysia (Domestik) 2020,,,i) MS 2400-1:2019 ii) MS 2400-2:2019 iii) MPPHM 2020,,ACTIVE
+ACB052,1,Halal,,Halal food - General requirements (Third revision) Manual Prosedur Pensijilan Halal Malaysia (Domestik) 2020,,,i) MS 1500:2019 ii) MPPHM 2020,,ACTIVE
+ACB052,2,Halal,,"Halal Food - Production, Preparation, Handling and Storage - General Guidelines (Second Revision) Halal food - General requirements (Third revision) Manual Prosedur Pensijilan Halal Malaysia (Domestik) 2020",,,i) MS 1500:2009 ii) MS 1500:2019 iii) MPPHM 2020,,ACTIVE
+ACB052,3,Halal,,Halal pharmaceuticals – General requirements (First revision) Manual Prosedur Pensijilan Halal Malaysia (Domestik) 2020,,,i) MS 2424:2019 ii) MPPHM 2020,,ACTIVE
+ACB052,4,Halal,,Halal cosmetics - General requirements (First revision) Manual Prosedur Pensijilan Halal Malaysia (Domestik) 2020,,,i) MS 2634:2019 ii) MPPHM 2020,,ACTIVE
+ACB052,5,Halal,,Halal supply chain management system - Part 1: Transportation - General requirements (First revision) Halal supply chain management system - Part 2: Warehousing - General requirements (First revision) Manual Prosedur Pensijilan Halal Malaysia (Domestik) 2020,,,i) MS 2400-1:2019 ii) MS 2400-2:2019 iii) MPPHM 2020,,ACTIVE
 ACB055,1,,construction,"Ready-Mixed Concrete (RMC): Production, Conformity, Transportation, and Delivery Criteria for the Producers",,,CIS 21:2018,,ACTIVE
 ACB055,2,,construction,"Concrete- Specification, performance, production and conformity (Third revision)",,,MS EN 206:2016,EN 206,ACTIVE
 ACB062,1,,construction,"Concrete - Specification, Performance, Production and Conformity (Third Revision)",,,MS EN 206:2016,EN 206,ACTIVE

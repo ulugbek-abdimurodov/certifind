@@ -1,0 +1,662 @@
+certificate_number,line_no,scheme,industry,product_text,product_text_en,scheme_text,normative_docs,standard_refs,status
+C07a,1,,food,Bottled natural water,,IAF 3: Food Products and Beverages - SPC 1657 Type 5,SANS 1657 2022,,ACTIVE
+C07a,2,,rubber_plastics,Packaged water other than natural mineral water,,IAF 3: Food Products and Beverages - SPC 1862 Type 5,SANS 1862 2003,,ACTIVE
+C07a,3,,food,Sterilized milk,,IAF 3: Food Products and Beverages - SPC 1678 Type 5,SANS 1678 2014,,ACTIVE
+C07a,4,,food,The manufacture of soft drinks and soft drink concentrates,,IAF 3: Food Products and Beverages - SPC 449 Type 5,SANS 449 2019,,ACTIVE
+C07a,5,,food,Edible gelatine,,IAF 3: Food Products and Beverages - SPC 49 Type 5,SANS 49 2011,,ACTIVE
+C07a,6,,construction,Sewing threads,,IAF 4: Textile and Textile Products - SPC 1362 Type 5,SANS 1362 2024,,ACTIVE
+C07a,7,,construction,Woven cotton and similar apparel,,IAF 4: Textile and Textile Products - SPC 1387 Type 5,SANS 1387-4 2014,,ACTIVE
+C07a,8,,construction,"Woven cotton and similar household fabrics and articles Part 3: Cotton sheeting, sheets, and pillowcases",,IAF 4: Textile and Textile Products - SPC 1401 Type 5,SANS 1401-3 2007,,ACTIVE
+C07a,9,,health,Surgical medical devices used for wound closure Part 1: Sterile sutures and ligatures,,IAF 4: Textile and Textile Products - SPC 494 Type 5,SANS 494-1 2011,,ACTIVE
+C07a,10,,construction,General protective clothing,,IAF 4: Textile and Textile Products - SPC 434 Type 5,SANS 434 2018,,ACTIVE
+C07a,11,,construction,Men's shoes with stuck-on outer soles Part 1: Flat lasted construction,,IAF 5: Leather and Leather Products - SPC 1492 Type 5,SANS 1492-1 2020,,ACTIVE
+C07a,12,,textiles,Personal protective equipment - Safety footwear,,IAF 5: Leather and Leather Products - SPC 20345 Type 5,SANS 20345 2023,,ACTIVE
+C07a,13,,textiles,The production of men's shoes (Goodyear welted with stitched or stuck-on outer soles),,IAF 5: Leather and Leather Products - SPC 421 Type 5,SANS 421 2023,,ACTIVE
+C07a,14,,public_education,"Children's, youths', and maids' school shoes with direct injection-moulded soles and heels",,IAF 5: Leather and Leather Products - SPC 942 Type 5,SANS 942 2020,,ACTIVE
+C07a,15,,wood_paper,Preservative-treated timber,,IAF 6: Wood and Wood Products - SPC 1288 Type 5,SANS 1288 2020,,ACTIVE
+C07a,16,,wood_paper,Laminated timber (glulam),,IAF 6: Wood and Wood Products - SPC 1460 Type 5,SANS 1460 2025,,ACTIVE
+C07a,17,,wood_paper,Sawn softwood timber Part 1: General requirements,,IAF 6: Wood and Wood Products - SPC 1783 Type 5,SANS 1783-1 2018,,ACTIVE
+C07a,18,,construction,Sawn softwood timber Part 2: Stress-graded structural timber and timber for frame wall construction,,IAF 6: Wood and Wood Products - SPC 1783 Type 5,SANS 1783-2 2013,,ACTIVE
+C07a,19,,wood_paper,Sawn softwood timber Part 4: Brandering and battens,,IAF 6: Wood and Wood Products - SPC 1783 Type 5,SANS 1783-4 2012,,ACTIVE
+C07a,20,,construction,Monoplanar prefabricated timber roof trusses (nail-plated),,IAF 6: Wood and Wood Products - SPC 1900 Type 5,SANS 1900 2025,,ACTIVE
+C07a,21,,metals,"Wooden poles, droppers, guardrail posts and spacer blocks Part 2: Softwood species",,IAF 6: Wood and Wood Products - SPC 457 Type 5,SANS 457-2 2018,,ACTIVE
+C07a,22,,metals,"Wooden poles, droppers, guardrail posts and spacer blocks Part 3: Hardwood species",,IAF 6: Wood and Wood Products - SPC 457 Type 5,SANS 457-3 2019,,ACTIVE
+C07a,23,,wood_paper,Fibreboard products Part 1: Uncoated fibreboard,,IAF 6: Wood and Wood Products - SPC 540 Type 5,SANS 540-1 2013,,ACTIVE
+C07a,24,,wood_paper,Fibreboard products Part 2: Coated fibreboard,,IAF 6: Wood and Wood Products - SPC 540 Type 5,SANS 540-2 2022,,ACTIVE
+C07a,25,,construction,Wooden doors,,IAF 6: Wood and Wood Products - SPC 545 Type 5,SANS 545 2018,,ACTIVE
+C07a,26,,wood_paper,"Pine poles, cross-arms and spacers for power distribution, telephone systems and street lighting",,IAF 6: Wood and Wood Products - SPC 753 Type 5,SANS 753 2018,,ACTIVE
+C07a,27,,wood_paper,"Eucalyptus poles, cress-arms and spacers for power Distribution and communications systems",,IAF 6: Wood and Wood Products - SPC 754 Type 5,SANS 754 2021,,ACTIVE
+C07a,28,,wood_paper,The manufacture of finger-jointed structural timber,,IAF 6: Wood and Wood Products - SPC 10096 Type 5,SANS 10096 2021,,ACTIVE
+C07a,29,,wood_paper,Wood charcoal and charcoal briquettes for household use,,IAF 6: Wood and Wood Products - SPC 1399 Type 5,SANS 1399 2022,,ACTIVE
+C07a,30,,construction,Materials for thermal insulation of buildings Part 1: Fibre thermal insulation mats,,"IAF 7: Pulp, Paper and Paper Products - SPC 1381 Type 5",SANS 1381-1 2016,,ACTIVE
+C07a,31,,construction,Materials for thermal insulation of buildings Part 6: Cellulose loose fill thermal insulation material,,"IAF 7: Pulp, Paper and Paper Products - SPC 1381 Type 5",SANS 1381-6 2016,,ACTIVE
+C07a,32,,wood_paper,Tissue paper Part 1: General requirements,,"IAF 7: Pulp, Paper and Paper Products - SPC 1887 Type 5",SANS 1887-1 2021,,ACTIVE
+C07a,33,,wood_paper,Tissue paper Part 2: Toilet paper,,"IAF 7: Pulp, Paper and Paper Products - SPC 1887 Type 5",SANS 1887-2 2021,,ACTIVE
+C07a,34,,other_manufacturing,Unleaded petrol,,IAF 10: Manufacture of Coke and Refined Petroleum - SPC 1598 Type 5,SANS 1598 2022,,ACTIVE
+C07a,35,,transport_equipment,Automotive diesel fuel,,IAF 10: Manufacture of Coke and Refined Petroleum - SPC 342 Type 5,SANS 342 2022,,ACTIVE
+C07a,36,,other_manufacturing,-BT1 2020 Civil engineering specifications Part BT1: Penetration grade bitumen,,IAF 10: Manufacture of Coke and Refined Petroleum - SPC 4001 Type 5,SANS 4001,,ACTIVE
+C07a,37,,other_manufacturing,-BT2 2022 Civil engineering specifications Part BT2: Cutback bitumen,,IAF 10: Manufacture of Coke and Refined Petroleum - SPC 4001 Type 5,SANS 4001,,ACTIVE
+C07a,38,,other_manufacturing,-BT3 2022 Civil engineering specifications Part BT3: Anionic bitumen road emulsion,,IAF 10: Manufacture of Coke and Refined Petroleum - SPC 4001 Type 5,SANS 4001,,ACTIVE
+C07a,39,,other_manufacturing,-BT4 2022 Civil engineering specifications Part BT4: Cationic bitumen road emulsion,,IAF 10: Manufacture of Coke and Refined Petroleum - SPC 4001 Type 5,SANS 4001,,ACTIVE
+C07a,40,,other_manufacturing,-BT5 2022 Civil engineering specifications Part BT5: Inverted Bitumen road emulsion,,IAF 10: Manufacture of Coke and Refined Petroleum - SPC 4001 Type 5,SANS 4001,,ACTIVE
+C07a,41,,chemicals,Polymer floor dressings,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 1042 Type 5",SANS 1042 2020,,ACTIVE
+C07a,42,,chemicals,Industrial laundry detergents,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 1044 Type 5",SANS 1044 2017,,ACTIVE
+C07a,43,,chemicals,"Detergent-disinfectants based on organic halogen compounds (other than iodine compounds), such as fluorine, bromine or chlorine",,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 1196 Type 5",SANS 1196 2013,,ACTIVE
+C07a,44,,chemicals,Detergent skin cleansers,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 1221 Type 5",SANS 1221 2022,,ACTIVE
+C07a,45,,chemicals,Medium duty solvent detergent,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 1344 Type 5",SANS 1344 2017,,ACTIVE
+C07a,46,,chemicals,Detergent for industrial dishwashing equipment,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 232 Type 5",SANS 232 2012,,ACTIVE
+C07a,47,,chemicals,Hand dishwashing and light duty detergent (liquid),,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 825 Type 5",SANS 825 2020,,ACTIVE
+C07a,48,,chemicals,Polish stripper,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 1224 Type 5",SANS 1224 2017,,ACTIVE
+C07a,49,,chemicals,Material for thermal insulation of buildings Part 1: Fibre thermal insulation mat,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 1381 Type 5",SANS 1381-1 2013,,ACTIVE
+C07a,50,,chemicals,"Materials for thermal insulation of buildings Part 4: Reflective foil laminates (rolls, sheets and sections)",,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 1381 Type 5",SANS 1381-4 2013,,ACTIVE
+C07a,51,,chemicals,Materials for thermal insulation of buildings Part 6:Cellulose loose fill thermal insulation material,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 1381 Type 5",SANS 1381-6 2011,,ACTIVE
+C07a,52,,chemicals,Carpet underlays,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 1419 Type 5",SANS 1419 2009,,ACTIVE
+C07a,53,,chemicals,Fire extinguishing powders,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 1522 Type 5",SANS 1522 2022,,ACTIVE
+C07a,54,,chemicals,Emulsion paints,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 1586 Type 5",SANS 1586 2021,,ACTIVE
+C07a,55,,chemicals,Road markings Part 1: Single-pack solvent-borne paints,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 731 Type 5",SANS 731-1 2015,,ACTIVE
+C07a,56,,chemicals,Road markings Part 2: Single-pack water-borne paints,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 731 Type 5",SANS 731-2 2015,,ACTIVE
+C07a,57,,chemicals,Disinfectants based on glutaraldehyde for general use,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 1615 Type 5",SANS 1615 2011,,ACTIVE
+C07a,58,,chemicals,Disinfectants and detergent-disinfectants for use in the food industry,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 1853 Type 5",SANS 1853 2020,,ACTIVE
+C07a,59,,chemicals,Disinfectants based on quaternary ammonium compounds,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 636 Type 5",SANS 636 2013,,ACTIVE
+C07a,60,,chemicals,Detergent-disinfectants based on quaternary ammonium compounds,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 639 Type 5",SANS 639 2013,,ACTIVE
+C07a,61,,chemicals,Disinfectants based on stabilized inorganic chlorine compounds,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 643 Type 5",SANS 643 2013,,ACTIVE
+C07a,62,,chemicals,The safety of water treatment chemicals for use in the food industry,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 1827 Type 5",SANS 1827 2017,,ACTIVE
+C07a,63,,chemicals,Cleaning chemicals for use in the food industry,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 1828 Type 5",SANS 1828 2024,,ACTIVE
+C07a,64,,chemicals,General purpose pure soap,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 235 Type 5",SANS 235 2018,,ACTIVE
+C07a,65,,chemicals,Toilet soap,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 237",SANS 237 2008,,ACTIVE
+C07a,66,,chemicals,Sodium hypochlorite solutions,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 296 Type 5",SANS 296 2020,,ACTIVE
+C07a,67,,electrical,Unused and reclaimed mineral insulating oils for transformers and switchgear,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 555 Type 5",SANS 555 2007,,ACTIVE
+C07a,68,,chemicals,Glazing putty for wooden and metal window frames,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 680 Type 5",SANS 680 2021,,ACTIVE
+C07a,69,,chemicals,Flexible vinyl flooring,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 786 Type 5",SANS 786 2007,,ACTIVE
+C07a,70,,chemicals,Lighters - Safety specification,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 9994 Type 5",SANS 9994 2021,,ACTIVE
+C07a,71,,chemicals,Disinfectant alcohol-based handrub,,"IAF 12: Chemicals, Chemical Products and Fibres - SPC 490 Type 5",SANS 490 2020,,ACTIVE
+C07a,72,,rubber_plastics,Flexible poly(vinyl chloride) (PVC) pressure hose,,IAF 14: Rubber and Plastic Products - SPC 1086 Type 5,SANS 1086 2015,,ACTIVE
+C07a,73,,rubber_plastics,Hose for natural gas and liquefied petroleum gas (LPG) Part 2: Hose and tubing for use in natural gas and liquefied petroleum gas vapour phase,,IAF 14: Rubber and Plastic Products - SPC 1156 Type 5,SANS 1156-2 2023,,ACTIVE
+C07a,74,,rubber_plastics,Unplasticized polyvinyl chloride (UPVC) components for external rainwater systems,,IAF 14: Rubber and Plastic Products - SPC 11 Type 5,SANS 11 2007,,ACTIVE
+C07a,75,,rubber_plastics,Conveyor belting - General purpose textile-reinforced construction,,IAF 14: Rubber and Plastic Products - SPC 1173 Type 5,SANS 1173 2013,,ACTIVE
+C07a,76,,rubber_plastics,Coiled nylon tubing for air-brake applications,,IAF 14: Rubber and Plastic Products - SPC 1194 Type 5,SANS 1194 2017,,ACTIVE
+C07a,77,,health,Abrasion-resistant polymeric gloves: Lined type,,IAF 14: Rubber and Plastic Products - SPC 1228 Type 5,SANS 1228 2012,,ACTIVE
+C07a,78,,health,Chemical resistant gloves,,IAF 14: Rubber and Plastic Products - SPC 416 Type 5,SANS 416 2021,,ACTIVE
+C07a,79,,rubber_plastics,Toothbrushes,,IAF 14: Rubber and Plastic Products - SPC 1374 Type 5,SANS 1374 2015,,ACTIVE
+C07a,80,,rubber_plastics,Industrial safety helmets,,IAF 14: Rubber and Plastic Products - SPC 1397 Type 5,SANS 1397 2003,,ACTIVE
+C07a,81,,rubber_plastics,Mobile refuse bins,,IAF 14: Rubber and Plastic Products - SPC 1494 Type 5,SANS 1494 2014,,ACTIVE
+C07a,82,,machinery,Flush valves for WC flushing cisterns,,IAF 14: Rubber and Plastic Products - SPC 1509 Type 5,SANS 1509 2017,,ACTIVE
+C07a,83,,electrical,Conduit systems for cable management Part 21: Particular requirements -Rigid conduit systems,,IAF 14: Rubber and Plastic Products - SPC 61386 Type 5,SANS 61386-21 2021,,ACTIVE
+C07a,84,,textiles,Personal protective equipment-safety footwear,,IAF 14: Rubber and Plastic Products - SPC 20345 Type 5,SANS 20345 2023,,ACTIVE
+C07a,85,,rubber_plastics,Modified poly(vinyl chloride) (PVC-M) pressure pipe and couplings for cold water services in underground mining,,IAF 14: Rubber and Plastic Products - SPC 1283 Type 5,SANS 1283 2013,,ACTIVE
+C07a,86,,rubber_plastics,Plastics piping systems for hot and cold water installations - Crosslinked polyethylene (PE-X) Part 1: General,,IAF 14: Rubber and Plastic Products - SPC 15875 Type 5,SANS 15875-1 2004,,ACTIVE
+C07a,87,,rubber_plastics,Plastics piping systems for hot and cold water installations - Crosslinked polyethylene (PE-X) Part 2: Pipes,,IAF 14: Rubber and Plastic Products - SPC 15875 Type 5,SANS 15875-2 2004,,ACTIVE
+C07a,88,,rubber_plastics,Plastics piping systems for hot and cold water installations - Crosslinked polyethylene (PE-X) Part 3: Fittings,,IAF 14: Rubber and Plastic Products - SPC 15875 Type 5,SANS 15875-3 2004,,ACTIVE
+C07a,89,,rubber_plastics,Plastics piping systems for hot and cold water installations - Crosslinked polyethylene (PE-X) Part 5: Fitness for purpose of the system,,IAF 14: Rubber and Plastic Products - SPC 15875 Type 5,SANS 15875-5 2004,,ACTIVE
+C07a,90,,rubber_plastics,Structured wall pipes and fittings of un-plasticized poly(vinyl chloride) (PVC-U) for buried drainage and sewerage systems Part 1,,IAF 14: Rubber and Plastic Products - SPC 1601 Type 5,SANS 1601 2017,,ACTIVE
+C07a,91,,rubber_plastics,Plastics piping systems-Polyethylene (PE) pipes and fittings for water supply Part 1: General,,IAF 14: Rubber and Plastic Products - SPC 4427 Type 5,SANS 4427-1 2008,,ACTIVE
+C07a,92,,rubber_plastics,Plastics piping systems - Polyethylene (PE) pipes and fittings for water supply - Part 2: Pipes,,IAF 14: Rubber and Plastic Products - SPC 4427 Type 5,SANS 4427-2 2008,,ACTIVE
+C07a,93,,rubber_plastics,Unplasticized poly(vinyl chloride) (PVC-U) sewer and drain pipes and pipe fittings,,IAF 14: Rubber and Plastic Products - SPC 791 Type 5,SANS 791 2014,,ACTIVE
+C07a,94,,rubber_plastics,Components of pressure pipe systems Part 1: Unplasticized poly(vinyl chloride) (PVC-U) pressure pipe systems,,IAF 14: Rubber and Plastic Products - SPC 966 Type 5,SANS 966-1 2019,,ACTIVE
+C07a,95,,machinery,Float valves,,IAF 14: Rubber and Plastic Products - Type 5,SANS 752 2009,,ACTIVE
+C07a,96,,machinery,WC flushing cisterns,,IAF 14: Rubber and Plastic Products - Type 5,SANS 821 2007,,ACTIVE
+C07a,97,,rubber_plastics,Components of pressure pipe systems Part 2: Modified poly(vinyl chloride) (PVC-M) pressure pipe systems,,IAF 14: Rubber and Plastic Products - SPC 966 Type 5,SANS 966-2 2013,,ACTIVE
+C07a,98,,machinery,Flush valves for WC flushing cisterns,,IAF 14: Rubber and Plastic Products - Type 5,SANS 1509 2017,,ACTIVE
+C07a,99,,rubber_plastics,"Unplasticized poly(vinyl chloride) (PVC-U) soil, waste and vent pipes and pipe fittings",,IAF 14: Rubber and Plastic Products - SPC 967 Type 5,SANS 967 2021,,ACTIVE
+C07a,100,,health,Natural latex rubber condoms - Requirements and test methods,,IAF 14: Rubber and Plastic Products - SPC 4074 Type 5,SANS 4074 2017,,ACTIVE
+C07a,101,,rubber_plastics,Semi-flexible vinyl floor tiles,,IAF 14: Rubber and Plastic Products - SPC 581 Type 5,SANS 581 2007,,ACTIVE
+C07a,102,,electrical,Unplasticized polyvinyl chloride rigid conduit and fittings for use in electrical installations,,IAF 14: Rubber and Plastic Products - SPC 950 Type 5,SANS 950 2018,,ACTIVE
+C07a,103,,rubber_plastics,Polymer film for damp-proofing and waterproofing in buildings Part 1: Monofilament and co-extruded products,,IAF 14: Rubber and Plastic Products - SPC 952 Type 5,SANS 952-1 2021,,ACTIVE
+C07a,104,,textiles,Footwear sole,,IAF 14: Rubber and Plastic Products - SPC 1437 Type 5,SANS 1437 2016,,ACTIVE
+C07a,105,,rubber_plastics,Glass fibre reinforced thermosetting plastic,,IAF 14: Rubber and Plastic Products - SPC 1748 Type 5,SANS 1748-1 2015,,ACTIVE
+C07a,106,,rubber_plastics,Polyolefin film for damp-proofing and waterproofing Buildings Part 2: Laminated (non-woven) products,,IAF 14: Rubber and Plastic Products - SPC 952 Type 5,SANS 952-2 2016,,ACTIVE
+C07a,107,,textiles,Personal protective equipment -Safety footwear IAF 15 Non-Metallic Mineral Products,,IAF 14: Rubber and Plastic Products - SPC 20345 Type 5,SANS 20345 2014,,ACTIVE
+C07a,108,,rubber_plastics,High penetration-resistant laminated safety glass for vehicles,,IAF 14: Rubber and Plastic Products - SPC 1191 Type 5,SANS 1191 2013,,ACTIVE
+C07a,109,,rubber_plastics,Laminated safety glass for vehicles,,IAF 14: Rubber and Plastic Products - SPC 1192 Type 5,SANS 1192 2011,,ACTIVE
+C07a,110,,rubber_plastics,Toughened safety glass for vehicles,,IAF 14: Rubber and Plastic Products - SPC 1193 Type 5,SANS 1193 2019,,ACTIVE
+C07a,111,,rubber_plastics,Safety and security glazing materials for buildings Part 1: Safety performance of glazing materials under human impact,,IAF 14: Rubber and Plastic Products - SPC 1263 Type 5,SANS 1263-1 2013,,ACTIVE
+C07a,112,,rubber_plastics,Safety and security glazing materials for buildings Part 2: Burglar-resistant and vandal-resistant glazing materials,,IAF 14: Rubber and Plastic Products - SPC 1263 Type 5,SANS 1263-2 2013,,ACTIVE
+C07a,113,,rubber_plastics,Safety and security glazing materials for buildings Part 3: Bullet-resistant glazing materials,,IAF 14: Rubber and Plastic Products - SPC 1263 Type 5,SANS 1263-3 2013,,ACTIVE
+C07a,114,,rubber_plastics,Glass-reinforced polyester (GRP) laminates,,IAF 14: Rubber and Plastic Products - SPC 141 Type 5,SANS 141 2023,,ACTIVE
+C07a,115,,rubber_plastics,Gypsum plasterboard SPC 1215 Type 5 1215 2008 Concrete masonry units,,IAF 14: Rubber and Plastic Products - SPC 266 Type 5,SANS 266 2003,,ACTIVE
+C07a,116,,construction,Concrete retaining blocks,,"IAF 16: Concrete, Cement, Lime, Plaster etc - SPC 508 Type 5",SANS 508 2020,,ACTIVE
+C07a,117,,construction,Precast concrete manhole sections and components,,"IAF 16: Concrete, Cement, Lime, Plaster etc - SPC 1294 Type 5",SANS 1294 2020,,ACTIVE
+C07a,118,,construction,Precast concrete suspended slabs,,"IAF 16: Concrete, Cement, Lime, Plaster etc - SPC 1879 Type 5",SANS 1879 2021,,ACTIVE
+C07a,119,,construction,Concrete paving blocks,,"IAF 16: Concrete, Cement, Lime, Plaster etc - SPC 1058 Type 5",SANS 1058 2021,,ACTIVE
+C07a,120,,construction,"Polymer concrete surface boxes, manhole and inspection covers, gully gratings and frames",,"IAF 16: Concrete, Cement, Lime, Plaster etc - SPC 1882 Type 5",SANS 1882 2003,,ACTIVE
+C07a,121,,construction,"Concrete poles for telephone, power and lighting purposes",,"IAF 16: Concrete, Cement, Lime, Plaster etc - SPC 470 Type 5",SANS 470 2020,,ACTIVE
+C07a,122,,construction,Concrete roofing tiles,,"IAF 16: Concrete, Cement, Lime, Plaster etc - SPC 542 Type 5",SANS 542 2020,,ACTIVE
+C07a,123,,machinery,Concrete non-pressure pipes,,"IAF 16: Concrete, Cement, Lime, Plaster etc - SPC 677 Type 5",SANS 677 2026,,ACTIVE
+C07a,124,,construction,"Precast concrete kerbs, edgings and channels",,"IAF 16: Concrete, Cement, Lime, Plaster etc - SPC 927 Type 5",SANS 927 2022,,ACTIVE
+C07a,125,,construction,Precast reinforced concrete culverts,,"IAF 16: Concrete, Cement, Lime, Plaster etc - SPC 986 Type 5",SANS 986 2023,,ACTIVE
+C07a,126,,construction,Burnt clay paving units,,"IAF 16: Concrete, Cement, Lime, Plaster etc - SPC 1575 Type 5",SANS 1575 2023,,ACTIVE
+C07a,127,,construction,Burnt clay masonry units,,"IAF 16: Concrete, Cement, Lime, Plaster etc - SPC 227 Type 5",SANS 227 2025,,ACTIVE
+C07a,128,,construction,"Cement Part 1: Composition, specifications and conformity criteria for common cements",,"IAF 16: Concrete, Cement, Lime, Plaster etc - SPC 50197 Type 5",SANS 50197-1 2013,,ACTIVE
+C07a,129,,construction,Conformity Evaluation,,"IAF 16: Concrete, Cement, Lime, Plaster etc - Type 5",SANS 50197-2 2017,,ACTIVE
+C07a,130,,construction,"Masonry cement Part 1: Composition, specifications and conformity criteria",,"IAF 16: Concrete, Cement, Lime, Plaster etc - SPC 50413 Type 5",SANS 50413-1 2014,,ACTIVE
+C07a,131,,construction,"Fly ash for concrete Part 1: Definition, specifications and conformity criteria",,"IAF 16: Concrete, Cement, Lime, Plaster etc - SPC 50450 Type 5",SANS 50450-1 2014,,ACTIVE
+C07a,132,,construction,Limes for use in building,,"IAF 16: Concrete, Cement, Lime, Plaster etc - SPC 523 Type 5",SANS 523 2021,,ACTIVE
+C07a,133,,construction,Lime for soil stabilization,,"IAF 16: Concrete, Cement, Lime, Plaster etc - SPC 824 Type 5",SANS 824 2024,,ACTIVE
+C07a,134,,construction,Glazed ceramic sanitary ware,,"IAF 16: Concrete, Cement, Lime, Plaster etc - SPC 497 Type 5",SANS 497 2011,,ACTIVE
+C07a,135,,metals,Light gauge welded steel pipes,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1182 Type 5,SANS 1182 2020,,ACTIVE
+C07a,136,,metals,Articles made of precious metals,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 29 Type 5,SANS 29 2011,,ACTIVE
+C07a,137,,metals,Welded steel fabric for reinforcement of concrete,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1024 Type 5,SANS 1024 2024,,ACTIVE
+C07a,138,,metals,Mushroom- and countersunk-head bolts and nuts,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1143 Type 5,SANS 1143 2023,,ACTIVE
+C07a,139,,metals,Hot dip galvanized coatings on fabricated iron and steel articles - Specifications and test methods,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 121 Type 5,SANS 121 2024,,ACTIVE
+C07a,140,,electrical,Mechanical cable glands,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 2023 Type 5,SANS 1213 2023,,ACTIVE
+C07a,141,,metals,Hand hacksaw blades,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1219 Type 5,SANS 1219 2022,,ACTIVE
+C07a,142,,metals,Bow-saw frames and blades,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1284 Type 5,SANS 1284 2023,,ACTIVE
+C07a,143,,metals,Padlocks,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1533 Type 5,SANS 1533 2014,,ACTIVE
+C07a,144,,metals,Short-link steel chain (close-tolerance) for lifting appliances,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1592 Type 5,SANS 1592 2005,,ACTIVE
+C07a,145,,metals,"Fasteners Part 14: Hexagon nuts Section 1: Hexagon nuts, style 1 - Product grades A and B",,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1700 Type 5,SANS 1700-14-1 2003,,ACTIVE
+C07a,146,,metals,Fasteners Part 7: External drive hexagon bolts and screws Section 1: Hexagon head bolts - Product grades A and B,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1700 Type 5,SANS 1700-7-1 2003,,ACTIVE
+C07a,147,,metals,Fasteners Part 7: External drive hexagon bolts and screws Section 3: Hexagon head bolts - Product grade C,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1700 Type 5,SANS 1700-7-3 2003,,ACTIVE
+C07a,148,,metals,Fasteners Part 7: External drive hexagon bolts and screws Section 4: Hexagon head screws- Product grades A and B,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1700 Type 5,SANS 1700-7-4 2003,,ACTIVE
+C07a,149,,metals,Fasteners Part 7: External drive hexagon bolts and Screws Section 5: Hexagon head screws - Product grade C,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1700 Type 5,SANS 1700-7-5 2003,,ACTIVE
+C07a,150,,metals,Portable refillable fire extinguishers,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1910 Type 5,SANS 1910 2025,,ACTIVE
+C07a,151,,metals,Long-link and extra-long-link medium tolerance steel chains for general purposes,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 251 Type 5,SANS 251 2018,,ACTIVE
+C07a,152,,metals,Spades and shovels,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 284 Type 5,SANS 284 2021,,ACTIVE
+C07a,153,,metals,Internal and/or external protective coatings for steel tubes - Specification for hot dip galvanized coatings applied in automatic plants,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 32 Type 5,SANS 32 1997,,ACTIVE
+C07a,154,,metals,Hammer heads and hand hammers,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 387 Type 5,SANS 387 2018,,ACTIVE
+C07a,155,,metals,Forks and rakes,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 390 Type 5,SANS 390 2021,,ACTIVE
+C07a,156,,metals,Austenitic manganese steel castings,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 407 Type 5,SANS 407 2008,,ACTIVE
+C07a,157,,metals,Gas cylinders - Refillable welded steel cylinders - Test pressure 60 bar and below,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 4706 Type 5,SANS 4706 2025,,ACTIVE
+C07a,158,,metals,"Gully tops and manhole tops for vehicular and pedestrian areas - Design requirements, type testing, marking, quality control",,IAF 17: Basic Metals and Fabricated Metal Products - SPC 50124 Type 5,SANS 50124 1994,,ACTIVE
+C07a,159,,metals,Sherardizing - Zinc diffusion coatings on ferrous products - Specification,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 53811 Type 5,SANS 53811 2006,,ACTIVE
+C07a,160,,metals,Zinc-coated fencing wire,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 675 Type 5,SANS 675 2011,,ACTIVE
+C07a,161,,metals,Wheelbarrows,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 795 Type 5,SANS 795 2018,,ACTIVE
+C07a,162,,metals,Mild steel nails,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 820 Type 5,SANS 820 2011,,ACTIVE
+C07a,163,,metals,Steel bars for concrete reinforcement,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 920 Type 5,SANS 920 2011,,ACTIVE
+C07a,164,,metals,Spheroidal graphite iron castings,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 936 Type 5,SANS 936 2015,,ACTIVE
+C07a,165,,metals,Conveyor belt idlers Part 1: Troughed belt conveyor idlers (metallic and non-metallic) for idler roller rotational speeds of up to 750 revolutions per minute,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1313 Type 5,SANS 1313-1 2012,,ACTIVE
+C07a,166,,metals,Conveyor belt idlers Part 3: Performance specifications for troughed belt conveyor idlers (metallic and non-metallic) for idler roller rotational speeds of up to 750 revolutions per minute,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1313 Type 5,SANS 1313-3 2012,,ACTIVE
+C07a,167,,metals,Portable rechargeable fire extinguishers - CO2 type extinguishers,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1567 Type 5,SANS 1567 2022,,ACTIVE
+C07a,168,,metals,Short-link steel chain (medium-tolerance) for lifting purposes,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 189 Type 5,SANS 189 2026,,ACTIVE
+C07a,169,,metals,"Chain slings of welded construction - Grades M(4), S(6) and T(8)",,IAF 17: Basic Metals and Fabricated Metal Products - SPC 4778 Type 5,SANS 4778 1981,,ACTIVE
+C07a,170,,metals,Burglar-resistant safes,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 751 Type 5,SANS 751 2008,,ACTIVE
+C07a,171,,metals,Chain slings assembled by methods other than welding - Grade T(8),,IAF 17: Basic Metals and Fabricated Metal Products - SPC 7593 Type 5,SANS 7593 1986,,ACTIVE
+C07a,172,,metals,Strongroom and vault doors,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 949 Type 5,SANS 949 2024,,ACTIVE
+C07a,173,,metals,Storage of firearms and ammunition Part 1: Safes,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 953 Type 5,SANS 953-1 2018,,ACTIVE
+C07a,174,,health,Outlet sockets and probes for medical (gas and vacuum) services used in hospitals,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1409 Type 5,SANS 1409 2014,,ACTIVE
+C07a,175,,health,Copper tubes for medical gas and vacuum services,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1453 Type 5,SANS 1453 2018,,ACTIVE
+C07a,176,,professional,Guardrails for roads,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1350 Type 5,SANS 1350 2005,,ACTIVE
+C07a,177,,metals,Above ground storage tanks for petroleum products,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 10131 Type 5,SANS 10131 2018,,ACTIVE
+C07a,178,,metals,Copper based fittings for copper tubes Part 1: Compression fittings,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1067 Type 5,SANS 1067-1 2005,,ACTIVE
+C07a,179,,metals,Copper based fittings for copper tubes Part 2: Capillary solder fittings,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 1067 Type 5,SANS 1067-2 2005,,ACTIVE
+C07a,180,,metals,Storage of firearms and ammunition Part 2: Strongrooms,,IAF 17: Basic Metals and Fabricated Metal Products - SPC 953 Type 5,SANS 953-2 2023,,ACTIVE
+C07a,181,,machinery,Ball valves Part 3: Light duty valves (not fire-safe),,IAF 18: Machinery and Equipment - SPC 1056 Type 5,SANS 1056-3 2025,,ACTIVE
+C07a,182,,machinery,Functional-control valves and safety valves for domestic hot and cold water supply systems,,IAF 18: Machinery and Equipment - SPC 198 Type 5,SANS 198 2022,,ACTIVE
+C07a,183,,machinery,Wedge gate and resilient seal valves for waterworks Part 1: General,,IAF 18: Machinery and Equipment - SPC 664 Type 5,SANS 664-1 2011,,ACTIVE
+C07a,184,,machinery,Wedge gate and resilient seal valves for waterworks Part 2: Wedge gate valves,,IAF 18: Machinery and Equipment - SPC 664 Type 5,SANS 664-2 2024,,ACTIVE
+C07a,185,,machinery,Wedge gate and resilient seal valves for waterworks Part 3: Resilient seal valves,,IAF 18: Machinery and Equipment - SPC 664 Type 5,SANS 664-3 2024,,ACTIVE
+C07a,186,,machinery,Automatic shut-off flush valves for water closets and urinal,,IAF 18: Machinery and Equipment - SPC 1240 Type 5,SANS 1240 2016,,ACTIVE
+C07a,187,,machinery,Water supply and distribution system components Part 16: Drinking fountains,,IAF 18: Machinery and Equipment - SPC 1808 Type 5,SANS 1808-16 2017,,ACTIVE
+C07a,188,,machinery,Water supply and distribution system components Part 35: Electronically operated taps and valves,,IAF 18: Machinery and Equipment - SPC 1808 Type 5,SANS 1808-35 2010,,ACTIVE
+C07a,189,,machinery,Water supply and distribution system components Part 5: Flexible connectors,,IAF 18: Machinery and Equipment - SPC 1808 Type 5,SANS 1808-5 2010,,ACTIVE
+C07a,190,,machinery,Water supply and distribution system components Part 53: Drain cocks for hot-water storage containers,,IAF 18: Machinery and Equipment - SPC 1808 Type 5,SANS 1808-53 2012,,ACTIVE
+C07a,191,,machinery,Water supply and distribution system components Part 66: Demand types water taps,,IAF 18: Machinery and Equipment - SPC 1808 Type 5,SANS 1808-66 2005,,ACTIVE
+C07a,192,,machinery,Water supply and distribution system components Part 9: Metering taps and valves (metallic bodies),,IAF 18: Machinery and Equipment - SPC 1808 Type 5,SANS 1808-9 2017,,ACTIVE
+C07a,193,,machinery,Domestic solar water heaters,,IAF 18: Machinery and Equipment - SPC 1307 Type 5,SANS 1307 2014,,ACTIVE
+C07a,194,,electrical,Fixed electric storage water heaters,,IAF 18: Machinery and Equipment - SPC 151 Type 5,SANS 151 2022,,ACTIVE
+C07a,195,,machinery,Fire-dampers,,IAF 18: Machinery and Equipment - SPC 193 Type 5,SANS 193 2013,,ACTIVE
+C07a,196,,machinery,Industrial body belts,,IAF 18: Machinery and Equipment - SPC 809 Type 5,SANS 809 2011,,ACTIVE
+C07a,197,,electrical,Household and similar electrical appliances - Safety Part 1: General requirements,,IAF 18: Machinery and Equipment - SPC 60335 Type 5,SANS 60335-1 2023,,ACTIVE
+C07a,198,,machinery,Water supply and distribution system components Part 10: Copper alloy check valves (spring-loaded),,IAF 18: Machinery and Equipment - SPC 1808 Type 5,SANS 1808-10 2025,,ACTIVE
+C07a,199,,electrical,Household and similar electrical appliances- Safety Part 1:2-89: Particular requirements for commercial refrigerating appliances with an incorporated or remote refrigerant unit or compressor,,IAF 18: Machinery and Equipment - SPC 60335 Type 5,SANS 60335-2-89 2020,,ACTIVE
+C07a,200,,metals,The production of reconditioned fire-fighting equipment Part 1: Portable and wheeled (mobile) rechargeable fire extinguishers,,IAF 18: Machinery and Equipment - SPC 1475 Type 5,SANS 1475-1 2025,,ACTIVE
+C07a,201,,construction,The production of reconditioned fire-fighting equipment Part 2: Fire hose reels and above-ground hydrants,,IAF 18: Machinery and Equipment - SPC 1475 Type 3,SANS 1475-2 2024,,ACTIVE
+C07a,202,,machinery,Fire hose reels,,IAF 18: Machinery and Equipment - SPC 543 Type 5,SANS 543 2023,,ACTIVE
+C07a,203,,machinery,Single control mixer taps,,IAF 18: Machinery and Equipment - SPC 1480 Type 5,SANS 1480 2005,,ACTIVE
+C07a,204,,machinery,Flush valves for WC flushing cisterns,,IAF 18: Machinery and Equipment - SPC 1509 Type 5,SANS 1509 2017,,ACTIVE
+C07a,205,,metals,Water taps (metallic bodies),,IAF 18: Machinery and Equipment - SPC 226 Type 5,SANS 226 2016,,ACTIVE
+C07a,206,,machinery,Float valves,,IAF 18: Machinery and Equipment - SPC 752 Type 5,SANS 752 2009,,ACTIVE
+C07a,207,,machinery,WC flushing cisterns,,IAF 18: Machinery and Equipment - SPC 821 Type 5,SANS 821 2007,,ACTIVE
+C07a,208,,electrical,"Household and similar electrical appliances - Safety Part 2-24: Particular requirements for refrigerating appliances, ice-cream appliances and ice-makers",,IAF 19: Electrical and Optical Equipment - SPC 60335 Type 5,SANS 60335-2-24 2021,,ACTIVE
+C07a,209,,electrical,Power-operated dispensing devices for flammable liquid fuels,,IAF 19: Electrical and Optical Equipment - SPC 1020 Type 3,SANS 1020 2023,,ACTIVE
+C07a,210,,electrical,"Earth rods, couplers and connections",,IAF 19: Electrical and Optical Equipment - SPC 1063 Type 5,SANS 1063 2020,,ACTIVE
+C07a,211,,electrical,"Electric cables - Cross-linked polyethylene (XLPE) insulated cables for rated voltages 3,8/6,6 kV to 19/33 kV",,IAF 19: Electrical and Optical Equipment - SPC 1339 Type 3,SANS 1339 2020,,ACTIVE
+C07a,212,,electrical,Aerial bundled conductor systems Part 1: Cores,,IAF 19: Electrical and Optical Equipment - SPC 1418 Type 3,SANS 1418-1 2009,,ACTIVE
+C07a,213,,electrical,Aerial bundled conductor systems Part 2: Assembled insulated conductor bundles,,IAF 19: Electrical and Optical Equipment - SPC 1418 Type 3,SANS 1418-2 2023,,ACTIVE
+C07a,214,,electrical,Electric cables with extruded solid dielectric insulation for fixed installations (300/500 V to 1 900/3 300 V) Part 1: General,,IAF 19: Electrical and Optical Equipment - SPC 1507 Type 5,SANS 1507-1 2020,,ACTIVE
+C07a,215,,electrical,Electric cables with extruded solid dielectric insulation for fixed installations (300/500 V to 1 900/3 300 V) Part 2: Wiring cables,,IAF 19: Electrical and Optical Equipment - SPC 1507 Type 5,SANS 1507-2 2018,,ACTIVE
+C07a,216,,electrical,Electric cables with extruded solid dielectric insulation for fixed installations (300/500 V to 1 900/3 300 V) Part 3: PVC Distribution cables,,IAF 19: Electrical and Optical Equipment - SPC 1507 Type 5,SANS 1507-3 2020,,ACTIVE
+C07a,217,,electrical,Electric cables with extruded solid dielectric insulation for fixed installations (300/500 V to 1 900/3 300 V) Part 4: XLPE distribution cables,,IAF 19: Electrical and Optical Equipment - SPC 1507 Type 5,SANS 1507-4 2022,,ACTIVE
+C07a,218,,electrical,Electric cables with extruded solid dielectric insulation for fixed installations (300/500 V to 1 900/3 300 V) Part 5: Halogen-free distribution cables,,IAF 19: Electrical and Optical Equipment - SPC 1507 Type 5,SANS 1507-5 2020,,ACTIVE
+C07a,219,,electrical,Electric cables with extruded solid dielectric insulation for fixed installations (300/500 V to 1 900/3 300 V) Part 6: Service cables,,IAF 19: Electrical and Optical Equipment - SPC 1507 Type 5,SANS 1507-6 2021,,ACTIVE
+C07a,220,,electrical,Flexible electric trailing cables for use in mines Part 1: Low-voltage (640/1 100 V and 1 900/3 300 V) cables,,IAF 19: Electrical and Optical Equipment - SPC 1520 Type 5,SANS 1520-1 2022,,ACTIVE
+C07a,221,,electrical,"Flexible electric trailing cables for use in mines Part 2: High-voltage (3,8/6,6 kV to 19/33 kV) cables",,IAF 19: Electrical and Optical Equipment - SPC 1520 Type 5,SANS 1520-2 2020,,ACTIVE
+C07a,222,,electrical,Electric flexible cables with solid extruded dielectric insulation Part 3: PVC-insulated cables for industrial use,,IAF 19: Electrical and Optical Equipment - SPC 1574 Type 5,SANS 1574-3 2018,,ACTIVE
+C07a,223,,electrical,"Electric flexible cables with solid extruded dielectric insulation Part 4: Rubber-insulated cables for domestic, office and similar environments (cords)",,IAF 19: Electrical and Optical Equipment - SPC 1574 Type 5,SANS 1574-4 2017,,ACTIVE
+C07a,224,,electrical,Electric flexible cables with solid extruded dielectric insulation Part 5: Rubber-insulated cables for industrial use,,IAF 19: Electrical and Optical Equipment - SPC 1574 Type 5,SANS 1574-5 2022,,ACTIVE
+C07a,225,,electrical,Electric cables - Single core arc welding cable,,IAF 19: Electrical and Optical Equipment - SPC 1576 Type 5,SANS 1576 2015,,ACTIVE
+C07a,226,,electrical,Cable glands for use on flameproof enclosures (Ex d),,IAF 19: Electrical and Optical Equipment - SPC 808 Type 5,SANS 808 2024,,ACTIVE
+C07a,227,,electrical,"Gas measuring equipment primarily for use in mines Part 1: Battery-operated portable, flammable gas measuring instruments and warning devices",,IAF 19: Electrical and Optical Equipment - SPC 1515 Type 5,SANS 1515-1 2020,,ACTIVE
+C07a,228,,electrical,Electricity payment systems Part 1: Prepayment meters,,IAF 19: Electrical and Optical Equipment - SPC 1524 Type 3,SANS 1524-1 2023,,ACTIVE
+C07a,229,,electrical,Rewound and refurbished rotating electrical machines Part 1: Low-voltage three-phase induction motors,,IAF 19: Electrical and Optical Equipment - SPC 10242 Type 3,SANS 10242-1 2017,,ACTIVE
+C07a,230,,electrical,Plug and socket-outlet systems for household and similar purposes for use in South Africa Part 0: General and safety requirements,,IAF 19: Electrical and Optical Equipment - SPC 164 Type 5,SANS 164-0 2025,,ACTIVE
+C07a,231,,electrical,"Plug and socket-outlet systems for household and similar purposes for use in South Africa Part 1: Conventional system, 16 A 250 V a.c",,IAF 19: Electrical and Optical Equipment - SPC 164 Type 5,SANS 164-1 2025,,ACTIVE
+C07a,232,,electrical,"Plug and socket-outlet systems for household and similar purposes for use in South Africa Part 2: IEC system, 16 A 250 V a.c",,IAF 19: Electrical and Optical Equipment - SPC 164 Type 5,SANS 164-2 2018,,ACTIVE
+C07a,233,,electrical,Plugs and socket-outlets for household and similar purposes Part 2-5: Particular requirements for adaptors,,IAF 19: Electrical and Optical Equipment - SPC 60884 Type 5,SANS 60884-2-5 2017,,ACTIVE
+C07a,234,,electrical,Cord extension sets,,IAF 19: Electrical and Optical Equipment - SPC 1661 Type 5,SANS 1661 2025,,ACTIVE
+C07a,235,,electrical,"Electric cables - Medium-voltage aerial bundled conductors for voltages from 3,8/6,6 kV to 19/33 kV",,IAF 19: Electrical and Optical Equipment - SPC 1713 Type 3,SANS 1713 2023,,ACTIVE
+C07a,236,,electrical,Watt-hour meters - AC electronic meters for active energy,,IAF 19: Electrical and Optical Equipment - SPC 1799 Type 3,SANS 1799 2023,,ACTIVE
+C07a,237,,electrical,Induction motors Part 1: IEC requirements,,IAF 19: Electrical and Optical Equipment - SPC 1804 Type 3,SANS 1804-1 2012,,ACTIVE
+C07a,238,,electrical,Induction motors Part 2: Low-voltage three-phase standard motors,,IAF 19: Electrical and Optical Equipment - SPC 1804 Type 3,SANS 1804-2 2012,,ACTIVE
+C07a,239,,electrical,Induction motors Part 4: Single-phase induction motors,,IAF 19: Electrical and Optical Equipment - SPC 1804 Type 3,SANS 1804-4 2012,,ACTIVE
+C07a,240,,electrical,Thermostats for electric storage water heaters,,IAF 19: Electrical and Optical Equipment - SPC 181 Type 5,SANS 181 2022,,ACTIVE
+C07a,241,,electrical,Conductors for overhead electrical transmission lines Part 1: Copper wires and stranded copper conductors,,IAF 19: Electrical and Optical Equipment - SPC 182 Type 3,SANS 182-1 2021,,ACTIVE
+C07a,242,,electrical,Conductors for overhead electrical transmission lines Part 2: Stranded aluminium conductors,,IAF 19: Electrical and Optical Equipment - SPC 182 Type 3,SANS 182-2 2020,,ACTIVE
+C07a,243,,electrical,"Conductors for overhead electrical transmission lines Part 3: Aluminium conductors, steel reinforced",,IAF 19: Electrical and Optical Equipment - SPC 182 Type 3,SANS 182-3 2021,,ACTIVE
+C07a,244,,electrical,Conductors for overhead electrical transmission lines Part 5: Zinc-coated steel wires for conductors and stays,,IAF 19: Electrical and Optical Equipment - SPC 182 Type 3,SANS 182-5 2008,,ACTIVE
+C07a,245,,electrical,Low-voltage switchgear and control gear ASSEMBLIES Part 1: Type-tested ASSEMBLIES with stated deviations and a rated short-circuit withstand strength above 10 kA,,IAF 19: Electrical and Optical Equipment - SPC 1973 Type 3,SANS 1973-1 2024,,ACTIVE
+C07a,246,,electrical,Low-voltage switchgear and control gear ASSEMBLIES Part 3: Safety of ASSEMBLIES with a rated prospective short-circuit current of up to and including 10 kA SPC 2 Type 5 SANS 2 2013 Lead-acid starter batteries,,IAF 19: Electrical and Optical Equipment - SPC 1973 Type 3,SANS 1973-3 2017,,ACTIVE
+C07a,247,,electrical,Immersion heaters for electric storage water heaters,,IAF 19: Electrical and Optical Equipment - SPC 514 Type 5,SANS 514 2020,,ACTIVE
+C07a,248,,electrical,Explosive atmospheres Part 0: Equipment - General requirements,,IAF 19: Electrical and Optical Equipment - SPC 60079 Type 3,SANS 60079-0 2019,,ACTIVE
+C07a,249,,electrical,"Explosive atmospheres Part 1: Equipment protection by flameproof enclosures ""d""",,IAF 19: Electrical and Optical Equipment - SPC 60079 Type 3,SANS 60079-1 2015,,ACTIVE
+C07a,250,,electrical,Electrical apparatus for explosive gas atmospheres Part 11: Intrinsic safety 'i',,IAF 19: Electrical and Optical Equipment - SPC 60079 Type 3,SANS 60079-11 2023,,ACTIVE
+C07a,251,,electrical,"Explosive atmospheres Part 15: Equipment protection by type of protection ""n""",,IAF 19: Electrical and Optical Equipment - SPC 60079 Type 3,SANS 60079-15 2022,,ACTIVE
+C07a,252,,electrical,Explosive atmospheres Part 2: Equipment protection by pressurized enclosure <,,IAF 19: Electrical and Optical Equipment - SPC 60079,SANS 60079-2 2015,,ACTIVE
+C07a,253,,electrical,"Explosive atmospheres Part 31: Equipment dust ignition protection by enclosure ""t""",,IAF 19: Electrical and Optical Equipment - SPC 60079 Type 3,SANS 60079-31 2022,,ACTIVE
+C07a,254,,electrical,"Explosive atmospheres Part 7: Equipment protection by increased safety ""e""",,IAF 19: Electrical and Optical Equipment - SPC 60079 Type 3,SANS 60079-7 2019,,ACTIVE
+C07a,255,,electrical,Polyvinyl chloride insulated cables of rated voltages up to and including 450/750 V Part 5: Flexible cables (cords),,IAF 19: Electrical and Optical Equipment - SPC 60227 Type 3,SANS 60227-5 2022,,ACTIVE
+C07a,256,,electrical,Specifications for particular types of winding wires Part 0-1: General requirements - Enamelled round copper wire,,IAF 19: Electrical and Optical Equipment - SPC 60317 Type 5,SANS 60317-0-1 2020,,ACTIVE
+C07a,257,,electrical,"Specifications for particular types of winding wires Part 13: Polyester or polyesterimide over coated with polyamide-imide enamelled round copper wire, class 200",,IAF 19: Electrical and Optical Equipment - SPC 60317 Type 5,SANS 60317-13 2025,,ACTIVE
+C07a,258,,electrical,"Specifications for particular types of winding wires Part 4: Solderable polyurethane enamelled round copper wires, class 130",,IAF 19: Electrical and Optical Equipment - SPC 60317 Type 5,SANS 60317-4 2015,,ACTIVE
+C07a,259,,electrical,"Specifications for particular types of winding wires Part 8: Polyesterimide enamelled round copper wire, class 180",,IAF 19: Electrical and Optical Equipment - SPC 60317 Type 5,SANS 60317-8 2010,,ACTIVE
+C07a,260,,electrical,Degrees of protection provided by enclosures (IP Code),,IAF 19: Electrical and Optical Equipment - SPC 60529 Type 3,SANS 60529 2013,,ACTIVE
+C07a,261,,electrical,Safety of luminaires Part 22: Luminaires for emergency lighting,,IAF 19: Electrical and Optical Equipment - SPC 1464 Type 5,SANS 1464-22 2024,,ACTIVE
+C07a,262,,electrical,"Luminaires for interior lighting, street lighting and floodlighting - Performance requirements",,IAF 19: Electrical and Optical Equipment - SPC 475 Type 5,SANS 475 2022,,ACTIVE
+C07a,263,,electrical,Luminaires Part 1: General requirements and tests,,IAF 19: Electrical and Optical Equipment - SPC 60598 Type 5,SANS 60598-1 2021,,ACTIVE
+C07a,264,,electrical,Luminaires Part 2: Particular requirements Section 1: Fixed general purpose luminaires,,IAF 19: Electrical and Optical Equipment - SPC 60598 Type 5,SANS 60598-2-1 2021,,ACTIVE
+C07a,265,,electrical,Luminaires Part 2: Particular requirements Section 2: Recessed luminaires,,IAF 19: Electrical and Optical Equipment - SPC 60598 Type 5,SANS 60598-2-2 2016,,ACTIVE
+C07a,266,,electrical,Luminaires Part 2-3: Particular requirements - Luminaires for road and street lighting,,IAF 19: Electrical and Optical Equipment - SPC 60598 Type 5,SANS 60598-2-3 2013,,ACTIVE
+C07a,267,,electrical,Luminaires Part 2-5: Particular requirements - Floodlights,,IAF 19: Electrical and Optical Equipment - SPC 60598 Type 5,SANS 60598-2-5 2016,,ACTIVE
+C07a,268,,electrical,Switches for household and similar fixed-electrical installations Part 1: General requirements,,IAF 19: Electrical and Optical Equipment - SPC 60669 Type 5,SANS 60669-1 2017,,ACTIVE
+C07a,269,,electrical,Electrical accessories - Cord sets and interconnection cord sets,,IAF 19: Electrical and Optical Equipment - SPC 60799 Type 5,SANS 60799 2019,,ACTIVE
+C07a,270,,electrical,"Low-voltage switchgear and controlgear Part 3: Switches, disconnectors, switch-disconnectors and fuse-combination units",,IAF 19: Electrical and Optical Equipment - SPC 60947 Type 5,SANS 60947-3 2020,,ACTIVE
+C07a,271,,electrical,Self-ballasted lamps for general lighting services - Safety requirements,,IAF 19: Electrical and Optical Equipment - SPC 60968 Type 5,SANS 60968 2016,,ACTIVE
+C07a,272,,electrical,Self-ballasted lamps for general lighting services - Performance requirements,,IAF 19: Electrical and Optical Equipment - SPC 60969 Type 5,SANS 60969 2010,,ACTIVE
+C07a,273,,electrical,Switches for appliances Part 1: General requirements,,IAF 19: Electrical and Optical Equipment - SPC 61058 Type 5,SANS 61058-1 2017,,ACTIVE
+C07a,274,,electrical,Cable trunking and ducting systems for electrical installations Part 2: Particular requirements Section 1: Cable trunking and ducting systems intended for mounting on walls or ceilings,,IAF 19: Electrical and Optical Equipment - SPC 61084 Type 5,SANS 61084-2-1 2025,,ACTIVE
+C07a,275,,electrical,Conduit systems for cable management Part 1: General requirements,,IAF 19: Electrical and Optical Equipment - SPC 61384 Type 5,SANS 61386-1 2017,,ACTIVE
+C07a,276,,electrical,Conduit systems for cable management Part 21: Particular Requirements – Rigid conduit system,,IAF 19: Electrical and Optical Equipment - SPC 61385 Type 5,SANS 61386-21 2021,,ACTIVE
+C07a,277,,electrical,Conduit systems for cable management Part 24: Particular requirements - Conduit systems buried underground,,IAF 19: Electrical and Optical Equipment - SPC 61386 Type 5,SANS 61386-24 2005,,ACTIVE
+C07a,278,,electrical,Distribution transformers,,IAF 19: Electrical and Optical Equipment - SPC 780 Type 3,SANS 780 2021,,ACTIVE
+C07a,279,,electrical,"Compression-ignition engine systems and machines powered by such engine systems, for use in mines and plants with explosive gas atmospheres or explosive dust atmospheres or both Part 1-1: Hazardous locations in underground mines - Basic explosion protected",,IAF 19: Electrical and Optical Equipment - SPC868 Type 3,SANS 868-1-1 2024,,ACTIVE
+C07a,280,,electrical,"Compression-ignition engine systems and machines powered by such engine systems, for use in mines and plants with explosive gas atmospheres or explosive dust atmospheres or both Part 1-3: Hazardous locations in underground mines - Machines",,IAF 19: Electrical and Optical Equipment - SPC 868 Type 5,SANS 868-1-3 2024,,ACTIVE
+C07a,281,,electrical,"Electric cables - Impregnated paper-insulated metal- sheathed cables for rated voltages 3,3/3,3kV to 19/33 kV (excluding pressure assisted cables)",,IAF 19: Electrical and Optical Equipment - SPC 97 Type 3,SANS 97 2020,,ACTIVE
+C07a,282,,professional,"Audit, video and similar electronic apparatus – Safety requirements",,IAF 19: Electrical and Optical Equipment - SPC 60065 Type 3,SANS 60065 2015,,ACTIVE
+C07a,283,,electrical,Restraining devices (safety belts) for occupants of adult build in motor vehicles (revised requirements),,IAF 22: Other Transport Equipment - SPC 1080 Type 5,SANS 1080 2002,,ACTIVE
+C07a,284,,electrical,Lights for motor vehicles Part 3: Secondary lights,,IAF 22: Other Transport Equipment - SPC 1376 Type 5,SANS 1376-3 2019,,ACTIVE
+C07a,285,,trade_logistics,Ball type couplings and towing brackets for towing caravans and light trailers Part 1: Towing brackets and integrated towing devices,,IAF 22: Other Transport Equipment - SPC 1505 Type 5,SANS 1505-1 2007,,ACTIVE
+C07a,286,,transport_equipment,Uniform provisions concerning the approval of retro- reflective devices for power-driven vehicles and their trailers,,IAF 22: Other Transport Equipment - SPC 20003 Type 5,SANS 20003 2005,,ACTIVE
+C07a,287,,transport_equipment,Replacement brake lining assemblies and drum brake linings for power-driven vehicles and their trailers,,IAF 22: Other Transport Equipment - SPC 20090 Type 5,SANS 20090 2010,,ACTIVE
+C07a,288,,textiles,Personal protective equipment - Occupational footwear,,IAF 5: Manufacturing not Elsewhere Classified - SPC 20347 Type 5,SANS 20347 2023,,ACTIVE
+C07a,289,,other_manufacturing,Personal protective equipment against falls from a height Lanyards,,IAF 5: Manufacturing not Elsewhere Classified - SPC 50354 Type 5,SANS 50354 2003,,ACTIVE
+C07a,290,,other_manufacturing,Personal proactive equipment for work positioning and and prevention of falls from a height- Belts for work,,IAF 5: Manufacturing not Elsewhere Classified - SPC 50355 Type 5,SANS 50355 2003,,ACTIVE
+C07a,291,,other_manufacturing,Positioning and restraint and work positioning lanyards,,IAF 5: Manufacturing not Elsewhere Classified - SPC 50358 Type 5,SANS 50358 2008,,ACTIVE
+C07a,292,,other_manufacturing,Personal protective equipment against falls from a height- Full body harnesses,,IAF 5: Manufacturing not Elsewhere Classified - SPC 50361 Type 5,SANS 50361 2003,,ACTIVE
+C07a,293,,other_manufacturing,Mountaineering equipment – Slings- Safety requirements And test methods,,IAF 5: Manufacturing not Elsewhere Classified - SPC 50566 Type 5,SANS 50566 1997,,ACTIVE
+C07a,294,,other_manufacturing,Symbolic safety signs Part 1: Standard signs and general requirements,,IAF 5: Manufacturing not Elsewhere Classified - SPC 1186 Type 5,SANS 1186-1 2022,,ACTIVE
+C07a,295,,other_manufacturing,Symbolic safety signs Part 5: Photoluminescent signs,,IAF 5: Manufacturing not Elsewhere Classified - SPC 1186 Type 5,SANS 1186-5 2025,,ACTIVE
+C07a,296,,transport_equipment,Retro-reflective and fluorescent warning signs for road vehicles Part 4: Retro-reflective chevron signs,,IAF 5: Manufacturing not Elsewhere Classified - SPC 1329 Type 5,SANS 1329-4 2025,,ACTIVE
+C115,1,,electrical,Electric cables with extruded solid dielectric insulation Electric Cables 1-5 for fixed installations (300/500 V to 1 900/3 300 V) Part 1: General,,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 1507; SANS 1507-1:2020,,ACTIVE
+C115,2,,electrical,Electric cables with extruded solid dielectric insulation for fixed installations (300/500 V to 1 900/3 300 V) Part 2: Wiring cables,,IAF 19: Electrical and Optical Equipment,SANS 1507-2:2018,,ACTIVE
+C115,3,,electrical,Electric cables with extruded solid dielectric insulation for fixed installations (300/500 V to 1 900/3 300 V) Part 3: PVC distribution cables,,IAF 19: Electrical and Optical Equipment,SANS 1507-3:2020,,ACTIVE
+C115,4,,electrical,Electric cables with extruded solid dielectric insulation for fixed installations (300/500 V to 1 900/3 300 V) Part 4: XLPE distribution cables,,IAF 19: Electrical and Optical Equipment,SANS 1507-4:2020,,ACTIVE
+C115,5,,electrical,Electric cables with extruded solid dielectric insulation for fixed installations (300/500 V to 1 900/3 300 V) Part 5: Halogen-free distribution cables,,IAF 19: Electrical and Optical Equipment,SANS 1507-5:2020,,ACTIVE
+C115,6,,electrical,Electric cables with extruded solid dielectric insulation for fixed installations (300/500 V to 1 900/3 300 V) Part 6: Service cables,,IAF 19: Electrical and Optical Equipment,SANS 1507-6:2020,,ACTIVE
+C115,7,,electrical,Flexible electric trailing cables for use in mines Electric cables Part-1: Low voltage (640/1 100 V and 1 900/3 300 V) cables,,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 1520; SANS 1520-1:2016,,ACTIVE
+C115,8,,electrical,"Flexible electric trailing cables for use in mines Part-2: High-voltage (3,8/6,6 kV to 19/33 kV) cables",,IAF 19: Electrical and Optical Equipment,SANS 1520-2:2016,,ACTIVE
+C115,9,,electrical,Electric flexible cables with solid extruded dielectric flexible cables 1-5 insulation Part 1: General,,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 1574; SANS 1574-1:2012,,ACTIVE
+C115,10,,electrical,"Electric flexible cables with solid extruded dielectric insulation Part 2: PVC insulated flexible cables for domestic, office and similar environments (cords)",,IAF 19: Electrical and Optical Equipment,SANS 1574-2:2017,,ACTIVE
+C115,11,,electrical,Electric flexible cables with solid extruded dielectric insulation Part 3: PVC insulated cables for industrial use,,IAF 19: Electrical and Optical Equipment,SANS 1574-3:2018,,ACTIVE
+C115,12,,electrical,Electric flexible cables with solid extruded dielectric insulation Part 4: Rubber insulated flexible cables for domestic and similar environments (office),,IAF 19: Electrical and Optical Equipment,SANS 1574-4:2017,,ACTIVE
+C115,13,,electrical,Electric flexible cables with solid extruded dielectric insulation Part 5: Rubber insulated cables for industrial use,,IAF 19: Electrical and Optical Equipment,SANS 1574-5:2013,,ACTIVE
+C115,14,,electrical,Electric cables – Single core arc welding cables Welding Cables 1-5,,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 1576; SANS 1576:2015,,ACTIVE
+C115,15,,electrical,"Electric cables-Cross-linked polyethylene (XLPE) Welding Cable 1-5 insulated cables for rated voltage 3,8/6,6 kV to 19/33 kV",,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 1339; SANS 1339:2020,,ACTIVE
+C115,16,,electrical,"Accessories for medium-voltage XLPE and impregnated Welding Cables 1-6 paper-insulated power cables (3,8/6,6kV to 19/33 kV)",,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 133; SANS 1332:2013,,ACTIVE
+C115,17,,electrical,"Power cables with extruded insulation and their Arc Welding Cables 1-6 accessories for rated voltages from 1Kv (Um=1,2 kV) up to 30 kV (Um=36 kV)- Part 2: Cable for rated voltages from 6 kV (Um = 7,2 kV) up to 30 kV (Um = 36 kV)",,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 60502; SANS 60502-2:2014,,ACTIVE
+C115,18,,electrical,"Power cables with extruded insulation and their accessories for rated voltages from 1Kv (Um=1,2 kV) up",,IAF 19: Electrical and Optical Equipment,SANS 60502-4:2013,,ACTIVE
+C115,19,,electrical,"to 30 kV (Um=36 kV)- Part 4: Test requirements on accessories for cables with rated voltages from 6 kV (Um = 7,2 kV) up to 30 kV (Um = 36 kV)",,IAF 19: Electrical and Optical Equipment,IEC 60502-4:2023,IEC 60502-4,ACTIVE
+C115,20,,electrical,Compression and mechanical connectors for power,,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 61238; SANS 61238-1-1:2024,,ACTIVE
+C115,21,,electrical,cables for rated voltages up to 30 kV (Um = 36 kV) Part 1: Test methods and requirements,,IAF 19: Electrical and Optical Equipment - Welding Cables 1-5,IEC 61238-1-1:2018,IEC 61238-1-1,ACTIVE
+C115,22,,electrical,Compression and mechanical connectors for power,,IAF 19: Electrical and Optical Equipment,SANS 61238-1-2:2024,,ACTIVE
+C115,23,,electrical,cables for rated voltages up to 30 kV (Um = 36 kV) Part 2: Class A connectors,,IAF 19: Electrical and Optical Equipment,IEC 61238-1-2:2018,IEC 61238-1-2,ACTIVE
+C115,24,,electrical,Compression and mechanical connectors for power,,IAF 19: Electrical and Optical Equipment,SANS 61238-1-3:2024,,ACTIVE
+C115,25,,electrical,cables for rated voltages up to 30 kV (Um = 36 kV) Part 3: Class B connectors,,IAF 19: Electrical and Optical Equipment,IEC 61238-1-3:2018,IEC 61238-1-3,ACTIVE
+C115,26,,electrical,Polyvinyl chloride insulated cables of rated voltages up,,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 60227; SANS 60227-5:2006,,ACTIVE
+C115,27,,electrical,to and including 450/750 V Part 5: Flexible cables (cords),,IAF 19: Electrical and Optical Equipment - Welding Cables 1-5,IEC 60227-5:2011,IEC 60227-5,ACTIVE
+C115,28,,electrical,Cable glands for use on flameproof enclosures (Ex d) Welding Cables 1-5,,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 60808; SANS 808:2013,,ACTIVE
+C115,29,,electrical,Power cables with extruded insulation and their,,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 60840; SANS 60840:2024,,ACTIVE
+C115,30,,electrical,accessories for rated voltages from above 30 kV (Um = 36 kV) up to 150 kV (Um = 170 kV) – Test methods and requirements,,IAF 19: Electrical and Optical Equipment - Welding Cables 1-6,IEC 60840:2020,IEC 60840,ACTIVE
+C115,31,,electrical,"Electric cables – Medium-voltage aerial bundled Welding Cables 1-5 Conductors for voltages from 3,8/6,6kV to19/33kV",,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 1713; SANS 1713:2023,,ACTIVE
+C115,32,,electrical,Conductors for overhead electrical transmission line Welding Cables Part 1: Copper wires and stranded copper conductors,,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 182; SANS 182-1:2021,,ACTIVE
+C115,33,,electrical,Conductors for overhead electrical transmission line Part 2: Stranded aluminium conductors,,IAF 19: Electrical and Optical Equipment,SANS 182-2:2020,,ACTIVE
+C115,34,,electrical,"Conductors for overhead electrical transmission line Part 3: Aluminium conductors, steel reinforced",,IAF 19: Electrical and Optical Equipment,SANS 182-3:2021,,ACTIVE
+C115,35,,electrical,Conductors for overhead electrical transmission line Part 5: Zinc-coated steel wires for conductors and stays,,IAF 19: Electrical and Optical Equipment,SANS 182-5:2023,,ACTIVE
+C115,36,,electrical,Aerial bundled conductor system Part 1: Cores Welding Cables 1-5,,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 1418; SANS 1418-1:2009,,ACTIVE
+C115,37,,electrical,Aerial bundled conductor system Part 2: Assembled insulated conductor bundles,,IAF 19: Electrical and Optical Equipment,SANS 1418-2:2016,,ACTIVE
+C115,38,,electrical,"Electric cables-Impregnated paper-insulated metal- Welding Cables 1-5 sheathed cables for rated voltages 3,3/3,3 kV to 19/33 kV (excluding pressure assisted cables)",,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 97; SANS 97:2020,,ACTIVE
+C115,39,,electrical,Electric cables for photovoltaic systems with voltage,,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 62930; SANS 62930:2021,,ACTIVE
+C115,40,,electrical,"rating of 1,5 kV DC",,IAF 19: Electrical and Optical Equipment - 62930- Arc Welding Cables 1-5,IEC 32930:2017,IEC 32930,ACTIVE
+C115,41,,electrical,General requirements – Enamelled round copper wire,,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 60317-0-1; SANS 62317-0-1:2020,,ACTIVE
+C115,42,,electrical,IEC 60317-0-1:2013,,IAF 19: Electrical and Optical Equipment - Arc Welding Cables 1-5,IEC 60317-0-1:2013,IEC 60317-0-1,ACTIVE
+C115,43,,electrical,Distribution transformers Distribution transformers 1-5 SANS/IEC Power transformers Part 1: General 60076-1:2011,,IAF 19: Electrical and Optical Equipment - CI -SPCR,SANS 780; SANS 780:2021,,ACTIVE
+C115,44,,electrical,Low-voltage switchgear and control gear,,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 1973-1; SANS 1973-1:2024,,ACTIVE
+C115,45,,electrical,- Low voltage 1-5 Assemblies Part 1: Type-tested Switchgear and control gear Assemblies with stated deviations and a rated short- Assemblies circuit withstand strength above 10 kA,,IAF 19: Electrical and Optical Equipment,SANS 1973-3,,ACTIVE
+C115,46,,electrical,Low-voltage switchgear and control gear Assemblies Part 3: Safety of Assemblies with a rated Prospective short-circuit current of up to and including 10 kA,,IAF 19: Electrical and Optical Equipment,SANS 1973-3:2024,,ACTIVE
+C115,47,,electrical,Miniature substations for rated a.c voltages up to and up to and including 24kV,,IAF 19: Electrical and Optical Equipment,SANS 1029:2023,,ACTIVE
+C115,48,,electrical,Materials for thermal insulation of buildings Part 1: Fibre Specific Product Certification 5 thermal insulation mat,,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 1381; SANS 1381-1:2013,,ACTIVE
+C115,49,,electrical,"Materials for thermal insulation of buildings Part 4: thermal insulation of buildings Reflective foil laminates (rolls, sheets and sections)",,IAF 19: Electrical and Optical Equipment - Requirements for Materials for,SANS 1381-4:2013,,ACTIVE
+C115,50,,electrical,Materials for thermal insulation of buildings Part 6: Cellulose loose fill thermal insulation materials,,IAF 19: Electrical and Optical Equipment,SANS 1381-6:2011,,ACTIVE
+C115,51,,electrical,High-Voltage switchgear and controlgear – Part 100:,,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 62271; SANS 62271-100:2022,,ACTIVE
+C115,52,,electrical,Alternating -current circuit breakers,,IAF 19: Electrical and Optical Equipment - Product Certification 1-5,IEC 62271-100:2021,IEC 62271-100,ACTIVE
+C115,53,,electrical,High-Voltage switchgear and controlgear -Part 3: Gas,,IAF 19: Electrical and Optical Equipment - Requirements for High voltage,SANS 62271-203:2023,,ACTIVE
+C115,54,,electrical,insulated metal-enclosed switchgear for rated voltages above 52 kV,,IAF 19: Electrical and Optical Equipment - Switchgear and controlgear,IEC 62271-203:2022,IEC 62271-203,ACTIVE
+C115,55,,electrical,Fixed electric storage water heaters Product Certification 5 Requirements,,IAF 19: Electrical and Optical Equipment - CI-SPCR,SANS 151; SANS 151:2022,,ACTIVE
+C115,56,,electrical,Point-of-use drinking water treatment units,,IAF 19: Electrical and Optical Equipment,SANS 1865:2006,,ACTIVE
+C115,57,,electrical,Functional control valves and safety valves for domestic hot and cold-water supply systems,,IAF 19: Electrical and Optical Equipment,SANS 198:2012,,ACTIVE
+C115,58,,electrical,Water supply and distribution system components Part 53: Drain cocks for hot water storage containers,,IAF 19: Electrical and Optical Equipment,SANS 1808-53:2012,,ACTIVE
+C115,59,,electrical,Tempering valves for storage hot water systems,,IAF 19: Electrical and Optical Equipment,SANS 1299:2015,,ACTIVE
+C115,60,,electrical,Water taps (metallic bodies),,IAF 19: Electrical and Optical Equipment - CI-SPCR Water Taps Specific Type 5,SANS 226:2016,,ACTIVE
+C115,61,,electrical,Single control mixer taps,,IAF 19: Electrical and Optical Equipment - Product Certification,SANS 1480:2019,,ACTIVE
+C115,62,,electrical,Water supply and distribution system components Part 35: electronically operated taps and valved,,IAF 19: Electrical and Optical Equipment - Requirements for water taps,SANS 1808-35:2010,,ACTIVE
+C115,63,,electrical,Water supply and distribution system components Part 9: metering taps and valves (metallic bodies),,IAF 19: Electrical and Optical Equipment,SANS 1808-9:2017,,ACTIVE
+C115,64,,electrical,Water supply and distribution system components Part 10: Copper alloy check valves (spring-loaded),,IAF 19: Electrical and Optical Equipment,SANS 1808-10:2005,,ACTIVE
+C115,65,,electrical,Low-voltage switchgear Part 1: Circuit-breakers,,IAF 19: Electrical and Optical Equipment - CI-SPCR 556 Type 5,SANS 556-1:2018,,ACTIVE
+C115,66,,electrical,Low-voltage switchgear Part 2-1: Earth leakage circuit- breakers,,IAF 19: Electrical and Optical Equipment,SANS 556-2-1:2018,,ACTIVE
+C115,67,,electrical,Low-voltage switchgear Part 2-2: Earth leakage switches,,IAF 19: Electrical and Optical Equipment,SANS 556-2-2:2023,,ACTIVE
+C115,68,,electrical,Low-voltage switchgear Part 2-3: Modular earth leakage devices (without integral current breaking),,IAF 19: Electrical and Optical Equipment,SANS 556-2-3:2018,,ACTIVE
+C115,69,,electrical,Low-voltage switchgear Part 2-4: Portable earth leakage devices without integral overcurrent protection for household and similar use (PELD),,IAF 19: Electrical and Optical Equipment,SANS 556-2-4:2012,,ACTIVE
+C115,70,,electrical,556 Low voltage switchgear Part 2-5: Earth leakage switches-Switches that incorporate residual current protection,,IAF 19: Electrical and Optical Equipment,SANS 556-2-5:2023,,ACTIVE
+C115,71,,electrical,Low-voltage switchgear and controlgear Part 2: Circuit-,,IAF 19: Electrical and Optical Equipment - SPCR 60947,SANS 60947-2:2020,,ACTIVE
+C115,72,,electrical,breakers,,IAF 19: Electrical and Optical Equipment,IEC 60947-2:2016,IEC 60947-2,ACTIVE
+C115,73,,electrical,Residual current operated circuit-breakers without,,IAF 19: Electrical and Optical Equipment - SPCR 61008,SANS 61008-1:2014,,ACTIVE
+C115,74,,electrical,integral current overprotection for household and similar uses (RCCBs) Part 1 - General rules,,IAF 19: Electrical and Optical Equipment,IEC 61008-1:2016,IEC 61008-1,ACTIVE
+C118,1,,electrical,Household and similar electrical appliances-Safety,,ASC-PCA-Specific-SANS Type 5,IEC 60335-1:2020 Ed 5.2,IEC 60335-1,ACTIVE
+C118,2,,other_manufacturing,Part 1: General requirements,,60335-Ver01,SANS 60335-1:2018,,ACTIVE
+C118,3,,electrical,Household and similar electrical appliances-safety,,,IEC 60335-2-9:2019 Ed 7,IEC 60335-2-9,ACTIVE
+C118,4,,other_manufacturing,"Part 2-9: Particular requirements for grills, toasters Edition 5 And similar portable cooking appliances",,,SANS 60335-2-9:2020,,ACTIVE
+C118,5,,public_education,"Audio/Video, information and communication 62368 Ver 01 Technology equipment Part 1: Safety requirements",,ASC-PCA-Specific-SANS Type 5,SANS 62368-1:2021,,ACTIVE
+C122,1,,tourism,"Halaal Food Product MJCHT Halaal Certification Scheme MJCHT Halaal Standards Livestock Abattoirs for Abattoirs: for Abattoirs Poultry Abattoirs MJCHT/Scheme Abattoirs/SCA001 MJCHT Halaal Certification Scheme MJCHT Halaal Standards Processing 1 (Perishable animal for Production Plants For Production Plants products) MJCHT/Production Plants/ Processing 2 (Perishable vegetable SCHEME004/ISO.7.2 Products) Processing 3 (Products with long shelf life at room temperature) MJCHT Halaal Certification Scheme MJCHT Standards for Supermarket Butcheries for Supermarkets: Stores/Supermarkets Supermarket Delis MJCHT/Supermarket/SCHEME003/ Supermarket Bakeries ISO.7.2 Supermarket Food counters MJCHT Halaal Certification Scheme MJCHT Standards for Food Outlets and Restaurants for Food Outlets: Food Outlets MJCHT/Food Outlet/ SCHEME002/ ISO.7.2 MJCHT Halaal Certification Scheme MJCHT Standards for Food, Food Products and for Distribution Centres: Distribution Centres Ingredients Distribution Centres MJCHT/DistrCentre/SCHEME001/ ISO.7.2",,,,,ACTIVE
+C124,1,,electrical,Explosives atmospheres -Part 0: General requirements,,IAF 19: Electrical and Optical Equipment (Explosion Prevention) - Product Certification Agreement Type 5,SANS/IEC 60079-0: 2019,IEC 60079-0,ACTIVE
+C124,2,,electrical,Explosives atmospheres -Part 1: Equipment protection by flameproof enclosures “d”,,IAF 19: Electrical and Optical Equipment (Explosion Prevention) - DOC29/ExCS-,SANS 60079; SANS/IEC 60079-1: 2015,IEC 60079-1,ACTIVE
+C124,3,,electrical,Explosives atmospheres -Part 2: Equipment protection by pressurized enclosures “p”,,IAF 19: Electrical and Optical Equipment (Explosion Prevention),SANS/IEC 60079-2: 2015,IEC 60079-2,ACTIVE
+C124,4,,electrical,Explosives atmospheres -Part 7: Equipment protection by Increased safety “e”,,IAF 19: Electrical and Optical Equipment (Explosion Prevention),S A NS/IEC 60079-7: 2023,IEC 60079-7,ACTIVE
+C124,5,,electrical,Explosives atmospheres -Part 11: Equipment protection by intrinsic safety “i”,,IAF 19: Electrical and Optical Equipment (Explosion Prevention),SANS/IEC 60079-11: 2024,IEC 60079-11,ACTIVE
+C124,6,,electrical,Explosives atmospheres -Part 15: Equipment protection by type of protection “n”,,IAF 19: Electrical and Optical Equipment (Explosion Prevention),SANS/IEC 60079-15: 2010,IEC 60079-15,ACTIVE
+C124,7,,electrical,Explosives atmospheres -Part 18: Equipment protection by encapsulation “m”,,IAF 19: Electrical and Optical Equipment (Explosion Prevention),SANS/IEC 60079-18: 2022,IEC 60079-18,ACTIVE
+C124,8,,electrical,"Explosives atmospheres -Part 19: Equipment repair, overhaul and reclamation",,IAF 19: Electrical and Optical Equipment (Explosion Prevention),SANS/IEC 60079-19: 2021,IEC 60079-19,ACTIVE
+C124,9,,electrical,"Explosives atmospheres -Part 25: Equipment repair, overhaul and reclamation explosive – Part 25: Intrinsically safe electrical systems",,IAF 19: Electrical and Optical Equipment (Explosion Prevention),SANS/IEC 60079-25: 2021,IEC 60079-25,ACTIVE
+C124,10,,electrical,"Explosives atmospheres -Part 31: Equipment dust ignition, protection by enclosure “t”",,IAF 19: Electrical and Optical Equipment (Explosion Prevention),SANS/IEC 60079-31: 2023,IEC 60079-31,ACTIVE
+C124,11,,electrical,Explosives atmospheres -Part 34: Application of quality,,IAF 19: Electrical and Optical Equipment (Explosion Prevention) - Product Certification Agreement Type 5,SANS/IEC 80079-34: 2023,IEC 80079-34,ACTIVE
+C124,12,,electrical,systems for equipment manufacture,,IAF 19: Electrical and Optical Equipment (Explosion Prevention) - DOC29/ExCS-,SANS 80079-34,,ACTIVE
+C124,13,,electrical,Explosives atmospheres -Part 36: Non-electrical,,IAF 19: Electrical and Optical Equipment (Explosion Prevention) - Product Certification Agreement Type 5,SANS/IEC 80079-36: 2018,IEC 80079-36,ACTIVE
+C124,14,,electrical,Equipment For explosive atmosphere-basic method and requirements,,IAF 19: Electrical and Optical Equipment (Explosion Prevention) - DOC29/ExCs-,SANS 80079-36,,ACTIVE
+C124,15,,electrical,Explosives atmospheres -Part 37: Non-electrical,,IAF 19: Electrical and Optical Equipment (Explosion Prevention) - Product Certification Agreement Type 5,SANS/IEC 80079-37: 2018,IEC 80079-37,ACTIVE
+C124,16,,electrical,Equipment For explosive atmosphere-non-electrical type of protection constructional safety “c” control of ignition source “b” liquid immersion “k”,,IAF 19: Electrical and Optical Equipment (Explosion Prevention) - DOC29/ExCS-,SANS 80079-37,,ACTIVE
+C124,17,,electrical,Explosives atmospheres -Part 38: Equipment and,,IAF 19: Electrical and Optical Equipment (Explosion Prevention) - Product Certification Agreement Type 5,SANS/IEC 80079-38: 2020,IEC 80079-38,ACTIVE
+C124,18,,electrical,- Components in explosive atmospheres in underground 36/37/38 mines,,IAF 19: Electrical and Optical Equipment (Explosion Prevention) - DOC29/ExCS-,SANS 80079,,ACTIVE
+C124,19,,electrical,Power-operated dispensing devices for flammable,,IAF 19: Electrical and Optical Equipment (Explosion Prevention) - Product Certification Agreement d Type 5,SANS 1020: 2023,,ACTIVE
+C124,20,,electrical,liquid fuels,,IAF 19: Electrical and Optical Equipment (Explosion Prevention) - DOC29/ExCS-,SANS 1020,,ACTIVE
+C124,21,,electrical,Cable glands for use on flameproof enclosures (Ex d),,IAF 19: Electrical and Optical Equipment (Explosion Prevention) - Product Certification Agreement Type 5,SANS 808: 2018,,ACTIVE
+C124,22,,electrical,SANS 808,,IAF 19: Electrical and Optical Equipment (Explosion Prevention) - DOC29/ExCS-,SANS 808,,ACTIVE
+C124,23,,electrical,Compression-ignition engine systems and machines,,IAF 19: Electrical and Optical Equipment (Explosion Prevention) - Product Certification Agreement Type 5,SANS 868-1-1: 2024,,ACTIVE
+C124,24,,electrical,"Powered by such engine systems, for use in mines and plants with explosive gas atmospheres or both. Part1-1: Hazardous location in underground mines- basic explosion protected engines",,IAF 19: Electrical and Optical Equipment (Explosion Prevention) - DOC29/ExCS-,SANS 868,,ACTIVE
+C124,25,,electrical,"Compression-ignition engine systems and machines powered by such engine systems, for use in mine and plants with explosive gas atmospheres or both. Part 1-2: Hazardous location in underground mines- explosion Protected engine system",,IAF 19: Electrical and Optical Equipment (Explosion Prevention),SANS 868-1-2: 2022,,ACTIVE
+C124,26,,electrical,"Compression-ignition engine systems and machines powered by such engines systems, for use in mine and plants with explosive gas atmospheres or both. Part 1-3: Hazardous location in underground mines- machines",,IAF 19: Electrical and Optical Equipment (Explosion Prevention),SANS 868-1-3: 2024,,ACTIVE
+C124,27,,electrical,"Compression-ignition engine systems and machines powered by such engine systems, for use in mines and plants with explosive gas atmospheres or both. Part 4: Non -hazardous locations in underground mines",,IAF 19: Electrical and Optical Equipment (Explosion Prevention),SANS 868-1-4: 2022,,ACTIVE
+C124,28,,electrical,DC-powered (battery-operated) machines for use in,,IAF 19: Electrical and Optical Equipment (Explosion Prevention) - Product Certification Agreement Type 5,SANS 1654: 2018,,ACTIVE
+C124,29,,electrical,Hazardous locations in mines,,IAF 19: Electrical and Optical Equipment (Explosion Prevention) - DOC29/ExCS-,SANS 1654,,ACTIVE
+C124,30,,electrical,Induction motor Part: 1: IEC requirements,,IAF 19: Electrical and Optical Equipment (Non-EX Related) - Product Certification Agreement Type 5,SANS 1804-1: 2012,,ACTIVE
+C124,31,,electrical,SANS 1804,,IAF 19: Electrical and Optical Equipment (Non-EX Related) - DOC29/ExCS-,SANS 1804,,ACTIVE
+C124,32,,electrical,Induction motor Part: 2: Low voltage Three phase standard motors,,IAF 19: Electrical and Optical Equipment (Non-EX Related) - Type 5,SANS 1804-2: 2012,,ACTIVE
+C124,33,,electrical,Induction motor Part: 4: Single phase induction motors,,IAF 19: Electrical and Optical Equipment (Non-EX Related),SANS 1804-4: 2012,,ACTIVE
+C124,34,,electrical,Mechanical cable glands,,IAF 19: Electrical and Optical Equipment (Non-EX Related) - Product Certification Agreement Type 5,SANS 1213: 2023,,ACTIVE
+C124,35,,electrical,SANS 1213,,IAF 19: Electrical and Optical Equipment (Non-EX Related) - DOC29/ExCS-,SANS 1213,,ACTIVE
+C124,36,,electrical,"Earth rods, couplers and connections",,IAF 19: Electrical and Optical Equipment (Non-EX Related) - Product Certification Agreement Type 5,SANS 1063: 2020,,ACTIVE
+C124,37,,electrical,SANS1063,,IAF 19: Electrical and Optical Equipment (Non-EX Related) - DOC29/ExCS-,SANS1063,,ACTIVE
+C124,38,,electrical,Cable glands for electrical installations,,IAF 19: Electrical and Optical Equipment (Non-EX Related) - Product Certification Agreement Type 5,SANS/IEC 62444: 2011,IEC 62444,ACTIVE
+C124,39,,electrical,SANS 62444,,IAF 19: Electrical and Optical Equipment (Non-EX Related) - DOC29/ExCS-,SANS 62444,,ACTIVE
+C124,40,,electrical,The rewinding and refurbishing of rotating electrical,,IAF 19: Electrical and Optical Equipment (Non-EX Related) - Product Certification Agreement Type 5,SANS 10242-1: 2024,,ACTIVE
+C124,41,,electrical,"Machines, Part 1: Low motors",,IAF 19: Electrical and Optical Equipment (Non-EX Related) - DOC29/ExCS-,SANS 10242,,ACTIVE
+C124,42,,electrical,Degrees of protection provided by enclosures. (IP Code),,IAF 19: Electrical and Optical Equipment (Non-EX Related) - Product Certification Agreement Type 5,SANS/IEC 60529: 2013,IEC 60529,ACTIVE
+C124,43,,electrical,SANS 60529,,IAF 19: Electrical and Optical Equipment (Non-EX Related) - DOC29/ExCS-,SANS 60529,,ACTIVE
+C124,44,,electrical,Luminaires Part 1: General requirements and tests,,IAF 19: Electrical and Optical Equipment (Non-EX Related) - Product Certification Agreement Type 5,SANS/IEC 60598-1: 2021,IEC 60598-1,ACTIVE
+C124,45,,electrical,Luminaires Part 2-1: Particular requirements-fixed general purpose luminaires,,IAF 19: Electrical and Optical Equipment (Non-EX Related) - DOC29/ExCS-,SANS 60598; SANS/IEC 60598-2-1: 2020,IEC 60598-2-1,ACTIVE
+C124,46,,electrical,Luminaires Part 2-2: Particular requirements -Recessed luminaires,,IAF 19: Electrical and Optical Equipment (Non-EX Related),SANS/IEC 60598-2-2: 2013,IEC 60598-2-2,ACTIVE
+C124,47,,electrical,Luminaires Part 2-3: Particular requirements- Luminaires For road and street lighting,,IAF 19: Electrical and Optical Equipment (Non-EX Related),SANS/IEC 60598-2-3: 2013,IEC 60598-2-3,ACTIVE
+C124,48,,electrical,Luminaires Part 2-4: Particular requirements-Portable General-purpose luminaires,,IAF 19: Electrical and Optical Equipment (Non-EX Related),SANS/IEC 60598-2-4: 2020,IEC 60598-2-4,ACTIVE
+C124,49,,electrical,Luminaires Part 2-5: Particular requirements -Flood lights,,IAF 19: Electrical and Optical Equipment (Non-EX Related),SANS/IEC 60598-2-5: 2016,IEC 60598-2-5,ACTIVE
+C124,50,,electrical,Safety of luminaires: Part 22: Luminaires for,,IAF 19: Electrical and Optical Equipment (Non-EX Related) - Product Certification Agreement Type 5,SANS 1464-22: 2016,,ACTIVE
+C124,51,,electrical,emergency lighting,,IAF 19: Electrical and Optical Equipment (Non-EX Related) - DOC29/ExCS-,SANS 1464,,ACTIVE
+C124,52,,electrical,Rotating electrical machines Part 1: Rating and performance SANSIEC 60034-2-1: 2014 Rotating electrical machines Part 2-1: Standard method for determining losses and efficiency from tests (excluding traction vehicles),,IAF 19: Electrical and Optical Equipment (Non-EX Related),SANS/IEC 60034-1:2023,IEC 60034-1,ACTIVE
+C124,53,,electrical,"Rotating electrical machines Part 23: Repair, overhaul & reclamation.",,IAF 19: Electrical and Optical Equipment (Non-EX Related),SANS/IEC 60034-23:2021,IEC 60034-23,ACTIVE
+C124,54,,electrical,- Rotating electrical machines Part 30-1: Efficiency classes 1:2014 of line operated AC motors (IE code),,IAF 19: Electrical and Optical Equipment (Non-EX Related),SANS/IEC 60034-30,IEC 60034-30,ACTIVE
+C124,55,,electrical,"Secondary cells and batteries containing alkaline or other non-acid electrolytes- Safety requirements for secondary lithium cells and batteries, for use in industrial applications",,IAF 19: Electrical and Optical Equipment (Non-EX Related),SANS/IEC 62619:2022,IEC 62619,ACTIVE
+C124,56,,electrical,Electrical accessories – Cord sets and interconnection Agreement DOC29/ExCS- cord sets CORDSETS,,IAF 19: Electrical and Optical Equipment (Non-EX Related) - ExCs Product Certification,SANS/IEC 60799:2023,IEC 60799,ACTIVE
+C124,57,,electrical,Polyvinyl chloride insulated cables of rated voltages up to and including 450/750 V Part 2: Test methods,,IAF 19: Electrical and Optical Equipment (Non-EX Related),SANS/IEC 60227-5:2022,IEC 60227-5,ACTIVE
+C124,58,,electrical,Cord extension sets and cable reels ExCs Product Certification S A N S 1507-2:2018 Electric cables with extruded solid dieletric insulation for Agreement DOC29/EXCS- fixed installations (300/500 V to 1 900/3 300 V) Part 2:,,IAF 19: Electrical and Optical Equipment (Non-EX Related),SANS 1661:2025,,ACTIVE
+C124,59,,electrical,Wiring cables,,IAF 19: Electrical and Optical Equipment (Non-EX Related),SANS1507,,ACTIVE
+C124,60,,electrical,Electric flexible cables with solid extruded dieletric Agreement DOC29/ExCS insulation Part 3: PVC-insulated cables for industrial use,,IAF 19: Electrical and Optical Equipment (Non-EX Related) - ExCS Product Certification,SANS 1574-3:2018,,ACTIVE
+C124,61,,electrical,SANS1574,,IAF 19: Electrical and Optical Equipment (Non-EX Related),SANS1574,,ACTIVE
+C124,62,,electrical,Electric flexible cables with solid extruded dieletric insulation Part 4: Rubber-insulated cables for domestic and similar environments (cords),,IAF 19: Electrical and Optical Equipment (Non-EX Related),SANS 1574-4:2018,,ACTIVE
+C126,1,GLOBALG.A.P. IFA,,Global G.A.P Normative Global G.A.P Normative Documents: Standard/Scope Documents: Certification Principles and Criteria (V6) Scheme/General Regulations Global G.A.P Integrated Farm Assurance (IFA) v6 GLOBALG.A.P. General IFA Smart Principles and Criteria Fruit Standard Regulations Version 6 and Vegetables Scopes: Plants Smart & GFS edition Includes Smart & GFS Edition IFA GFS Principles and Criteria Fruits Option 1 and Vegetables,,,,,ACTIVE
+C133,1,GLOBALG.A.P. IFA,,GLOBALG.A.P. Normative Document: GLOBALG.A.P. Normative Document: STANDARD/SCOPE Certification Scheme / General Standard/ Applicable Principles and Regulations Criteria (V6) GLOBALG.A.P. Integrated Farm Assurance GLOBALG.A.P. General Regulations IFA Smart Principles and Criteria Fruit and (IFA) v6 Standard - Smart Version 6 (Includes Smart edition) Vegetables Plant Scope Options 1,,,,,ACTIVE
+C25,1,,metals,"Wooden poles, droppers, guardrail posts and spacer blocks",,Wood and Wood Products - addendum 5 Type 5,SANS 457-3 2019 Ed. 8.00,,ACTIVE
+C25,2,,construction,Wooden doors,,Wood and Wood Products - addendum 11,SANS 545 2018 Ed 3.6,,ACTIVE
+C25,3,,wood_paper,"Eucalyptus poles, cross-arms and spacers",,Wood and Wood Products - addendum 5,SANS 754 2015 Ed 5.1,,ACTIVE
+C25,4,,wood_paper,Plywood and composite board,,Wood and Wood Products - addendum 75,SANS 929 2024 Ed 3,,ACTIVE
+C25,5,,wood_paper,Preservative treated timber,,Wood and Wood Products - addendum 4,SANS 1288 2020 Ed 4,,ACTIVE
+C25,6,,wood_paper,Wooden scaffold timber,,Wood and Wood Products - addendum 7,SANS 1396 2019 Ed 2,,ACTIVE
+C25,7,,wood_paper,Laminated timber,,Wood and Wood Products - addendum 7,SANS 1460 2014 Ed 1.5,,ACTIVE
+C25,8,,wood_paper,Sawn softwood timber,,Wood and Wood Products - addendum 3,SANS 1783 2013 Ed 1.6,,ACTIVE
+C25,9,,construction,Monoplanar prefabricated timber roof trusses,,Wood and Wood Products - addendum 6,SANS 1900 2009 Ed 1.2,,ACTIVE
+C25,10,,wood_paper,Wooden safety matches,,Wood and Wood Products - addendum 34,SANS 1148 2008 Ed 1.01,,ACTIVE
+C25,11,,wood_paper,The manufacture of finger-joint structural timber,,Wood and Wood Products - addendum 2,SANS 10096 2013 Ed 2.7,,ACTIVE
+C25,12,,metals,Hot dip galvanised coatings on fabricated iron/steel articles specifications and test methods,,Fabricated Metal Products - addendum 8,SANS 121,,ACTIVE
+C25,13,,health,Outlet sockets and probes for medical (gas and vacuum) service used in hospital,,Fabricated Metal Products - addendum 37,SANS 1409 2014 Ed 1.5,,ACTIVE
+C25,14,,metals,"Gully tops for vehicular and pedestrian areas-design requirements, type testing, marking, quality control",,Fabricated Metal Products - addendum 122,SANS 50124 1994 Ed 1,,ACTIVE
+C25,15,,professional,Guardrails (w-section),,Fabricated Metal Products - addendum 15,SANS 1350 2023 Ed 1.3,,ACTIVE
+C25,16,,metals,Copper-based fittings for copper tubes Part 1: Compression fittings,,Fabricated Metal Products - addendum 39,SANS 1067-1 2005 Ed 2.1,,ACTIVE
+C25,17,,metals,Water taps (metallic bodies),,Fabricated Metal Products - addendum 40,SANS 226 2016 Ed 5.3,,ACTIVE
+C25,18,,metals,Single control mixer taps,,Fabricated Metal Products - addendum 44,SANS 1480 2005 Ed 1.2,,ACTIVE
+C25,19,,metals,Water supply and distribution system components Part 5: Flexible connectors,,Fabricated Metal Products - addendum 43,SANS 1808-5 2010 Ed 1.3,,ACTIVE
+C25,20,,machinery,Ball valves Part 3: Light duty valves (not fire-safe),,Fabricated Metal Products - addendum 42,SANS 1056-3 2016 Ed 2.5,,ACTIVE
+C25,21,,machinery,Servicing valves for domestic terminal water fittings or appliances,,Fabricated Metal Products - addendum 47,SANS 1750 2017 Ed 1,,ACTIVE
+C25,22,,metals,Steel wire and wire products – non- ferrous metallic coatings on steel wire Part 2 Zinc and zinc alloy coatings,,Hot Dip Galvanized Steel Wire - addendum 21,SANS 10244-2 2011 Ed 2,,ACTIVE
+C25,23,,metals,Zinc coated fencing wire,,Hot Dip Galvanized Steel Wire - addendum 19,SANS 675 2011 Ed 3.3,,ACTIVE
+C25,24,,rubber_plastics,Plastic piping systems- Polyethylene pipes and fittings for water supply Part 2: Pipes,,Rubber and Plastic Products - addendum 14,SANS 4427-2 2008 Ed 1,,ACTIVE
+C25,25,,rubber_plastics,Modified poly (vinyl chloride) (PVC-U) pressure pipe and couplings for cold water services in underground mining,,Rubber and Plastic Products,SANS 1283 2013 Ed.1.06,,ACTIVE
+C25,26,,rubber_plastics,Unplasticized poly (vinyl chloride) (PVC- U) sewer and drainpipe sand pipe fittings,,Rubber and Plastic Products,SANS 791 2014 Ed.5.04,,ACTIVE
+C25,27,,rubber_plastics,"Unplasticized poly (vinyl chloride) (PVC- U) soil, waste and vent pipes and pipe fittings",,Rubber and Plastic Products,SANS 967 2021 Ed. 3.1,,ACTIVE
+C25,28,,rubber_plastics,Components of pressure pipes systems part 1: unplasticized poly (vinyl chloride) (PVC- U) pressure pipe system,,Rubber and Plastic Products,SANS 966-1 2019 Ed 3.8,,ACTIVE
+C25,29,,rubber_plastics,Components of pressure pipe systems part 2: Modified Poly (vinyl chloride) PVC-M) pressure pipe systems,,Rubber and Plastic Products,SANS 966-2 2013 Ed.1.7,,ACTIVE
+C25,30,,rubber_plastics,Pipes and joints made of orientated unplasticized poly vinyl chloride (PVC-O) for conveyance of water under pressure- specifications,,Rubber and Plastic Products,SANS 16422 2016 Ed 2,,ACTIVE
+C25,31,,rubber_plastics,Flexible poly (vinyl chloride) (PVC) pressure hose,,Rubber and Plastic Products,SANS 1086 2015 Ed 1.2,,ACTIVE
+C25,32,,rubber_plastics,Elastomeric seals – Material requirements for pipe joints Seals used in water and drainage applications Part 1: Vulcanized rubber,,Rubber and Plastic Products,SANS 50681 1996 Ed 1,,ACTIVE
+C25,33,,rubber_plastics,Plastics piping systems for hot and cold water installations – Polypropylene (PP),,Rubber and Plastic Products,"SANS 15874-1,2,3 and 5 2011 Ed 1",,ACTIVE
+C25,34,,rubber_plastics,Plastic piping systems for the supply at gaseous fuels- Polyethylene (PE) Part 2: Pipes,,Rubber and Plastic Products,SANS 4437-2 2014 Ed 1,,ACTIVE
+C25,35,,metals,Steel pipes Part 1 – Pipes suitable for threading and of nominal sizes not exceeding,,Steel Tube Specifications - addendum 16.1,SANS 62-1 2013 Ed 3.3,,ACTIVE
+C25,36,,metals,Light gauge welded steel pipes,,Steel Tube Specifications - addendum 32,SANS 1182 2013 Ed 1.4,,ACTIVE
+C25,37,,metals,"Steel pipes for non- pressure purposes Part 1 – Sections for scaffolding, general engineering and structural applications",,Steel Tube Specifications - addendum 17,SANS 657-1 2011 Ed 3.3,,ACTIVE
+C25,38,,metals,Steel pipes for non- pressure purposes Part 3 – Steel tubes for rolls of conveyer belts ilders,,Steel Tube Specifications - addendum 18,SANS 657-3 2015 Ed 2.1,,ACTIVE
+C25,39,,electrical,Electric welded low carbon steel pipes for aqueous fluids (large bores),,Steel Tube Specifications - addendum 28,SANS 719 2024 Ed 3.3,,ACTIVE
+C25,40,,metals,"Shoulder-ended and groove ended pipe systems Part 1 – Shoulder-ended steel pipes, fittings and couplings",,Steel Tube Specifications - addendum 29,SANS 815-1 2012 Ed 1.3,,ACTIVE
+C25,41,,metals,"Shoulder-ended and groove ended pipe systems Part 2 – Shoulder-ended steel pipes, fittings and couplings",,Steel Tube Specifications,SANS 815-2 2020 Ed 1,,ACTIVE
+C31,1,GLOBALG.A.P. Chain of Custody,,Global G.A.P. Normative GLOBALG.A.P. Documents: Standard Normative Document: APPLICABLE CONTROL Standard/Scope Sub-scope Certification POINTS And COMPLIANCE Scheme/General CRITERIA CPCC (V5); Regulation Principles and Criteria (v6) Global G.A.P Integrated Farm Assurance N/A GLOBALG.A.P. IFA Smart Principles and Criteria (IFA) v6 Standard General Regulations Fruit and Vegetables Scopes: Plants Smart and GFS edition Version 6 (Includes Smart Options 1 & 2 And GFS edition) IFA GFS Smart Principles and Criteria Fruit and Vegetables IFA Smart Principles and Criteria Flowers and Ornamentals GLOBAL G.A.P. Integrated Farm Fruit and Vegetables GLOBALG.A.P. IFA Control Points and Assurance (IFA) v5 Standard Combinable Crops General Regulations Compliance Scope: Crops Base Version 5 Criteria Version 5.4-1-GFS. & 5.2 GLOBAL G.A.P. Chain of Custody (CoC) N/A GLOBAL G.A.P. Chain of GLOBALG.A.P. CoC control (Only Option 1) Custody Standard General points and compliance criteria Regulation CoC Version 6 (CPCCs) Version 6.1,,,,,ACTIVE
+C49,1,GLOBALG.A.P. IFA,,GLOBALG.A.P. Normative GLOBALG.A.P. Normative Document: Standard/ GLOBALG.A. P. Standard/Scopes Document: Certification Principles and Criteria (v6) Scheme/ General Regulations Kenya Flower Council Certification GLOBALG.A.P. General Approved benchmarked checklist Scheme Quality System Regulation v 6 Flowers & Ornamentals Regulations - Flowers and Sustainability Standard - Gold & Ornamentals Sustainability Silver Audit Checklist - Version April 2024 Standard (FOSS) April 2024 Silver certificate Gold certificate Option3 Option 4 GLOBALG.A. P Integrated Farm GLOBALG.A.P. General IFA Smart Principles and Flowers Assurance (IFA) v6 Standard Regulation v6 and Ornamentals Scopes: Plants Smart (Includes Smart),,,,,ACTIVE
+C59f,1,,construction,T h e p r o d u ction of reconditioned fire-fighting following schemes: Equipment equipment Mark scheme agreement for,,Service of Fire- Fighting Type 3,SANS 1475-1:2025,,ACTIVE
+C59f,2,,metals,& Part 1: Portable and wheeled (mobile) rechargeable,,,SANS 1475-1:2025,,ACTIVE
+C59f,3,,other_manufacturing,fire extinguishers,,,SANS 1475-2:2024,,ACTIVE
+C59f,4,,other_manufacturing,Portable refillable fire extinguisher,,,SANS 1910:2022; SANS 1910:2022,,ACTIVE
+C59f,5,,other_manufacturing,Portable rechargeable fire extinguishers-CO2 type extinguisher,,,SANS 1567:2022; SANS 1567:2022,,ACTIVE
+C59f,6,,construction,The production of reconditioned fire-fighting equipment Part 2: Fire hose reels and hydrants,,SACASC -001(a) Rev 1,SANS 1475-2:2024,,ACTIVE
+C59f,7,,construction,Precast concrete suspended slabs Cement slabs and columns Mark scheme agreement for,,Manufacturing of precasted Type 5,SANS 1879:2013,,ACTIVE
+C59f,8,,other_manufacturing,SACASC -001(d) Rev 0 (approved 2018-02-10 Manufacturing of firehose reels,,,SANS 1879:2013,,ACTIVE
+C59f,9,,other_manufacturing,Firehose reels (with semi-ridged hose) Mark scheme agreement for,,With semi ridget hose Type 3,SANS 543:2023,,ACTIVE
+C59f,10,,other_manufacturing,", SACASC 001, SACASC-001(b) Rev 0 (approved 2019-01-20)",,,SANS 543:2023,,ACTIVE
+C70,1,GLOBALG.A.P. IFA,,GLOBALG.A.P. Normative GLOBALG.A.P. Normative Document: Standard/ STANDARDS/SCOPE Document: Certification Applicable Control Points and Compliance Criteria Scheme / General Regulations CPCC (v5); Principles and Criteria v6) GLOBALG.A.P. Integrated Farm GLOBALG.A.P. General Regulations • IFA Smart Principles and Criteria Fruit and Assurance v6 Standard Scopes: Version 6 (Includes Smart and GFS Vegetables Plants Smart and GFS edition edition) • IFA GFS Principles and Criteria Fruit and Vegetable • IFA Smart Principles and Criteria Flowers and Ornamentals,,,,,ACTIVE
+C75,1,,machinery,Concrete non-pressure pipes Certification Agreement for Product Type 5 Certification PROC (C/P) 4 Rev 4,,,SANS 677:2023,,ACTIVE
+C75,2,,construction,Pre-cast reinforced concrete culverts,,,SANS 986:2019,,ACTIVE
+C75,3,,construction,Pre-cast concrete manhole sections and components,,,SANS 1294:2020,,ACTIVE
+C75,4,,construction,Concrete retaining blocks,,,SANS 508:2020,,ACTIVE
+C75,5,,construction,Concrete paving blocks,,,SANS 1058:2021,,ACTIVE
+C75,6,,construction,Concrete Masonry units,,,SANS 1215:2008,,ACTIVE
+C75,7,,construction,"Pre-cast concrete kerbs, edgings and channels",,,SANS 927:2022,,ACTIVE
+C75,8,,construction,Concrete roofing tiles,,,SANS 542:2020,,ACTIVE
+C75,9,,machinery,"Reinforced concrete, pressure pipes",,,SANS 676:2020,,ACTIVE
+C75,10,,construction,Cement: Part 1 - Composition specifications and conformity criteria for common cement,,,SANS 50197-1:2013,,ACTIVE
+C75,11,,construction,Cement: Part 2 – Conformity evaluation,,,SANS 50197-2:2017,,ACTIVE
+C75,12,,construction,"Mansory cement: Part 1 - Composition, specifications and conditions for Certifications and conformity criteria",,,SANS 50413-1:2014,,ACTIVE
+C78,1,,professional,"Wooden poles, droppers, and guardrails post Part 2: (QP 13) Softwood species",,Wood and Wood Products Type 5,SANS 457-2,,ACTIVE
+C78,2,,metals,"Wooden poles, droppers, guardrail posts and spacer blocks",,,SANS 457-3,,ACTIVE
+C78,3,,wood_paper,"Eucalyptus poles, cross-arms and spacers",,,SANS 754,,ACTIVE
+C78,4,,other_manufacturing,Preservative treated timber,,Type 5,SANS 1288,,ACTIVE
+C78,5,,construction,Sawn softwood timber Part 1: General requirements Part 2: Stress-graded structural timber and timber for frame wall construction Part 4: Brandering and battens,,,"SANS 1783-1,2 & 4",,ACTIVE
+C78,6,GLOBALG.A.P. IFA,,The manufacture of finger-jointed structural timber Normative Document: Documents: Certification Standard/Applicable Principles Scheme/General and Criteria (v6) Regulations General Permit Conditions G L O B A L G.A. P. Integrated N/A GLOBALG.A.P. IFA Smart Principles and (QP13gg) Farm Assurance (IFA) v6 General Regulations Criteria Fruit and Vegetables Standard Scopes: Plants Version 6 IFA GFS Principles and Smart and GFS edition (Includes Smart and GFS Criteria – Fruit and Vegetables Option 1 edition) Produce Handling Assurance N/A Produce Handling PHA Control Points and Standard (PHA) Assurance Standard Compliance Criteria (Only Option 1) (PHA) Version 1.2 General Regulations Version 1.2-1,,Type 5,SANS 10096,,ACTIVE
+C80,1,,chemicals,The safety of water treatment chemicals for use in,,IAF 12: Chemicals and chemical products - Specific Certificate Conditions Type 5,SANS 1827:2017,,ACTIVE
+C80,2,,chemicals,", F38 (f) the food industry",,IAF 12: Chemicals and chemical products,SANS 1827,,ACTIVE
+C80,3,,chemicals,Cleaning chemicals for use in the food industry,,IAF 12: Chemicals and chemical products - Specific Certificate Conditions Type 5,SANS 1828:2024,,ACTIVE
+C80,4,,chemicals,", F38 (f)",,IAF 12: Chemicals and chemical products,SANS 1828,,ACTIVE
+C80,5,,chemicals,"Disinfectants, detergent-disinfectants and antiseptics for",,IAF 12: Chemicals and chemical products - Specific Certificate Conditions Type 5,SANS 1853:2020,,ACTIVE
+C80,6,,chemicals,", F38 (f) use in the food industry drainage Specific Certificate Conditions and sewage under pressure-Polyethylene (PE) Part 2:",,IAF 12: Chemicals and chemical products,SANS 1853,,ACTIVE
+C80,7,,rubber_plastics,pipes,,IAF 14: Rubber and plastics Type 5 SANS 4427-2:2023 Plastics piping systems for water supply and for,SANS 4427,,ACTIVE
+C80,8,,construction,Composition specifications and conformity criteria for common cement,,"IAF 16: Concrete, Cement, Lime Plaster, etc - Type 5",SANS 50197-1:2013,,ACTIVE
+C80,9,,construction,Conformity evaluation,,"IAF 16: Concrete, Cement, Lime Plaster, etc",SANS 50197-2:2017,,ACTIVE
+C80,10,,construction,Portland-composite cement CEM II/C-M and composite Cement CEM VI,,"IAF 16: Concrete, Cement, Lime Plaster, etc",SANS 50197-5:2023,,ACTIVE
+C80,11,,construction,"Mansory cement, Part 1: Composition, specifications Conditions for Certifications and conformity criteria Services F28 Rev 1 (01/02/2019)",,"IAF 16: Concrete, Cement, Lime Plaster, etc - SABPS (Pty) Ltd General",SANS 50413-1:2014,,ACTIVE
+C80,12,,construction,"Fly ash for concrete, Part 1: Definition specification and conformity criteria",,"IAF 16: Concrete, Cement, Lime Plaster, etc",SANS 50450-1:2014,,ACTIVE
+C80,13,,construction,Fly ash concrete Part 2: Conformity evaluation,,"IAF 16: Concrete, Cement, Lime Plaster, etc",SANS 50450-2:2011,,ACTIVE
+C80,14,,construction,Concrete paving blocks,,"IAF 16: Concrete, Cement, Lime Plaster, etc",SANS 1058:2021,,ACTIVE
+C80,15,,construction,C o n c r e t e M a s o nry Units,,"IAF 16: Concrete, Cement, Lime Plaster, etc",SANS 1215:2008,,ACTIVE
+C80,16,,health,Copper tubes for medical gas and vacuum services,,IAF 17: Basic Metals & Fabricated Metal Products - Specific Certificate Conditions,SANS 1453:2018,,ACTIVE
+C80,17,,metals,F38 (f),,IAF 17: Basic Metals & Fabricated Metal Products,SANS 1453,,ACTIVE
+C80,18,,health,Outlet sockets for medical (gas & vacuum) services used,,IAF 17: Basic Metals & Fabricated Metal Products - Specific Certificate Conditions,SANS 1409:2014,,ACTIVE
+C80,19,,health,F38 (f) in hospitals,,IAF 17: Basic Metals & Fabricated Metal Products,SANS 1409,,ACTIVE
+C83,1,,electrical,Permitted explosives Non-Ex Rev 1,,IAF 2: Mining and Quarrying - SM-P-CRN Certification Requirements Type 5,SANS 1484:2007,,ACTIVE
+C83,2,,electrical,The design of detonator initiation systems for use in mining and civil blasting applications Part 1: Electronic initiation systems,,IAF 2: Mining and Quarrying,SANS 1717-1:2023,,ACTIVE
+C83,3,,electrical,The design and approval of detonator initiation systems for use in mining and civil blasting applications Part 2: Electric initiation system - Shot exploder based.,,IAF 2: Mining and Quarrying,SANS 1717-2:2023,,ACTIVE
+C83,4,,other_manufacturing,The design and approval of detonator initiation systems for use in mining and civil blasting applications Part 3: Controlled blasting systems,,IAF 2: Mining and Quarrying,SANS 1717-3:2023,,ACTIVE
+C83,5,,rubber_plastics,Conveyor Belting - Textile reinforced solid woven Non-Ex Rev 1 carcass construction,,IAF 14: Rubber and Plastics Product - MS-P-CRN Certification Requirement Type 5,SANS 968:2013,,ACTIVE
+C83,6,,rubber_plastics,Conveyor Belting - Methods of testing fire retardant properties of all conveyor belting constructions,,IAF 14: Rubber and Plastics Product,SANS 971:2013,,ACTIVE
+C83,7,,rubber_plastics,Conveyor Belting - General Purpose textile- reinforced construction,,IAF 14: Rubber and Plastics Product,SANS 1173:2024,,ACTIVE
+C83,8,,textiles,Conveyor belting - Steel cord reinforced construction,,IAF 14: Rubber and Plastics Product,SANS 1366:2013,,ACTIVE
+C83,9,,electrical,Cable glands for use on flameproof enclosures (Exd),,IAF 14: Rubber and Plastics Product,SANS 808:2013,,ACTIVE
+C83,10,,electrical,Mechanical cable glands metal products methods and limits for use MS_DOC_014 Rev 1,,IAF 14: Rubber and Plastics Product,SANS 1213:2013,,ACTIVE
+C83,11,,metals,Conveyor belt idlers Part 1: Troughed belt conveyor idlers (metallic and non-metallic) for idler roller rotational speeds of up to 750 revolutions per minute,,"IAF 17: Basic metals and fabricated Type 5 ISO 16852:2016 Flame arresters - Performance requirements, test",SANS 1313-1:2012,ISO 16852,ACTIVE
+C83,12,,metals,Conveyor belt idlers Part 2: Link suspended idlers and fixed form suspended idlers (metallic and non- metallic) for idler rotational speeds of up to 750 revolutions per minute,,"IAF 17: Basic metals and fabricated Type 5 ISO 16852:2016 Flame arresters - Performance requirements, test",SANS 1313-2:2012,ISO 16852,ACTIVE
+C83,13,,metals,"Conveyor belt idlers Part 3: Performance specifications for troughed belt conveyor idlers (metallic and non-metallic) for idler roller rotational speeds of up to 750 revolutions per minute MS_DOC_014 Rev 1 powered by such engine systems, for use in mines MS-P-CRR Rev 1 and plants with explosive gas atmospheres or MS-P-CRN Rev 1 explosive dust atmospheres of both Part 1-1: Hazardous locations in underground mine - Basic explosion protected engines",,"IAF 17: Basic metals and fabricated Type 5 ISO 16852:2016 Flame arresters - Performance requirements, test",SANS 1313-3:2013,ISO 16852,ACTIVE
+C83,14,,machinery,"Compression-ignition engine systems and machines powered by such engine systems, for use in mines and plants with explosive gas atmospheres or explosive dust atmospheres of both Part 1-2: Hazardous locations in underground mines - Explosion protected engine systems",,IAF 18: Machinery and Equipment Type 5 SANS 868-1-1:2024 Compression-ignition engine systems and machines,SANS 868-1-2:2022,,ACTIVE
+C83,15,,machinery,"Compression-ignition engine systems and machines powered by such engine systems, for use in mines and plants with explosive gas atmospheres or explosive dust atmospheres of both Part 1-3: Hazardous locations in underground mines - Machines",,IAF 18: Machinery and Equipment Type 5 SANS 868-1-1:2024 Compression-ignition engine systems and machines,SANS 868-1-3:2024,,ACTIVE
+C83,16,,machinery,"The requirements for braking systems of underground trackless mobile machines Part 1: Design, performance and testing requirements",,IAF 18: Machinery and Equipment Type 5 SANS 868-1-1:2024 Compression-ignition engine systems and machines,SANS 1589-1:2022,,ACTIVE
+C83,17,,machinery,The requirements for braking systems of underground trackless mobile machines Part 2: In service brake testing of underground trackless mobile machines and trailer combinations,,IAF 18: Machinery and Equipment Type 5 SANS 868-1-1:2024 Compression-ignition engine systems and machines,SANS 1589-2:2022,,ACTIVE
+C83,18,,machinery,The requirements for braking systems of underground trackless mobile machines Part 3: In- service brake testing (trailers excluded),,IAF 18: Machinery and Equipment Type 5 SANS 868-1-1:2024 Compression-ignition engine systems and machines,SANS 1589-3:2022,,ACTIVE
+C83,19,,machinery,The braking performance of trackless mobile mining machines Part 5: Self-propelled machines using hydrostatic drive systems,,IAF 18: Machinery and Equipment Type 5 SANS 868-1-1:2024 Compression-ignition engine systems and machines,SANS 1589-5:2012,,ACTIVE
+C83,20,,transport_equipment,The braking performance of trackless mobile mining machines Part 6: Self-propelled road-going vehicles modified for mining use,,IAF 18: Machinery and Equipment Type 5 SANS 868-1-1:2024 Compression-ignition engine systems and machines,SANS 1589-6:2012,,ACTIVE
+C83,21,,machinery,The braking performance of trackless mobile mining machines Part 7: Tractor and tractor-towed trailers,,IAF 18: Machinery and Equipment Type 5 SANS 868-1-1:2024 Compression-ignition engine systems and machines,SANS 1589-7:2012,,ACTIVE
+C83,22,,electrical,Explosive atmospheres Part 0 – General,,IAF 19: Electrical and Optical Equipment - MS-P-CR Certification Requirement Type 5 SANS/,IEC 60079-0:2019,IEC 60079-0,ACTIVE
+C83,23,,electrical,) Requirements,,IAF 19: Electrical and Optical Equipment - Rev 3 (,IEC 80079-34,IEC 80079-34,ACTIVE
+C83,24,,electrical,Explosive atmospheres Part 1 – Equipment protection by flameproof enclosures “d”,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-1:2015,IEC 60079-1,ACTIVE
+C83,25,IECEx Certified Equipment Scheme,,Explosive atmospheres Part 2 – Equipment Repairs Rev1(IECEx OD 314-5/315-5) protection by pressurized enclosures “p”,,IAF 19: Electrical and Optical Equipment - MS-P-CRR Certification Requirement Type 5,SANS/IEC 60079-2:2015,IEC 60079-2,ACTIVE
+C83,26,,electrical,Explosive atmospheres Part 5 – Equipment protection by powder filling “q”,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-5:2023,IEC 60079-5,ACTIVE
+C83,27,,electrical,Explosive atmospheres Part 7 – Equipment Requirement Non-Ex Rev1 protection by increased safety “e”,,IAF 19: Electrical and Optical Equipment - SM-P-CRN-Certification Type 5 SANS/,IEC 60079-7:2023,IEC 60079-7,ACTIVE
+C83,28,,electrical,- Explosive atmospheres Part 10-1: – Classification of 1:2023 areas – Explosive gas atmospheres,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-10,IEC 60079-10,ACTIVE
+C83,29,,energy,- Explosive atmospheres Part 10-2: Classification of 2:2018 areas - Combustible dust atmospheres,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-10,IEC 60079-10,ACTIVE
+C83,30,,electrical,Explosive atmospheres Part 11 – Equipment protection by intrinsic safety “i”,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-11:2024,IEC 60079-11,ACTIVE
+C83,31,,electrical,"Explosive atmospheres Part 14: Electrical installations design, selection and erection",,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-14:2014,IEC 60079-14,ACTIVE
+C83,32,,electrical,Explosive atmospheres Part 15: Equipment repair Overhaul and reclamation,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-15:2022,IEC 60079-15,ACTIVE
+C83,33,,electrical,Electrical apparatus for explosive gas atmospheres Part 16: Artificial ventilation for the protection of analyser(s) houses,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-16:1990,IEC 60079-16,ACTIVE
+C83,34,,electrical,Explosive atmospheres Part 17: Electrical installations inspection and maintenance,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-17:2014,IEC 60079-17,ACTIVE
+C83,35,,electrical,Explosive atmospheres Part 18 – Equipment protection by increased safety “m”,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-18:2022,IEC 60079-18,ACTIVE
+C83,36,,electrical,Explosive atmospheres Part 19: Equipment repair. Overhaul and reclamation,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-19:2021,IEC 60079-19,ACTIVE
+C83,37,,electrical,Explosive atmospheres Part 25: Intrinsically safe,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-25:2021,IEC 60079-25,ACTIVE
+C83,38,,electrical,Explosive atmospheres Part 26: Equipment with separation Elements or combined Levels of protection,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-26:2022,IEC 60079-26,ACTIVE
+C83,39,,electrical,Explosive atmospheres Part 28: Protection of equipment and transmission systems using optical radiation,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-28:2016,IEC 60079-28,ACTIVE
+C83,40,,electrical,- Explosive atmospheres Part 29-1: Gas detectors - 1:2022 performance requirements of a detectors for flammable gases,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-29,IEC 60079-29,ACTIVE
+C83,41,,electrical,"- Explosive atmospheres Part 29-2: Gas detectors - 2:2017 selection, installation, use and maintenance for flammable gases and oxygen",,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-29,IEC 60079-29,ACTIVE
+C83,42,,electrical,- Explosive atmospheres Part 30-1: Electrical resistance 1:2023 trace heating - General and testing requirements,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-30,IEC 60079-30,ACTIVE
+C83,43,,electrical,Explosive atmospheres Part 31 – Equipment dust ignition protection by enclosure “t”,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-31:2023,IEC 60079-31,ACTIVE
+C83,44,,electrical,Explosive atmospheres Part 33 – Equipment protection by special protection “s”,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-33:2023,IEC 60079-33,ACTIVE
+C83,45,,electrical,- Explosive atmospheres Part 35-1: Caplights for use in 1:2013 mines susceptible to firedamp-General requirements- construction and testing in relation to the risk of explosion,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-35,IEC 60079-35,ACTIVE
+C83,46,,electrical,- Explosive atmospheres Part 35-2: Caplights for use in 2:2013 mines susceptible to firedamp-Performance and other safety-related matters,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-35,IEC 60079-35,ACTIVE
+C83,47,,electrical,Explosive atmospheres Part 46: Equipment assemblies,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60079-46:2017,IEC 60079-46,ACTIVE
+C83,48,,electrical,: Explosive atmospheres Part 36: Non-electrical 2016 equipment explosive atmospheres-Basic method and requirements,,IAF 19: Electrical and Optical Equipment - SANS/,ISO/IEC 80079-36,ISO/IEC 80079-36,ACTIVE
+C83,49,,electrical,: Explosive atmospheres Part 37: Non-electrical 2016 equipment explosive atmospheres-non-electrical type of protection constructional safety “c” control of ignition source “b” liquid immersion “k”,,IAF 19: Electrical and Optical Equipment - SANS/,ISO/IEC 80079-37,ISO/IEC 80079-37,ACTIVE
+C83,50,IECEx Certified Equipment Scheme,,"Explosive atmospheres Part 34: Application of Quality Management System for Ex Product Manufacture. IECEx OD 315-5/315-5 Quality Management System Requirements for IECEx Service facilities involved in the repair, overhaul, and reclamation of Ex equipment",,IAF 19: Electrical and Optical Equipment,ISO/IEC 80079-34:2018,ISO/IEC 80079-34,ACTIVE
+C83,51,,electrical,Degrees of protection provided by enclosures (IP Code),,IAF 19: Electrical and Optical Equipment,SANS 60529:2013,,ACTIVE
+C83,52,,electrical,Portable light assemblies for underground use in mines,,IAF 19: Electrical and Optical Equipment,SANS 1438:2018,,ACTIVE
+C83,53,,electrical,"Gas measuring equipment for use in mines Part 1: Battery-operated portable, flammable gas measuring instruments and warning devices",,IAF 19: Electrical and Optical Equipment,SANS 1515-1:2020,,ACTIVE
+C83,54,,electrical,"Gas measuring equipment for use in mines Part 2: Fixed, transportable and vehicle-mounted flammable gas measuring and warning sensor heads and instruments.",,IAF 19: Electrical and Optical Equipment,SANS 1515-2:2022,,ACTIVE
+C83,55,,electrical,"The installation, inspection and maintenance of equipment used in explosive atmospheres Part 1: Installations including surface installations on mines",,IAF 19: Electrical and Optical Equipment,SANS 10086-1:2023,,ACTIVE
+C83,56,,electrical,"The installation, inspection and maintenance of equipment used in explosive atmospheres Part 2: Electrical equipment installed underground in mines",,IAF 19: Electrical and Optical Equipment,SANS 10086-2:2013,,ACTIVE
+C83,57,,electrical,"The installation, inspection and maintenance of equipment used in explosive atmospheres Part 3: Repair and overhaul of equipment",,IAF 19: Electrical and Optical Equipment,SANS 10086-3:2018,,ACTIVE
+C83,58,,electrical,The classification of hazardous locations and the selection of equipment for use in such locations.,,IAF 19: Electrical and Optical Equipment,SANS 10108:2023,,ACTIVE
+C83,59,,electrical,Power-operated dispensing devices for flammable liquid fuels,,IAF 19: Electrical and Optical Equipment,SANS 10120,,ACTIVE
+C83,60,,electrical,Rotating electrical machines Part 1: Rating and performance,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60034-1:2023,IEC 60034-1,ACTIVE
+C83,61,,electrical,Rotating electrical machines Part 2-1: Standard method for determining losses and efficiency from tests (excluding machines for traction vehicles),,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60034-2-1:2014,IEC 60034-2-1,ACTIVE
+C83,62,,electrical,Rotating electrical machines Part 5: Degrees of protection provided by the integral design of rotating electrical machines (IP code) - Classification,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60034-5:2022,IEC 60034-5,ACTIVE
+C83,63,,electrical,Rotating electrical Machines Part 23: Repair Overhaul and reclamation,,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60034-23 :2021,IEC 60034-23,ACTIVE
+C83,64,,electrical,- Rotating electrical machines Part 30-1: Efficiency 1:2014 classes of line operated AC motors (IE code),,IAF 19: Electrical and Optical Equipment - SANS/,IEC 60034-30,IEC 60034-30,ACTIVE
+C83,65,,electrical,The rewinding and refurbishing of rotating electrical Requirement Non-Ex Rev 1 machines Part 1: Low-voltage three-phase induction motors,,IAF 19: Electrical and Optical Equipment - SM-P-CRN- Certification Type 5,SANS 10242-1:2017,,ACTIVE
+C83,66,,electrical,Induction motors Part 1: IEC requirements,,IAF 19: Electrical and Optical Equipment,SANS 1804-1:2012,,ACTIVE
+C83,67,,electrical,Induction motors Part 2: Low-voltage three-phase standard motor,,IAF 19: Electrical and Optical Equipment,SANS 1804-2:2012,,ACTIVE
+C83,68,,electrical,Plug socket outlet and coupler for industrial purposes- Part 2: Dimensional interchangeability requirements for pin and contact-tube accessories,,IAF 19: Electrical and Optical Equipment,SANS 1239:2004,,ACTIVE
+C83,69,,electrical,Plug socket outlets and couplets for industrial purposes- Part 1: General requirements,,IAF 19: Electrical and Optical Equipment,SANS/IEC 60309-1:2022,IEC 60309-1,ACTIVE
+C83,70,,electrical,Plug socket outlet and couplets for industrial purposes- Part 2: Dimensional interchangeability requirements for pin and contact-tube accessories,,IAF 19: Electrical and Optical Equipment,SANS/IEC 60309-2:2022,IEC 60309-2,ACTIVE
+C83,71,,electrical,Electrical connectors in group I and II hazardous areas – Part 1: General requirements for group I hazardous areas,,IAF 19: Electrical and Optical Equipment,SANS 1489-1:2016,,ACTIVE
+C83,72,,electrical,Electrical connectors in group I and II hazardous areas – part 2: restrained type plug and sockets for group I hazardous areas,,IAF 19: Electrical and Optical Equipment,SANS 1489-2:2023,,ACTIVE
+C83,73,,electrical,Electrical connectors in group I and II hazardous areas Part 3: Bolted type plugs and sockets for group I hazardous areas,,IAF 19: Electrical and Optical Equipment,SANS 1489-3:2023,,ACTIVE
+C83,74,,electrical,Electrical connectors in group I and group II hazardous areas Part 4: Medium voltage couplers and adaptors for group I hazardous areas,,IAF 19: Electrical and Optical Equipment,SANS 1489-4:2022,,ACTIVE
+C83,75,,electrical,Flexible electric trailing cables for use in mines Part 1: Cables with operating voltages of 640/1 100V and1 900/3 300 V,,IAF 19: Electrical and Optical Equipment,SANS 1520-1:2022,,ACTIVE
+C83,76,,electrical,"Flexible electric trailing cables for use in mines Part 2: Cables with operating voltage of 3,8/6, 6kV to 19/33kV",,IAF 19: Electrical and Optical Equipment,SANS 1520-2:2017,,ACTIVE
+C83,77,,electrical,"Luminaires for interior lighting, streetlighting and floodlighting - Performance requirements",,IAF 19: Electrical and Optical Equipment,SANS 475:2022,,ACTIVE
+C83,78,,electrical,Luminaires Part 1: General requirements and tests,,IAF 19: Electrical and Optical Equipment,SANS 60598-1:2021,,ACTIVE
+C83,79,,electrical,Luminaires Part 2: Particular requirements section 1: fixed general purpose luminaires,,IAF 19: Electrical and Optical Equipment,SANS 60598-2-1:2020,,ACTIVE
+C83,80,,electrical,Luminaires Part 2-2: Particular requirements – Recessed luminaires,,IAF 19: Electrical and Optical Equipment,SANS 60598-2-2:2013,,ACTIVE
+C83,81,,electrical,Luminaires Part 2-3: Particular requirements - Luminaires for road and street lighting,,IAF 19: Electrical and Optical Equipment,SANS 60598-2-3:2013,,ACTIVE
+C83,82,,electrical,Luminaires Part 2-5: Particular requirements - floodlights,,IAF 19: Electrical and Optical Equipment,SANS 60598-2-5:2016,,ACTIVE
+C83,83,,electrical,Safety of luminaires Part 22: Luminaires for emergency lighting,,IAF 19: Electrical and Optical Equipment,SANS 1464-22:2024,,ACTIVE
+C84,1,,rubber_plastics,Pipes and joints made of oriented unplasticized (RP 001.53) poly (vinyl chloride) (PVC-O) for the conveyance of water under pressure- specification,,Rubber and Plastics Product Type 5,SANS 16422:2016,,ACTIVE
+C84,2,,rubber_plastics,"Plastics piping systems for hot and cold water installations - Polypropylene (PP)Part:1 General, Part 2: Pipes, Part 3: Fittings, Part 5: Fitness of purpose of the system",,(RP 001.16),"SANS 15874-1,2,3 & 5: 2021",,ACTIVE
+C84,3,,rubber_plastics,"Plastics piping systems for hot and cold water installations – Crosslinked Polyethylene (PE-X) Part 1: General, Part 2: Pipes",,(RP 001.03),"SANS 15875-1, 2 ,3 & 5:2004",,ACTIVE
+C84,4,,rubber_plastics,", & 5:2005 Plastics piping systems for hot and cold water installations – Polybutylene (PB)Part 1: General, Part 2: Pipes, Part 3: Fittings, Part 5: Fitness of purpose of the system",,(RP 001.18),"SANS 15876-1, 2,3",,ACTIVE
+C84,5,,construction,"Multilayer piping systems for hot and cold water installations inside buildings Part 1: General, Part 2: Pipes, Part 3: Fittings Part 5: Fitness of purpose of the system",,(RP 001.71),"SANS 21003-1,2,3 & 5:2008",,ACTIVE
+C84,6,,rubber_plastics,Plastics piping systems for soil and waste discharge (low and high temperature) inside buildings- polyethylene (PE),,(RP 001.87),SANS 8770:2008,,ACTIVE
+C84,7,,rubber_plastics,Plastic piping systems-polyethylene (PE) pipes and,,(RP 001.36),SANS 4427-1:2023,,ACTIVE
+C84,8,,other_manufacturing,fittings for water supply Part 1: General,,,ISO 4427-1:2019,ISO 4427-1,ACTIVE
+C84,9,,rubber_plastics,"Plastic piping systems for water supply, and for",,(RP 001.01),SANS 4427-2:2023,,ACTIVE
+C84,10,,machinery,drainage and sewerage under pressure-polyethylene (PE)- Part 2: Pipes,,,ISO 4427-2:2019,ISO 4427-2,ACTIVE
+C84,11,,rubber_plastics,Plastics piping systems for water supply and for,,(RP 001.70),SANS 4427-3:2023,,ACTIVE
+C84,12,,machinery,drainage and sewerage under pressure polyethylene (PE) - Part 3: Fittings,,,ISO 4427-3:2019,ISO 4427-3,ACTIVE
+C84,13,,rubber_plastics,Plastic piping systems for the supply of gaseous fuels-,,(RP 001.37),SANS 4437-1:2024,,ACTIVE
+C84,14,,other_manufacturing,Polyethylene (PE)- Part 1: General,,,ISO 4437-1:2024,ISO 4437-1,ACTIVE
+C84,15,,rubber_plastics,Plastics piping systems – Mechanical fittings for pressure piping systems-specifications,,(RP 001.86),SANS 17885:2019,,ACTIVE
+C84,16,,rubber_plastics,Plastics piping systems for hot and cold water Installations Polyethylene of raised temperature Resistance (PE-RT): Part 1- General: Part 2- Pipes; Part 3 Fittings and Part 5 – Fitness for purpose of the system,,(RP 001.67),"SANS 22391-1,2,3& 5:2008",,ACTIVE
+C84,17,,rubber_plastics,"Plastics piping systems for hot and cold water Installations-chlorinated poly (vinyl chloride) (PVC-C) Part 1: General, Part 2: Pipes, Part 3: Fittings Part 5: Fitness for purpose of the system",,(RP 001.24),"SANS 15877-1,2,3 & 5",,ACTIVE
+C86,1,,machinery,Functional-control valves and safety valves for domestic Schedule to permit to apply hot and cold water supply systems,,Plumbing components Type 5,SANS 198:2022,,ACTIVE
+C86,2,,metals,Water taps (metallic bodies),,Certification mark general,SANS 226:2016,,ACTIVE
+C86,3,,rubber_plastics,Water taps (plastic bodies),,,SANS 1021:2007,,ACTIVE
+C86,4,,machinery,Float valves,,Permit conditions GPC,SANS 752:2009,,ACTIVE
+C86,5,,machinery,WC Flushing cisterns,,2017-08-01 schedule 3,SANS 821:2007,,ACTIVE
+C86,6,,machinery,Automatic shut-off valves for water closets and urinals,,,SANS 1240:2016,,ACTIVE
+C86,7,,other_manufacturing,Single control mixer taps,,,SANS 1480:2005,,ACTIVE
+C86,8,,other_manufacturing,Water supply and distribution system components Part 16: Drinking fountain taps,,,SANS 1808-16:2017,,ACTIVE
+C86,9,,machinery,Water supply and distribution system components Part 35 - Electronic operated taps and valves,,,SANS 1808-35:2018,,ACTIVE
+C86,10,,trade_logistics,Water supply and distribution systems components Part 53 – Drain cocks for hot-water storage containers,,,SANS 1808-53:2012,,ACTIVE
+C86,11,,other_manufacturing,Water supply and distribution systems components Part 66 - Demand type water,,,SANS 1808-66:2005,,ACTIVE
+C86,12,,other_manufacturing,Water supply and distribution systems components Part 5 – Flexible connectors,,,SANS 1808-5:2010,,ACTIVE
+C86,13,,machinery,Water supply and distribution systems components Part 9 – Metering taps and valves (metallic bodies),,,SANS 1808-9:2016,,ACTIVE
+C86,14,,other_manufacturing,Water supply and distribution system components Part 58- In-line strainers,,,SANS 1808-58:2010,,ACTIVE
+C86,15,,machinery,Servicing valves for domestic terminal water fittings or appliances,,,SANS 1750:2017,,ACTIVE
+C86,16,,construction,Copper based fitting for copper tubes Part:1 compression fitting,,,SANS 1067-1:2005,,ACTIVE
+C86,17,,other_manufacturing,Geyser drip trays,,,SANS 1848:2011,,ACTIVE
+C86,18,,machinery,Flush valves for WC flushing cisterns,,,SANS 1509:2017,,ACTIVE
+C86,19,,construction,Glazed ceramic sanitaryware,,,SANS 497:2011,,ACTIVE
+C86,20,,metals,The design and construction of sectional steel tanks for storage of liquids at or above ground level,,,SANS 10329:2020,,ACTIVE
+C89a,1,,metals,The production of reconditioned fire-fighting equipment (PP 1032 Revision 6) Part 1: Portable and wheeled (mobile) rechargeable fire extinguishers,,Fire-Fighting Equipment Type 5,SANS 1475-1:2010,,ACTIVE
+C89a,2,,construction,The production of reconditioned fire-fighting equipment Part 2: Fire hosed reels and above-ground hydrants,,,SANS 1475-2:2010,,ACTIVE
+C89a,3,,other_manufacturing,Portable refillable fire extinguishers,,Fire Extinguishers Type 5,SANS 1910:2022,,ACTIVE
+C89a,4,,other_manufacturing,Portable rechargeable fire extinguishers-C02 type extinguishers Fire Hose Reels,,(PP PP503 Revision 17),SANS 1567:2022,,ACTIVE
+C89a,5,,other_manufacturing,Fire hose reels,,PP534 Rev 9,SANS 543:2019,,ACTIVE
+C89a,6,,other_manufacturing,Gaseous fire-extinguishing systems-physical properties system and system design Part 1: General requirements,,Gaseous fire-extinguishing Type 5,SANS 14520-1:2019,,ACTIVE
+C89a,7,,other_manufacturing,Gaseous fire-extinguishing systems-physical properties and system design Part 9: HFC 277ea extinguishant,,(PP 652 Revision 16),SANS 14520-9:2019,,ACTIVE
+C89a,8,,other_manufacturing,Gaseous fire-extinguishing systems-physical properties and system design Part 14: IG-55 extinguishant,,,SANS 14520-14:2019,,ACTIVE
+C89a,9,,other_manufacturing,Gaseous fire-extinguishing systems-physical properties and system design Part 15: IG-541 extinguishant,,,SANS 14520-15:2019,,ACTIVE
+C89a,10,,construction,"Fire Design, installation and servicing detection and Evacuation alert, Fire alarm systems for buildings-System (Gaseous), Suppression systems & Kitchen fire Protection systems installations (PP 652 Revision 16)",,"Fire detection, Fire alarm Type 5",SANS 10139-1:2021,,ACTIVE
